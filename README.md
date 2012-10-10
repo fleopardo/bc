@@ -1,6 +1,6 @@
-bc
+Proyecto ypf-tecnopolis.
 ==
 
-Proyecto ypf-tecnopolis.
-
--Hay 2 index: index.html (sin playlist) e index-playlist.html (con playlist)
+-Hay 2 index:
+	- index.html (sin playlist)
+	- index-playlist.html (con playlist)
