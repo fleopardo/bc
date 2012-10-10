@@ -1,0 +1,81 @@
+.jcarousel-container {
+}
+
+.jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-container-horizontal {
+	width: 560px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.jcarousel-container-vertical {
+}
+
+.jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-clip-horizontal {
+	background: url("../images/fd_playlist-items.png");
+}
+
+.jcarousel-clip-vertical {
+}
+
+.jcarousel-item {
+	width: 82px;
+	margin-right: 13px;
+}
+
+.jcarousel-item, .jcarousel-item img, .jcarousel-item a{
+	border: none;
+	outline: none;
+}
+
+.jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 13px;
+}
+
+.jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 13px;
+    margin-right: 0;
+}
+
+ .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+ .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+/*
+ .jcarousel-prev-horizontal,
+ .jcarousel-next-horizontal{
+  	position: absolute;
+  	z-index:100;
+  	cursor: pointer;
+	width: 7px;
+	height: 13px;
+	top: 10px;
+}
+
+
+.jcarousel-prev-horizontal{
+	left: -25px;
+	background-position: 0 0;
+}
+
+.jcarousel-next-horizontal{
+	right: -20px;
+	background-position: -10px 0;
+}
+*/

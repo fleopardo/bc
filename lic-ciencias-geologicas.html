@@ -1,0 +1,81 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<title>YPF: tecnopolis</title>
+	<meta charset="utf-8" />
+
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="./css/global.css" />
+</head>
+
+<body id="universidades" class="internas">
+	<section class="clearfix">
+
+		<div class="columnaIzquierda">
+			<h1><span>2.</span> ¿En qué Universidades puedo estudiarla?</h1>
+			<h2>Filtrar búsquedas por:</h2>
+			<ul id="filtros">
+				<li><a href="#int">Universidades del Interior</a></li>
+				<li><a href="#bsas">Universidades de Cap. Fed. y Gran Buenos Aires</a></li>
+			</ul>
+
+			<p class="sumate">Sumate a la aventura, Sumate a YPF.</p>
+
+		</div>
+
+		<div class="columnaDerecha">
+			<nav>
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./carreras.html">1. Carreras</a></li>
+					<li><a href="./lic-ciencias-geologicas.html" class="active">2. Universidades</a></li>
+					<li class="last"><a href="./testimonios-lic-ciencias-geologicas.html">3. Testimonios</a></li>
+				</ul>
+			</nav>
+
+			<div class="content">
+				<h2><a href="./testimonios-lic-ciencias-geologicas.html">Ver testimonios</a></h2>
+				<article>
+					<ul>
+						<li data-filtro="bsas">UBA <a href="http://www.gl.fcen.uba.ar/index.html" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de Jujuy <a href="http://www.fi.unju.edu.ar" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de San Juan <a href="http://www.unsj.edu.ar/oferta_educativa_info.php?id_c=10" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de San Luis <a href="http://www.ingreso.unsl.edu.ar/carreras/fcfmyn/licgeologia.html" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional del Comahue <a href="http://www.uncoma.edu.ar" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional del Sur <a href="http://www.uns.edu.ar/carreras/" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="bsas">Universidad Nacional de La Plata <a href="http://www.unlp.edu.ar/articulo/2010/2/18/planes_de_estudio_ciencias_naturales_licenciatura_en_geologia" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de Tucumán <a href="http://www.csnat.unt.edu.ar/superior%20pagina%20academica/pagina%20carrera%20geologia/GEOLOGIA%20~%20Carreras%20(CsNat).htm?option=com_content&view=category&layout=blog&id=15&Itemid=214" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de Catamarca <a href="http://www.unca.edu.ar/pagina-85-geologia.html" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de La Pampa <a href="http://www.exactas.unlpam.edu.ar/academica/academica.htm" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">UNPSJB - Comodoro Rivadavia <a href="http://www.fcn.unp.edu.ar/" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de Rio Cuarto <a href="http://www.unrc.edu.ar/unrc/carreras/exa_lic_geologia.php" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de Córdoba <a href="http://www.unc.edu.ar/facultades/facultad-de-ciencias-exactas-fisicas-y-naturales/geologia-25197" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de Salta <a href="http://www.unsa.edu.ar/web/index.php?option=com_content&view=article&id=8&Itemid=23" target="_blank">Ver el sitio</a></li>
+					</ul>
+				</article>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="./JQuery/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="./JQuery/jquery.ez-bg-resize.js" type="text/javascript"></script>
+	<script src="./JScript/scripts.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function(){
+			ypf.general.setBackground();
+			ypf.universidades.filtrar();
+		});
+	</script>
+
+</body>
+
+</html>

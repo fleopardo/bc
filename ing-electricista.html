@@ -1,0 +1,87 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<title>YPF: tecnopolis</title>
+	<meta charset="utf-8" />
+
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="./css/global.css" />
+</head>
+
+<body id="universidades" class="internas">
+	<section class="clearfix">
+		
+		<div class="columnaIzquierda">
+			<h1><span>2.</span> ¿En qué Universidades puedo estudiarla?</h1>
+			<h2>Filtrar búsquedas por:</h2>
+			<ul id="filtros">
+				<li><a href="#int">Universidades del Interior</a></li>
+				<li><a href="#bsas">Universidades de Cap. Fed. y Gran Buenos Aires</a></li>
+			</ul>
+
+			<p class="sumate">Sumate a la aventura, Sumate a YPF.</p>
+
+		</div>
+
+		<div class="columnaDerecha">
+			<nav>
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./carreras.html">1. Carreras</a></li>
+					<li><a href="./ing-electricista.html" class="active">2. Universidades</a></li>
+					<li class="last"><a href="./testimonios-ing-electricista.html">3. Testimonios</a></li>
+				</ul>
+			</nav>
+
+			<div class="content">
+				<h2><a href="./testimonios-ing-electricista.html">Ver testimonios</a></h2>
+				<article>
+					<ul>
+						<li data-filtro="bsas">Universidad de Buenos Aires <a href="http://www.fi.uba.ar" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de Rio Cuarto <a href="http://www.unrc.edu.ar/unrc/carreras/ing_ingenieria_electricista.htm" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="bsas">Universidad Nacional de La Plata <a href="http://www.unlp.edu.ar/articulo/2008/5/19/gradouuaa" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de Tucumán <a href="http://www.herrera.unt.edu.ar/ingelectrica/" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional del Sur <a href="http://www.servicios.uns.edu.ar/institucion/deptos/rep_home.asp?cod_entidad=6" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="bsas">ITBA <a href="http://www.itba.edu.ar/" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">UTN - Rosario, Santa Fé <a href="http://www.utn.edu.ar/default.utn" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="bsas">UTN - Capital Federal <a href="http://www.utn.edu.ar/default.utn" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="bsas">UTN - Bahia Blanca <a href="http://www.utn.edu.ar/default.utn" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">UTN - Tucumán <a href="http://www.utn.edu.ar/default.utn" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">UTN - Entre Ríos <a href="http://www.utn.edu.ar/default.utn" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="bsas">UTN - Bs As <a href="http://www.utn.edu.ar/default.utn" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">UTN - Santa Fé <a href="http://www.utn.edu.ar/default.utn" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="bsas">UTN - La Plata <a href="http://www.utn.edu.ar/default.utn" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">UTN - Córdoba <a href="http://www.utn.edu.ar/default.utn" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional del Nordeste <a href="http://ing.unne.edu.ar" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional del Comahue <a href="http://www.uncoma.edu.ar/academica/sedes.html" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de Rosario <a href="http://www.fceia.unr.edu.ar" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="int">Universidad Nacional de San Juan <a href="http://www.unsj.edu.ar/oferta_educativa_info.php?id_c=29" target="_blank">Ver el sitio</a></li>
+						<li data-filtro="bsas">Universidad Nacional de Mar del Plata <a href="http://www.fi.mdp.edu.ar/index.php?option=com_content&view=article&id=30%3Aplan-de-estudios&catid=57&Itemid=85&lang=es" target="_blank">Ver el sitio</a></li>
+					</ul>
+				</article>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="./JQuery/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="./JQuery/jquery.ez-bg-resize.js" type="text/javascript"></script>
+	<script src="./JScript/scripts.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function(){
+			ypf.general.setBackground();
+			ypf.universidades.filtrar();
+		});
+	</script>
+
+</body>
+
+</html>

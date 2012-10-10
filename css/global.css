@@ -1,0 +1,478 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+
+http://html5doctor.com/html-5-reset-stylesheet/
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,images,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none;outline:0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}li{list-style:none}strong{font-weight:bold}
+
+
+/*CLEARFIX*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+
+.DN{display:none;}
+
+
+@font-face {
+font-family: "din-regular";
+src: url("../fonts/din-regular.eot");
+src: local("?"),
+url("../fonts/din-regular.woff") format("woff"),
+url("../fonts/din-regular.ttf") format("truetype"),
+url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
+}
+
+@font-face {
+font-family: "dincond-regular"; /**/
+src: url("../fonts/dincond-regular.eot");
+src: local("?"),
+url("../fonts/dincond-regular.woff") format("woff"),
+url("../fonts/dincond-regular.ttf") format("truetype"),
+url("../fonts/dincond-regular.svg#blaimim_-webfont") format("svg");
+}
+
+@font-face {
+font-family: "dincond-bold";
+src: url("../fonts/dincond-bold.eot");
+src: local("?"),
+url("../fonts/dincond-bold.woff") format("woff"),
+url("../fonts/dincond-bold.ttf") format("truetype"),
+url("../fonts/dincond-bold.svg#blaimim_-webfont") format("svg");
+}
+
+body{
+    width: 960px;
+    margin:0 auto;
+    padding-top: 156px;
+    font-family: "dincond-regular";
+    background: url('../images/bg-main.gif') repeat-x center top #B5C0C6 fixed;
+}
+
+a{
+    color: #fff;
+    outline: none;
+}
+
+.columnaIzquierda{
+    width: 300px;
+    margin-right: 57px;
+    float: left;
+}
+
+.columnaIzquierda .sumate{
+    width: 290px;
+    height: 125px;
+    background: url("../images/sumate.png") no-repeat;
+    text-indent: -999px;
+    margin-top: 60px;
+}
+
+.columnaDerecha{
+    width: 600px;
+    float: right;
+}
+
+
+/* Navigation */
+
+.columnaDerecha nav li{
+    display: inline-block;
+    margin: 0 5px 40px 0;
+    padding: 0 20px 0 0;
+    background: url("../images/icons.png") no-repeat right -75px;
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.ie7 .columnaDerecha nav li{
+    display: inline;
+}
+
+.columnaDerecha nav li a.active{
+    font-family: "dincond-bold";
+}
+
+.columnaDerecha nav li a:hover{
+    color: #f15449;
+}
+
+.columnaDerecha nav li.last{
+    background: none;
+    padding-right: 0;
+}
+
+/* Home */
+
+#home section{
+    padding-bottom: 50px;
+}
+
+#home .columnaIzquierda li h2{
+    padding: 8px 22px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: normal;
+}
+
+#home .columnaIzquierda li a{
+    padding: 16px 22px;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+#home .columnaIzquierda li{
+    margin-bottom: 10px;
+}
+
+#home .columnaIzquierda li.estudiar h2,
+#home .columnaIzquierda li.estudiar a:hover{
+    background: #f15449;
+}
+
+#home .columnaIzquierda li.trabajar h2,
+#home .columnaIzquierda li.trabajar a:hover{
+    background: #0061c1;
+}
+
+#home .columnaIzquierda li a{
+    display: block;
+    background: url("../images/fd_transparente.png");
+}
+
+
+/* Estilos home sin playlist */
+#home .columnaDerecha video, #mediaplayer{
+    width: 536px;
+    height: 430px;
+}
+
+/* Estilos se pisan si hay playlists */
+.playlist video,
+.playlist #mediaplayer,
+.playlist .contentVideo,
+.playlist .containerVideoAndPlaylist,
+.playlist .videoDescripcion{
+	width: 591px;
+}
+
+.playlist video,
+.playlist #mediaplayer,
+.playlist #home .contentVideo{
+	height: 296px;
+}
+
+
+#home .containerVideoAndPlaylist{
+	background: url("../images/fd_transparente.png");
+	padding-bottom: 10px;
+}
+
+#home .contentVideo{
+	background: #000;
+	overflow: hidden;
+}
+
+#home .videoDescripcion{
+	color: #e3e3e3;
+	line-height: 20px;
+	padding: 5px 15px;
+	font-family: arial;
+	font-size: 11px;
+	font-weight: bold;
+}
+/* Fin Estilos se pisan si hay playlists */
+
+/* Pagina carreras y universidades Estilos compartidos */
+
+.internas .columnaIzquierda{
+    width: 395px;
+    margin-right: 5px;
+}
+
+.internas .columnaDerecha{
+    width: 560px;
+}
+
+.internas .columnaIzquierda h1{
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 31px;
+    letter-spacing: -1px;
+}
+
+.internas .columnaIzquierda h1 span{
+    font-size: 43px;
+}
+
+.internas .columnaIzquierda ul{
+    width: 310px;
+}
+
+.internas .columnaIzquierda li{
+    margin-left: 18px;
+    background: url("../images/icons.png") no-repeat right -70px;
+}
+
+.internas .columnaIzquierda li.active, .internas .columnaIzquierda li:hover{
+    background: url("../images/icons.png") no-repeat right -295px;
+}
+
+.internas .columnaIzquierda li a{
+    display: block;
+    padding: 5px 0 5px 20px;
+    background: url("../images/icons.png") no-repeat 0px -32px;
+    font-size: 19px;
+}
+
+.internas .columnaIzquierda li.active a,
+.internas .columnaIzquierda li a:hover{
+    color: #f15449;
+}
+
+, .internas .columnaIzquierda li.active a:hover{
+    background: url("../images/icons.png") no-repeat 0px -331px;
+}
+
+.internas .columnaIzquierda li a:hover,.internas .columnaIzquierda li.active a{
+    background: url("../images/icons.png") no-repeat 0px 9px;
+}
+
+.internas .columnaIzquierda .sumate{
+    margin-top: 90px;
+}
+
+.internas .columnaDerecha{
+    text-align: right;
+}
+
+.internas .columnaDerecha .content{
+    margin-left: 100px;
+    padding: 20px;
+    background: url("../images/fd_transparente_claro.png");
+    min-height: 600px;
+    padding-bottom: 50px;
+}
+
+.internas .columnaDerecha .content h2{
+    font-size: 22px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    background: url("../images/icons.png") no-repeat 0px -123px;
+    display: inline-block;
+}
+
+.ie7 .internas .columnaDerecha .content h2{
+    display: inline;
+}
+
+.internas .columnaDerecha .content h2 a{
+    color: #f15449;
+}
+
+.internas .columnaDerecha .content h2 a:hover{
+    color: #373737;
+}
+
+.internas .columnaDerecha article{
+    text-align: left;
+    font-family: "din-regular";
+    color: #333;
+}
+
+.internas .columnaDerecha article p{
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/* Universidades */
+
+#universidades .columnaIzquierda h2{
+    color: #fff;
+    margin: 40px 0 15px 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#universidades .columnaIzquierda ul{
+    width: 350px;
+}
+
+#universidades .columnaIzquierda li{
+    background: none;
+    margin-bottom: 5px;
+}
+
+#universidades .columnaIzquierda li a {
+    background-position: 0px -231px;
+    padding-left: 38px;
+}
+
+#universidades .columnaIzquierda li.active a, #universidades .columnaIzquierda li a:hover {
+    background-position: 0px -171px;
+}
+
+#universidades .columnaDerecha article{
+    font-family: "dincond-regular";
+    font-size: 18px;
+}
+
+#universidades .columnaDerecha article li{
+    margin-bottom: 18px;
+    position: relative;
+}
+
+#universidades .columnaDerecha article li a{
+    position: absolute;
+    right: 0px;
+    display: block;
+    background: url("../images/icons.png") no-repeat right -273px;
+    padding-right: 17px;
+    top: 0;
+    color: #333;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#universidades .columnaDerecha article li a:hover{
+    color: #f15449;
+}
+
+/* Testimonios */
+
+#testimonios .columnaIzquierda{
+    width: 280px;
+}
+
+#testimonios .columnaIzquierda p{
+    color: #fff;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+#testimonios .columnaIzquierda .sumate{
+    margin-top: 200px;
+}
+
+#testimonios .columnaDerecha{
+    width: 630px;
+}
+
+#testimonios .columnaDerecha .content{
+    margin-left: 9px;
+    padding: 0;
+    padding-bottom: 50px;
+    background: none;
+}
+
+#testimonios .columnaDerecha article li{
+    background: url("../images/fd_transparente_claro.png");
+    position: relative;
+    height: 497px;
+    min-height: 217px;
+    margin-bottom: 8px;
+    font-family: dincond-regular;
+    overflow: hidden;
+}
+
+/* CITA */
+
+#testimonios .columnaDerecha article li p{
+    margin-bottom: 0;
+    width: 251px;
+}
+
+#testimonios .columnaDerecha article li img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#testimonios .columnaDerecha article li img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#testimonios .columnaDerecha article li p.cita{
+    font-size: 19px;
+    line-height: 25px;
+    position: relative;
+    padding: 36px 30px 40px 30px;
+}
+
+#testimonios .columnaDerecha article li p.cita span{
+    position: absolute;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#testimonios .columnaDerecha article li p.cita span.left{
+    left: 5px;
+}
+
+#testimonios .columnaDerecha article li p.cita span.right{
+    margin-left: -5px;
+}
+
+#testimonios .columnaDerecha article li span.separator{
+    padding: 0 0 0 30px;
+    display: block;
+}
+
+#testimonios .columnaDerecha article li p.firma{
+    font-style: italic;
+    padding: 0 0 0 30px;
+}
+
+/* END CITA */
+
+/* CITA COMPLETA */
+
+#testimonios .citaCompleta{
+    position: absolute;
+    bottom:0;
+    top: 0;
+    left: 621px;
+    width: 561px;
+    padding: 30px;
+	background: url("../images/fd_transparente_testimonios.png") right top no-repeat;
+    color: #fff;
+    /*display: none;*/
+}
+
+#testimonios .columnaDerecha .citaCompleta p{
+    font-size: 18px;
+    width: auto;
+    line-height: 25px;
+    margin-bottom: 13px;
+}
+
+#testimonios .columnaDerecha .citaCompleta .separator,
+#testimonios .columnaDerecha .citaCompleta p.firma{
+    padding: 0;
+}
+
+#testimonios .columnaDerecha .citaCompleta p.firma{
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 0;
+}
+
+#testimonios .columnaDerecha article li p.firma strong,
+#testimonios .columnaDerecha .citaCompleta p.firma strong{
+    font-size: 14px;
+    font-family: "dincond-bold";
+    font-style: normal;
+}
