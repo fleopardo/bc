@@ -1,4 +1,6 @@
 bc
 ==
 
-Repositorio con proyectos de Bridger Conway
+Proyecto ypf-tecnopolis.
+
+-Hay 2 index: index.html (sin playlist) e index-playlist.html (con playlist)
