@@ -147,27 +147,19 @@ a{
 }
 
 
-/* Estilos home sin playlist */
-#home .columnaDerecha video, #mediaplayer{
-    width: 536px;
-    height: 430px;
-}
-
-/* Estilos se pisan si hay playlists */
-.playlist video,
-.playlist #mediaplayer,
-.playlist .contentVideo,
-.playlist .containerVideoAndPlaylist,
-.playlist .videoDescripcion{
+#home .columnaDerecha video,
+#mediaplayer,
+#home .contentVideo,
+#home .containerVideoAndPlaylist,
+#home .videoDescripcion{
 	width: 591px;
 }
 
-.playlist video,
-.playlist #mediaplayer,
-.playlist #home .contentVideo{
-	height: 296px;
+#home .columnaDerecha video,
+#mediaplayer,
+#home .contentVideo{
+		height: 296px;
 }
-
 
 #home .containerVideoAndPlaylist{
 	background: url("../images/fd_transparente.png");
@@ -187,7 +179,12 @@ a{
 	font-size: 11px;
 	font-weight: bold;
 }
-/* Fin Estilos se pisan si hay playlists */
+
+/* estilos home sin playlist */
+#home .columnaDerecha.sin-playlist video, #home .columnaDerecha.sin-playlist #mediaplayer{
+    width: 536px;
+    height: 430px;
+}
 
 /* Pagina carreras y universidades Estilos compartidos */
 
