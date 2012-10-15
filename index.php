@@ -48,9 +48,33 @@
 				<!-- Snippet para el slider con scroll -->
 				<div id="slider-principal" class="span 12 content">
 					<div class="images_container">
-						<img src="./img/home/slider/01.jpg">
-						<img src="./img/home/slider/01.jpg">
-						<img src="./img/home/slider/01.jpg">
+						<ul>
+							<li>
+								<div>
+									<h2>TALLERES COMUNITARIOS</h2>
+									<p>La Fundación YPF tiene un nuevo rumbo estratégico: educar para la energía.</p>
+									<p>El cambio de paradigma energético en el país necesita de una nueva generación de profesionales y el desarrollo de ciudadanía sustentable en las comunidades productivas.</p>
+								</div>
+								<img src="./img/home/slider/01.jpg">
+							</li>
+
+							<li>
+								<div>
+									<h2>TALLERES COMUNITARIOS</h2>
+									<p>La Fundación YPF tiene un nuevo rumbo estratégico: educar para la energía.</p>
+									<p>El cambio de paradigma energético en el país necesita de una nueva generación de profesionales y el desarrollo de ciudadanía sustentable en las comunidades productivas.</p>
+								</div>
+								<img src="./img/home/slider/01.jpg">
+							</li>
+
+							<li>
+								<div>
+									<h2>TALLERES COMUNITARIOS</h2>
+									<p>La Fundación YPF tiene un nuevo rumbo estratégico: educar para la energía.</p>
+									<p>El cambio de paradigma energético en el país necesita de una nueva generación de profesionales y el desarrollo de ciudadanía sustentable en las comunidades productivas.</p>
+								</div>
+								<img src="./img/home/slider/01.jpg">
+							</li>
 					</div>
 				</div>
 				<!-- End snippet -->

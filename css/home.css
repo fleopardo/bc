@@ -30,9 +30,19 @@ footer .social li a{
 	overflow:hidden;
 }
 
-.slider .content .images_container img{
+.slider .content .images_container li{
 	display:block;
 	float:left;
+	position: relative;
+}
+
+.slider .content .images_container li > div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 300px;
+	background: rgba(255,255,255,.9);
 }
 
 
@@ -183,8 +193,12 @@ footer .mainLinks .last{
 		height: 270px;
 	}
 
-	body{
-		padding-bottom: 65px;
+	article img{
+		height: 95px;
+	}
+
+	article .info{
+		padding: 10px 5px 5px 5px;
 	}
 
 }
