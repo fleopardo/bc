@@ -12,21 +12,21 @@
 }
 
 @font-face {
-	font-family: "dincond-regular"; /**/
-	src: url("../fonts/dincond-regular.eot");
+	font-family: "din-medium";
+	src: url("../fonts/din-medium.eot");
 	src: local("?"),
-	url("../fonts/dincond-regular.woff") format("woff"),
-	url("../fonts/dincond-regular.ttf") format("truetype"),
-	url("../fonts/dincond-regular.svg#blaimim_-webfont") format("svg");
+	url("../fonts/din-medium.woff") format("woff"),
+	url("../fonts/din-medium.ttf") format("truetype"),
+	url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
 }
 
 @font-face {
-	font-family: "dincond-bold";
-	src: url("../fonts/dincond-bold.eot");
+	font-family: "din-black";
+	src: url("../fonts/din-black.eot");
 	src: local("?"),
-	url("../fonts/dincond-bold.woff") format("woff"),
-	url("../fonts/dincond-bold.ttf") format("truetype"),
-	url("../fonts/dincond-bold.svg#blaimim_-webfont") format("svg");
+	url("../fonts/din-black.woff") format("woff"),
+	url("../fonts/din-black.ttf") format("truetype"),
+	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
 }
 
 /*
@@ -64,6 +64,7 @@ body{
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../galerias/home/foto01.jpg', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../galerias/home/foto01.jpg', sizingMethod='scale')";
 	padding-top: 10px;
+	padding-bottom: 100px;
 }
 
 .container-fluid{
@@ -95,6 +96,14 @@ body{
 	-moz-box-shadow: 0 1px 20px #888;
 	-webkit-box-shadow: 0 1px 20px #888;
 	box-shadow: 0 1px 20px #888;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+
+.menu-principal:hover{
+	padding: 20px 0;
 }
 
 .logo-ypf-comunidad{
@@ -113,7 +122,7 @@ body{
 	line-height: 52px;
 	font-size: 15px;
 	text-transform: uppercase;
-	font-family: "din-black","din-regular",arial;
+	font-family: "din-black",arial;
 	margin-right: 35px;
 }
 
@@ -121,5 +130,53 @@ body{
 	margin-right: 0;
 }
 
+.menu-principal nav li a{
+	text-decoration: none;
+}
 
+.menu-principal .fundacion:hover{
+	color: #00ADEE;
+}
 
+.menu-principal .educacion:hover{
+	color: #EB008B;
+}
+
+.menu-principal .comunidad:hover{
+	color: #F7AC00;
+}
+
+.menu-principal .publicaciones:hover{
+	color: #00A89C;
+}
+
+.menu-principal .novedades:hover{
+	color: #0077B9;
+}
+
+/*
+ * Boton Leer mas
+*/
+.leerMas{
+	font-family: "din-black",Arial,Helvetica;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 14px;
+	padding-left: 22px;
+	width: 45px;
+	display: block;
+	position: relative;
+}
+
+.leerMas span{
+	background: #363830;
+	padding: 0 5px;
+	color: white;
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 17px;
+	position: absolute;
+	left: 0;
+	top: 1px;
+}
