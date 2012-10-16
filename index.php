@@ -157,6 +157,7 @@
 
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/jquery-ui-1.8.min.js"></script>
+	<script src="./js/global.js"></script>
 	<script src="./js/home.js"></script>
 
 </body>
