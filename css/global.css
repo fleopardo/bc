@@ -1,0 +1,182 @@
+/*
+ * Fonts
+*/
+
+@font-face {
+	font-family: "din-regular";
+	src: url("../fonts/din-regular.eot");
+	src: local("?"),
+	url("../fonts/din-regular.woff") format("woff"),
+	url("../fonts/din-regular.ttf") format("truetype"),
+	url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
+}
+
+@font-face {
+	font-family: "din-medium";
+	src: url("../fonts/din-medium.eot");
+	src: local("?"),
+	url("../fonts/din-medium.woff") format("woff"),
+	url("../fonts/din-medium.ttf") format("truetype"),
+	url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
+}
+
+@font-face {
+	font-family: "din-black";
+	src: url("../fonts/din-black.eot");
+	src: local("?"),
+	url("../fonts/din-black.woff") format("woff"),
+	url("../fonts/din-black.ttf") format("truetype"),
+	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
+}
+
+/*
+ * End Fonts
+*/
+
+/*
+ * Clearfix
+*/
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * End Clearfix
+*/
+
+
+body{
+	font-family: "din-regular", arial, helvetica, sans-serif;
+	color: #373737;
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: cover;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../galerias/home/foto01.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../galerias/home/foto01.jpg', sizingMethod='scale')";
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+.container-fluid{
+	margin: 0 auto;
+	max-width: 940px;
+	min-width: 780px;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: inherit;
+}
+
+
+/*
+ * Menu
+*/
+.menu-principal{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #FFF;
+	padding: 20px 0;
+	z-index: 1000;
+	-moz-box-shadow: 0 1px 20px #888;
+	-webkit-box-shadow: 0 1px 20px #888;
+	box-shadow: 0 1px 20px #888;
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+
+.menu-principal:hover{
+	padding: 20px 0;
+}
+
+.logo-ypf-comunidad{
+	width: 111px;
+	height: 54px;
+	display: block;
+	background: url(../img/logo-ypf-comunidad.jpg) no-repeat;
+}
+
+.menu-principal nav{
+	display: inline-block;
+}
+
+.menu-principal nav li{
+	display: inline-block;
+	line-height: 52px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: "din-black",arial;
+	margin-right: 35px;
+}
+
+.menu-principal nav li.last{
+	margin-right: 0;
+}
+
+.menu-principal nav li a{
+	text-decoration: none;
+}
+
+.menu-principal .fundacion:hover{
+	color: #00ADEE;
+}
+
+.menu-principal .educacion:hover{
+	color: #EB008B;
+}
+
+.menu-principal .comunidad:hover{
+	color: #F7AC00;
+}
+
+.menu-principal .publicaciones:hover{
+	color: #00A89C;
+}
+
+.menu-principal .novedades:hover{
+	color: #0077B9;
+}
+
+/*
+ * Boton Leer mas
+*/
+.leerMas{
+	font-family: "din-black",Arial,Helvetica;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 14px;
+	padding-left: 22px;
+	width: 45px;
+	display: block;
+	position: relative;
+}
+
+.leerMas span{
+	background: #363830;
+	padding: 0 5px;
+	color: white;
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 17px;
+	position: absolute;
+	left: 0;
+	top: 1px;
+}
