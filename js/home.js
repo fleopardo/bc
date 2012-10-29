@@ -184,14 +184,4 @@
 
 	})();
 
-
-	/*
-	 * Expander el menu
-	*/
-	(function(){
-
-		//$(".menuPrincipal").removeClass("show");
-
-	})();
-
 })(window);
