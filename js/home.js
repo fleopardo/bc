@@ -111,6 +111,8 @@
     */
     (function(){
 
+    	var slider = document.getElementById("wrapperSlider");
+
 	    if( slider != null ){
 
 			slider.onselectstart = function(){return false;}
@@ -179,6 +181,16 @@
 			}
 
 		})
+
+	})();
+
+
+	/*
+	 * Expander el menu
+	*/
+	(function(){
+
+		$(".menuPrincipal").addClass("show");
 
 	})();
 

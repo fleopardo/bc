@@ -1,0 +1,50 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+.title{
+	font-family: "din-medium",Arial,Helvetica;
+	font-size: 20px;
+	line-height: 22px;
+	padding-bottom: 3px;
+	border-bottom: 6px solid #373737;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.title.secundario{
+	border-bottom: 2px solid #373737;
+	margin-bottom: 25px;
+}
+
+
+/*
+ * Staff
+*/
+
+.infoStaff article{
+	background: url("./assets/la-fundacion/bg-staff.png") no-repeat top right;
+	height: 418px;
+}
+
+.infoStaff article dl{
+	padding: 0 25px 25px 25px;
+}
+
+.infoStaff article dt{
+	font-size: 17px;
+	line-height: 19px;
+	margin: 30px 0 15px 0;
+	text-transform: uppercase;
+}
+
+.infoStaff article dd{
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.infoStaff article dd span{
+	font-family: "din-black",Arial,Helvetica;
+}

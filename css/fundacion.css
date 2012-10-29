@@ -1,0 +1,66 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+body{
+	background-color: #d4d4d4;
+	background-image: url("./assets/home/bg-home.jpg");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale')";
+}
+
+
+/*
+ * Header & Breadcrumb
+*/
+.header{
+	font-family: "din-black",Arial,Helvetica;
+	background: url("./assets/la-fundacion/header.png") left bottom no-repeat;
+	position: relative;
+	margin: 18px 0 12px 0;
+}
+
+.header h2{
+	font-size: 23px;
+	line-height: 23px;
+	color: #373737;
+	text-transform: lowercase;
+	position: relative;
+	top: 6px;
+}
+
+.header h3{
+	text-transform: uppercase;
+	color: #15b1ec;
+	font-size: 26px;
+	line-height: 45px;
+	letter-spacing: -1px;
+}
+
+.header .breadcrum{
+	position: absolute;
+	right: 10px;
+	bottom: 17px;
+}
+
+.header .breadcrum li{
+	display: inline-block;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-right: 8px;
+}
+
+.ie7 .header .breadcrum li{
+	display: inline;
+}
+
+.header .breadcrum li a{
+	color: #fff;
+}
+
+.header .breadcrum li a:hover,
+.header .breadcrum li a.active{
+	color: #a3a3a3;
+}

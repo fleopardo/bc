@@ -1,4 +1,12 @@
 /*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+
+/*
  * Fonts
 */
 
@@ -61,10 +69,8 @@ body{
 	background-position: top center;
 	background-attachment: fixed;
 	background-size: cover;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../galerias/home/foto01.jpg', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../galerias/home/foto01.jpg', sizingMethod='scale')";
-	padding-top: 10px;
-	padding-bottom: 100px;
+	padding-top: 27px;
+	padding-bottom: 130px; /* Para menu contraido */
 }
 
 .container-fluid{
@@ -83,89 +89,330 @@ body{
 
 
 /*
- * Menu
+ * Link ir a YPF.COM
 */
-.menu-principal{
+.ir-a-ypf{
 	position: fixed;
+	background: #fff;
+	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
-	background: #FFF;
-	padding: 20px 0;
+	height: 27px;
 	z-index: 1000;
-	-moz-box-shadow: 0 1px 20px #888;
-	-webkit-box-shadow: 0 1px 20px #888;
-	box-shadow: 0 1px 20px #888;
-	-webkit-transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-o-transition:all 0.3s ease-in-out;
-	transition:all 0.3s ease-in-out;
 }
 
-.menu-principal:hover{
-	padding: 20px 0;
+.ir-a-ypf p{
+	line-height: 27px;
+	font-size: 12px;
+	font-family: "din-black",arial;
+	text-align: right;
 }
+
+.ir-a-ypf a{
+	color: #373737;
+	display: inline-block;
+	padding-left: 15px;
+	margin-right: 10px;
+	background: url("./assets/ir-a-ypf.png") no-repeat 0px 10px;
+}
+
+.ir-a-ypf a:hover{
+	color: #0079c1;
+	display: inline-block;
+	padding-left: 15px;
+	margin-right: 10px;
+	background: url("./assets/ir-a-ypf.png") no-repeat 0px 10px;
+}
+
+.ie7 .ir-a-ypf a{
+	display: inline;
+}
+
+
+/*
+ * Menu
+*/
 
 .logo-ypf-comunidad{
 	width: 111px;
 	height: 54px;
 	display: block;
-	background: url(../img/logo-ypf-comunidad.jpg) no-repeat;
+	background: url("./assets/logo-ypf-comunidad.jpg") no-repeat;
+	position: absolute;
 }
 
-.menu-principal nav{
-	display: inline-block;
+.menuPrincipal{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 45px;
+	background: #FFF;
+	padding-top: 5px;
+	z-index: 1000;
+	-moz-box-shadow: 0 -4px 5px #bbb;
+	-webkit-box-shadow: 0 -4px 5px #bbb;
+	box-shadow: 0 -4px 5px #bbb;
 }
 
-.menu-principal nav li{
-	display: inline-block;
-	line-height: 52px;
+.menuPrincipal .container{
+	position: relative;
+}
+
+.menuPrincipal .open{
+	width: 28px;
+	height: 28px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: -32px;
+	background: #fff url("./assets/abrir-menu.png") no-repeat center center;
+	-moz-box-shadow: -1px -4px 5px #BBB;
+	-webkit-box-shadow: -1px -4px 5px #BBB;
+	box-shadow: -1px -4px 5px #BBB;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.menuPrincipal .col{
+	width: 136px;
+	float: left;
+	margin-right: 20px;
+}
+
+.menuPrincipal .col.last{
+	margin-right: 0px;
+}
+
+/*
+ * Links principales
+*/
+.menuPrincipal .col h3{
+	line-height: 45px;
 	font-size: 15px;
 	text-transform: uppercase;
 	font-family: "din-black",arial;
-	margin-right: 35px;
+	margin-bottom: 12px;
+	background: url("./assets/separador-menu.png") no-repeat right top;
 }
 
-.menu-principal nav li.last{
-	margin-right: 0;
+.menuPrincipal .col.last h3{
+	background: none;
 }
 
-.menu-principal nav li a{
+.menuPrincipal nav{
+	height: 50px;
+	overflow: hidden;
+	-webkit-transition: height .5s ease;
+    -moz-transition: height .5s ease;
+	transition: height .5s ease;
+}
+
+.menuPrincipal nav a{
 	text-decoration: none;
 }
 
-.menu-principal .fundacion:hover{
+.menuPrincipal .fundacion a:hover,
+.menuPrincipal .fundacion a.active,
+.menuPrincipal .fundacion h3.active{
 	color: #00ADEE;
 }
 
-.menu-principal .educacion:hover{
+.menuPrincipal .educacion a:hover,
+.menuPrincipal .educacion a.active,
+.menuPrincipal .educacion h3.active{
 	color: #EB008B;
 }
 
-.menu-principal .comunidad:hover{
+.menuPrincipal .comunidad a:hover,
+.menuPrincipal .comunidad a.active,
+.menuPrincipal .comunidad h3.active{
 	color: #F7AC00;
 }
 
-.menu-principal .publicaciones:hover{
+.menuPrincipal .publicaciones a:hover,
+.menuPrincipal .publicaciones a.active{
 	color: #00A89C;
 }
 
-.menu-principal .novedades:hover{
+.menuPrincipal .novedades a:hover,
+.menuPrincipal .novedades a.active{
 	color: #0077B9;
 }
 
 /*
+ * Submenu
+*/
+.menuPrincipal .col li{
+	margin-bottom: 5px;
+}
+
+.menuPrincipal .col li > a{
+	font-size: 11px;
+}
+
+
+/*
+ * Menu expandido
+*/
+.menuPrincipal.show nav{
+	height: 165px;
+}
+
+
+/*
+ * Footer
+*/
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 45px;
+	background: #fff;
+	z-index: 999;
+}
+
+/*
+ * Links principales
+*/
+
+footer .mainLinks {
+	margin-top: 15px;
+}
+
+footer .mainLinks li{
+	display: inline-block;
+	font-size: 10px;
+	margin-right: 8px;
+	padding-right: 8px;
+	border-right: 1px solid #6e6e6e;
+}
+
+.ie7 footer .mainLinks li{
+	display: inline;
+}
+
+footer .mainLinks li a{
+	color: #999;
+}
+
+footer .mainLinks li a:hover{
+	color: #000;
+}
+
+footer .mainLinks .last{
+	margin-right: 0;
+	padding-right: 0;
+	border-right: none;
+}
+
+/*
+ * Links sociales
+*/
+
+footer .social li{
+	float: left;
+	border-right: 1px solid #bebebe;
+}
+
+footer .social li a{
+	display: block;
+	width: 50px;
+	height: 45px;
+	background-image: url("./assets/sprite-social.png");
+	background-repeat: no-repeat;
+	-webkit-transition: background-position .3s ease;
+	-moz-transition: background-position .3s ease;
+	-o-transition: background-position .3s ease;
+	-ms-transition: background-position .3s ease;
+	transition: background-position .3s ease;
+}
+
+	.compartir{background-position: -203px 0px;}
+	.compartir:hover{background-position: -203px -45px;}
+
+	.facebook{background-position: -153px 0px;}
+	.facebook:hover{background-position: -153px -45px;}
+
+	.twitter{background-position: -102px 0px;}
+	.twitter:hover{background-position: -102px -45px;}
+
+	.youtube{background-position: -51px 0px;}
+	.youtube:hover{background-position: -51px -45px;}
+
+	.contacto{background-position: 0px 0px;}
+	.contacto:hover{background-position: 0px -45px;}
+
+
+/*
+ * Buscador
+*/
+
+footer .buscador{
+	margin-left: 0px;
+	margin-top: 6px;
+	position: relative;
+}
+
+footer .buscador input[type="text"]{
+	-moz-box-shadow: inset 0 0 6px #CCC;
+	-webkit-box-shadow: inset 0 0 6px #CCC;
+	box-shadow: inset 0 0 6px #CCC;
+	width: 170px;
+	padding: 9px 45px 9px 16px;
+	border: 1px solid #dfdfdf;
+	border-radius: 2px;
+	font-size: 11px;
+	outline: none;
+}
+
+footer .buscador input[type="submit"]{
+	width: 17px;
+	height: 17px;
+	display: block;
+	border: none;
+	border-left: 1px solid #333;
+	top: 7px;
+	right: -7px;
+	background: url("./assets/sprite-buscador.png") no-repeat top right;
+	position: absolute;
+	padding: 0 0 0 23px;
+}
+
+.ie7 footer .buscador input[type="submit"]{
+	border: none;
+}
+
+footer .buscador input[type="submit"]:hover{
+	background-position: bottom right;
+}
+
+
+/*
  * Boton Leer mas
 */
+
 .leerMas{
 	font-family: "din-black",Arial,Helvetica;
 	text-transform: uppercase;
 	font-size: 12px;
-	line-height: 14px;
+	line-height: 20px;
 	padding-left: 22px;
-	width: 45px;
-	display: block;
+	display: inline-block;
 	position: relative;
+}
+
+.leerMas:hover{
+	color:#f7ac00;
+}
+
+.ie7 .leerMas{
+	display: inline;
+}
+
+.leerMas.twoLines{
+	width: 35px;
+	line-height: 14px;
 }
 
 .leerMas span{
@@ -174,8 +421,8 @@ body{
 	color: white;
 	font-family: arial;
 	text-transform: uppercase;
-	font-size: 16px;
-	line-height: 17px;
+	font-size: 14px;
+	line-height: 16px;
 	position: absolute;
 	left: 0;
 	top: 1px;
