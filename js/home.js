@@ -190,7 +190,7 @@
 	*/
 	(function(){
 
-		$(".menuPrincipal").addClass("show");
+		//$(".menuPrincipal").removeClass("show");
 
 	})();
 
