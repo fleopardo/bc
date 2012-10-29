@@ -39,6 +39,7 @@ body{
 	position: relative;
 	height: 326px;
 	overflow: hidden;
+	width: 940px;
 }
 
 .slider-principal li > div{
