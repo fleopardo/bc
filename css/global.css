@@ -65,12 +65,12 @@
 
 body{
 	font-family: "din-regular", arial, helvetica, sans-serif;
-	color: #373737;
+	color: #333;
 	background-position: top center;
 	background-attachment: fixed;
 	background-size: cover;
 	padding-top: 27px;
-	padding-bottom: 130px; /* Para menu contraido */
+	padding-bottom: 140px; /* Para menu contraido */
 }
 
 .container-fluid{
@@ -109,7 +109,7 @@ body{
 }
 
 .ir-a-ypf a{
-	color: #373737;
+	color: #000;
 	display: inline-block;
 	padding-left: 15px;
 	margin-right: 10px;
@@ -149,9 +149,9 @@ body{
 	background: #FFF;
 	padding-top: 5px;
 	z-index: 1000;
-	-moz-box-shadow: 0 -4px 5px #bbb;
-	-webkit-box-shadow: 0 -4px 5px #bbb;
-	box-shadow: 0 -4px 5px #bbb;
+	-moz-box-shadow: 0 -4px 5px #999;
+	-webkit-box-shadow: 0 -4px 5px #999;
+	box-shadow: 0 -4px 5px #999;
 }
 
 .menuPrincipal .container{
@@ -159,18 +159,22 @@ body{
 }
 
 .menuPrincipal .open{
-	width: 28px;
+	width: 30px;
 	height: 28px;
 	display: block;
 	position: absolute;
 	right: 0;
 	top: -32px;
-	background: #fff url("./assets/abrir-menu.png") no-repeat center center;
-	-moz-box-shadow: -1px -4px 5px #BBB;
-	-webkit-box-shadow: -1px -4px 5px #BBB;
-	box-shadow: -1px -4px 5px #BBB;
+	background: #fff url("./assets/abrir-menu.png") no-repeat top left;
+	-moz-box-shadow: -1px -4px 5px #999;
+	-webkit-box-shadow: -1px -4px 5px #999;
+	box-shadow: -1px -4px 5px #999;
 	text-indent: -9999px;
 	cursor: pointer;
+}
+
+.menuPrincipal .open:hover{
+	background-position: bottom left;
 }
 
 .menuPrincipal .col{
@@ -193,6 +197,8 @@ body{
 	font-family: "din-black",arial;
 	margin-bottom: 12px;
 	background: url("./assets/separador-menu.png") no-repeat right top;
+	cursor: pointer;
+	color: #000;
 }
 
 .menuPrincipal .col.last h3{
@@ -209,34 +215,38 @@ body{
 
 .menuPrincipal nav a{
 	text-decoration: none;
+	color: #000;
 }
 
 .menuPrincipal .fundacion a:hover,
 .menuPrincipal .fundacion a.active,
-.menuPrincipal .fundacion h3.active{
-	color: #00ADEE;
+.menuPrincipal .fundacion h3.active,
+.menuPrincipal .fundacion h3:hover{
+	color: #34AAEC;
 }
 
 .menuPrincipal .educacion a:hover,
 .menuPrincipal .educacion a.active,
-.menuPrincipal .educacion h3.active{
-	color: #EB008B;
+.menuPrincipal .educacion h3.active,
+.menuPrincipal .educacion h3:hover{
+	color: #1EAA9C;
 }
 
 .menuPrincipal .comunidad a:hover,
 .menuPrincipal .comunidad a.active,
-.menuPrincipal .comunidad h3.active{
-	color: #F7AC00;
+.menuPrincipal .comunidad h3.active,
+.menuPrincipal .comunidad h3:hover{
+	color: #AFD741;
 }
 
 .menuPrincipal .publicaciones a:hover,
 .menuPrincipal .publicaciones a.active{
-	color: #00A89C;
+	color: #ED00A1;
 }
 
 .menuPrincipal .novedades a:hover,
 .menuPrincipal .novedades a.active{
-	color: #0077B9;
+	color: #F3AE24;
 }
 
 /*
@@ -416,7 +426,7 @@ footer .buscador input[type="submit"]:hover{
 }
 
 .leerMas span{
-	background: #363830;
+	background: #333;
 	padding: 0 5px;
 	color: white;
 	font-family: arial;

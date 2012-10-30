@@ -10,7 +10,7 @@ body{
 	background-image: url("./assets/home/bg-home.jpg");
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale');
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale')";
-	padding-bottom: 243px; /* Porque la pantalla tiene menu expandido */
+	padding-bottom: 255px; /* Porque la pantalla tiene menu expandido */
 }
 
 /*
@@ -125,6 +125,10 @@ article .containerImg > div .leerMas{
 	float: right;
 	color: #fff;
 	margin-right: 10px;
+}
+
+article .containerImg > div .leerMas:hover{
+	color: #333;
 }
 
 article .info{

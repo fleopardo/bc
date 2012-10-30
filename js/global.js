@@ -8,8 +8,19 @@
 
 	var $menu = $(".menuPrincipal"),
 
-		$body = $("body");
+		$body = $("body"),
 
+		$containerPrincipal = $("#containerPrincipal"),
+
+		openMenu = function(){
+			$body.css("padding-bottom","255px");
+			$menu.addClass("show");
+		},
+
+		closeMenu = function(){
+			$body.css("padding-bottom","140px");
+			$menu.removeClass("show");
+		};
 
 	/*
 	 * Elimino class no-js
@@ -20,21 +31,44 @@
 	/*
 	 * Expandir y contraer el menu
 	*/
-	$menu.find(".open").bind("click",function(){
+	(function(){
 
-		$menu.toggleClass("show");
+		//Cerrar en el onload
+		if( $containerPrincipal.hasClass("home") ){
 
-		if( $menu.hasClass("show") ){
+			setTimeout(function(){
 
-			$body.css("padding-bottom","243px");
+				closeMenu();
+
+			},3000);
 
 		}else{
 
-			$body.css("padding-bottom","130px");
+			closeMenu();
 
 		}
 
-	});
+		//Abrir y cerrar clickeando en el icono
+		$menu.find(".open").bind("click",function(){
 
+			if( $menu.hasClass("show") ){
+
+				closeMenu();
+
+			}else{
+
+				openMenu();
+
+			}
+
+		});
+
+		//Abrir el menu clikeando los titulos que tienen submenu
+		$menu.find(".fundacion > h3").bind("click",openMenu);
+		$menu.find(".educacion > h3").bind("click",openMenu);
+		$menu.find(".comunidad > h3").bind("click",openMenu);
+
+
+	})();
 
 })(window);

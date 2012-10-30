@@ -155,11 +155,8 @@
 	*/
 	(function(){
 
-		$(".modulos .containerImg > div").delay(1000).fadeOut(function(){
-
-			$(this).find("p").hide();
-
-		});
+		$(".modulos .containerImg > div").delay(1000).fadeOut()
+		$(".modulos .containerImg > div p").delay(1000).slideUp();
 
 		$(".modulos > article").bind({
 
@@ -167,15 +164,14 @@
 
 				$(this).find(".containerImg > div").stop().fadeIn(200,function(){
 
-					$(this).find("p").stop().fadeIn(300);
+					$(this).find("p").stop().slideDown();
 
 				});
 			},
 
 			"mouseleave": function(){
 
-				$(this).find(".containerImg > div p").stop().fadeOut(300);
-
+				$(this).find(".containerImg > div p").stop().slideUp();
 				$(this).find(".containerImg > div").stop().fadeOut(300);
 
 			}

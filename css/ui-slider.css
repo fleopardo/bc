@@ -15,7 +15,7 @@
 }
 
 .ui-slider .ui-slider-handle {
-	background:url(../css/assets/slider_handles.jpg) no-repeat;
+	background:url(./assets/slider_handles.jpg) no-repeat;
 	position:absolute;
 	z-index:2;
 	width:165px;
@@ -43,6 +43,7 @@
 .ui-slider-horizontal .ui-slider-handle {
 	top:0;
 	margin-left:-80px;
+	outline: none;
 }
 
 .ui-slider-horizontal .ui-slider-range {
