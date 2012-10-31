@@ -1,0 +1,59 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+/*
+ * Contacto
+*/
+
+.descarga-pdf .span{
+	display: inline-block;
+}
+
+.descarga-pdf .content{
+	padding: 24px 12px;
+}
+
+.descarga-pdf .span4{
+	background: #f2f2f2;
+}
+
+.descarga-pdf .span8{
+}
+
+.descarga-pdf .span8 li{
+	overflow: hidden;
+	margin-bottom: 1px;
+	background: #fff;
+	padding: 0 12px;
+}
+
+.descarga-pdf .span8 li p{
+	background: url(../css/assets/ic_flecha-azul.png) left no-repeat;
+	padding-left: 15px;
+	float: left;
+	line-height: 60px;
+	font: 12px/60px din-black;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.descarga-pdf .span8 li span{
+	color: #0079c1;
+}
+
+.descarga-pdf .span8 li a{
+	color: #373737;
+	font: 12px/60px din-black;
+	background: url(../css/assets/ic_pdf.png) right no-repeat;
+	padding-right:30px;
+	text-transform: uppercase;
+	display: block;
+	float: right;
+
+}
+
+
+
