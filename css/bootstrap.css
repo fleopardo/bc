@@ -155,6 +155,7 @@ a {
 
 p {
   margin: 0 0 9px;
+  color: #373737;
 }
 
 
@@ -222,6 +223,10 @@ p {
 
 .span3 {
   width: 220px;
+}
+
+.span2-5 {
+  width: 172px;
 }
 
 .span2 {
