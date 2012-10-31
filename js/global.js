@@ -70,42 +70,27 @@
 
 
 
-		
+
 
 	})();
 
 
 
 	/*
-	 * inicializacion de plugings y placeholder
+	 * inicializacion de plugins
 	*/
 
 	(function(){
 
-		 /*PLACEHOLDER CHROME*/
-
-	    $('input, textarea').on('focus',function(){
-	        if ( $(this).attr('placeholder') ) {
-	            $(this).data('placeholder', $(this).attr('placeholder'))
-	            .removeAttr('placeholder');
-	        }
-	    }).on('blur', function(){
-	        if ( $(this).data('placeholder') ) {
-	            $(this).attr('placeholder', $(this).data('placeholder'))
-	            .removeData('placeholder');
-	        }
-	    });
-
-	   	/* FIN PLACEHOLDER CHROME */
-
-
-	   	
-	   	//Inicializar selectmenu plugin
+		//Selectmenu plugin
 		if( $containerPrincipal.hasClass("contacto") ){
 			$('select').selectmenu({
 				transferClasses:true
 			});
 		}
+
+		//Placeholder fallback
+		$('input[placeholder]').placeholder();
 
    })();
 
