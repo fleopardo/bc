@@ -87,6 +87,9 @@ body{
 	display: inherit;
 }
 
+::-webkit-input-placeholder  { color:#373737; }
+input:-moz-placeholder { color:#373737; }
+:-ms-input-placeholder { color: #373737; }
 
 /*
  * Link ir a YPF.COM
