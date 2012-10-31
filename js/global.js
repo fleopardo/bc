@@ -69,6 +69,12 @@
 		$menu.find(".comunidad > h3").bind("click",openMenu);
 
 
+
+		//Inicializar selectmenu plugin
+		$('select').selectmenu({
+			transferClasses:true
+		});
+
 	})();
 
 })(window);

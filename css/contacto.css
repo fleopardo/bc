@@ -1,0 +1,146 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+/*
+ * Contacto
+*/
+
+.contacto .row .span{
+	display: inline-block;
+}
+
+.contacto .row .content{
+	padding: 24px 12px;
+	height: 287px;
+}
+
+.ie7 .contacto .row .span{
+	display: inline;
+}
+
+.contacto .row > .span4 ul{
+	margin-top: 20px;
+}
+
+.contacto .row > .span4 li{
+	color: #373737;
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+
+.contacto .row > .span4 .tel,
+.contacto .row > .span4 .dir{
+	background: url("./assets/ir-a-ypf.png") no-repeat 0px 3px;
+	font: 13px/15px din-black;
+}
+
+.contacto .row > .span4 .nro{
+	background: url("./assets/ic_telefono-contacto.png") no-repeat 0px 1px;
+	font: 13px/15px din-medium;
+}
+
+.contacto .row > .span4 .calle{
+	background: url("./assets/ic_sobre-contacto.png") no-repeat 0px 1px;
+	font: 13px/15px din-medium;
+}
+
+.contacto .span4{
+	background: #fff;
+}
+
+.contacto .span8 .span4{
+	background: #f2f2f2;
+}
+
+.contacto input[type=text],
+.contacto textarea{
+	display: block;
+	padding-left: 5px;
+	padding-right: 5px; 
+	width: 264px;
+	border: 1px solid #dfdfdf;
+	font-size: 12px;
+	color: #373737;
+	margin-bottom: 26px;
+	background: #fff;
+}
+
+.contacto select{
+	width: 274px;
+}
+.contacto .ui-selectmenu{
+	margin-bottom: 24px;
+}
+
+.contacto input[type=submit],
+.contacto form span{
+	display: block;
+}
+
+.contacto input[type=text]{
+	height: 26px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.contacto textarea{
+	height: 220px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	resize: none;
+	overflow: hidden;
+}
+
+.contacto fieldset.submit-cont{
+	overflow: hidden;
+}
+
+.contacto form span{
+	font-size: 10px;
+	line-height: 29px;
+	color: #373737;
+	float: left;
+}
+
+.contacto input[type=submit]{
+	float: right;
+	height: 29px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: din-medium;
+	padding-left: 17px;
+	padding-right: 30px;
+	background-image:url(../css/assets/fd_submit.png) ;
+	background-repeat: no-repeat;
+	background-position: 72px 9px;
+	background-color: #373737;
+	-webkit-transition: background-color 100ms ease-in 100ms;
+	-moz-transition: background-color 100ms ease-in 100ms;
+	-o-transition: background-color 100ms ease-in 100ms;
+	transition: background-color 100ms ease-in 100ms;
+}
+
+.contacto input[type=submit]:hover{
+	background-color: #50c5f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
