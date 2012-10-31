@@ -47,16 +47,16 @@
 	font: 13px/15px din-medium;
 }
 
-.contacto .span4{
+.contacto .formulario .span4{
 	background: #fff;
 }
 
-.contacto .span8 .span4{
+.contacto .formulario .span8 .span4{
 	background: #f2f2f2;
 }
 
-.contacto input[type=text],
-.contacto textarea{
+.contacto .formulario input[type=text],
+.contacto .formulario textarea{
 	display: block;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -68,7 +68,7 @@
 	background: #fff;
 }
 
-.contacto select{
+.contacto .formulario select{
 	width: 274px;
 }
 .contacto .ui-selectmenu{
@@ -117,7 +117,7 @@
 	padding-right: 30px;
 	background-image:url(../css/assets/fd_submit.png) ;
 	background-repeat: no-repeat;
-	background-position: 72px 9px;
+	background-position: 72px 8px;
 	background-color: #373737;
 	-webkit-transition: background-color 100ms ease-in 100ms;
 	-moz-transition: background-color 100ms ease-in 100ms;
