@@ -4,10 +4,31 @@
  * Fernando Leopardo @fer_leopardo
 */
 
+.destacado{
+	margin-bottom: 20px;
+}
+
+.destacado > div{
+	position: relative;
+}
+
+.destacado p{
+	width: 415px;
+	padding: 20px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	line-height: 16px;
+}
+
+.destacado p span{
+	font-family: "din-black";
+}
 
 .modulos article{
 	/*background: url("./assets/la-fundacion/bg-modulos-objetivos.png") bottom right;*/
-
 }
 
 .modulos article > div{
