@@ -178,7 +178,6 @@ body{
 }
 
 .menuPrincipal .col{
-	width: 153px;
 	float: left;
 }
 
@@ -191,14 +190,24 @@ body{
 	text-transform: uppercase;
 	font-family: "din-black",arial;
 	margin-bottom: 12px;
-	background: url("./assets/separador-menu.png") no-repeat right top;
+	background: url("./assets/separador-menu.png") no-repeat top right;
 	cursor: pointer;
 	color: #000;
-	text-align: center;
+
+}
+
+.menuPrincipal .col h3,
+.menuPrincipal .col ul{
+	padding: 0 30px;
 }
 
 .menuPrincipal .col.last h3{
 	background: none;
+	padding-right: 0;
+}
+
+.menuPrincipal .col.last ul{
+	padding-right: 0;
 }
 
 .menuPrincipal nav{
@@ -207,7 +216,8 @@ body{
 	-webkit-transition: height .5s ease;
     -moz-transition: height .5s ease;
 	transition: height .5s ease;
-	padding-left: 38px;
+	position: relative;
+	left: -29px;
 }
 
 .menuPrincipal nav a{
