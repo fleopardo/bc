@@ -128,7 +128,7 @@ article .containerImg > div .leerMas{
 }
 
 article .containerImg > div .leerMas:hover{
-	color: #333;
+	color: #e2e2e2;
 }
 
 article .info{
@@ -174,4 +174,5 @@ article .info h3{
 article .info p{
 	font-size: 11px;
 	line-height: 13px;
+	color: #fff;
 }

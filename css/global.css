@@ -149,9 +149,9 @@ body{
 	background: #FFF;
 	padding-top: 5px;
 	z-index: 1000;
-	-moz-box-shadow: 0 -4px 5px #999;
-	-webkit-box-shadow: 0 -4px 5px #999;
-	box-shadow: 0 -4px 5px #999;
+	-moz-box-shadow: 0 -1px 6px #aaa;
+	-webkit-box-shadow: 0 -1px 6px #aaa;
+	box-shadow: 0 -1px 6px #aaa;
 }
 
 .menuPrincipal .container{
@@ -166,9 +166,9 @@ body{
 	right: 0;
 	top: -32px;
 	background: #fff url("./assets/abrir-menu.png") no-repeat top left;
-	-moz-box-shadow: -1px -4px 5px #999;
-	-webkit-box-shadow: -1px -4px 5px #999;
-	box-shadow: -1px -4px 5px #999;
+	-moz-box-shadow: -1px -2px 3px #aaa;
+	-webkit-box-shadow: -1px -2px 3px #aaa;
+	box-shadow: -1px -2px 3px #aaa;
 	text-indent: -9999px;
 	cursor: pointer;
 }
@@ -286,7 +286,7 @@ footer{
 	right: 0;
 	height: 45px;
 	background: #fff;
-	z-index: 999;
+	z-index: 1002;
 }
 
 /*
@@ -329,7 +329,7 @@ footer .mainLinks .last{
 
 footer .social li{
 	float: left;
-	border-right: 1px solid #bebebe;
+	border-right: 1px solid #e2e2e2;
 }
 
 footer .social li a{
