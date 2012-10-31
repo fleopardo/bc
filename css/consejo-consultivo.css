@@ -32,10 +32,10 @@ article .info{
 	left: 0;
 	right: 0;
 	opacity: 0;
-	-webkit-transition: opacity 200ms ease-in 100ms;
-    -moz-transition: opacity 200ms ease-in 100ms;
-    -o-transition: opacity 200ms ease-in 100ms;
-    transition: opacity 200ms ease-in 100ms;
+	-webkit-transition: opacity 400ms ease-in 300ms;
+    -moz-transition: opacity 400ms ease-in 300ms;
+    -o-transition: opacity 400ms ease-in 300ms;
+    transition: opacity 400ms ease-in 300ms;
 }
 
 .lt-ie9 article .info{

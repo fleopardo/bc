@@ -16,16 +16,117 @@
 
 .title.secundario{
 	border-bottom: 2px solid #373737;
-	margin-bottom: 25px;
+	margin-bottom: 18px;
 }
 
+
+/*
+ * Consejo administrativo
+*/
+
+.consejo-administrativo{
+	margin-bottom: 30px;
+}
+
+.consejo-administrativo article{
+	position: relative;
+	height: 346px;
+}
+
+.consejo-administrativo article .nombre{
+	background-color: #15b1ec;
+	padding: 10px 15px 15px 15px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.consejo-administrativo article .info{
+	background-color: rgba(2,125,196,0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#990d74b0,endColorstr=#990d74b0);
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#990d74b0,endColorstr=#990d74b0)";
+	padding: 15px 10px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in 300ms;
+    -moz-transition: opacity 400ms ease-in 300ms;
+    -o-transition: opacity 400ms ease-in 300ms;
+    transition: opacity 400ms ease-in 300ms;
+}
+
+.lt-ie9 .consejo-administrativo article .info{
+	display: none;
+}
+
+.consejo-administrativo article:hover .info{
+	opacity: 1;
+}
+
+.lt-ie9 .consejo-administrativo article:hover .info{
+	display: block;
+}
+
+
+.consejo-administrativo article h4,
+.consejo-administrativo article .info h5{
+	font-size: 19px;
+	padding-bottom: 17px;
+	margin-bottom: 12px;
+	line-height: 23px;
+	text-transform: uppercase;
+	color: #fff;
+	background: url("./assets/la-fundacion/bg-barras-diagonales.png") left bottom no-repeat;
+}
+
+.consejo-administrativo article .info h5{
+	font-size: 13px;
+	line-height: 16px;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+.consejo-administrativo article h4{
+	font-size: 19px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	line-height: 23px;
+	text-transform: uppercase;
+	color: #fff;
+	background: url("./assets/la-fundacion/bg-barras-diagonales.png") left bottom no-repeat;
+}
+
+.consejo-administrativo article .info h4{
+	padding-bottom: 0;
+	margin-bottom: 5px;
+	background: none;
+}
+
+.consejo-administrativo article h4 span{
+	font-family: "din-black",Arial,Helvetica;
+	display: block;
+}
+
+.consejo-administrativo article p{
+	margin-bottom: 5px;
+	font-size: 13px;
+	color: #fff;
+}
+
+.consejo-administrativo article p i{
+	font-style: italic;
+}
 
 /*
  * Staff
 */
 
 .infoStaff article{
-	background: url("./assets/la-fundacion/bg-staff.png") no-repeat top right;
+	background: #fff url("./assets/la-fundacion/bg-staff.png") no-repeat bottom right;
 	height: 418px;
 }
 

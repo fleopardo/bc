@@ -178,13 +178,8 @@ body{
 }
 
 .menuPrincipal .col{
-	width: 136px;
+	width: 153px;
 	float: left;
-	margin-right: 20px;
-}
-
-.menuPrincipal .col.last{
-	margin-right: 0px;
 }
 
 /*
@@ -199,6 +194,7 @@ body{
 	background: url("./assets/separador-menu.png") no-repeat right top;
 	cursor: pointer;
 	color: #000;
+	text-align: center;
 }
 
 .menuPrincipal .col.last h3{
@@ -211,6 +207,7 @@ body{
 	-webkit-transition: height .5s ease;
     -moz-transition: height .5s ease;
 	transition: height .5s ease;
+	padding-left: 38px;
 }
 
 .menuPrincipal nav a{

@@ -1,0 +1,33 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+.modulos article{
+	/*background: url("./assets/la-fundacion/bg-modulos-objetivos.png") bottom right;*/
+
+}
+
+.modulos article > div{
+	background-color: #fff;
+	border-bottom: 2px solid #15b1ec;
+	border-right: 2px solid #15b1ec;
+	padding: 20px;
+	height: 120px;
+}
+
+.modulos article > div h4{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 27px;
+	letter-spacing: -1px;
+	line-height: 27px;
+	margin-bottom: 15px;
+}
+
+.modulos article > div p{
+	font-size: 13px;
+	line-height: 15px;
+}
