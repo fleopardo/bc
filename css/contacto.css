@@ -8,41 +8,41 @@
  * Contacto
 */
 
-.contacto .row .span{
+.contacto .formulario .span{
 	display: inline-block;
 }
 
-.contacto .row .content{
+.contacto .formulario .content{
 	padding: 24px 12px;
 	height: 287px;
 }
 
-.ie7 .contacto .row .span{
+.ie7 .contacto .formulario .span{
 	display: inline;
 }
 
-.contacto .row > .span4 ul{
+.contacto .formulario > .span4 ul{
 	margin-top: 20px;
 }
 
-.contacto .row > .span4 li{
+.contacto .formulario > .span4 li{
 	color: #373737;
 	padding-left: 15px;
 	margin-bottom: 10px;
 }
 
-.contacto .row > .span4 .tel,
-.contacto .row > .span4 .dir{
+.contacto .formulario > .span4 .tel,
+.contacto .formulario > .span4 .dir{
 	background: url("./assets/ir-a-ypf.png") no-repeat 0px 3px;
 	font: 13px/15px din-black;
 }
 
-.contacto .row > .span4 .nro{
+.contacto .formulario > .span4 .nro{
 	background: url("./assets/ic_telefono-contacto.png") no-repeat 0px 1px;
 	font: 13px/15px din-medium;
 }
 
-.contacto .row > .span4 .calle{
+.contacto .formulario > .span4 .calle{
 	background: url("./assets/ic_sobre-contacto.png") no-repeat 0px 1px;
 	font: 13px/15px din-medium;
 }
@@ -59,7 +59,7 @@
 .contacto textarea{
 	display: block;
 	padding-left: 5px;
-	padding-right: 5px; 
+	padding-right: 5px;
 	width: 264px;
 	border: 1px solid #dfdfdf;
 	font-size: 12px;
@@ -75,18 +75,18 @@
 	margin-bottom: 24px;
 }
 
-.contacto input[type=submit],
-.contacto form span{
+.formulario input[type=submit],
+.formulario form span{
 	display: block;
 }
 
-.contacto input[type=text]{
+.formulario input[type=text]{
 	height: 26px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
-.contacto textarea{
+.formulario textarea{
 	height: 220px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -94,18 +94,18 @@
 	overflow: hidden;
 }
 
-.contacto fieldset.submit-cont{
+.formulario fieldset.submit-cont{
 	overflow: hidden;
 }
 
-.contacto form span{
+.formulario form span{
 	font-size: 10px;
 	line-height: 29px;
 	color: #373737;
 	float: left;
 }
 
-.contacto input[type=submit]{
+.formulario input[type=submit]{
 	float: right;
 	height: 29px;
 	border: none;
@@ -125,7 +125,7 @@
 	transition: background-color 100ms ease-in 100ms;
 }
 
-.contacto input[type=submit]:hover{
+.formulario input[type=submit]:hover{
 	background-color: #50c5f1;
 }
 

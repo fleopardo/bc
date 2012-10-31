@@ -26,7 +26,7 @@ position:absolute;
 top:0;
 display:none;
 overflow:auto;
-z-index:1005;
+z-index:1005 !important;
 margin:0;
 padding:0;
 }

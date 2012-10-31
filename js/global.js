@@ -71,9 +71,11 @@
 
 
 		//Inicializar selectmenu plugin
-		$('select').selectmenu({
-			transferClasses:true
-		});
+		if( $containerPrincipal.hasClass("contacto") ){
+			$('select').selectmenu({
+				transferClasses:true
+			});
+		}
 
 	})();
 
