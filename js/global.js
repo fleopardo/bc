@@ -8,9 +8,15 @@
 
 	var $menu = $(".menuPrincipal"),
 
+		$document = $(document),
+
 		$body = $("body"),
 
+		$footer = $("footer"),
+
 		$containerPrincipal = $("#containerPrincipal"),
+
+		$tooltipCompartir = $footer.find(".tooltipCompartir"),
 
 		openMenu = function(){
 			$body.css("padding-bottom","255px");
@@ -68,18 +74,45 @@
 		$menu.find(".educacion > h3").bind("click",openMenu);
 		$menu.find(".comunidad > h3").bind("click",openMenu);
 
-
-
-
-
 	})();
 
+	/*
+	 * Abrir el popup de compartir
+	*/
+	(function(){
 
+		$footer.find(".compartir").bind("click",function(event){
+
+			event.stopPropagation();
+			event.preventDefault();
+
+			if( $(this).hasClass("active") ){
+
+				$(this).removeClass("active");
+				$tooltipCompartir.fadeOut();
+
+			}else{
+
+				$(this).addClass("active");
+				$tooltipCompartir.fadeIn();
+
+				/*
+				 * Bindeo click document para que cierre el tooltip
+				*/
+				$document.one("click",function(){
+					$footer.find(".compartir").removeClass("active");
+					$tooltipCompartir.fadeOut();
+				});
+
+			}
+
+		});
+
+	})();
 
 	/*
 	 * inicializacion de plugins
 	*/
-
 	(function(){
 
 		//Selectmenu plugin

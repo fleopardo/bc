@@ -31,23 +31,7 @@ article .info{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	opacity: 0;
-	-webkit-transition: opacity 400ms ease-in 300ms;
-    -moz-transition: opacity 400ms ease-in 300ms;
-    -o-transition: opacity 400ms ease-in 300ms;
-    transition: opacity 400ms ease-in 300ms;
-}
-
-.lt-ie9 article .info{
 	display: none;
-}
-
-article:hover .info{
-	opacity: 1;
-}
-
-.lt-ie9 article:hover .info{
-	display: block;
 }
 
 article h4{

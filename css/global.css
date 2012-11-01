@@ -334,6 +334,7 @@ footer .mainLinks .last{
 footer .social li{
 	float: left;
 	border-right: 1px solid #e2e2e2;
+	position: relative;
 }
 
 footer .social li a{
@@ -350,20 +351,59 @@ footer .social li a{
 }
 
 	.compartir{background-position: -203px 0px;}
-	.compartir:hover{background-position: -203px -45px;}
+
+	.compartir:hover,
+	.compartir.active{background-position: -203px -45px;}
 
 	.facebook{background-position: -153px 0px;}
-	.facebook:hover{background-position: -153px -45px;}
+	.facebook:hover,
+	.facebook.active{background-position: -153px -45px;}
 
 	.twitter{background-position: -102px 0px;}
-	.twitter:hover{background-position: -102px -45px;}
+	.twitter:hover,
+	.twitter.active{background-position: -102px -45px;}
 
 	.youtube{background-position: -51px 0px;}
-	.youtube:hover{background-position: -51px -45px;}
+	.youtube:hover,
+	.youtube.active{background-position: -51px -45px;}
 
 	.contacto{background-position: 0px 0px;}
-	.contacto:hover{background-position: 0px -45px;}
+	.contacto:hover,
+	.contacto.active{background-position: 0px -45px;}
 
+
+div.tooltipCompartir{
+	position: absolute;
+	bottom: 44px;
+	right: 0px;
+	width: 170px;
+	padding: 15px;
+	background: #fff;
+	border: 3px solid #fdc340;
+	display: none;
+}
+
+div.tooltipCompartir li{
+	border: none;
+	background-repeat: no-repeat;
+}
+
+div.tooltipCompartir li a{
+	display: block;
+	padding-left: 30px;
+	color: #fdc340;
+	width: auto;
+	height: auto;
+}
+
+	div.tooltipCompartir li a.fb{
+		background-position: -269px 1px;
+		margin-bottom: 13px;
+	}
+
+	div.tooltipCompartir li a.tw{
+		background-position: -269px -27px;
+	}
 
 /*
  * Buscador
