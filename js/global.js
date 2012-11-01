@@ -97,7 +97,7 @@
 				$tooltipCompartir.fadeIn();
 
 				/*
-				 * Bindeo click document para que cierre el tooltip
+				 * Bindeo click al document para que cierre el tooltip
 				*/
 				$document.one("click",function(){
 					$footer.find(".compartir").removeClass("active");
@@ -107,6 +107,15 @@
 			}
 
 		});
+
+		/*
+		 * Bindeo click al layer para que no propague hasta el document y se cierre..
+		*/
+		$tooltipCompartir.on("click",function(event) {
+
+			event.stopPropagation();
+
+	    });
 
 	})();
 
