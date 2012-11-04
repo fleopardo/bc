@@ -51,4 +51,5 @@
 .modulos article > div p{
 	font-size: 13px;
 	line-height: 15px;
+	width: auto;
 }

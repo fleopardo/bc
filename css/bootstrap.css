@@ -125,6 +125,10 @@ textarea {
   vertical-align: top;
 }
 
+i,em{
+	font-style: italic;
+}
+
 .clearfix {
   *zoom: 1;
 }

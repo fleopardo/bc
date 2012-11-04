@@ -40,7 +40,7 @@
 	(function(){
 
 		//Cerrar en el onload
-		if( $containerPrincipal.hasClass("home") ){
+		/*if( $containerPrincipal.hasClass("home") ){
 
 			setTimeout(function(){
 
@@ -49,6 +49,11 @@
 			},3000);
 
 		}else{
+
+			closeMenu();
+
+		}*/
+		if( !$containerPrincipal.hasClass("home") ){
 
 			closeMenu();
 

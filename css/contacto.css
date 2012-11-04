@@ -17,6 +17,10 @@
 	height: 287px;
 }
 
+.contacto .formulario .datos p{
+	margin-bottom: 45px;
+}
+
 .ie7 .contacto .formulario .span{
 	display: inline;
 }

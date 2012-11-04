@@ -15,11 +15,17 @@
 
 		galleryItems = galleryContainer.find("li"),
 
+		galleryItemsCant = galleryItems.length - 1;
+
 		galleryItemsWidth = galleryContainer.width(),
 
 		sliderContainer = $("#wrapperSlider"),
 
 		sliderBar = sliderContainer.find("#slider"),
+
+		autoplay = true,
+
+		sliderSpeed = 4500;
 
 		/*
 		 * Seteo el ancho a los items
@@ -61,7 +67,7 @@
 
 		gallerySetWidth();
 
-		window.resize = function(){
+		/*window.resize = function(){
 
 			setTimeout(function(){
 
@@ -76,7 +82,7 @@
 
 			},100);
 
-		}
+		}*/
 
 	})();
 
@@ -86,22 +92,53 @@
     */
 	(function(){
 
+		function animateSlider(ui){
+			galleryItemsWidth = galleryItems.width();
+			galleryItemsContainer.animate({
+				'left': - (galleryItemsWidth * ui)
+			});
+		}
+
+
 		sliderBar.slider({
 	        min: 0,
-	        max: galleryItems.length - 1,
+	        max: galleryItemsCant,
 	        value: 0,
 	        slide: function (event, ui) {
-
-				galleryItemsWidth = galleryItems.width();
-
-				galleryItemsContainer.animate({
-
-					'left': - (galleryItemsWidth * ui.value)
-
-				});
-
+				animateSlider(ui.value);
 	        }
 	    });
+
+		//Si estoy sobre la galeria no permito el autoplay
+		galleryContainer.bind({
+			"mouseover": function(){
+				autoplay = false;
+			},
+
+			"mouseout": function(){
+				autoplay = true;
+			},
+		});
+
+		//Ejecuto autoslide
+		setInterval(function(){
+
+			//Si estoy con foco en el slider no hago nada.
+			if(autoplay == false) return;
+
+			//capturo la posicion actual del slider
+			var nextItem = sliderBar.slider("value");
+
+			//Si es la ultima posicion vuelvo a la primera, sino avanzo una
+			nextItem = (nextItem == galleryItemsCant) ? 0 : nextItem + 1;
+
+			//Muevo la posicion del slider
+			sliderBar.slider("option","value",nextItem);
+
+			//Animo
+			animateSlider(nextItem);
+
+		},sliderSpeed)
 
 	})();
 

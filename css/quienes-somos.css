@@ -28,43 +28,20 @@
 	margin-bottom: 30px;
 }
 
-.consejo-administrativo article{
-	position: relative;
-	height: 346px;
-}
-
-.consejo-administrativo article .nombre{
-	background-color: #15b1ec;
-	padding: 10px 15px 15px 15px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-}
-
 .consejo-administrativo article .info{
 	background-color: rgba(2,125,196,0.8);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#990d74b0,endColorstr=#990d74b0);
   	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#990d74b0,endColorstr=#990d74b0)";
 	padding: 15px 10px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: none;
 }
 
-
-.consejo-administrativo article h4,
-.consejo-administrativo article .info h5{
+.consejo-administrativo article .info h4{
 	font-size: 19px;
-	padding-bottom: 17px;
-	margin-bottom: 12px;
 	line-height: 23px;
 	text-transform: uppercase;
 	color: #fff;
-	background: url("./assets/la-fundacion/bg-barras-diagonales.png") left bottom no-repeat;
+	padding-bottom: 0;
+	margin-bottom: 5px;
 }
 
 .consejo-administrativo article .info h5{
@@ -72,22 +49,11 @@
 	line-height: 16px;
 	font-weight: bold;
 	letter-spacing: -1px;
-}
-
-.consejo-administrativo article h4{
-	font-size: 19px;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	line-height: 23px;
+	padding-bottom: 17px;
+	margin-bottom: 12px;
 	text-transform: uppercase;
 	color: #fff;
 	background: url("./assets/la-fundacion/bg-barras-diagonales.png") left bottom no-repeat;
-}
-
-.consejo-administrativo article .info h4{
-	padding-bottom: 0;
-	margin-bottom: 5px;
-	background: none;
 }
 
 .consejo-administrativo article h4 span{
@@ -95,13 +61,13 @@
 	display: block;
 }
 
-.consejo-administrativo article p{
-	margin-bottom: 5px;
+.consejo-administrativo article .info p{
+	margin-bottom: 10px;
 	font-size: 13px;
 	color: #fff;
 }
 
-.consejo-administrativo article p i{
+.consejo-administrativo article .info p i{
 	font-style: italic;
 }
 

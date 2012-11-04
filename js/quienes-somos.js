@@ -9,26 +9,27 @@
 	/*
 	 * Variables
 	*/
-
+ 	var boxPersonas = $(".consejo-administrativo .info");
 
 	/*
-	 * Animacion en modulos
+	 * Mismo alto para todas las cajas
 	*/
-	$(".consejo-administrativo > article").bind({
+	(function(){
 
+		var height = 0;
 
-		"mouseenter": function(){
+		boxPersonas.each(function(){
 
-			$(this).find(".info").stop().fadeIn()
+			if ($(this).height() > height){
 
-		},
+				height = $(this).height();
 
-		"mouseleave": function(){
+			}
 
-			$(this).find(".info").stop().fadeOut()
+		});
 
-		}
+		boxPersonas.css("height",height);
 
-	});
+	})();
 
 })(window);

@@ -57,7 +57,7 @@ display:block;
 outline:none;
 text-decoration:none;
 padding:0 5px;
-font-size: 11px;
+font-size: 12px !important;
 }
 
 .ui-selectmenu-menu li.ui-state-disabled a {
