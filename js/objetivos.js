@@ -9,16 +9,12 @@
 	/*
 	 * Variables
 	*/
-	var boxPersonas = $(".consejo-administrativo .info"),
-
-		boxStaff = $(".infoStaff article");
+	var boxDestacados = $(".modulos article > div");
 
  	/*
 	 * Mismo alto para todas las cajas
 	*/
-	ypf.equalHeight(boxPersonas);
-
-	ypf.equalHeight(boxStaff);
+	ypf.equalHeight(boxDestacados);
 
 
 })(window);

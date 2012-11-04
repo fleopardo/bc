@@ -6,7 +6,9 @@
 
 ;(function(window){
 
-	var $menu = $(".menuPrincipal"),
+	var ypf = {},
+
+		$menu = $(".menuPrincipal"),
 
 		$document = $(document),
 
@@ -27,6 +29,27 @@
 			$body.css("padding-bottom","140px");
 			$menu.removeClass("show");
 		};
+
+	/*
+	 * Funciones publicas
+	*/
+	ypf.equalHeight = function(element){
+
+		var height = 0;
+
+		element.each(function(){
+
+			if ($(this).height() > height){
+
+				height = $(this).height();
+
+			}
+
+		});
+
+		element.css("height",height);
+
+	}
 
 	/*
 	 * Elimino class no-js
@@ -141,5 +164,6 @@
 
    })();
 
+   window.ypf = ypf;
 
 })(window);

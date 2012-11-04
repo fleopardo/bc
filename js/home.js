@@ -25,7 +25,9 @@
 
 		autoplay = true,
 
-		sliderSpeed = 4500;
+		sliderSpeed = 4500,
+
+		modulosInfo = $(".modulos .info");
 
 		/*
 		 * Seteo el ancho a los items
@@ -216,5 +218,10 @@
 		})
 
 	})();
+
+	/*
+	 * Mismo alto para los box de informacion destacados
+	*/
+	ypf.equalHeight(modulosInfo);
 
 })(window);

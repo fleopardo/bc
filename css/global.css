@@ -488,3 +488,75 @@ footer .buscador input[type="submit"]:hover{
 	left: 0;
 	top: 1px;
 }
+
+
+/* Header de secciones */
+.headerSections{
+	font-family: "din-black",Arial,Helvetica;
+	background: url("./assets/la-fundacion/header.png") left bottom no-repeat;
+	position: relative;
+	margin: 18px 0 12px 0;
+}
+
+.headerSections .span12{
+	margin-left: 10px;
+}
+
+.headerSections h2{
+	font-size: 23px;
+	line-height: 23px;
+	color: #373737;
+	text-transform: lowercase;
+	position: relative;
+	top: 6px;
+}
+
+.headerSections h3{
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 26px;
+	line-height: 45px;
+	letter-spacing: -1px;
+}
+
+.headerSections .breadcrum{
+	position: absolute;
+	right: 10px;
+	bottom: 17px;
+}
+
+.headerSections .breadcrum li{
+	display: inline-block;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin-right: 8px;
+}
+
+.ie7 .headerSections .breadcrum li{
+	display: inline;
+}
+
+.headerSections .breadcrum li a{
+	color: #fff;
+}
+
+.headerSections .breadcrum li a:hover,
+.headerSections .breadcrum li a.active{
+	color: #a3a3a3;
+}
+
+.titleSections{
+	font-family: "din-medium",Arial,Helvetica;
+	font-size: 20px;
+	line-height: 22px;
+	padding-bottom: 3px;
+	border-bottom: 6px solid #373737;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.titleSections.secundario{
+	border-bottom: 2px solid #373737;
+	margin-bottom: 18px;
+}
