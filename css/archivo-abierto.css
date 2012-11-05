@@ -35,6 +35,10 @@
 	margin-bottom: 18px;
 }
 
+.destacado > div .info p.last{
+	margin-bottom: 0;
+}
+
 .destacado > div .info i {
 	color: #666;
 	font-size: 12px;
