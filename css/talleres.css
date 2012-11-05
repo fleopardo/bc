@@ -47,7 +47,15 @@
  * Actividades
 */
 
-.modulos article > div{
+/*
+ * Estilos para la galeria mientras no esta inicializada.
+ * Evita ver acomodamiento de las imagenes
+*/
+.modulos article .jcarousel.notInit{
+	height: 210px;
+}
+
+.modulos article > div.info{
 	background-color: #fff;
 	border-bottom: 2px solid #b6d441;
 	border-right: 2px solid #b6d441;
@@ -56,7 +64,7 @@
 	width: auto;
 }
 
-.modulos article > div h4{
+.modulos article > div.info h4{
 	text-transform: uppercase;
 	font-weight: normal;
 	font-size: 27px;
@@ -65,13 +73,13 @@
 	margin-bottom: 15px;
 }
 
-.modulos article > div p{
+.modulos article > div.info p{
 	font-size: 13px;
 	line-height: 15px;
 	width: auto;
 }
 
-.modulos article > div p span,
+.modulos article > div.info p span,
 .modulos .lugares li span{
 	font-family: "din-black";
 }
@@ -83,22 +91,18 @@
 	margin-bottom: 5px;
 }
 
-.modulos .lugares h5,
-.modulos .lugares h6,
-.modulos .lugares ul{
-	padding-left: 15px;
-}
-
 .modulos .lugares h5{
 	text-transform: uppercase;
 	font-family: "din-black";
 	background: url("./assets/comunidad/icon-flecha.png") left top no-repeat;
+	padding-left: 15px;
 }
 
-.modulos .lugares h6{
+.modulos .lugares .jcarousel li{
+	padding-bottom: 5px;
+}
+
+.modulos .lugares .jcarousel h6{
 	margin: 10px 0;
 }
 
-.modulos .lugares ul{
-
-}

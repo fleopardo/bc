@@ -39,9 +39,9 @@
 
 		element.each(function(){
 
-			if ($(this).height() > height){
+			if ($(this).outerHeight() > height){
 
-				height = $(this).height();
+				height = $(this).outerHeight();
 
 			}
 
