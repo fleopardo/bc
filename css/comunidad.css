@@ -89,8 +89,9 @@ body{
  * Estilos carousel secundario
 */
 .carouselSecundario .jcarousel > li{
-	width: 380px;
+	width: 365px;
 	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .carouselSecundario .jcarousel-prev-horizontal,
@@ -117,6 +118,7 @@ body{
 .carouselSecundario .jcarousel-prev-disabled-horizontal:active {
     cursor: default;
     background-position: -12px -56px;
+    display: none !important;
 }
 
 .carouselSecundario .jcarousel-next-horizontal{
@@ -137,4 +139,5 @@ body{
 .carouselSecundario .jcarousel-next-disabled-horizontal:active {
     cursor: default;
     background-position: -36px -56px;
+    display: none !important;
 }
