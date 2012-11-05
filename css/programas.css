@@ -1,0 +1,83 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+/*
+ *
+*/
+.destacado{
+	margin-bottom: 20px;
+}
+
+.destacado > div{
+	position: relative;
+}
+
+.destacado > div .info{
+	width: 620px;
+	padding: 20px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+}
+
+.destacado > div .info p{
+	line-height: 16px;
+	margin-bottom: 18px;
+}
+
+.destacado > div .info p.last{
+	margin-bottom: 0;
+}
+
+.destacado > div .info span{
+	font-family: "din-black";
+}
+
+
+/*
+ * Actividades
+*/
+
+/*
+ * Estilos para la galeria mientras no esta inicializada.
+ * Evita ver acomodamiento de las imagenes
+*/
+.modulos article .jcarousel.notInit{
+	height: 210px;
+}
+
+.modulos article > div.info{
+	background-color: #fff;
+	border-bottom: 2px solid #b6d441;
+	border-right: 2px solid #b6d441;
+	padding: 20px;
+	position: relative;
+	width: auto;
+}
+
+.modulos article > div.info h4{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 27px;
+	letter-spacing: -1px;
+	line-height: 27px;
+	margin-bottom: 15px;
+}
+
+.modulos article > div.info p{
+	font-size: 13px;
+	line-height: 15px;
+	width: auto;
+}
+
+.modulos article > div.info p span,
+.modulos .lugares li span,
+.modulos .lugares li i{
+	font-family: "din-black";
+}
