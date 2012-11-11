@@ -114,3 +114,9 @@
 .modulos .destacado .jcarousel h6{
 	margin: 10px 0;
 }
+
+.modulos .destacado .jcarousel p{
+	margin: 10px 0;
+	font-size: 12px;
+	margin-top: 0;
+}
