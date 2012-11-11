@@ -575,7 +575,7 @@ footer .buscador input[type="submit"]:hover{
 
 .jcarousel-prev-horizontal,
 .jcarousel-next-horizontal{
-  	background:url("./assets/comunidad/arrows-slider.png") no-repeat;
+  	background:url("./assets/arrows-slider.png") no-repeat;
   	position: absolute;
   	z-index:100;
   	cursor: pointer;

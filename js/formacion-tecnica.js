@@ -11,6 +11,7 @@
 	*/
 	var boxDestacados = $(".modulos .info");
 	var parrafoDestacados = $(".modulos .parrafo");
+	var boxCarousel = $(".destacado .jcarousel > li");
 
  	/*
 	 * Init sliders
@@ -23,6 +24,7 @@
 	 * Mismo alto para todas las cajas
 	*/
 	ypf.equalHeight(parrafoDestacados);
+	ypf.equalHeight(boxCarousel);
 	ypf.equalHeight(boxDestacados);
 
 
