@@ -1,0 +1,102 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+/*
+ *
+*/
+.destacado{
+	margin-bottom: 20px;
+}
+
+.destacado > div{
+	position: relative;
+}
+
+.destacado > div h5{
+	color: #fff;
+	background: #000;
+	padding: 12px 40px 12px 20px;
+	display: inline-block;
+	font-size: 24px;
+	line-height: 24px;
+	word-spacing: -4px;
+	text-transform: lowercase;
+}
+
+.ie7 .destacado > div h5{
+	display: inline;
+}
+
+.destacado > div .info h5 span{
+	color: #a0a0a0;
+}
+
+.destacado > div .info{
+	width: 600px;
+	position: absolute;
+	top: 80px;
+	left: 0;
+	margin: 0;
+}
+
+.destacado > div .parrafo{
+	background: #fff;
+	padding: 20px;
+}
+
+.destacado > div .info p{
+	line-height: 16px;
+	margin-bottom: 18px;
+}
+
+.destacado > div .info p a{
+	text-decoration: underline;
+}
+
+.destacado > div .info p.last{
+	margin-bottom: 0;
+}
+
+
+/*
+ * Actividades
+*/
+
+/*
+ * Estilos para la galeria mientras no esta inicializada.
+ * Evita ver acomodamiento de las imagenes
+*/
+.modulos article > div.info{
+	background-color: #fff;
+	border-bottom: 2px solid #2fb5ac;
+	border-right: 2px solid #2fb5ac;
+	padding: 20px;
+	position: relative;
+	width: auto;
+}
+
+.modulos article > div.info h4{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 27px;
+	letter-spacing: -1px;
+	line-height: 27px;
+	margin-bottom: 15px;
+}
+
+.modulos article > div.info p{
+	font-size: 13px;
+	line-height: 15px;
+	width: auto;
+	margin-bottom: 15px;
+}
+
+.modulos article > div.info p span,
+.modulos .lugares li span,
+.modulos .lugares li i{
+	font-family: "din-black";
+}
