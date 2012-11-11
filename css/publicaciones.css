@@ -1,0 +1,95 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+body{
+	background-color: #d4d4d4;
+	background-image: url("./assets/home/bg-home.jpg");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale')";
+}
+
+
+/*
+ * Header & Breadcrumb
+*/
+.headerSections h3{
+	color: #eb008b;
+}
+
+
+/*
+ * Destacados
+*/
+
+.destacado > div{
+	position: relative;
+}
+
+.destacado p{
+	width: 570px;
+	padding: 20px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	line-height: 16px;
+}
+
+.destacado p span{
+	font-family: "din-black";
+}
+
+
+/*
+ * Listado
+*/
+
+article{
+	overflow: hidden;
+	margin-bottom: 1px;
+	background: #fff;
+	border-left: 5px solid #eb008b;
+}
+
+article .titulo{
+	font-family: "din-black";
+	font-size: 12px;
+	text-transform: uppercase;
+	background: #f2f2f2;
+	padding: 25px 13px;
+}
+
+article .listado li{
+	display: block;
+	overflow: hidden;
+	padding: 10px 20px;
+	border-bottom: 1px solid #f2f2f2;
+	line-height: 21px;
+	font-size: 12px;
+	font-family: "din-black";
+	text-transform: uppercase;
+}
+
+article .listado p{
+	background: url(../css/assets/ic_flecha-azul.png) left no-repeat;
+	padding-left: 15px;
+	float: left;
+	margin: 0;
+}
+
+article .listado a{
+	color: #373737;
+	background: url(../css/assets/ic_pdf.png) right no-repeat;
+	padding-right:30px;
+	display: block;
+	float: right;
+}
+
+article .listado a:hover{
+	color: #6f6f6f;
+}

@@ -51,6 +51,10 @@
  * Estilos para la galeria mientras no esta inicializada.
  * Evita ver acomodamiento de las imagenes
 */
+.modulos article{
+	margin-bottom: 20px;
+}
+
 .modulos article .jcarousel.notInit{
 	height: 210px;
 }
@@ -71,12 +75,14 @@
 	letter-spacing: -1px;
 	line-height: 27px;
 	margin-bottom: 15px;
+	color: #b2d235;
 }
 
 .modulos article > div.info p{
 	font-size: 13px;
 	line-height: 15px;
 	width: auto;
+	margin-bottom: 15px;
 }
 
 .modulos article > div.info p span,

@@ -10,9 +10,9 @@
 	$('body').nivoZoom({
 		speed:500,
 		zoomHoverOpacity:0.8,
-		overlay:false,
+		overlay:true,
 		overlayColor:'#333',
-		overlayOpacity:0.5,
+		overlayOpacity:0.3,
 		captionOpacity:0.8
 	});
 });

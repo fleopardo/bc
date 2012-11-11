@@ -52,6 +52,20 @@
 	}
 
 	/*
+     * Detect user agent
+    */
+    ypf.isMobile = (function(){
+
+   		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+   			return true;
+		}else{
+			return false;
+		}
+
+    })();
+
+
+	/*
 	 * Elimino class no-js
 	*/
 	$("html").removeClass("no-js");
@@ -163,6 +177,31 @@
 		$('input[placeholder]').placeholder();
 
    })();
+
+	/*
+	 * Nav para mobile - Arregla compatibilidad con position:fixed;
+	*/
+	/*
+	if(!ypf.isMobile){
+
+		var $windowHeight = $(window).height(),
+			$menuHeight = $menu.height(),
+			$footerHeight = $footer.height();
+
+		var position = ($windowHeight - ($menuHeight + $footerHeight)) / 2;
+
+		$menu.css({
+			"position": "absolute",
+			"top": position,
+			"bottom": 0
+		});
+
+	};
+	*/
+
+   /*
+    * Expongo namespace
+   */
 
    window.ypf = ypf;
 

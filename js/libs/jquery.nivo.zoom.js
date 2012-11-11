@@ -5,8 +5,249 @@
  * Copyright 2010, Gilbert Pellegrom
  * Free to use and abuse under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * April 2010
  */
 
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(f($){$.R.C=f(16){b e=$.1z({},$.R.C.X,16);4(e.F){4(!($.15.1y&&$.15.1x.1A(0,1)<8)){$(\'1B\').1E(\'<18 1D="y" />\');$(\'#y\').9({O:\'1C\',v:0,u:0,m:\'J%\',q:\'J%\',1F:e.W,r:e.11,\'z-P\':1w,Q:\'1j\'})}}1a 7.17(f(){b 14=$(7);b 13=$(\'a.C\',14);13.17(f(){b 3=$(7);4(3.1o(\'a\')){b 6=$(7).1p(\'6:S\');3.9({O:\'1v\',Q:\'1u-1q\'});3.j(\'1l\',\'1n 1h 1t\');3.1f(\'<18 1s="h" />\');b h=$(\'.h\',3);h.9(\'r\',\'0\');3.1r(f(){4(!3.i(\'B\')){h.1c().E({r:e.V},1b)}},f(){4(!h.i(\'G\')){h.1c().E({r:0},1b)}});3.1G(\'1V\',f(){4($(\'6.N\',3).K==0){h.A(\'G\');Y(6,3,f(){h.12(\'G\');H(6,3,h)})}l{H(6,3,h)}1a T})}})});f H(6,3,h){b o=$(\'6.N\',3);4(3.i(\'B\')){4(e.F)$(\'#y\').I(e.n/2);4($(\'.c\',3).K>0){$(\'.c\',3).I(e.n/2)}o.I(e.n/2,f(){6.E({r:1},e.n/2)});3.12(\'B\')}l{4(e.F)$(\'#y\').M(e.n/2);h.9(\'r\',\'0\');6.E({r:0},e.n/2,f(){o.M(e.n/2,f(){1e(6,o,3)})});3.A(\'B\')}}f 1e(6,o,3){4($(\'.c\',3).K>0){b c=$(\'.c:S\',3);4(!c.i(\'10-Z\')){b s=6.m();4(s==0)s=6.j(\'m\');b t=6.q();4(t==0)t=6.j(\'q\');b p=o.m();4(p==0)p=o.j(\'m\');b k=o.q();4(k==0)k=o.j(\'q\');c.9({m:p,r:e.19});4(3.i(\'1g\')){c.9({v:(k-c.L())+\'w\',D:\'g\'})}l 4(3.i(\'1k\')){c.9({x:\'g\',D:\'g\'})}l 4(3.i(\'1m\')){c.9({x:\'g\',u:\'g\'})}l 4(3.i(\'U\')){c.9({v:1H.1I(t/2-k/2)+(k-c.L())+\'w\',u:(s/2-p/2)+\'w\'})}l{c.9({v:(k-c.L())+\'w\',u:\'g\'})}c.A(\'10-Z\')}c.M(e.n/2)}}f Y(6,3,1i){b 1d=1O 1X();$(1d).1P(f(){$(7).A(\'N\');$(7).9({O:\'1K\',Q:\'1j\',\'z-P\':1S});4(1T.1Z.1U(/1W \\d\\.\\d+/)){3.9(\'z-P\',\'J\')}4(3.i(\'1g\')){$(7).9({v:\'g\',D:\'g\'})}l 4(3.i(\'1k\')){$(7).9({x:\'g\',D:\'g\'})}l 4(3.i(\'1m\')){$(7).9({x:\'g\',u:\'g\'})}l 4(3.i(\'U\')){b s=6.m();4(s==0)s=6.j(\'m\');b t=6.q();4(t==0)t=6.j(\'q\');b p=$(7).m();4(p==0)p=$(7).j(\'m\');b k=$(7).q();4(k==0)k=$(7).j(\'q\');$(7).9({v:(t/2-k/2)+\'w\',u:(s/2-p/2)+\'w\'})}l{$(7).9({v:\'g\',u:\'g\'})}$(7).j(\'1l\',\'1n 1h 1M\');3.1f($(7));1i.1N(7)}).j(\'1Q\',3.j(\'1R\'))}};$.R.C.X={n:1J,V:0.8,F:T,W:\'#1Y\',11:0.5,19:0.8}})(1L);',62,124,'|||link|if||img|this||css||var|nivoCaption||settings|function|0px|nivoZoomHover|hasClass|attr|bigImgHeight|else|width|speed|imgLarge|bigImgWidth|height|opacity|imgWidth|imgHeight|left|top|px|bottom|nivoOverlay||addClass|zoomed|nivoZoom|right|animate|overlay|loading|doZoom|fadeOut|100|length|outerHeight|fadeIn|nivoLarge|position|index|display|fn|first|false|center|zoomHoverOpacity|overlayColor|defaults|loadImg|processed|nivo|overlayOpacity|removeClass|nivoZooms|context|browser|options|each|div|captionOpacity|return|300|stop|newImg|showCaption|append|topRight|to|callback|none|bottomRight|title|bottomLeft|Click|is|find|block|hover|class|zoom|inline|relative|90|version|msie|extend|substr|body|fixed|id|prepend|background|bind|Math|ceil|500|absolute|jQuery|close|call|new|load|src|href|99|navigator|match|click|MSIE|Image|333|userAgent'.split('|'),0,{}))
+(function($) {
+
+	$.fn.nivoZoom = function(options) {
+
+		//Defaults are below
+		var settings = $.extend({}, $.fn.nivoZoom.defaults, options);
+
+		if(settings.overlay){
+			//Disable overly in IE7 due to z-index bug
+			if(!($.browser.msie && $.browser.version.substr(0,1)<8)){
+				$('body').prepend('<div id="nivoOverlay" />');
+				$('#nivoOverlay').css({
+					position:'fixed',
+					top:0,
+					left:0,
+					width:'100%',
+					height:'100%',
+					background:settings.overlayColor,
+					opacity:settings.overlayOpacity,
+					'z-index':90,
+					display:'none'
+				});
+			}
+		}
+
+		return this.each(function(){
+			var context = $(this);
+
+			var nivoZooms = $('a.nivoZoom', context);
+			nivoZooms.each(function(){
+				var link = $(this);
+				if(link.is('a')){
+					var img = $(this).find('img:first');
+
+					//Setup link
+					link.css({
+						position:'relative',
+						display:'inline-block'
+					});
+					link.attr('title','Click to zoom');
+
+					//Add ZoomHover
+					link.append('<div class="nivoZoomHover" />');
+					var nivoZoomHover = $('.nivoZoomHover', link);
+					nivoZoomHover.css('opacity','0');
+					link.hover(function(){
+						if(!link.hasClass('zoomed')){
+							nivoZoomHover.stop().animate({ opacity:settings.zoomHoverOpacity }, 300);
+						}
+					}, function(){
+						if(!nivoZoomHover.hasClass('loading')){
+							nivoZoomHover.stop().animate({ opacity:0 }, 300);
+						}
+					});
+
+					link.bind('click', function(){
+						//Check to see if large image is loaded
+						if($('img.nivoLarge', link).length == 0){
+							nivoZoomHover.addClass('loading');
+							loadImg(img, link, function(){
+								nivoZoomHover.removeClass('loading');
+								doZoom(img, link, nivoZoomHover);
+							});
+						} else {
+							doZoom(img, link, nivoZoomHover);
+						}
+						return false;
+					});
+				}
+			});
+
+		});
+
+		function doZoom(img, link, nivoZoomHover){
+			var imgLarge = $('img.nivoLarge', link);
+			if(link.hasClass('zoomed')){
+				//Hide Overlay
+				if(settings.overlay) $('#nivoOverlay').fadeOut(settings.speed/2);
+				//Hide Caption
+				if($('.nivoCaption', link).length > 0){
+					$('.nivoCaption', link).fadeOut(settings.speed/2);
+				}
+				//Hide Image
+				imgLarge.fadeOut(settings.speed/2, function(){
+					img.animate({ opacity:1 }, settings.speed/2);
+				});
+				link.removeClass('zoomed');
+			} else {
+				//Show Overlay
+				if(settings.overlay) {
+					$('#nivoOverlay').fadeIn(settings.speed/2,function(){
+						//Bindeo click para cerrar la imagen
+						$(this).one("click",function(){
+							//Oculto overlay
+							$(this).fadeOut(settings.speed/2)
+							//Oculto imagen
+							imgLarge.fadeOut(settings.speed/2, function(){
+								img.animate({ opacity:1 }, settings.speed/2);
+							});
+							link.removeClass('zoomed');
+						})
+					});
+
+				}
+				//Hide ZoomHover
+				nivoZoomHover.css('opacity','0');
+				//Show Image
+				img.animate({ opacity:0 }, settings.speed/2, function(){
+					imgLarge.fadeIn(settings.speed/2, function(){
+						showCaption(img, imgLarge, link);
+					});
+				});
+				link.addClass('zoomed');
+			}
+		}
+
+		function showCaption(img, imgLarge, link){
+			if($('.nivoCaption', link).length > 0){
+				var nivoCaption = $('.nivoCaption:first', link);
+				if(!nivoCaption.hasClass('nivo-processed')){
+					//Calculate the image dimensions
+					var imgWidth = img.width();
+					if(imgWidth == 0) imgWidth = img.attr('width');
+					var imgHeight = img.height();
+					if(imgHeight == 0) imgHeight = img.attr('height');
+					var bigImgWidth = imgLarge.width();
+					if(bigImgWidth == 0) bigImgWidth = imgLarge.attr('width');
+					var bigImgHeight = imgLarge.height();
+					if(bigImgHeight == 0) bigImgHeight = imgLarge.attr('height');
+					nivoCaption.css({
+						width:bigImgWidth,
+						opacity:settings.captionOpacity
+					});
+
+					if(link.hasClass('topRight')){
+						nivoCaption.css({
+							top:(bigImgHeight - nivoCaption.outerHeight()) + 'px',
+							right:'0px'
+						});
+					}
+					else if(link.hasClass('bottomRight')){
+						nivoCaption.css({
+							bottom:'0px',
+							right:'0px'
+						});
+					}
+					else if(link.hasClass('bottomLeft')){
+						nivoCaption.css({
+							bottom:'0px',
+							left:'0px'
+						});
+					}
+					else if(link.hasClass('center')){
+						nivoCaption.css({
+							top:Math.ceil(imgHeight/2 - bigImgHeight/2) + (bigImgHeight - nivoCaption.outerHeight()) + 'px',
+							left:(imgWidth/2 - bigImgWidth/2) +'px'
+						});
+					} else {
+						nivoCaption.css({
+							top:(bigImgHeight - nivoCaption.outerHeight()) + 'px',
+							left:'0px'
+						});
+					}
+					nivoCaption.addClass('nivo-processed');
+				}
+				nivoCaption.fadeIn(settings.speed/2);
+			}
+		}
+
+		function loadImg(img, link, callback){
+			//Load large image
+			var newImg = new Image();
+			$(newImg).load(function (){
+				$(this).addClass('nivoLarge');
+				$(this).css({
+					position:'absolute',
+					display:'none',
+					'z-index':99
+				});
+
+				//Fix IE7 z-index bug
+				if(navigator.userAgent.match(/MSIE \d\.\d+/)){
+					link.css('z-index','100');
+				}
+
+				if(link.hasClass('topRight')){
+					$(this).css({
+						top:'0px',
+						right:'0px'
+					});
+				}
+				else if(link.hasClass('bottomRight')){
+					$(this).css({
+						bottom:'0px',
+						right:'0px'
+					});
+				}
+				else if(link.hasClass('bottomLeft')){
+					$(this).css({
+						bottom:'0px',
+						left:'0px'
+					});
+				}
+				else if(link.hasClass('center')){
+					//Calculate the image dimensions
+					var imgWidth = img.width();
+					if(imgWidth == 0) imgWidth = img.attr('width');
+					var imgHeight = img.height();
+					if(imgHeight == 0) imgHeight = img.attr('height');
+					var bigImgWidth = $(this).width();
+					if(bigImgWidth == 0) bigImgWidth = $(this).attr('width');
+					var bigImgHeight = $(this).height();
+					if(bigImgHeight == 0) bigImgHeight = $(this).attr('height');
+					$(this).css({
+						top:(imgHeight/2 - bigImgHeight/2) +'px',
+						left:(imgWidth/2 - bigImgWidth/2) +'px'
+					});
+				} else {
+					$(this).css({
+						top:'0px',
+						left:'0px'
+					});
+				}
+
+				$(this).attr('title','Click to close');
+				link.append($(this));
+				callback.call(this);
+			}).attr('src', link.attr('href'));
+		}
+	};
+
+	//Default settings
+	$.fn.nivoZoom.defaults = {
+		speed:500,
+		zoomHoverOpacity:0.8,
+		overlay:false,
+		overlayColor:'#333',
+		overlayOpacity:0.5,
+		captionOpacity:0.8
+	};
+
+})(jQuery);
