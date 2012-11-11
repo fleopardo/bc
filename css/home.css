@@ -60,6 +60,15 @@ body{
 	letter-spacing: -1px;
 }
 
+.slider-principal li h2 span{
+	font-size: 20px;
+	line-height: 22px;
+	display: block;
+	text-transform: uppercase;
+	font-family: "din-regular",Arial,Helvetica;
+	margin-bottom: 10px;
+}
+
 .slider-principal li p{
 	margin-bottom: 15px;
 	font-size: 12px;
