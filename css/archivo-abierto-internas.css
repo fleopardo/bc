@@ -22,7 +22,7 @@
 	float: left;
 	padding: 0 0 0 20px;
 	border:none;
-	background: url("./assets/ic_flecha-verde.png") left top no-repeat;
+	background: url("./assets/ic_flecha-verde.png") left no-repeat;
 	margin: 0;
 	line-height: 32px;
 }
