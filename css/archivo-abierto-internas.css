@@ -22,7 +22,7 @@
 	float: left;
 	padding: 0 0 0 20px;
 	border:none;
-	background: url("./assets/comunidad/icon-flecha.png") left no-repeat;
+	background: url("./assets/ic_flecha-verde.png") left top no-repeat;
 	margin: 0;
 	line-height: 32px;
 }
@@ -73,7 +73,7 @@
 	letter-spacing: -1px;
 	line-height: 62px;
 	padding-left: 20px;
-	background: url("./assets/comunidad/icon-flecha.png") left no-repeat;
+	background: url("./assets/ic_flecha-verde.png") left top no-repeat;
 }
 
 .modulos article > div p{
@@ -103,7 +103,7 @@
 .modulos .lugares h5{
 	text-transform: uppercase;
 	font-family: "din-black";
-	background: url("./assets/comunidad/icon-flecha.png") left top no-repeat;
+	background: url("./assets/ic_flecha-verde.png") left top no-repeat;
 }
 
 .modulos .lugares h6{
