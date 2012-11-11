@@ -10,12 +10,12 @@
 	 * Variables
 	*/
 	var boxDestacados = $(".destacado .modulos .info");
-
+	var boxMasNovedades = $('.mas-novedades .modulos .info');
  	/*
 	 * Mismo alto para todas las cajas
 	*/
 	ypf.equalHeight(boxDestacados);
-
+	ypf.equalHeight(boxMasNovedades);
 
 	/*
 	 * Variables
