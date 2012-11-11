@@ -158,6 +158,26 @@ article .texto{
 
 
 
+.nota .carouselSecundario .jcarousel > li{
+	width: 500px;
+}
 
+.nota .carouselSecundario h1,
+.nota .carouselSecundario h2{
+	margin-left: 15px;
+}
 
+.nota .carouselSecundario h1{
+	font-size: 13px;
+	line-height: 15px;
+	text-transform: uppercase;
+	background: url(../css/assets/ic_flecha-verde.png) left no-repeat;
+	padding-left: 20px;
+	margin-bottom: 4px;
+}
 
+.nota .carouselSecundario h2{
+	font-size: 13px;
+	line-height: 15px;
+	text-transform: none;
+}
