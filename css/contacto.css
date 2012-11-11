@@ -8,6 +8,10 @@
  * Contacto
 */
 
+.contacto .formulario{
+	display: none;
+}
+
 .contacto .formulario .span{
 	display: inline-block;
 }
@@ -116,7 +120,7 @@
 	cursor: pointer;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: din-medium;
+	font-family: "din-medium";
 	padding-left: 17px;
 	padding-right: 30px;
 	background-image:url(../css/assets/fd_submit.png) ;
@@ -132,19 +136,3 @@
 .formulario input[type=submit]:hover{
 	background-color: #50c5f1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
