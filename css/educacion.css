@@ -1,0 +1,20 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+body{
+	background-color: #d4d4d4;
+	background-image: url("./assets/home/bg-home.jpg");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale')";
+}
+
+
+/*
+ * Header & Breadcrumb
+*/
+.headerSections h3{
+	color: #00a89c;
+}

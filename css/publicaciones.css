@@ -123,6 +123,7 @@ article .listado a,
 	text-transform: uppercase;
 }
 
-article .listado a:hover{
+article .listado a:hover,
+.pdf:hover{
 	color: #6f6f6f;
 }
