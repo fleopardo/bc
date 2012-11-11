@@ -1,0 +1,114 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+/*
+ * Taller / Crear identidad
+*/
+.destacado{
+	margin-bottom: 20px;
+}
+
+.destacado > div{
+	position: relative;
+}
+
+.destacado > div .info{
+	width: 620px;
+	padding: 20px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+}
+
+.destacado > div .info h5{
+	font-family: "din-black";
+}
+
+.destacado > div .info p{
+	line-height: 16px;
+	margin-bottom: 18px;
+}
+
+.destacado > div .info i {
+	color: #666;
+	font-size: 12px;
+}
+
+
+
+
+/*
+ * Actividades
+*/
+
+/*
+ * Estilos para la galeria mientras no esta inicializada.
+ * Evita ver acomodamiento de las imagenes
+*/
+.modulos article{
+	margin-bottom: 20px;
+}
+
+.modulos article .jcarousel.notInit{
+	height: 210px;
+}
+
+.modulos article > div.info{
+	background-color: #fff;
+	border-bottom: 2px solid #b6d441;
+	border-right: 2px solid #b6d441;
+	padding: 20px;
+	position: relative;
+	width: auto;
+}
+
+.modulos article > div.info h4{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 27px;
+	letter-spacing: -1px;
+	line-height: 27px;
+	margin-bottom: 15px;
+	color: #b2d235;
+}
+
+.modulos article > div.info p{
+	font-size: 13px;
+	line-height: 15px;
+	width: auto;
+	margin-bottom: 15px;
+}
+
+.modulos article > div.info p span,
+.modulos .lugares li span{
+	font-family: "din-black";
+}
+
+.modulos .lugares{
+	background: #f2f2f2;
+	padding: 15px 10px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.modulos .lugares h5{
+	text-transform: uppercase;
+	font-family: "din-black";
+	background: url("./assets/comunidad/icon-flecha.png") left top no-repeat;
+	padding-left: 15px;
+}
+
+.modulos .lugares .jcarousel li{
+	padding-bottom: 5px;
+}
+
+.modulos .lugares .jcarousel h6{
+	margin: 10px 0;
+}
+
