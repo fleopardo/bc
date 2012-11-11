@@ -156,10 +156,18 @@ article .texto{
 	border-right: 2px solid #f7ac00;
 }
 
-
-
 .nota .carouselSecundario .jcarousel > li{
 	width: 500px;
+}
+
+.nota .carouselSecundario .jcarousel li.first{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.nota .carouselSecundario .jcarousel li.first span{
+	text-transform: none;
+	font-family: din-medium;
 }
 
 .nota .carouselSecundario h1,
@@ -167,9 +175,15 @@ article .texto{
 	margin-left: 15px;
 }
 
-.nota .carouselSecundario h1{
+.nota .carouselSecundario h1,
+.nota .carouselSecundario h2,
+.nota .carouselSecundario .jcarousel li.first{
+	font-family: din-black;
 	font-size: 13px;
 	line-height: 15px;
+}
+
+.nota .carouselSecundario h1{
 	text-transform: uppercase;
 	background: url(../css/assets/ic_flecha-verde.png) left no-repeat;
 	padding-left: 20px;
@@ -177,7 +191,7 @@ article .texto{
 }
 
 .nota .carouselSecundario h2{
-	font-size: 13px;
-	line-height: 15px;
 	text-transform: none;
+	margin-bottom: 30px;
 }
+
