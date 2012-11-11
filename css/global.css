@@ -256,7 +256,9 @@ input.placeholder{ color: #373737; }
 }
 
 .menuPrincipal .novedades a:hover,
-.menuPrincipal .novedades a.active{
+.menuPrincipal .novedades a.active,
+.menuPrincipal .novedades h3.active a,
+.menuPrincipal .novedades h3:hover{
 	color: #F3AE24;
 }
 
