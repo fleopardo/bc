@@ -60,7 +60,10 @@
 */
 
 .infoStaff article{
-	background: #fff url("./assets/la-fundacion/bg-staff.png") no-repeat bottom right;
+	background: #fff;
+	border-right: 2px solid #34AAEC;
+	border-bottom: 2px solid #34AAEC;
+	margin-right: -2px;
 }
 
 .infoStaff article dl{
