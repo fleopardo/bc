@@ -12,7 +12,7 @@
 	position: relative;
 }
 
-.destacado p{
+.destacado .info{
 	width: 600px;
 	padding: 20px;
 	background: #fff;
