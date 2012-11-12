@@ -26,7 +26,7 @@
 }
 
 .info{
-	padding: 20px 15px 40px;
+	padding: 20px 15px 50px;
 	position: relative;
 }
 
@@ -58,13 +58,13 @@
 
 .leer-mas{
 	position: absolute;
-	bottom: 20px;
+	bottom: 10px;
 	text-transform: uppercase;
 	background: url(../css/assets/ic_ver-mas.jpg) left no-repeat;
 	display: inline-block;
 	padding-left: 24px;
 	line-height: 20px;
-	font-family: din-black;
+	font-family: "din-black";
 }
 
 .leer-mas:hover{
@@ -84,6 +84,13 @@
 	padding-left: 10px;
 	width: 270px;
 }
+
+
+.mas-novedades .info{
+	padding-bottom: 10px;
+}
+
+
 
 article {
 	border-left: 3px solid #f7ac00;
@@ -118,6 +125,10 @@ article .acordeon.open{
 article .texto{
 	background: #fff;
 	padding: 25px 13px 25px 27px;
+}
+
+article .texto a:hover{
+	color: #aeaeae;
 }
 
 
