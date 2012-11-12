@@ -54,10 +54,12 @@
 	/*
 	 * Init sliders
 	*/
-	$('.jcarousel').removeClass("notInit").jcarousel({
-		scroll: 1
-	});
-	
+	if( $('.jcarousel').length > 0 ){
+		$('.jcarousel').removeClass("notInit").jcarousel({
+			scroll: 1
+		});
+	}
+
 
 
 })(window);
