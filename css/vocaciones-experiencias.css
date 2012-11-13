@@ -1,0 +1,93 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+
+.bloques .span6{
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.bloques p{
+	font-size: 14px;
+	line-height: 18px;
+	padding: 30px 20px 8px;
+	background: #fff url(../css/assets/educacion/)
+}
+
+.bloques h1{
+	font-size: 17px;
+	line-height: 18px;
+	font-family: din-black;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 16px;
+}
+
+.bloques h1 span{
+	font-size: 15px;
+	line-height: 18px;
+	text-transform: none;
+}
+
+
+
+.amarillo h1{
+	background: #f7ac00;
+}
+
+.rosa h1{
+	background:#eb008b;
+}
+
+.azul h1{
+	background: #0079c1;
+}
+
+.celeste h1{
+	background: #15b1ec;
+}
+
+.verde h1{
+	background: #00a89c
+}
+
+.verde-claro h1{
+	background: #b2d235;
+}
+
+.description{
+	position: absolute;
+	display: none;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0,168,156,.95);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9900a89c,endColorstr=#9900a89c);
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#9900a89c,endColorstr=#9900a89c)";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
