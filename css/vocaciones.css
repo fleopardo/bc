@@ -78,6 +78,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	padding: 20px;
 }
 
 
@@ -85,7 +86,8 @@
 	background:#f7ac00;
 }
 
-.amarillo h1{
+.amarillo h1,
+.amarillo h2{
 	color: #f7ac00;
 }
 
@@ -93,7 +95,8 @@
 	background:#eb008b;
 }
 
-.rosa h1{
+.rosa h1,
+.rosa h2{
 	color: #eb008b;
 }
 
@@ -101,7 +104,8 @@
 	background: #0079c1;
 }
 
-.azul h1{
+.azul h1,
+.azul h2{
 	color: #0079c1
 }
 
@@ -109,7 +113,8 @@
 	background: #15b1ec;
 }
 
-.celeste h1{
+.celeste h1,
+.celeste h2{
 	color: #15b1ec
 }
 
@@ -117,7 +122,8 @@
 	background: #00a89c
 }
 
-.verde h1{
+.verde h1,
+.verde h2{
 	color: #00a89c
 }
 
@@ -125,20 +131,19 @@
 	background: #b2d235;
 }
 
-.verde-claro h1{
+.verde-claro h1,
+.verde-claro h2{
 	color: #b2d235
 }
 
 
+.extended-description h1{
+	font-size: 34px;
+	line-height: 33px;
+	font-family: din-black;
+}
 
-
-
-
-
-
-
-.extended-description p,
-.extended-description h2{
+.extended-description p{
 	color: #fff;
 }
 
