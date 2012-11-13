@@ -71,6 +71,10 @@
 	margin-bottom: 20px;
 }
 
+.middle-row > .span3 > .span3.last{
+	margin-bottom: 0;
+}
+
 .middle-row .span6{
 	background: #373737;
 	height: 430px;
