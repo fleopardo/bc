@@ -1,0 +1,167 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+.vocaciones-breadcrumb{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.vocaciones-breadcrumb li{
+	float: left;
+	margin-right: 100px;
+}
+
+.vocaciones-breadcrumb li.last{
+	margin-right: 0;
+}
+
+.vocaciones-breadcrumb li span{
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 14px;
+	background: #00a89c;
+	padding: 5px;
+}
+
+.vocaciones-breadcrumb li span.title{
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.head{
+	position: relative;
+}
+
+.head h1 a{
+	font-size: 17px;
+	line-height: 17px;
+	text-transform: uppercase;
+	background: #fff;
+	display: block;
+	padding: 20px;
+}
+
+.head h1 a span{
+	width: 17px;
+	height: 17px;
+	display: block;
+	position: absolute;
+	bottom:-17px;
+	left: 17px;
+	background: url(../css/assets/educacion/ic_ver-mas-vocaciones.jpg) no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.grilla{
+	margin-bottom: 20px;
+}
+
+.middle-row > .span3 > .span3{
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+
+.middle-row .span6{
+	background: #373737;
+	height: 430px;
+	position: relative;
+}
+
+.extended-description{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.amarillo h1 a.active{
+	background:#f7ac00;
+}
+
+.amarillo h1{
+	color: #f7ac00;
+}
+
+.rosa h1 a.active{
+	background:#eb008b;
+}
+
+.rosa h1{
+	color: #eb008b;
+}
+
+.azul h1 a.active{
+	background: #0079c1;
+}
+
+.azul h1{
+	color: #0079c1
+}
+
+.celeste h1 a.active{
+	background: #15b1ec;
+}
+
+.celeste h1{
+	color: #15b1ec
+}
+
+.verde h1 a.active{
+	background: #00a89c
+}
+
+.verde h1{
+	color: #00a89c
+}
+
+.verde-claro h1 a.active{
+	background: #b2d235;
+}
+
+.verde-claro h1{
+	color: #b2d235
+}
+
+
+
+
+
+
+
+
+
+.extended-description p,
+.extended-description h2{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
