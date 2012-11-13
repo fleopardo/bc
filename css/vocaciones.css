@@ -19,12 +19,16 @@
 }
 
 .vocaciones-breadcrumb li span{
-	color: #fff;
 	display: inline-block;
 	font-size: 12px;
 	line-height: 14px;
+	background: #fff;
+	padding: 5px 10px;
+}
+
+.vocaciones-breadcrumb li.active span{
 	background: #00a89c;
-	padding: 5px;
+	color: #fff;
 }
 
 .vocaciones-breadcrumb li span.title{
