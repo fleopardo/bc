@@ -9,13 +9,13 @@
 .bloques .span6{
 	position: relative;
 	margin-bottom: 30px;
+	background: #fff;
 }
 
 .bloques p{
 	font-size: 14px;
 	line-height: 18px;
-	padding: 30px 20px 8px;
-	background: #fff url(../css/assets/educacion/)
+	padding: 50px 20px 8px;
 }
 
 .bloques h1{
@@ -39,24 +39,48 @@
 	background: #f7ac00;
 }
 
+.amarillo p{
+	background: url(../css/assets/educacion/fd_cita-naranja.png) 20px 14px no-repeat;
+}
+
 .rosa h1{
 	background:#eb008b;
+}
+
+.rosa p{
+	background: url(../css/assets/educacion/fd_cita-rosa.png) 20px 14px no-repeat;
 }
 
 .azul h1{
 	background: #0079c1;
 }
 
+.azul p{
+	background: url(../css/assets/educacion/fd_cita-azul.png) 20px 14px no-repeat;
+}
+
 .celeste h1{
 	background: #15b1ec;
+}
+
+.celeste p{
+	background: url(../css/assets/educacion/fd_cita-azul.png) 20px 14px no-repeat;
 }
 
 .verde h1{
 	background: #00a89c
 }
 
+.verde p{
+	background: url(../css/assets/educacion/fd_cita-turquesa.png) 20px 14px no-repeat;
+}
+
 .verde-claro h1{
 	background: #b2d235;
+}
+
+.verde-claro p{
+	background: url(../css/assets/educacion/fd_cita-verde.png) 20px 14px no-repeat;
 }
 
 .description{
