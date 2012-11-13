@@ -99,7 +99,8 @@
 .description p{
 	background: url(../css/assets/educacion/fd_cita-blanco.png) 20px 14px no-repeat;
 	color: #fff;
-	margin-bottom: 15px;
+	font-size: 12px;
+	line-height: 14px;
 }
 
 

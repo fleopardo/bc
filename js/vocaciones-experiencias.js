@@ -6,7 +6,7 @@
 
 ;(function(window){
 
-	/* 
+	/*
 		Animacion en modulos
 	*/
 
@@ -25,5 +25,10 @@
 		}
 
 	});
+
+	/*
+	 * Mismo alto en los bloques
+	*/
+	ypf.equalHeight($(".bloques .span6 > p"));
 
 })(window);
