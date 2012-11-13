@@ -4,6 +4,10 @@
  * Fernando Leopardo @fer_leopardo
 */
 
+body.bg-vocaciones{
+	background-image: url(../css/assets/educacion/bg_vocaciones.jpg);
+}
+
 .vocaciones-breadcrumb{
 	overflow: hidden;
 	margin-bottom: 30px;
