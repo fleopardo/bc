@@ -64,7 +64,7 @@
 }
 
 .celeste p{
-	background: url(../css/assets/educacion/fd_cita-azul.png) 20px 14px no-repeat;
+	background: url(../css/assets/educacion/fd_cita-celeste.png) 20px 14px no-repeat;
 }
 
 .verde h1{
@@ -96,7 +96,11 @@
 }
 
 
-
+.description p{
+	background: url(../css/assets/educacion/fd_cita-blanco.png) 20px 14px no-repeat;
+	color: #fff;
+	margin-bottom: 15px;
+}
 
 
 
