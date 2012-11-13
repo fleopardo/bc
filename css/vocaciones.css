@@ -56,7 +56,7 @@
 	position: absolute;
 	bottom:-17px;
 	left: 17px;
-	background: url(../css/assets/educacion/ic_ver-mas-vocaciones.jpg) no-repeat;
+	background: url(../css/assets/educacion/ic_ver-mas-vocaciones.jpg) 0 0 no-repeat;
 	text-indent: -9999px;
 	overflow: hidden;
 	z-index: 10;
@@ -95,6 +95,10 @@
 	color: #f7ac00;
 }
 
+.amarillo h1 a.active span{
+	background-position:0 -17px;
+}
+
 .rosa h1 a.active{
 	background:#eb008b;
 }
@@ -102,6 +106,10 @@
 .rosa h1,
 .rosa h2{
 	color: #eb008b;
+}
+
+.rosa h1 a.active span{
+	background-position:0 -34px;
 }
 
 .azul h1 a.active{
@@ -113,6 +121,10 @@
 	color: #0079c1
 }
 
+.azul h1 a.active span{
+	background-position:0 -51px;
+}
+
 .celeste h1 a.active{
 	background: #15b1ec;
 }
@@ -120,6 +132,10 @@
 .celeste h1,
 .celeste h2{
 	color: #15b1ec
+}
+
+.celeste h1 a.active span{
+	background-position:0 -68px;
 }
 
 .verde h1 a.active{
@@ -131,15 +147,22 @@
 	color: #00a89c
 }
 
+.verde h1 a.active span{
+	background-position:0 -85px;
+}
+
 .verde-claro h1 a.active{
 	background: #b2d235;
 }
 
 .verde-claro h1,
 .verde-claro h2{
-	color: #b2d235
+	color: #b2d235;
 }
 
+.verde-claro h1 a.active span{
+	background-position:0 -103px;
+}
 
 .extended-description h1{
 	font-size: 34px;
