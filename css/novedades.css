@@ -40,7 +40,7 @@
 .info h4{
 	font-size: 18px;
 	line-height: 20px;
-	margin-bottom: 16px;
+	margin-bottom: 12px;
 }
 
 .destacado .info h3{
@@ -65,6 +65,11 @@
 	padding-left: 24px;
 	line-height: 20px;
 	font-family: "din-black";
+}
+
+.leer-mas.static{
+	position: inherit;
+	margin-top: 15px;
 }
 
 .leer-mas:hover{
@@ -138,6 +143,19 @@ article .texto a:hover{
 
 
 /* Detalle  */
+.headerSection{
+	position: relative;
+}
+
+.headerSection a{
+	position: absolute;
+	top: 5px;
+	right: 0;
+	font-size: 12px;
+	font-family: "din-medium";
+	text-transform: uppercase;
+}
+
 .nota .modulos{
 	background: none;
 }

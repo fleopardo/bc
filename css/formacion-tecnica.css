@@ -77,6 +77,10 @@
 	margin-top: 5px;
 }
 
+.modulos article > div.info a:hover{
+	color: #6f6f6f;
+}
+
 .ie7 .modulos article > div.info a{
 	display: inline;
 }

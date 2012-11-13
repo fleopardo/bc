@@ -9,7 +9,7 @@
 */
 
 .contacto .formulario{
-	display: none;
+	visibility: hidden;
 }
 
 .contacto .formulario .span{
