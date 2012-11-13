@@ -1,0 +1,165 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+.head{
+	position: relative;
+}
+
+.head h1 a{
+	font-size: 17px;
+	line-height: 17px;
+	text-transform: uppercase;
+	background: #fff;
+	display: block;
+	padding: 20px;
+}
+
+.head h1 a span{
+	width: 17px;
+	height: 17px;
+	display: block;
+	position: absolute;
+	bottom:-17px;
+	left: 17px;
+	background: url(../css/assets/educacion/ic_ver-mas-vocaciones.jpg) 0 0 no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	z-index: 10;
+}
+
+.grilla{
+	margin-bottom: 20px;
+}
+
+.middle-row > .span3 > .span3{
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+
+.middle-row > .span3 > .span3.last{
+	margin-bottom: 0;
+}
+
+.middle-row .span6{
+	background: #373737;
+	height: 430px;
+	position: relative;
+}
+
+.extended-description{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 16px;
+}
+
+
+.amarillo h1 a.active{
+	background:#f7ac00;
+}
+
+.amarillo h1,
+.amarillo h2,
+.amarillo.extended-description a{
+	color: #f7ac00;
+}
+
+.amarillo h1 a.active span{
+	background-position:0 -17px;
+}
+
+.rosa h1 a.active{
+	background:#eb008b;
+}
+
+.rosa h1,
+.rosa h2,
+.rosa.extended-description a{
+	color: #eb008b;
+}
+
+.rosa h1 a.active span{
+	background-position:0 -34px;
+}
+
+.azul h1 a.active{
+	background: #0079c1;
+}
+
+.azul h1,
+.azul h2,
+.azul.extended-description a{
+	color: #0079c1
+}
+
+.azul h1 a.active span{
+	background-position:0 -51px;
+}
+
+.celeste h1 a.active{
+	background: #15b1ec;
+}
+
+.celeste h1,
+.celeste h2,
+.celeste.extended-description a{
+	color: #15b1ec
+}
+
+.celeste h1 a.active span{
+	background-position:0 -68px;
+}
+
+.verde h1 a.active{
+	background: #00a89c
+}
+
+.verde h1,
+.verde h2,
+.verde.extended-description a{
+	color: #00a89c
+}
+
+.verde h1 a.active span{
+	background-position:0 -85px;
+}
+
+.verde-claro h1 a.active{
+	background: #b2d235;
+}
+
+.verde-claro h1,
+.verde-claro h2,
+.verde-claro.extended-description a{
+	color: #b2d235;
+}
+
+.verde-claro h1 a.active span{
+	background-position:0 -103px;
+}
+
+.extended-description h1{
+	font-size: 28px;
+	line-height: 24px;
+	font-family: "din-black";
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.extended-description h2{
+	margin-bottom: 5px;
+}
+
+.extended-description p{
+	color: #fff;
+}
+
+.extended-description a{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
