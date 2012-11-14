@@ -1,0 +1,75 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+.content h1{
+	font-size: 20px;
+	line-height: 22px;
+	color: #00a89c;
+	margin-bottom: 15px;
+}
+
+.left-col h2{
+	text-transform: uppercase;
+	font-family: din-black;
+	font-size: 13px;
+	line-height: 15px;
+	margin-bottom:5px;
+}
+
+.left-col li a{
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 35px;
+	display: block;
+	padding: 0 20px;
+}
+
+.left-col li a span{
+	display: inline-block;
+	border-bottom: 2px solid #373737;
+}
+
+.left-col li a.active{
+	background: #f7ac00;
+}
+
+.left-col li a.active span{
+	border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.description{
+	display: none;
+}
+
