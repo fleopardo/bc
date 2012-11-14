@@ -1,0 +1,60 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+body{
+	background-color: #d4d4d4;
+	background-image: url("./assets/home/bg-home.jpg");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./assets/home/bg-home.jpg', sizingMethod='scale')";
+}
+
+
+/*
+ * Header & Breadcrumb
+*/
+.headerSections h3{
+	color: #15b1ec;
+}
+
+.mapa{
+	border-right: 2px solid #15b1ec;
+	border-bottom: 2px solid #15b1ec;
+	min-height: 300px;
+	background: #fff;
+	padding: 25px 0;
+}
+
+.mapa .col{
+	margin-left: 15px;
+}
+
+.mapa .col dt, .mapa .titulo{
+	font-size: 16px;
+	font-family: "din-black", Helvetica, Arial;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.mapa .col dd{
+	line-height: 20px;
+}
+
+.mapa .col dd > ul{
+	padding-left: 17px;
+	margin: 5px 0 15px 0;
+}
+
+.mapa .col dd > ul li{
+	line-height: 16px;
+}
+
+.mapa .col dd > ul li a{
+	color: #a1a1a1;
+}
+
+.mapa .col a:hover{
+	color: #6f6f6f;
+}
