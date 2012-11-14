@@ -76,15 +76,41 @@
 	margin-bottom: 20px;
 }
 
+.description p{
+	font-size: 13px;
+	line-height: 17px;
+	margin-bottom: 15px;
+}
 
+.description p a{
+	font-size: 13px;
+	line-height: 17px;
+	color: #f7ac00;
+	font-family: din-black;
+}
 
+.description p a:hover{
+	text-decoration: underline;
+}
 
+.description h3{
+	font-size: 20px;
+	line-height: 22px;
+	color: #00a89c;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
 
+.description li{
+	overflow: hidden;
+}
 
-
-
-
-
+.description li span,
+.description li a{
+	display: inline-block;
+	font-size: 13px;
+	line-height: 15
+}
 
 
 
