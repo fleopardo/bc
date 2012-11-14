@@ -49,4 +49,11 @@
 		$(this).addClass("active");
 	});
 
+	/*
+	 * Target _blank valido para html5
+	*/
+	$(".description .universidades-interior a").attr("target","_blank");
+	$(".description .universidades-bsas a").attr("target","_blank");
+
+
 })(window);
