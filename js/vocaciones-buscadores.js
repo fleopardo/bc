@@ -39,7 +39,6 @@
 	$(".filtros a").bind("click",function(e){
 
 		e.preventDefault();
-		console.log();
 
 		$(".filtros a").removeClass("active");
 
