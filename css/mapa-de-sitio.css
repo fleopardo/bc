@@ -55,6 +55,23 @@ body{
 	color: #a1a1a1;
 }
 
+.col-fundacion a:hover{
+	color: #34AAEC;
+}
+
+.col-educacion a:hover,
 .mapa .col a:hover{
-	color: #6f6f6f;
+	color: #1EAA9C;
+}
+
+.col-comunidad a:hover{
+	color: #AFD741;
+}
+
+.col-publicaciones:hover{
+	color: #ED00A1;
+}
+
+.col-novedades:hover{
+	color: #F3AE24;
 }

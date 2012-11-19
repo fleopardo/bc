@@ -8,6 +8,8 @@
 /*
  * Taller / Crear identidad
 */
+
+
 .modulos img{
 	max-width: none;
 }
@@ -43,9 +45,16 @@
 	line-height: 32px;
 }
 
-.cont-titleSecundario-breadcrumb li a.active{
+.cont-titleSecundario-breadcrumb li a:hover{
+	color: #B2D235;
+}
+
+.cont-titleSecundario-breadcrumb li a.active,
+.cont-titleSecundario-breadcrumb li a.active:hover{
 	color: #a5a5a5;
 }
+
+
 
 
 /*

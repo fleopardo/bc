@@ -38,7 +38,7 @@
 }
 
 .left-col li a span{
-	display: inline-block;
+	display: block;
 	border-bottom: 2px solid #373737;
 }
 

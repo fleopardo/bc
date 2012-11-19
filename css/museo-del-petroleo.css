@@ -26,3 +26,11 @@
 .destacado p span{
 	font-family: "din-black";
 }
+
+.destacado p a{
+	color: #1EAA9C;
+}
+
+.destacado p a:hover{
+	text-decoration: underline;
+}

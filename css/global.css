@@ -408,6 +408,10 @@ div.tooltipCompartir li a{
 		background-position: -269px -27px;
 	}
 
+div.tooltipCompartir li a:hover{
+	color: #FDC340;
+}
+
 /*
  * Buscador
 */
