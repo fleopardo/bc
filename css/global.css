@@ -499,7 +499,7 @@ footer .buscador input[type="submit"]:hover{
 
 /* Header de secciones */
 .headerSections{
-	font-family: "din-black",Arial,Helvetica;
+	
 	background: url("./assets/la-fundacion/header.png") left bottom no-repeat;
 	position: relative;
 	margin: 18px 0 12px 0;
@@ -511,6 +511,7 @@ footer .buscador input[type="submit"]:hover{
 
 .headerSections h2{
 	font-size: 23px;
+	font-family: "din-black",Arial,Helvetica;
 	line-height: 23px;
 	color: #373737;
 	text-transform: lowercase;
@@ -520,6 +521,7 @@ footer .buscador input[type="submit"]:hover{
 
 .headerSections h3{
 	text-transform: uppercase;
+	font-family: "din-black",Arial,Helvetica;
 	color: #fff;
 	font-size: 26px;
 	line-height: 45px;
