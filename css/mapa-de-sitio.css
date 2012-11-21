@@ -55,13 +55,14 @@ body{
 	color: #a1a1a1;
 }
 
-.col-fundacion a:hover{
-	color: #34AAEC;
+
+
+.col-educacion a:hover{
+	color: #1EAA9C;
 }
 
-.col-educacion a:hover,
-.mapa .col a:hover{
-	color: #1EAA9C;
+.col-fundacion a:hover{
+	color: #34AAEC;
 }
 
 .col-comunidad a:hover{

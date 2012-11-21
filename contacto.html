@@ -116,61 +116,73 @@
 
 			<div class="span8">
 				<div class="row">
-					<form action="">
+					<form action="" id="contactForm">
 						<div class="span4">
 							<div class="content">
 								<fieldset>
-									<input type="text" placeholder="Nombre" id="" >
-									<input type="text" placeholder="Apellido" id="" >
-									<input type="text" placeholder="Email" id="" >
-									<select>
-										<option>Ciudad/Provincia</option>
-										<option>Buenos Aires</option>
-										<option>Catamarca</option>
-										<option>Chaco</option>
-										<option>Chubut</option>
-										<option>Córdoba</option>
-										<option>Corrientes</option>
-										<option>Entre Ríos</option>
-										<option>Formosa</option>
-										<option>Jujuy</option>
-										<option>La Pampa</option>
-										<option>La Rioja</option>
-										<option>Mendoza</option>
-										<option>Misiones</option>
-										<option>Neuquén</option>
-										<option>Río Negro</option>
-										<option>Salta</option>
-										<option>San Juan</option>
-										<option>San Luis</option>
-										<option>Santa Cruz</option>
-										<option>Santa Fe</option>
-										<option>Santiago del Estero</option>
-										<option>Tierra del Fuego</option>
-										<option>Tucumán</option>
-									</select>
-									<select>
-										<option>Asunto</option>
-										<option>Becas</option>
-										<option>Pasantías</option>
-										<option>Formación técnica</option>
-										<option>Carreras</option>
-										<option>Archivo Histórico</option>
-										<option>Talleres Crear Comunidad</option>
-										<option>Centro Cultural Las Heras</option>
-										<option>Centro Cultural Gregorio Álvarez</option>
-										<option>Museo del Petróleo y el Medio Ambiente</option>
-										<option>Móvil Ciencia y Tecnología en Movimiento</option>
-										<option>Museos Argentinos</option>
-										<option>Otro (especificar) (habilita campo de texto)</option>
-									</select>
+									<div class="fields">
+										<input type="text" placeholder="Nombre" id="nombre" >
+									</div>
+									<div class="fields">
+										<input type="text" placeholder="Apellido" id="apellido" >
+									</div>
+									<div class="fields">
+										<input type="text" placeholder="Email" id="email" >
+									</div>
+									<div class="fields">
+										<select id="ciudad">
+											<option>Ciudad/Provincia</option>
+											<option>Buenos Aires</option>
+											<option>Catamarca</option>
+											<option>Chaco</option>
+											<option>Chubut</option>
+											<option>Córdoba</option>
+											<option>Corrientes</option>
+											<option>Entre Ríos</option>
+											<option>Formosa</option>
+											<option>Jujuy</option>
+											<option>La Pampa</option>
+											<option>La Rioja</option>
+											<option>Mendoza</option>
+											<option>Misiones</option>
+											<option>Neuquén</option>
+											<option>Río Negro</option>
+											<option>Salta</option>
+											<option>San Juan</option>
+											<option>San Luis</option>
+											<option>Santa Cruz</option>
+											<option>Santa Fe</option>
+											<option>Santiago del Estero</option>
+											<option>Tierra del Fuego</option>
+											<option>Tucumán</option>
+										</select>
+									</div>
+									<div class="fields">
+										<select id="asunto">
+											<option>Asunto</option>
+											<option>Becas</option>
+											<option>Pasantías</option>
+											<option>Formación técnica</option>
+											<option>Carreras</option>
+											<option>Archivo Histórico</option>
+											<option>Talleres Crear Comunidad</option>
+											<option>Centro Cultural Las Heras</option>
+											<option>Centro Cultural Gregorio Álvarez</option>
+											<option>Museo del Petróleo y el Medio Ambiente</option>
+											<option>Móvil Ciencia y Tecnología en Movimiento</option>
+											<option>Museos Argentinos</option>
+											<option>Otro (especificar) (habilita campo de texto)</option>
+										</select>
+									</div>
 								</fieldset>
 							</div>
 						</div>
 						<div class="span4">
 							<div class="content">
 								<fieldset>
-									<textarea id="" placeholder="Mensaje"></textarea>
+									<div class="fields">
+										<textarea id="mensaje" placeholder="Mensaje"></textarea>
+									</div>
 								</fieldset>
 								<fieldset class="submit-cont">
 									<span>Todos los Campos son Obligatorios.</span>

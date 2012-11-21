@@ -72,16 +72,15 @@
 	border: 1px solid #dfdfdf;
 	font-size: 12px;
 	color: #373737;
-	margin-bottom: 26px;
 	background: #fff;
 }
 
 .contacto .formulario select{
 	width: 274px;
 }
-.contacto .ui-selectmenu{
+/*.contacto .ui-selectmenu{
 	margin-bottom: 24px;
-}
+}*/
 
 .formulario input[type=submit],
 .formulario form span{
@@ -135,4 +134,17 @@
 
 .formulario input[type=submit]:hover{
 	background-color: #50c5f1;
+}
+
+.fields{
+	position: relative;
+	padding-bottom: 26px;
+}
+
+.fields .mensajeError{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #0099ff;
+	font-size: 11px;
 }
