@@ -63,8 +63,9 @@
 	background: url(../css/assets/ic_ver-mas.jpg) left no-repeat;
 	display: inline-block;
 	padding-left: 24px;
-	line-height: 20px;
+	line-height: 21px;
 	font-family: "din-black";
+	font-size: 12px;
 }
 
 .leer-mas.static{
@@ -152,9 +153,14 @@ article .texto a:hover{
 	top: 5px;
 	right: 0;
 	font-size: 12px;
-	font-family: "din-medium";
+	font-family: "din-black";
 	text-transform: uppercase;
 }
+
+.headerSection a:hover{
+	color: #F3AE24;
+}
+
 
 .nota .modulos{
 	background: none;

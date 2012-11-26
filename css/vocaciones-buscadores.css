@@ -99,6 +99,11 @@
 	margin-right: 12px;
 }
 
+.description .filtros a.active{
+	background-color: #00A89C;
+}
+
+
 .description p{
 	font-size: 13px;
 	line-height: 17px;
