@@ -29,37 +29,52 @@
 	display: inline;
 }
 
-.contacto .formulario > .span4 ul{
+.contacto .formulario > .datos ul{
 	margin-top: 20px;
 }
 
-.contacto .formulario > .span4 li{
+.contacto .formulario > .datos li{
 	color: #373737;
 	padding-left: 15px;
 	margin-bottom: 10px;
+	font: 13px/22px din-medium;
+	margin-bottom: 30px;
 }
 
-.contacto .formulario > .span4 .tel,
-.contacto .formulario > .span4 .dir{
+/*.contacto .formulario > .datos .tel,
+.contacto .formulario > .datos .dir{
 	background: url("./assets/ir-a-ypf.png") no-repeat 0px 3px;
 	font: 13px/15px din-black;
+}*/
+
+.contacto .formulario > .datos .mail span,
+.contacto .formulario > .datos .nro span,
+.contacto .formulario > .datos .calle span,
+.contacto .formulario > .datos .mail a:hover{
+	color: #0298ff;
 }
 
-.contacto .formulario > .span4 .nro{
-	background: url("./assets/ic_telefono-contacto.png") no-repeat 0px 1px;
-	font: 13px/15px din-medium;
+.contacto .formulario > .datos .mail{
+	background: url("./assets/ic_mail-contacto.jpg") no-repeat 0px 3px;
 }
 
-.contacto .formulario > .span4 .calle{
-	background: url("./assets/ic_sobre-contacto.png") no-repeat 0px 1px;
-	font: 13px/15px din-medium;
+.contacto .formulario > .datos .mail a{
+	font-style: italic;
 }
 
-.contacto .formulario .span4{
+.contacto .formulario > .datos .nro{
+	background: url("./assets/ic_telefono-contacto.png") no-repeat 0px 6px;
+}
+
+.contacto .formulario > .datos .calle{
+	background: url("./assets/ic_sobre-contacto.png") no-repeat 0px 6px;
+}
+
+.contacto .formulario .datos{
 	background: #fff;
 }
 
-.contacto .formulario .span8 .span4{
+.contacto .formulario .span8 .datos{
 	background: #f2f2f2;
 }
 
