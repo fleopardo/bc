@@ -13,9 +13,9 @@
 }
 
 .consejo-administrativo article .info{
-	background-color: rgba(2,125,196,0.8);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#990d74b0,endColorstr=#990d74b0);
-  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#990d74b0,endColorstr=#990d74b0)";
+	background-color: rgba(21,177,236,0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9915b1ec,endColorstr=#9915b1ec);
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#9915b1ec,endColorstr=#9915b1ec)";
 	padding: 15px 10px;
 }
 
@@ -61,8 +61,8 @@
 
 .infoStaff article{
 	background: #fff;
-	border-right: 2px solid #34AAEC;
-	border-bottom: 2px solid #34AAEC;
+	border-right: 2px solid #b2d233;
+	border-bottom: 2px solid #b2d233;
 	margin-right: -2px;
 }
 
