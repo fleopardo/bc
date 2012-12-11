@@ -70,10 +70,28 @@
  * Estilos para la galeria mientras no esta inicializada.
  * Evita ver acomodamiento de las imagenes
 */
-.modulos article > div.info{
-	background-color: #fff;
+
+.modulos article.bloque1 > div.info{
 	border-bottom: 2px solid #B3D236;
 	border-right: 2px solid #B3D236;
+}
+
+.modulos article.bloque2 > div.info{
+	border-bottom: 2px solid #ED00A1;
+	border-right: 2px solid #ED00A1;
+}
+
+
+.modulos article.bloque1 > div.info h4{
+	color: #B3D236;
+}
+
+.modulos article.bloque2 > div.info h4{
+	color: #ED00A1;
+}
+
+.modulos article > div.info{
+	background-color: #fff;
 	padding: 20px;
 	position: relative;
 	width: auto;
@@ -86,7 +104,6 @@
 	letter-spacing: -1px;
 	line-height: 27px;
 	margin-bottom: 15px;
-	color: #2fb5ac;
 }
 
 .modulos article > div.info p{

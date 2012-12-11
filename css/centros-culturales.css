@@ -45,9 +45,25 @@
 */
 
 .modulos article > div.info{
+	border-bottom: 2px solid #00A89C;
+	border-right: 2px solid #00A89C;
+}
+
+.modulos article > div.info{
+	border-bottom: 2px solid #F3AE24;
+	border-right: 2px solid #F3AE24;
+}
+
+.modulos article.bloque1 > div.info h4{
+	color: #00A89C;
+}
+
+.modulos article.bloque2 > div.info h4{
+	color: #F3AE24;
+}
+
+.modulos article > div.info{
 	background-color: #fff;
-	border-bottom: 2px solid #b6d441;
-	border-right: 2px solid #b6d441;
 	padding: 20px;
 	position: relative;
 	width: auto;
@@ -60,7 +76,6 @@
 	letter-spacing: -1px;
 	line-height: 27px;
 	margin-bottom: 15px;
-	color: #AFD741;
 }
 
 .modulos article > div.info p{

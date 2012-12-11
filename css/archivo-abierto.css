@@ -55,10 +55,44 @@
 	margin-bottom: 30px;
 }
 
+.modulos article.bloque1 > div {
+	border-bottom: 2px solid #00A89C;
+	border-right: 2px solid #00A89C;
+}
+
+.modulos article.bloque2 > div {
+	border-bottom: 2px solid #EB008B;
+	border-right: 2px solid #EB008B;
+}
+
+.modulos article.bloque3 > div {
+	border-bottom: 2px solid #15b1eb;
+	border-right: 2px solid #15b1eb;
+}
+
+.modulos article.bloque4 > div {
+	border-bottom: 2px solid #f7ac00;
+	border-right: 2px solid #f7ac00;
+}
+
+.modulos article.bloque1 > div h4 a{
+	background: url("./assets/ic_flecha-verde-oscuro.png") left no-repeat;
+}
+
+.modulos article.bloque2 > div h4 a{
+	background: url("./assets/ic_flecha-rosa.png") left no-repeat;
+}
+
+.modulos article.bloque3 > div h4 a{
+	background: url("./assets/ic_flecha-azul.png") left no-repeat;
+}
+
+.modulos article.bloque4 > div h4 a{
+	background: url("./assets/ic_flecha-amarilla.png") left no-repeat;
+}
+
 .modulos article > div{
 	background-color: #fff;
-	border-bottom: 2px solid #b6d441;
-	border-right: 2px solid #b6d441;
 	padding: 0 20px;
 	position: relative;
 	width: auto;
@@ -72,7 +106,7 @@
 	letter-spacing: -1px;
 	line-height: 62px;
 	padding-left: 20px;
-	background: url("./assets/ic_flecha-verde.png") left no-repeat;
+	
 }
 
 .modulos article > div h4 a:hover{
