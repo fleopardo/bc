@@ -59,6 +59,10 @@
 	line-height: 24px;
 }
 
+.bloque2 .left-col p{
+	text-transform: uppercase;
+}
+
 .bloque2 .left-col img,
 .bloque2 .left-col h2{
 	margin-bottom: 15px;
@@ -80,6 +84,30 @@
 .bloque2 .right-col li{
 	margin-bottom: 18px;
 	padding-left: 25px;
-	background: url(../css/assets/ic_flecha-verde.png) left 2px no-repeat;
 }
 
+.bloque2 .right-col .left li{
+	background: url(../css/assets/ic_flecha-verde.png) left 2px no-repeat;
+
+}
+
+.bloque2 .right-col .right li{
+	background: url(../css/assets/ic_flecha-amarilla.png) left 2px no-repeat;
+	padding-right: 12px;
+}
+
+.info-extra{
+	margin: 20px;
+	background:#f2f2f2;
+	padding: 20px;
+}
+
+.info-extra h3,
+.info-extra p{
+	font-size: 11px;
+}
+
+.info-extra h3{
+	text-transform: uppercase;
+	font-family: din-black;
+}
