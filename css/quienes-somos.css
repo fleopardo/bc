@@ -59,10 +59,23 @@
  * Staff
 */
 
+.infoStaff article.bloque1{
+	border-right: 2px solid #16B2ED;
+	border-bottom: 2px solid #16B2ED;
+}
+
+.infoStaff article.bloque2{
+	border-right: 2px solid #ED00A1;
+	border-bottom: 2px solid #ED00A1;
+}
+
+.infoStaff article.bloque3{
+	border-right: 2px solid #F3AE24;
+	border-bottom: 2px solid #F3AE24;
+}
+
 .infoStaff article{
 	background: #fff;
-	border-right: 2px solid #b2d233;
-	border-bottom: 2px solid #b2d233;
 	margin-right: -2px;
 }
 

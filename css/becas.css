@@ -10,6 +10,7 @@
 
 .destacado > div{
 	position: relative;
+	height: 308px;
 }
 
 .destacado p{
@@ -17,7 +18,7 @@
 	padding: 20px;
 	background: #fff;
 	position: absolute;
-	top: 135px;
+	bottom: 0;
 	left: 0;
 	margin: 0;
 	line-height: 16px;
@@ -26,3 +27,59 @@
 .destacado p span{
 	font-family: "din-black";
 }
+
+.bloque .info{
+	float: left;
+	width: 505px;
+	padding: 20px;
+}
+
+.bloque{
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.bloque1{
+	border-bottom: 2px solid #b2d235;
+	border-left: 2px solid #b2d235;
+}
+
+.bloque1 img{
+	float: right;
+}
+
+.bloque2 h2{
+	text-transform: uppercase;
+}
+
+.bloque2 .left-col h2{
+	color: #eda22e;
+	font-size: 22px;
+	line-height: 24px;
+}
+
+.bloque2 .left-col img,
+.bloque2 .left-col h2{
+	margin-bottom: 15px;
+}
+
+.bloque2 .left-col h2,
+.bloque2 .left-col p{
+	padding: 0 15px;
+}
+
+
+.bloque2 .right-col h2{
+	font-size: 18px;
+	line-height: 20px;
+	margin-left: 25px;
+	margin: 24px 0 20px 12px;
+}
+
+.bloque2 .right-col li{
+	margin-bottom: 18px;
+	padding-left: 25px;
+	background: url(../css/assets/ic_flecha-verde.png) left 2px no-repeat;
+}
+

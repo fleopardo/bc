@@ -60,9 +60,9 @@
 	position: absolute;
 	bottom: 10px;
 	text-transform: uppercase;
-	background: url(../css/assets/ic_ver-mas.jpg) left no-repeat;
+	background: url(../css/assets/ic_flecha-azul.png) left no-repeat;
 	display: inline-block;
-	padding-left: 24px;
+	padding-left: 16px;
 	line-height: 21px;
 	font-family: "din-black";
 	font-size: 12px;
@@ -74,7 +74,7 @@
 }
 
 .leer-mas:hover{
-	color: #F3AE24;
+	color: #16B2ED;
 }
 
 .span6.modulos > div{

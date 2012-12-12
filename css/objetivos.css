@@ -35,8 +35,8 @@
 }
 
 .modulos article.bloque2 > div{
-	border-bottom: 2px solid #0faca1;
-	border-right: 2px solid #0faca1;
+	border-bottom: 2px solid #ED00A1;
+	border-right: 2px solid #ED00A1;
 }
 
 .modulos article.bloque3 > div{
@@ -49,7 +49,7 @@
 }
 
 .modulos article.bloque2 > div h4{
-	color: #0faca1;
+	color: #ED00A1;
 }
 
 .modulos article.bloque3 > div h4{
