@@ -34,6 +34,14 @@
 	padding: 20px;
 }
 
+
+.bloque .info h2{
+	font-family: din-black;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
 .bloque{
 	background: #fff;
 	overflow: hidden;
@@ -47,6 +55,11 @@
 
 .bloque1 img{
 	float: right;
+}
+
+.bloque2{
+	border-bottom: 2px solid #34AAEC;
+	border-right: 2px solid #34AAEC;
 }
 
 .bloque2 h2{
@@ -78,11 +91,11 @@
 	font-size: 18px;
 	line-height: 20px;
 	margin-left: 25px;
-	margin: 24px 0 20px 12px;
+	margin: 24px 0 12px;
 }
 
 .bloque2 .right-col li{
-	margin-bottom: 18px;
+	margin-bottom: 5px;
 	padding-left: 25px;
 }
 
@@ -104,10 +117,31 @@
 
 .info-extra h3,
 .info-extra p{
-	font-size: 11px;
+	/*font-size: 11px;*/
 }
 
 .info-extra h3{
 	text-transform: uppercase;
 	font-family: din-black;
+}
+
+.info-extra .cont-links{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.solicitar,
+.condiciones{
+	display: inline-block;
+	text-transform: uppercase;
+	background: url(../css/assets/ic_flecha-verde-oscuro.png) left no-repeat;
+	padding-left: 17px;
+}
+
+.solicitar{
+	float: right;
+}
+
+.condiciones{
+	float: left;
 }
