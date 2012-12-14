@@ -64,12 +64,8 @@
 
 .bloque2 h2{
 	text-transform: uppercase;
-}
-
-.bloque2 .left-col h2{
-	color: #eda22e;
-	font-size: 22px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 20px;
 }
 
 .bloque2 .left-col p{
@@ -88,25 +84,19 @@
 
 
 .bloque2 .right-col h2{
-	font-size: 18px;
-	line-height: 20px;
-	margin-left: 25px;
-	margin: 24px 0 12px;
+	
+	margin: 24px 0 12px 19px;
 }
 
 .bloque2 .right-col li{
 	margin-bottom: 5px;
 	padding-left: 25px;
-}
-
-.bloque2 .right-col .left li{
-	background: url(../css/assets/ic_flecha-verde.png) left 2px no-repeat;
-
-}
-
-.bloque2 .right-col .right li{
 	background: url(../css/assets/ic_flecha-amarilla.png) left 2px no-repeat;
 	padding-right: 12px;
+}
+
+.bloque2 .right-col .right p{
+	margin-top: 15px;
 }
 
 .info-extra{
@@ -128,20 +118,25 @@
 .info-extra .cont-links{
 	overflow: hidden;
 	margin-bottom: 20px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 20px;
+	line-height: 20px;
 }
 
 .solicitar,
 .condiciones{
 	display: inline-block;
 	text-transform: uppercase;
-	background: url(../css/assets/ic_flecha-verde-oscuro.png) left no-repeat;
-	padding-left: 17px;
 }
 
 .solicitar{
 	float: right;
+	background: url(../css/assets/ic_flecha-verde-oscuro.png) left no-repeat;
+	padding-left: 17px;
 }
 
 .condiciones{
 	float: left;
+	background: url(../css/assets/ic_pdf.png) right no-repeat;
+	padding-right: 24px;
 }

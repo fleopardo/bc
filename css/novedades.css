@@ -185,15 +185,23 @@ article .texto a:hover{
 .nota .info{
 	float: left;
 	width: 530px;
-	height: 620px;
+	min-height: 620px;
 	background: #fff;
 	border-bottom: 2px solid #f7ac00;
 	border-right: 2px solid #f7ac00;
 }
 
+.nota .info ul{
+	margin-bottom: 20px;
+}
+
 .nota .carouselSecundario {
 	background: #f2f2f2;
 	padding: 20px 0;
+}
+
+.nota .carouselSecundario ul{
+	margin-bottom: 0;
 }
 
 .nota .carouselSecundario .jcarousel > li{
