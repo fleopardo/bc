@@ -49,11 +49,22 @@ body{
  * Listado
 */
 
+.educacion article{
+	border-left: 5px solid #1EAA9C;
+}
+
+.ciencia article{
+	border-left: 5px solid #F3AE24;
+}
+
+.sociales article{
+	border-left: 5px solid #34AAEC;
+}
+
 article{
 	overflow: hidden;
 	margin-bottom: 1px;
 	background: #fff;
-	border-left: 5px solid #eb008b;
 	position: relative;
 }
 

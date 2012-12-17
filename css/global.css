@@ -185,6 +185,9 @@ input.placeholder{ color: #373737; }
 	float: left;
 }
 
+
+
+
 /*
  * Links principales
 */
@@ -692,4 +695,19 @@ footer .buscador input[type="submit"]:hover{
     cursor: default;
     background-position: -36px -56px;
     display: none !important;
+}
+
+
+
+/*MEDIA QUERY MENU PRINCIPAL*/
+@media screen and (max-width: 960px)
+{
+    .menuPrincipal .col h3,
+	.menuPrincipal .col ul{
+		padding: 0 12px;
+	}
+
+	.menuPrincipal .open{
+		right: 200px;
+	}
 }
