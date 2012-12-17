@@ -119,7 +119,7 @@
 
 			"mouseout": function(){
 				autoplay = true;
-			},
+			}
 		});
 
 		//Ejecuto autoslide
