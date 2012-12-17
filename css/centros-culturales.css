@@ -39,6 +39,10 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .destacado > div .info span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
 
 /*
  * Actividades
@@ -90,6 +94,13 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .modulos article > div.info p span,
+.lt-ie10 .modulos .lugares li span,
+.lt-ie10 .modulos .lugares li i{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .modulos .lugares{
 	background: #f2f2f2;
 	padding: 15px 10px;
@@ -103,6 +114,11 @@
 	padding-left: 15px;
 	margin-bottom: 15px;
 	margin-left: -15px;
+}
+
+.lt-ie10 .modulos .lugares h5{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .modulos .lugares .jcarousel li{

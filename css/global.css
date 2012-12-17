@@ -73,6 +73,10 @@ body{
 	padding-bottom: 140px; /* Para menu contraido */
 }
 
+.lt-ie10 body {
+	font-family: arial, helvetica, sans-serif;
+}
+
 .container-fluid{
 	margin: 0 auto;
 	max-width: 940px;
@@ -110,6 +114,11 @@ input.placeholder{ color: #373737; }
 	font-size: 12px;
 	font-family: "din-black",arial;
 	text-align: right;
+}
+
+.lt-ie10 .ir-a-ypf p{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .ir-a-ypf a{
@@ -203,9 +212,14 @@ input.placeholder{ color: #373737; }
 
 }
 
+.lt-ie10 .menuPrincipal .col h3{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .menuPrincipal .col h3,
 .menuPrincipal .col ul{
-	padding: 0 30px;
+	padding: 0 28px;
 }
 
 .menuPrincipal .col.last h3{
@@ -474,6 +488,11 @@ footer .buscador input[type="submit"]:hover{
 	position: relative;
 }
 
+.lt-ie10 .leerMas{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .leerMas:hover{
 	color:#f7ac00;
 }
@@ -523,6 +542,11 @@ footer .buscador input[type="submit"]:hover{
 	top: 6px;
 }
 
+.lt-ie10 .headerSections h2{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .headerSections h3{
 	text-transform: uppercase;
 	font-family: "din-black",Arial,Helvetica;
@@ -530,6 +554,11 @@ footer .buscador input[type="submit"]:hover{
 	font-size: 26px;
 	line-height: 45px;
 	letter-spacing: -1px;
+}
+
+.lt-ie10 .headerSections h3{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .headerSections .breadcrum{

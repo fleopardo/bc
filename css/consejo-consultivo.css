@@ -49,6 +49,11 @@ article h4 span{
 	display: block;
 }
 
+.lt-ie10 article h4 span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 article p{
 	margin-bottom: 5px;
 	font-size: 11px;

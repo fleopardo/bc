@@ -179,6 +179,11 @@ article .info h3{
 		font-family: "din-black",arial;
 	}
 
+	.lt-ie10 article .info h3 > span{
+		font-family: arial, helvetica, sans-serif;
+		font-weight: bold;
+	}
+
 article .info p{
 	font-size: 11px;
 	line-height: 13px;

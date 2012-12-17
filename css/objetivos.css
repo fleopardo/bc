@@ -27,7 +27,10 @@
 	font-family: "din-black";
 }
 
-
+.lt-ie10 .destacado p span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
 
 .modulos article.bloque1 > div{
 	border-bottom: 2px solid #16b2ed;

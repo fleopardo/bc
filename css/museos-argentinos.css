@@ -118,3 +118,10 @@
 .modulos .lugares li i{
 	font-family: "din-black";
 }
+
+.lt-ie10 .modulos article > div.info p span,
+.lt-ie10 .modulos .lugares li span,
+.lt-ie10 .modulos .lugares li i{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}

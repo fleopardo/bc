@@ -45,6 +45,11 @@
 	display: block;
 }
 
+.lt-ie10 .consejo-administrativo article h4 span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .consejo-administrativo article .info p{
 	margin-bottom: 10px;
 	font-size: 13px;
@@ -97,4 +102,9 @@
 
 .infoStaff article dd span{
 	font-family: "din-black",Arial,Helvetica;
+}
+
+.lt-ie10 .infoStaff article dd span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }

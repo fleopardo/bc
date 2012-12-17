@@ -39,6 +39,10 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .destacado > div .info span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
 
 /*
  * modulos
@@ -112,6 +116,11 @@
 	margin-top: 5px;
 }
 
+.lt-ie10 .modulos article > div.info a{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .modulos article > div.info a:hover{
 	color: #6f6f6f;
 }
@@ -124,6 +133,10 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .modulos article > div.info p span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
 
 .modulos .destacado{
 	background: #f2f2f2;
@@ -138,6 +151,11 @@
 	padding-left: 15px;
 	margin-bottom: 15px;
 	margin-left: -15px;
+}
+
+.lt-ie10 .modulos .destacado h5{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .modulos .destacado .jcarousel > li{

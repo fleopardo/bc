@@ -40,6 +40,11 @@
 	margin-bottom: 0;
 }
 
+.lt-ie10 .descarga-pdf .span8 li p{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .descarga-pdf .span8 li span{
 	color: #0079c1;
 }
@@ -52,6 +57,11 @@
 	text-transform: uppercase;
 	display: block;
 	float: right;
+}
+
+.lt-ie10 .descarga-pdf .span8 li a{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .descarga-pdf .span8 li a:hover{

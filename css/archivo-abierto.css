@@ -30,6 +30,11 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .destacado > div .info h5{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .destacado > div .info p{
 	line-height: 16px;
 	margin-bottom: 18px;
@@ -44,8 +49,23 @@
 	font-size: 12px;
 }
 
+.destacado > div .info p a{
+	text-transform: uppercase;
+	display: inline-block;
+	background: url(../css/assets/ic_flecha-verde.png) left no-repeat;
+	padding-left: 13px;
+	font-family: din-black;
+	line-height: 20px;
+}
 
+.lt-ie10 .destacado > div .info p a{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
 
+.destacado > div .info p a:hover{
+	color: #B2D235;
+}
 
 /*
  * Actividades

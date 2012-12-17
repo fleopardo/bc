@@ -27,6 +27,12 @@
 	padding: 16px;
 }
 
+.lt-ie10 .bloques h1{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
 .bloques h1 span{
 	font-size: 15px;
 	line-height: 18px;

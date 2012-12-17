@@ -39,6 +39,10 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .destacado > div .info span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
 
 /*
  * Actividades
@@ -99,4 +103,11 @@
 .modulos .lugares li span,
 .modulos .lugares li i{
 	font-family: "din-black";
+}
+
+.lt-ie10 .modulos article > div.info p span,
+.lt-ie10 .modulos .lugares li span,
+.lt-ie10 .modulos .lugares li i{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }

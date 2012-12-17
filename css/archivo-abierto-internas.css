@@ -96,6 +96,12 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .modulos article > div p span,
+.lt-ie10 .modulos .lugares li span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .modulos .lugares{
 	background: #f2f2f2;
 	padding: 15px 10px;
@@ -115,10 +121,11 @@
 	background: url("./assets/ic_flecha-verde.png") left top no-repeat;
 }
 
-.modulos .lugares h6{
-	margin: 10px 0;
+.lt-ie10 .modulos .lugares h5{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }
 
-.modulos .lugares ul{
-
+.modulos .lugares h6{
+	margin: 10px 0;
 }

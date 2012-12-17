@@ -38,6 +38,12 @@ body{
 	margin-bottom: 15px;
 }
 
+.lt-ie10 .mapa .col dt, 
+.mapa .titulo{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .mapa .col dd{
 	line-height: 20px;
 }

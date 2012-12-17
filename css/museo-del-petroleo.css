@@ -27,6 +27,11 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .destacado p span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .destacado p a{
 	color: #1EAA9C;
 }

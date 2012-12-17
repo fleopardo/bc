@@ -30,6 +30,12 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .destacado > div .info h5{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
 .destacado > div .info p{
 	line-height: 16px;
 	margin-bottom: 18px;
@@ -123,6 +129,12 @@
 	font-family: "din-black";
 }
 
+.lt-ie10 .modulos article > div.info p span,
+.lt-ie10 .modulos .lugares li span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .modulos .lugares{
 	background: #f2f2f2;
 	padding: 15px 10px;
@@ -137,6 +149,12 @@
 	padding-left: 15px;
 }
 
+.lt-ie10 .modulos .lugares h5{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
 .modulos .lugares .jcarousel li{
 	padding-bottom: 5px;
 }
@@ -144,4 +162,3 @@
 .modulos .lugares .jcarousel h6{
 	margin: 10px 0;
 }
-

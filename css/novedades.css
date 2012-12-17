@@ -68,6 +68,11 @@
 	font-size: 12px;
 }
 
+.lt-ie10 .leer-mas{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 .leer-mas.static{
 	position: inherit;
 	margin-top: 15px;
@@ -113,6 +118,11 @@ article .titulo{
 	border-bottom: 1px solid #e2e2e2;
 }
 
+.lt-ie10 article .titulo{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
 article .acordeon{
 	width: 28px;
 	height: 28px;
@@ -155,6 +165,11 @@ article .texto a:hover{
 	font-size: 12px;
 	font-family: "din-black";
 	text-transform: uppercase;
+}
+
+.lt-ie10 .headerSection a{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .headerSection a:hover{
@@ -230,6 +245,13 @@ article .texto a:hover{
 	font-family: din-black;
 	font-size: 13px;
 	line-height: 15px;
+}
+
+.lt-ie10 .nota .carouselSecundario h1,
+.lt-ie10 .nota .carouselSecundario h2,
+.lt-ie10 .nota .carouselSecundario .jcarousel li.first{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
 }
 
 .nota .carouselSecundario h1{
