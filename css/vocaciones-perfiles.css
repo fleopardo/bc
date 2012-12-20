@@ -57,6 +57,9 @@
 	padding: 16px;
 }
 
+.lt-ie10 .extended-description{
+	font-size: 11px;
+}
 
 .amarillo h1 a.active{
 	background:#f7ac00;
