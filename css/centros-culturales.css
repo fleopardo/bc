@@ -48,12 +48,12 @@
  * Actividades
 */
 
-.modulos article > div.info{
+.modulos article.bloque1 > div.info{
 	border-bottom: 2px solid #00A89C;
 	border-right: 2px solid #00A89C;
 }
 
-.modulos article > div.info{
+.modulos article.bloque2 > div.info{
 	border-bottom: 2px solid #F3AE24;
 	border-right: 2px solid #F3AE24;
 }
