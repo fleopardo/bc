@@ -73,9 +73,13 @@
 	font-weight: bold;
 }
 
-.leer-mas.static{
-	position: relative;
-	margin-top: 15px;
+.cont-links-bottom{
+	position: absolute;
+	bottom: 10px;
+}
+
+.cont-links-bottom .leer-mas{
+	position: static;
 }
 
 .leer-mas:hover{
