@@ -1,0 +1,71 @@
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#maximage {
+	display:none;
+	position:fixed !important;
+}
+
+#maximage .info-slider{
+	position:absolute;
+	top: 90px;
+	margin-top: 125px;
+	z-index:9999;
+	left: 0;
+	right: 0;
+}
+
+#maximage .info-slider p{
+	font-size: 80px;
+	color: #fff;
+	text-transform: uppercase;
+	width: 530px;
+}
+
+#arrow_left, #arrow_right {
+	bottom: 39%;
+	height: 85px;
+	position:absolute;
+	width: 46px;
+	z-index:1000;
+	text-indent: -9999px;
+	background: url("./assets/arrows-slider.png") no-repeat;
+}
+
+#arrow_left {
+	left: 30px;
+	background-position: top left;
+}
+
+#arrow_right{
+	right:30px;
+	background-position: top right;
+}
+
+
+#cycle-nav {
+
+}
+
+#cycle-nav ul {
+    list-style-type:none;
+}
+
+#cycle-nav ul li {
+    float: left;
+    margin-right: 6px;
+}
+
+#cycle-nav ul li a {
+    background: #fff;
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+#cycle-nav ul li.activeSlide a{
+    background: #a53228;
+}

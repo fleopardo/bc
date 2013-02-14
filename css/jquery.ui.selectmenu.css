@@ -1,0 +1,129 @@
+.ui-selectmenu {
+background:#fff;
+display:inline-block;
+position:relative;
+height:26px;
+vertical-align:middle;
+text-decoration:none;
+overflow:hidden;
+zoom:1;
+border: 1px solid #dfdfdf;
+}
+
+.ui-selectmenu-icon {
+background:url(../css/assets/ic_selectmenu.png) no-repeat;
+position:absolute;
+right:0;
+top:0;
+width:28px;
+height:28px;
+}
+
+.ui-selectmenu-menu {
+background:white;
+list-style:none;
+position:absolute;
+top:0;
+display:none;
+overflow:auto;
+z-index:1005 !important;
+margin:0;
+padding:0;
+}
+
+.ui-selectmenu-open {
+display:block;
+}
+
+.ui-selectmenu-menu-popup {
+margin-top:-1px;
+}
+
+.ui-selectmenu-menu li {
+display:block;
+border-top:1px dotted transparent;
+border-bottom:1px dotted transparent;
+border-right-width:0!important;
+border-left-width:0!important;
+font-weight:400!important;
+margin:0;
+padding:0;
+}
+
+.ui-selectmenu-menu li a,.ui-selectmenu-status {
+color:#373737;
+line-height:26px;
+display:block;
+outline:none;
+text-decoration:none;
+padding:0 5px;
+font-size: 12px !important;
+}
+
+.ui-selectmenu-menu li.ui-state-disabled a {
+cursor:default;
+}
+
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a,.ui-selectmenu-hasIcon .ui-selectmenu-status {
+padding-left:20px;
+position:relative;
+margin-left:5px;
+}
+
+.ui-selectmenu-menu li .ui-icon,.ui-selectmenu-status .ui-icon {
+position:absolute;
+top:1em;
+margin-top:-8px;
+left:0;
+}
+
+.ui-selectmenu-status {
+line-height:26px;
+color:#373737!important;
+font-size:11px;
+/*font-family:tahoma, arial, helvetica, sans-serif;*/
+padding:0 5px;
+}
+
+.ui-selectmenu-open li.ui-selectmenu-item-focus a {
+background:#f7f7f5;
+}
+
+.ui-selectmenu-menu li span,.ui-selectmenu-status span {
+display:block;
+margin-bottom:.2em;
+}
+
+.ui-selectmenu-menu li .ui-selectmenu-item-header {
+font-weight:700;
+}
+
+.ui-selectmenu-menu li .ui-selectmenu-item-footer {
+opacity:.8;
+}
+
+.ui-selectmenu-menu .ui-selectmenu-group {
+font-size:1em;
+}
+
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label {
+line-height:1.4em;
+display:block;
+font-weight:700;
+padding:.6em .5em 0;
+}
+
+.ui-selectmenu-menu .ui-selectmenu-group ul {
+margin:0;
+padding:0;
+}
+
+* html .ui-selectmenu-menu li {
+filter:chroma(color=pink);
+width:100%;
+border-color:#FFC0CB;
+}
+
+* html .ui-selectmenu-menu li a {
+position:relative;
+}

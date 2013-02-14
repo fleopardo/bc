@@ -1,0 +1,234 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+
+http://html5doctor.com/html-5-reset-stylesheet/
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,images,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none;outline:0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}li{list-style:none}strong{font-weight:bold}
+
+
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+/*
+ * Fonts
+*/
+
+@font-face {
+	font-family: "din-regular";
+	src: url("../fonts/din-regular.eot");
+	src: local("?"),
+	url("../fonts/din-regular.woff") format("woff"),
+	url("../fonts/din-regular.ttf") format("truetype"),
+	url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
+}
+
+@font-face {
+	font-family: "din-medium";
+	src: url("../fonts/din-medium.eot");
+	src: local("?"),
+	url("../fonts/din-medium.woff") format("woff"),
+	url("../fonts/din-medium.ttf") format("truetype"),
+	url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
+}
+
+@font-face {
+	font-family: "din-black";
+	src: url("../fonts/din-black.eot");
+	src: local("?"),
+	url("../fonts/din-black.woff") format("woff"),
+	url("../fonts/din-black.ttf") format("truetype"),
+	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
+}
+
+/*
+ * End Fonts
+*/
+
+/*
+ * Clearfix
+*/
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * End Clearfix
+*/
+
+
+body{
+	width: 100%;
+	font-family: arial, helvetica, sans-serif;
+	color: #FFF;
+	background: #090909;
+}
+
+.hide{
+	display: none;
+}
+
+.show{
+	display: inherit;
+}
+
+::-webkit-input-placeholder  { color:#373737; }
+input:-moz-placeholder { color:#373737; }
+:-ms-input-placeholder { color: #373737; }
+input.placeholder{ color: #373737; }
+
+
+.contenedor{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+header{
+	height: 92px;
+	background: #000; /* Old browsers */
+}
+
+/** Logo */
+header h1,
+header h1 a{
+	display: block;
+	width: 61px;
+	height: 66px;
+}
+
+header h1{
+	float: left;
+	margin-top: 10px;
+}
+
+header h1 a{
+	background: url("./assets/logo.png") no-repeat top left;
+}
+
+/** Nav */
+
+header nav{
+	float: left;
+	background: url("./assets/separador-nav.png") top left no-repeat;
+	height: 92px;
+	margin: 0 0 0 70px;
+}
+
+header nav ul{
+	padding-left: 70px;
+	height: 100%;
+}
+
+header nav li{
+	display: inline-block;
+	margin-right: 70px;
+	padding-right: 70px;
+	list-style: none;
+	background: url("./assets/separador-nav.png") center right no-repeat;
+	line-height: 92px;
+}
+
+header nav li.last{
+	margin-right: 0;
+}
+
+header nav li a{
+	color: #FFF;
+	font-size: 17px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+
+footer{
+	font-family: arial;
+	background: #000;
+	color: #666;
+	font-size: 11px;
+}
+
+footer .contenedor{
+	height: 44px;
+	line-height: 44px;
+}
+
+footer p{
+	float: left;
+}
+
+footer nav{
+	float: right;
+}
+
+footer ul, footer li{
+	float: left;
+}
+
+
+footer .links li{
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px dotted;
+	line-height: 15px;
+	margin-top: 15px;
+}
+
+footer .links li.last{
+	border: none;
+}
+
+footer .links a{
+	color: #666;
+	font-size: 11px;
+}
+
+footer .links a:hover{
+	color: #fff;
+}
+
+footer .social{
+	margin-left: 60px;
+}
+
+footer .social li a{
+	width: 47px;
+	height: 44px;
+	display: block;
+	text-indent: -9999px;
+	background: url("./assets/social.png") no-repeat top left;
+}
+
+	footer .social li a.contacto{
+		background-position: 0 0;
+	}
+
+	footer .social li a.facebook{
+		background-position: -47px 0;
+	}
+
+	footer .social li a.youtube{
+		background-position: -94px 0;
+	}
+
+footer .social li a:hover{
+	opacity: 0.8;
+}
