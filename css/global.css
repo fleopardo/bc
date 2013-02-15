@@ -22,30 +22,30 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 */
 
 @font-face {
-	font-family: "din-regular";
-	src: url("../fonts/din-regular.eot");
+	font-family: "neutra2displaylight";
+	src: url("../fonts/neutra2displaylight.eot");
 	src: local("?"),
-	url("../fonts/din-regular.woff") format("woff"),
-	url("../fonts/din-regular.ttf") format("truetype"),
-	url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
+	url("../fonts/neutra2displaylight.woff") format("woff"),
+	url("../fonts/neutra2displaylight.ttf") format("truetype"),
+	url("../fonts/neutra2displaylight.svg#blaimim_-webfont") format("svg");
 }
 
 @font-face {
-	font-family: "din-medium";
-	src: url("../fonts/din-medium.eot");
+	font-family: "neutra2displaymedium";
+	src: url("../fonts/neutra2displaymedium.eot");
 	src: local("?"),
-	url("../fonts/din-medium.woff") format("woff"),
-	url("../fonts/din-medium.ttf") format("truetype"),
-	url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
+	url("../fonts/neutra2displaymedium.woff") format("woff"),
+	url("../fonts/neutra2displaymedium.ttf") format("truetype"),
+	url("../fonts/neutra2displaymedium.svg#blaimim_-webfont") format("svg");
 }
 
 @font-face {
-	font-family: "din-black";
-	src: url("../fonts/din-black.eot");
+	font-family: "neutraface2displaybold";
+	src: url("../fonts/neutraface2displaybold.eot");
 	src: local("?"),
-	url("../fonts/din-black.woff") format("woff"),
-	url("../fonts/din-black.ttf") format("truetype"),
-	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
+	url("../fonts/neutraface2displaybold.woff") format("woff"),
+	url("../fonts/neutraface2displaybold.ttf") format("truetype"),
+	url("../fonts/neutraface2displaybold.svg#blaimim_-webfont") format("svg");
 }
 
 /*
@@ -100,43 +100,44 @@ input.placeholder{ color: #373737; }
 	margin: 0 auto;
 }
 
-header{
+.header{
 	height: 92px;
 	background: #000; /* Old browsers */
 }
 
 /** Logo */
-header h1,
-header h1 a{
+.header h1,
+.header h1 a{
 	display: block;
 	width: 61px;
 	height: 66px;
 }
 
-header h1{
+.header h1{
 	float: left;
 	margin-top: 10px;
 }
 
-header h1 a{
+.header h1 a{
 	background: url("./assets/logo.png") no-repeat top left;
 }
 
 /** Nav */
 
-header nav{
+.header nav{
 	float: left;
 	background: url("./assets/separador-nav.png") top left no-repeat;
 	height: 92px;
 	margin: 0 0 0 70px;
+	font-family: "neutra2displaymedium";
 }
 
-header nav ul{
+.header nav ul{
 	padding-left: 70px;
 	height: 100%;
 }
 
-header nav li{
+.header nav li{
 	display: inline-block;
 	margin-right: 70px;
 	padding-right: 70px;
@@ -145,11 +146,11 @@ header nav li{
 	line-height: 92px;
 }
 
-header nav li.last{
+.header nav li.last{
 	margin-right: 0;
 }
 
-header nav li a{
+.header nav li a{
 	color: #FFF;
 	font-size: 17px;
 	text-decoration: none;
@@ -231,4 +232,19 @@ footer .social li a{
 
 footer .social li a:hover{
 	opacity: 0.8;
+}
+
+
+
+/* Boton negro */
+
+.btn-negro{
+	background: url("./assets/btn-negro.png") no-repeat top left;
+	display: inline-block;
+	padding: 0 10px 0 38px;
+	color: #fff;
+	font-family: "neutraface2displaybold";
+	text-transform: uppercase;
+	font-size: 11px;
+	line-height: 30px;
 }

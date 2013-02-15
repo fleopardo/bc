@@ -13,17 +13,19 @@ footer{
 #maximage .info-slider{
 	position:absolute;
 	top: 90px;
-	margin-top: 125px;
+	margin-top: 90px;
 	z-index:9999;
 	left: 0;
 	right: 0;
 }
 
 #maximage .info-slider p{
-	font-size: 80px;
+	font-size: 100px;
 	color: #fff;
 	text-transform: uppercase;
-	width: 530px;
+	width: 650px;
+	font-family: "neutra2displaylight";
+	margin-bottom: 10px;
 }
 
 #arrow_left, #arrow_right {
@@ -46,9 +48,11 @@ footer{
 	background-position: top right;
 }
 
-
 #cycle-nav {
-
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 555px;
 }
 
 #cycle-nav ul {
@@ -66,6 +70,7 @@ footer{
     height: 16px;
     width: 16px;
 }
+
 #cycle-nav ul li.activeSlide a{
     background: #a53228;
 }
