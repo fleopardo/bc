@@ -144,7 +144,7 @@ input.placeholder{ color: #373737; }
 	padding-right: 70px;
 	list-style: none;
 	/*background: url("./assets/separador-nav.png") center right no-repeat;*/
-	line-height: 92px;
+	line-height: 300px;
 }
 
 .header nav li.last{
