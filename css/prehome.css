@@ -18,7 +18,7 @@ body{
 .columnaDerecha{
 	width: 430px;
 	float: right;
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 /** Logo */
@@ -58,4 +58,51 @@ h2 span{
 	width: 240px;
 	padding: 8px 15px;
 	background: #fff;
+}
+
+.acciones{
+	overflow: hidden;
+	margin: 20px 0 25px 0;
+}
+
+.acciones li{
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.acciones li a{
+	display: block;
+	width: 46px;
+	height: 46px;
+	line-height: 50px;
+	text-transform: uppercase;
+	font-family: "neutraface2displaybold";
+	font-size: 17px;
+	color: #000;
+	background: #fff;
+}
+
+.acciones li a.primary{
+	background: #b89727;
+	color: #fff;
+}
+
+label[for="recordarme"]{
+	font-family: "neutraface2displaybold";
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+input#recordarme{
+	float: left;
+}
+
+.copy p{
+	color: #cacaca;
+	font-size: 11px;
+	line-height: 14px;
+	margin-bottom: 15px;
 }

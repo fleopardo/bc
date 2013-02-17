@@ -6,14 +6,19 @@
 
 ;(function(window){
 
-	var $document = $(document),
+	var latitud = {};
 
-		$body = $("body");
+
+	/* Helpers */
+
+	latitud.$document = $(document);
+
+	latitud.$body = $("body");
 
 	/*
      * Detect user agent
     */
-    function isMobile(){
+    latitud.isMobile = function(){
 
    		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
    			return true;
@@ -28,39 +33,6 @@
 	*/
 	$("html").removeClass("no-js");
 
-	/* Slider de la home */
-	$('#maximage').maximage({
-		cycleOptions: {
-			fx: 'fade',
-			speed: 1000,
-			timeout: 0,
-			prev: '#arrow_left',
-			next: '#arrow_right',
-			pause: 1,
-			pager: '#cycle-nav ul',
-            pagerAnchorBuilder: function(idx, slide) {
-                return '<li><a href="#"></a></li>';
-            }
-		},
-
-		onFirstImageLoaded: function(){
-			$('#maximage').fadeIn('fast');
-		}
-	});
-
-	/* Esto es para dispositivos touch */
-	$('#maximage').touchwipe({
-		wipeLeft: function() {
-		    $('#maximage').cycle("next");
-		},
-		wipeRight: function() {
-		    $('#maximage').cycle("prev");
-		}
-	});
-
-	// To show it is dynamic html text
-	$('.info-slider').delay(200).fadeIn();
-
-
+	window.latitud = latitud;
 
 })(window);

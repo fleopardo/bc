@@ -103,6 +103,8 @@ input.placeholder{ color: #373737; }
 .header{
 	height: 92px;
 	background: #000; /* Old browsers */
+	position: relative;
+	z-index: 1000;
 }
 
 /** Logo */
@@ -126,7 +128,6 @@ input.placeholder{ color: #373737; }
 
 .header nav{
 	float: left;
-	background: url("./assets/separador-nav.png") top left no-repeat;
 	height: 92px;
 	margin: 0 0 0 70px;
 	font-family: "neutra2displaymedium";
@@ -142,7 +143,7 @@ input.placeholder{ color: #373737; }
 	margin-right: 70px;
 	padding-right: 70px;
 	list-style: none;
-	background: url("./assets/separador-nav.png") center right no-repeat;
+	/*background: url("./assets/separador-nav.png") center right no-repeat;*/
 	line-height: 92px;
 }
 
