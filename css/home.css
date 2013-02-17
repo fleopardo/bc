@@ -47,7 +47,7 @@ footer{
 	height: 85px;
 	position:absolute;
 	width: 46px;
-	z-index:1000;
+	z-index:500;
 	text-indent: -9999px;
 	background: url("./assets/arrows-slider.png") no-repeat;
 }

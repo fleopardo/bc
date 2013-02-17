@@ -133,33 +133,97 @@ input.placeholder{ color: #373737; }
 	font-family: "neutra2displaymedium";
 }
 
-.header nav ul{
+.header nav > ul{
 	padding-left: 70px;
 	height: 100%;
 }
 
-.header nav li{
+.header nav > ul > li{
 	display: inline-block;
 	margin-right: 70px;
 	padding-right: 70px;
 	list-style: none;
-	/*background: url("./assets/separador-nav.png") center right no-repeat;*/
-	line-height: 300px;
+	background: url("./assets/separador-nav.png") center right no-repeat;
+	line-height: 91px;
 }
 
 .header nav li.last{
-	margin-right: 0;
+	margin-right: 0!important;
 }
 
-.header nav li a{
+.header nav > ul > li a{
 	color: #FFF;
 	font-size: 17px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
+.header nav > ul > li > div{
+	display: none;
+	position: absolute;
+	padding:40px 0;
+	left: 0;
+	right: 0;
+	z-index: 1100;
+	background: rgb(28,28,28); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(28,28,28,1) 0%, rgba(22,22,22,1) 100%); / FF3.6+ /
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(28,28,28,1)), color-stop(100%,rgba(22,22,22,1))); / Chrome,Safari4+ /
+	background: -webkit-linear-gradient(top,  rgba(28,28,28,1) 0%,rgba(22,22,22,1) 100%); / Chrome10+,Safari5.1+ /
+	background: -o-linear-gradient(top,  rgba(28,28,28,1) 0%,rgba(22,22,22,1) 100%); / Opera 11.10+ /
+	background: -ms-linear-gradient(top,  rgba(28,28,28,1) 0%,rgba(22,22,22,1) 100%); / IE10+ /
+	background: linear-gradient(to bottom,  rgba(28,28,28,1) 0%,rgba(22,22,22,1) 100%); / W3C /
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', endColorstr='#161616',GradientType=0 ); / IE6-8 */
+}
+
+.header nav > ul > li > div ul{
+	overflow: hidden;
+}
 
 
+.header nav > ul > li > div li{
+	float: left;
+	text-align: center;
+}
+
+.header nav > ul > li > div li a{
+	display: block;
+	line-height: 32px;
+	font-size: 15px;
+}
+
+.header nav > ul > li > div li a span.numero{
+	font-size: 18px;
+}
+
+.header nav .nuestros-vinos-menu li{
+	margin-right: 22px;
+}
+
+.header nav .tu-latitud-menu li{
+	margin-right: 50px;
+	text-align: left;
+	width: 280px;
+}
+
+.header nav .tu-latitud-menu li a{
+	line-height: 18px;
+}
+
+.header nav .tu-latitud-menu li a.leer-mas{
+	font: 11px/15px arial, helvetica, sans-serif;
+	font-style: italic;
+	text-transform: none;
+}
+
+.header nav .tu-latitud-menu li a.leer-mas:hover{
+	color: #a53228;
+}
+
+.header nav .el-pacer-de-saber-menu li{
+	margin-right: 30px;
+}
+
+/*FOOTER*/
 
 footer{
 	font-family: arial;
