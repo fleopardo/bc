@@ -127,7 +127,7 @@ input.placeholder{ color: #373737; }
 /** Nav */
 
 .header nav{
-	float: left;
+	float: right;
 	height: 92px;
 	margin: 0 0 0 70px;
 	font-family: "neutra2displaymedium";
@@ -139,9 +139,7 @@ input.placeholder{ color: #373737; }
 }
 
 .header nav > ul > li{
-	display: inline-block;
-	margin-right: 70px;
-	padding-right: 70px;
+	float: left;
 	list-style: none;
 	background: url("./assets/separador-nav.png") center right no-repeat;
 	line-height: 91px;
@@ -158,13 +156,86 @@ input.placeholder{ color: #373737; }
 	text-transform: uppercase;
 }
 
+.header nav > ul > li > a{
+	display: block;
+	padding:0 70px;
+	position: relative;
+}
+
+.header nav > ul > li .border-left,
+.header nav > ul > li .border-right{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: url("./assets/separador-nav-active.png") top no-repeat;
+	width: 1px;
+	display: none;
+}
+
+.header nav > ul > li .border-left{
+	left: -1px;
+}
+
+.header nav > ul > li .border-right{
+	right: 0;
+}
+
+.header nav > ul > li.active > a,
+.header nav > ul > li > a:hover{
+	color: #a53228;
+}
+
+.header nav > ul > li.active a{
+	position: relative;
+	display: block;
+}
+
+.header nav > ul > li > a:hover ,
+.header nav > ul > li.active{
+	background: rgb(19,19,19);
+	background: -moz-linear-gradient(top,  rgba(19,19,19,1) 0%, rgba(25,25,25,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(19,19,19,1)), color-stop(100%,rgba(25,25,25,1)));
+	background: -webkit-linear-gradient(top,  rgba(19,19,19,1) 0%,rgba(25,25,25,1) 100%);
+	background: -o-linear-gradient(top,  rgba(19,19,19,1) 0%,rgba(25,25,25,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(19,19,19,1) 0%,rgba(25,25,25,1) 100%);
+	background: linear-gradient(to bottom,  rgba(19,19,19,1) 0%,rgba(25,25,25,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#191919',GradientType=0 );
+}
+
+.header nav > ul > li > a:hover .border-left,
+.header nav > ul > li > a:hover .border-right,
+.header nav > ul > li.active .border-left,
+.header nav > ul > li.active .border-right{
+ 	display: block;
+}
+
+.header nav > ul > li.active > a:after{
+	display: block;
+	position: absolute;
+	content: " ";
+	bottom: -6px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	z-index: 1000;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 6px solid #191919;
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+
 .header nav > ul > li > div{
 	display: none;
 	position: absolute;
-	padding:40px 0;
+	padding: 40px 0;
 	left: 0;
 	right: 0;
-	z-index: 1100;
+	z-index: 800;
 	background: rgb(28,28,28); /* Old browsers */
 	background: -moz-linear-gradient(top,  rgba(28,28,28,1) 0%, rgba(22,22,22,1) 100%); / FF3.6+ /
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(28,28,28,1)), color-stop(100%,rgba(22,22,22,1))); / Chrome,Safari4+ /
@@ -191,16 +262,20 @@ input.placeholder{ color: #373737; }
 	font-size: 15px;
 }
 
+.header nav > ul > li > div li a:hover{
+	color: #a53228;
+}
+
 .header nav > ul > li > div li a span.numero{
 	font-size: 18px;
 }
 
 .header nav .nuestros-vinos-menu li{
-	margin-right: 22px;
+	margin-right: 49px;
 }
 
 .header nav .tu-latitud-menu li{
-	margin-right: 50px;
+	margin-right: 91px;
 	text-align: left;
 	width: 280px;
 }
@@ -213,10 +288,6 @@ input.placeholder{ color: #373737; }
 	font: 11px/15px arial, helvetica, sans-serif;
 	font-style: italic;
 	text-transform: none;
-}
-
-.header nav .tu-latitud-menu li a.leer-mas:hover{
-	color: #a53228;
 }
 
 .header nav .el-pacer-de-saber-menu li{
