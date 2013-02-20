@@ -75,6 +75,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 
 body{
+	width: 100%;
 	font-family: arial, helvetica, sans-serif;
 	color: #FFF;
 	background: #090909;
@@ -95,7 +96,7 @@ input.placeholder{ color: #373737; }
 
 
 .contenedor{
-	max-width: 1024px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -128,6 +129,7 @@ input.placeholder{ color: #373737; }
 .header nav{
 	float: right;
 	height: 92px;
+	margin: 0 0 0 70px;
 	font-family: "neutra2displaymedium";
 }
 
@@ -269,7 +271,7 @@ input.placeholder{ color: #373737; }
 }
 
 .header nav .nuestros-vinos-menu li{
-	margin-right: 49px;
+	margin-right: 40px;
 }
 
 .header nav .tu-latitud-menu li{
@@ -342,7 +344,6 @@ footer .links a:hover{
 
 footer .social{
 	margin-left: 60px;
-	float: right;
 }
 
 footer .social li a{
