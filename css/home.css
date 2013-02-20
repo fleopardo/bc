@@ -10,7 +10,7 @@ footer{
 }
 
 #maximage {
-	/*display:none;*/
+	display:none;
 	position:fixed !important;
 }
 
@@ -73,7 +73,7 @@ footer{
     position: absolute;
     left: 0;
     right: 0;
-    top: 555px;
+    top: 550px;
 }
 
 #cycle-nav ul {

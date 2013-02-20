@@ -41,6 +41,21 @@
     };
 
     /*
+     * Funcion para carga async de imagenes
+    */
+    latitud.imglazyload = function(selector){
+
+		selector.each(function(i,e){
+
+			var srcOrig = $(e).attr("data-src");
+
+			$(e).attr("src",srcOrig);
+
+		});
+
+	}
+
+    /*
      * Menu implementation
     */
     $(".header nav > ul li a").on("click",function(event){
@@ -104,6 +119,8 @@
 	    }
 
 	});
+
+	latitud.imglazyload($("header .img-lazy-load"));
 
     /*
      * Export object

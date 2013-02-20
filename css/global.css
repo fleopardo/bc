@@ -75,7 +75,6 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 
 body{
-	width: 100%;
 	font-family: arial, helvetica, sans-serif;
 	color: #FFF;
 	background: #090909;
@@ -96,7 +95,7 @@ input.placeholder{ color: #373737; }
 
 
 .contenedor{
-	width: 1024px;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 
@@ -129,7 +128,6 @@ input.placeholder{ color: #373737; }
 .header nav{
 	float: right;
 	height: 92px;
-	margin: 0 0 0 70px;
 	font-family: "neutra2displaymedium";
 }
 
@@ -344,6 +342,7 @@ footer .links a:hover{
 
 footer .social{
 	margin-left: 60px;
+	float: right;
 }
 
 footer .social li a{

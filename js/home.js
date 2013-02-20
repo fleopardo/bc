@@ -6,6 +6,8 @@
 
 ;(function(window){
 
+	latitud.imglazyload($("#maximage .img-lazy-load"));
+
 	/* Slider */
 	$('#maximage').maximage({
 		cycleOptions: {
@@ -22,9 +24,16 @@
 		},
 
 		onFirstImageLoaded: function(){
-			/*$('#maximage').fadeIn('fast');*/
-			$(".arrows").fadeIn('fast');
+
+			if(!latitud.isMobile()){
+				$(".arrows").fadeIn('fast');
+			}
+
+			$('#maximage').fadeIn('fast');
+			// To show it is dynamic html text
+			$('.info-slider').delay(200).fadeIn();
 		}
+
 	});
 
 	/* Esto es para dispositivos touch */
@@ -37,8 +46,7 @@
 		}
 	});
 
-	// To show it is dynamic html text
-	$('.info-slider').delay(200).fadeIn();
+
 
 
 })(window);
