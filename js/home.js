@@ -43,7 +43,9 @@
 		},
 		wipeRight: function() {
 		    $('#maximage').cycle("prev");
-		}
+		},
+
+		preventDefaultEvents: false
 	});
 
 
