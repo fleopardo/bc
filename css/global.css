@@ -99,6 +99,10 @@ input.placeholder{ color: #373737; }
 	margin: 0 auto;
 }
 
+.lt-ie10 .contenedor{
+	width: 1024px;
+}
+
 .header{
 	height: 92px;
 	background: #000; /* Old browsers */
@@ -132,7 +136,6 @@ input.placeholder{ color: #373737; }
 }
 
 .header nav > ul{
-	padding-left: 70px;
 	height: 100%;
 }
 
@@ -254,6 +257,11 @@ input.placeholder{ color: #373737; }
 	text-align: center;
 }
 
+.header nav > ul > li > div li img{
+	width: 100%;
+	border: none;
+}
+
 .header nav > ul > li > div li a{
 	display: block;
 	line-height: 32px;
@@ -269,13 +277,14 @@ input.placeholder{ color: #373737; }
 }
 
 .header nav .nuestros-vinos-menu li{
-	margin-right: 40px;
+	width: 21.28%;
+	margin-right:4.78%;
 }
 
 .header nav .tu-latitud-menu li{
-	margin-right: 91px;
+	margin-right: 8.88%;
 	text-align: left;
-	width: 280px;
+	width: 27.34%;
 }
 
 .header nav .tu-latitud-menu li a{
@@ -289,7 +298,8 @@ input.placeholder{ color: #373737; }
 }
 
 .header nav .el-pacer-de-saber-menu li{
-	margin-right: 30px;
+	margin-right: 3.28%;
+	width: 11.42%;
 }
 
 /*FOOTER*/
