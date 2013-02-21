@@ -403,10 +403,10 @@ footer .social li a:hover{
 
 
 /*Medias Queries*/
-@media only screen and (max-width:960px){
+@media only screen and (max-width: 960px){
 
 	.header nav > ul > li > a{
 		font-size: 14px;
 	}
-	
+
 }
