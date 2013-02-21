@@ -89,8 +89,9 @@ footer{
     display: block;
     height: 16px;
     width: 16px;
+    border: 2px solid #000;
 }
 
 #cycle-nav ul li.activeSlide a{
-    background: #a53228;
+    background: #d1ab2c;
 }
