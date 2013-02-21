@@ -94,6 +94,8 @@ label[for="recordarme"]{
 	font-size: 17px;
 	text-transform: uppercase;
 	cursor: pointer;
+	position: relative;
+	top: 2px;
 }
 
 input#recordarme{
