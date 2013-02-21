@@ -16,7 +16,7 @@ body{
 }
 
 .columnaDerecha{
-	width: 430px;
+	width: 42%;
 	float: right;
 	margin-top: 100px;
 }
@@ -41,7 +41,7 @@ h2{
 	font-family: "neutra2displaylight";
 	font-size: 41px;
 	text-transform: uppercase;
-	width: 295px;
+	width: 68%;
 	display: block;
 	margin-bottom: 20px;
 }
@@ -55,7 +55,7 @@ h2 span{
 	text-transform: uppercase;
 	font-family: tahoma;
 	font-size: 16px;
-	width: 240px;
+	width: 55%;
 	padding: 8px 15px;
 	background: #fff;
 }

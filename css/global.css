@@ -133,10 +133,13 @@ input.placeholder{ color: #373737; }
 	float: right;
 	height: 92px;
 	font-family: "neutra2displaymedium";
+	width: 74%;
 }
 
 .header nav > ul{
 	height: 100%;
+	width: 100%;
+	float: right;
 }
 
 .header nav > ul > li{
@@ -144,6 +147,7 @@ input.placeholder{ color: #373737; }
 	list-style: none;
 	background: url("./assets/separador-nav.png") center right no-repeat;
 	line-height: 91px;
+	width: 33.33%;
 }
 
 .header nav li.last{
@@ -155,12 +159,15 @@ input.placeholder{ color: #373737; }
 	font-size: 17px;
 	text-decoration: none;
 	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 .header nav > ul > li > a{
 	display: block;
-	padding:0 70px;
+	padding-left: 18%;
+	padding-right: 18%;
 	position: relative;
+	text-align: center;
 }
 
 .header nav > ul > li .border-left,
@@ -391,4 +398,15 @@ footer .social li a:hover{
 	text-transform: uppercase;
 	font-size: 11px;
 	line-height: 30px;
+}
+
+
+
+/*Medias Queries*/
+@media only screen and (max-width:960px){
+
+	.header nav > ul > li > a{
+		font-size: 14px;
+	}
+	
 }
