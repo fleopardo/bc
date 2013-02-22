@@ -22,8 +22,6 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/jquery.maximage.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/home.css" />
 </head>
 <body>
 
@@ -167,39 +165,14 @@
 		<!-- Galery -->
 		<section class="contentPage principal">
 
-			<a href="" id="arrow_left" class="arrows">Anterior</a>
-			<a href="" id="arrow_right" class="arrows">Siguiente</a>
+			<a href="" class="prev">PREV</a>
+			<a href="" class="next">NEXT</a>
 
-			<div id="maximage" class="contentPage"> <!-- En este caso necesito que este sea el contentPage debido a que la galeria es fixed y sino no se mueve cuando abro el menu -->
-				<div>
-					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="./img/home/slider/01.jpg" class="img-lazy-load">
-					<div class="contenedor info-slider"  style="display:none;">
-						<p>Mas que un lugar.<br>Tu Latitud.</p>
-						<a href="#" class="btn-negro">Conoce mas</a>
-						<div class="cycle-nav"><ul></ul></div>
-					</div>
-				</div>
-
-				<div>
-					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="./img/home/slider/02.jpg" class="img-lazy-load">
-					<div class="contenedor info-slider" style="display:none;">
-						<p>Un vino<br />con estilo gourmet.</p>
-						<a href="#" class="btn-negro">Conoce mas</a>
-						<div class="cycle-nav"><ul></ul></div>
-					</div>
-				</div>
-
-				<div>
-					<img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="./img/home/slider/03.jpg" class="img-lazy-load">
-					<div class="contenedor info-slider" style="display:none;">
-						<p>Una experiencia unica.</p>
-						<a href="#" class="btn-negro">Conoce mas</a>
-						<div class="cycle-nav"><ul></ul></div>
-					</div>
-				</div>
-
+			<div id="maridaje" style="background: #fff; width: 600px; height:600px; margin: 0 auto; overflow: hidden; position: relative;">
+				<img src="./css/assets/test-maridaje.jpg" id="img"/>
+				<!-- La imagen que va a rotar tiene que tener un id y ejecutarle el rotate a ese id.. si hago (#maridaje img) no funciona en IE 8 y 7 -->
+				<span style="background: url('./css/assets/mascara-maridaje.png'); left: 0; top: 0; right: 0; bottom: 0; display: block; position: absolute;"></span>
 			</div>
-
 
 		</section>
 
@@ -231,24 +204,55 @@
 	</div>
 
 	<!--script src="js/libs/jquery.min.js"></script>
-	<script src="js/libs/jquery.cycle.all.min.js"></script>
-	<script src="js/libs/jquery.maximage.min.js"></script>
-	<script src="js/libs/jquery.touchwipe.min.js"></script>
-
-	<script src="js/global.js"></script>
-	<script src="js/home.js"></script-->
+	<script src="js/libs/jQueryRotateCompressed.2.2.js"></script>
+	<script src="js/libs/jquery.touchwipe.min.js"></script-->
 
 	<script>
 		/* scr.js 0B 0.1.4 - 14/10/2011 - Little tiny loader for javascript sources. */(function(a){window.scr={js:function(o,h){if(typeof o==="string"){o=[o]}var j,k,m,l,f,g,d;j=a.getElementsByTagName("script")[0];k={t:o.length,i:0};k.r=function(){return k.t===k.i};m=function(){k.i+=1;if(h&&k.r()){h()}};l=(function(){if(j.readyState){return function(b){b.onreadystatechange=function(){if(b.readyState==="loaded"||b.readyState==="complete"){b.onreadystatechange=null;m()}}}}else{return function(b){b.onload=function(){m()}}}}());f=0;g=a.createElement("script");for(f;f<k.t;f+=1){d=g.cloneNode(true);l(d);d.src=o[f];j.parentNode.insertBefore(d,j)}}}}(document));
 
 		scr.js("js/libs/jquery.min.js", function(){
 
-	    	scr.js(["js/libs/jquery.cycle.all.min.js",
-	    			"js/libs/jquery.maximage.min.js",
+	    	scr.js(["js/libs/jQueryRotateCompressed.2.2.js",
 	    			"js/libs/jquery.touchwipe.min.js",
 	    			"js/global.js"],function(){
 
-	    		scr.js("js/home.js");
+	    		//scr.js("js/maridaje.js");
+
+	    		var value = 0
+
+				function move(direction,event){
+
+		    		value = (direction == "left") ? value -=90 : value +=90;
+	    			$("#img").rotate({ animateTo:value})
+	    			event.preventDefault();
+	    		}
+
+	    		$(".prev").on("click",function(event){
+
+	    			move("left",event);
+
+	    		})
+
+	    		$(".next").on("click",function(event){
+
+	    			move("right",event);
+
+	    		})
+
+	    		/* Esto es para dispositivos touch */
+				$('#maridaje').touchwipe({
+					wipeLeft: function() {
+					    move("left",event);
+					},
+					wipeRight: function() {
+					    move("right",event);
+					},
+
+					preventDefaultEvents: false
+				});
+
+
+
 
 			});
 

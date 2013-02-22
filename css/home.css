@@ -48,7 +48,7 @@ footer{
 	height: 85px;
 	position:absolute;
 	width: 46px;
-	z-index:500;
+	z-index:2;
 	text-indent: -9999px;
 	background: url("./assets/arrows-slider.png") no-repeat;
 }
@@ -68,23 +68,20 @@ footer{
 	background-position: top right;
 }
 
-#cycle-nav {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 550px;
+.cycle-nav {
+    margin-top: 20px;
 }
 
-#cycle-nav ul {
+.cycle-nav ul {
     list-style-type:none;
 }
 
-#cycle-nav ul li {
+.cycle-nav ul li {
     float: left;
     margin-right: 6px;
 }
 
-#cycle-nav ul li a {
+.cycle-nav ul li a {
     background: #fff;
     display: block;
     height: 16px;
@@ -92,6 +89,6 @@ footer{
     border: 2px solid #000;
 }
 
-#cycle-nav ul li.activeSlide a{
+.cycle-nav ul li.activeSlide a{
     background: #d1ab2c;
 }

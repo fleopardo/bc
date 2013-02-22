@@ -21,6 +21,10 @@
 
 	latitud.$body = $("body");
 
+	latitud.contentPage = $(".contentPage");
+
+	latitud.$linksMenu = $(".header nav > ul > li > a");
+
 	/*
 	 * Elimino class no-js
 	*/
@@ -55,70 +59,113 @@
 
 	}
 
+	/*
+	 * Si estoy en mobile o tablet uso evento touchstart para mejor perfomance y experiencia
+	*/
+	latitud.eventClick = (latitud.isMobile() == true) ? "touchstart" : "click";
+
     /*
      * Menu implementation
     */
-    $(".header nav > ul li a").on("click",function(event){
+    if( latitud.$linksMenu.length > 0){
 
-    	event.preventDefault();
-    	event.stopPropagation();
+	    $(".header nav > ul > li > a").on(latitud.eventClick,function(event){
 
-    	var that = $(this); 			// link clickeado
-    	var li = that.parent();	 		// LI padre del link clickeado
-    	var submenu = li.find("div");	// Submenu del link clickeado
+	    	event.preventDefault();
+	    	event.stopPropagation();
 
+	    	var that = $(this); 			// link clickeado
+	    	var li = that.parent();	 		// LI padre del link clickeado
+	    	var submenu = li.find("div");	// Submenu del link clickeado
 
-    	// Si el link ya esta activo
-    	if( li.hasClass("active") ){
+	    	// Si el link ya esta activo
+	    	if( li.hasClass("active") ){
 
-    		// Borro la class active
-    		li.removeClass("active");
+	    		// Borro la class active
+	    		li.removeClass("active");
 
-    		// Oculto el submenu
-    		submenu.stop().slideUp(submenuSpeedUp);
+	    		// Oculto el submenu
+	    		submenu.stop().slideUp(submenuSpeedUp);
 
-    		// Seteo la variable en false porque no queda ninguno abierto
-    		submenuOpen = false;
+	    		// Subo la pantalla
+	    		latitud.contentPage.stop(true,true).animate({
+	    			"top":"0"
+	    		},submenuSpeedUp);
 
-    	}else{
+	    		// Seteo la variable en false porque no queda ninguno abierto
+	    		submenuOpen = false;
 
-	    	// Remuevo los active por si hay alguno activo
-	    	li.siblings().removeClass("active");
+	    		// Saco el dimmer
+	    		$("#dimmer").remove();
 
-	    	// Si no hay submenu abierto lo abro instantaneamente..
-	    	if( submenuOpen == false){
+	    	}else{
 
-    			submenu.stop(true,true).slideDown(submenuSpeedDown,function(){
+		    	// Remuevo los active por si hay alguno activo
+		    	li.siblings().removeClass("active");
 
-    				submenuOpen = true;
+		    	// Si no hay submenu abierto lo abro instantaneamente..
+		    	if( submenuOpen == false){
 
-    				li.addClass("active");
+		    		// Pongo el dimmer
+    				latitud.$body.append('<div id="dimmer"></div>');
 
-    			});
+    				$("#dimmer").fadeIn("fast",function(){
 
-    		}else{
+    					$(this).one(latitud.eventClick,function(){
 
-	    		// Oculto los submenu por si hay otro abierto
-    			$(".submenu").stop(true,true).slideUp(submenuSpeedUp);
+    						latitud.contentPage.stop(true,true).animate({
+				    			"top":"0"
+				    		},submenuSpeedUp);
 
-    			// Lo abro con delay para que el submenu que este abierto llegue a retraerse y luego se abra el proximo..(Debido a que el callback no funciona como espero)
-    			setTimeout(function(){
+    						$(".submenu").stop(true,true).slideUp(submenuSpeedUp);
 
-	    			li.addClass("active");
+    						$(".header nav > ul > li").removeClass("active");
+
+    						submenuOpen = false;
+
+    						$(this).remove();
+    					});
+
+    				});
+
+    				// Bajo la pantalla
+    				latitud.contentPage.stop(true,true).animate({
+		    			"top":submenu.outerHeight()
+		    		},submenuSpeedDown);
 
 	    			submenu.stop(true,true).slideDown(submenuSpeedDown,function(){
 
 	    				submenuOpen = true;
 
+	    				li.addClass("active");
+
 	    			});
 
-	    		},submenuSpeedUp);
+	    		}else{
 
-	    	}
+	    			// Oculto los submenu por si hay otro abierto
+	    			$(".submenu").stop(true,true).slideUp(submenuSpeedUp);
 
-	    }
+	    			// Lo abro con delay para que el submenu que este abierto llegue a retraerse y luego se abra el proximo..(Debido a que el callback no funciona como espero)
+	    			setTimeout(function(){
 
-	});
+		    			li.addClass("active");
+
+		    			submenu.stop(true,true).slideDown(submenuSpeedDown,function(){
+
+		    				submenuOpen = true;
+
+		    			});
+
+		    		},submenuSpeedUp);
+
+		    	}
+
+		    }
+
+		});
+
+	}
 
 	latitud.imglazyload($("header .img-lazy-load"));
 

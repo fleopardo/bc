@@ -80,6 +80,10 @@ body{
 	background: #090909;
 }
 
+.contentPage.principal{
+	position: relative;
+}
+
 .hide{
 	display: none;
 }
@@ -317,6 +321,17 @@ header a.cont-img-Subm:hover{
 	filter: alpha(opacity=60);
 }
 
+#dimmer{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: .6;
+	filter: alpha(opacity=60);
+	z-index: 5;
+}
 /*FOOTER*/
 
 footer{
@@ -324,6 +339,8 @@ footer{
 	background: #000;
 	color: #666;
 	font-size: 11px;
+	z-index: 10;
+	position: relative;
 }
 
 footer .contenedor{

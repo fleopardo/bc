@@ -17,7 +17,7 @@
 			prev: '#arrow_left',
 			next: '#arrow_right',
 			pause: 1,
-			pager: '#cycle-nav ul',
+			pager: '.cycle-nav ul',
             pagerAnchorBuilder: function(idx, slide) {
                 return '<li><a href="#"></a></li>';
             }
