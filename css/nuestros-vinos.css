@@ -1,0 +1,73 @@
+body{
+	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.contentPage > section{
+	font-family: "neutra2displaymedium";
+	font-size: 18px;
+}
+
+.contentPage > section h2{
+	font-family: "neutra2displaylight";
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.contentPage > section h2 span{
+	font-family: "neutra2displaymedium";
+	font-size: 51px;
+}
+
+.contentPage > section > .contenedor{
+	position: relative;
+}
+
+
+
+/* Latitud 33 */
+
+.contentPage > section.latitud,
+.contentPage > section.latitud .contenedor{
+	height: 1030px;
+}
+
+.contentPage > section.latitud .contenedor{
+	background: url("./assets/nuestros-vinos/bg-contenedor-latitud.png") no-repeat top right;
+	margin-top: 30px;
+}
+
+.contentPage > section.latitud .bloqueBlanco{
+	padding: 28px;
+	background: #fff;
+	color: #000000;
+}
+
+.contentPage > section.latitud .bloque1{
+	width: 379px;
+	position: absolute;
+	top: 190px;
+	right: 0;
+}
+
+.contentPage > section.latitud .bloque2{
+	width: 600px;
+	position: absolute;
+	top: 615px;
+	right: 61px;
+}
+
+
+
+/*  */
+
+
+
+/*  */
+
+
+
+/*  */

@@ -24,28 +24,28 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 @font-face {
 	font-family: 'neutra2displaylight';
 	src: url('../fonts/neutra2displaylight.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/neutra2displaylight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('../fonts/neutra2displaylight.woff') format('woff'), /* Modern Browsers */
-	     url('../fonts/neutra2displaylight.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('../fonts/bebasneue.svg#svgNeutra2displaylight') format('svg'); /* Legacy iOS */
+	src: url('../fonts/neutra2displaylight.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/neutra2displaylight.woff') format('woff'),
+	     url('../fonts/neutra2displaylight.ttf')  format('truetype'),
+	     url('../fonts/bebasneue.svg#svgNeutra2displaylight') format('svg');
 }
 
 @font-face {
 	font-family: 'neutra2displaymedium';
-	src: url('../fonts/neutra2displaymedium.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/neutra2displaymedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('../fonts/neutra2displaymedium.woff') format('woff'), /* Modern Browsers */
-	     url('../fonts/neutra2displaymedium.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('../fonts/neutra2displaymedium.svg#svgNeutra2displaymedium') format('svg'); /* Legacy iOS */
+	src: url('../fonts/neutra2displaymedium.eot');
+	src: url('../fonts/neutra2displaymedium.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/neutra2displaymedium.woff') format('woff'),
+	     url('../fonts/neutra2displaymedium.ttf')  format('truetype'),
+	     url('../fonts/neutra2displaymedium.svg#svgNeutra2displaymedium') format('svg');
 }
 
 @font-face {
 	font-family: 'neutraface2displaybold';
 	src: url('../fonts/neutraface2displaybold.eot'); /* IE9 Compat Modes */
-	src: url('../fonts/neutraface2displaybold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-	     url('../fonts/neutraface2displaybold.woff') format('woff'), /* Modern Browsers */
-	     url('../fonts/neutraface2displaybold.ttf')  format('truetype'), /* Safari, Android, iOS */
-	     url('../fonts/neutraface2displaybold.svg#svgNeutraface2displaybold') format('svg'); /* Legacy iOS */
+	src: url('../fonts/neutraface2displaybold.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/neutraface2displaybold.woff') format('woff'),
+	     url('../fonts/neutraface2displaybold.ttf')  format('truetype'),
+	     url('../fonts/neutraface2displaybold.svg#svgNeutraface2displaybold') format('svg');
 }
 
 
