@@ -4,10 +4,11 @@ body{
 	background-size: cover;
 }
 
-
 .contentPage > section{
 	font-family: "neutra2displaymedium";
 	font-size: 18px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 .contentPage > section h2{
@@ -62,12 +63,26 @@ body{
 
 
 
-/*  */
+/* El origen */
+.contentPage > section.el-origen{
+	background-image: url("./assets/nuestros-vinos/bg-el-origen.jpg");
+	background-position: center top;
+}
 
+.contentPage > section.el-origen,
+.contentPage > section.el-origen .contenedor{
+	height: 768px;
+}
 
+/* La creacion */
+.contentPage > section.la-creacion{
+	background: url("./assets/nuestros-vinos/bg-la-creacion.jpg");
+	background-position: center top;
+}
 
-/*  */
-
-
+.contentPage > section.la-creacion,
+.contentPage > section.la-creacion .contenedor{
+	height: 578px;
+}
 
 /*  */
