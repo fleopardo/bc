@@ -31,29 +31,30 @@ body{
 
 /* Latitud 33 */
 
-.contentPage > section.latitud,
-.contentPage > section.latitud .contenedor{
+section.latitud,
+section.latitud .contenedor{
 	height: 1030px;
 }
 
-.contentPage > section.latitud .contenedor{
+section.latitud .contenedor{
 	background: url("./assets/nuestros-vinos/bg-contenedor-latitud.png") no-repeat top right;
 	margin-top: 30px;
 }
 
-.contentPage > section.latitud .bloqueBlanco{
+section.latitud .bloqueBlanco{
 	padding: 28px;
 	background: #fff;
 	color: #000000;
 }
 
-.contentPage > section.latitud .bloque1{
+section.latitud .bloque1{
 	width: 379px;
 	position: absolute;
 	top: 190px;
 	right: 0;
 }
 
+<<<<<<< HEAD
 .contentPage a.ir-abajo,
 .contentPage a.ir-abajo span{
 	display: inline-block;
@@ -76,6 +77,9 @@ body{
 }
 
 .contentPage > section.latitud .bloque2{
+=======
+section.latitud .bloque2{
+>>>>>>> 8489fa18b4d97cc03fee1ec3bb5a748d47deb447
 	width: 600px;
 	position: absolute;
 	top: 615px;
@@ -85,25 +89,68 @@ body{
 
 
 /* El origen */
-.contentPage > section.el-origen{
+section.el-origen{
 	background-image: url("./assets/nuestros-vinos/bg-el-origen.jpg");
 	background-position: center top;
+	background-size: cover;
 }
 
-.contentPage > section.el-origen,
-.contentPage > section.el-origen .contenedor{
+section.el-origen,
+section.el-origen .contenedor{
 	height: 768px;
 }
 
+section.el-origen .contenedor{
+	max-width: 842px;
+}
+
+
+section.el-origen h2{
+	padding-top: 75px;
+	margin: 0 0 40px 0;
+}
+
+section.el-origen article{
+	width: 31.3%;
+	margin-right: 3%;
+	float: left;
+}
+
+section.el-origen article.last{
+	margin-right: 0;
+	padding-right: 0;
+}
+
+section.el-origen article h3{
+	font-size: 21px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+section.el-origen article img{
+	max-width: 100%;
+	height: auto;
+}
+
+section.el-origen article .scroll{
+	height: 180px;
+	margin-top: 15px;
+	overflow: auto;
+}
+
+
+
 /* La creacion */
-.contentPage > section.la-creacion{
+section.la-creacion{
 	background: url("./assets/nuestros-vinos/bg-la-creacion.jpg");
 	background-position: center top;
 }
 
-.contentPage > section.la-creacion,
-.contentPage > section.la-creacion .contenedor{
+section.la-creacion,
+section.la-creacion .contenedor{
 	height: 578px;
 }
 
-/*  */
+/* El vino */
+
+
