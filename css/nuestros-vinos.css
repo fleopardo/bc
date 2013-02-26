@@ -147,6 +147,20 @@ section.la-creacion .contenedor{
 	height: 578px;
 }
 
+section.la-creacion h2{
+	padding-top: 75px;
+	margin: 0 0 40px 0; 
+}
+
+section.la-creacion article{
+	width: 40%;
+}
+
+section.la-creacion .scroll{
+	height:300px;
+	overflow: auto;
+}
+
 /* El vino */
 
 
