@@ -8,6 +8,10 @@ footer{
 	right: 0;
 }
 
+.contentPage.principal{
+	position: static;
+}
+
 #maximage {
 	display:none;
 	position:fixed !important;

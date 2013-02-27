@@ -6,7 +6,7 @@
 
 ;(function(window){
 
-	$(".acciones").delegate("a","click",function(){
+	$(".acciones").delegate("a",latitud.event.TAP,function(){
 
 
 		if( $(this).hasClass("primary") ){

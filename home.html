@@ -235,6 +235,7 @@
 	<script src="js/libs/jquery.maximage.min.js"></script>
 	<script src="js/libs/jquery.touchwipe.min.js"></script>
 
+	<script src="js/latitud.js"></script>
 	<script src="js/global.js"></script>
 	<script src="js/home.js"></script-->
 
@@ -246,9 +247,10 @@
 	    	scr.js(["js/libs/jquery.cycle.all.min.js",
 	    			"js/libs/jquery.maximage.min.js",
 	    			"js/libs/jquery.touchwipe.min.js",
-	    			"js/global.js"],function(){
+	    			"js/latitud.js"],function(){
 
-	    		scr.js("js/home.js");
+	    		scr.js(["js/global.js", "js/home.js"]);
+
 
 			});
 

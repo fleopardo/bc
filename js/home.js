@@ -25,7 +25,7 @@
 
 		onFirstImageLoaded: function(){
 
-			if(!latitud.isMobile()){
+			if(!latitud.touch){
 				$(".arrows").fadeIn('fast');
 			}
 

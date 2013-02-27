@@ -16,9 +16,10 @@
 
 	// jsScrollPane soporte tactil
 
-	if(latitud.isMobile()){
+	if(latitud.touch){
 
  		$scrollCustom.bind('touchstart', function(e){
+
 			var cpos = dragPosition;
 
 			e = e.originalEvent.touches[0];
