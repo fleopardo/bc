@@ -41,7 +41,7 @@ section.latitud .contenedor{
 	margin-top: 30px;
 }
 
-section.latitud .bloqueBlanco{
+.bloqueBlanco{
 	padding: 28px;
 	background: #fff;
 	color: #000000;
@@ -168,6 +168,14 @@ section.la-creacion article p{
 	margin-bottom: 15px;
 }
 
+
+
 /* El vino */
 
+section.el-vino{
+	background: url("./assets/nuestros-vinos/bg-el-vino.jpg") right top no-repeat;
+}
 
+section.el-vino .bloqueBlanco{
+	width: 53.71%;
+}
