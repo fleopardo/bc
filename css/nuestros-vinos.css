@@ -134,6 +134,9 @@ section.el-origen article .scroll{
 	overflow: auto;
 }
 
+section.el-origen article .scroll p{
+	margin-bottom: 15px;
+}
 
 
 /* La creacion */
@@ -159,6 +162,10 @@ section.la-creacion article{
 section.la-creacion .scroll{
 	height:300px;
 	overflow: auto;
+}
+
+section.la-creacion article p{
+	margin-bottom: 15px;
 }
 
 /* El vino */
