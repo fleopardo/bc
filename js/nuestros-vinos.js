@@ -11,7 +11,8 @@
 	// Inicializacion jsScrollPane
 	$scrollCustom.jScrollPane({
 		verticalDragMaxHeight : 39,
-		verticalDragMinHeight : 39
+		verticalDragMinHeight : 39,
+		setWheelScrollingEnabled : true
 	});
 
 	// jsScrollPane soporte tactil
