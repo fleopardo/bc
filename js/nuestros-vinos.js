@@ -77,6 +77,25 @@
 
 	});
 
+	$seccionElVino.find(".botellas-container li").on({
+
+		mouseenter: function(){
+
+			var flag = $(this).data("class");
+
+			$seccionElVino.find("nav ."+flag+" a").stop(true,true).slideDown("fast");
+		},
+
+		mouseleave: function(){
+
+			var flag = $(this).data("class");
+
+			$seccionElVino.find("nav ."+flag+" a").stop(true,true).slideUp("fast");
+
+		}
+
+	});
+
 
 
 })(window);
