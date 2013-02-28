@@ -174,6 +174,7 @@ section.la-creacion article p{
 
 section.el-vino{
 	background: url("./assets/nuestros-vinos/bg-el-vino.jpg") right top no-repeat;
+	height: 900px;
 }
 
 section.el-vino .bloqueBlanco{
