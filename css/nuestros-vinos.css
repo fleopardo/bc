@@ -33,7 +33,7 @@ body{
 
 section.latitud,
 section.latitud .contenedor{
-	height: 1030px;
+	height: 1160px;
 }
 
 section.latitud .contenedor{
@@ -191,6 +191,7 @@ section.el-vino .bloqueBlanco{
 	margin-right: 0.1%;
 	float: left;
 	text-align: center;
+	cursor: pointer;
 }
 
 .el-vino nav li{
