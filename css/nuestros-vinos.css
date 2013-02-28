@@ -181,9 +181,6 @@ section.el-vino .bloqueBlanco{
 	width: 53.71%;
 }
 
-.botellas-container .malbec{
-
-}
 
 .botellas-container li,
 .el-vino nav li{
@@ -191,7 +188,6 @@ section.el-vino .bloqueBlanco{
 	margin-right: 0.1%;
 	float: left;
 	text-align: center;
-	cursor: pointer;
 }
 
 .el-vino nav li{
