@@ -185,12 +185,16 @@ section.el-vino .bloqueBlanco{
 
 }
 
+.botellas-container li,
 .el-vino nav li{
 	width: 12.33%;
-	margin-right: 1px;
+	margin-right: 0.1%;
 	float: left;
-	border-bottom: 9px solid;
 	text-align: center;
+}
+
+.el-vino nav li{
+	border-bottom: 9px solid;
 	height: 37px;
 	position: relative;
 }
