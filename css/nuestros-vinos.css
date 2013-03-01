@@ -31,6 +31,10 @@ body{
 
 /* Latitud 33 */
 
+section.latitud{
+	margin-top: 30px;
+}
+
 section.latitud,
 section.latitud .contenedor{
 	height: 1160px;
@@ -38,7 +42,6 @@ section.latitud .contenedor{
 
 section.latitud .contenedor{
 	background: url("./assets/nuestros-vinos/bg-contenedor-latitud.png") no-repeat top right;
-	margin-top: 30px;
 }
 
 .bloqueBlanco{
