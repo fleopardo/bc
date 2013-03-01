@@ -2,6 +2,7 @@ body{
 	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .contentPage > section{
@@ -30,11 +31,6 @@ body{
 
 
 /* Latitud 33 */
-
-section.latitud{
-	background-image: url("./assets/nuestros-vinos/bg-latitud.png");
-	background-position: 20% top;
-}
 
 section.latitud,
 section.latitud .contenedor{
@@ -91,7 +87,8 @@ section.latitud .bloque2{
 
 /* El origen */
 section.el-origen{
-	background: url("./assets/nuestros-vinos/bg-el-origen.jpg") center top no-repeat;
+	background-image: url("./assets/nuestros-vinos/bg-el-origen.jpg");
+	background-position: center top;
 }
 
 section.el-origen,
@@ -145,7 +142,7 @@ section.el-origen article .scroll p{
 
 /* La creacion */
 section.la-creacion{
-	background: url("./assets/nuestros-vinos/bg-la-creacion.jpg");
+	background-image: url("./assets/nuestros-vinos/bg-la-creacion.jpg");
 	background-position: center top;
 }
 
