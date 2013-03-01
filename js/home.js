@@ -6,10 +6,15 @@
 
 ;(function(window){
 
+	var $contenedorSlider = $('#maximage'),
+		sliderAutoplay = true,
+		sliderAutoPlaySpeed = 6000;
+
+	/* inicializacion de lazy load para las fotos del slider */
 	latitud.imglazyload($("#maximage .img-lazy-load"));
 
 	/* Slider */
-	$('#maximage').maximage({
+	$contenedorSlider.maximage({
 		cycleOptions: {
 			fx: 'fade',
 			speed: 1000,
@@ -29,7 +34,7 @@
 				$(".arrows").fadeIn('fast');
 			}
 
-			$('#maximage').fadeIn('fast');
+			$contenedorSlider.fadeIn('fast');
 			// To show it is dynamic html text
 			$('.info-slider').delay(200).fadeIn();
 		}
@@ -37,27 +42,28 @@
 	});
 
 	/* Esto es para dispositivos touch */
-	$('#maximage').touchwipe({
+	$contenedorSlider.touchwipe({
 		wipeLeft: function() {
-		    $('#maximage').cycle("next");
+		    $contenedorSlider.cycle("next");
 		},
 		wipeRight: function() {
-		    $('#maximage').cycle("prev");
+		    $contenedorSlider.cycle("prev");
 		},
 
 		preventDefaultEvents: false
 	});
 
 	/** Autoplay personalizado del slider (puede activarse desde el plugin, pero queremos entender si el menu esta expandido o no) */
-	setInterval(function(){
+	if( sliderAutoplay ){
 
-		if( !$(".submenu").is(":visible") ){
+		setInterval(function(){
+			if( !$(".submenu").is(":visible") ){
+				$contenedorSlider.cycle("next");
+			}
 
-			$('#maximage').cycle("next");
+		},sliderAutoPlaySpeed);
 
-		}
-
-	},8000)
+	}
 
 
 
