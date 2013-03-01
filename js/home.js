@@ -53,7 +53,7 @@
 		preventDefaultEvents: false
 	});
 
-	/** Autoplay personalizado del slider (puede activarse desde el plugin, pero queremos entender si el menu esta expandido o no) */
+	/** Autoplay personalizado del slider (puede activarse desde el plugin, pero queremos entender si el menu esta expandido o no, y eso se maneja desde otro JS) */
 	if( sliderAutoplay ){
 
 		setInterval(function(){
