@@ -9,7 +9,6 @@ body{
 	font-family: "neutra2displaymedium";
 	font-size: 18px;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
 .contentPage > section h2{
@@ -130,7 +129,7 @@ section.el-origen article img{
 }
 
 section.el-origen article .scroll{
-	height: 180px;
+	height: 175px;
 	margin-top: 15px;
 	overflow: auto;
 }
@@ -184,7 +183,7 @@ section.el-vino .contenido{
 }
 
 section.el-vino .bloqueBlanco{
-	width: 53.71%;
+	width: 52%;
 }
 
 .botellas-container li{
@@ -260,4 +259,27 @@ section.el-vino .bloqueBlanco{
 
 section.el-vino .detalle{
 	display: none;
+}
+
+
+
+
+
+
+/* Estilos parallax - Solo desktop */
+
+.contentPage.parallax{
+
+}
+
+.contentPage.parallax > section{
+	background-attachment: fixed;
+}
+
+.contentPage.parallax > section.el-vino{
+	background-attachment: scroll;
+}
+
+.contentPage.parallax section.la-creacion{
+	background-size: cover;
 }

@@ -6,7 +6,8 @@
 
 ;(function(window){
 
-	var $seccionLatitud = $(".latitud"),
+	var $contentPage = $(".contentPage"),
+		$seccionLatitud = $(".latitud"),
 		$seccionElOrigen = $(".el-origen"),
 		$seccionLaCreacion = $(".la-creacion"),
 		$seccionElVino = $(".el-vino"),
@@ -59,6 +60,8 @@
 
  	// Si es desktop oculto los links, sino los dejo visible porque en tablets no existe :hover
  	if( !latitud.touch ){
+
+ 		$contentPage.addClass("parallax");
 
  		$seccionElVino.find("nav a").css("display","none");
 
