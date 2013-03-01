@@ -91,9 +91,7 @@ section.latitud .bloque2{
 
 /* El origen */
 section.el-origen{
-	background-image: url("./assets/nuestros-vinos/bg-el-origen.jpg");
-	background-position: center top;
-	background-size: cover;
+	background: url("./assets/nuestros-vinos/bg-el-origen.jpg") center top no-repeat;
 }
 
 section.el-origen,
@@ -103,6 +101,7 @@ section.el-origen .contenedor{
 
 section.el-origen .contenedor{
 	max-width: 842px;
+	overflow: hidden;
 }
 
 
@@ -197,7 +196,7 @@ section.el-vino .bloqueBlanco{
 
 .botellas-container li,
 .el-vino nav li{
-	width: 12.33%;
+	width: 12.40%;
 	margin-right: 0.1%;
 	float: left;
 	text-align: center;
