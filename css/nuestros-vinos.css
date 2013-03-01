@@ -177,6 +177,11 @@ section.el-vino{
 	height: 900px;
 }
 
+section.el-vino .contenido{
+	height: 820px;
+	overflow: hidden;
+}
+
 section.el-vino .bloqueBlanco{
 	width: 53.71%;
 }
@@ -250,3 +255,8 @@ section.el-vino .bloqueBlanco{
 	.el-vino nav .tardio{
 		border-color: #e4bf3e;
 	}
+
+
+section.el-vino .detalle{
+	display: none;
+}
