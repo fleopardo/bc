@@ -16,7 +16,7 @@
 			timeout: 0,
 			prev: '#arrow_left',
 			next: '#arrow_right',
-			pause: 1,
+			pause: 0,
 			pager: '.cycle-nav ul',
             pagerAnchorBuilder: function(idx, slide) {
                 return '<li><a href="#"></a></li>';
@@ -48,6 +48,16 @@
 		preventDefaultEvents: false
 	});
 
+	/** Autoplay personalizado del slider (puede activarse desde el plugin, pero queremos entender si el menu esta expandido o no) */
+	setInterval(function(){
+
+		if( !$(".submenu").is(":visible") ){
+
+			$('#maximage').cycle("next");
+
+		}
+
+	},8000)
 
 
 
