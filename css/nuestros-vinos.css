@@ -328,9 +328,24 @@ section.el-vino .detalle{
 	display: none;
 }
 
+/******* NUESTROS VINOS INTERNA  ********/
+
+
+.nuestros-vinos-interna{
+	overflow: hidden;
+}
+
+.nuestros-vinos-interna h2{
+	font: 56px/58px "neutra2displaylight";
+	text-transform: uppercase;
+	color: #000;
+}
+
 .nuestros-vinos-interna .left-col,
 .nuestros-vinos-interna .right-col{
 	width: 36.13%;
+	position: relative;
+	z-index: 10;
 }
 
 .nuestros-vinos-interna .left-col{
@@ -367,6 +382,10 @@ section.el-vino .detalle{
 	color: #000;
 }
 
+.nuestros-vinos-interna p{
+	font-family: "neutra2displaymedium";
+}
+
 .nuestros-vinos-interna .description{
 	padding: 10px 0 10px 17px;
 	margin-bottom: 4px;
@@ -379,15 +398,77 @@ section.el-vino .detalle{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
 }
 
+.nuestros-vinos-interna .description img.img-color{
+	width: 79.18%;
+	height: auto;
+}
 
+.nuestros-vinos-interna .description img.img-temperatura{
+	width: 59.45%;
+	height: auto;
+}
 
+a.pdf-descarga,
+a.pdf-descarga span,
+a.volver-vinos,
+a.volver-vinos span{
+	display: inline-block;
+}
 
+a.pdf-descarga,
+a.volver-vinos{
+	padding-left: 27px;
+	background: url("./assets/nuestros-vinos/sp-nuestros-vinos-interna.png") no-repeat;
+	font-size: 11px;
+	text-transform: uppercase;
+}
 
+a.pdf-descarga{
+	line-height: 20px;
+	color: #fff;
+	background-position: left top;
+	margin-top: 12px;
+	float: right;
+}
 
+a.volver-vinos{
+	line-height: 27px;
+	color: #fff;
+	background-position: left bottom;
+	clear: both;
+	float: right;
+	margin-top: -27px;
+}
 
+a.pdf-descarga span,
+a.volver-vinos span{
+	padding: 0 12px 0 9px;
+}
 
+a.pdf-descarga span{
+	background-color: #b0b0b2;
+}
 
+a.volver-vinos span{
+	background-color: #000;
+}
 
+.contenedor-botella-interna{
+	background: url("./assets/nuestros-vinos/bg-contenedor-botella-interna.png") center bottom no-repeat;
+	min-height: 300px;
+	min-width: 791px;
+	position: absolute;
+	bottom: -40px;
+	z-index: 0;
+	left: 260px;
+}
+
+.contenedor-botella-interna img{
+	position: absolute;
+	bottom: 100px;
+	left: 277px;
+	z-index: 0;
+}
 
 
 
