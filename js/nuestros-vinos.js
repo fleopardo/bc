@@ -11,7 +11,45 @@
 		$seccionElOrigen = $(".el-origen"),
 		$seccionLaCreacion = $(".la-creacion"),
 		$seccionElVino = $(".el-vino"),
-		$scrollCustom = $('.scroll');
+		$scrollCustom = $('.scroll'),
+
+		$elOrigen_offset = $seccionElOrigen.offset().top,
+		$laCreacion_offset = $seccionLaCreacion.offset().top,
+		$elVino_offset = $seccionElVino.offset().top,
+
+		$navSecciones = $(".scroll-nav");
+
+	/*
+	 * Funcion para activar color en lista de navegacion
+	*/
+
+	function activeNav(){
+
+		var scrolled = latitud.window.scrollTop();
+
+		// Si el scroll esta dentro del area "El Origen"..
+		if ( (scrolled >= $elOrigen_offset) && (scrolled < $laCreacion_offset) ){
+
+			$navSecciones.find("a").removeClass("active");
+			$(".el-origen-nav").addClass("active");
+
+		} else if ( (scrolled >= $laCreacion_offset) && (scrolled < $elVino_offset) ){
+
+			$navSecciones.find("a").removeClass("active");
+			$(".la-creacion-nav").addClass("active");
+
+		} else if ( scrolled >= $elVino_offset ){
+
+			$navSecciones.find("a").removeClass("active");
+			$(".el-vino-nav").addClass("active");
+
+		}else{
+
+			$navSecciones.find("a").removeClass("active");
+			$(".latitud-nav").addClass("active");
+
+		}
+	}
 
 	/*
  	 * Inicializacion jsScrollPane
@@ -100,5 +138,65 @@
 	});
 
 
+	/*
+	 * Bindeo a todos los links que necesitan moverse con scrollTo
+	*/
+	$(".scroll-to").on(latitud.event.TAP,function(event){
+
+		var that = $(this),
+			anchor = that.attr("data-scroll:anchor") || null,
+			speed = parseInt(that.attr("data-scroll:speed")) || 1500,
+			sectionName = that.text();
+
+		if( anchor !== null ){
+
+			event.preventDefault();
+
+			$.scrollTo.window().queue([]).stop();
+			$.scrollTo(anchor, {speed: speed, easing:'easeOutExpo'});
+
+			if(window.history.pushState){
+				window.history.pushState(null, sectionName, anchor);
+			}
+
+			/** actualizo los active **/
+			//currentNavigation(that);
+		}
+
+	});
+
+
+	/*
+	 * Tooltips en navegacion
+	*/
+	$navSecciones.find("a").on(latitud.event.ENTER,function(){
+
+		$(this).find("span").stop(true,true).fadeIn("200");
+
+	});
+
+	$navSecciones.find("a").on(latitud.event.LEAVE,function(){
+
+		$(this).find("span").stop(true,true).fadeOut("200");
+
+	});
+
+	/* Chequeo el active al inicio*/
+	activeNav();
+
+	/* Chequeo el active on scroll cada 100 ms para no matar al browser */
+	$(window).on("scroll",function(){
+
+		setTimeout(function(){
+
+			activeNav();
+
+		},100);
+
+	});
+
+
+
 
 })(window);
+
