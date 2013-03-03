@@ -345,7 +345,7 @@ section.el-vino .detalle{
 .nuestros-vinos-interna .right-col{
 	width: 36.13%;
 	position: relative;
-	z-index: 10;
+	z-index: 2;
 }
 
 .nuestros-vinos-interna .left-col{
