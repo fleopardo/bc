@@ -29,6 +29,65 @@ body{
 
 
 
+
+/*
+ * Links para navegacion
+*/
+
+.scroll-nav {
+	position: fixed;
+	right: 50px;
+	top: 45%;
+	z-index: 1000;
+}
+
+.scroll-nav li{
+	margin: 10px 0;
+}
+
+.scroll-nav li a{
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: #fff;
+	position: relative;
+}
+
+.scroll-nav li a.active{
+	background: #a53228;
+}
+
+.scroll-nav li a span{
+	position: absolute;
+	width: 135px;
+	top: 0;
+	bottom: 0;
+	left: -150px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "neutra2displaymedium";
+	font-size: 16px;
+	background: #000;
+	height: 14px;
+	padding: 5px 5px 5px 10px;
+}
+
+.scroll-nav li a span:after{
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	border-top: 5px solid transparent;
+	border-right: 5px solid #fff;
+	border-bottom: 5px solid transparent;
+	right: 0;
+	top: 7px;
+}
+
+.scroll-nav li a.active span:after{
+	border-right-color: #a53228;
+}
+
 /* Latitud 33 */
 
 section.latitud{
@@ -191,6 +250,11 @@ section.el-vino .bloqueBlanco{
 
 .botellas-container li{
 	margin-top: 180px;
+}
+
+.botellas-container li img{
+	max-width: 100%;
+	height: auto;
 }
 
 .botellas-container li,
