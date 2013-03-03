@@ -264,6 +264,51 @@ section.el-vino .detalle{
 	display: none;
 }
 
+.nuestros-vinos-interna .left-col,
+.nuestros-vinos-interna .right-col{
+	width: 36.13%;
+}
+
+.nuestros-vinos-interna .left-col{
+	float: left;
+}
+
+.nuestros-vinos-interna .right-col{
+	float: right;
+}
+
+.nuestros-vinos-interna h3,
+.nuestros-vinos-interna h4{
+	font-family: "neutraface2displaybold";
+	text-transform: uppercase;
+}
+
+.nuestros-vinos-interna h3{
+	font-size: 15px;
+	line-height: 34px;
+	color: #fff;
+	background: #000;
+	padding-left: 17px;
+	margin-bottom: 4px;
+}
+
+.nuestros-vinos-interna h4{
+	font-size: 13px;
+	line-height: 16px;
+	color: #000;
+}
+
+.nuestros-vinos-interna .description{
+	padding: 10px 0 10px 17px;
+	margin-bottom: 4px;
+	background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
 
 
 
