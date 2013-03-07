@@ -109,11 +109,27 @@
 	$seccionElVino.find("nav li").on({
 
 		mouseenter: function(){
-			$(this).find("a").stop(true,true).slideDown("fast");
+
+			var link = $(this).find("a");
+
+			if( !link.hasClass("active") ){
+
+				link.stop(true,true).slideDown("fast");
+
+			}
+
 		},
 
 		mouseleave: function(){
-			$(this).find("a").stop(true,true).slideUp("fast");
+
+			var link = $(this).find("a");
+
+			if( !link.hasClass("active") ){
+
+				link.stop(true,true).slideUp("fast");
+
+			}
+
 		}
 
 	});
@@ -137,6 +153,94 @@
 
 	});
 
+
+
+/*
+	function abrirDetalle(that){
+
+		if( !that.hasClass("active") ){
+
+			if ( !$("#load-detalle").length > 0 ){
+				$seccionElVino.find(".contenedorDetalleVino").append('<div id="load-detalle" style="display: none;"></div>');
+			}else{
+				//$("#load-detalle").fadeOut();
+			}
+
+
+			var sectionToGo = ( that.parent().attr("data-class") != undefined ) ? that.parent().attr("data-class") : that.parent().attr("class");
+
+			var linkClickeado = $seccionElVino.find("nav li." + sectionToGo + " a");
+
+			// Cargo la seccion
+			$("#load-detalle").load(that.attr("href") + " .nuestros-vinos-interna", function(response, status, xhr){
+
+				if(status == "success"){
+
+					// Oculto la seccion principal
+					$seccionElVino.find(".botellas-container").fadeOut("fast",function(){
+
+						linkClickeado.addClass("active");
+
+						// Muestro el detalle
+						$("#load-detalle").fadeIn("fast", function(){
+
+							//Bindeo el click al volver
+							$(".volver-vinos").one(latitud.event.TAP,function(event){
+
+								event.preventDefault();
+
+								cerrarDetalle();
+
+							})
+
+						})
+
+					})
+
+				}else if(status == "error"){
+
+					alert("error");
+					cerrarDetalle();
+
+				}
+
+			})
+
+		}
+
+	}
+
+
+	function cerrarDetalle(){
+
+		$("#load-detalle").fadeOut("fast",function(){
+			alert("lala");
+			$seccionElVino.find(".botellas-container").fadeIn("fast");
+
+			$seccionElVino.find("nav a").removeClass("active").hide();
+
+		}).remove();
+
+	}
+
+
+
+	$seccionElVino.find("nav a").on(latitud.event.TAP,function(event){
+
+		event.preventDefault();
+
+		abrirDetalle($(this));
+
+	});
+
+	$seccionElVino.find(".botellas-container li a").on(latitud.event.TAP,function(event){
+
+		event.preventDefault();
+
+		abrirDetalle($(this));
+
+	});
+*/
 
 	/*
 	 * Bindeo a todos los links que necesitan moverse con scrollTo

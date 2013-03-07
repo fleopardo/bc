@@ -1,0 +1,58 @@
+Abrir Seccion
+
+	- Peticion Ajax
+	- Ocultar Principal
+	- Mostrar Detalle
+	- Dejar seleccionado el link
+
+
+Volver Pantalla principal
+
+	- Remover detalle
+	- Mostrar principal
+	- Deseleccionar el link
+
+
+
+function abrirDetalle(){
+
+	var sectionToGo = ( that.parent().attr("data-class") != undefined ) ? that.parent().attr("data-class") : that.parent().attr("class");
+
+	var linkClickeado = $seccionElVino.find("nav li." + sectionToGo + " a");
+
+	// Creo el div que contiene el detalle
+	$seccionElVino.find(".contenedorDetalleVino").append('<div id="load-detalle" style="display: none;"></div>');
+
+	// Cargo la seccion
+	$("#load-detalle").load(that.attr("href") + " .nuestros-vinos-interna", function(response, status, xhr){
+
+		if(status == "exito"){
+
+			// Oculto la seccion principal
+			$seccionElVino.find(".botellas-container").fadeOut("fast",function(){
+
+				linkClickeado.addClass("active");
+
+				// Muestro el detalle
+				$("#load-detalle").fadeIn("fast");
+
+			})
+
+		}
+
+	}
+
+}
+
+
+function cerrarDetalle(){
+
+	$("#load-detalle").fadeOut("fast",function(){
+
+		$seccionElVino.find(".botellas-container").fadeIn("fast");
+
+		$seccionElVino.find("nav a").removeClass("active");
+
+	});
+
+}

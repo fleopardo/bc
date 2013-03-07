@@ -236,11 +236,11 @@ section.la-creacion article p{
 
 section.el-vino{
 	background: url("./assets/nuestros-vinos/bg-el-vino.jpg") right top no-repeat;
-	height: 900px;
+	height: 1100px;
 }
 
 section.el-vino .contenido{
-	height: 820px;
+	/*height: 820px;*/
 	overflow: hidden;
 }
 
@@ -248,8 +248,20 @@ section.el-vino .bloqueBlanco{
 	width: 52%;
 }
 
-.botellas-container li{
+
+.contenedorDetalleVino{
 	margin-top: 180px;
+	margin-bottom: 30px;
+	height: 590px;
+}
+
+
+.botellas-container{
+	overflow: hidden;
+}
+
+.botellas-container ul{
+	margin-top: 195px;
 }
 
 .botellas-container li img{
@@ -438,6 +450,8 @@ a.volver-vinos{
 	clear: both;
 	float: right;
 	margin-top: -27px;
+	position: relative;
+	z-index: 1000;
 }
 
 a.pdf-descarga span,
