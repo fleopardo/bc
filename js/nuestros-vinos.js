@@ -138,109 +138,39 @@
 
 		mouseenter: function(){
 
-			var flag = $(this).data("class");
+			var asociacionLink = $(this).attr("data-class");
 
-			$seccionElVino.find("nav ."+flag+" a").stop(true,true).slideDown("fast");
+			var linkActivo = $seccionElVino.find("nav ."+asociacionLink + " a");
+
+			if( !linkActivo.hasClass("active") ){
+
+				var flag = $(this).data("class");
+
+				$seccionElVino.find("nav ."+flag+" a").stop(true,true).slideDown("fast");
+
+			}
 		},
 
 		mouseleave: function(){
 
-			var flag = $(this).data("class");
+			var link = $(this).find("a");
 
-			$seccionElVino.find("nav ."+flag+" a").stop(true,true).slideUp("fast");
+			var asociacionLink = $(this).attr("data-class");
 
-		}
+			var linkActivo = $seccionElVino.find("nav ."+asociacionLink + " a");
 
-	});
+			if( !linkActivo.hasClass("active") ){
 
+				var flag = $(this).data("class");
 
+				$seccionElVino.find("nav ."+flag+" a").stop(true,true).slideUp("fast");
 
-/*
-	function abrirDetalle(that){
-
-		if( !that.hasClass("active") ){
-
-			if ( !$("#load-detalle").length > 0 ){
-				$seccionElVino.find(".contenedorDetalleVino").append('<div id="load-detalle" style="display: none;"></div>');
-			}else{
-				//$("#load-detalle").fadeOut();
 			}
 
-
-			var sectionToGo = ( that.parent().attr("data-class") != undefined ) ? that.parent().attr("data-class") : that.parent().attr("class");
-
-			var linkClickeado = $seccionElVino.find("nav li." + sectionToGo + " a");
-
-			// Cargo la seccion
-			$("#load-detalle").load(that.attr("href") + " .nuestros-vinos-interna", function(response, status, xhr){
-
-				if(status == "success"){
-
-					// Oculto la seccion principal
-					$seccionElVino.find(".botellas-container").fadeOut("fast",function(){
-
-						linkClickeado.addClass("active");
-
-						// Muestro el detalle
-						$("#load-detalle").fadeIn("fast", function(){
-
-							//Bindeo el click al volver
-							$(".volver-vinos").one(latitud.event.TAP,function(event){
-
-								event.preventDefault();
-
-								cerrarDetalle();
-
-							})
-
-						})
-
-					})
-
-				}else if(status == "error"){
-
-					alert("error");
-					cerrarDetalle();
-
-				}
-
-			})
-
 		}
 
-	}
-
-
-	function cerrarDetalle(){
-
-		$("#load-detalle").fadeOut("fast",function(){
-			alert("lala");
-			$seccionElVino.find(".botellas-container").fadeIn("fast");
-
-			$seccionElVino.find("nav a").removeClass("active").hide();
-
-		}).remove();
-
-	}
-
-
-
-	$seccionElVino.find("nav a").on(latitud.event.TAP,function(event){
-
-		event.preventDefault();
-
-		abrirDetalle($(this));
-
 	});
 
-	$seccionElVino.find(".botellas-container li a").on(latitud.event.TAP,function(event){
-
-		event.preventDefault();
-
-		abrirDetalle($(this));
-
-	});
-*/
 
 	/*
 	 * Bindeo a todos los links que necesitan moverse con scrollTo
@@ -298,6 +228,220 @@
 		},100);
 
 	});
+
+
+
+
+
+
+
+/*
+ * Objeto con la funcionalidad para la navegacion entre vinos
+*/
+
+
+	var navegacion = {};
+
+
+/*
+ * Crea el div donde se va a cargar el detalle del vino
+*/
+
+
+	(function(){
+
+		var div = '<div id="detalle-vino" style="display: none;"></div>';
+
+		$(".contenedorDetalleVino").append(div);
+
+	}());
+
+
+/*
+ * Flag para saber cuando está el detalle abierto
+*/
+
+
+	navegacion.isOpen = false;
+
+
+/*
+ * Funcion para mostrar el div con el detalle
+*/
+
+
+	navegacion.showDetalle = function(){
+
+		$("#detalle-vino").delay(300).fadeIn(1000);
+
+	};
+
+
+/*
+ * Funcion para cerrar el div con el detalle
+*/
+
+
+	navegacion.closeDetalle = function(){
+
+
+		$("#detalle-vino").fadeOut(300,function(){
+
+			$("#detalle-vino").empty();
+
+			navegacion.isOpen = false;
+
+		});
+
+	};
+
+
+/*
+ * Funcion para mostrar el div con las botellas
+*/
+
+
+	navegacion.showBotellas = function(){
+
+		$(".botellas-container").fadeIn(1000);
+
+	};
+
+
+/*
+ * Funcion para ocultar el div con el detalle
+*/
+
+
+	navegacion.hideBotellas = function(){
+
+		$(".botellas-container").fadeOut(300);
+
+	};
+
+
+/*
+ * Funcion para activar el link
+*/
+
+
+	navegacion.activeLink = function(link){
+
+		$seccionElVino.find("nav a").removeClass("active");
+
+		link.addClass("active").show();
+
+		$seccionElVino.find("nav a").not(".active").hide();
+
+	};
+
+
+/*
+ * Funcion para desactivar el link
+*/
+
+
+	navegacion.desactiveLink = function(link){
+
+		link.removeClass("active").hide();
+
+	};
+
+
+/*
+ * Funcion para el GET
+*/
+
+
+	navegacion.peticion = function(url,link){
+
+		if(!link.hasClass("active")){
+
+			navegacion.closeDetalle();
+
+			//Pongo un timer del mismo tiempo que el delay usando closeDetalle() Para que tenga tiempo de borrar el contenido
+			setTimeout(function(){
+
+				$("#detalle-vino").load(url + " .nuestros-vinos-interna", function(response, status, xhr){
+
+					if(status == "success"){
+
+						navegacion.hideBotellas();
+
+						navegacion.showDetalle();
+
+						$(".volver-vinos").one(latitud.event.TAP, function(event){
+
+							event.preventDefault();
+
+							navegacion.showBotellas();
+
+							navegacion.closeDetalle();
+
+							navegacion.isOpen = false;
+
+							navegacion.desactiveLink(link);
+
+						})
+
+					}
+
+					if(status == "error"){
+
+						navegacion.closeDetalle();
+
+						navegacion.showBotellas();
+
+						navegacion.desactiveLink(link);
+
+						navegacion.isOpen = false;
+
+					}
+
+				});
+
+			},400);
+
+		}
+
+	}
+
+
+	$seccionElVino.find("nav a").on(latitud.event.TAP,function(event){
+
+		navegacion.isOpen = true;
+
+		event.preventDefault();
+
+		var url = $(this).attr("href");
+
+		navegacion.peticion(url,$(this));
+
+		navegacion.activeLink($(this));
+
+	});
+
+	$seccionElVino.find(".botellas-container li a").on(latitud.event.TAP,function(event){
+
+		navegacion.isOpen = true;
+
+		event.preventDefault();
+
+		var url = $(this).attr("href");
+
+		var asociacionLink = $(this).parent().attr("data-class");
+
+		var link = $seccionElVino.find("nav ."+asociacionLink + " a");
+
+		navegacion.peticion(url,link);
+
+		navegacion.activeLink(link);
+
+	});
+
+
+
+
 
 
 

@@ -336,9 +336,10 @@ section.el-vino .bloqueBlanco{
 	}
 
 
-section.el-vino .detalle{
-	display: none;
+.el-vino nav li a.active{
+	cursor: default;
 }
+
 
 /******* NUESTROS VINOS INTERNA  ********/
 
