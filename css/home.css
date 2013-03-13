@@ -1,0 +1,197 @@
+/*
+ * Home nuevas fronteras
+*/
+
+.bloque{
+	margin-bottom: 10px;
+}
+
+.nuevas-fronteras article > div{
+	padding: 20px;
+}
+
+
+/*
+ * Bloque nuevas fronteras detalle
+*/
+
+	.nuevas-fronteras-detalle{
+		width: 704px;
+		height: 575px;
+		margin-right: 10px;
+		background: url("./assets/home/nuevas-fronteras-detalle.jpg") no-repeat top right;
+		position: relative;
+		float: left;
+	}
+
+	.nuevas-fronteras-detalle > div{
+		background-color: #9e4269;
+		width: 198px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+	.nuevas-fronteras-detalle > div h3{
+		font-size: 29px;
+		font-family: "din-black";
+		line-height: 29px;
+		margin-bottom: 12px;
+		text-transform: capitalize;
+	}
+
+	.nuevas-fronteras-detalle > div h3 span{
+		font-size: 29px;
+		font-family: "din-light";
+		line-height: 29px;
+		margin-bottom: 12px;
+	}
+
+	.nuevas-fronteras-detalle > div p{
+		font-size: 14px;
+		font-family: "din-regular";
+		margin-bottom: 14px;
+		line-height: 17px;
+	}
+
+
+/*
+ * Bloque exploracion no convencional & Offshore
+*/
+
+	.exploracion-no-convencional,
+	.offshore{
+		float: left;
+		width: 486px;
+		height: 186px;
+		position: relative;
+	}
+
+	.exploracion-no-convencional{
+		background: url("./assets/home/exploracion-no-convencional.jpg") no-repeat top right;
+	}
+
+	.offshore{
+		background: url("./assets/home/offshore.jpg") no-repeat top right;
+	}
+
+	.exploracion-no-convencional div,
+	.offshore div{
+		width: 208px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+	.exploracion-no-convencional div{
+		background: #653d7c;
+	}
+
+	.offshore div{
+		background: #3c195c;
+	}
+
+
+	.exploracion-no-convencional div .vision-exploratoria .icon,
+	.offshore div .vision-exploratoria .icon{
+		width: 18px;
+		height: 16px;
+		background-position: 0px -81px;
+
+		position: relative;
+		top: 4px;
+		margin-right: 3px;
+}
+
+	.exploracion-no-convencional div h3,
+	.offshore div h3{
+		font-size: 19px;
+		font-family: "din-black";
+		line-height: 22px;
+		margin: 12px 0;
+	}
+
+	.exploracion-no-convencional div h3 span,
+	.offshore div h3 span{
+		font-family: "din-light";
+		display: block;
+	}
+
+	.exploracion-no-convencional div p,
+	.offshore div p{
+		line-height: 16px;
+	}
+
+
+	/* Hovers */
+	.exploracion-no-convencional:hover div{
+		background: #442953;
+	}
+
+	.offshore:hover div{
+		background: #240f37;
+	}
+
+	/* Color icono "More" */
+	.exploracion-no-convencional .more{
+		border-bottom-color: #442953;
+	}
+
+	.offshore .more{
+		border-bottom-color: #240f37;
+	}
+
+
+/*
+ * Bloque Plan exploratorio & OPID
+*/
+
+	.plan-exploratorio,
+	.opid{
+		width: 238px;
+		height: 183px;
+		float: left;
+		position: relative;
+	}
+
+	.plan-exploratorio{
+		background: #66354b;
+		margin-right: 10px;
+	}
+
+	.opid{
+		background: #2b7b82;
+	}
+
+	.plan-exploratorio h3,
+	.opid h3{
+		font-size: 22px;
+		font-family: "din-regular";
+		line-height: 25px;
+	}
+
+	.plan-exploratorio h3 span,
+	.opid h3 span{
+		font-family: "din-medium";
+		display: block;
+	}
+
+	/* Hovers */
+	.plan-exploratorio:hover{
+		background: #3f212e;
+	}
+
+	.opid:hover{
+		background: #1a4a4e;
+	}
+
+	/* Cambio de color para icono "More" */
+	.plan-exploratorio .more{
+		border-bottom-color: #3f212e;
+	}
+
+	.opid .more{
+		border-bottom-color: #1a4a4e;
+	}
