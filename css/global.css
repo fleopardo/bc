@@ -81,6 +81,13 @@ body{
 	background: #090909;
 }
 
+.contenido-internas{
+	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 .contentPage.principal{
 	position: relative;
 }
