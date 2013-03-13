@@ -63,6 +63,27 @@
 	border-left: 2px solid #b2d235;
 }
 
+.bloque1 h2{
+text-transform: uppercase;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.bloque1 .right-col{
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+	width: 370px;
+}
+
+.bloque1 .right-col li{
+	margin-bottom: 5px;
+	padding-left: 25px;
+	background: url(../css/assets/ic_flecha-amarilla.png) left 2px no-repeat;
+	padding-right: 12px;
+}
+
 .bloque1 img{
 	float: right;
 }
