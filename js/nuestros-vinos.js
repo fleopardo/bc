@@ -440,8 +440,18 @@
 	});
 
 
+	$(".botellas-container li").each(function(){
 
+		$(this).mouseenter(function(){
+			$(this).find('.tooltip').stop(true,true).fadeIn();
+		});
 
+		$(this).mouseout(function(){
+			$(this).find('.tooltip').stop(true,true).fadeOut();
+		});
+
+	});
+	
 
 
 

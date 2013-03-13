@@ -240,8 +240,8 @@ section.el-vino{
 }
 
 section.el-vino .contenido{
-	/*height: 820px;*/
-	overflow: hidden;
+	/*height: 820px;
+	overflow: hidden;*/
 }
 
 section.el-vino .bloqueBlanco{
@@ -257,16 +257,60 @@ section.el-vino .bloqueBlanco{
 
 
 .botellas-container{
-	overflow: hidden;
+	
 }
 
 .botellas-container ul{
 	margin-top: 195px;
 }
 
+.botellas-container li{
+	position: relative;
+}
+
 .botellas-container li img{
 	max-width: 100%;
 	height: auto;
+}
+
+.botellas-container li a{
+	display: block;
+}
+
+.botellas-container .tooltip{
+	display: none;
+	position:absolute;
+	background:#fff;
+	width:200px;
+	padding: 10px;
+	text-align: left;
+	z-index: 200;
+	top: 160px;
+	left: -10px;
+}
+
+.botellas-container .tooltip:after{
+	content: ''; 
+    height: 16px; 
+    position: absolute; 
+    left: 50px; 
+    top: -8px; 
+    width: 16px;
+    background: #fff;
+    transform:rotate(7deg);
+    -webkit-transform: rotate(315deg); 
+	-moz-transform: rotate(315deg); 
+	-o-transform: rotate(315deg);
+	-ms-transform: rotate(315deg); 
+}
+
+.botellas-container .tooltip h3{
+	margin-bottom: 5px;
+}
+
+.botellas-container .tooltip h3,
+.botellas-container .tooltip p{
+	color: #000;
 }
 
 .botellas-container li,
