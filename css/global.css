@@ -99,6 +99,15 @@ input.placeholder{ color: #373737; }
 	display: inline-block;
 }
 
+.icon.cadena{
+	width: 18px;
+	height: 16px;
+	background-position: 0px -81px;
+	position: relative;
+	top: 4px;
+	margin-right: 3px;
+}
+
 /*
  * Contenedor Principal
 */
@@ -151,7 +160,7 @@ input.placeholder{ color: #373737; }
 	width: 14px;
 	height: 18px;
 	margin-top: 13px;
-	margin-left: 28px;
+	margin-left: 30px;
 }
 
 .preheader .flechas .anterior .icon{
@@ -214,7 +223,8 @@ input.placeholder{ color: #373737; }
 	padding: 0 5px;
 }
 
-.preheader .vistas li a:hover{
+.preheader .vistas li a:hover,
+.preheader .vistas li a.active{
 	background-color: #2c2c2c;
 	-moz-box-shadow: inset 5px 5px 11px 0px #222;
 	-webkit-box-shadow: inset inset 5px 5px 11px 0px #222;
@@ -276,7 +286,6 @@ footer{
 	background: #373738;
 	margin-top: 30px;
 	overflow: hidden;
-	padding: 15px 0;
 }
 
 footer > div{
@@ -285,26 +294,63 @@ footer > div{
 }
 
 footer > div p,
-footer > div ul,
+footer > div ul.links,
 footer > div ul li{
 	float: left;
 }
 
-footer > div ul{
+footer > div ul.links{
 	background: url("./assets/separador-footer.gif") no-repeat center left;
 	padding-left: 10px;
 	margin-left: 10px;
 }
 
-footer > div ul li{
+footer > div ul.links li{
 	margin-right: 10px;
 	padding-right: 10px;
 	background: url("./assets/separador-footer.gif") no-repeat center right;
 }
 
 footer > div p,
-footer > div ul li a{
+footer > div ul.links li a{
 	color: #ececec;
 	font-size: 11px;
 	font-family: arial, helvetica, sans-serif;
+	line-height: 40px;
 }
+
+/* Links sociales */
+
+footer .social{
+	float: right;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+footer .social li a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url("./assets/icons-social.png") no-repeat;
+	margin-left: 20px;
+}
+
+	footer .social li a.compartir{
+		background-position: -6px -2px;
+	}
+
+	footer .social li a.facebook{
+		background-position: -45px -2px;
+	}
+
+	footer .social li a.twitter{
+		background-position: -85px -2px;
+	}
+
+	footer .social li a.youtube{
+		background-position: -123px 1px;
+	}
+
+	footer .social li a.mail{
+		background-position: -161px -2px;
+	}
