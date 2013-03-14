@@ -108,6 +108,18 @@ input.placeholder{ color: #373737; }
 	margin-right: 3px;
 }
 
+
+#loading{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	background: url("./assets/ajax-loader.gif") no-repeat 50% 50%;
+}
+
+
 /*
  * Contenedor Principal
 */

@@ -19,7 +19,7 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/home.css" />
+	<link rel="stylesheet" type="text/css" href="css/home-grilla.css" />
 </head>
 <body>
 
@@ -29,15 +29,15 @@
 
 		<div class="mascara">
 
-			<div class="slide">
+			<div class="slide clearfix">
 
 				<section id="desafio-energetico" class="desafio-energetico contenido clearfix">
 
 					<div class="preheader">
 
 						<ul class="flechas">
-							<li><a href="nuevas-fronteras.html" class="anterior"><i class="icon"></i><span class="hide">Anterior</span></a></li>
-							<li><a href="cadena-de-energia.html" class="siguiente"><i class="icon"></i><span class="hide">Siguiente</span></a></li>
+							<li><a href="nuevas-fronteras.html" class="anterior navegacion" data-nav="prev" data-page-id="nuevas-fronteras"><i class="icon"></i><span class="hide">Anterior</span></a></li>
+							<li><a href="cadena-de-energia.html" class="siguiente navegacion" data-nav="next" data-page-id="cadena-de-energia"><i class="icon"></i><span class="hide">Siguiente</span></a></li>
 						</ul>
 
 						<ul class="breadcrumb">
@@ -158,11 +158,11 @@
 
 		scr.js("js/libs/jquery.min.js", function(){
 
-	    	//scr.js("js/latitud.js",function(){
+	    	scr.js("js/libs/jquery.scrollTo.js",function(){
 
-		    //	scr.js(["js/global.js","js/prehome.js"]);
+		    	scr.js("js/global.js");
 
-			//});
+			});
 
 		});
 	</script>

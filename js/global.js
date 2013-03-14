@@ -4,139 +4,123 @@
  * Fernando Leopardo @fer_leopardo
 */
 
-;(function(window){
+var navegacion = (function(window){
 
-	var submenuSpeedUp = 300,
-
-		submenuSpeedDown = 500,
-
-		submenuOpen = false,
-
-		$linksMenu = $(".header nav > ul > li > a"),
-
-		$submenu = $(".submenu");
-
-		$contentPage = $(".contentPage");
+	var mascara = $('.mascara');
+	var slide = mascara.find(".slide");
+	var flag_direction;
+	var scroll_speed = 500;
 
 
-	/*
-	 * Inicializacion del lazy load en imagenes del header
-	*/
+	function crearContenedor(){
 
-	latitud.imglazyload($("header .img-lazy-load"));
+		if( flag_direction == "left" ){
 
+			slide.prepend('<div class="ajax-container" style="float: left;"></div>');
 
- 	/*
-     * Menu implementation
-    */
+		}else{
 
-    if( $linksMenu.length > 0){
+			slide.append('<div class="ajax-container" style="float: left;"></div>');
 
-	    $linksMenu.on(latitud.event.TAP,function(event){
-
-	    	event.preventDefault();
-	    	event.stopPropagation();
-
-	    	var that = $(this),				// link clickeado
-
-	    		li = that.parent(),	 		// LI padre del link clickeado
-
-	    		submenu = li.find("div");	// Submenu del link clickeado
-
-
-	    	// Si el link ya esta activo
-	    	if( li.hasClass("active") ){
-
-	    		// Borro la class active
-	    		li.removeClass("active");
-
-	    		// Oculto el submenu
-	    		submenu.stop().slideUp(submenuSpeedUp);
-
-	    		// Subo la pantalla
-	    		$contentPage.stop(true,true).animate({
-
-	    			"top":"0"
-
-	    		},submenuSpeedUp);
-
-	    		// Seteo la variable en false porque no queda ninguno abierto
-	    		submenuOpen = false;
-
-	    		// Saco el dimmer
-	    		$("#dimmer").remove();
-
-	    	}else{
-
-		    	// Remuevo los active por si hay alguno activo
-		    	li.siblings().removeClass("active");
-
-		    	// Si no hay submenu abierto lo abro instantaneamente..
-		    	if( submenuOpen == false){
-
-		    		// Pongo el dimmer
-    				latitud.body.append('<div id="dimmer"></div>');
-
-    				$("#dimmer").fadeIn("fast",function(){
-
-    					$(this).one(latitud.event.TAP,function(){
-
-    						$contentPage.stop(true,true).animate({
-
-				    			"top":"0"
-
-				    		},submenuSpeedUp);
-
-    						$submenu.stop(true,true).slideUp(submenuSpeedUp);
-
-    						$(".header nav > ul > li").removeClass("active");
-
-    						submenuOpen = false;
-
-    						$(this).remove();
-    					});
-
-    				});
-
-    				// Bajo la pantalla
-    				$contentPage.stop(true,true).animate({
-
-		    			"top":submenu.outerHeight()
-
-		    		},submenuSpeedDown);
-
-	    			submenu.stop(true,true).slideDown(submenuSpeedDown,function(){
-
-	    				submenuOpen = true;
-
-	    				li.addClass("active");
-
-	    			});
-
-	    		}else{
-
-	    			// Oculto los submenu por si hay otro abierto
-	    			$submenu.stop(true,true).slideUp(submenuSpeedUp);
-
-	    			// Lo abro con delay para que el submenu que este abierto llegue a retraerse y luego se abra el proximo..(Debido a que el callback no funciona como espero)
-	    			setTimeout(function(){
-
-		    			li.addClass("active");
-
-		    			submenu.stop(true,true).slideDown(submenuSpeedDown,function(){
-
-		    				submenuOpen = true;
-
-		    			});
-
-		    		},submenuSpeedUp);
-
-		    	}
-
-		    }
-
-		});
+		}
 
 	}
 
+
+	function peticion(src,page_id){
+
+		$(".ajax-container").load(src + " .contenido", function(response, status, xhr){
+
+			if(status == "success"){
+
+				// Si appendeo en la izquierda muevo el scroll hacia la seccion donde estaba parado con velocidad 0, porque cuando agregas algo en la izquierda logicamente se corre todo el contenido..
+				if( flag_direction == "left" ){
+
+					mascara.scrollTo("#" + id_seccion_inicial, 0);
+
+				}
+
+				mascara.scrollTo("#" + page_id, scroll_speed);
+
+				$("#loading").remove();
+
+			}else if(status == "error"){
+
+				$("#loading").remove();
+
+				alert("Ocurrio un error");
+
+			}
+
+		})
+
+	}
+
+
+	function init(el){
+
+		// obtener link clickeado
+		var that = el;
+
+		// Obtener el id de la pagina que se quiere cargar
+		var page_id = "#" + that.data("page-id");
+
+		// Si la seccion ya esta cargada en el documento..
+		if ( $(page_id).length > 0 ){
+
+			//Voy a la seccion directamente
+			mascara.scrollTo(page_id, scroll_speed);
+
+		}else{
+
+			// obtener url que se quiere cargar
+			var src = that.attr("href");
+
+			// obtener la direccion hacia donde se mover
+			if( that.data("nav") == "prev"){
+
+				flag_direction = "left";
+
+			}else{
+
+				flag_direction = "right";
+
+			}
+
+			// Crear el contenedor
+			crearContenedor();
+
+			// Hago la peticion
+			peticion(src,page_id);
+
+		}
+
+	}
+
+	return {
+		init: init
+	}
+
 })(window);
+
+
+$.ajaxSetup({
+
+	beforeSend: function() {
+
+		var loading = '<div id="loading"></div>';
+		$("body").append(loading);
+
+	}
+
+});
+
+var id_seccion_inicial = $(".mascara .slide section").attr("id");
+
+$(".navegacion").live("click",function(event){
+
+	event.preventDefault();
+
+	navegacion.init($(this));
+
+})

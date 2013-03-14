@@ -19,7 +19,7 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/home.css" />
+	<link rel="stylesheet" type="text/css" href="css/home-grilla.css" />
 </head>
 <body>
 
@@ -29,15 +29,15 @@
 
 		<div class="mascara">
 
-			<div class="slide">
+			<div class="slide clearfix">
 
 				<section id="nuevas-fronteras" class="nuevas-fronteras contenido clearfix">
 
 					<div class="preheader">
 
 						<ul class="flechas">
-							<li><a href="#" class="anterior"><i class="icon"></i><span class="hide">Anterior</span></a></li>
-							<li><a href="desafio-energetico.html" class="siguiente"><i class="icon"></i><span class="hide">Siguiente</span></a></li>
+							<!--li><a href="#" class="anterior navegacion" data-nav="prev"><i class="icon"></i><span class="hide">Anterior</span></a></li-->
+							<li><a href="desafio-energetico.html" class="siguiente navegacion" data-nav="next" data-page-id="desafio-energetico"><i class="icon"></i><span class="hide">Siguiente</span></a></li>
 						</ul>
 
 						<ul class="breadcrumb">
@@ -139,6 +139,8 @@
 		(function(a){window.scr={js:function(o,h){if(typeof o==="string"){o=[o]}var j,k,m,l,f,g,d;j=a.getElementsByTagName("script")[0];k={t:o.length,i:0};k.r=function(){return k.t===k.i};m=function(){k.i+=1;if(h&&k.r()){h()}};l=(function(){if(j.readyState){return function(b){b.onreadystatechange=function(){if(b.readyState==="loaded"||b.readyState==="complete"){b.onreadystatechange=null;m()}}}}else{return function(b){b.onload=function(){m()}}}}());f=0;g=a.createElement("script");for(f;f<k.t;f+=1){d=g.cloneNode(true);l(d);d.src=o[f];j.parentNode.insertBefore(d,j)}}}}(document));
 
 		scr.js("js/libs/jquery.min.js", function(){
+
+			scr.js("js/global.js");
 
 	    	//scr.js("js/latitud.js",function(){
 
