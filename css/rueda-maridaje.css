@@ -14,6 +14,11 @@ body{
 	overflow: hidden;
 }
 
+
+.contentPage.principal{
+	position: static;
+}
+
 .rueda-maridaje-container{
 	width: 853px;
 	height:368px;

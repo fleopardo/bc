@@ -32,7 +32,8 @@ body{
 	text-transform: uppercase;
 }
 
-.contentPage .contenedor p{
+.contentPage .contenedor p,
+.contentPage .contenedor dd{
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
@@ -44,8 +45,78 @@ body{
 
 .contentPage .contenedor .right-col {
 	float: right;
+	background: url('./assets/cepas/fd_cepas-principal.png') center no-repeat;
+	min-width: 507px;
+	min-height: 566px;
+	position: relative;
 }
 
 .contentPage .contenedor .left-col .bloque{
 	margin-bottom: 16px;
+}
+
+.contentPage .contenedor .right-col dl{
+	position: absolute;
+}
+
+.contentPage .contenedor .right-col dl.sauvignon-blanc{
+	top: ;
+	left: ;
+}
+
+.contentPage .contenedor .right-col dl.tempranillo{
+	top: ;
+	left: ;
+}
+
+.contentPage .contenedor .right-col dl.malbec{
+	top: ;
+	left: ;
+}
+
+.contentPage .contenedor .right-col dl.syrah{
+	top: ;
+	left: ;
+}
+
+.contentPage .contenedor .right-col dl.semillon{
+	top: ;
+	left: ;
+}
+
+.contentPage .contenedor .right-col dl.chardonnay{
+	top: ;
+	left: ;
+}
+
+.contentPage .contenedor .right-col dl.cabernet-sauvignon{
+	top: ;
+	left: ;
+}
+
+.contentPage .contenedor .right-col dl.merlot{
+	top: ;
+	left: ;
+}
+
+
+
+
+.contentPage .contenedor .right-col dt{
+	background: url('./assets/cepas/sp_iconos.png') top right no-repeat;
+	padding-right: 36px;
+	line-height: 31px;
+}
+
+.contentPage .contenedor .right-col dt span{
+	background: #000;
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.contentPage .contenedor .right-col dd {
+	background: #fff;
+	padding: 0 10px;
+	display: block;
+	color: #000;
 }
