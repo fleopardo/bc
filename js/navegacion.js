@@ -6,7 +6,9 @@
  * Componente para manejar la navegacion async y animada
 */
 
+// Chequeo si ya existe el namespace, sino lo instancio.
 var shale = shale || {};
+
 
 shale.navegacion = (function(window){
 
@@ -14,6 +16,12 @@ shale.navegacion = (function(window){
 		mascara = $('.mascara'),
 		slide = mascara.find(".slide"),
 		flag_direction;
+
+		if(history.replaceState){
+
+			history.replaceState({'page_id':id_seccion_actual}, null, window.location);
+
+		}
 
 
 	function crearContenedor(page_id){
@@ -37,19 +45,32 @@ shale.navegacion = (function(window){
 
 			if(status == "success"){
 
+				if(window.history.pushState){
+
+					window.history.pushState({'page_id':page_id}, page_id, src);
+
+				}
+
 				// Si appendeo en la izquierda muevo el scroll hacia la seccion donde estaba parado con velocidad 0, porque cuando agregas algo en la izquierda logicamente se corre todo el contenido..
 				if( flag_direction == "left" ){
+
+					$.scrollTo.window().queue([]).stop();
 
 					mascara.scrollTo("#" + id_seccion_actual, {speed:0, easing: shale.navegacion.easing});
 
 				}
+
+				$.scrollTo.window().queue([]).stop();
 
 				mascara.scrollTo("#" + page_id, {speed:shale.navegacion.speed, easing: shale.navegacion.easing});
 
 				$("#loading").remove();
 
 				//Ahora la seccion actual es hacia la que me movi
+
 				id_seccion_actual = page_id;
+
+
 
 			}else if(status == "error"){
 
@@ -75,16 +96,27 @@ shale.navegacion = (function(window){
 		// Obtener el id de la pagina que se quiere cargar
 		var page_id = that.data("page-id");
 
+		// obtener url que se quiere cargar
+		var src = that.attr("href");
+
 		// Si la seccion ya esta cargada en el documento..
 		if ( $("#" + page_id).length > 0 ){
 
 			//Voy a la seccion directamente
+			$.scrollTo.window().queue([]).stop();
+
 			mascara.scrollTo("#" + page_id, shale.navegacion.speed);
 
-		}else{
+			if(window.history.pushState){
 
-			// obtener url que se quiere cargar
-			var src = that.attr("href");
+				window.history.pushState({'page_id':page_id}, page_id, src);
+
+			}
+
+			//Ahora la seccion actual es hacia la que me movi
+			id_seccion_actual = page_id;
+
+		}else{
 
 			// obtener la direccion hacia donde se mover
 			if( that.data("nav") == "prev"){
@@ -107,6 +139,60 @@ shale.navegacion = (function(window){
 			peticion(src,page_id);
 
 		}
+
+
+		// Used to detect initial (useless) popstate.
+		// If history.state exists, assume browser isn't going to fire initial popstate.
+		var popped = ('state' in window.history),
+			initialURL = window.location.href;
+
+		// popstate handler takes care of the back and forward buttons
+		//
+		// You probably shouldn't use pjax on pages with other pushState
+		// stuff yet.
+		window.onpopstate = function(event) {
+
+			// Ignore inital popstate that some browsers fire on page load
+			var initialPop = !popped && location.href == initialURL
+
+			popped = true
+
+			if ( initialPop ) return
+
+			var state = event.state;
+
+			if ( state ) {
+
+				if ($("#" + event.state.page_id).length > 0){
+
+					mascara.scrollTo("#" + event.state.page_id, shale.navegacion.speed);
+
+				}
+
+			}else{
+
+
+			}
+
+		}
+
+		/*
+		if (history.popState) {
+
+			alert("");
+		    // immediately replace state to ensure popstate works for inital page
+		    history.replaceState(true, null, window.location.pathname);
+
+			window.onpopstate = function(event) {
+
+				if(event.state != null){
+					console.log(event.state.page_id)
+					mascara.scrollTo("#" + event.state.page_id, shale.navegacion.speed);
+
+				}
+			};
+
+		}*/
 
 	}
 
