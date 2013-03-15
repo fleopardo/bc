@@ -119,9 +119,6 @@ body{
 	right: 80px;
 }
 
-
-
-
 .contentPage .contenedor .right-col dt{
 	background: url('./assets/cepas/sp_iconos.png') top right no-repeat;
 	padding-right: 36px;
@@ -135,9 +132,21 @@ body{
 	display: block;
 }
 
+.contentPage .contenedor .right-col dt.active{
+	background: url('./assets/cepas/sp_iconos.png') bottom right no-repeat;
+	color: #000;
+}
+
+.contentPage .contenedor .right-col dt.active span{
+	background: #fff;
+}
+
 .contentPage .contenedor .right-col dd {
 	background: #fff;
 	padding: 4px 10px;
 	display: none;
 	color: #000;
+	margin-top: 1px;
+	z-index: 100;
+	position: relative;
 }
