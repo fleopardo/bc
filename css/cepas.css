@@ -30,6 +30,7 @@ body{
 
 .contentPage .contenedor h3{
 	text-transform: uppercase;
+	margin-bottom: 12px;
 }
 
 .contentPage .contenedor p,
@@ -41,6 +42,22 @@ body{
 
 .contentPage .contenedor .left-col {
 	float: left;
+	width: 40%;
+	
+}
+
+.contentPage .contenedor .left-col .scroll{
+	height: 400px;
+	overflow: auto;
+}
+
+.scroll .jspDrag{
+	background: #000;
+}
+
+
+.scroll .jspTrack{
+	background: #bcbcbc;
 }
 
 .contentPage .contenedor .right-col {
@@ -57,11 +74,13 @@ body{
 
 .contentPage .contenedor .right-col dl{
 	position: absolute;
+	width: 160px;
 }
 
 .contentPage .contenedor .right-col dl.sauvignon-blanc{
 	top: 30px;
 	left: 40px;
+	width: 205px;
 }
 
 .contentPage .contenedor .right-col dl.tempranillo{
@@ -80,7 +99,7 @@ body{
 }
 
 .contentPage .contenedor .right-col dl.semillon{
-	top: 60px;
+	top: 70px;
 	right: 160px;
 }
 
@@ -92,6 +111,7 @@ body{
 .contentPage .contenedor .right-col dl.cabernet-sauvignon{
 	top: 214px;
 	right: 60px;
+	width: 205px;
 }
 
 .contentPage .contenedor .right-col dl.merlot{
@@ -106,17 +126,18 @@ body{
 	background: url('./assets/cepas/sp_iconos.png') top right no-repeat;
 	padding-right: 36px;
 	line-height: 31px;
+	display: block;
 }
 
 .contentPage .contenedor .right-col dt span{
 	background: #000;
 	padding: 0 10px;
-	display: inline-block;
+	display: block;
 }
 
 .contentPage .contenedor .right-col dd {
 	background: #fff;
-	padding: 0 10px;
-	display: block;
+	padding: 4px 10px;
+	display: none;
 	color: #000;
 }
