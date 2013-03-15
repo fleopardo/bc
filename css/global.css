@@ -129,6 +129,26 @@ input.placeholder{ color: #373737; }
 	margin: 0 auto;
 }
 
+
+/*
+ * Estilos para el markup necesario para la navegacion async
+*/
+.mascara{
+	width: 1200px;
+	overflow: hidden
+}
+
+.slide{
+	position: relative;
+	width: 8000px;
+}
+
+.mascara section{
+	width: 1200px;
+	margin-right: 10px;
+	float: left;
+}
+
 /*
  * Preheader
 */

@@ -1,18 +1,4 @@
-.mascara{
-	width: 1200px;
-	overflow: hidden
-}
 
-.slide{
-	position: relative;
-	width: 8000px;
-}
-
-.mascara section{
-	width: 1200px;
-	margin-right: 10px;
-	float: left;
-}
 
 .bloque{
 	margin-bottom: 10px;

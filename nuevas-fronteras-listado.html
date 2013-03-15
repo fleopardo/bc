@@ -29,20 +29,28 @@
 
 		<div class="mascara">
 
-			<div class="slide">
+			<div class="slide clearfix">
 
-				<section id="nuevas-fronteras" class="nuevas-fronteras clearfix">
+				<section id="nuevas-fronteras" class="nuevas-fronteras contenido clearfix">
 
 					<div class="preheader">
 
 						<ul class="flechas">
-							<li><a href="#" class="anterior navegacion" data-nav="prev"><i class="icon"></i><span class="hide">Anterior</span></a></li>
-							<li><a href="desafio-energetico-listado.html" class="siguiente navegacion" data-nav="next"><i class="icon"></i><span class="hide">Siguiente</span></a></li>
+							<li>
+								<a href="nuestra-energia-listado.html" class="anterior navegacion" data-nav="prev" data-page-id="nuestra-energia">
+									<i class="icon"></i><span class="hide">Anterior</span>
+								</a>
+							</li>
+							<li>
+								<a href="desafio-energetico-listado.html" class="siguiente navegacion" data-nav="next" data-page-id="desafio-energetico">
+									<i class="icon"></i><span class="hide">Siguiente</span>
+								</a>
+							</li>
 						</ul>
 
 						<ul class="breadcrumb">
 							<li>Home<i class="icon"></i></li>
-							<li><a href="#"><strong>Nuevas fronteras</strong></a></li>
+							<li><a href="nuevas-fronteras-listado.html"><strong>Nuevas fronteras</strong></a></li>
 						</ul>
 
 						<ul class="vistas">
@@ -52,7 +60,7 @@
 
 					</div>
 
-					<p>alalala long</p>
+					Aca maquetar el listado
 
 
 				</section>
@@ -90,11 +98,13 @@
 
 		scr.js("js/libs/jquery.min.js", function(){
 
-	    	//scr.js("js/latitud.js",function(){
+	    	scr.js(["js/libs/jquery.scrollTo.js",
+	    			"js/libs/jquery.easing.1.3.js",
+	    			"js/navegacion.js"],function(){
 
-		    //	scr.js(["js/global.js","js/prehome.js"]);
+		    	scr.js("js/global.js");
 
-			//});
+			});
 
 		});
 	</script>
