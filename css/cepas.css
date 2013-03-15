@@ -111,7 +111,7 @@ body{
 .contentPage .contenedor .right-col dl.cabernet-sauvignon{
 	top: 214px;
 	right: 60px;
-	width: 205px;
+	width: 225px;
 }
 
 .contentPage .contenedor .right-col dl.merlot{
@@ -124,6 +124,8 @@ body{
 	padding-right: 36px;
 	line-height: 31px;
 	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
 }
 
 .contentPage .contenedor .right-col dt span{
