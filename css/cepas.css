@@ -33,6 +33,10 @@ body{
 	margin-bottom: 12px;
 }
 
+.contentPage .contenedor h4{
+	margin-bottom: 6px;
+}
+
 .contentPage .contenedor p,
 .contentPage .contenedor dd{
 	font-family: 'neutra2displaymedium';
@@ -69,7 +73,7 @@ body{
 }
 
 .contentPage .contenedor .left-col .bloque{
-	margin-bottom: 16px;
+	margin-bottom: 23px;
 }
 
 .contentPage .contenedor .right-col dl{
