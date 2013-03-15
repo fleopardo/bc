@@ -22,7 +22,8 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/rueda-maridaje.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.jscrollpane.css" />
+	<link rel="stylesheet" type="text/css" href="css/maridaje.css" />
 </head>
 <body>
 
@@ -165,15 +166,56 @@
 
 		<!-- Galery -->
 		<section class="contentPage principal">
-			<div class="contenedor">
-				<a href="" class="prev">PREV</a>
-				<a href="" class="next">NEXT</a>
+			<div class="contenedor clearfix">
+				<div class="info-principal">
+					<div class="left-col">
+						<h2>&bull; Maridaje &bull;</h2>
+						<h3>El arte bla bl abla</h3>
+						<div class="scroll">
+							<p>Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
+							<p><strong>Malbec</strong><br />
+							Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
+							<p><strong>Malbec:</strong>
+							Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
+							<p>Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
+							<p><strong>Malbec</strong><br />
+							Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
+							<p><strong>Malbec:</strong>
+							Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
+							<p>Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
+							<p><strong>Malbec</strong><br />
+							Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
+							<p><strong>Malbec:</strong>
+							Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
+						</div>
+					</div>
 
-				<div id="maridaje" class="rueda-maridaje-container">
-					<img src="./css/assets/rueda-maridaje/rueda-maridaje.png" id="img"/>
-					<!-- La imagen que va a rotar tiene que tener un id y ejecutarle el rotate a ese id.. si hago (#maridaje img) no funciona en IE 8 y 7 -->
-					<span class="mascara-maridaje" style=""></span>
+
+					<div class="right-col">
+						<img src="./img/maridaje/im-maridaje-chardonnay.png" width="380" height="430">
+					</div>
 				</div>
+				<div class="bloques-container">
+					<div class="recetas">
+						<img src="./img/maridaje/im-recetas.png" width="230" height="126">
+						<div class="txt">
+							<h2>Recetas</h2>
+							<p>texto texto texto</p>
+							<a href="#" title="Ingresar"><span>Ingresar</span></a>
+						</div>
+					</div>
+
+					<div class="videos">
+						<img src="./img/maridaje/im-videos.png" width="230" height="126">
+						<div class="txt">
+							<h2>Videos</h2>
+							<p>texto texto texto</p>
+							<a href="#" title="Ingresar"><span>Ingresar</span></a>
+						</div>
+					</div>
+				</div>
+
+
 			</div>
 		</section>
 
@@ -216,7 +258,9 @@
 
 	    	scr.js(["js/libs/jQueryRotateCompressed.2.2.js",
 	    			"js/libs/jquery.touchwipe.min.js",
-	    			"js/rueda-maridaje.js",
+	    			"js/libs/jquery.mousewheel.js",
+                    "js/libs/jquery.jscrollpane.min.js",
+                    "js/maridaje.js",
 	    			"js/latitud.js"],function(){
 
 	    		scr.js("js/global.js");

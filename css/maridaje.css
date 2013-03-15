@@ -1,0 +1,154 @@
+
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+body{
+	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.maridaje .contentPage.principal{
+	background: url('./assets/maridaje/bg-suelo-botella.png') 50% 350px no-repeat;
+}
+
+.contentPage .contenedor h2{
+	font-family: "neutra2displaylight";
+	font-size: 40px;
+	line-height: 44px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.contentPage .contenedor h3,
+.contentPage .contenedor h4{
+	font-family: "neutraface2displaybold";
+	font-size: 18px;
+	line-height: 20px;
+	color: #000;
+}
+
+.contentPage .contenedor h3{
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+.contentPage .contenedor h4{
+	margin-bottom: 6px;
+}
+
+.contentPage .contenedor p{
+	font-family: 'neutra2displaymedium';
+	color: #000;
+	font-size: 18px;
+}
+
+.info-principal{
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.contentPage .contenedor .left-col {
+	float: left;
+	width: 40%;
+}
+
+.contentPage .contenedor .left-col .scroll{
+	height: 395px;
+	overflow: auto;
+}
+
+.contentPage .contenedor .left-col .scroll p{
+	margin-bottom: 20px;
+}
+
+.scroll .jspDrag{
+	background: #000;
+}
+
+
+.scroll .jspTrack{
+	background: #bcbcbc;
+}
+
+.contentPage .contenedor .right-col {
+	float: right;
+	width: 50%;
+	position: relative;
+}
+
+.contentPage .contenedor .left-col .bloque{
+	margin-bottom: 23px;
+}
+
+
+.bloques-container{
+	clear: both;
+	overflow: hidden;
+}
+
+.bloques-container .recetas,
+.bloques-container .videos{
+	height: 126px;
+	width: 48%;
+	position: relative;
+}
+
+.bloques-container .recetas{
+	background: #a53228;
+	float: left;
+}
+
+.bloques-container .videos{
+	background: #b49426;
+	float: right;
+}
+
+.bloques-container .videos img,
+.bloques-container .recetas img{
+	float: left;
+	width: 50%;
+}
+
+.bloques-container .txt{
+	width: 43%;
+	float: right;
+	padding: 12px 3%;
+}
+
+.contentPage .contenedor .bloques-container h2{
+	font-size: 23px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.contentPage .contenedor .bloques-container h2,
+.contentPage .contenedor .bloques-container p{
+	color: #fff
+}
+
+.bloques-container .txt a,
+.bloques-container .txt a span{
+	display: inline-block;
+	line-height: 26px;
+	color: #fff
+}
+
+.bloques-container .txt a{
+	background: url('./assets/maridaje/bg-links-bloques.png') left no-repeat;
+	padding-left: 28px;
+	position: absolute;
+	bottom: 12px;
+	left: 53%;
+}
+
+.bloques-container .txt a span{
+	background: #000;
+	padding: 0 20px 0 12px;
+}
