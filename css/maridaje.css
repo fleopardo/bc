@@ -87,6 +87,32 @@ body{
 	margin-bottom: 23px;
 }
 
+.rueda-maridaje-ingreso{
+	position: absolute;
+	width: 110px;
+	padding: 30px 30px 0;
+	background: #949539;
+}
+
+.rueda-maridaje-ingreso:after{
+	content: '';
+	position: absolute;
+	width: 170px;
+	background: #949539;
+	height: 40px;
+	bottom: -40px;
+	left: 0
+}
+
+.contentPage .contenedor .rueda-maridaje-ingreso h3{
+	font-size: 23px;
+	line-height: 28px;
+	color: #fff;
+}
+
+.contentPage .contenedor .rueda-maridaje-ingreso p{
+	color: #fff;
+}
 
 .bloques-container{
 	clear: both;
@@ -146,6 +172,7 @@ body{
 	position: absolute;
 	bottom: 12px;
 	left: 53%;
+	text-transform: uppercase;
 }
 
 .bloques-container .txt a span{
