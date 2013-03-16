@@ -400,3 +400,100 @@
 		.desafio-energetico .recursos-convencionales .more{
 			border-bottom-color: #675f1a;
 		}
+
+
+/*
+ * Home nuestra energia
+*/
+
+	.nuestra-energia .nuestra-energia-detalle{
+		width: 705px;
+		height: 578px;
+		float: left;
+		background: url("./assets/home/nuestra-energia/nuestra-energia-detalle.jpg") top right no-repeat;
+		margin-right: 10px;
+	}
+
+	.nuestra-energia .nuestra-energia-detalle h3{
+		font-size: 29px;
+		font-family: "din-black";
+		line-height: 30px;
+	}
+
+	.nuestra-energia .nuestra-energia-detalle h3 span{
+		font-family: "din-light";
+		display: block;
+	}
+
+	/* Bloques de la derecha */
+
+	.nuestra-energia .bloque2{
+		float: left;
+		width: 485px;
+		height: 186px;
+		position: relative;
+	}
+
+		.nuestra-energia .historia{
+			background: url("./assets/home/nuestra-energia/historia.jpg") top right no-repeat;
+		}
+
+		.nuestra-energia .comentarios{
+			background: url("./assets/home/nuestra-energia/comentarios.jpg") top right no-repeat;
+		}
+
+		.nuestra-energia .backstage{
+			background: url("./assets/home/nuestra-energia/backstage.jpg") top right no-repeat;
+		}
+
+	.nuestra-energia .bloque2 div{
+		width: 208px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+		.nuestra-energia .historia div{
+			background: #7e2309;
+		}
+
+		.nuestra-energia .comentarios div{
+			background: #dba531;
+		}
+
+		.nuestra-energia .backstage div{
+			background: #a45807;
+		}
+
+		/* Hovers */
+		.nuestra-energia .historia:hover div{
+			background: #551806;
+		}
+
+		.nuestra-energia .comentarios:hover div{
+			background: #83631d;
+		}
+
+		.nuestra-energia .backstage:hover div{
+			background: #663704;
+		}
+
+
+		/* Cambio de color para icono "More" */
+		.nuestra-energia .historias .more{
+			border-bottom-color: #551806;
+		}
+
+		.nuestra-energia .comentarios .more{
+			border-bottom-color: #83631d;
+		}
+
+		.nuestra-energia .backstage .more{
+			border-bottom-color: #663704;
+		}
+
+	.nuestra-energia .bloque2 h3{
+		font-size: 22px;
+		font-family: "din-medium";
+	}
