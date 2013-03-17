@@ -1,0 +1,124 @@
+/****** ESTRUCTURA GENERAL *******/
+
+
+.listado-container .left-col,
+.listado-container .right-col{
+	padding-top: 35px;
+}
+
+.listado-container .left-col h2,
+.listado-container .right-col h2{
+	font-size: 17px;
+	font-family: "din-black";
+	line-height: 24px;
+	margin-bottom: 12px;
+	color: #fff;
+	display: inline-block;
+}
+
+.listado-container .left-col{
+	width: 770px;
+	float: left;
+	background: #f1f1f1;
+}
+
+.listado-container .right-col{
+	width: 430px;
+	float: right;
+	background: #333;
+}
+
+.listado-container .left-col{
+	width: 770px;
+	float: left;
+	background: #f1f1f1;
+}
+
+.listado-container .left-col h2{
+	padding: 0 20px;
+}
+
+.listado-container .left-col h2 span{
+	font-family: "din-light";
+}
+
+.listado-container .left-col > a{
+	display: block;
+	border-bottom: 1px solid #b8b8b8;
+}
+
+.listado-container .left-col > a:hover{
+	background: #cbcbcb;
+}
+
+.listado-container .left-col article{
+	overflow: hidden;
+	padding: 30px;
+}
+
+.listado-container .left-col article img{
+	float: left;
+	width: 80px;
+}
+
+.listado-container .left-col article > div{
+	float: right;
+	width: 610px;
+}
+
+.listado-container .left-col article h3{
+	color: #383838;
+	font-size: 16px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+.listado-container .left-col article p{
+	color: #464040;
+	font-size: 14px;
+	line-height: 16px;
+	font-family: "din-regular";
+	margin-bottom: 8px;
+}
+
+.listado-container .left-col article .ruta span{
+	color: #23231c;
+	font-size: 12px;
+	line-height: 16px;
+	font-style: italic;
+}
+
+.listado-container .left-col article .ruta span.active{
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.listado-container .right-col h2{
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+
+.listado-container .right-col a{
+	text-align: center;
+	display: block;
+	padding: 30px 0;
+	border-bottom: 1px solid #191919;
+}
+
+.listado-container .right-col a:hover{
+	background: #252525;
+}
+
+
+
+
+/** DESAFIO ENERGETICO **/
+
+.desafio-energetico .listado-container .left-col h2{
+	background: #0d7b6a;
+}
+
+.desafio-energetico .listado-container .left-col article .ruta span.active{
+	color: #0d7b6a;
+}
+
