@@ -90,28 +90,40 @@ body{
 .rueda-maridaje-ingreso{
 	position: absolute;
 	width: 110px;
-	padding: 30px 30px 0;
+	padding: 30px 30px 20px;
 	background: #949539;
+	top:94px;
+	left: 30px;
 }
 
 .rueda-maridaje-ingreso:after{
 	content: '';
 	position: absolute;
 	width: 170px;
-	background: #949539;
-	height: 40px;
-	bottom: -40px;
-	left: 0
+	height: 19px;
+	background: url('./assets/maridaje/bg-flag.png') center top no-repeat;
+	bottom: -19px;
+	left: 0;
 }
 
 .contentPage .contenedor .rueda-maridaje-ingreso h3{
 	font-size: 23px;
 	line-height: 28px;
 	color: #fff;
+	margin-bottom: 0;
 }
 
 .contentPage .contenedor .rueda-maridaje-ingreso p{
 	color: #fff;
+	margin-bottom: 6px;
+}
+
+.contentPage .contenedor .rueda-maridaje-ingreso a{
+	font-size: 11px;
+}
+
+.contentPage .contenedor .rueda-maridaje-ingreso a span{
+	padding: 0 20px 0 12px;
 }
 
 .bloques-container{
@@ -160,22 +172,32 @@ body{
 }
 
 .bloques-container .txt a,
-.bloques-container .txt a span{
+.bloques-container .txt a span,
+.contentPage .contenedor .rueda-maridaje-ingreso a,
+.contentPage .contenedor .rueda-maridaje-ingreso a span{
 	display: inline-block;
 	line-height: 26px;
 	color: #fff
 }
 
-.bloques-container .txt a{
+.bloques-container .txt a,
+.contentPage .contenedor .rueda-maridaje-ingreso a{
 	background: url('./assets/maridaje/bg-links-bloques.png') left no-repeat;
 	padding-left: 28px;
-	position: absolute;
-	bottom: 12px;
-	left: 53%;
 	text-transform: uppercase;
 }
 
-.bloques-container .txt a span{
+.bloques-container .txt a span,
+.contentPage .contenedor .rueda-maridaje-ingreso a span{
 	background: #000;
+}
+
+.bloques-container .txt a{
+	bottom: 12px;
+	left: 53%;
+	position: absolute;
+}
+
+.bloques-container .txt a span{
 	padding: 0 20px 0 12px;
 }
