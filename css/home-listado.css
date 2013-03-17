@@ -122,3 +122,13 @@
 	color: #0d7b6a;
 }
 
+
+
+/* NUESTRA ENERGIA */
+.nuestra-energia .listado-container .left-col h2{
+	background: #d59140;
+}
+
+.nuestra-energia .listado-container .left-col article .ruta span.active{
+	color: #d59140;
+}
