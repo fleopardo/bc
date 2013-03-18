@@ -1,0 +1,97 @@
+
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+body{
+	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contentPage .contenedor h2{
+	font-family: "neutra2displaylight";
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.contentPage .contenedor h3{
+	font-family: "neutra2displaymedium";
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 12px;
+}
+
+.contentPage .contenedor p,
+.contentPage .contenedor dd{
+	font-family: 'neutra2displaymedium';
+	color: #000;
+	font-size: 18px;
+}
+
+.contentPage .contenedor .left-col {
+	float: left;
+	width: 40%;
+	
+}
+
+.contentPage .contenedor .right-col {
+	float: right;
+	width: 55%;
+	position: relative;
+}
+
+.contentPage .contenedor .right-col img{
+	width: 100%;
+	height: auto;
+}
+
+.contentPage .contenedor .left-col .bloque{
+	margin-bottom: 25px;
+}
+
+.contentPage .contenedor dl{
+	width: 360px;
+	margin-bottom: 4px;
+}
+
+.contentPage .contenedor dt{
+	background: url('./assets/cepas/sp_iconos.png') top right no-repeat;
+	padding-right: 36px;
+	line-height: 31px;
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.contentPage .contenedor dt span{
+	background: #000;
+	padding: 0 10px;
+	display: block;
+}
+
+.contentPage .contenedor dt.active{
+	background: url('./assets/cepas/sp_iconos.png') bottom right no-repeat;
+	color: #000;
+}
+
+.contentPage .contenedor dt.active span{
+	background: #fff;
+}
+
+.contentPage .contenedor dd {
+	background: #fff;
+	padding: 4px 10px;
+	display: none;
+	color: #000;
+	margin-top: 1px;
+	z-index: 100;
+	position: relative;
+}
