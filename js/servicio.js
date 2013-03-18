@@ -16,6 +16,23 @@
  			$(this).siblings('dd').slideToggle();
  		});
  	});
+
+ 	/*$('dt a').click(function(){
+ 		if ( $(this).hasClass('texto') ) {
+ 			alert('sdfs')
+ 			$('dd #texto').css('display','none');
+ 			/*$('table').css('display','block');
+ 			$(this).removeClass('texto');
+ 			$(this).addClass('tabla');
+ 		}
+
+ 		if ( $(this).hasClass('tabla') ) {
+ 			$('dd table').css('display','none');
+ 			$('dd #texto').css('display','block');
+ 			$(this).removeClass('tabla');
+ 			$(this).addClass('texto');
+ 		}
+ 	});*/
 	
 
 })(window);
