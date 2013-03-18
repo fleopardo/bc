@@ -16,6 +16,7 @@ body{
 .contentPage .contenedor h2{
 	font-family: "neutra2displaylight";
 	font-size: 40px;
+	line-height: 44px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	color: #000;
@@ -23,8 +24,9 @@ body{
 
 .contentPage .contenedor h3,
 .contentPage .contenedor h4{
-	font-family: "neutraface2displaybold";
+	font-family: "neutra2displaymedium";
 	font-size: 18px;
+	line-height: 22px;
 	color: #000;
 }
 
