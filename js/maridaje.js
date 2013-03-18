@@ -6,7 +6,7 @@
 
 ;(function(window){
 
-	$scrollCustom = $('.scroll'),
+	var $scrollCustom = $('.scroll');
 
 	/*
  	 * Inicializacion jsScrollPane
