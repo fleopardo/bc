@@ -105,7 +105,7 @@ body{
 }
 
 .contentPage .contenedor .left-col li a.active{
-	background-position right bottom;
+	background-position: right bottom;
 }
 
 .contentPage .contenedor .left-col li a.active span{
@@ -114,8 +114,7 @@ body{
 
 .contentPage .contenedor .right-col {
 	float: right;
-	min-width: 507px;
-	min-height: 566px;
+	width: 56%;
 	position: relative;
 }
 
@@ -144,13 +143,8 @@ body{
 	margin-bottom: 50px;
 }
 
-.contentPage .contenedor .right-col .description h3 span{
-	color: #f0772e;
-}
-
 .contentPage .contenedor .right-col .description h4{
 	font: 24px/27px 'neutraface2displaybold';
-	color: #f0772e;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
@@ -162,9 +156,8 @@ body{
 	margin-bottom: 20px;
 }
 
-.contentPage .contenedor .right-col .description h6 a{
+.contentPage .contenedor .right-col h6 a{
 	font: 22px/25px 'neutra2displaymedium';
-	color: #f0772e;
 }
 
 .contentPage .contenedor .right-col .recetas-cont{
@@ -182,3 +175,81 @@ body{
 	right: 0;
 	top: 12px;
 }
+
+
+
+/*receta cordero*/
+
+.contentPage .contenedor .right-col .cordero h3 span{
+	color: #f0772e;
+}
+
+.contentPage .contenedor .right-col .cordero h4{
+	color: #f0772e;
+}
+
+.contentPage .contenedor .right-col .cordero h6 a{
+	color: #f0772e;
+}
+
+.contentPage .contenedor .right-col .cordero .recetas-cont > a{
+	background-position: 0 0;
+}
+
+
+/*Receta papa*/
+
+.contentPage .contenedor .right-col .papa h3 span{
+	color: #b29126;
+}
+
+.contentPage .contenedor .right-col .papa h4{
+	color: #b29126;
+}
+
+.contentPage .contenedor .right-col .papa h6 a{
+	color: #b29126;
+}
+
+.contentPage .contenedor .right-col .papa .recetas-cont > a{
+	background-position: 0 -16px;
+}
+
+
+/*Receta tomate*/
+
+.contentPage .contenedor .right-col .tomate h3 span{
+	color: #a53228;
+}
+
+.contentPage .contenedor .right-col .tomate h4{
+	color: #a53228;
+}
+
+.contentPage .contenedor .right-col .tomate h6 a{
+	color: #a53228;
+}
+
+.contentPage .contenedor .right-col .tomate .recetas-cont > a{
+	background-position: 0 -32px;
+}
+
+
+/*Receta oliva*/
+
+.contentPage .contenedor .right-col .oliva h3 span{
+	color: #839449;
+}
+
+.contentPage .contenedor .right-col .oliva h4{
+	color: #839449;
+}
+
+.contentPage .contenedor .right-col .oliva h6 a{
+	color: #839449;
+}
+
+.contentPage .contenedor .right-col .oliva .recetas-cont > a{
+	background-position: 0 -48px;
+}
+
