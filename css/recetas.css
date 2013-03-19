@@ -14,7 +14,8 @@ body{
 }
 
 .recetas .contentPage.principal{
-	background: url('./assets/maridaje/bg-suelo-botella.png') 50% 350px no-repeat;
+	background: url('./assets/maridaje/bg-suelo-botella.png') 50% 430px no-repeat;
+	padding: 90px 0;
 }
 
 .contentPage .contenedor h2{
@@ -53,11 +54,62 @@ body{
 .contentPage .contenedor .left-col {
 	float: left;
 	width: 40%;
-
 }
 
 .contentPage .contenedor .left-col .bloque{
 	margin-bottom: 23px;
+}
+
+.contentPage .contenedor .left-col .filter-container{
+	background: #fff;
+	padding: 25px;
+}
+
+.contentPage .contenedor .left-col .filter-container h4{
+	color: #000;
+	font: 22px/25px 'neutraface2displaybold';
+	text-transform: uppercase;
+	background: url('./assets/recetas/fd-title-lupa.png') left top no-repeat;
+	text-indent: 25px;
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 18px;
+	margin-bottom: 28px;
+}
+
+.contentPage .contenedor .left-col .filter-container h4 span{
+	color: #f0772e;
+	font-family: 'neutra2displaymedium';
+}
+
+
+.contentPage .contenedor .left-col li a{
+	margin-bottom: 5px;
+}
+
+.contentPage .contenedor .left-col li a,
+.contentPage .contenedor .left-col li a span{
+	display: inline-block;
+}
+
+.contentPage .contenedor .left-col li a{
+	background: url('./assets/recetas/bg-filters.png') right top no-repeat;
+	padding-right: 32px;
+	line-height: 29px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.contentPage .contenedor .left-col li a span{
+	background: #000;
+	padding: 0 12px;
+}
+
+.contentPage .contenedor .left-col li a.active{
+	background-position right bottom;
+}
+
+.contentPage .contenedor .left-col li a.active span{
+	background: #f0772e;
 }
 
 .contentPage .contenedor .right-col {
@@ -69,4 +121,64 @@ body{
 
 .contentPage .contenedor .right-col .description{
 	display: none;
+}
+
+.contentPage .contenedor .right-col .description img{
+	position: absolute;
+	z-index: 0;
+	top: -70px;
+	right: 0;
+}
+
+.contentPage .contenedor .right-col .description h3,
+.contentPage .contenedor .right-col .description h4,
+.contentPage .contenedor .right-col .recetas-cont{
+	position: relative;
+	z-index: 10;
+}
+
+.contentPage .contenedor .right-col .description h3{
+	font: 45px/47px 'neutra2displaylight';
+	color: #000;
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+.contentPage .contenedor .right-col .description h3 span{
+	color: #f0772e;
+}
+
+.contentPage .contenedor .right-col .description h4{
+	font: 24px/27px 'neutraface2displaybold';
+	color: #f0772e;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.contentPage .contenedor .right-col .description h5{
+	font: 16px/17px 'neutra2displaymedium';
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.contentPage .contenedor .right-col .description h6 a{
+	font: 22px/25px 'neutra2displaymedium';
+	color: #f0772e;
+}
+
+.contentPage .contenedor .right-col .recetas-cont{
+	margin-bottom: 25px;
+	position: relative;
+	padding-right: 24px;
+}
+
+.contentPage .contenedor .right-col .recetas-cont > a{
+	background: url('./assets/recetas/ic-recetas.png') no-repeat;
+	width: 17px;
+	height: 16px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 12px;
 }
