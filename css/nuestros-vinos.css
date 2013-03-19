@@ -271,6 +271,7 @@ section.el-vino .bloqueBlanco{
 .botellas-container li img{
 	max-width: 100%;
 	height: auto;
+	border: none;
 }
 
 .botellas-container li a{
