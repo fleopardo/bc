@@ -26,6 +26,7 @@
 	width: 430px;
 	float: right;
 	background: #333;
+	overflow: hidden;
 }
 
 .listado-container .left-col{
