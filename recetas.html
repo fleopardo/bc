@@ -170,7 +170,7 @@
 				<div class="left-col">
 					<h3>Maridaje > Recetas</h3>
 					<h2>&bull; Recetas &bull;</h2>
-					
+
 					<div class="bloque">
 						<p>Texto texto texto exto texto texto exto texto textoexto texto textoexto texto textoexto texto textoexto texto texto vexto texto textoexto texto texto  vexto texto textovexto texto texto vexto texto texto</p>
 					</div>
@@ -178,19 +178,19 @@
 					<div class="filter-container">
 						<h4>Buscar<br />por ingredientes</h4>
 						<ul>
-							<li><a href="#" title="Tomate" class="active">Tomate</a></li>
-							<li><a href="#" title="Oliva">Oliva</a></li>
-							<li><a href="#" title="Papa">Papa</a></li>
-							<li><a href="#" title="Cordero">Cordero</a></li>
+							<li><a href="#" title="Tomate" class="active" data-id="tomate">Tomate</a></li>
+							<li><a href="#" title="Oliva" data-id="oliva">Oliva</a></li>
+							<li><a href="#" title="Papa" data-id="papa">Papa</a></li>
+							<li><a href="#" title="Cordero" data-id="cordero">Cordero</a></li>
 						</ul>
 					</div>
-					
-					
+
+
 				</div>
 
 
 				<div class="right-col">
-					<div class="description" id="" class="">
+					<div class="description" data-id="tomate" style="display: block;">
 						<h3>Te invitamos a descubrir<br />los sabores de nuestra tierra</h3>
 						<h4>Cordero</h4>
 						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
@@ -209,7 +209,64 @@
 						<img src="./img/recetas/im-malbec.png" width="339" height="510">
 					</div>
 
-					
+					<div class="description" data-id="oliva" class="">
+						<h3>Te invitamos a descubrir<br />los sabores de nuestra tierra</h3>
+						<h4>Cordero</h4>
+						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
+						<div class="recetas-cont">
+							<h6>Hamburguesas de Cordero, Cebolla, Portobellos y Queso Morbier</h6>
+							<p>Porciones 4</p>
+						</div>
+						<div class="recetas-cont">
+							<h6>Ragout de Cordero Especiado, Arroz Basmati y Chipatis.</h6>
+							<p>Porciones 6</p>
+						</div>
+						<div class="recetas-cont">
+							<h6>Mollejita de Cordero con Manteca de almendras y Ciboulette</h6>
+							<p>Porciones 4</p>
+						</div>
+						<img src="./img/recetas/im-malbec.png" width="339" height="510">
+					</div>
+
+					<div class="description" data-id="papa" class="">
+						<h3>Te invitamos a descubrir<br />los sabores de nuestra tierra</h3>
+						<h4>Cordero</h4>
+						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
+						<div class="recetas-cont">
+							<h6>Hamburguesas de Cordero, Cebolla, Portobellos y Queso Morbier</h6>
+							<p>Porciones 4</p>
+						</div>
+						<div class="recetas-cont">
+							<h6>Ragout de Cordero Especiado, Arroz Basmati y Chipatis.</h6>
+							<p>Porciones 6</p>
+						</div>
+						<div class="recetas-cont">
+							<h6>Mollejita de Cordero con Manteca de almendras y Ciboulette</h6>
+							<p>Porciones 4</p>
+						</div>
+						<img src="./img/recetas/im-malbec.png" width="339" height="510">
+					</div>
+
+					<div class="description" data-id="cordero" class="">
+						<h3>Te invitamos a descubrir<br />los sabores de nuestra tierra</h3>
+						<h4>Cordero</h4>
+						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
+						<div class="recetas-cont">
+							<h6>Hamburguesas de Cordero, Cebolla, Portobellos y Queso Morbier</h6>
+							<p>Porciones 4</p>
+						</div>
+						<div class="recetas-cont">
+							<h6>Ragout de Cordero Especiado, Arroz Basmati y Chipatis.</h6>
+							<p>Porciones 6</p>
+						</div>
+						<div class="recetas-cont">
+							<h6>Mollejita de Cordero con Manteca de almendras y Ciboulette</h6>
+							<p>Porciones 4</p>
+						</div>
+						<img src="./img/recetas/im-malbec.png" width="339" height="510">
+					</div>
+
+
 
 				</div>
 			</div>
@@ -254,12 +311,11 @@
 
 	    	scr.js(["js/libs/jQueryRotateCompressed.2.2.js",
 	    			"js/libs/jquery.touchwipe.min.js",
-                    "js/recetas.js",
-	    			"js/latitud.js"],function(){
+                    "js/latitud.js"],function(){
 
-	    		scr.js("js/global.js");
+	    		scr.js(["js/global.js","js/recetas.js"]);
 
-	    		
+
 			});
 
 		});
