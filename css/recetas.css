@@ -53,7 +53,7 @@ body{
 .contentPage .contenedor .left-col {
 	float: left;
 	width: 40%;
-	
+
 }
 
 .contentPage .contenedor .left-col .bloque{
@@ -65,4 +65,8 @@ body{
 	min-width: 507px;
 	min-height: 566px;
 	position: relative;
+}
+
+.contentPage .contenedor .right-col .description{
+	display: none;
 }
