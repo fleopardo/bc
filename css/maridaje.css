@@ -35,7 +35,7 @@ body{
 }
 
 .contentPage .contenedor h3{
-	text-transform: uppercase;
+	font-size: 19px;
 	margin-bottom: 12px;
 }
 
@@ -43,7 +43,8 @@ body{
 	margin-bottom: 6px;
 }
 
-.contentPage .contenedor p{
+.contentPage .contenedor p,
+.contentPage .contenedor .left-col .scroll li{
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
@@ -64,14 +65,18 @@ body{
 	overflow: auto;
 }
 
-.contentPage .contenedor .left-col .scroll p{
+.contentPage .contenedor .left-col .scroll p,
+.contentPage .contenedor .left-col .scroll li{
 	margin-bottom: 20px;
+}
+
+.contentPage .contenedor .left-col .scroll strong{
+	font-family: "neutraface2displaybold";
 }
 
 .scroll .jspDrag{
 	background: #000;
 }
-
 
 .scroll .jspTrack{
 	background: #bcbcbc;
@@ -90,9 +95,9 @@ body{
 .rueda-maridaje-ingreso{
 	position: absolute;
 	width: 110px;
-	padding: 30px 30px 20px;
+	padding: 20px 30px 20px;
 	background: #949539;
-	top:94px;
+	top: 50px;
 	left: 30px;
 }
 
@@ -107,15 +112,17 @@ body{
 }
 
 .contentPage .contenedor .rueda-maridaje-ingreso h3{
-	font-size: 23px;
+	font-size: 21px;
 	line-height: 28px;
 	color: #fff;
-	margin-bottom: 0;
+	margin-bottom: 10px;
+	font-family: 'neutra2displaymedium';
+	text-transform: uppercase;
 }
 
 .contentPage .contenedor .rueda-maridaje-ingreso p{
 	color: #fff;
-	margin-bottom: 6px;
+	margin-bottom: 15px;
 }
 
 .contentPage .contenedor .rueda-maridaje-ingreso a{
@@ -200,4 +207,6 @@ body{
 
 .bloques-container .txt a span{
 	padding: 0 20px 0 12px;
+	font-family: 'neutra2displaymedium';
+	font-size: 14px;
 }

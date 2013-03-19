@@ -17,22 +17,29 @@
  		});
  	});
 
- 	/*$('dt a').click(function(){
+ 	$('dt a').click(function(event){
+ 		event.preventDefault();
+ 		event.stopPropagation();
+
  		if ( $(this).hasClass('texto') ) {
- 			alert('sdfs')
+
  			$('dd #texto').css('display','none');
- 			/*$('table').css('display','block');
+ 			$('dd table').css('display','block');
+
+ 			$(this).text("Ver texto");
  			$(this).removeClass('texto');
  			$(this).addClass('tabla');
- 		}
 
- 		if ( $(this).hasClass('tabla') ) {
+ 		}else{
+
  			$('dd table').css('display','none');
  			$('dd #texto').css('display','block');
+
+ 			$(this).text("Ver cuadro");
  			$(this).removeClass('tabla');
  			$(this).addClass('texto');
  		}
- 	});*/
-	
+
+ 	});
 
 })(window);

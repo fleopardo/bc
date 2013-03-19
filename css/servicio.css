@@ -38,7 +38,7 @@ body{
 .contentPage .contenedor .left-col {
 	float: left;
 	width: 40%;
-	
+
 }
 
 .contentPage .contenedor .right-col {
@@ -115,6 +115,10 @@ body{
 	position: relative;
 }
 
+.contentPage .contenedor dd p{
+	margin-bottom: 10px;
+}
+
 .contentPage .contenedor td,
 .contentPage .contenedor th {
  	padding: 4px 0;
@@ -129,5 +133,5 @@ body{
 }
 
 .contentPage .contenedor table{
-	
+
 }

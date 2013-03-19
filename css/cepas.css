@@ -24,7 +24,7 @@ body{
 
 .contentPage .contenedor h3,
 .contentPage .contenedor h4{
-	font-family: "neutra2displaymedium";
+	font-family: "neutraface2displaybold";
 	font-size: 18px;
 	line-height: 22px;
 	color: #000;
@@ -49,7 +49,7 @@ body{
 .contentPage .contenedor .left-col {
 	float: left;
 	width: 40%;
-	
+
 }
 
 .contentPage .contenedor .left-col .scroll{
