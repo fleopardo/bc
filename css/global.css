@@ -343,12 +343,12 @@ footer{
 	clear: both;
 	background: #373738;
 	margin-top: 30px;
-	overflow: hidden;
 }
 
 footer > div{
 	width: 1200px;
 	margin: 0 auto;
+	background: #373738;
 }
 
 footer > div p,
