@@ -46,6 +46,11 @@
 .listado-container .left-col > a{
 	display: block;
 	border-bottom: 1px solid #b8b8b8;
+	-webkit-transition:background 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:background 0.5s ease-out;  /* Opera */
+	-moz-transition:background 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:background 0.5s ease-out;   /* Internet Explorer */
+	transition:background 0.5s ease-out;  /* W3C */
 }
 
 .listado-container .left-col > a:hover{
@@ -104,6 +109,11 @@
 	display: block;
 	padding: 30px 0;
 	border-bottom: 1px solid #191919;
+	-webkit-transition:background 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:background 0.5s ease-out;  /* Opera */
+	-moz-transition:background 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:background 0.5s ease-out;   /* Internet Explorer */
+	transition:background 0.5s ease-out;  /* W3C */
 }
 
 .listado-container .right-col a:hover{

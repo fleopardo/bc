@@ -253,6 +253,11 @@ input.placeholder{ color: #373737; }
 	display: block;
 	text-align: center;
 	padding: 0 5px;
+	-webkit-transition:all 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:all 0.5s ease-out;  /* Opera */
+	-moz-transition:all 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:all 0.5s ease-out;   /* Internet Explorer */
+	transition:all 0.5s ease-out;  /* W3C */
 }
 
 .preheader .vistas li a:hover,

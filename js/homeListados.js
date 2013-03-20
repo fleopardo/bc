@@ -1,8 +1,11 @@
 ;(function(window){
 
-	var altoLeft = $('.listado-container .left-col').height();
+	$('.listado-container .left-col').each(function(){
 
-	$('.listado-container .right-col').css('height',altoLeft);
+			var altoLeft = $(this).height();
 
+			$(this).next().css('height',altoLeft);
+
+	});
 
 })(window);

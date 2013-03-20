@@ -51,6 +51,9 @@ shale.navegacion = (function(window){
 
 				}
 
+				$(".contenido").removeClass("active");
+				$("#"+page_id).addClass("active");
+
 				// Si appendeo en la izquierda muevo el scroll hacia la seccion donde estaba parado con velocidad 0, porque cuando agregas algo en la izquierda logicamente se corre todo el contenido..
 				if( flag_direction == "left" ){
 
@@ -70,6 +73,8 @@ shale.navegacion = (function(window){
 
 				id_seccion_actual = page_id;
 
+				// lanzo un evento
+				$(window).trigger("navegacion");
 
 
 			}else if(status == "error"){
@@ -102,6 +107,9 @@ shale.navegacion = (function(window){
 		// Si la seccion ya esta cargada en el documento..
 		if ( $("#" + page_id).length > 0 ){
 
+			$(".contenido").removeClass("active");
+			$("#"+page_id).addClass("active");
+
 			//Voy a la seccion directamente
 			$.scrollTo.window().queue([]).stop();
 
@@ -115,6 +123,9 @@ shale.navegacion = (function(window){
 
 			//Ahora la seccion actual es hacia la que me movi
 			id_seccion_actual = page_id;
+
+			// lanzo un evento
+			$(window).trigger("navegacion");
 
 		}else{
 
@@ -175,24 +186,6 @@ shale.navegacion = (function(window){
 			}
 
 		}
-
-		/*
-		if (history.popState) {
-
-			alert("");
-		    // immediately replace state to ensure popstate works for inital page
-		    history.replaceState(true, null, window.location.pathname);
-
-			window.onpopstate = function(event) {
-
-				if(event.state != null){
-					console.log(event.state.page_id)
-					mascara.scrollTo("#" + event.state.page_id, shale.navegacion.speed);
-
-				}
-			};
-
-		}*/
 
 	}
 

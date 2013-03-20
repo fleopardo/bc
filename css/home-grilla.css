@@ -4,6 +4,24 @@
 	margin-bottom: 10px;
 }
 
+.bloque article > div,
+.bloque{
+	-webkit-transition:background 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:background 0.5s ease-out;  /* Opera */
+	-moz-transition:background 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:background 0.5s ease-out;   /* Internet Explorer */
+	transition:background 0.5s ease-out;  /* W3C */
+}
+
+.bloque.no-fx article > div,
+.bloque.no-fx{
+	-webkit-transition:none;  /* Chrome y Safari */
+	-o-transition:none;  /* Opera */
+	-moz-transition:none;  /* Mozilla Firefox */
+	-ms-transition:none;   /* Internet Explorer */
+	transition:none;  /* W3C */
+}
+
 .contenido article > div{
 	padding: 20px;
 }
@@ -425,6 +443,12 @@
 		display: block;
 	}
 
+	.nuestra-energia .nuestra-energia-detalle .video{
+		margin: 70px auto 0 auto;
+		display: block;
+		width: 615px;
+	}
+
 	/* Bloques de la derecha */
 
 	.nuestra-energia .bloque2{
@@ -481,7 +505,7 @@
 
 
 		/* Cambio de color para icono "More" */
-		.nuestra-energia .historias .more{
+		.nuestra-energia .historia .more{
 			border-bottom-color: #551806;
 		}
 
