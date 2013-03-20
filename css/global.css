@@ -80,6 +80,9 @@ body{
 
 a{color: #fff;}
 
+a > img{
+	border: none;
+}
 .hide{
 	display: none;
 }
@@ -143,6 +146,10 @@ input.placeholder{ color: #373737; }
 	width: 8000px;
 }
 
+.ie7 .slide{
+	width: auto;
+}
+
 .mascara section{
 	width: 1200px;
 	margin-right: 10px;
@@ -163,12 +170,22 @@ input.placeholder{ color: #373737; }
 .ie7 .preheader .icon{
 	display: inline;
 	zoom: 1;
+	vertical-align: middle;
 }
 
 
 /*
  * Flechas
 */
+
+.preheader .flechas{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 0;
+}
 
 .preheader .flechas a{
 	display: block;
@@ -213,6 +230,8 @@ input.placeholder{ color: #373737; }
 	overflow: hidden;
 	float: left;
 	margin-left: 11px;
+	position: relative;
+	z-index: 1;
 }
 
 .preheader .breadcrumb li{
@@ -241,6 +260,8 @@ input.placeholder{ color: #373737; }
 .preheader .vistas{
 	overflow: hidden;
 	float: right;
+	position: relative;
+	z-index: 1;
 }
 
 .preheader .vistas li{

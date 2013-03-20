@@ -16,6 +16,12 @@
 	display: inline-block;
 }
 
+.ie7 .listado-container .left-col h2,
+.ie7 .listado-container .right-col h2{
+	display: inline;
+	zoom: 1;
+}
+
 .listado-container .left-col{
 	width: 770px;
 	float: left;

@@ -369,12 +369,18 @@
 	/* estilos solo para que es Shale, energia para el crecimiento */
 	.desafio-energetico .que-es-shale {
 		clear: both;
+		float: left;
 	}
 
 	.desafio-energetico .que-es-shale,
 	.desafio-energetico .energia-para-el-crecimiento{
 		width: 471px;
 		margin-right: 10px;
+	}
+
+	.ie7 .desafio-energetico .que-es-shale,
+	.ie7 .desafio-energetico .energia-para-el-crecimiento{
+		width: 480px;
 	}
 
 	.desafio-energetico .que-es-shale div,
@@ -387,11 +393,16 @@
 	/* Recursos convencionales */
 
 	.desafio-energetico .recursos-convencionales{
-			width: 238px;
-			height: 186px;
-			float: left;
-			position: relative;
-		}
+		width: 238px;
+		height: 186px;
+		float: left;
+		position: relative;
+	}
+
+	.ie7 .desafio-energetico .recursos-convencionales{
+		width: 220px;
+	}
+
 
 
 	.desafio-energetico .recursos-convencionales{

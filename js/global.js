@@ -112,17 +112,20 @@ var shale = shale || {};
 	/*
 	 * Bindeo para que funcione la navegacion animada
 	*/
-		$(".navegacion").live(shale.event.TAP,function(event){
+		if( !$("html").hasClass("ie7") ){
 
-			event.preventDefault();
+			$(".navegacion").live(shale.event.TAP,function(event){
 
-			shale.navegacion.init({
-				trigger: $(this),
-				speed: 800,
-				easing: "easeOutExpo"
+				event.preventDefault();
+
+				shale.navegacion.init({
+					trigger: $(this),
+					speed: 800,
+					easing: "easeOutExpo"
+				});
+
 			});
-
-		});
+		}
 
 	/*
 	 * Instancio el scroll personalizado
