@@ -1,0 +1,24 @@
+
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+body{
+	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.contentPage .contenedor h2 {
+font-family: "neutra2displaylight";
+font-size: 40px;
+line-height: 44px;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #000;
+}
