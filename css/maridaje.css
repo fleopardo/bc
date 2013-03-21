@@ -28,7 +28,7 @@ body{
 
 .contentPage .contenedor h3,
 .contentPage .contenedor h4{
-	font-family: "neutraface2displaybold";
+	font-family: "neutra2displaymedium";
 	font-size: 18px;
 	line-height: 20px;
 	color: #000;
@@ -71,7 +71,7 @@ body{
 }
 
 .contentPage .contenedor .left-col .scroll strong{
-	font-family: "neutraface2displaybold";
+	font-family: "neutra2displaymedium";
 }
 
 .scroll .jspDrag{
