@@ -133,5 +133,13 @@ body{
 }
 
 .contentPage .contenedor table{
+	width: 100%;
+}
 
+td.first{
+	width: 70%
+}
+
+td.second{
+	width: 30%
 }
