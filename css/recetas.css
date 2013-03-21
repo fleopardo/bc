@@ -218,6 +218,10 @@ body{
 
 /*Receta tomate*/
 
+.contentPage .contenedor .right-col .tomate h3 {
+	margin-bottom: 72px;
+}
+
 .contentPage .contenedor .right-col .tomate h3 span{
 	color: #a53228;
 }
@@ -236,6 +240,10 @@ body{
 
 
 /*Receta oliva*/
+
+.contentPage .contenedor .right-col .oliva h3 {
+	margin-bottom: 82px;
+}
 
 .contentPage .contenedor .right-col .oliva h3 span{
 	color: #839449;
