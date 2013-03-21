@@ -22,3 +22,7 @@ text-transform: uppercase;
 margin-bottom: 20px;
 color: #000;
 }
+
+.vinos-blancos-container{
+	display: none;
+}
