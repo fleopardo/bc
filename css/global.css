@@ -38,6 +38,8 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	url("../fonts/din-medium.woff") format("woff"),
 	url("../fonts/din-medium.ttf") format("truetype"),
 	url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
 }
 
 @font-face {
@@ -47,8 +49,18 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	url("../fonts/din-black.woff") format("woff"),
 	url("../fonts/din-black.ttf") format("truetype"),
 	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
 }
 
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+font-family: 'din-black';
+src: url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
+
+}
+}
 
 /*
  * Clearfix
