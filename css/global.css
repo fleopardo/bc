@@ -88,6 +88,10 @@ body{
 	color: #fff;
 	font-size: 12px;
 	background: #3c3c3c url("./assets/background.jpg");
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke: 1px transparent;
+	text-rendering:optimizeLegibility;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
 }
 
 a{color: #fff;}
