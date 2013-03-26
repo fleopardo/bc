@@ -11,7 +11,7 @@
 
 		if( $(this).hasClass("primary") ){
 
-			alert("Verifico de mentiras si se quiere recordar..")
+			alert("Verifico si se quiere recordar..")
 
 			if( $("#recordarme").prop("checked") ){
 
@@ -24,8 +24,8 @@
 
 		}else{
 
-			alert("no tenes permisos para ver el site");
-
+			//alert("no tenes permisos para ver el site");
+			$('p.no-permitido').css('display','block');
 		}
 
 	});

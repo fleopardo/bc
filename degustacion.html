@@ -22,11 +22,12 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/elaboracion.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.jscrollpane.css" />
+	<link rel="stylesheet" type="text/css" href="css/recetas.css" />
 </head>
 <body>
 
-	<div class="contenido-internas elaboracion">
+	<div class="contenido-internas recetas">
 
 		<!--  Header -->
 		<header class="header clearfix">
@@ -165,148 +166,121 @@
 
 		<!-- Galery -->
 		<section class="contentPage principal">
-			<div class="contenedor">
-				<h2>&bull; Elaboración &bull;</h2>
-				<p>Texto texto texto texto texto dfse fsf df sd fsdfsdfsdf sdfsd fsdfsd fsd fsdfsd fsd fsd fsdfsdf sf sf sdfs dfs dffg hgh hj d g fsfd sg dh dg dfsd</p>
+			<div class="contenedor clearfix">
+				<div class="left-col">
+					<h3>Maridaje > Recetas</h3>
+					<h2>&bull; Recetas &bull;</h2>
 
-				<h3>Proceso de elaboración de:</h3>
+					<div class="bloque">
+						<p>Latitud 33° te invita a descubrir, los ingredientes, recetas y secretos que distinguen los sabores de nuestra tierra.</p>
+					</div>
 
-				<ul class="filter-container clearfix">
-					<li><a href="#" title="Vinos Blancos" data-id="vinos-blancos" class=""><span>Vinos Blancos</span></a></li>
-					<li><a href="#" title="Vinos Tintos" data-id="vinos-tintos" class="active"><span>Vinos Tintos</span></a></li>
-				</ul>
-				<ul class="vinos-container vinos-tintos-container" data-id="vinos-tintos" style="display:block;">
-					<li class="active">
-						<a href="#" title="">
-							<img src="./img/elaboracion/tintos/im-vendimia.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto Texto texto Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/tintos/im-uvas.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/tintos/im-despalillado.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/tintos/im-fermentacion-acoholica.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/tintos/im-prensado.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/tintos/im-fermentacion-acoholica.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/tintos/im-fermentacion-acoholica.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/tintos/im-contacto.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li class="last">
-						<a href="#" title="">
-							<img src="./img/elaboracion/tintos/im-embotellamiento.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-				</ul>
+					<div class="filter-container">
+						<h4>Buscar<br /><span>por ingredientes</span></h4>
+						<ul>
+							<li><a href="#" title="Tomate" class="active" data-id="tomate"><span>Tomate</span></a></li>
+							<li><a href="#" title="Oliva" data-id="oliva"><span>Oliva</span></a></li>
+							<li><a href="#" title="Papa" data-id="papa"><span>Papa</span></a></li>
+							<li><a href="#" title="Cordero" data-id="cordero"><span>Cordero</span></a></li>
+						</ul>
+					</div>
 
-				<ul class="vinos-container vinos-blancos-container" data-id="vinos-blancos">
-					<li class="active">
-						<a href="#" title="">
-							<img src="./img/elaboracion/blancos/im-vendimia.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/blancos/im-uvas.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/blancos/im-despalillado.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/blancos/im-fermentacion-acoholica.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/blancos/im-prensado.png" width="107" height="105" />
-							texto
-						</a>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/blancos/im-prensado.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/blancos/im-prensado.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li>
-						<a href="#" title="">
-							<img src="./img/elaboracion/blancos/im-prensado.png" width="107" height="105" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-					<li class="last">
-						<a href="#" title="">
-							<img src="./img/elaboracion/blancos/im-embotellamiento.png" width="" height="" />
-							texto
-						</a>
-						<p>Texto texto</p>
-					</li>
-				</ul>
 
-				
+				</div>
+
+
+				<div class="right-col">
+					<div class="description tomate" data-id="tomate" style="display: block;">
+						<h3>Te invitamos a<br /> descubrir<br /><span>los sabores<br /> del mediterraneo.</span></h3>
+						<h4>Tomate</h4>
+						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Sopa fría de tomates confitados, espinacas frescas y langostinos.</a></h6>
+							<p>Porciones 4</p>
+							<a href="#" title=""><span class="DN">Sopa fría de tomates confitados, espinacas frescas y langostinos</span></a>
+						</div>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Pomodori Gratinati.</a></h6>
+							<p>Porciones 6</p>
+							<a href="#" title=""><span class="DN">Pomodori Gratinati</span></a>
+						</div>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Pizza de tomates, albahaca y queso mozzarella.</a></h6>
+							<p>2 Pizzas grandes</p>
+							<a href="#" title=""><span class="DN">Pizza de tomates, albahaca y queso mozzarella</span></a>
+						</div>
+						<img src="./img/recetas/im-tomate.png" width="282" height="460">
+					</div>
+
+					<div class="description oliva" data-id="oliva">
+						<h3>Te invitamos a<br /> descubrir<br /><span>los sabores del <br />mediterraneo.</span></h3>
+						<h4>Oliva</h4>
+						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Trillas doradas en aceite de oliva con galette de papas.</a></h6>
+							<p>Porciones 4</p>
+							<a href="#" title=""><span class="DN">Trillas doradas en aceite de oliva con galette de papas</span></a>
+						</div>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Muffins de aceitunas negras y aceite de oliva.</a></h6>
+							<p>20 unidades</p>
+							<a href="#" title=""><span class="DN">Muffins de aceitunas negras y aceite de oliva</span></a>
+						</div>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Calamares a la plancha marinados en aceite de oliva, limón y menta.</a></h6>
+							<p>Porciones 4</p>
+							<a href="#" title=""><span class="DN">Calamares a la plancha marinados en aceite de oliva, limón y menta</span></a>
+						</div>
+						<img src="./img/recetas/im-oliva.png" width="298" height="499">
+					</div>
+
+					<div class="description papa" data-id="papa">
+						<h3>Te invitamos a<br /> descubrir<br /><span>los sabores<br /> de nuestra<br /> tierra</span></h3>
+						<h4>Papa</h4>
+						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Ensaladas de Papa Churqueña, Portobellos y Huevo Poche</a></h6>
+							<p>Porciones 4</p>
+							<a href="#" title=""><span class="DN">Ensaladas de Papa Churqueña, Portobellos y Huevo Poche</a>
+						</div>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Canapé de Papa Moradita, Tapenade y Carpaccio.</a></h6>
+							<p>Porciones 4</p>
+							<a href="#" title=""><span class="DN">Canapé de Papa Moradita, Tapenade y Carpaccio.</span></a>
+						</div>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Torta Francesa de Papas, Cebolla &amp; Panceta.</a></h6>
+							<p>Porciones 4-6</p>
+							<a href="#" title=""><span class="DN">Torta Francesa de Papas, Cebolla &amp; Panceta</span></a>
+						</div>
+						<img src="./img/recetas/im-papa.png" width="371" height="471">
+					</div>
+
+					<div class="description cordero" data-id="cordero">
+						<h3>Te invitamos a<br /> descubrir<br /><span>los sabores<br /> de nuestra<br /> tierra</span></h3>
+						<h4>Cordero</h4>
+						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Hamburguesas de Cordero, Cebolla, Portobellos y Queso Morbier</a></h6>
+							<p>Porciones 4</p>
+							<a href="#" title=""><span class="DN">Hamburguesas de Cordero, Cebolla, Portobellos y Queso Morbier</span></a>
+						</div>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Ragout de Cordero Especiado, Arroz Basmati y Chipatis</a></h6>
+							<p>Porciones 6</p>
+							<a href="#" title=""><span class="DN">Ragout de Cordero Especiado, Arroz Basmati y Chipatis</span></a>
+						</div>
+						<div class="recetas-cont">
+							<h6><a href="#" title="">Mollejita de Cordero con Manteca de almendras y Ciboulette</a></h6>
+							<p>Porciones 4</p>
+							<a href="#" title=""><span class="DN">Mollejita de Cordero con Manteca de almendras y Ciboulette</span></a>
+						</div>
+						<img src="./img/recetas/im-cordero.png" width="339" height="510">
+					</div>
+
+
+
+				</div>
 			</div>
 		</section>
 
@@ -349,12 +323,11 @@
 
 	    	scr.js(["js/libs/jQueryRotateCompressed.2.2.js",
 	    			"js/libs/jquery.touchwipe.min.js",
-	    			"js/elaboracion.js",
-	    			"js/latitud.js"],function(){
+                    "js/latitud.js"],function(){
 
-	    		scr.js("js/global.js");
+	    		scr.js(["js/global.js","js/recetas.js"]);
 
-	    		
+
 			});
 
 		});

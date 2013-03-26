@@ -1,22 +1,24 @@
 body{
-	background-image: url("./assets/bg-prehome.jpg");
+	background-image: url("./assets/bg-teaser.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
 }
 
+.prehome.contenedor{
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
 
-.prehome{
-	background-image: url("./assets/bg-botella-prehome.png");
-	background-repeat: no-repeat;
+.botella{
 	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	left: 150px;
 	top: 0;
+	z-index: 0;
 }
 
 .columnaDerecha{
-	width: 42%;
+	width: 56%;
 	float: right;
 	margin-top: 100px;
 }
@@ -107,4 +109,12 @@ input#recordarme{
 	font-size: 11px;
 	line-height: 14px;
 	margin-bottom: 15px;
+}
+
+p.no-permitido{
+	font: 19px/22px tahoma, arial, helvetica, sans-serif;
+	color: #d0ab2c;
+	display: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
