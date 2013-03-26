@@ -8,6 +8,7 @@
 
 	var filtros = $(".filter-container a");
 	var vinosContainer = $(".vinos-container");
+	var proceso = $(".vinos-container li");
 
 	filtros.on("click",function(event){
 
@@ -23,10 +24,19 @@
 		filtros.removeClass("active");
 		that.addClass("active");
 
-		vinosContainer.stop(true,true).fadeOut(500);
+		vinosContainer.stop(true,true).fadeOut(300);
 		vinosContainerToShow.stop(true,true).fadeIn(800);
 
 
-	})
+	});
+
+	proceso.each(function(){
+		$(this).click(function(e){
+			e.preventDefault();
+			if($(this).hasClass('active')) return;
+			proceso.removeClass('active');
+			$(this).addClass('active');
+		});
+	});
 
 })(window);

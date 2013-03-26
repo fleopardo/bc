@@ -11,7 +11,10 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	overflow: hidden;
+}
+
+.contenedor{
+	position: relative;
 }
 
 .contentPage .contenedor h2 {
@@ -50,6 +53,16 @@ color: #000;
 	display: none;
 }
 
+.filter-container{
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+
+.filter-container li{
+	float: left;
+	margin-right: 36px;
+}
+
 .filter-container li a {
 	font-family: "neutraface2displaybold";
 	font-size: 14px;
@@ -63,6 +76,85 @@ color: #000;
 
 .filter-container li a span{
 	padding-right: 35px;
+	padding-left: 12px;
 	display: inline-block;
 	background: #fff;
+}
+
+.filter-container li a.active {
+	color: #fff;
+	background-position: bottom right;
+	padding-right: 36px;
+	display: inline-block;
+}
+
+.filter-container li a.active span{
+	background: #000;
+}
+
+.vinos-container{
+	overflow: hidden;
+}
+
+.vinos-container li{
+	width: 10.44%;
+	float: left;
+	margin-right: 0.75%;
+}
+
+.vinos-container li.last{
+	margin-right: 0;
+}
+
+.vinos-container li img,
+.vinos-container li a{
+	display: block;
+}
+
+.vinos-container li a{
+	font-family: "neutraface2displaybold";
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 16px;
+	color: #afafaf;
+}
+
+.vinos-container li img{
+	margin-bottom: 16px;
+	border-bottom: 7px solid #afafaf;
+	width: 100%;
+	height: auto;
+}
+
+.vinos-container li > p{
+	display: none;
+	position: absolute;
+	top: 221px;
+	left: 0;
+	background: #000;
+	color: #fff !important;
+	line-height: 66px;
+	width: 100%;
+	padding: 0 12px;
+}
+
+.vinos-tintos-container li.active a{
+	color: #910d00;
+}
+
+.vinos-tintos-container li.active img{
+	border-bottom: 7px solid #910d00;
+}
+
+.vinos-blancos-container li.active a{
+	color: #c0ac27;
+}
+
+.vinos-blancos-container li.active img{
+	border-bottom: 7px solid #c0ac27;
+}
+
+.vinos-container li.active > p{
+	display:block;
+	line-height: 66px;
 }
