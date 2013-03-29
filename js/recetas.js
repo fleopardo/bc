@@ -24,7 +24,9 @@
 
 		recetas.stop(true,true).fadeOut(500);
 		recetaToShow.stop(true,true).fadeIn(800);
-
+		console.log(filterBy);
+		$('#title-filter').removeClass();
+		$('#title-filter').addClass(filterBy);
 
 	})
 

@@ -63,6 +63,7 @@ body{
 .contentPage .contenedor .left-col .filter-container{
 	background: #fff;
 	padding: 25px;
+	width: 60%;
 }
 
 .contentPage .contenedor .left-col .filter-container h4{
@@ -77,10 +78,25 @@ body{
 }
 
 .contentPage .contenedor .left-col .filter-container h4 span{
-	color: #f0772e;
+	color: #a53228;
 	font-family: 'neutra2displaymedium';
 }
 
+.contentPage .contenedor .left-col .filter-container h4.cordero span{
+	color: #f0772e;
+}
+
+.contentPage .contenedor .left-col .filter-container h4.oliva span{
+	color: #839449;
+}
+
+.contentPage .contenedor .left-col .filter-container h4.tomate span{
+	color: #a53228;
+}
+
+.contentPage .contenedor .left-col .filter-container h4.papa span{
+	color: #b29126;
+}
 
 .contentPage .contenedor .left-col li a{
 	margin-bottom: 5px;
@@ -97,6 +113,7 @@ body{
 	line-height: 29px;
 	color: #fff;
 	text-transform: uppercase;
+	font-size: 13px;
 }
 
 .contentPage .contenedor .left-col li a span{
@@ -104,12 +121,36 @@ body{
 	padding: 0 12px;
 }
 
-.contentPage .contenedor .left-col li a.active{
-	background-position: right bottom;
+.contentPage .contenedor .left-col li a.cordero.active{
+	background-position: right -29px;
 }
 
-.contentPage .contenedor .left-col li a.active span{
+.contentPage .contenedor .left-col li a.cordero.active span{
 	background: #f0772e;
+}
+
+.contentPage .contenedor .left-col li a.tomate.active{
+	background-position: right -87px;
+}
+
+.contentPage .contenedor .left-col li a.tomate.active span{
+	background: #a53228;
+}
+
+.contentPage .contenedor .left-col li a.papa.active{
+	background-position: right -58px;
+}
+
+.contentPage .contenedor .left-col li a.papa.active span{
+	background: #b29126;
+}
+
+.contentPage .contenedor .left-col li a.oliva.active{
+	background-position: right -116px;
+}
+
+.contentPage .contenedor .left-col li a.oliva.active span{
+	background: #839449;
 }
 
 .contentPage .contenedor .right-col {

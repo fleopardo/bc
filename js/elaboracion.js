@@ -8,7 +8,8 @@
 
 	var filtros = $(".filter-container a");
 	var vinosContainer = $(".vinos-container");
-	var proceso = $(".vinos-container li");
+	var procesoTinto = $(".vinos-tintos-container li");
+	var procesoBlanco = $(".vinos-blancos-container li");
 
 	filtros.on("click",function(event){
 
@@ -30,11 +31,20 @@
 
 	});
 
-	proceso.each(function(){
+	procesoBlanco.each(function(){
 		$(this).click(function(e){
 			e.preventDefault();
 			if($(this).hasClass('active')) return;
-			proceso.removeClass('active');
+			procesoBlanco.removeClass('active');
+			$(this).addClass('active');
+		});
+	});
+
+	procesoTinto.each(function(){
+		$(this).click(function(e){
+			e.preventDefault();
+			if($(this).hasClass('active')) return;
+			procesoTinto.removeClass('active');
 			$(this).addClass('active');
 		});
 	});
