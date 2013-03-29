@@ -13,11 +13,6 @@ body{
 	background-size: cover;
 }
 
-.recetas .contentPage.principal{
-	background: url('./assets/maridaje/bg-suelo-botella.png') 50% 430px no-repeat;
-	padding: 90px 0;
-}
-
 .contentPage .contenedor h2{
 	font-family: "neutra2displaylight";
 	font-size: 40px;
@@ -41,11 +36,14 @@ body{
 }
 
 .contentPage .contenedor h4{
-	margin-bottom: 6px;
+	margin-bottom: 20px;
+	color: #a53228;
 }
 
 .contentPage .contenedor p,
-.contentPage .contenedor dd{
+.contentPage .contenedor dd,
+.contentPage .contenedor dt,
+.contentPage .contenedor li{
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
@@ -56,60 +54,58 @@ body{
 	width: 40%;
 }
 
-.contentPage .contenedor .left-col .bloque{
-	margin-bottom: 23px;
+.contentPage .contenedor .left-col p {
+	margin-bottom: 20px;
 }
 
-.contentPage .contenedor .left-col .filter-container{
-	background: #fff;
-	padding: 25px;
+.contentPage .contenedor .left-col p strong{
+	font-family: 'neutraface2displaybold';
+	font-weight: normal;
 }
 
-.contentPage .contenedor .left-col .filter-container h4{
-	color: #000;
-	font: 22px/25px 'neutraface2displaybold';
-	text-transform: uppercase;
-	background: url('./assets/recetas/fd-title-lupa.png') left top no-repeat;
-	text-indent: 25px;
-	border-bottom: 1px solid #e5e5e5;
-	padding-bottom: 18px;
-	margin-bottom: 28px;
-}
-
-.contentPage .contenedor .left-col .filter-container h4 span{
-	color: #f0772e;
-	font-family: 'neutra2displaymedium';
-}
-
-
-.contentPage .contenedor .left-col li a{
+.contentPage .contenedor .left-col li{
 	margin-bottom: 5px;
 }
 
 .contentPage .contenedor .left-col li a,
-.contentPage .contenedor .left-col li a span{
+.contentPage .contenedor .left-col li span{
 	display: inline-block;
+	line-height: 30px;
+	font-size: 13px;
+	color: #fff;
 }
 
 .contentPage .contenedor .left-col li a{
-	background: url('./assets/recetas/bg-filters.png') right top no-repeat;
-	padding-right: 32px;
-	line-height: 29px;
-	color: #fff;
+	background: url('./assets/degustacion/bg-filters.png') right top no-repeat;
+	padding-right: 36px;
 	text-transform: uppercase;
 }
 
-.contentPage .contenedor .left-col li a span{
+.contentPage .contenedor .left-col li span{
 	background: #000;
+}
+
+.contentPage .contenedor .left-col li a span{
 	padding: 0 12px;
 }
 
-.contentPage .contenedor .left-col li a.active{
+.contentPage .contenedor .left-col li > span{
+	margin-right: 1px;
+	width: 36px;
+	text-align: center;
+}
+
+.contentPage .contenedor .left-col li.active a{
 	background-position: right bottom;
 }
 
-.contentPage .contenedor .left-col li a.active span{
-	background: #f0772e;
+.contentPage .contenedor .left-col li.active a span{
+	background: #fff;
+	color: #000;
+}
+
+.contentPage .contenedor .left-col li.active > span{
+	background: #a53228;
 }
 
 .contentPage .contenedor .right-col {
@@ -123,141 +119,6 @@ body{
 }
 
 .contentPage .contenedor .right-col .description img{
-	position: absolute;
-	z-index: 0;
-	top: -70px;
-	right: 0;
-}
-
-.contentPage .contenedor .right-col .description h3,
-.contentPage .contenedor .right-col .description h4,
-.contentPage .contenedor .right-col .recetas-cont{
-	position: relative;
-	z-index: 10;
-}
-
-.contentPage .contenedor .right-col .description h3{
-	font: 45px/47px 'neutra2displaylight';
-	color: #000;
-	margin-top: 90px;
-	margin-bottom: 50px;
-}
-
-.contentPage .contenedor .right-col .description h4{
-	font: 24px/27px 'neutraface2displaybold';
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-
-.contentPage .contenedor .right-col .description h5{
-	font: 16px/17px 'neutra2displaymedium';
-	color: #000;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-
-.contentPage .contenedor .right-col h6 a{
-	font: 22px/25px 'neutra2displaymedium';
-}
-
-.contentPage .contenedor .right-col .recetas-cont{
-	margin-bottom: 25px;
-	position: relative;
-	padding-right: 24px;
-}
-
-.contentPage .contenedor .right-col .recetas-cont > a{
-	background: url('./assets/recetas/ic-recetas.png') no-repeat;
-	width: 17px;
-	height: 16px;
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 12px;
-}
-
-
-
-/*receta cordero*/
-
-.contentPage .contenedor .right-col .cordero h3 span{
-	color: #f0772e;
-}
-
-.contentPage .contenedor .right-col .cordero h4{
-	color: #f0772e;
-}
-
-.contentPage .contenedor .right-col .cordero h6 a{
-	color: #f0772e;
-}
-
-.contentPage .contenedor .right-col .cordero .recetas-cont > a{
-	background-position: 0 0;
-}
-
-
-/*Receta papa*/
-
-.contentPage .contenedor .right-col .papa h3 span{
-	color: #b29126;
-}
-
-.contentPage .contenedor .right-col .papa h4{
-	color: #b29126;
-}
-
-.contentPage .contenedor .right-col .papa h6 a{
-	color: #b29126;
-}
-
-.contentPage .contenedor .right-col .papa .recetas-cont > a{
-	background-position: 0 -16px;
-}
-
-
-/*Receta tomate*/
-
-.contentPage .contenedor .right-col .tomate h3 {
-	margin-bottom: 72px;
-}
-
-.contentPage .contenedor .right-col .tomate h3 span{
-	color: #a53228;
-}
-
-.contentPage .contenedor .right-col .tomate h4{
-	color: #a53228;
-}
-
-.contentPage .contenedor .right-col .tomate h6 a{
-	color: #a53228;
-}
-
-.contentPage .contenedor .right-col .tomate .recetas-cont > a{
-	background-position: 0 -32px;
-}
-
-
-/*Receta oliva*/
-
-.contentPage .contenedor .right-col .oliva h3 {
-	margin-bottom: 82px;
-}
-
-.contentPage .contenedor .right-col .oliva h3 span{
-	color: #839449;
-}
-
-.contentPage .contenedor .right-col .oliva h4{
-	color: #839449;
-}
-
-.contentPage .contenedor .right-col .oliva h6 a{
-	color: #839449;
-}
-
-.contentPage .contenedor .right-col .oliva .recetas-cont > a{
-	background-position: 0 -48px;
+	
 }
 

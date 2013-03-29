@@ -23,7 +23,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
 	<link rel="stylesheet" type="text/css" href="css/libs/jquery.jscrollpane.css" />
-	<link rel="stylesheet" type="text/css" href="css/recetas.css" />
+	<link rel="stylesheet" type="text/css" href="css/degustacion.css" />
 </head>
 <body>
 
@@ -168,21 +168,22 @@
 		<section class="contentPage principal">
 			<div class="contenedor clearfix">
 				<div class="left-col">
-					<h3>Maridaje > Recetas</h3>
-					<h2>&bull; Recetas &bull;</h2>
+					<h2>&bull; Degustación &bull;</h2>
 
 					<div class="bloque">
+						<p><strong>Latitud 33° te invita a descubrir, los ingredientes, recetas y secretos que distinguen los sabores de nuestra tierra.</strong></p>
 						<p>Latitud 33° te invita a descubrir, los ingredientes, recetas y secretos que distinguen los sabores de nuestra tierra.</p>
 					</div>
 
+					<h3>Metodología de la degustación</h3>
+					<h4>Una degustación consta de tres fases:</h4>
+
 					<div class="filter-container">
-						<h4>Buscar<br /><span>por ingredientes</span></h4>
-						<ul>
-							<li><a href="#" title="Tomate" class="active" data-id="tomate"><span>Tomate</span></a></li>
-							<li><a href="#" title="Oliva" data-id="oliva"><span>Oliva</span></a></li>
-							<li><a href="#" title="Papa" data-id="papa"><span>Papa</span></a></li>
-							<li><a href="#" title="Cordero" data-id="cordero"><span>Cordero</span></a></li>
-						</ul>
+						<ol>
+							<li class="active"><span class="orden">1</span><a href="#" title="Tomate" data-id="visual"><span class="icon">Fase visual</span></a></li>
+							<li><span class="orden">2</span><a href="#" title="Oliva" data-id="olfativa"><span class="icon">Fase olfativa</span></a></li>
+							<li><span class="orden">3</span><a href="#" title="Papa" data-id="gustativa"><span class="icon">Fase gustativa</span></a></li>
+						</ol>
 					</div>
 
 
@@ -190,95 +191,62 @@
 
 
 				<div class="right-col">
-					<div class="description tomate" data-id="tomate" style="display: block;">
-						<h3>Te invitamos a<br /> descubrir<br /><span>los sabores<br /> del mediterraneo.</span></h3>
-						<h4>Tomate</h4>
-						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Sopa fría de tomates confitados, espinacas frescas y langostinos.</a></h6>
-							<p>Porciones 4</p>
-							<a href="#" title=""><span class="DN">Sopa fría de tomates confitados, espinacas frescas y langostinos</span></a>
-						</div>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Pomodori Gratinati.</a></h6>
-							<p>Porciones 6</p>
-							<a href="#" title=""><span class="DN">Pomodori Gratinati</span></a>
-						</div>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Pizza de tomates, albahaca y queso mozzarella.</a></h6>
-							<p>2 Pizzas grandes</p>
-							<a href="#" title=""><span class="DN">Pizza de tomates, albahaca y queso mozzarella</span></a>
-						</div>
-						<img src="./img/recetas/im-tomate.png" width="282" height="460">
+					<div class="description visual" data-id="visual" style="display: block;">
+						<img src="./img/degustacion/im-degustacion-visual.jpg" width="508" height="183">
+						<ul>
+							<li>&bull; texto texto texto</li>
+							<li>&bull; texto texto texto</li>
+							<li>&bull; texto texto texto</li>
+							<li>&bull; texto texto texto</li>
+						</ul>
 					</div>
 
-					<div class="description oliva" data-id="oliva">
-						<h3>Te invitamos a<br /> descubrir<br /><span>los sabores del <br />mediterraneo.</span></h3>
-						<h4>Oliva</h4>
-						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Trillas doradas en aceite de oliva con galette de papas.</a></h6>
-							<p>Porciones 4</p>
-							<a href="#" title=""><span class="DN">Trillas doradas en aceite de oliva con galette de papas</span></a>
-						</div>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Muffins de aceitunas negras y aceite de oliva.</a></h6>
-							<p>20 unidades</p>
-							<a href="#" title=""><span class="DN">Muffins de aceitunas negras y aceite de oliva</span></a>
-						</div>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Calamares a la plancha marinados en aceite de oliva, limón y menta.</a></h6>
-							<p>Porciones 4</p>
-							<a href="#" title=""><span class="DN">Calamares a la plancha marinados en aceite de oliva, limón y menta</span></a>
-						</div>
-						<img src="./img/recetas/im-oliva.png" width="298" height="499">
+					<div class="description olfativa" data-id="olfativa">
+						<img src="./img/degustacion/im-degustacion-olfativa.jpg" width="508" height="183">
+						<dl>
+							<dt><span>Las copas</span></dt>
+							<dd><p>El sabor del vino es diferente cuando se bebe en la copa apropiada. A modo general los puntos que hay que tener en cuenta en la elección de las copas son:</dd>
+						</dl>
+
+						<dl>
+							<dt><span>¿Hasta dónde servir la copa?</span></dt>
+							<dd>
+								<p>
+									- Vinos blancos y rosados: dos dedos menos del ecuador de la copa<br>
+									- Vinos tintos: hasta el ecuador de la copa
+								</p>
+							</dd>
+						</dl>
+
+						<dl>
+							<dt><span>El orden del servicio de los vinos</span></dt>
+							<dd>
+								<p>El servicio de vinos debe seguir un orden progresivo determinado por el servicio de platos y el menú elegido. Generalmente se comienza con espumantes y vinos blancos, luego se pasa por los rosados, los tintos y los dulces.<br><br>
+
+								<strong>Recomendaciones generales:</strong><br>
+
+								. Los vinos blancos generalmente se sirven antes que los tintos.<br>
+								. Los vinos jóvenes antes que los añejos.<br>
+								. Los vinos ligeros se sirven antes que los robustos.<br>
+								. Los secos antes que los dulces.
+								</p>
+							</dd>
+						</dl>
+						
 					</div>
 
-					<div class="description papa" data-id="papa">
-						<h3>Te invitamos a<br /> descubrir<br /><span>los sabores<br /> de nuestra<br /> tierra</span></h3>
-						<h4>Papa</h4>
-						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Ensaladas de Papa Churqueña, Portobellos y Huevo Poche</a></h6>
-							<p>Porciones 4</p>
-							<a href="#" title=""><span class="DN">Ensaladas de Papa Churqueña, Portobellos y Huevo Poche</a>
-						</div>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Canapé de Papa Moradita, Tapenade y Carpaccio.</a></h6>
-							<p>Porciones 4</p>
-							<a href="#" title=""><span class="DN">Canapé de Papa Moradita, Tapenade y Carpaccio.</span></a>
-						</div>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Torta Francesa de Papas, Cebolla &amp; Panceta.</a></h6>
-							<p>Porciones 4-6</p>
-							<a href="#" title=""><span class="DN">Torta Francesa de Papas, Cebolla &amp; Panceta</span></a>
-						</div>
-						<img src="./img/recetas/im-papa.png" width="371" height="471">
+					<div class="description gustatitva" data-id="gustativa">
+						<img src="./img/degustacion/im-degustacion-gustativa.jpg" width="508" height="183">
+						<p>text text text</p>
+						<p>text text text</p>
+						<p><strong>text text text</strong></p>
+						<ul>
+							<li>&bull; texto texto texto</li>
+							<li>&bull; texto texto texto</li>
+							<li>&bull; texto texto texto</li>
+							<li>&bull; texto texto texto</li>
+						</ul>
 					</div>
-
-					<div class="description cordero" data-id="cordero">
-						<h3>Te invitamos a<br /> descubrir<br /><span>los sabores<br /> de nuestra<br /> tierra</span></h3>
-						<h4>Cordero</h4>
-						<h5>Recetas tan fáciles que la podés hacer con una copa en la mano.</h5>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Hamburguesas de Cordero, Cebolla, Portobellos y Queso Morbier</a></h6>
-							<p>Porciones 4</p>
-							<a href="#" title=""><span class="DN">Hamburguesas de Cordero, Cebolla, Portobellos y Queso Morbier</span></a>
-						</div>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Ragout de Cordero Especiado, Arroz Basmati y Chipatis</a></h6>
-							<p>Porciones 6</p>
-							<a href="#" title=""><span class="DN">Ragout de Cordero Especiado, Arroz Basmati y Chipatis</span></a>
-						</div>
-						<div class="recetas-cont">
-							<h6><a href="#" title="">Mollejita de Cordero con Manteca de almendras y Ciboulette</a></h6>
-							<p>Porciones 4</p>
-							<a href="#" title=""><span class="DN">Mollejita de Cordero con Manteca de almendras y Ciboulette</span></a>
-						</div>
-						<img src="./img/recetas/im-cordero.png" width="339" height="510">
-					</div>
-
-
 
 				</div>
 			</div>
@@ -325,7 +293,7 @@
 	    			"js/libs/jquery.touchwipe.min.js",
                     "js/latitud.js"],function(){
 
-	    		scr.js(["js/global.js","js/recetas.js"]);
+	    		scr.js(["js/global.js","js/degustacion.js"]);
 
 
 			});

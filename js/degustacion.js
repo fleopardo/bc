@@ -19,8 +19,8 @@
 
 		if(recetaToShow.is(":visible")) return;
 
-		filtros.removeClass("active");
-		that.addClass("active");
+		filtros.parent().removeClass("active");
+		that.parent().addClass("active");
 
 		recetas.stop(true,true).fadeOut(500);
 		recetaToShow.stop(true,true).fadeIn(800);
