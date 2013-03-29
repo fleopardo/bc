@@ -119,6 +119,74 @@ body{
 }
 
 .contentPage .contenedor .right-col .description img{
-	
+	margin-bottom: 20px;
 }
 
+.contentPage .contenedor .right-col .visual li{
+	margin-bottom: 15px;
+}
+
+
+
+.contentPage .contenedor .olfativa dl{
+	width: 360px;
+	margin-bottom: 4px;
+}
+
+.contentPage .contenedor .olfativa dt{
+	background: url('./assets/degustacion/sp_iconos.png') top right no-repeat;
+	padding-right: 36px;
+	line-height: 30px;
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+}
+
+.contentPage .contenedor .olfativa dt span{
+	background: #b1b1b1;
+	padding: 0 10px;
+	display: block;
+}
+
+.contentPage .contenedor .olfativa dt a{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	right: 36px;
+	top: 0;
+}
+
+.contentPage .contenedor .olfativa dt.active{
+	background: url('./assets/degustacion/sp_iconos.png') bottom right no-repeat;
+	color: #000;
+}
+
+.contentPage .contenedor .olfativa dt.active span{
+	background: #fff;
+}
+
+.contentPage .contenedor .olfativa dt.active a{
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #000;
+	background: #d8d8d8;
+	padding: 0 10px;
+}
+
+.contentPage .contenedor .olfativa dd {
+	background: #fff;
+	padding: 4px 10px;
+	display: none;
+	color: #000;
+	margin-top: 1px;
+	z-index: 100;
+	position: relative;
+}
+
+.contentPage .contenedor .olfativa dd p{
+	margin-bottom: 10px;
+}
