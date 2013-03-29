@@ -150,4 +150,53 @@ var shale = shale || {};
 		});
 
 
+	/*
+	 * Abrir videos en modal
+	*/
+
+		// Todos los links con class video abren videos en modal
+		$(".video").on(shale.event.TAP, function(event){
+
+			event.preventDefault();
+			event.stopPropagation();
+
+			// Guardo la ruta que se llamara por ajax
+			var src = $(this).attr("href");
+
+			// Guardo el ID del video a cargar
+			shale.videoID = $(this).data("video:id");
+
+			// Creo un contenedor para cargar los videos
+			$(".contenedor-principal").append("<div id='container-video' style='display:none;'></div>");
+
+			// Hago el ajax
+			$("#container-video").load(src + " .contenido", function(response, status, xhr) {
+
+  				if (status == "success") {
+
+  					$("body").append("<div class='overlayVideo'></div>");
+
+  					// Llamo el script que inicializa los videos y carousel
+					$.getScript("./js/videos.js");
+
+					// Muestro finalmente el contenedor
+					$("#container-video").fadeIn();
+
+					// Bindeo el evento para cerrar el modal
+					$(".overlayVideo,#container-video .volver").one(shale.event.TAP, function(event){
+						event.preventDefault();
+						event.stopPropagation();
+
+						$(".overlayVideo").fadeOut();
+						$("#container-video").fadeOut();
+
+  					});
+
+				}
+
+			});
+
+		});
+
+
 }());

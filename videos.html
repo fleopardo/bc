@@ -19,7 +19,6 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/videos.css" />
 </head>
 <body>
 
@@ -28,7 +27,7 @@
 		<!-- Header / -->
 
 
-		<section id="videos" class="videos clearfix">
+		<section id="videos" class="clearfix">
 
 			<div class="preheader">
 
@@ -47,34 +46,51 @@
 
 			</div>
 
-			<div class="contenido">
+			<div class="videos contenido">
 
 				<div class="container-videos">
+					<h3 class="titulo"></h3>
 
 					<div class="contentVideo">
 						<div id="mediaplayer"></div>
 					</div>
 
-					<p class="videoDescripcion">
-						Pe pep pepep
-					</p>
+					<p class="videoDescripcion"></p>
 
+				</div>
+
+				<div class="container-playlist">
+					<h4>Videos relacionados</h4>
 					<div class="jcarousel-playlist mask">
 						<ul>
 							<li>
-								<a href="./videos/test.flv">
+								<a href="./videos/test.flv" id="que-es-shale" data-descripcion="Lorem impsum" data-titulo="¿Qué es Shale?">
 									<img src="./img/videos/01.jpg" width="250" height="140" />
 								</a>
 							</li>
-							<li><img src="./img/videos/01.jpg" width="250" height="140" data-video:id="que-es-shale"/></li>
-							<li><img src="./img/videos/01.jpg" width="250" height="140" data-video:id="que-es-shale"/></li>
-							<li><img src="./img/videos/01.jpg" width="250" height="140" data-video:id="que-es-shale"/></li>
-							<li><img src="./img/videos/01.jpg" width="250" height="140" data-video:id="que-es-shale"/></li>
-							<li><img src="./img/videos/01.jpg" width="250" height="140" data-video:id="que-es-shale"/></li>
+							<li>
+								<a href="./videos/test.flv" id="que-es-shale2" data-descripcion="Lorem impsum 2" data-titulo="¿Qué es Shale 2?">
+									<img src="./img/videos/01.jpg" width="250" height="140" />
+								</a>
+							</li>
+							<li>
+								<a href="./videos/test.flv" id="que-es-shale3" data-descripcion="Lorem impsum 3" data-titulo="¿Qué es Shale 3?">
+									<img src="./img/videos/01.jpg" width="250" height="140" />
+								</a>
+							</li>
+							<li>
+								<a href="./videos/test.flv" id="que-es-shale4" data-descripcion="Lorem impsum 4" data-titulo="¿Qué es Shale 4?">
+									<img src="./img/videos/01.jpg" width="250" height="140" />
+								</a>
+							</li>
 						</ul>
 					</div>
-
 				</div>
+
+				<ul class="list">
+					<li><a href="./index.html" class="volver">x</a></li>
+					<li><a href="#" class="compartir">Compartir</a></li>
+				</ul>
 
 			</div>
 
@@ -115,7 +131,11 @@
 	    			"js/libs/jquery.jcarousel.js",
 	    			"js/libs/jwplayer.js"],function(){
 
-		    	scr.js(["js/global.js","js/videos.js"]);
+		    	scr.js("js/global.js", function(){
+
+		    		scr.js("js/videos.js");
+
+		    	});
 
 			});
 

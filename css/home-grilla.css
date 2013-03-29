@@ -57,6 +57,7 @@
 		.nuevas-fronteras-detalle > div h3{
 			font-size: 29px;
 			font-family: "din-medium";
+			font-weight: normal;
 			line-height: 29px;
 			margin-bottom: 12px;
 			text-transform: capitalize;
@@ -65,6 +66,7 @@
 		.nuevas-fronteras-detalle > div h3 span{
 			font-size: 29px;
 			font-family: "din-light";
+			font-weight: normal;
 			line-height: 29px;
 			margin-bottom: 12px;
 		}
@@ -72,6 +74,7 @@
 		.nuevas-fronteras-detalle > div p{
 			font-size: 14px;
 			font-family: "din-regular";
+			font-weight: normal;
 			margin-bottom: 14px;
 			line-height: 17px;
 		}
@@ -119,6 +122,7 @@
 		.nuevas-fronteras .offshore div h3{
 			font-size: 19px;
 			font-family: "din-black";
+			font-weight: normal;
 			line-height: 22px;
 			margin: 12px 0;
 		}
@@ -126,6 +130,7 @@
 		.nuevas-fronteras .exploracion-no-convencional div h3 span,
 		.nuevas-fronteras .offshore div h3 span{
 			font-family: "din-light";
+			font-weight: normal;
 			display: block;
 		}
 
@@ -179,12 +184,14 @@
 		.nuevas-fronteras .opid h3{
 			font-size: 22px;
 			font-family: "din-regular";
+			font-weight: normal;
 			line-height: 25px;
 		}
 
 		.nuevas-fronteras .plan-exploratorio h3 span,
 		.nuevas-fronteras .opid h3 span{
 			font-family: "din-medium";
+			font-weight: normal;
 			display: block;
 		}
 
@@ -235,16 +242,19 @@
 	.desafio-energetico .desafio-energetico-detalle div h3{
 		font-size: 29px;
 		font-family: "din-black";
+		font-weight: normal;
 		line-height: 30px;
 		margin-bottom: 12px;
 	}
 
 	.desafio-energetico .desafio-energetico-detalle div h3 span{
 		font-family: "din-light";
+		font-weight: normal;
 	}
 
 	.desafio-energetico .desafio-energetico-detalle div p{
 		font-family: "din-regular";
+		font-weight: normal;
 		font-size: 14px;
 		line-height: 16px;
 		margin-bottom: 12px;
@@ -346,6 +356,7 @@
 	.desafio-energetico .energia-para-el-crecimiento div h3{
 		margin: 10px 0;
 		font-family: "din-black";
+		font-weight: normal;
 		font-size: 19px;
 		line-height: 22px;
 	}
@@ -355,6 +366,7 @@
 	.desafio-energetico .que-es-shale div h3 span,
 	.desafio-energetico .energia-para-el-crecimiento div h3 span{
 		font-family: "din-light";
+		font-weight: normal;
 		display: block;
 	}
 
@@ -412,11 +424,13 @@
 	.desafio-energetico .recursos-convencionales h3{
 		font-size: 22px;
 		font-family: "din-regular";
+		font-weight: normal;
 		line-height: 25px;
 	}
 
 	.desafio-energetico .recursos-convencionales h3 span{
 		font-family: "din-medium";
+		font-weight: normal;
 		display: block;
 	}
 
@@ -446,11 +460,13 @@
 	.nuestra-energia .nuestra-energia-detalle h3{
 		font-size: 29px;
 		font-family: "din-black";
+		font-weight: normal;
 		line-height: 30px;
 	}
 
 	.nuestra-energia .nuestra-energia-detalle h3 span{
 		font-family: "din-light";
+		font-weight: normal;
 		display: block;
 	}
 
@@ -531,4 +547,5 @@
 	.nuestra-energia .bloque2 h3{
 		font-size: 22px;
 		font-family: "din-medium";
+		font-weight: normal;
 	}

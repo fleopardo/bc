@@ -20,6 +20,8 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	url("../fonts/din-regular.woff") format("woff"),
 	url("../fonts/din-regular.ttf") format("truetype"),
 	url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
 }
 
 @font-face {
@@ -29,6 +31,8 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	url("../fonts/din-light.woff") format("woff"),
 	url("../fonts/din-light.ttf") format("truetype"),
 	url("../fonts/din-light.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
 }
 
 @font-face {
@@ -53,14 +57,6 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
   	font-style: normal;
 }
 
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-@font-face {
-font-family: 'din-black';
-src: url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
-
-}
-}
 
 /*
  * Clearfix
@@ -146,6 +142,7 @@ input.placeholder{ color: #373737; }
 	padding-top: 80px;
 	width: 1200px;
 	margin: 0 auto;
+	position: relative;
 }
 
 
@@ -428,3 +425,187 @@ footer .social li a{
 	footer .social li a.mail{
 		background-position: -161px -2px;
 	}
+
+
+
+
+/* Videos */
+
+.overlayVideo{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.8);
+}
+
+#container-video{
+	position: absolute;
+	top: 80px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+.videos.contenido{
+	padding: 50px 0;
+	background: #fff;
+	width: 100%;
+	position: relative;
+}
+
+.videos .list{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.videos .list a{
+	display: block;
+	width: 72px;
+	line-height: 42px;
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: "din-black";
+	margin-bottom: 1px;
+	font-weight: normal;
+}
+
+.videos .list .volver{
+	background: #600066;
+}
+
+.videos .list .compartir{
+	background: #a0a0a0 url("./assets/icon-share.png") no-repeat 28px 13px;
+	text-indent: -9999px;
+}
+
+
+.videos .container-videos,
+.videos .container-playlist{
+	margin: 0 auto;
+}
+
+.videos .container-videos,
+.videos .contentVideo,
+.videos .container-videos video,
+.videos .container-videos #mediaplayer,
+#mediaplayer_wrapper,
+.videos .jcarousel-playlist,
+.videos .container-videos .videoDescripcion,
+.videos .container-playlist{
+	width: 800px;
+}
+
+.videos .contentVideo,
+.videos .container-videos video,
+.videos .container-videos #mediaplayer,
+#mediaplayer_wrapper{
+	height: 491px;
+}
+
+.videos .container-videos h3{
+	color: #000;
+	margin-bottom: 20px;
+	font-size: 35px;
+	font-family: "din-regular";
+	font-weight: normal;
+}
+
+.videos .container-videos .videoDescripcion{
+	color: #676767;
+	margin: 30px 0 20px 0;
+	font-size: 16px;
+}
+
+/* Playlist */
+
+.videos .container-playlist{
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+    padding: 20px 0;
+}
+
+.videos .container-playlist h3{
+	color: #000;
+	font-size: 17px;
+	margin-bottom: 25px;
+	font-family: "din-black";
+	font-weight: normal;
+}
+
+.jcarousel-playlist{
+    position: relative;
+    height: 140px;
+}
+
+.jcarousel-playlist ul {
+    width: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-playlist li {
+    float: left;
+    width: 252px;
+	margin-right: 22px;
+	cursor: pointer;
+}
+
+.jcarousel-playlist li img{
+	opacity: 0.7;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	-webkit-transition:opacity 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:opacity 0.5s ease-out;  /* Opera */
+	-moz-transition:opacity 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:opacity 0.5s ease-out;   /* Internet Explorer */
+	transition:opacity 0.5s ease-out;  /* W3C */
+}
+
+.jcarousel-playlist li img:hover {
+    opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+.jcarousel-playlist .jcarousel-prev-horizontal,
+.jcarousel-playlist .jcarousel-next-horizontal{
+  	background: url("./assets/icons-carousel.png") no-repeat;
+  	position: absolute;
+  	z-index:100;
+  	cursor: pointer;
+	width: 10px;
+	height: 19px;
+	top: 60px;
+}
+
+.jcarousel-playlist .jcarousel-prev-horizontal{
+	left: -25px;
+	background-position: 0 0;
+}
+
+.jcarousel-playlist .jcarousel-next-horizontal{
+	right: -25px;
+	background-position: -10px 0;
+}
+
+.jcarousel-playlist .jcarousel-prev-disabled,
+.jcarousel-playlist .jcarousel-next-disabled{
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	cursor: default;
+}
+
+.jcarousel-playlist .jcarousel-clip {
+    overflow: hidden;
+}
+
+/* Mascara hasta que cargue javascript */
+
+.jcarousel-playlist.mask{
+	overflow: hidden;
+}
