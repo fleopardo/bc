@@ -370,6 +370,10 @@
 		display: block;
 	}
 
+	.desafio-energetico .que-es-shale div h3 span{
+		display: inline;
+	}
+
 	.desafio-energetico .shale-en-el-mundo p,
 	.desafio-energetico .vaca-muerta p,
 	.desafio-energetico .que-es-shale p,
