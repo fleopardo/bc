@@ -26,7 +26,11 @@
 	padding: 20px;
 }
 
-
+.contenido .tit-uppercase{
+	text-transform: uppercase;
+	font-size: 11px;
+	opacity: 0.8
+}
 
 /*
  * Home nuevas fronteras

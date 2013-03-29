@@ -331,7 +331,7 @@ input.placeholder{ color: #373737; }
 
 .more{
 	border-bottom: 25px solid #000;
-	border-left: 28px solid transparent;
+	border-left: 26px solid transparent;
 	width: 0;
 	height: 0;
 	text-align: center;
@@ -343,7 +343,7 @@ input.placeholder{ color: #373737; }
 .more span{
 	position: absolute;
 	top: 0;
-	left: -13px;
+	left: -12px;
 	top: 6px;
 	font-size: 18px;
 }
