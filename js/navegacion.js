@@ -81,7 +81,7 @@ shale.navegacion = (function(window){
 
 				$("#loading").remove();
 
-				alert("Ocurrio un error");
+				alert("Error! La pagina que buscas no existe.");
 
 			}
 
