@@ -182,6 +182,9 @@ var shale = shale || {};
 					// Muestro finalmente el contenedor
 					$("#container-video").fadeIn();
 
+					// Muevo el scroll hasta arriba para ver el modal desde el principio
+					$.scrollTo(0);
+
 					// Bindeo el evento para cerrar el modal
 					$(".overlayVideo,#container-video .volver").one(shale.event.TAP, function(event){
 						event.preventDefault();

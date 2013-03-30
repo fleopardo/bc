@@ -1,0 +1,60 @@
+/* Estilo global */
+
+.internas .row{
+	margin-bottom: 12px;
+	clear: both;
+	overflow: hidden;
+}
+
+.internas .contenido .tit-uppercase{
+	margin-bottom: 20px;
+}
+
+.internas .bloque{
+	margin-right: 11px;
+	float: left;
+}
+
+.internas .bloque.last{
+	margin-right: 0;
+}
+
+.internas .row .bloque-texto{
+	padding: 20px;
+	position: relative;
+	width: 352px;
+}
+
+.internas .row .bloque-texto h3{
+	font-size: 35px;
+	font-weight: normal;
+	line-height: 32px;
+	font-family: "din-light";
+}
+
+.internas .row .bloque-texto h3 span{
+	font-family: "din-black";
+}
+
+.internas .row .bloque-texto p{
+	margin-top: 17px;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.internas .row .bloque-texto .compartir{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 20px;
+	background-color: rgba(0,0,0,0.3);
+	background-image: url("./assets/icon-share.png");
+	padding: 5px 17px 5px 40px;
+	background-repeat: no-repeat;
+	background-position: 14px 3px;
+}
+
+.ie7 .internas .row .bloque-texto .compartir{
+	display: inline;
+	zoom: 1;
+}

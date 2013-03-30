@@ -80,7 +80,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
  * Estilos generales
 */
 body{
-	font-family: "din-medium", arial, helvetica, sans-serif;
+	font-family: "din-regular", arial, helvetica, sans-serif;
 	color: #fff;
 	font-size: 12px;
 	background: #3c3c3c url("./assets/background.jpg");
@@ -123,6 +123,13 @@ input.placeholder{ color: #373737; }
 	margin-right: 3px;
 }
 
+.contenido .tit-uppercase{
+	text-transform: uppercase;
+	font-size: 11px;
+	opacity: 0.8;
+	margin-bottom: 30px;
+	display: block;
+}
 
 #loading{
 	position: fixed;
@@ -233,6 +240,18 @@ input.placeholder{ color: #373737; }
 	background-position: 0px -18px;
 }
 
+.preheader .flechas .volver{
+	display: block;
+	width: 72px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	background: #600066;
+	right: 71px;
+}
 
 /*
  * Breadcrumb
@@ -464,13 +483,12 @@ footer .social li a{
 .videos .list a{
 	display: block;
 	width: 72px;
-	line-height: 42px;
+	line-height: 45px;
 	text-align: center;
-	font-size: 20px;
+	font-size: 17px;
 	text-transform: uppercase;
-	font-family: "din-black";
-	margin-bottom: 1px;
-	font-weight: normal;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
 }
 
 .videos .list .volver{
@@ -492,7 +510,7 @@ footer .social li a{
 .videos .contentVideo,
 .videos .container-videos video,
 .videos .container-videos #mediaplayer,
-#mediaplayer_wrapper,
+.videos #mediaplayer_wrapper,
 .videos .jcarousel-playlist,
 .videos .container-videos .videoDescripcion,
 .videos .container-playlist{
@@ -536,12 +554,12 @@ footer .social li a{
 	font-weight: normal;
 }
 
-.jcarousel-playlist{
+.videos .jcarousel-playlist{
     position: relative;
     height: 140px;
 }
 
-.jcarousel-playlist ul {
+.videos .jcarousel-playlist ul {
     width: 20000em;
     position: absolute;
     list-style: none;
@@ -549,14 +567,14 @@ footer .social li a{
     padding: 0;
 }
 
-.jcarousel-playlist li {
+.videos .jcarousel-playlist li {
     float: left;
     width: 252px;
 	margin-right: 22px;
 	cursor: pointer;
 }
 
-.jcarousel-playlist li img{
+.videos .jcarousel-playlist li img{
 	opacity: 0.7;
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	filter: alpha(opacity=70);
@@ -567,14 +585,14 @@ footer .social li a{
 	transition:opacity 0.5s ease-out;  /* W3C */
 }
 
-.jcarousel-playlist li img:hover {
+.videos .jcarousel-playlist li img:hover {
     opacity: 1;
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	filter: alpha(opacity=100);
 }
 
-.jcarousel-playlist .jcarousel-prev-horizontal,
-.jcarousel-playlist .jcarousel-next-horizontal{
+.videos .jcarousel-playlist .jcarousel-prev-horizontal,
+.videos .jcarousel-playlist .jcarousel-next-horizontal{
   	background: url("./assets/icons-carousel.png") no-repeat;
   	position: absolute;
   	z-index:100;
@@ -584,29 +602,29 @@ footer .social li a{
 	top: 60px;
 }
 
-.jcarousel-playlist .jcarousel-prev-horizontal{
+.videos .jcarousel-playlist .jcarousel-prev-horizontal{
 	left: -25px;
 	background-position: 0 0;
 }
 
-.jcarousel-playlist .jcarousel-next-horizontal{
+.videos .jcarousel-playlist .jcarousel-next-horizontal{
 	right: -25px;
 	background-position: -10px 0;
 }
 
-.jcarousel-playlist .jcarousel-prev-disabled,
-.jcarousel-playlist .jcarousel-next-disabled{
+.videos .jcarousel-playlist .jcarousel-prev-disabled,
+.videos .jcarousel-playlist .jcarousel-next-disabled{
 	opacity: 0.2;
 	filter: alpha(opacity=20);
 	cursor: default;
 }
 
-.jcarousel-playlist .jcarousel-clip {
+.videos .jcarousel-playlist .jcarousel-clip {
     overflow: hidden;
 }
 
 /* Mascara hasta que cargue javascript */
 
-.jcarousel-playlist.mask{
+.videos .jcarousel-playlist.mask{
 	overflow: hidden;
 }

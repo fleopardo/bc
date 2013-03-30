@@ -1,0 +1,27 @@
+/* Estilos para article que es shale */
+
+.desafio-energetico-internas .row .que-es-shale-detalle{
+	background: #77b8a2;
+	height: 428px;
+}
+
+
+/* Estilos para article shale en el mundo */
+
+.desafio-energetico-internas .row .shale-en-el-mundo{
+	background: #b78c17;
+	height: 548px;
+}
+
+
+/* Diferencias ambientales */
+
+.desafio-energetico-internas .row .diferencia-ambiental{
+	background: #2e775c;
+	height: 292px;
+}
+
+.desafio-energetico-internas .row .diferencia-ambiental h3{
+	font-size: 21px;
+	line-height: 25px;
+}

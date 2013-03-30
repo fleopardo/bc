@@ -178,6 +178,11 @@ shale.navegacion = (function(window){
 
 					mascara.scrollTo("#" + event.state.page_id, shale.navegacion.speed);
 
+					$(".contenido").removeClass("active");
+					$("#"+state.page_id).addClass("active");
+
+					// lanzo un evento
+					$(window).trigger("navegacion");
 				}
 
 			}else{
