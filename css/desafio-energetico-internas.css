@@ -6,22 +6,114 @@
 }
 
 
-/* Estilos para article shale en el mundo */
+/*
+ * QUE ES SHALE
+*/
 
-.desafio-energetico-internas .row .shale-en-el-mundo{
-	background: #b78c17;
-	height: 548px;
-}
+	/* Estilos para article que es shale */
+
+	.desafio-energetico-internas .row .que-es-shale-detalle{
+		background: #77b8a2;
+		height: 428px;
+	}
+
+	.desafio-energetico-internas .row .que-es-shale-detalle .scrollCustom{
+		height: 300px;
+	}
+
+	/* Estilos para article shale en el mundo */
+
+	.desafio-energetico-internas .row .shale-en-el-mundo{
+		background: #b78c17;
+		height: 548px;
+	}
+
+	.desafio-energetico-internas .row .shale-en-el-mundo .scrollCustom{
+		height: 458px;
+	}
 
 
-/* Diferencias ambientales */
+	/* Diferencias ambientales */
 
-.desafio-energetico-internas .row .diferencia-ambiental{
-	background: #2e775c;
-	height: 292px;
-}
+	.desafio-energetico-internas .row .diferencia-ambiental{
+		background: #2e775c;
+		height: 292px;
+	}
 
-.desafio-energetico-internas .row .diferencia-ambiental h3{
-	font-size: 21px;
-	line-height: 25px;
-}
+	.desafio-energetico-internas .row .diferencia-ambiental .scrollCustom{
+		height: 180px;
+	}
+
+	.desafio-energetico-internas .row .diferencia-ambiental h3{
+		font-size: 21px;
+		line-height: 25px;
+	}
+
+
+/*
+ * VACA MUERTA
+*/
+
+	/* Vaca muerta detalle */
+
+	.desafio-energetico-internas .row .vaca-muerta-detalle{
+		background: #6c6a2c;
+		height: 432px;
+	}
+
+	.desafio-energetico-internas .row .vaca-muerta-detalle .scrollCustom{
+		height: 300px;
+	}
+
+
+	/* Bloque texto izquierdo */
+
+	.desafio-energetico-internas .row .txt1{
+		background: #272727;
+		height: 220px;
+	}
+
+	.desafio-energetico-internas .row .txt1 .scrollCustom{
+		height: 220px;
+	}
+
+	/* Bloque texto derecho */
+
+	.desafio-energetico-internas .row .txt2{
+		background: url("./assets/textura-negra.jpg");
+		width: 757px;
+		height: 200px;
+		padding-top: 40px;
+	}
+
+	.desafio-energetico-internas .row .txt2 .scrollCustom{
+		height: 200px;
+	}
+
+	.desafio-energetico-internas .row .txt2 p{
+		font-family: "din-medium";
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 35px;
+		width: 360px;
+		margin-right: 25px;
+		float: left;
+	}
+
+	.desafio-energetico-internas .row .txt2 p.last{
+		margin-right: 0;
+	}
+
+	.desafio-energetico-internas .row .txt2 p span{
+		color: #1bb782;
+		font-size: 18px;
+	}
+
+	.desafio-energetico-internas .row .txt2 p span.big{
+		font-size: 30px;
+	}
+
+
+
+
+

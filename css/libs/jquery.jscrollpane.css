@@ -60,6 +60,7 @@
 .jspDrag
 {
 	background: #555555;
+	background-color: rgba(0,0,0,0.3);
 	position: relative;
 	top: 0;
 	cursor: pointer;

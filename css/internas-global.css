@@ -30,6 +30,7 @@
 	font-weight: normal;
 	line-height: 32px;
 	font-family: "din-light";
+	margin-bottom: 25px;
 }
 
 .internas .row .bloque-texto h3 span{
@@ -37,9 +38,9 @@
 }
 
 .internas .row .bloque-texto p{
-	margin-top: 17px;
+	margin-bottom: 18px;
 	font-size: 15px;
-	line-height: 18px;
+	line-height: 20px;
 }
 
 .internas .row .bloque-texto .compartir{
@@ -57,4 +58,12 @@
 .ie7 .internas .row .bloque-texto .compartir{
 	display: inline;
 	zoom: 1;
+}
+
+.internas .scrollCustom{
+	padding-right: 10px;
+}
+
+.internas .jspVerticalBar {
+	right: 0;
 }
