@@ -29,7 +29,9 @@
 .contenido .tit-uppercase{
 	text-transform: uppercase;
 	font-size: 11px;
-	opacity: 0.8
+	opacity: 0.8;
+	margin-bottom: 30px;
+	display: block;
 }
 
 /*
@@ -245,10 +247,10 @@
 
 	.desafio-energetico .desafio-energetico-detalle div h3{
 		font-size: 29px;
-		font-family: "din-black";
+		font-family: "din-medium";
 		font-weight: normal;
 		line-height: 30px;
-		margin-bottom: 12px;
+		margin-bottom: 35px;
 	}
 
 	.desafio-energetico .desafio-energetico-detalle div h3 span{
@@ -256,7 +258,7 @@
 		font-weight: normal;
 	}
 
-	.desafio-energetico .desafio-energetico-detalle div p{
+	.desafio-energetico .desafio-energetico-detalle div p.desc{
 		font-family: "din-regular";
 		font-weight: normal;
 		font-size: 14px;
@@ -264,12 +266,18 @@
 		margin-bottom: 12px;
 	}
 
+	.desafio-energetico .desafio-energetico-detalle .more{
+		border-bottom-color: #084a40
+	}
+
+	.desafio-energetico .desafio-energetico-detalle:hover div{
+		background-color: #084a40;
+	}
 
 	/* Shale en el mundo & Vaca muerta */
 
 	.desafio-energetico .shale-en-el-mundo,
 	.desafio-energetico .vaca-muerta,
-	.desafio-energetico .que-es-shale,
 	.desafio-energetico .energia-para-el-crecimiento{
 		float: left;
 		width: 485px;
@@ -285,17 +293,12 @@
 		background: url("./assets/home/desafio-energetico/vaca-muerta.jpg") top right no-repeat;
 	}
 
-	.desafio-energetico .que-es-shale{
-		background: url("./assets/home/desafio-energetico/que-es-shale.jpg") top right no-repeat;
-	}
-
 	.desafio-energetico .energia-para-el-crecimiento{
 		background: url("./assets/home/desafio-energetico/energia-para-el-crecimiento.jpg") top right no-repeat;
 	}
 
 	.desafio-energetico .shale-en-el-mundo div,
 	.desafio-energetico .vaca-muerta div,
-	.desafio-energetico .que-es-shale div,
 	.desafio-energetico .energia-para-el-crecimiento div{
 		width: 208px;
 		position: absolute;
@@ -312,12 +315,8 @@
 			background: #6c6a2c;
 		}
 
-		.desafio-energetico .que-es-shale div{
-			background: #77b8a2;
-		}
-
 		.desafio-energetico .energia-para-el-crecimiento div{
-			background: #469fa2;
+			background: #306f57;
 		}
 
 		/* Hovers */
@@ -329,12 +328,8 @@
 			background: #41401a;
 		}
 
-		.desafio-energetico .que-es-shale:hover div{
-			background: #476e61;
-		}
-
 		.desafio-energetico .energia-para-el-crecimiento:hover div{
-			background: #2b6364;
+			background: #1d4334;
 		}
 
 		/* Cambio de color para icono "More" */
@@ -346,19 +341,16 @@
 			border-bottom-color: #41401a;
 		}
 
-		.desafio-energetico .que-es-shale .more{
-			border-bottom-color: #476e61;
-		}
-
 		.desafio-energetico .energia-para-el-crecimiento .more{
-			border-bottom-color: #2b6364;
+			border-bottom-color: #1d4334;
 		}
 
 	.desafio-energetico .shale-en-el-mundo div h3,
 	.desafio-energetico .vaca-muerta div h3,
+	.desafio-energetico .energia-para-el-crecimiento div h3,
+	.desafio-energetico .argentina-un-pais-con-futuro div h3,
 	.desafio-energetico .que-es-shale div h3,
-	.desafio-energetico .energia-para-el-crecimiento div h3{
-		margin: 10px 0;
+	.desafio-energetico .recursos-convencionales div h3{
 		font-family: "din-black";
 		font-weight: normal;
 		font-size: 19px;
@@ -367,8 +359,10 @@
 
 	.desafio-energetico .shale-en-el-mundo div h3 span,
 	.desafio-energetico .vaca-muerta div h3 span,
+	.desafio-energetico .energia-para-el-crecimiento div h3 span,
+	.desafio-energetico .argentina-un-pais-con-futuro div h3 span,
 	.desafio-energetico .que-es-shale div h3 span,
-	.desafio-energetico .energia-para-el-crecimiento div h3 span{
+	.desafio-energetico .recursos-convencionales div h3 span{
 		font-family: "din-light";
 		font-weight: normal;
 		display: block;
@@ -378,32 +372,19 @@
 		display: inline;
 	}
 
-	.desafio-energetico .shale-en-el-mundo p,
-	.desafio-energetico .vaca-muerta p,
-	.desafio-energetico .que-es-shale p,
-	.desafio-energetico .energia-para-el-crecimiento p{
-		line-height: 16px;
-	}
-
-
 	/* estilos solo para que es Shale, energia para el crecimiento */
-	.desafio-energetico .que-es-shale {
-		clear: both;
-		float: left;
-	}
 
-	.desafio-energetico .que-es-shale,
 	.desafio-energetico .energia-para-el-crecimiento{
-		width: 471px;
+		width: 465px;
 		margin-right: 10px;
+		float: left;
+		clear: both;
 	}
 
-	.ie7 .desafio-energetico .que-es-shale,
 	.ie7 .desafio-energetico .energia-para-el-crecimiento{
-		width: 480px;
+		width: 474px;
 	}
 
-	.desafio-energetico .que-es-shale div,
 	.desafio-energetico .energia-para-el-crecimiento div{
 		width: 196px;
 	}
@@ -412,34 +393,39 @@
 
 	/* Recursos convencionales */
 
-	.desafio-energetico .recursos-convencionales{
-		width: 238px;
+	.desafio-energetico .recursos-convencionales,
+	.desafio-energetico .argentina-un-pais-con-futuro,
+	.desafio-energetico .que-es-shale{
+		width: 235px;
 		height: 186px;
 		float: left;
 		position: relative;
+		margin-right: 10px;
 	}
 
-	.ie7 .desafio-energetico .recursos-convencionales{
+	.ie7 .desafio-energetico .recursos-convencionales,
+	.ie7 .desafio-energetico .argentina-un-pais-con-futuro,
+	.ie7 .desafio-energetico .que-es-shale{
 		width: 220px;
 	}
 
 
-
 	.desafio-energetico .recursos-convencionales{
 		background: #ac9e2c;
+		margin-right: 0;
 	}
 
-	.desafio-energetico .recursos-convencionales h3{
+	.desafio-energetico .que-es-shale{
+		background: #77b8a2;
+	}
+
+	.desafio-energetico .argentina-un-pais-con-futuro{
+		background: #12928a;
+	}
+
+	.desafio-energetico .recursos-convencionales div h3{
 		font-size: 22px;
-		font-family: "din-regular";
-		font-weight: normal;
 		line-height: 25px;
-	}
-
-	.desafio-energetico .recursos-convencionales h3 span{
-		font-family: "din-medium";
-		font-weight: normal;
-		display: block;
 	}
 
 		/* Hovers */
@@ -447,9 +433,25 @@
 			background: #675f1a;
 		}
 
+		.desafio-energetico .argentina-un-pais-con-futuro:hover{
+			background: #0b5853;
+		}
+
+		.desafio-energetico .que-es-shale:hover{
+			background: #476e61;
+		}
+
 		/* Cambio de color para icono "More" */
 		.desafio-energetico .recursos-convencionales .more{
 			border-bottom-color: #675f1a;
+		}
+
+		.desafio-energetico .argentina-un-pais-con-futuro .more{
+			border-bottom-color: #0b5853;
+		}
+
+		.desafio-energetico .que-es-shale .more{
+			border-bottom-color: #476e61;
 		}
 
 

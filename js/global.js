@@ -187,8 +187,13 @@ var shale = shale || {};
 						event.preventDefault();
 						event.stopPropagation();
 
-						$(".overlayVideo").fadeOut();
-						$("#container-video").fadeOut();
+						$(".overlayVideo").fadeOut("fast",function(){
+							$(this).remove();
+						});
+
+						$("#container-video").fadeOut("fast",function(){
+							$(this).remove();
+						});
 
   					});
 

@@ -438,6 +438,7 @@ footer .social li a{
 	right: 0;
 	bottom: 0;
 	background: rgba(0,0,0,.8);
+	z-index: 998;
 }
 
 #container-video{
