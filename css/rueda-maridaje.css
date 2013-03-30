@@ -21,13 +21,31 @@ body{
 
 .rueda-maridaje-container{
 	width: 853px;
-	height:368px;
+	height:440px;
 	margin: 0 auto;
 	overflow: hidden;
 	position: fixed;
 	bottom:0;
 	left:50%;
 	margin-left:-426px;
+}
+
+.contentPage .contenedor h2{
+	font-family: "neutra2displaylight";
+	font-size: 40px;
+	line-height: 44px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.contentPage .contenedor h3{
+	font-family: "neutra2displaymedium";
+	font-size: 18px;
+	line-height: 22px;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 12px;
 }
 
 span.mascara-maridaje{
@@ -40,9 +58,47 @@ span.mascara-maridaje{
 	position: absolute;
 }
 
+#img{
+	margin-top: 86px;
+}
+
+
+.prev,.next{
+	position: absolute;
+	z-index: 50;
+	top: 62px;
+	width: 20px;
+	height: 20px;
+	text-indent: -100%;
+	overflow: hidden;
+	display: block;
+}
+
+.prev{
+	left:250px;
+}
+
+.next{
+	left:586px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .maridaje footer{
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
 }
+
+
+
