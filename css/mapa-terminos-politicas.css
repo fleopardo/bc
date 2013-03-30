@@ -1,0 +1,31 @@
+body{
+	background-image: url("./assets/bg-legales.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #272728;
+}
+
+
+
+.contentPage.principal h2{
+	font-family: "neutra2displaylight";
+	font-size: 41px;
+	text-transform: uppercase;
+	margin: 50px 0 30px;
+	border-bottom:1px solid #ccc;
+}
+
+.info-container li,
+.info-container li a,
+.info-container p{
+	color: #fff;
+	font: 18px/21px 'neutra2displaymedium';
+}
+
+.mapa .info-container li > ul{
+	margin-left: 30px;
+}
+
+.mapa .info-container li{
+	margin-bottom: 5px;
+}
