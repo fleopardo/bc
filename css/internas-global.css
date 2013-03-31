@@ -62,6 +62,7 @@
 
 .internas .scrollCustom{
 	padding-right: 10px;
+	overflow: hidden;
 }
 
 .internas .jspVerticalBar {

@@ -237,3 +237,98 @@
 		display: block;
 	}
 
+
+/*
+ * RECURSOS CONVENIONALES
+*/
+
+	.desafio-energetico-internas .recursos-convencionales .row .intro{
+		background: #ac9e2c;
+		height: 432px;
+	}
+
+	.desafio-energetico-internas .recursos-convencionales .row .intro h3{
+		margin-top: 20px;
+	}
+
+	.desafio-energetico-internas .recursos-convencionales .row .intro .scrollCustom{
+		height: 300px;
+	}
+
+
+	/* SLider */
+
+	.desafio-energetico-internas .recursos-convencionales .jcarousel-slider-interna{
+		height: 472px;
+		width: 797px;
+	}
+
+	.desafio-energetico-internas .recursos-convencionales .jcarousel-slider-interna li{
+		width: 797px;
+	}
+
+	.desafio-energetico-internas .recursos-convencionales .jcarousel-prev-horizontal,
+	.desafio-energetico-internas .recursos-convencionales .jcarousel-next-horizontal{
+		top: 200px;
+	}
+
+
+	/* Produccion Diaria */
+
+	.desafio-energetico-internas .recursos-convencionales .produccion-diaria{
+		background: url("./assets/textura-marron.jpg");
+		width: 392px;
+		height: 258px;
+		text-align: center;
+	}
+
+
+	/* Steps */
+
+	.desafio-energetico-internas .recursos-convencionales .steps{
+		width: 797px;
+		height: 258px;
+		background: url("./assets/textura-marron.jpg");
+	}
+
+
+/*
+ * ENERGIA PARA EL CRECIMIENTO
+*/
+
+	/* detalle */
+
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .intro{
+		background: #306f57;
+		height: 432px;
+	}
+
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .intro .scrollCustom{
+		height: 300px;
+	}
+
+
+	/* INFO */
+
+	.desafio-energetico-internas .energia-para-el-crecimiento .info{
+		width: 757px;
+		height: 214px;
+		background: url("./assets/desafio-energetico/energia-para-el-crecimiento/bg-info.jpg") no-repeat;
+	}
+
+	.desafio-energetico-internas .energia-para-el-crecimiento .info p{
+		font-family: "din-medium";
+		font-weight: normal;
+		font-size: 19px;
+		text-shadow: 2px 2px 3px #333;
+		line-height: 30px;
+	}
+
+	.desafio-energetico-internas .energia-para-el-crecimiento .info p span{
+		font-size: 35px;
+		color: #469fa2;
+	}
+
+	.desafio-energetico-internas .energia-para-el-crecimiento .info p.first{
+		margin-bottom: 70px;
+	}
