@@ -48,22 +48,34 @@
 				$menu.addClass("init");
 
 				// Muestro opciones
-				$menu.find("dt").on(shale.event.TAP,function(){
+				$menu.find("dt").on(shale.event.TAP,function(event){
 
+					event.preventDefault();
+					event.stopPropagation();
 					$menu.find("dd").toggle();
 
 				});
 
 				// cambio graficos
-				$menu.find("dd").on(shale.event.TAP,function(){
+				$menu.find("dd").on(shale.event.TAP,function(event){
+
+					event.preventDefault();
+					event.stopPropagation();
 
 					var id = $(this).data("id");
+
+					$menu.find("dd").removeClass("active");
+					$(this).addClass("active");
 
 					$(".recursos-no-convencionales .imgs img").removeClass("active");
 					$(".recursos-no-convencionales .imgs img[data-id="+id+"]").addClass("active");
 
 					$menu.find("dd").hide();
-				})
+				});
+
+				$(".recursos-no-convencionales").on(shale.event.TAP,function(){
+					$menu.find("dd").hide();
+				});
 
 			}
 
@@ -82,8 +94,10 @@
 	*/
 
 		$(window).on("navegacion",function(){
-			//Instancio el slider on navegacion
+
+			//Instancias on navegacion
 			shale.sliderInternas();
+			shale.submenuGraficosRecursosNoConvencionales();
 
 		});
 
