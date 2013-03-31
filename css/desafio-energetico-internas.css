@@ -1,50 +1,41 @@
-/* Estilos para article que es shale */
-
-.desafio-energetico-internas .row .que-es-shale-detalle{
-	background: #77b8a2;
-	height: 428px;
-}
-
-
 /*
  * QUE ES SHALE
 */
 
 	/* Estilos para article que es shale */
 
-	.desafio-energetico-internas .row .que-es-shale-detalle{
+	.desafio-energetico-internas .que-es-shale .row .que-es-shale-detalle{
 		background: #77b8a2;
 		height: 428px;
 	}
 
-	.desafio-energetico-internas .row .que-es-shale-detalle .scrollCustom{
+	.desafio-energetico-internas .que-es-shale .row .que-es-shale-detalle .scrollCustom{
 		height: 300px;
 	}
 
 	/* Estilos para article shale en el mundo */
 
-	.desafio-energetico-internas .row .shale-en-el-mundo{
+	.desafio-energetico-internas .que-es-shale .row .shale-en-el-mundo{
 		background: #b78c17;
 		height: 548px;
 	}
 
-	.desafio-energetico-internas .row .shale-en-el-mundo .scrollCustom{
+	.desafio-energetico-internas .que-es-shale .row .shale-en-el-mundo .scrollCustom{
 		height: 458px;
 	}
 
+	/* Article Diferencias ambientales */
 
-	/* Diferencias ambientales */
-
-	.desafio-energetico-internas .row .diferencia-ambiental{
+	.desafio-energetico-internas .que-es-shale .row .diferencia-ambiental{
 		background: #2e775c;
 		height: 292px;
 	}
 
-	.desafio-energetico-internas .row .diferencia-ambiental .scrollCustom{
+	.desafio-energetico-internas .que-es-shale .row .diferencia-ambiental .scrollCustom{
 		height: 180px;
 	}
 
-	.desafio-energetico-internas .row .diferencia-ambiental h3{
+	.desafio-energetico-internas .que-es-shale .row .diferencia-ambiental h3{
 		font-size: 21px;
 		line-height: 25px;
 	}
@@ -56,41 +47,41 @@
 
 	/* Vaca muerta detalle */
 
-	.desafio-energetico-internas .row .vaca-muerta-detalle{
+	.desafio-energetico-internas .vaca-muerta .row .vaca-muerta-detalle{
 		background: #6c6a2c;
 		height: 432px;
 	}
 
-	.desafio-energetico-internas .row .vaca-muerta-detalle .scrollCustom{
+	.desafio-energetico-internas .vaca-muerta .row .vaca-muerta-detalle .scrollCustom{
 		height: 300px;
 	}
 
 
 	/* Bloque texto izquierdo */
 
-	.desafio-energetico-internas .row .txt1{
+	.desafio-energetico-internas .vaca-muerta .row .txt1{
 		background: #272727;
 		height: 220px;
 	}
 
-	.desafio-energetico-internas .row .txt1 .scrollCustom{
+	.desafio-energetico-internas .vaca-muerta .row .txt1 .scrollCustom{
 		height: 220px;
 	}
 
 	/* Bloque texto derecho */
 
-	.desafio-energetico-internas .row .txt2{
+	.desafio-energetico-internas .vaca-muerta .row .txt2{
 		background: url("./assets/textura-negra.jpg");
 		width: 757px;
 		height: 200px;
 		padding-top: 40px;
 	}
 
-	.desafio-energetico-internas .row .txt2 .scrollCustom{
+	.desafio-energetico-internas .vaca-muerta .row .txt2 .scrollCustom{
 		height: 200px;
 	}
 
-	.desafio-energetico-internas .row .txt2 p{
+	.desafio-energetico-internas .vaca-muerta .row .txt2 p{
 		font-family: "din-medium";
 		font-weight: normal;
 		font-size: 16px;
@@ -100,20 +91,149 @@
 		float: left;
 	}
 
-	.desafio-energetico-internas .row .txt2 p.last{
+	.desafio-energetico-internas .vaca-muerta .row .txt2 p.last{
 		margin-right: 0;
 	}
 
-	.desafio-energetico-internas .row .txt2 p span{
+	.desafio-energetico-internas .vaca-muerta .row .txt2 p span{
 		color: #1bb782;
 		font-size: 18px;
 	}
 
-	.desafio-energetico-internas .row .txt2 p span.big{
+	.desafio-energetico-internas .vaca-muerta .row .txt2 p span.big{
 		font-size: 30px;
 	}
 
+	/* SLider */
+	.desafio-energetico-internas .vaca-muerta .jcarousel-slider-interna{
+		height: 472px;
+		width: 797px;
+	}
+
+	.desafio-energetico-internas .vaca-muerta .jcarousel-slider-interna li{
+		width: 797px;
+	}
+
+	.desafio-energetico-internas .vaca-muerta .jcarousel-prev-horizontal,
+	.desafio-energetico-internas .vaca-muerta .jcarousel-next-horizontal{
+		top: 200px;
+	}
+
+/*
+ * RECURSOS NO CONVENIONALES
+*/
 
 
+	.desafio-energetico-internas .recursos-no-convencionales .row .intro{
+		background: #0d7b6a;
+		height: 432px;
+	}
 
+	.desafio-energetico-internas .recursos-no-convencionales .row .intro h3{
+		margin-top: 20px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .row .intro .scrollCustom{
+		height: 300px;
+	}
+
+
+	/* SLider */
+
+	.desafio-energetico-internas .recursos-no-convencionales .jcarousel-slider-interna{
+		height: 472px;
+		width: 797px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .jcarousel-slider-interna li{
+		width: 797px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .jcarousel-prev-horizontal,
+	.desafio-energetico-internas .recursos-no-convencionales .jcarousel-next-horizontal{
+		top: 200px;
+	}
+
+	/* Contenido relacionado */
+
+	.desafio-energetico-internas .recursos-no-convencionales .relacionados{
+		background: url("./assets/textura-negra2.jpg");
+		height: 365px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .relacionados h3{
+		margin-top: 30px;
+		margin-bottom: 50px;
+		font-size: 22px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .relacionados ul{
+		margin-left: 20px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .relacionados a{
+		font-size: 15px;
+		font-family: "din-medium";
+		font-weight: normal;
+		line-height: 40px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .relacionados a:hover{
+		text-decoration: underline;
+	}
+
+	/* Graficos */
+
+	.desafio-energetico-internas .recursos-no-convencionales .graficos{
+		width: 797px;
+		position: relative;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .graficos .menu{
+		position: absolute;
+		left: 0;
+		top: 17px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .graficos .menu dt{
+		width: 315px;
+		height: 38px;
+		background: url("./assets/desafio-energetico/recursos-no-convencionales/menu.png") no-repeat;
+		cursor: pointer;
+		font-family: "din-regular";
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 38px;
+		padding-left: 15px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .graficos .menu dt span{
+		font-family: "din-black";
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .graficos .menu dd{
+		background: #242d3d;
+		line-height: 35px;
+		height: 35px;
+		font-family: "din-medium";
+		font-weight: normal;
+		font-size: 15px;
+		margin-left: 50px;
+		padding: 0 20px;
+		cursor: pointer;
+		display: none;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .graficos .menu dd:hover,
+	.desafio-energetico-internas .recursos-no-convencionales .graficos .menu dd.active{
+		background: #464e5b;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .graficos .imgs img{
+		display: none;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .graficos .imgs img.active{
+		display: block;
+	}
 

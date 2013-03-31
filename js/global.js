@@ -108,7 +108,6 @@ var shale = shale || {};
 
 		}
 
-
 	/*
 	 * Bindeo para que funcione la navegacion animada
 	*/
@@ -136,18 +135,6 @@ var shale = shale || {};
 
 		// Instancio los scroll personalizado
 		shale.scrollCustom();
-
-
-		// Cuando se anima la pagina se lanza el evento personalizado "navegacion"
-		$(window).on("navegacion",function(){
-
-			shale.equalHeightListados();
-			shale.scrollCustom();
-
-			// Seteo el alto de la seccion que viene a la mascara. Esto es porque si una seccion es muy alta y otra muy baja, la mascara toma el alto de la mas alta..y el footer queda abajo...dejando mucho espacio vacio
-			$(".mascara").css("height",$(".contenido.active").height());
-
-		});
 
 
 	/*
@@ -206,5 +193,21 @@ var shale = shale || {};
 
 		});
 
+
+
+	/*
+	 * Cuando se anima la pagina se lanza el evento personalizado "navegacion"
+	*/
+
+		$(window).on("navegacion",function(){
+
+			// Instancio Scroll Personalizado
+			shale.equalHeightListados();
+			shale.scrollCustom();
+
+			// Seteo el alto de la seccion que viene a la mascara. Esto es porque si una seccion es muy alta y otra muy baja, la mascara toma el alto de la mas alta..y el footer queda abajo...dejando mucho espacio vacio
+			$(".mascara").css("height",$(".contenido.active").height());
+
+		});
 
 }());

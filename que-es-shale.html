@@ -173,7 +173,9 @@
 	    			"js/libs/jquery.jcarousel.js",
 	    			"js/libs/jwplayer.js"],function(){
 
-		    	scr.js("js/global.js");
+		    	scr.js("js/global.js",function(){
+		    		scr.js("js/internas.js")
+		    	});
 
 			});
 

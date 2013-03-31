@@ -67,3 +67,63 @@
 .internas .jspVerticalBar {
 	right: 0;
 }
+
+
+/* Sliders */
+
+.jcarousel-slider-interna.mask li{
+	float: left;
+}
+
+.jcarousel-slider-interna{
+    position: relative;
+}
+
+.jcarousel-slider-interna ul {
+    width: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jcarousel-slider-interna li {
+    float: left;
+	margin-right: 0;
+}
+
+.jcarousel-slider-interna .jcarousel-prev-horizontal,
+.jcarousel-slider-interna .jcarousel-next-horizontal{
+  	background: url("./assets/icons-carousel.png") no-repeat;
+  	position: absolute;
+  	z-index:100;
+  	cursor: pointer;
+}
+
+.jcarousel-slider-interna.grande .jcarousel-prev-horizontal,
+.jcarousel-slider-interna.grande .jcarousel-next-horizontal{
+  	width: 84px;
+	height: 54px;
+}
+
+.jcarousel-slider-interna.grande .jcarousel-prev-horizontal{
+	left: 0;
+	background-position: 0px -37px;
+}
+
+.jcarousel-slider-interna.grande .jcarousel-next-horizontal{
+	right: 0;
+	background-position: -84px -37px;
+}
+
+.jcarousel-slider-interna .jcarousel-prev-disabled,
+.jcarousel-slider-interna .jcarousel-next-disabled{
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	cursor: default;
+}
+
+.jcarousel-slider-interna .jcarousel-clip {
+    overflow: hidden;
+}
+
