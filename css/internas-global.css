@@ -128,3 +128,13 @@
     overflow: hidden;
 }
 
+
+/* icono Galeria */
+.icon.gallery{
+	width: 26px;
+	height: 20px;
+	background-position: 0px -102px;
+	position: absolute;
+	top: 19px;
+	right: 20px;
+}

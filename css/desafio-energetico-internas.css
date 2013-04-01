@@ -139,6 +139,9 @@
 
 
 	/* SLider */
+	.desafio-energetico-internas .recursos-no-convencionales .galeria{
+		position: relative;
+	}
 
 	.desafio-energetico-internas .recursos-no-convencionales .jcarousel-slider-interna{
 		height: 472px;
@@ -152,6 +155,30 @@
 	.desafio-energetico-internas .recursos-no-convencionales .jcarousel-prev-horizontal,
 	.desafio-energetico-internas .recursos-no-convencionales .jcarousel-next-horizontal{
 		top: 200px;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .galeria .bajada{
+		position: absolute;
+		z-index: 10;
+		background: rgba(0,0,0,0.7);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000)";
+		padding: 20px;
+		font-size: 15px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .galeria .bajada p{
+		font-size: 14px;
+		padding-left: 10px;
+		border-left: 1px solid #fff;
+	}
+
+	.desafio-energetico-internas .recursos-no-convencionales .galeria .bajada p span{
+		font-family: "din-black";
+		font-weight: normal;
 	}
 
 	/* Contenido relacionado */
@@ -258,6 +285,10 @@
 
 	/* SLider */
 
+	.desafio-energetico-internas .recursos-convencionales .galeria{
+		position: relative;
+	}
+
 	.desafio-energetico-internas .recursos-convencionales .jcarousel-slider-interna{
 		height: 472px;
 		width: 797px;
@@ -272,6 +303,29 @@
 		top: 200px;
 	}
 
+	.desafio-energetico-internas .recursos-convencionales .galeria .bajada{
+		position: absolute;
+		z-index: 10;
+		background: rgba(0,0,0,0.7);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000)";
+		padding: 20px;
+		font-size: 15px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.desafio-energetico-internas .recursos-convencionales .galeria .bajada p{
+		font-size: 14px;
+		padding-left: 10px;
+		border-left: 1px solid #fff;
+	}
+
+	.desafio-energetico-internas .recursos-convencionales .galeria .bajada p span{
+		font-family: "din-black";
+		font-weight: normal;
+	}
 
 	/* Produccion Diaria */
 
