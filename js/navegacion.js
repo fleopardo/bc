@@ -49,6 +49,10 @@ shale.navegacion = (function(window){
 
 					window.history.pushState({'page_id':page_id}, page_id, src);
 
+				}else{
+
+					window.location.hash = "#!"+page_id;
+
 				}
 
 				$(".contenido").removeClass("active");
@@ -118,6 +122,10 @@ shale.navegacion = (function(window){
 			if(window.history.pushState){
 
 				window.history.pushState({'page_id':page_id}, page_id, src);
+
+			}else{
+
+				window.location.hash = "#!"+page_id;
 
 			}
 
