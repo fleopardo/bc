@@ -131,6 +131,10 @@ input.placeholder{ color: #373737; }
 	display: block;
 }
 
+.contenido .tit-uppercase:hover{
+	text-decoration: underline;
+}
+
 #loading{
 	position: fixed;
 	top: 0;

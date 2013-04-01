@@ -194,7 +194,20 @@ var shale = shale || {};
 
 		});
 
+	/*
+	 * Recursos no convencionales location
+	*/
+		//El problema es que no podemos tener un <a> dentro de otro <a>. Por eso vamos a redirigir el link por JS, al menos por ahora
+		$(".falso-link").live(shale.event.TAP,function(event){
+			event.stopPropagation();
+			event.preventDefault();
 
+			var src = $(this).data("href");
+
+			if( src ){
+				document.location.href = src;
+			}
+		})
 
 	/*
 	 * Cuando se anima la pagina se lanza el evento personalizado "navegacion"
