@@ -24,6 +24,10 @@
 	padding: 20px;
 }
 
+.contenido .row{
+	clear: both;
+}
+
 /*
  * Home nuevas fronteras
 */
@@ -396,7 +400,7 @@
 	.ie7 .desafio-energetico .recursos-convencionales,
 	.ie7 .desafio-energetico .argentina-un-pais-con-futuro,
 	.ie7 .desafio-energetico .que-es-shale{
-		width: 220px;
+		width: 232px;
 	}
 
 

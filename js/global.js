@@ -142,7 +142,7 @@ var shale = shale || {};
 	*/
 
 		// Todos los links con class video abren videos en modal
-		$(".video").on(shale.event.TAP, function(event){
+		$(".video").live(shale.event.TAP, function(event){
 
 			event.preventDefault();
 			event.stopPropagation();
@@ -163,29 +163,30 @@ var shale = shale || {};
 
   					$("body").append("<div class='overlayVideo'></div>");
 
-  					// Llamo el script que inicializa los videos y carousel
-					$.getScript("./js/videos.js");
+  					// Muestro finalmente el contenedor
+					$("#container-video").fadeIn("fast",function(){
+						// Llamo el script que inicializa los videos y carousel
+						$.getScript("./js/videos.js");
 
-					// Muestro finalmente el contenedor
-					$("#container-video").fadeIn();
+						// Bindeo el evento para cerrar el modal
+						$(".overlayVideo,#container-video .volver").one(shale.event.TAP, function(event){
+							event.preventDefault();
+							event.stopPropagation();
+
+							$(".overlayVideo").fadeOut("fast",function(){
+								$(this).remove();
+							});
+
+							$("#container-video").fadeOut("fast",function(){
+								$(this).remove();
+							});
+
+	  					});
+
+					});
 
 					// Muevo el scroll hasta arriba para ver el modal desde el principio
 					$.scrollTo(0);
-
-					// Bindeo el evento para cerrar el modal
-					$(".overlayVideo,#container-video .volver").one(shale.event.TAP, function(event){
-						event.preventDefault();
-						event.stopPropagation();
-
-						$(".overlayVideo").fadeOut("fast",function(){
-							$(this).remove();
-						});
-
-						$("#container-video").fadeOut("fast",function(){
-							$(this).remove();
-						});
-
-  					});
 
 				}
 

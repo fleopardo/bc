@@ -489,6 +489,7 @@ footer .social li a{
 	text-transform: uppercase;
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: lighter;
+	margin-bottom: 1px;
 }
 
 .videos .list .volver{
@@ -570,6 +571,7 @@ footer .social li a{
 .videos .jcarousel-playlist li {
     float: left;
     width: 252px;
+    height: 140px;
 	margin-right: 22px;
 	cursor: pointer;
 }
