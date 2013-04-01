@@ -4,22 +4,9 @@
 .headerYPF div,.headerYPF span,.headerYPF h1,.headerYPF h2,.headerYPF h3,.headerYPF h4,.headerYPF p,.headerYPF img,.headerYPF strong,.headerYPF b,.headerYPF i,.headerYPF dl,.headerYPF dt,.headerYPF dd,.headerYPF ul,.headerYPF li,.headerYPF fieldset,.headerYPF form,.headerYPF label,.headerYPF legend,.headerYPF .headerYPF,.headerYPF .nav{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-weight: normal;} .headerYPF,.headerYPF .nav{display:block} .headerYPF .nav ul{list-style:none} .headerYPF a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
 .headerYPF input,.headerYPF select{vertical-align:middle;resize:none;outline:0} .headerYPF li{list-style:none} .headerYPF strong{font-weight:bold}
 
-/*
- * Clearfix
-*/
-.clearfix {
-  *zoom: 1;
-}
-
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  content: "";
-}
-
-.clearfix:after {
-  clear: both;
-}
+.headerYPF .clearfix{ *zoom: 1; }
+.headerYPF .clearfix:before,.headerYPF .clearfix:after { display: table; content: ""; }
+.headerYPF .clearfix:after{ clear: both; }
 
 /*
  * Fonts
@@ -27,20 +14,20 @@
 
 	@font-face {
 		font-family: "din-medium";
-		src: url("../fonts/din-medium.eot");
+		src: url("../header-fonts/din-medium.eot");
 		src: local("?"),
-		url("../fonts/din-medium.svg#blaimim_-webfont") format("svg"),
-		url("../fonts/din-medium.woff") format("woff"),
-		url("../fonts/din-medium.ttf") format("truetype");
+		url("../header-fonts/din-medium.svg#blaimim_-webfont") format("svg"),
+		url("../header-fonts/din-medium.woff") format("woff"),
+		url("../header-fonts/din-medium.ttf") format("truetype");
 	}
 
 	@font-face {
 		font-family: "din-black";
-		src: url("../fonts/din-black.eot");
+		src: url("../header-fonts/din-black.eot");
 		src: local("?"),
-		url("../fonts/din-black.svg#blaimim_-webfont") format("svg"),
-		url("../fonts/din-black.woff") format("woff"),
-		url("../fonts/din-black.ttf") format("truetype");
+		url("../header-fonts/din-black.svg#blaimim_-webfont") format("svg"),
+		url("../header-fonts/din-black.woff") format("woff"),
+		url("../header-fonts/din-black.ttf") format("truetype");
 	}
 
 
@@ -512,6 +499,116 @@
 		}
 
 
+		/* Submenu Login */
+
+		.headerYPF .login .submenu{
+			width: 360px;
+			height: 190px;
+			right: 0;
+			display: block;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-bottom: 15px;
+			margin-top: -3px;
+		}
+
+		.headerYPF .login .submenu .cont{
+			padding: 0 10px 10px 10px;
+		}
+
+		.headerYPF .login .submenu .header,
+		.headerYPF .login .submenu .fields{
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 10px;
+		}
+
+		.headerYPF .login .submenu .header{
+			overflow: hidden;
+		}
+
+			.headerYPF .login .submenu .header h3{
+				float: left;
+			}
+
+			.headerYPF .login .submenu .header a{
+				text-transform: none;
+				width: auto !important;
+				height: auto !important;
+				line-height: 16px;
+				border: none;
+				text-decoration: underline;
+				float: right;
+				display: inline;
+			}
+
+
+		.headerYPF .login .submenu .fields{
+			margin-top: 18px;
+		}
+
+			.headerYPF .login .submenu .fields p{
+				margin-bottom: 10px;
+			}
+
+			.headerYPF .login .submenu .fields label{
+				width: 75px;
+				display: inline-block;
+				margin-right: 5px;
+			}
+
+			.ie7 .headerYPF .login .submenu .fields label{
+				display: inline;
+				zoom: 1;
+			}
+
+			.headerYPF .login .submenu .fields input{
+				border: 1px solid #dbdbdb;
+				width: 235px;
+				height: 10px;
+				padding: 10px;
+				color: #666;
+				-moz-box-shadow: inset 0px 0px 5px #ccc;
+				-webkit-box-shadow: inset 0px 0px 5px #ccc;
+				box-shadow: inset 0px 0px 5px #ccc;
+				background: #fff;
+				font-size: 12px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+		.headerYPF .login .submenu .action{
+			overflow: hidden;
+			margin-top: 15px;
+		}
+
+			.headerYPF .login .submenu .action a{
+				text-transform: none;
+				width: auto !important;
+				height: auto !important;
+				line-height: 28px;
+				border: none;
+				text-decoration: none;
+				color: #666666;
+				display: inline;
+				float: left;
+			}
+
+			.headerYPF .login .submenu .action input[type="submit"]{
+				border: 1px solid #dbdbdb;
+				background: #f0f0f0;
+				background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(240,240,240,1)));
+				background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+				background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+				background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+				background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+				height: 28px;
+				margin: 0 0 0 30px;
+				padding: 0 20px;
+				text-transform: uppercase;
+				color: #999;
+				cursor: pointer;
+				float: right;
+			}
 /*****************************/
 
 /*
