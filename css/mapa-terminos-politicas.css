@@ -22,6 +22,10 @@ body{
 	font: 18px/21px 'neutra2displaymedium';
 }
 
+
+
+/* Mapa */
+
 .mapa .info-container li > ul{
 	margin-left: 30px;
 }
@@ -29,3 +33,42 @@ body{
 .mapa .info-container li{
 	margin-bottom: 5px;
 }
+
+.mapa .info-container  > ul > li > ul > li{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/* Terminos de uso y Politicas de privacidad */
+
+.terminos-y-politicas .info-container p{
+	font: 11px/15px tahoma, arial, helvetica, sans-serif;
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
