@@ -1,0 +1,91 @@
+body{
+	background-image: url("./assets/bg-legales.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #272728;
+}
+
+.contentPage.principal .info-container{
+	background-color: #ebebeb;
+	padding:30px 20px;
+	max-width: 984px;
+}
+
+.contentPage.principal h2{
+	font-family: "neutraface2displaybold";
+	font-size: 22px;
+	line-height: 38px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #000;
+	padding: 0 15px;
+	margin: 0 0 40px;
+}
+
+
+.info-container p{
+	color: #fff;
+	font: 18px/21px 'neutra2displaymedium';
+}
+
+.articles{
+	margin: 0 auto;
+}
+
+.articles article{
+	float: left;
+	width: 30%;
+	margin: 0 1%;
+}
+
+.articles img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**** Transitions ***
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+
+
+
+
+
+
+
+*/
