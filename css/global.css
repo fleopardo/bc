@@ -171,6 +171,10 @@ input.placeholder{ color: #373737; }
 	width: 33.33%;
 }
 
+.ie7 .header nav > ul > li{
+	width: 33.3%;
+}
+
 .header nav li.last{
 	margin-right: 0!important;
 }
