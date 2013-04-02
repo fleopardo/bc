@@ -26,7 +26,7 @@
             },
             isAnimated: true,
             animationOptions: {
-				duration: 200,
+				duration: 300,
 				queue: false
 			}
         });
