@@ -51,13 +51,13 @@ body{
 
 .articles article h3{
 	padding: 0 1.5%;
+	margin-bottom: 3px;
 }
 
 .articles article h3 a{
 	font: 18px/24px 'neutraface2displaybold';
 	color: #000;
 	text-transform: uppercase;
-	margin-bottom: 10px;
 	font-weight: normal;
 }
 
