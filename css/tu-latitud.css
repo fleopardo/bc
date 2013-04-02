@@ -20,12 +20,7 @@ body{
 	background: #000;
 	padding: 0 15px;
 	margin: 0 0 40px;
-}
-
-
-.info-container p{
-	color: #fff;
-	font: 18px/21px 'neutra2displaymedium';
+	font-weight: normal;
 }
 
 .articles{
@@ -36,24 +31,79 @@ body{
 	float: left;
 	width: 30%;
 	margin: 0 1%;
+	background-color: #fff;
+	margin-bottom: 25px;
+	border-right: 2px solid #dedede;
+	border-bottom: 2px solid #dedede;
 }
 
-.articles img{
+.articles .img-video-container img{
 	width: 100%;
 	height: auto;
+	float: left;
+}
+
+.img-video-container{
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.articles article h3{
+	padding: 0 1.5%;
+}
+
+.articles article h3 a{
+	font: 18px/24px 'neutraface2displaybold';
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+
+.articles article h3 span{
+	font-size: 22px;
+}
+
+.share-container{
+	border-top: 1px solid #666;
+	padding: 10px 1.5% ;
+}
+
+.over-article{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0,0,0,0.9);
+	display: none;
+	z-index: 10;
+	padding: 10px 1.5%;
+	cursor: pointer;
+}
+
+.over-article p{
+	color: #fff;
+	font: 21px/25px 'neutra2displaymedium';
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+.over-article a.leer-mas{
+	color: #fff;
+	font: 11px/23px 'neutraface2displaybold';
+	text-transform: uppercase;
+	font-weight: normal;
+	display: inline-block;
+	padding-left: 12px;
+	background: url(./assets/tu-latitud/ic-leer-mas.png) left center no-repeat;
 }
 
 
 
-
-
-
-
-
-
-
-
-/**** Transitions ***
+/**** Transitions ****/
 
 .masonry,
 .masonry .masonry-brick {
@@ -79,13 +129,3 @@ body{
        -o-transition-property: left, right, top;
           transition-property: left, right, top;
 }
-
-
-
-
-
-
-
-
-
-*/

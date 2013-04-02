@@ -16,7 +16,7 @@
 	  isAnimated: false
 	});*/
 
-var container = $('#articles');
+	var container = $('#articles');
 
     container.imagesLoaded(function(){  
         container.masonry({
@@ -26,6 +26,20 @@ var container = $('#articles');
             },
             isAnimated: true
         });
+    });
+
+
+
+    $('.img-video-container').each(function(){
+    	$(this).mouseenter(function(){
+	    	$(this).find('.over-article').stop(true,true).fadeIn();
+	    });
+    });
+
+    $('.img-video-container').each(function(){
+    	$(this).mouseleave(function(){
+	    	$(this).find('.over-article').stop(true,true).fadeOut();
+	    });
     });
 
 })(window);
