@@ -24,9 +24,15 @@
            columnWidth: function( containerWidth ) {
               return containerWidth /3; // depends how many boxes per row
             },
-            isAnimated: true
+            isAnimated: true,
+            animationOptions: {
+				duration: 200,
+				queue: false
+			}
         });
     });
+
+    
 
 
 
