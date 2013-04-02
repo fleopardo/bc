@@ -1,0 +1,253 @@
+/*
+ * OPID
+*/
+
+	/* Intro */
+
+	.nuevas-fronteras-internas .opid .row .intro{
+		background: #2b7b82;
+		height: 428px;
+	}
+
+	.nuevas-fronteras-internas .opid .row .intro h3{
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+
+	.nuevas-fronteras-internas .opid .row .intro h4{
+		font-size: 18px;
+		margin-bottom: 18px;
+		font-family: "din-light";
+	}
+
+	.nuevas-fronteras-internas .opid .row .intro .scrollCustom{
+		height: 300px;
+	}
+
+	/* SLider */
+
+	.nuevas-fronteras-internas .opid .row .jcarousel-slider-interna{
+		height: 472px;
+		width: 797px;
+	}
+
+	.nuevas-fronteras-internas .opid .row .jcarousel-slider-interna li{
+		width: 797px;
+		height: 472px;
+	}
+
+	.nuevas-fronteras-internas .opid .row .jcarousel-prev-horizontal,
+	.nuevas-fronteras-internas .opid .row .jcarousel-next-horizontal{
+		top: 200px;
+	}
+
+
+
+
+/*
+ * PLAN EXPLORATORIO
+*/
+
+	/* Intro */
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .intro{
+		background: #66354b;
+		height: 433px;
+	}
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .intro h3{
+		margin-top: 20px;
+	}
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .intro .scrollCustom{
+		height: 300px;
+	}
+
+	/* SLider */
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .jcarousel-slider-interna{
+		height: 472px;
+		width: 797px;
+	}
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .jcarousel-slider-interna li{
+		width: 797px;
+		height: 472px;
+	}
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .jcarousel-prev-horizontal,
+	.nuevas-fronteras-internas .plan-exploratorio .row .jcarousel-next-horizontal{
+		top: 200px;
+	}
+
+
+	/* Bloques de texto de abajo */
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .txt{
+		height: 296px;
+	}
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .txt .scrollCustom{
+		height: 160px;
+	}
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .txt h3{
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .txt p{
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+	/* Bloque texto 1 */
+	.nuevas-fronteras-internas .plan-exploratorio .row .txt1{
+		background: #333 url("./assets/textura-negra3.jpg");
+	}
+
+	/* Bloque texto 2 */
+
+	.nuevas-fronteras-internas .plan-exploratorio .row .txt2{
+		background: #2d153f;
+	}
+
+
+	/* Bloque texto 3 */
+	.nuevas-fronteras-internas .plan-exploratorio .row .txt3{
+		background: #964e61;
+	}
+
+
+/* VISION EXPLORATORIA */
+
+	/* Intro */
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .intro{
+		background: #791b54;
+		height: 433px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .intro h3{
+		margin-top: 20px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .intro .scrollCustom{
+		height: 300px;
+	}
+
+	/* SLider */
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .jcarousel-slider-interna{
+		height: 472px;
+		width: 797px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .jcarousel-slider-interna li{
+		width: 797px;
+		height: 472px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .jcarousel-prev-horizontal,
+	.nuevas-fronteras-internas .vision-exploratoria .row .jcarousel-next-horizontal{
+		top: 200px;
+	}
+
+	/* Bloques de texto de abajo */
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .col-izq{
+		width: 796px;
+		overflow: hidden;
+		margin-right: 10px;
+		float: left;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .col-der{
+		float: left;
+		width: 394px;
+		overflow: hidden;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt{
+		margin-bottom: 10px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt h3{
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt p{
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+
+	/* Bloque 1 & Bloque 2*/
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt2{
+		height: 300px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .scrollCustom,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .scrollCustom{
+		height: 190px;
+	}
+
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1{
+		background: #360f43;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt2{
+		background: #333 url("./assets/nuevas-fronteras/bg-internacional.jpg") no-repeat;
+	}
+
+
+	/* Bloque 3 & Bloque 4 */
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt3,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4{
+		height: 465px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt3 .scrollCustom{
+		height: 140px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .scrollCustom{
+		height: 320px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt3{
+		background: #333 url("./assets/textura-negra3.jpg");
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt3 img{
+		position: absolute;
+		bottom: 0;
+		left: 77px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4{
+		background: #bc7eb0;
+	}
+
+
+	/* Bloque 5 */
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt5{
+		background: #653d7c;
+		height: 815px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt5 .scrollCustom{
+		height: 200px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt5 img{
+		position: absolute;
+		bottom: 10px;
+		right: 6px;
+	}

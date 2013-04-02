@@ -69,7 +69,7 @@ var shale = shale || {};
 
 				$scrollCustom.jScrollPane({
 					verticalDragMaxHeight : 400,
-					verticalDragMinHeight : 200,
+					verticalDragMinHeight : 100,
 					setWheelScrollingEnabled : true
 				}).addClass("init");
 
