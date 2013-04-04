@@ -1,0 +1,146 @@
+/*
+ * Nuestra energia interna
+*/
+
+	/* Intro */
+
+	.nuestra-energia-internas .nuestra-energia-int .row .intro{
+		background: #a55808;
+		height: 433px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .intro h3{
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .intro h4{
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+
+
+	/* SLider */
+
+	.nuestra-energia-internas .nuestra-energia-int .row .jcarousel-slider-interna.galeria{
+		height: 472px;
+		width: 797px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row.jcarousel-slider-interna.galeria li{
+		width: 797px;
+		height: 472px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .jcarousel-slider-interna.galeria .jcarousel-prev-horizontal,
+	.nuestra-energia-internas .nuestra-energia-int .row .jcarousel-slider-interna.galeria .jcarousel-next-horizontal{
+		top: 200px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .jcarousel-slider-interna.galeria .bajada{
+		position: absolute;
+		z-index: 10;
+		background: rgba(0,0,0,0.7);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000)";
+		padding: 20px;
+		font-size: 15px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .jcarousel-slider-interna.galeria .bajada p{
+		font-size: 14px;
+		padding-left: 10px;
+		border-left: 1px solid #fff;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .jcarousel-slider-interna.galeria .bajada p span{
+		font-family: "din-black";
+		font-weight: normal;
+	}
+
+	/* Bloques de texto de abajo */
+
+	.nuestra-energia-internas .nuestra-energia-int .row .txt{
+		height: 428px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .txt .scrollCustom{
+		height: 320px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .txt h3{
+		font-size: 24px;
+		line-height: 26px;
+		margin-bottom: 30px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .txt p{
+		font-size: 13px;
+		line-height: 18px;
+	}
+
+
+	/* Bloque Comentarios */
+
+	.nuestra-energia-internas .nuestra-energia-int .row .comentarios{
+		background: #c28d19 url("./assets/textura-naranja.jpg");
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .comentarios .mailto{
+		color: #371b13;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .comentarios .jcarousel-slider-interna{
+		width: auto;
+		height: auto;
+		margin-top: 25px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .comentarios .jcarousel-slider-interna.mask{
+		overflow: hidden;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .comentarios .jcarousel-slider-interna li{
+		height: 309px;
+		width: 352px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .comentarios .jcarousel-prev-horizontal,
+	.nuestra-energia-internas .nuestra-energia-int .row .comentarios .jcarousel-next-horizontal{
+		bottom: -21px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .comentarios .jcarousel-slider-interna li span.fecha{
+		color: #371b13;
+		text-transform: uppercase;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .comentarios .jcarousel-slider-interna li span.nombre{
+		text-transform: uppercase;
+	}
+
+
+
+
+	/* Bloque Historias */
+
+	.nuestra-energia-internas .nuestra-energia-int .row .historias{
+		background: #7e2209;
+		width: 757px;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .historias h4,
+	.nuestra-energia-internas .nuestra-energia-int .row .historias h5{
+		text-transform: uppercase;
+		margin-bottom: 4px;
+		font-weight: normal;
+	}
+
+	.nuestra-energia-internas .nuestra-energia-int .row .historias h5{
+		margin-bottom: 15px;
+	}
+
+

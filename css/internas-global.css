@@ -117,6 +117,22 @@
 	background-position: -84px -37px;
 }
 
+.jcarousel-slider-interna.chica .jcarousel-prev-horizontal,
+.jcarousel-slider-interna.chica .jcarousel-next-horizontal{
+  	width: 31px;
+	height: 39px;
+}
+
+.jcarousel-slider-interna.chica .jcarousel-prev-horizontal{
+	right: 10px;
+	background-position: 0px -98px;
+}
+
+.jcarousel-slider-interna.chica .jcarousel-next-horizontal{
+	right: -21px;
+	background-position: -32px -98px;
+}
+
 .jcarousel-slider-interna .jcarousel-prev-disabled,
 .jcarousel-slider-interna .jcarousel-next-disabled{
 	opacity: 0.2;
