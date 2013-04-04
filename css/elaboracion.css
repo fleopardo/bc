@@ -96,7 +96,7 @@ color: #000;
 }
 
 .vinos-container li{
-	width: 10.44%;
+	width: 10.37%;
 	float: left;
 	margin-right: 0.75%;
 	padding-top: 33px;
@@ -124,12 +124,13 @@ color: #000;
 	border-bottom: 7px solid #afafaf;
 	width: 100%;
 	height: auto;
+	border: none;
 }
 
 .vinos-container li > p{
 	display: none;
 	position: absolute;
-	top: 221px;
+	top: 31px;
 	left: 0;
 	right: 0;
 	background: #000;
