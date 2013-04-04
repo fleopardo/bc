@@ -49,6 +49,11 @@ body{
 	font-size: 18px;
 }
 
+.contentPage .contenedor p strong{
+	font-family: 'neutraface2displaybold';
+	font-weight: normal;
+}
+
 .contentPage .contenedor .left-col {
 	float: left;
 	width: 40%;
