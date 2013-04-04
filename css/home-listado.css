@@ -23,12 +23,6 @@
 	zoom: 1;
 }
 
-.listado-container .left-col{
-	width: 770px;
-	float: left;
-	background: #f1f1f1;
-}
-
 .listado-container .right-col{
 	width: 430px;
 	float: right;
@@ -39,7 +33,7 @@
 .listado-container .left-col{
 	width: 770px;
 	float: left;
-	background: #f1f1f1;
+	background: #f1f1f1 url("./assets/textura-gris.jpg");
 }
 
 .listado-container .left-col h2{
