@@ -219,6 +219,12 @@ input.placeholder{ color: #373737; }
 	bottom: 0;
 }
 
+.preheader .flechas .disabled{
+	cursor: default;
+	opacity: 0.2;
+	filter: alpha(opacity=30);
+}
+
 .preheader .flechas .anterior{
 	left: 0;
 	border-right: 2px ridge #444;
