@@ -129,6 +129,8 @@ input.placeholder{ color: #373737; }
 	opacity: 0.8;
 	margin-bottom: 30px;
 	display: block;
+	font-family: "din-black";
+	font-weight: normal;
 }
 
 .contenido .falso-link:hover{
