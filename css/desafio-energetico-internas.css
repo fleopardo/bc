@@ -1,4 +1,67 @@
 /*
+ * DESAFIO ENERGETICO DETALLE
+*/
+
+	/* INTRO */
+
+	.desafio-energetico-internas .desafio-energetico-detalle .row .intro{
+		background: #0d7b6a;
+		height: 432px;
+	}
+
+	.desafio-energetico-internas .desafio-energetico-detalle .row .intro .scrollCustom{
+		height: 300px;
+	}
+
+	/* Argentina un pais con futuro */
+
+	.desafio-energetico-internas .desafio-energetico-detalle .row .argentina{
+		background: #6d8711;
+		height: 432px;
+	}
+
+	.desafio-energetico-internas .desafio-energetico-detalle .row .argentina h3{
+		margin-top: 40px;
+		margin-bottom: 20px;
+		font-size: 22px;
+		line-height: 26px;
+	}
+
+	/* Slider */
+
+	/* SLider */
+	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-slider-interna{
+		height: 472px;
+		width: 797px;
+		background: url("./assets/textura-negra2.jpg");
+	}
+
+	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-slider-interna li{
+		width: 797px;
+		height: 472px;
+	}
+
+	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-slider-interna li .content{
+		padding: 30px;
+	}
+
+	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-slider-interna li .content p{
+		font-size: 15px;
+		font-family: "din-black";
+		font-weight: normal;
+		line-height: 20px;
+	}
+
+	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-prev-horizontal,
+	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-next-horizontal{
+		top: 200px;
+	}
+
+
+
+
+
+/*
  * QUE ES SHALE
 */
 
