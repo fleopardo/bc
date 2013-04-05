@@ -48,4 +48,7 @@
 	    });
     });
 
+
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+
 })(window);
