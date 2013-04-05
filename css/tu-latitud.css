@@ -130,3 +130,72 @@ body{
        -o-transition-property: left, right, top;
           transition-property: left, right, top;
 }
+
+
+
+
+
+/*NOTAS*/
+
+.nota .info-container{
+	overflow: hidden;
+}
+
+.nota .left-col{
+	float: left;
+}
+
+.nota .right-col{
+	float: right;
+	width: 48%;
+}
+
+.nota .img-cont{
+	width: 50%;
+}
+
+.nota .img-cont img{
+	width: 100%;
+	height: auto;
+}
+
+.nota .info-container h3{
+	font-family: 'neutraface2displaybold';
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 30px;
+	color: #000;
+	text-transform: uppercase;
+	border-bottom: 1px solid #b2b2b2;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+.nota .info-container h3 span{
+	font-size: 32px;
+}
+
+.nota span.date{
+	color: #000;
+	font: 12px/16px tahoma, arial, helvetica,sans-serif;
+	display: block;
+}
+
+.nota .info-container p{
+	color: #000;
+	margin-bottom: 15px;
+	font: 12px/16px tahoma, arial, helvetica,sans-serif;
+}
+
+ul.ver-mas li {
+	margin-bottom: 3px;
+}
+
+ul.ver-mas li a{
+	background: url('./assets/tu-latitud/ic-nota-ver-mas.jpg') left no-repeat;
+	display: block;
+	color: #004eff;
+	font: 12px/16px tahoma, arial, helvetica,sans-serif;
+	padding-left: 20px;
+	text-decoration: underline;
+}
