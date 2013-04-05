@@ -392,6 +392,8 @@ footer .links li{
 
 footer .links li.last{
 	border: none;
+	margin-right: 0;
+	padding-right: 0;
 }
 
 footer .links a{
@@ -404,7 +406,7 @@ footer .links a:hover{
 }
 
 footer .social{
-	margin-left: 60px;
+	margin-left: 18px;
 }
 
 footer .social li a{
