@@ -1,7 +1,10 @@
+
+
 body{
 	background-image: url("./assets/bg-teaser.jpg");
 	background-position: top center;
 	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 .prehome.contenedor{
