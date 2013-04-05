@@ -20,6 +20,7 @@ body{
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	color: #000;
+	font-weight: normal;
 }
 
 .contentPage .contenedor h3,
@@ -28,6 +29,7 @@ body{
 	font-size: 18px;
 	line-height: 22px;
 	color: #000;
+	font-weight: normal;
 }
 
 .contentPage .contenedor h3{
@@ -47,6 +49,7 @@ body{
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
+	font-weight: normal;
 }
 
 .contentPage .contenedor p strong{
