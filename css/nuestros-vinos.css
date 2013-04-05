@@ -9,6 +9,7 @@ body{
 	font-family: "neutra2displaymedium";
 	font-size: 18px;
 	background-repeat: no-repeat;
+	font-weight: normal;
 }
 
 .contentPage > section h2{
@@ -16,11 +17,13 @@ body{
 	font-size: 40px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+	font-weight: normal;
 }
 
 .contentPage > section h2 span{
 	font-family: "neutra2displaymedium";
 	font-size: 51px;
+	font-weight: normal;
 }
 
 .contentPage > section > .contenedor{
@@ -70,6 +73,7 @@ body{
 	background: #000;
 	height: 14px;
 	padding: 5px 5px 5px 10px;
+	font-weight: normal;
 }
 
 .scroll-nav li a span:after{
@@ -340,6 +344,7 @@ section.el-vino .bloqueBlanco{
 	font-family: "neutraface2displaybold";
 	padding: 13px 3px;
 	display: block;
+	font-weight: normal;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -396,6 +401,7 @@ section.el-vino .bloqueBlanco{
 	font: 56px/58px "neutra2displaylight";
 	text-transform: uppercase;
 	color: #000;
+	font-weight: normal;
 }
 
 .nuestros-vinos-interna .left-col,
@@ -417,6 +423,7 @@ section.el-vino .bloqueBlanco{
 .nuestros-vinos-interna h4{
 	font-family: "neutraface2displaybold";
 	text-transform: uppercase;
+	font-weight: normal;
 }
 
 .nuestros-vinos-interna h3{
@@ -441,6 +448,7 @@ section.el-vino .bloqueBlanco{
 
 .nuestros-vinos-interna p{
 	font-family: "neutra2displaymedium";
+	font-weight: normal;
 }
 
 .nuestros-vinos-interna .description{

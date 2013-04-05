@@ -13,6 +13,7 @@ body{
 	text-transform: uppercase;
 	margin: 50px 0 30px;
 	border-bottom:1px solid #ccc;
+	font-weight: normal;
 }
 
 .info-container li,
@@ -20,6 +21,7 @@ body{
 .info-container p{
 	color: #fff;
 	font: 18px/21px 'neutra2displaymedium';
+	font-weight: normal;
 }
 
 
@@ -48,27 +50,3 @@ body{
 	font: 11px/15px tahoma, arial, helvetica, sans-serif;
 	margin-bottom: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -25,6 +25,7 @@ body{
 	text-transform: uppercase;
 	margin-bottom: 20px;
 	color: #000;
+	font-weight: normal;
 }
 
 .contentPage .contenedor h3,
@@ -33,6 +34,7 @@ body{
 	font-size: 18px;
 	line-height: 22px;
 	color: #000;
+	font-weight: normal;
 }
 
 .contentPage .contenedor h3{
@@ -47,6 +49,7 @@ body{
 .contentPage .contenedor p,
 .contentPage .contenedor dd{
 	font-family: 'neutra2displaymedium';
+	font-weight: normal;
 	color: #000;
 	font-size: 18px;
 }
@@ -69,6 +72,7 @@ body{
 .contentPage .contenedor .left-col .filter-container h4{
 	color: #000;
 	font: 22px/25px 'neutraface2displaybold';
+	font-weight: normal;
 	text-transform: uppercase;
 	background: url('./assets/recetas/fd-title-lupa.png') left top no-repeat;
 	text-indent: 25px;
@@ -80,6 +84,7 @@ body{
 .contentPage .contenedor .left-col .filter-container h4 span{
 	color: #a53228;
 	font-family: 'neutra2displaymedium';
+	font-weight: normal;
 }
 
 .contentPage .contenedor .left-col .filter-container h4.cordero span{
@@ -179,6 +184,7 @@ body{
 
 .contentPage .contenedor .right-col .description h3{
 	font: 45px/47px 'neutra2displaylight';
+	font-weight: normal;
 	color: #000;
 	margin-top: 90px;
 	margin-bottom: 50px;
@@ -186,6 +192,7 @@ body{
 
 .contentPage .contenedor .right-col .description h4{
 	font: 24px/27px 'neutraface2displaybold';
+	font-weight: normal;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
@@ -199,6 +206,7 @@ body{
 
 .contentPage .contenedor .right-col h6 a{
 	font: 22px/25px 'neutra2displaymedium';
+	font-weight: normal;
 }
 
 .contentPage .contenedor .right-col .recetas-cont{
@@ -301,4 +309,3 @@ body{
 .contentPage .contenedor .right-col .oliva .recetas-cont > a{
 	background-position: 0 -48px;
 }
-

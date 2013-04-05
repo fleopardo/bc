@@ -18,12 +18,13 @@ body{
 }
 
 .contentPage .contenedor h2 {
-font-family: "neutra2displaylight";
-font-size: 40px;
-line-height: 44px;
-text-transform: uppercase;
-margin-bottom: 20px;
-color: #000;
+	font-family: "neutra2displaylight";
+	font-size: 40px;
+	line-height: 44px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+	font-weight: normal;
 }
 
 .contentPage .contenedor p {
@@ -31,6 +32,7 @@ color: #000;
 	color: #000;
 	font-size: 18px;
 	line-height: 22px;
+	font-weight: normal;
 }
 
 .contentPage .contenedor p strong{
@@ -51,6 +53,7 @@ color: #000;
 	text-transform: uppercase;
 	line-height: 22px;
 	margin-bottom: 20px;
+	font-weight: normal;
 }
 
 
@@ -76,6 +79,7 @@ color: #000;
 	background: url('./assets/elaboracion/bg-filters.png') top right no-repeat;
 	padding-right: 36px;
 	display: inline-block;
+	font-weight: normal;
 }
 
 .filter-container li a span{
@@ -119,6 +123,7 @@ color: #000;
 .vinos-container li a{
 	font-family: "neutraface2displaybold";
 	text-transform: uppercase;
+	font-weight: normal;
 	font-size: 12px;
 	line-height: 16px;
 	color: #afafaf;

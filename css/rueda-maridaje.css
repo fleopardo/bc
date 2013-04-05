@@ -32,6 +32,7 @@ body{
 
 .contentPage .contenedor h2{
 	font-family: "neutra2displaylight";
+	font-weight: normal;
 	font-size: 40px;
 	line-height: 44px;
 	text-transform: uppercase;
@@ -41,6 +42,7 @@ body{
 
 .contentPage .contenedor h3{
 	font-family: "neutra2displaymedium";
+	font-weight: normal;
 	font-size: 18px;
 	line-height: 22px;
 	color: #000;
@@ -82,23 +84,9 @@ span.mascara-maridaje{
 	left:586px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .maridaje footer{
 	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
 }
-
-
-
