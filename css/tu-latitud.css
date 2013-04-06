@@ -147,7 +147,11 @@ body{
 
 .nota .right-col{
 	float: right;
-	width: 48%;
+	width: 46%;
+	background: #fff;
+	padding: 10px 1.3% 50px;
+	overflow: hidden;
+	position: relative;
 }
 
 .nota .img-cont{
@@ -157,6 +161,7 @@ body{
 .nota .img-cont img{
 	width: 100%;
 	height: auto;
+	float: left;
 }
 
 .nota .info-container h3{
@@ -198,4 +203,47 @@ ul.ver-mas li a{
 	font: 12px/16px tahoma, arial, helvetica,sans-serif;
 	padding-left: 20px;
 	text-decoration: underline;
+}
+
+ul.navigator{
+	overflow: hidden;
+	left: 1.3%;
+	right: 1.3%;
+	position: absolute;
+	bottom: 10px;
+}
+
+ul.navigator li.anterior{
+	float: left;
+}
+
+ul.navigator li.siguiente{
+	float: right;
+}
+
+ul.navigator li a{
+	display: block;
+	background: url('./assets/tu-latitud/sp-siguiente-anterior.png') no-repeat;
+	line-height: 19px;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'neutraface2displaybold';
+	font-size: 9px;
+	font-weight: normal;
+}
+
+ul.navigator li a span{
+	display: block;
+	background: #000;
+	padding: 0 10px;
+}
+
+ul.navigator li.anterior a{
+	background-position: top left;
+	padding-left: 20px;
+}
+
+ul.navigator li.siguiente a{
+	background-position: bottom right;
+	padding-right: 20px;
 }

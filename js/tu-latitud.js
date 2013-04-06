@@ -16,6 +16,8 @@
 	  isAnimated: false
 	});*/
 
+	calculaAlto();
+
 	var container = $('#articles');
 
     container.imagesLoaded(function(){  
@@ -50,5 +52,15 @@
 
 
     $("a[rel^='prettyPhoto']").prettyPhoto();
+
+    function calculaAlto(){
+    	var altoNota = $('.nota .info-container .img-cont').height();
+    	$('.nota .info-container .right-col').css('min-height',altoNota-60);
+    }
+    
+
+    $(window).resize(function(){
+    	calculaAlto();
+    });
 
 })(window);
