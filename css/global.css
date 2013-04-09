@@ -171,6 +171,7 @@ input.placeholder{ color: #373737; }
 	height: 100%;
 	width: 100%;
 	float: right;
+	background: url("./assets/separador-nav.png") center left no-repeat;
 }
 
 .header nav > ul > li{
