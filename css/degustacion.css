@@ -73,11 +73,12 @@ body{
 
 .contentPage .contenedor .left-col li{
 	margin-bottom: 5px;
+	overflow: hidden;
 }
 
 .contentPage .contenedor .left-col li a,
 .contentPage .contenedor .left-col li span{
-	display: inline-block;
+	display: block;
 	line-height: 30px;
 	font-size: 13px;
 	color: #fff;
@@ -87,6 +88,8 @@ body{
 	background: url('./assets/degustacion/bg-filters.png') right top no-repeat;
 	padding-right: 36px;
 	text-transform: uppercase;
+	overflow: hidden;
+	width: 40%;
 }
 
 .contentPage .contenedor .left-col li span{
@@ -101,6 +104,7 @@ body{
 	margin-right: 1px;
 	width: 36px;
 	text-align: center;
+	float: left;
 }
 
 .contentPage .contenedor .left-col li.active a{
