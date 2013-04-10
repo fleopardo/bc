@@ -12,7 +12,8 @@ body{
 	font-size: 41px;
 	text-transform: uppercase;
 	margin: 50px 0 30px;
-	border-bottom:1px solid #ccc;
+	padding-bottom: 15px;
+	border-bottom:1px solid #585656;
 	font-weight: normal;
 }
 
@@ -20,7 +21,7 @@ body{
 .info-container li a,
 .info-container p{
 	color: #fff;
-	font: 18px/21px 'neutra2displaymedium';
+	font: 11px/14px tahoma, arial, helvetica, sans-serif;
 	font-weight: normal;
 }
 
@@ -32,8 +33,16 @@ body{
 	margin-left: 30px;
 }
 
-.mapa .info-container li{
+.mapa .info-container li > span{
+	display: block;
+}
+
+.mapa .info-container li,
+.mapa .info-container li > span,
+.mapa .info-container li a{
 	margin-bottom: 5px;
+	font-size: 12px;
+	line-height: 17px;
 }
 
 .mapa .info-container  > ul > li > ul > li{
@@ -47,6 +56,6 @@ body{
 /* Terminos de uso y Politicas de privacidad */
 
 .terminos-y-politicas .info-container p{
-	font: 11px/15px tahoma, arial, helvetica, sans-serif;
+	font: 11px/14px tahoma, arial, helvetica, sans-serif;
 	margin-bottom: 25px;
 }
