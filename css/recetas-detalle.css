@@ -1,0 +1,180 @@
+
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+body{
+	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contentPage .contenedor h2{
+	font-family: "neutra2displaymedium";
+	font-size: 40px;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	color: #000;
+	font-weight: normal;
+}
+
+.contentPage .contenedor h2 span{
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.contentPage .contenedor h3{
+	font-family: "neutra2displaymedium";
+	font-size: 18px;
+	line-height: 22px;
+	color: #000;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}
+
+.contentPage .contenedor h4{
+	margin-bottom: 6px;
+	font-family: 'neutraface2displaybold';
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 23px;
+	text-transform: uppercase;
+}
+
+.contentPage .contenedor h4 span{
+	text-transform: none;
+}
+
+.contentPage .contenedor p,
+.contentPage .contenedor li{
+	font-family: 'neutra2displaymedium';
+	font-weight: normal;
+	color: #000;
+	font-size: 18px;
+}
+
+.contentPage .contenedor .left-col {
+	float: left;
+	width: 55%;
+}
+
+.contentPage .contenedor .left-col .bloque.scroll{
+	width: 55%;
+	float: left;
+}
+
+.contentPage .contenedor .left-col .bloque.ingredientes{
+	width: 35%;
+	float: right;
+}
+
+.contentPage .contenedor .left-col .bloque ol li{
+	list-style:decimal inside;
+	margin-bottom: 10px;
+}
+
+.contentPage .contenedor .left-col .bloque.ingredientes ul li{
+	background: url('./assets/recetas/internas/bg-listas.png') left no-repeat;
+	padding-left: 20px;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+.contentPage .contenedor .right-col{
+	width: 40%;
+	float: right;
+	overflow: hidden;
+}
+
+a.volver,
+a.nav,
+a.descargar{
+	color: #fff;
+	font-family: 'neutraface2displaybold';
+	font-weight: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+a.volver,
+a.nav,
+a.descargar{
+	background: url('./assets/recetas/internas/bg-btn.png') no-repeat;
+	display: inline-block;
+	line-height: 26px;
+}
+
+a.volver{
+	background-position: left 0;
+	padding-left: 28px;
+	float: right;
+	margin-bottom: 15px;
+}
+
+a.volver span{
+	background: #000;
+	padding: 0 12px;
+	display: inline-block;
+}
+
+a.nav{
+	width: 27px;
+	height: 26px;
+	overflow: hidden;
+	text-indent: -100%;
+}
+
+a.siguiente{
+	background-position: right -26px;
+}
+
+a.anterior{
+	background-position: left 0;
+}
+
+a.descargar{
+	background-position: left bottom;
+	line-height: 26px;
+	padding-left: 28px;
+}
+
+a.descargar span{
+	display: inline-block;
+	background: #afafb1;
+	padding: 0 12px;
+}
+
+.contentPage .contenedor .right-col > img{
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+.links-container{
+	float: right;
+	margin-top: 25px;
+}
+
+
+
+
+
+
+
+/***TOMATE***/
+.tomate .contentPage .contenedor h4{
+	color: #a53327;
+}
+
+
+/***OLIVA***/
+.oliva .contentPage .contenedor h4{
+	color: #839449;
+}
+
