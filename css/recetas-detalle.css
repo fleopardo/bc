@@ -178,3 +178,12 @@ a.descargar span{
 	color: #839449;
 }
 
+/***PAPA**/
+.papa .contentPage .contenedor h4{
+	color: #b2933b;
+}
+
+/** CORDERO***/
+.cordero .contentPage .contenedor h4{
+	color: #f0772e;
+}
