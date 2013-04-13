@@ -209,6 +209,17 @@ var shale = shale || {};
 			}
 		})
 
+	/* back To Top Button */
+
+	var linkBackToTop = $(".backToTop");
+
+	linkBackToTop.live("click", function(event){
+		event.preventDefault();
+		$(window).scrollTo(0, {speed:500, easing: shale.navegacion.easing});
+	});
+
+
+
 	/*
 	 * Cuando se anima la pagina se lanza el evento personalizado "navegacion"
 	*/

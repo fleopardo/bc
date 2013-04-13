@@ -123,6 +123,15 @@ input.placeholder{ color: #373737; }
 	margin-right: 3px;
 }
 
+.icon.top{
+	width: 18px;
+	height: 16px;
+	background-position: 0px -134px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
 .contenido .tit-uppercase{
 	text-transform: uppercase;
 	font-size: 11px;
@@ -379,6 +388,20 @@ input.placeholder{ color: #373737; }
 	font-size: 18px;
 }
 
+
+.backToTop{
+	font-size: 16px;
+	font-family: "din-black";
+	font-weight: normal;
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	position: relative;
+	margin-top: 15px;
+}
+
 /*
  * Footer
 */
@@ -386,7 +409,7 @@ input.placeholder{ color: #373737; }
 footer{
 	clear: both;
 	background: #373738;
-	margin-top: 30px;
+	margin-top: 45px;
 }
 
 footer > div{

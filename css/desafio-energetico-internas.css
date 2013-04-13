@@ -29,7 +29,6 @@
 
 	/* Slider */
 
-	/* SLider */
 	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-slider-interna{
 		height: 472px;
 		width: 797px;
@@ -222,30 +221,6 @@
 		top: 200px;
 	}
 
-	.desafio-energetico-internas .recursos-no-convencionales .galeria .bajada{
-		position: absolute;
-		z-index: 10;
-		background: rgba(0,0,0,0.7);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000);
-		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000)";
-		padding: 20px;
-		font-size: 15px;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
-
-	.desafio-energetico-internas .recursos-no-convencionales .galeria .bajada p{
-		font-size: 14px;
-		padding-left: 10px;
-		border-left: 1px solid #fff;
-	}
-
-	.desafio-energetico-internas .recursos-no-convencionales .galeria .bajada p span{
-		font-family: "din-black";
-		font-weight: normal;
-	}
-
 	/* Contenido relacionado */
 
 	.desafio-energetico-internas .recursos-no-convencionales .relacionados{
@@ -369,29 +344,6 @@
 		top: 200px;
 	}
 
-	.desafio-energetico-internas .recursos-convencionales .galeria .bajada{
-		position: absolute;
-		z-index: 10;
-		background: rgba(0,0,0,0.7);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000);
-		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000)";
-		padding: 20px;
-		font-size: 15px;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
-
-	.desafio-energetico-internas .recursos-convencionales .galeria .bajada p{
-		font-size: 14px;
-		padding-left: 10px;
-		border-left: 1px solid #fff;
-	}
-
-	.desafio-energetico-internas .recursos-convencionales .galeria .bajada p span{
-		font-family: "din-black";
-		font-weight: normal;
-	}
 
 	/* Produccion Diaria */
 
@@ -446,9 +398,9 @@
 
 	.desafio-energetico-internas .energia-para-el-crecimiento .info p span{
 		font-size: 35px;
-		color: #469fa2;
+		color: #b98d00;
 	}
 
 	.desafio-energetico-internas .energia-para-el-crecimiento .info p.first{
-		margin-bottom: 70px;
+		margin-bottom: 60px;
 	}
