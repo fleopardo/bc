@@ -12,6 +12,15 @@ var shale = shale || {};
 ;(function(){
 
 	/*
+	 * Flag para saber si es ipad
+	*/
+
+		//var isiPad = navigator.userAgent.match(/iPad/i) != null;
+
+		//if(isIpad){ $("html").addClass("ipad") }
+
+
+	/*
 	 * Flag para saber si es dispositivo touch
 	*/
 
@@ -217,8 +226,6 @@ var shale = shale || {};
 		event.preventDefault();
 		$(window).scrollTo(0, {speed:500, easing: shale.navegacion.easing});
 	});
-
-
 
 	/*
 	 * Cuando se anima la pagina se lanza el evento personalizado "navegacion"
