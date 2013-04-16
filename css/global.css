@@ -362,7 +362,7 @@ header a.cont-img-Subm:hover{
 	background: #000;
 	opacity: .6;
 	filter: alpha(opacity=60);
-	z-index: 5;
+	z-index: 30;
 }
 /*FOOTER*/
 

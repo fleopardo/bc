@@ -1,0 +1,122 @@
+
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+
+body{
+	background-image: url("./assets/nuestros-vinos/bg-nuestros-vinos.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contentPage .contenedor h2{
+	font-family: "neutra2displaylight";
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.contentPage .contenedor h3,
+.contentPage .contenedor h4{
+	font-family: "neutraface2displaybold";
+	font-size: 18px;
+	color: #000;
+}
+
+.contentPage .contenedor h3{
+	text-transform: uppercase;
+}
+
+.contentPage .contenedor p,
+.contentPage .contenedor dd{
+	font-family: 'neutra2displaymedium';
+	color: #000;
+	font-size: 18px;
+}
+
+.contentPage .contenedor .left-col {
+	float: left;
+}
+
+.contentPage .contenedor .right-col {
+	float: right;
+	background: url('./assets/cepas/fd_cepas-principal.png') center no-repeat;
+	min-width: 507px;
+	min-height: 566px;
+	position: relative;
+}
+
+.contentPage .contenedor .left-col .bloque{
+	margin-bottom: 16px;
+}
+
+.contentPage .contenedor .right-col dl{
+	position: absolute;
+}
+
+.contentPage .contenedor .right-col dl.sauvignon-blanc{
+	top: 30px;
+	left: 40px;
+}
+
+.contentPage .contenedor .right-col dl.tempranillo{
+	top: 90px;
+	left: -30px;
+}
+
+.contentPage .contenedor .right-col dl.malbec{
+	top: 214px;
+	left: 0;
+}
+
+.contentPage .contenedor .right-col dl.syrah{
+	top: 335px;
+	left: -30px;
+}
+
+.contentPage .contenedor .right-col dl.semillon{
+	top: 60px;
+	right: 160px;
+}
+
+.contentPage .contenedor .right-col dl.chardonnay{
+	top: 114px;
+	right: 60px;
+}
+
+.contentPage .contenedor .right-col dl.cabernet-sauvignon{
+	top: 214px;
+	right: 60px;
+}
+
+.contentPage .contenedor .right-col dl.merlot{
+	top: 352px;
+	right: 80px;
+}
+
+
+
+
+.contentPage .contenedor .right-col dt{
+	background: url('./assets/cepas/sp_iconos.png') top right no-repeat;
+	padding-right: 36px;
+	line-height: 31px;
+}
+
+.contentPage .contenedor .right-col dt span{
+	background: #000;
+	padding: 0 10px;
+	display: inline-block;
+}
+
+.contentPage .contenedor .right-col dd {
+	background: #fff;
+	padding: 0 10px;
+	display: block;
+	color: #000;
+}
