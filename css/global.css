@@ -132,6 +132,13 @@ input.placeholder{ color: #373737; }
 	top: 0;
 }
 
+.icon.double-arrow{
+	width: 20px;
+	height: 20px;
+	background-position: 0px -156px;
+	margin-right: 5px;
+}
+
 .contenido .tit-uppercase{
 	text-transform: uppercase;
 	font-size: 11px;

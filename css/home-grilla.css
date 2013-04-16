@@ -37,7 +37,7 @@
 	*/
 
 		.nuevas-fronteras-detalle{
-			width: 704px;
+			width: 710px;
 			height: 575px;
 			margin-right: 10px;
 			background: url("./assets/home/nuevas-fronteras/nuevas-fronteras-detalle.jpg") no-repeat top right;
@@ -87,7 +87,7 @@
 		.nuevas-fronteras .exploracion-no-convencional,
 		.nuevas-fronteras .offshore{
 			float: left;
-			width: 486px;
+			width: 480px;
 			height: 186px;
 			position: relative;
 		}
@@ -165,7 +165,7 @@
 
 		.nuevas-fronteras .plan-exploratorio,
 		.nuevas-fronteras .opid{
-			width: 238px;
+			width: 235px;
 			height: 183px;
 			float: left;
 			position: relative;
@@ -222,7 +222,7 @@
 	/* Desafio energetico detalle */
 
 	.desafio-energetico .desafio-energetico-detalle{
-		width: 705px;
+		width: 710px;
 		height: 384px;
 		background: url("./assets/home/desafio-energetico/desafio-energetico-detalle.jpg") top right no-repeat;
 		position: relative;
@@ -274,7 +274,7 @@
 	.desafio-energetico .vaca-muerta,
 	.desafio-energetico .energia-para-el-crecimiento{
 		float: left;
-		width: 485px;
+		width: 480px;
 		height: 186px;
 		position: relative;
 	}
@@ -454,7 +454,7 @@
 */
 
 	.nuestra-energia .nuestra-energia-detalle{
-		width: 705px;
+		width: 710px;
 		height: 578px;
 		float: left;
 		background: url("./assets/home/nuestra-energia/nuestra-energia-detalle.jpg") top right no-repeat;
@@ -484,7 +484,7 @@
 
 	.nuestra-energia .bloque2{
 		float: left;
-		width: 485px;
+		width: 480px;
 		height: 186px;
 		position: relative;
 	}

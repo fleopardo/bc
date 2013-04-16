@@ -26,12 +26,33 @@
 
 		}
 
+	/*
+	 * Funcionamiento graficos de Recursos convencionales
+	*/
+
+		shale.graficosRecursosConvencionales = function(){
+
+			var $graficos = $(".recursos-convencionales .graficos:not(.init)");
+
+			if($graficos.length > 0){
+
+				$graficos.find("li > img").on(shale.event.ENTER, function(){
+
+					$(".recursos-convencionales .graficos").find("li").removeClass("active");
+
+					$(this).parent().addClass("active");
+
+				});
+
+			}
+
+		}
 
 	/*
 	 * Funcionamiento submenu Desafio energetico
 	*/
 
-		shale.submenuGraficosRecursosNoConvencionales = function(){
+		/*shale.submenuGraficosRecursosNoConvencionales = function(){
 
 			var $menu = $(".recursos-no-convencionales .menu:not(.init)");
 
@@ -79,7 +100,7 @@
 
 			}
 
-		}
+		}*/
 
 
 	/*
@@ -87,7 +108,8 @@
 	*/
 
 		shale.sliderInternas();
-		shale.submenuGraficosRecursosNoConvencionales();
+		//shale.submenuGraficosRecursosNoConvencionales();
+		shale.graficosRecursosConvencionales();
 
 	/*
 	 * Cuando se anima la pagina se lanza el evento personalizado "navegacion"
@@ -97,7 +119,8 @@
 
 			//Instancias on navegacion
 			shale.sliderInternas();
-			shale.submenuGraficosRecursosNoConvencionales();
+			//shale.submenuGraficosRecursosNoConvencionales();
+			shale.graficosRecursosConvencionales();
 
 		});
 
