@@ -204,6 +204,31 @@
 		background: #333 url("./assets/nuevas-fronteras/bg-internacional.jpg") no-repeat;
 	}
 
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-slider-interna,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-slider-interna{
+		width: auto;
+		height: auto;
+		margin-top: 25px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-slider-interna.mask,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-slider-interna.mask{
+		overflow: hidden;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-slider-interna li,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-slider-interna li{
+		height: 455px;
+		width: 352px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-prev-horizontal,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-next-horizontal,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-prev-horizontal,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-next-horizontal{
+		top: 255px;
+	}
+
 
 	/* Bloque 3 & Bloque 4 */
 
@@ -226,12 +251,33 @@
 
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt3 img{
 		position: absolute;
-		bottom: 0;
-		left: 77px;
+		bottom: 15px;
+		left: 35px;
 	}
 
+	/* bloque 4 */
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt4{
 		background: #bc7eb0;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-slider-interna{
+		width: auto;
+		height: auto;
+		margin-top: 25px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-slider-interna.mask{
+		overflow: hidden;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-slider-interna li{
+		height: 455px;
+		width: 352px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-prev-horizontal,
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-next-horizontal{
+		top: 421px;
 	}
 
 
@@ -249,5 +295,5 @@
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt5 img{
 		position: absolute;
 		bottom: 10px;
-		right: 6px;
+		left: 18px;
 	}

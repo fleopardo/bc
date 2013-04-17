@@ -15,9 +15,9 @@ var shale = shale || {};
 	 * Flag para saber si es ipad
 	*/
 
-		//var isiPad = navigator.userAgent.match(/iPad/i) != null;
+		shale.isiPad = navigator.userAgent.match(/iPad/i) != null;
 
-		//if(isIpad){ $("html").addClass("ipad") }
+		if(shale.isiPad){ $("html").addClass("ipad") }
 
 
 	/*

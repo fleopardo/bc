@@ -10,7 +10,6 @@
 	/*
 	 * Instancio carouseles para todas las internas. (Necesita class="jcarousel-slider-interna")
 	*/
-
 		shale.sliderInternas = function(){
 
 			var $slider = $(".jcarousel-slider-interna:not(.init)");
@@ -24,6 +23,24 @@
 
 			}
 
+			if(!shale.isiPad){
+				$(".jcarousel-slider-interna").find(".jcarousel-prev-horizontal").addClass("off");
+				$(".jcarousel-slider-interna").find(".jcarousel-next-horizontal").addClass("off");
+			}
+		}
+
+		/* Ocultar del slide para que no molesten y tapen los graficos */
+		if(!shale.isiPad){
+
+			$(".jcarousel-slider-interna").live("mouseenter", function(){
+				$(this).find(".jcarousel-prev-horizontal").removeClass("off");
+				$(this).find(".jcarousel-next-horizontal").removeClass("off");
+			});
+
+			$(".jcarousel-slider-interna").live("mouseleave", function(){
+				$(this).find(".jcarousel-prev-horizontal").addClass("off");
+				$(this).find(".jcarousel-next-horizontal").addClass("off");
+			});
 		}
 
 	/*
@@ -36,7 +53,7 @@
 
 			if($graficos.length > 0){
 
-				$graficos.find("li > img").on(shale.event.ENTER, function(){
+				$graficos.find("li > img").on(shale.event.TAP, function(){
 
 					$(".recursos-convencionales .graficos").find("li").removeClass("active");
 

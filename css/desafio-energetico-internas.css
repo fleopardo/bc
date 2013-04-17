@@ -94,6 +94,12 @@
 		font-size: 14px;
 	}
 
+	.desafio-energetico-internas .que-es-shale .row .saber a:hover{
+		opacity: 0.5;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: alpha(opacity=50);
+	}
+
 	/* Estilos para article shale en el mundo */
 
 	.desafio-energetico-internas .que-es-shale .row .shale-en-el-mundo{

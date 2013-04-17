@@ -90,6 +90,26 @@ body{
 	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
 }
 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	.contenido{
+		min-height: 1024px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	.contenido{
+		min-height: 630px;
+	}
+}
+
 a{color: #fff;}
 
 a > img{
@@ -235,6 +255,11 @@ input.placeholder{ color: #373737; }
 	position: absolute;
 	top: 0;
 	bottom: 0;
+	-webkit-transition:all 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:all 0.5s ease-out;  /* Opera */
+	-moz-transition:all 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:all 0.5s ease-out;   /* Internet Explorer */
+	transition:all 0.5s ease-out;  /* W3C */
 }
 
 .preheader .flechas .disabled{
@@ -281,6 +306,18 @@ input.placeholder{ color: #373737; }
 	right: 71px;
 }
 
+
+.preheader .flechas .anterior:hover,
+.preheader .flechas .siguiente:hover{
+	-moz-box-shadow: inset 3px 2px 16px 4px #222;
+	-webkit-box-shadow: inset 3px 2px 16px 4px #222;
+	box-shadow: inset 3px 2px 16px 4px #222;
+}
+
+.preheader .flechas .volver:hover{
+	background-color: rgb(58, 1, 61);
+}
+
 /*
  * Breadcrumb
 */
@@ -303,6 +340,10 @@ input.placeholder{ color: #373737; }
 .preheader .breadcrumb li a{
 	line-height: 44px;
 	font-size: 12px;
+}
+
+.preheader .breadcrumb li a:hover{
+	text-decoration: underline;
 }
 
 .preheader .breadcrumb .icon{
@@ -397,16 +438,15 @@ input.placeholder{ color: #373737; }
 
 
 .backToTop{
-	font-size: 16px;
-	font-family: "din-black";
-	font-weight: normal;
 	float: right;
-	padding-right: 20px;
-	padding-bottom: 2px;
-	border-bottom: 1px solid #fff;
-	display: inline-block;
+	display: block;
+	width: 62px;
+	height: 20px;
 	position: relative;
 	margin-top: 15px;
+	background: url("./assets/subir.png");
+	text-indent: -999px;
+	overflow: hidden;
 }
 
 /*
@@ -449,6 +489,10 @@ footer > div ul.links li a{
 	font-size: 11px;
 	font-family: arial, helvetica, sans-serif;
 	line-height: 40px;
+}
+
+footer > div ul.links li a:hover{
+	text-decoration: underline;
 }
 
 /* Links sociales */
