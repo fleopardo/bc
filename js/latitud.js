@@ -72,5 +72,9 @@
 	 * Elimino class no-js
 	*/
 	$("html").removeClass("no-js");
+	
+	if (latitud.touch) {
+		$('html').addClass('touch');
+	}
 
 })(window);
