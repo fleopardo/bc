@@ -142,6 +142,10 @@
 		*zoom: 1; /* Para IE */
 	}
 
+	.headerYPF .nav > ul.secundaria > li.sitios-ypf{
+		min-width: 82px;
+	}
+
 	.headerYPF .nav > ul.secundaria > li,
 	.headerYPF .nav > ul.secundaria > li a{
 		height: 55px;
@@ -179,7 +183,8 @@
 		}
 
 			.headerYPF .nav > ul.secundaria > li.buscar a:hover,
-			.headerYPF .nav > ul.secundaria > li.buscar a.active{
+			.headerYPF .nav > ul.secundaria > li.buscar a.active,
+			.headerYPF .nav > ul.secundaria > li.buscar a.open{
 				background-position: 0px -54px;
 			}
 
@@ -197,7 +202,8 @@
 		}
 
 			.headerYPF .nav > ul.secundaria > li.login a:hover,
-			.headerYPF .nav > ul.secundaria > li.login a.active{
+			.headerYPF .nav > ul.secundaria > li.login a.active,
+			.headerYPF .nav > ul.secundaria > li.login a.open{
 				background-position: -80px -54px;
 			}
 
@@ -212,7 +218,8 @@
 
 
 		.headerYPF .nav > ul.secundaria > li.sitios-ypf a:hover,
-		.headerYPF .nav > ul.secundaria > li.sitios-ypf a.active{
+		.headerYPF .nav > ul.secundaria > li.sitios-ypf a.active,
+		.headerYPF .nav > ul.secundaria > li.sitios-ypf a.open{
 			background-position: 0px -121px;
 		}
 

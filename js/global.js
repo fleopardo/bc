@@ -48,27 +48,32 @@ var shale = shale || {};
 	/*
  	 * Inicializo y bindeo todo los eventos necesarios para el header
  	*/
-		$('.jcarousel-header').removeClass("mask").jcarousel({
-			scroll: 1,
-			start : 1
-		});
 
-		// Bindeo para abrir submenus
-		headerYPF.vars.header.find(".hasSubmenu").on("click",function(event){
-			event.preventDefault();
-			headerYPF.openSubmenu($(this));
-		});
+ 		if( $(".headerYPF").length > 0 ){
 
-		// Bindeo para abrir buscador
-		headerYPF.vars.header.find(".buscar > a").on("click", function(event){
-			event.preventDefault();
-			headerYPF.openSearch();
-		});
+			$('.jcarousel-header').removeClass("mask").jcarousel({
+				scroll: 1,
+				start : 1
+			});
 
-		// Bindeo para cerrar buscador
-		headerYPF.vars.buscador.find(".close").on("click", function(){
-			headerYPF.closeSearch();
-		});
+			// Bindeo para abrir submenus
+			headerYPF.vars.header.find(".hasSubmenu").on("click",function(event){
+				event.preventDefault();
+				headerYPF.openSubmenu($(this));
+			});
+
+			// Bindeo para abrir buscador
+			headerYPF.vars.header.find(".buscar > a").on("click", function(event){
+				event.preventDefault();
+				headerYPF.openSearch();
+			});
+
+			// Bindeo para cerrar buscador
+			headerYPF.vars.buscador.find(".close").on("click", function(){
+				headerYPF.closeSearch();
+			});
+
+		}
 
     /*
  	 * @public

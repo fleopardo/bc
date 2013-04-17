@@ -77,6 +77,10 @@ shale.navegacion = (function(window){
 
 				id_seccion_actual = page_id;
 
+				// Activo los links en el header
+				headerYPF.removeActives();
+				headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" a"));
+
 				// lanzo un evento
 				$(window).trigger("navegacion");
 
@@ -131,6 +135,10 @@ shale.navegacion = (function(window){
 
 			//Ahora la seccion actual es hacia la que me movi
 			id_seccion_actual = page_id;
+
+			// Activo los links en el header
+				headerYPF.removeActives();
+				headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" a"));
 
 			// lanzo un evento
 			$(window).trigger("navegacion");
@@ -188,6 +196,10 @@ shale.navegacion = (function(window){
 
 					$(".contenido").removeClass("active");
 					$("#"+state.page_id).addClass("active");
+
+					// Activo los links en el header
+					headerYPF.removeActives();
+					headerYPF.setActive($(".headerYPF ."+state.page_id+" a"));
 
 					// lanzo un evento
 					$(window).trigger("navegacion");
