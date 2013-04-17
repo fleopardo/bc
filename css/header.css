@@ -78,7 +78,7 @@
 	}
 
 	.headerYPF > div .logo{
-		background: url("./assets/logo.png") no-repeat left top;
+		background: url("./assets-header/logo.png") no-repeat left top;
 		position: fixed;
 		top: 15px;
 	}
@@ -120,8 +120,12 @@
 		border-top: 3px solid transparent;
 	}
 
-	.headerYPF .nav > ul.principal a:hover,
-	.headerYPF .nav > ul.principal a.active{
+	.headerYPF .nav > ul.principal a:hover{
+		color:#0063be;
+	}
+
+	.headerYPF .nav > ul.principal a.active,
+	.headerYPF .nav > ul.principal a.open{
 		border-top-color: #0063be;
 	}
 
@@ -163,7 +167,7 @@
 	.headerYPF .nav > ul.secundaria > li.icon > a,
 	.headerYPF .nav > ul.secundaria > li.sitios-ypf > a:hover,
 	.headerYPF .nav > ul.secundaria > li.sitios-ypf > a.active{
-		background: url("./assets/icons.png") no-repeat;
+		background: url("./assets-header/icons.png") no-repeat;
 	}
 
 	.headerYPF .nav > ul.secundaria > li.icon a{
@@ -292,7 +296,7 @@
 			margin-right: 90px;
 		}
 
-		.headerYPF .nuevas-fronteras .submenu .opid{
+		.headerYPF .nuevas-fronteras .submenu .opid-link{
 			clear: both;
 		}
 
@@ -432,7 +436,7 @@
 
 		.headerYPF .sitios-ypf .submenu .links li,
 		.headerYPF .sitios-ypf .submenu .links li a .icon{
-			background: url("./assets/icons-sitios-ypf.png") no-repeat;
+			background: url("./assets-header/icons-sitios-ypf.png") no-repeat;
 		}
 
 			.headerYPF .sitios-ypf .submenu .links li{
@@ -492,7 +496,7 @@
 
 		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-prev-horizontal,
 		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-next-horizontal{
-		  	background: url("./assets/icons-carousel.png") no-repeat;
+		  	background: url("./assets-header/icons-carousel.png") no-repeat;
 		  	position: absolute;
 		  	z-index:100;
 		  	cursor: pointer;
@@ -666,7 +670,7 @@
 */
 
 	.headerBuscador{
-		position: absolute;
+		position: fixed;
 		height: 64px;
 		background: #f4f4f4;
 		border-bottom: 1px solid #ccc;
@@ -674,6 +678,7 @@
 		right: 0;
 		top: 0;
 		display: none;
+		z-index: 10;
 	}
 
 	.headerBuscador form{
@@ -690,7 +695,7 @@
 		-moz-box-shadow: inset 0px 0px 5px #ccc;
 		-webkit-box-shadow: inset 0px 0px 5px #ccc;
 		box-shadow: inset 0px 0px 5px #ccc;
-		background: transparent url("./assets/icon-buscador.png") no-repeat 10px 11px;
+		background: transparent url("./assets-header/icon-buscador.png") no-repeat 10px 11px;
 		font-size: 12px;
 		font-family: Arial, Helvetica, sans-serif;
 	}

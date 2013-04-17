@@ -135,7 +135,9 @@
 
 		submenu.stop(true,true).delay(speedClose).slideDown(speedOpen);
 
-		headerYPF.setActive(link);
+		//headerYPF.setActive(link);
+
+		link.addClass("open");
 
 		_addDimmer();
 
@@ -155,7 +157,9 @@
 
 		headerYPF.vars.headerSubmenues.stop(true,true).slideUp(speedClose);
 
-		headerYPF.removeActives();
+		//headerYPF.removeActives();
+
+		headerYPF.vars.headerLinks.removeClass("open");
 
 		_removeDimmer();
 
