@@ -159,6 +159,13 @@
 }
 
 
+/* COMPROMISO */
+.compromiso .listado-container .left-col h2{
+	background: #0067aa;
+}
 
+.compromiso .listado-container .left-col article .ruta span.active{
+	color: #0067aa;
+}
 
 
