@@ -553,3 +553,194 @@
 		font-family: "din-medium";
 		font-weight: normal;
 	}
+
+
+
+/*
+ * Home compromiso
+*/
+
+	/* Desafio energetico detalle */
+
+	.compromiso .intro{
+		width: 710px;
+		height: 384px;
+		background: url("./assets/home/desafio-energetico/desafio-energetico-detalle.jpg") top right no-repeat;
+		position: relative;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.compromiso .intro div{
+		background-color: #0067aa;
+		width: 202px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+	.compromiso .intro div h3{
+		font-size: 29px;
+		font-family: "din-medium";
+		font-weight: normal;
+		line-height: 30px;
+		margin-bottom: 35px;
+	}
+
+	.compromiso .intro div h3 span{
+		font-family: "din-light";
+		font-weight: normal;
+	}
+
+	.compromiso .intro div p{
+		font-family: "din-regular";
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 12px;
+	}
+
+	/* Shale en el mundo & Vaca muerta */
+
+	.compromiso .educar,
+	.compromiso .desarrollo,
+	.compromiso .calidad,
+	.compromiso .tecnologia{
+		float: left;
+		width: 480px;
+		height: 186px;
+		position: relative;
+	}
+
+	.compromiso .educar{
+		background: url("./assets/home/desafio-energetico/shale-en-el-mundo.jpg") top right no-repeat;
+	}
+
+	.compromiso .desarrollo{
+		background: url("./assets/home/desafio-energetico/vaca-muerta.jpg") top right no-repeat;
+	}
+
+	.compromiso .calidad{
+		background: url("./assets/home/desafio-energetico/energia-para-el-crecimiento.jpg") top right no-repeat;
+	}
+
+	.compromiso .tecnologia{
+		background: url("./assets/home/desafio-energetico/energia-para-el-crecimiento.jpg") top right no-repeat;
+	}
+
+	.compromiso .educar div,
+	.compromiso .desarrollo div,
+	.compromiso .calidad div,
+	.compromiso .tecnologia div{
+		width: 208px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+		.compromiso .educar div{
+			background: #49008d;
+		}
+
+		.compromiso .desarrollo div{
+			background: #2e2275;
+		}
+
+		.compromiso .calidad div{
+			background: #0f8cb0;
+		}
+
+		.compromiso .tecnologia div{
+			background: #004762;
+		}
+
+		/* Hovers */
+		.compromiso .educar:hover div{
+			background: #31005f;
+		}
+
+		.compromiso .desarrollo:hover div{
+			background: #1c1446;
+		}
+
+		.compromiso .calidad:hover div{
+			background: #09546a;
+		}
+
+		.compromiso .tecnologia:hover div{
+			background: #002b3b;
+		}
+
+		/* Cambio de color para icono "More" */
+		.compromiso .educar .more{
+			border-bottom-color: #31005f;
+		}
+
+		.compromiso .desarrollo .more{
+			border-bottom-color: #1c1446;
+		}
+
+		.compromiso .calidad .more{
+			border-bottom-color: #09546a;
+		}
+
+		.compromiso .tecnologia .more{
+			border-bottom-color: #002b3b;
+		}
+
+	.compromiso .educar div h3,
+	.compromiso .desarrollo div h3,
+	.compromiso .calidad div h3,
+	.compromiso .tecnologia div h3,
+	.compromiso .que-es-shale div h3{
+		font-family: "din-black";
+		font-weight: normal;
+		font-size: 19px;
+		line-height: 22px;
+	}
+
+	.compromiso .educar div h3 span,
+	.compromiso .desarrollo div h3 span,
+	.compromiso .calidad div h3 span,
+	.compromiso .tecnologia div h3 span,
+	.compromiso .que-es-shale div h3 span{
+		font-family: "din-light";
+		font-weight: normal;
+		display: block;
+	}
+
+	.compromiso .desarrollo,
+	.compromiso .tecnologia{
+		width: 472px;
+		margin-right: 10px;
+	}
+
+	/* Recursos convencionales */
+
+	.compromiso .investigacion{
+		width: 235px;
+		height: 186px;
+		float: left;
+		position: relative;
+	}
+
+	.compromiso .investigacion{
+		background: #00aba9;
+	}
+
+	.compromiso .investigacion div h3{
+		font-size: 22px;
+		line-height: 25px;
+	}
+
+		/* Hovers */
+		.compromiso .investigacion:hover{
+			background: #006765;
+		}
+
+		/* Cambio de color para icono "More" */
+		.compromiso .investigacion .more{
+			border-bottom-color: #006765;
+		}
