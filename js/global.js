@@ -19,6 +19,8 @@
 		$contentPage = $(".contentPage");
 
 
+	minHeight();
+
 	/*
 	 * Inicializacion del lazy load en imagenes del header
 	*/
@@ -138,5 +140,29 @@
 		});
 
 	}
+
+	$(window).resize(function(){
+		minHeight();
+	});
+
+	function minHeight(){
+
+		if( $('body > div').not('.homepage, .prehome') ){
+
+			var altoWindow = $(window).height();
+			var altoContenedor = $('.contentPage.principal').height();
+			var altoHeader = $('header').height();
+			var altoFooter = $('footer').height();
+			var minHeightContainer = altoWindow - altoHeader - altoFooter;
+			
+			if( altoContenedor < minHeightContainer){
+				$('.contentPage.principal').css('height',minHeightContainer);
+			}
+		}
+
+	}
+
+	
+
 
 })(window);
