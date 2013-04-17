@@ -91,7 +91,6 @@
 
 	.headerYPF .nav{
 		float: right;
-		width: 763px;
 	}
 
 	.headerYPF .nav ul{
@@ -219,9 +218,9 @@
 		position: absolute;
 		background: #f0f0f0;
 		padding: 24px 24px 24px 35px;
-		/*-moz-box-shadow: inset 0 14px 12px -13px #333;
-		-webkit-box-shadow: inset 0 14px 12px -13px #333;
-		box-shadow: inset 0 14px 12px -13px #333;*/
+		-moz-box-shadow: inset 0 14px 12px -13px #999;
+		-webkit-box-shadow: inset 0 14px 12px -13px #999;
+		box-shadow: inset 0 14px 12px -13px #999;
 		font-family: "din-medium";
 		font-size: 12px;
 		color: #7a7a7a;
@@ -254,6 +253,10 @@
 
 	.headerYPF .nav > ul .submenu dl a{
 		color: #7a7a7a;
+	}
+
+	.headerYPF .nav > ul .submenu dl dt a{
+		color: #363636;
 	}
 
 	.headerYPF .nav > ul .submenu dl a:hover{
@@ -289,14 +292,10 @@
 			margin-right: 90px;
 		}
 
-		.headerYPF .nuevas-fronteras .submenu dd.opid a{
-			margin-top: 15px;
-			color: #363636;
+		.headerYPF .nuevas-fronteras .submenu .opid{
+			clear: both;
 		}
 
-		.headerYPF .nuevas-fronteras .submenu dd.opid a:hover{
-			color: #0063be;
-		}
 
 		/* Submenu desafio energetico */
 
@@ -607,6 +606,11 @@
 				font-family: Arial, Helvetica, sans-serif;
 			}
 
+			.headerYPF .login .submenu .fields input.error{
+				border: 1px solid red;
+				border-radius: 5px;
+			}
+
 		.headerYPF .login .submenu .action{
 			overflow: hidden;
 			margin-top: 15px;
@@ -689,7 +693,6 @@
 		background: transparent url("./assets/icon-buscador.png") no-repeat 10px 11px;
 		font-size: 12px;
 		font-family: Arial, Helvetica, sans-serif;
-
 	}
 
 	.headerBuscador input[type="submit"]{
