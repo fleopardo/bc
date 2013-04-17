@@ -16,7 +16,7 @@ body{
 .botella{
 	position: absolute;
 	left: 150px;
-	top: 0;
+	top: -240px;
 	z-index: 0;
 }
 
