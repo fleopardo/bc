@@ -1,0 +1,129 @@
+/*
+ * INVESTIGACION
+*/
+
+	/* Intro */
+
+	.compromiso-internas .investigacion .row .intro{
+		background: #00aba9;
+		height: 432px;
+	}
+
+	.compromiso-internas .investigacion .row .intro h3{
+		margin-top: 20px;
+		margin-bottom: 15px;
+		font-size: 32px;
+	}
+
+	.compromiso-internas .investigacion .row .intro .scrollCustom{
+		height: 300px;
+	}
+
+
+/*
+ * Sustentabilidad
+*/
+
+	/* Intro */
+
+	.compromiso-internas .sustentabilidad .row .intro{
+		background: #8cbad7;
+		height: 385px;
+	}
+
+	.compromiso-internas .sustentabilidad .row .intro h3{
+		margin-top: 20px;
+	}
+
+	.compromiso-internas .sustentabilidad .row .intro .scrollCustom{
+		height: 300px;
+	}
+
+	/* BLoque de abajo */
+
+	.compromiso-internas .sustentabilidad .row .txt2,
+	.compromiso-internas .sustentabilidad .row .txt3{
+		height: 580px;
+	}
+
+	.compromiso-internas .sustentabilidad .row .txt2{
+		background: #2e2275;
+	}
+
+	.compromiso-internas .sustentabilidad .row .txt3{
+		background: #49008d;
+	}
+
+	.compromiso-internas .sustentabilidad .row .txt2 .scrollCustom,
+	.compromiso-internas .sustentabilidad .row .txt3 .scrollCustom{
+		height: 460px;
+	}
+
+
+
+
+/*
+ * CMASS
+*/
+
+	/* Intro */
+
+	.compromiso-internas .cmass .row .intro{
+		background: #0f8cb0;
+		height: 430px;
+	}
+
+	.compromiso-internas .cmass .row .intro h3{
+		margin-top: 20px;
+	}
+
+	.compromiso-internas .cmass .row .intro .scrollCustom{
+		height: 350px;
+	}
+
+	.compromiso-internas .cmass .row .intro p a:hover{
+		opacity: 0.5;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: alpha(opacity=50);
+	}
+
+
+	/* segunda fila */
+
+	.compromiso-internas .cmass .txt h3{
+		font-size: 25px;
+		line-height: 28px;
+	}
+
+	/* Sustentabilidad en recursos no convencionales*/
+
+	.compromiso-internas .cmass .row .sustentabilidad-no-convencionales{
+		height: 445px;
+		background: #004762;
+	}
+
+	.compromiso-internas .cmass .row .sustentabilidad-no-convencionales .scrollCustom{
+		height: 320px;
+	}
+
+	/* Tecnologia especializada */
+
+	.compromiso-internas .cmass .row .tecnologia{
+		height: 357px;
+		background: #575373;
+	}
+
+	.compromiso-internas .cmass .row .tecnologia .scrollCustom{
+		height: 220px;
+	}
+
+	/* Seguridad */
+
+	.compromiso-internas .cmass .row .seguridad{
+		height: 355px;
+		background: #87c3bf;
+	}
+
+	.compromiso-internas .cmass .row .seguridad .scrollCustom{
+		height: 220px;
+	}
