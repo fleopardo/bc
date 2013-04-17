@@ -1,0 +1,736 @@
+/*
+ * Reset solo para el header, para que no rompa nada del site donde se implemente.
+*/
+.headerYPF div,.headerYPF span,.headerYPF h1,.headerYPF h2,.headerYPF h3,.headerYPF h4,.headerYPF p,.headerYPF img,.headerYPF strong,.headerYPF b,.headerYPF i,.headerYPF dl,.headerYPF dt,.headerYPF dd,.headerYPF ul,.headerYPF li,.headerYPF fieldset,.headerYPF form,.headerYPF label,.headerYPF legend,.headerYPF .headerYPF,.headerYPF .nav{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-weight: normal;} .headerYPF,.headerYPF .nav{display:block} .headerYPF .nav ul{list-style:none} .headerYPF a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+.headerYPF input,.headerYPF select{vertical-align:middle;resize:none;outline:0} .headerYPF li{list-style:none} .headerYPF strong{font-weight:bold}
+
+.headerYPF .clearfix{ *zoom: 1; }
+.headerYPF .clearfix:before,.headerYPF .clearfix:after { display: table; content: ""; }
+.headerYPF .clearfix:after{ clear: both; }
+
+/*
+ * Fonts
+*/
+
+	@font-face {
+		font-family: "din-medium";
+		src: url("../header-fonts/din-medium.eot");
+		src: local("?"),
+		url("../header-fonts/din-medium.svg#blaimim_-webfont") format("svg"),
+		url("../header-fonts/din-medium.woff") format("woff"),
+		url("../header-fonts/din-medium.ttf") format("truetype");
+	}
+
+	@font-face {
+		font-family: "din-black";
+		src: url("../header-fonts/din-black.eot");
+		src: local("?"),
+		url("../header-fonts/din-black.svg#blaimim_-webfont") format("svg"),
+		url("../header-fonts/din-black.woff") format("woff"),
+		url("../header-fonts/din-black.ttf") format("truetype");
+	}
+
+
+/*
+ * .headerYPF
+*/
+
+	.headerYPF .hide{ display: none; }
+
+	.headerYPF{
+		background: #f0f0f0;
+		background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(240,240,240,1)));
+		background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 55px;
+		-moz-box-shadow: 0 8px 15px -5px #333;
+		-webkit-box-shadow: 0 8px 15px -5px #333;
+		box-shadow: 0 8px 15px -5px #333;
+		z-index: 1000;
+	}
+
+	.headerYPF > div,
+	.headerBuscador > div{
+		max-width: 1200px;
+		min-width: 1024px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+/*****************************/
+
+/*
+ * Logo
+*/
+
+	.headerYPF > div .logo,
+	.headerYPF > div .logo a{
+		display: block;
+		width: 245px;
+		height: 28px;
+	}
+
+	.headerYPF > div .logo{
+		background: url("./assets-header/logo.png") no-repeat left top;
+		position: fixed;
+		top: 15px;
+	}
+
+/*****************************/
+
+/*
+ * .navegacion
+*/
+
+	.headerYPF .nav{
+		float: right;
+	}
+
+	.headerYPF .nav ul{
+		float: left;
+	}
+
+	.headerYPF .nav ul li{
+		position: relative;
+	}
+
+	/* .navegacion principal */
+
+	.headerYPF .nav > ul.principal > li{
+		display: inline-block;
+		*display: inline; /* Para IE */
+		*zoom: 1; /* Para IE */
+		margin-right: 10px;
+		float: left;
+	}
+
+	.headerYPF .nav > ul.principal a{
+		font-size: 12px;
+		color: #363636;
+		font-family: "din-black";
+		display: block;
+		line-height: 52px;
+		border-top: 3px solid transparent;
+	}
+
+	.headerYPF .nav > ul.principal a:hover{
+		color:#0063be;
+	}
+
+	.headerYPF .nav > ul.principal a.active,
+	.headerYPF .nav > ul.principal a.open{
+		border-top-color: #0063be;
+	}
+
+	/* .navegacion secundaria */
+
+	.headerYPF .nav > ul.secundaria{
+		margin-left: 5px;
+	}
+
+	.headerYPF .nav > ul.secundaria > li{
+		float: left;
+		display: inline-block;
+		*display: inline; /* Para IE */
+		*zoom: 1; /* Para IE */
+	}
+
+	.headerYPF .nav > ul.secundaria > li,
+	.headerYPF .nav > ul.secundaria > li a{
+		height: 55px;
+	}
+
+	.headerYPF .nav > ul.secundaria > li a{
+		display: inline-block;
+		*display: inline; /* Para IE */
+		*zoom: 1; /* Para IE */
+		border-left: 1px solid #cbcbcb;
+		color: #0060c3;
+		text-transform: uppercase;
+		font-size: 12px;
+		font-family: "din-medium";
+		line-height: 55px;
+	}
+
+	.headerYPF .nav > ul.secundaria > li a.last{
+		padding: 0 10px;
+		border-right: 1px solid #cbcbcb;
+	}
+
+	.headerYPF .nav > ul.secundaria > li.icon > a,
+	.headerYPF .nav > ul.secundaria > li.sitios-ypf > a:hover,
+	.headerYPF .nav > ul.secundaria > li.sitios-ypf > a.active{
+		background: url("./assets-header/icons.png") no-repeat;
+	}
+
+	.headerYPF .nav > ul.secundaria > li.icon a{
+		width: 39px;
+	}
+
+		.headerYPF .nav > ul.secundaria > li.buscar a{
+			background-position: 0px 0px;
+		}
+
+			.headerYPF .nav > ul.secundaria > li.buscar a:hover,
+			.headerYPF .nav > ul.secundaria > li.buscar a.active{
+				background-position: 0px -54px;
+			}
+
+		.headerYPF .nav > ul.secundaria > li.mapa a{
+			background-position: -40px 0px;
+		}
+
+			.headerYPF .nav > ul.secundaria > li.mapa a:hover,
+			.headerYPF .nav > ul.secundaria > li.mapa a.active{
+				background-position: -40px -54px;
+			}
+
+		.headerYPF .nav > ul.secundaria > li.login a{
+			background-position: -80px 0px;
+		}
+
+			.headerYPF .nav > ul.secundaria > li.login a:hover,
+			.headerYPF .nav > ul.secundaria > li.login a.active{
+				background-position: -80px -54px;
+			}
+
+		.headerYPF .nav > ul.secundaria > li.asterisco a{
+			background-position: -120px 0px;
+		}
+
+			.headerYPF .nav > ul.secundaria > li.asterisco a:hover,
+			.headerYPF .nav > ul.secundaria > li.asterisco a.active{
+				background-position: -120px -54px;
+			}
+
+
+		.headerYPF .nav > ul.secundaria > li.sitios-ypf a:hover,
+		.headerYPF .nav > ul.secundaria > li.sitios-ypf a.active{
+			background-position: 0px -121px;
+		}
+
+	/* Submenu */
+
+	.headerYPF .submenu{
+		position: absolute;
+		background: #f0f0f0;
+		padding: 24px 24px 24px 35px;
+		-moz-box-shadow: inset 0 14px 12px -13px #999;
+		-webkit-box-shadow: inset 0 14px 12px -13px #999;
+		box-shadow: inset 0 14px 12px -13px #999;
+		font-family: "din-medium";
+		font-size: 12px;
+		color: #7a7a7a;
+		display: none;
+	}
+
+		.headerYPF .submenu.openLeft{
+			right: -35px;
+		}
+
+		.headerYPF .submenu.openRight{
+			left: -35px;
+		}
+
+	.headerYPF .nav > ul .submenu dl{
+		margin-bottom: 20px;
+	}
+
+	.headerYPF .nav > ul .submenu dl dt,
+	.headerYPF .nav > ul .submenu dl a{
+		font-family: "din-medium";
+		line-height: 28px;
+		font-size: 12px;
+		border: none;
+	}
+
+	.headerYPF .nav > ul .submenu dl dt{
+		color: #363636;
+	}
+
+	.headerYPF .nav > ul .submenu dl a{
+		color: #7a7a7a;
+	}
+
+	.headerYPF .nav > ul .submenu dl dt a{
+		color: #363636;
+	}
+
+	.headerYPF .nav > ul .submenu dl a:hover{
+		color: #0063be;
+	}
+
+	.headerYPF .submenu .info{
+		padding: 20px 25px;
+		border-left: 1px solid #ccc;
+		position: absolute;
+		top: 10px;
+		right: 0;
+		width: 251px;
+		bottom: 10px;
+		text-align: center;
+	}
+
+	.headerYPF .submenu .info p{
+		text-align: center;
+		line-height: 16px;
+		margin-top: 15px;
+		padding: 0 10px;
+	}
+
+		/* Submenu nuevas fronteras */
+
+		.headerYPF .nuevas-fronteras .submenu{
+			width: 700px;
+		}
+
+		.headerYPF .nuevas-fronteras .submenu dl{
+			float: left;
+			margin-right: 90px;
+		}
+
+		.headerYPF .nuevas-fronteras .submenu .opid-link{
+			clear: both;
+		}
+
+
+		/* Submenu desafio energetico */
+
+		.headerYPF .desafio-energetico .submenu{
+			width: 570px;
+			height: 225px;
+		}
+
+		.headerYPF .desafio-energetico .submenu h3{
+			color: #0063be;
+			margin-top: 10px;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: center;
+		}
+
+		/* Submenu cadena de energia */
+
+		.headerYPF .cadena-de-energia .submenu{
+			width: 586px;
+			height: 228px;
+		}
+
+		.headerYPF .cadena-de-energia .submenu .info{
+			width: 336px;
+		}
+
+		.headerYPF .cadena-de-energia .submenu h3{
+			color: #0063be;
+			margin-top: 10px;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.headerYPF .cadena-de-energia .submenu li a{
+			line-height: 28px;
+			border: none;
+			font-family: "din-medium";
+			display: inline;
+			color: #7a7a7a;
+		}
+
+		.headerYPF .cadena-de-energia .submenu li a:hover{
+			border:none;
+			color: #000000;
+		}
+
+
+		/* Nuestra energia */
+
+		.headerYPF .compromiso .submenu{
+			width: 586px;
+			height: 228px;
+		}
+
+		.headerYPF .compromiso .submenu .info{
+			width: 336px;
+		}
+
+		.headerYPF .compromiso .submenu h3{
+			color: #0063be;
+			margin-top: 10px;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.headerYPF .compromiso .submenu li a{
+			line-height: 28px;
+			border: none;
+			font-family: "din-medium";
+			display: inline;
+			color: #7a7a7a;
+		}
+
+		.headerYPF .compromiso .submenu li a:hover{
+			border:none;
+			color: #000000;
+		}
+
+
+		/* Nuestra energia */
+
+		.headerYPF .nuestra-energia .submenu{
+			width: 467px;
+			height: 195px;
+			right: -15px;
+		}
+
+		.headerYPF .nuestra-energia .submenu .info{
+			width: 240px;
+		}
+
+		.headerYPF .nuestra-energia .submenu h3{
+			color: #0063be;
+			margin-top: 10px;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: center;
+		}
+
+		.headerYPF .nuestra-energia .submenu li a{
+			line-height: 28px;
+			border: none;
+			font-family: "din-medium";
+			display: inline;
+			color: #7a7a7a;
+		}
+
+		.headerYPF .nuestra-energia .submenu li a:hover{
+			border:none;
+			color: #000000;
+		}
+
+
+		/* Sitios YPF */
+
+		.headerYPF .sitios-ypf .submenu{
+			width: 545px;
+			height: 195px;
+			right: -6px;
+			border-right: 6px solid #0060c3;
+		}
+
+		.headerYPF .sitios-ypf .submenu .links{
+			border-left: 1px solid #bbbbbb;
+			padding-left: 27px;
+			padding-top: 27px;
+			position: absolute;
+			right: 5px;
+			top: 4px;
+		}
+
+		.headerYPF .sitios-ypf .submenu .links li,
+		.headerYPF .sitios-ypf .submenu .links li a .icon{
+			background: url("./assets-header/icons-sitios-ypf.png") no-repeat;
+		}
+
+			.headerYPF .sitios-ypf .submenu .links li{
+				background-position: right 3px;
+				padding-right: 20px;
+			}
+
+			.headerYPF .sitios-ypf .submenu .links  li a .icon{
+				background-position: left -30px;
+				display: inline-block;
+				padding-left: 26px;
+			}
+
+		.headerYPF .nav > ul.secundaria > li .submenu .links li a{
+			line-height: 32px;
+			border: none;
+			font-family: "din-black";
+			display: block;
+			color: #000;
+			text-transform: uppercase;
+			border-bottom: 1px solid #bbbbbb;
+			text-align: right;
+			height: auto;
+		}
+
+		.headerYPF .nav > ul.secundaria > li .submenu .links li a:hover{
+			color: #0063be;
+		}
+
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header {
+		    position: relative;
+		    height: 235px;
+			width: 321px;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header.mask{
+			overflow: hidden;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header ul {
+		    width: 20000em;
+		    position: absolute;
+		    list-style: none;
+		    margin: 0;
+		    padding: 0;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header li {
+		    float: left;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-item {
+			width: 321px;
+			margin-right: 12px;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-prev-horizontal,
+		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-next-horizontal{
+		  	background: url("./assets-header/icons-carousel.png") no-repeat;
+		  	position: absolute;
+		  	z-index:100;
+		  	cursor: pointer;
+			width: 10px;
+			height: 19px;
+			top: 77px;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-prev-horizontal{
+			left: -25px;
+			background-position: 0 0;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-next-horizontal{
+			right: -25px;
+			background-position: -10px 0;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-prev-disabled,
+		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-next-disabled{
+			opacity: 0.2;
+			filter: alpha(opacity=20);
+			cursor: default;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header .jcarousel-clip {
+		    overflow: hidden;
+		}
+
+		.headerYPF .sitios-ypf .submenu .jcarousel-header p{
+			color: #0063be;
+			margin-top: 10px;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: center;
+		}
+
+
+		/* Submenu Login */
+
+		.headerYPF .login .submenu{
+			width: 360px;
+			height: 190px;
+			right: 0;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-bottom: 15px;
+			margin-top: -3px;
+		}
+
+		.headerYPF .login .submenu .cont{
+			padding: 0 10px 10px 10px;
+		}
+
+		.headerYPF .login .submenu .header,
+		.headerYPF .login .submenu .fields{
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 10px;
+		}
+
+		.headerYPF .login .submenu .header{
+			overflow: hidden;
+		}
+
+			.headerYPF .login .submenu .header h3{
+				float: left;
+			}
+
+			.headerYPF .login .submenu .header a{
+				text-transform: none;
+				width: auto !important;
+				height: auto !important;
+				line-height: 16px;
+				border: none;
+				text-decoration: underline;
+				float: right;
+				display: inline;
+			}
+
+
+		.headerYPF .login .submenu .fields{
+			margin-top: 18px;
+		}
+
+			.headerYPF .login .submenu .fields p{
+				margin-bottom: 10px;
+			}
+
+			.headerYPF .login .submenu .fields label{
+				width: 75px;
+				display: inline-block;
+				margin-right: 5px;
+			}
+
+			.ie7 .headerYPF .login .submenu .fields label{
+				display: inline;
+				zoom: 1;
+			}
+
+			.headerYPF .login .submenu .fields input{
+				border: 1px solid #dbdbdb;
+				width: 235px;
+				height: 10px;
+				padding: 10px;
+				color: #666;
+				-moz-box-shadow: inset 0px 0px 5px #ccc;
+				-webkit-box-shadow: inset 0px 0px 5px #ccc;
+				box-shadow: inset 0px 0px 5px #ccc;
+				background: #fff;
+				font-size: 12px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+			.headerYPF .login .submenu .fields input.error{
+				border: 1px solid red;
+				border-radius: 5px;
+			}
+
+		.headerYPF .login .submenu .action{
+			overflow: hidden;
+			margin-top: 15px;
+		}
+
+			.headerYPF .login .submenu .action a{
+				text-transform: none;
+				width: auto !important;
+				height: auto !important;
+				line-height: 28px;
+				border: none;
+				text-decoration: none;
+				color: #666666;
+				display: inline;
+				float: left;
+			}
+
+			.headerYPF .login .submenu .action input[type="submit"]{
+				border: 1px solid #dbdbdb;
+				background: #f0f0f0;
+				background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(240,240,240,1)));
+				background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+				background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+				background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+				background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+				height: 28px;
+				margin: 0 0 0 30px;
+				padding: 0 20px;
+				text-transform: uppercase;
+				color: #999;
+				cursor: pointer;
+				float: right;
+			}
+/*****************************/
+
+/*
+ * Dimmer
+*/
+	#dimmer{
+		position: fixed;
+		z-index: 999;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: transparent;
+	}
+
+
+/*
+ * Buscador
+*/
+
+	.headerBuscador{
+		position: fixed;
+		height: 64px;
+		background: #f4f4f4;
+		border-bottom: 1px solid #ccc;
+		left: 0;
+		right: 0;
+		top: 0;
+		display: none;
+		z-index: 10;
+	}
+
+	.headerBuscador form{
+		margin-top: 11px;
+		float: right;
+	}
+
+	.headerBuscador input[type="text"]{
+		border: 1px solid #dbdbdb;
+		width: 305px;
+		height: 20px;
+		padding: 10px 10px 10px 35px;
+		color: #666;
+		-moz-box-shadow: inset 0px 0px 5px #ccc;
+		-webkit-box-shadow: inset 0px 0px 5px #ccc;
+		box-shadow: inset 0px 0px 5px #ccc;
+		background: transparent url("./assets-header/icon-buscador.png") no-repeat 10px 11px;
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.headerBuscador input[type="submit"]{
+		border: 1px solid #dbdbdb;
+		background: #f0f0f0;
+		background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(240,240,240,1)));
+		background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		height: 42px;
+		margin: 0 0 0 30px;
+		padding: 0 20px;
+		text-transform: uppercase;
+		color: #999;
+		cursor: pointer;
+	}
+
+	.headerBuscador .close{
+		color: #999;
+		font-family: "din-black";
+		display: inline-block;
+		text-align: center;
+		padding: 4px 8px;
+		font-size: 13px;
+		background: #f8f8f8;
+		border: 1px solid #dbdbdb;
+		margin-left: 16px;
+		cursor: pointer;
+	}
+
+	.ie7 .headerBuscador .close{
+		zoom: 1;
+		display: inline;
+	}
