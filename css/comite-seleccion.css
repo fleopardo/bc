@@ -1,0 +1,64 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+.destacado{
+	margin-bottom: 20px;
+}
+
+.destacado > div{
+	position: relative;
+}
+
+.destacado p{
+	width: 415px;
+	padding: 20px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	line-height: 16px;
+}
+
+.destacado p span{
+	font-family: "din-black";
+}
+
+.lt-ie10 .destacado p span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.modulos article{
+	border:none;
+}
+
+.modulos article > div{
+	background-color: #b2d235;
+	padding: 20px;
+	position: relative;
+}
+
+.modulos article > div h4{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 27px;
+	letter-spacing: -1px;
+	line-height: 27px;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.modulos article > div p{
+	font-size: 13px;
+	line-height: 15px;
+	width: auto;
+	color: #fff;
+}
+
+.modulos article img{
+	width: 100%;
+}
