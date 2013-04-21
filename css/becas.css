@@ -159,20 +159,22 @@ text-transform: uppercase;
 	line-height: 20px;
 }
 
-.solicitar,
-.condiciones{
-	display: inline-block;
-	text-transform: uppercase;
-}
-
 .solicitar{
 	float: right;
 	background: url(../css/assets/ic_flecha-verde-oscuro.png) left no-repeat;
 	padding-left: 17px;
+	display: inline-block;
+	text-transform: uppercase;
 }
 
-.condiciones{
-	float: left;
+a.links{
+	display: block;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+}
+
+a.condiciones{
 	background: url(../css/assets/ic_pdf.png) right no-repeat;
 	padding-right: 24px;
+	display: inline-block;
 }
