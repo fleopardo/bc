@@ -4,33 +4,10 @@
  * Fernando Leopardo @fer_leopardo
 */
 
-.destacado{
-	margin-bottom: 20px;
-}
-
 .destacado > div{
-	position: relative;
+	height: 223px;
 }
 
-.destacado p{
-	width: 415px;
-	padding: 20px;
-	background: #fff;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	margin: 0;
-	line-height: 16px;
-}
-
-.destacado p span{
-	font-family: "din-black";
-}
-
-.lt-ie10 .destacado p span{
-	font-family: arial, helvetica, sans-serif;
-	font-weight: bold;
-}
 
 .modulos article{
 	border:none;
