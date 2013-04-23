@@ -108,22 +108,60 @@
 }
 
 .listado-container .right-col a{
+	position: relative;
 	text-align: center;
 	display: block;
 	padding: 30px 0;
 	border-bottom: 1px solid #191919;
-	-webkit-transition:background 0.5s ease-out;  /* Chrome y Safari */
-	-o-transition:background 0.5s ease-out;  /* Opera */
-	-moz-transition:background 0.5s ease-out;  /* Mozilla Firefox */
-	-ms-transition:background 0.5s ease-out;   /* Internet Explorer */
-	transition:background 0.5s ease-out;  /* W3C */
+	
 }
 
 .listado-container .right-col a:hover{
 	background: #252525;
 }
 
+.listado-container .right-col a > div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0, 0.5);
+	-webkit-transition:opacity 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:opacity 0.5s ease-out;  /* Opera */
+	-moz-transition:opacity 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:opacity 0.5s ease-out;   /* Internet Explorer */
+	transition:opacity 0.5s ease-out;  /* W3C */
+	opacity: 0;
+	-moz-opacity: 0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=0);
+}
 
+.listado-container .right-col a:hover > div{
+	-moz-opacity: 1;
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+}
+
+.listado-container .right-col a > div > span{
+	display: inline-block;
+	color: #fff;
+	font-size: 17px;
+	font-family: "din-black";
+	font-weight: normal;
+	position: absolute;
+	bottom: 40px;
+	left: 50px;
+}
+
+.listado-container .right-col img.videoplay{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -34px;
+	margin-left: -34px;
+	z-index: 10;
+}
 
 
 /** DESAFIO ENERGETICO **/
