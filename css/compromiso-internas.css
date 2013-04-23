@@ -54,12 +54,16 @@
 		background: #49008d;
 	}
 
+	.compromiso-internas .sustentabilidad .row .txt2 h3,
+	.compromiso-internas .sustentabilidad .row .txt3 h3{
+		font-size: 25px;
+		line-height: 28px;
+	}
+
 	.compromiso-internas .sustentabilidad .row .txt2 .scrollCustom,
 	.compromiso-internas .sustentabilidad .row .txt3 .scrollCustom{
 		height: 460px;
 	}
-
-
 
 
 /*

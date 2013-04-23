@@ -162,15 +162,17 @@ input.placeholder{ color: #373737; }
 .contenido .tit-uppercase{
 	text-transform: uppercase;
 	font-size: 11px;
-	opacity: 0.8;
+	opacity: 0.9;
 	margin-bottom: 30px;
 	display: block;
 	font-family: "din-black";
 	font-weight: normal;
 }
 
-.contenido .falso-link:hover{
-	text-decoration: underline;
+.contenido .tit-uppercase:hover{
+	opacity: 0.5;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
 }
 
 #loading{

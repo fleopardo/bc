@@ -133,6 +133,7 @@
 
 	.headerYPF .nav > ul.secundaria{
 		margin-left: 5px;
+		min-width: 245px;
 	}
 
 	.headerYPF .nav > ul.secundaria > li{
@@ -143,7 +144,7 @@
 	}
 
 	.headerYPF .nav > ul.secundaria > li.sitios-ypf{
-		min-width: 82px;
+		min-width: 85px;
 	}
 
 	.headerYPF .nav > ul.secundaria > li,
@@ -270,7 +271,7 @@
 		color: #363636;
 	}
 
-	.headerYPF .nav > ul .submenu dl a:hover{
+	.headerYPF .nav > ul .submenu a:hover{
 		color: #0063be;
 	}
 
@@ -375,7 +376,11 @@
 			text-align: center;
 		}
 
-		.headerYPF .compromiso .submenu li a{
+		.headerYPF .nav > ul .compromiso .submenu dl{
+			margin-bottom: 0;
+		}
+
+		.headerYPF .compromiso .submenu dd a{
 			line-height: 28px;
 			border: none;
 			font-family: "din-medium";
@@ -385,7 +390,6 @@
 
 		.headerYPF .compromiso .submenu li a:hover{
 			border:none;
-			color: #000000;
 		}
 
 
@@ -419,7 +423,6 @@
 
 		.headerYPF .nuestra-energia .submenu li a:hover{
 			border:none;
-			color: #000000;
 		}
 
 
