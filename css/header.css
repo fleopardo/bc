@@ -133,7 +133,7 @@
 
 	.headerYPF .nav > ul.secundaria{
 		margin-left: 5px;
-		min-width: 245px;
+		/*min-width: 245px;*/
 	}
 
 	.headerYPF .nav > ul.secundaria > li{
@@ -275,6 +275,10 @@
 		color: #0063be;
 	}
 
+	.headerYPF .nav > ul .submenu dl a.linea-doble{
+		line-height: 16px;
+	}
+
 	.headerYPF .submenu .info{
 		padding: 20px 25px;
 		border-left: 1px solid #ccc;
@@ -378,6 +382,7 @@
 
 		.headerYPF .nav > ul .compromiso .submenu dl{
 			margin-bottom: 0;
+			width: 220px;
 		}
 
 		.headerYPF .compromiso .submenu dd a{
