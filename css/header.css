@@ -189,6 +189,16 @@
 				background-position: 0px -54px;
 			}
 
+		.headerYPF .nav > ul.secundaria > li.lang a{
+			background-position: -160px 0px;
+		}
+
+			.headerYPF .nav > ul.secundaria > li.lang a:hover,
+			.headerYPF .nav > ul.secundaria > li.lang a.active{
+				background-position: -160px -54px;
+			}
+
+
 		.headerYPF .nav > ul.secundaria > li.mapa a{
 			background-position: -40px 0px;
 		}
@@ -197,6 +207,8 @@
 			.headerYPF .nav > ul.secundaria > li.mapa a.active{
 				background-position: -40px -54px;
 			}
+
+
 
 		.headerYPF .nav > ul.secundaria > li.login a{
 			background-position: -80px 0px;
