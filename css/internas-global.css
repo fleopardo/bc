@@ -91,6 +91,7 @@
 .jcarousel-slider-interna li {
     float: left;
 	margin-right: 0;
+	position: relative;
 }
 
 .jcarousel-slider-interna .jcarousel-prev-horizontal,
@@ -164,7 +165,7 @@
 }
 
 
-.galeria .bajada{
+.bajada{
 		position: absolute;
 		z-index: 10;
 		background: rgba(0,0,0,0.7);
@@ -177,13 +178,13 @@
 		right: 0;
 	}
 
-	.galeria .bajada p{
+	.bajada p{
 		font-size: 14px;
 		padding-left: 10px;
 		border-left: 1px solid #fff;
 	}
 
-	.galeria .bajada p span{
+	.bajada p span{
 		font-family: "din-black";
 		font-weight: normal;
 	}
