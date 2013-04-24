@@ -271,4 +271,90 @@ var shale = shale || {};
 
 		});
 
+
+	/* Compartir */
+
+	$(".compartir").live(shale.event.TAP, function(){
+
+		// creo y appendeo un contenedor
+		$("body").append("<div class='wrapperCompartir'>");
+
+		var wrapper = $(".wrapperCompartir");
+
+		// hago la peticion
+		wrapper.load("compartir.html", function(response, status, xhr) {
+
+			if(status == "success"){
+
+				var compartirWindow = $(".compartirWindow");
+
+				// Acomodo el compartir en el centro
+				var positionTop = ( $(window).height() - compartirWindow.height() ) / 2;
+				var positionLeft = ( $(window).width() - compartirWindow.width() ) / 2;
+
+				compartirWindow.css({
+					"position":"absolute",
+					"top": positionTop + "px",
+					"left": positionLeft + "px"
+				});
+
+				// Bindeo el submit
+				compartirWindow.find("#share-form").on("submit", function(event){
+
+
+
+
+					// ..aca pueden validarlo.. (agregando class error al input se muestra el estilo de error)
+
+					// ..hacen el envio por ajax..
+
+
+
+
+					// Muestro mensaje de confirmacion
+
+					compartirWindow.find(".content").hide();
+
+					compartirWindow.find(".confirmacion").show();
+
+						// Y bindeo el evento al boton de compartir con mas amigos
+
+						compartirWindow.find(".mas-amigos").on(shale.event.TAP, function(event){
+
+							event.preventDefault();
+
+							compartirWindow.find(".content").show();
+
+							compartirWindow.find(".confirmacion").hide();
+
+						});
+
+					event.preventDefault();
+
+				});
+
+				// Bindeo el close
+				compartirWindow.find(".close").on(shale.event.TAP, function(){
+
+					wrapper.fadeOut("fast", function(){
+
+							wrapper.remove();
+
+					});
+
+				});
+
+			}
+
+			if(status == "error"){
+
+				wrapper.remove();
+
+			}
+
+		})
+
+	})
+
+
 }());

@@ -727,9 +727,21 @@ footer .social li a{
 
 
 /*Ventana compartir*/
+
+.wrapperCompartir{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+}
+
 .compartirWindow{
 	width: 476px;
 	background: #f0f0f0;
+	margin: 0 auto;
 }
 
 .compartirWindow h2,
@@ -747,6 +759,7 @@ footer .social li a{
 }
 
 .compartirWindow .title span.close{
+	cursor: pointer;
 	display: block;
 	position: absolute;
 	background: url('./assets/bg-ventanaCompartir-close.png') center no-repeat;
@@ -769,6 +782,10 @@ footer .social li a{
 .compartirWindow .content-container{
 	border-top: 1px solid #fff;
 	padding: 30px 12px;
+}
+
+.compartirWindow .content{
+	height: 220px;
 }
 
 .compartirWindow .rows{
@@ -798,6 +815,11 @@ footer .social li a{
 	padding-bottom: 0;
 	font-size: 11px;
 	width: 278px;
+}
+
+.compartirWindow input[type=text].error,
+.compartirWindow textarea.error{
+	border: 1px solid #cc0000;
 }
 
 .compartirWindow textarea{
@@ -831,6 +853,7 @@ footer .social li a{
 .compartirWindow .content.confirmacion{
 	padding-left: 50px;
 	padding-right: 50px;
+	display: none;
 }
 
 .compartirWindow h3{

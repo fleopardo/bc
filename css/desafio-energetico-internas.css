@@ -127,6 +127,57 @@
 		line-height: 25px;
 	}
 
+	/* videos */
+
+	.desafio-energetico-internas .que-es-shale .row a.video{
+		position: relative;
+		text-align: center;
+		display: block;
+	}
+
+	.desafio-energetico-internas .que-es-shale .row a.video > div{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0,0,0, 0.5);
+		-webkit-transition:opacity 0.5s ease-out;  /* Chrome y Safari */
+		-o-transition:opacity 0.5s ease-out;  /* Opera */
+		-moz-transition:opacity 0.5s ease-out;  /* Mozilla Firefox */
+		-ms-transition:opacity 0.5s ease-out;   /* Internet Explorer */
+		transition:opacity 0.5s ease-out;  /* W3C */
+		opacity: 0;
+		-moz-opacity: 0;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=0);
+	}
+
+	.desafio-energetico-internas .que-es-shale .row a.video:hover > div{
+		-moz-opacity: 1;
+		opacity: 1;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+	}
+
+	.desafio-energetico-internas .que-es-shale .row a.video > div > span{
+		display: inline-block;
+		color: #fff;
+		font-size: 17px;
+		font-family: "din-black";
+		font-weight: normal;
+		position: absolute;
+		bottom: 5px;
+		left: 5px;
+	}
+
+	.desafio-energetico-internas .que-es-shale .row a.video img.videoplay{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-top: -34px;
+		margin-left: -34px;
+		z-index: 10;
+	}
+
 
 /*
  * VACA MUERTA
