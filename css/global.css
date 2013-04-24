@@ -718,3 +718,138 @@ footer .social li a{
 .videos .jcarousel-playlist.mask{
 	overflow: hidden;
 }
+
+
+
+
+
+
+
+
+/*Ventana compartir*/
+.compartirWindow{
+	width: 476px;
+	background: #f0f0f0;
+}
+
+.compartirWindow h2,
+.compartirWindow label,
+.compartirWindow p,
+.compartirWindow a{
+	font-family: "din-medium";
+	color: #666;
+}
+
+.compartirWindow .title{
+	border-bottom: 1px solid #c8c8c8;
+	position: relative;
+	padding: 0 12px;
+}
+
+.compartirWindow .title span.close{
+	display: block;
+	position: absolute;
+	background: url('./assets/bg-ventanaCompartir-close.png') center no-repeat;
+	width: 54px;
+	height: 48px;
+	text-indent: -100%;
+	overflow: hidden;
+	right: 0;
+	top: 0;
+	border-left: 1px solid #c8c8c8;
+}
+
+.compartirWindow h2{
+	font-size: 22px;
+	line-height: 48px;
+	background: url('./assets/bg-ventanaCompartir-title.png') left no-repeat;
+	padding-left: 32px;
+}
+
+.compartirWindow .content-container{
+	border-top: 1px solid #fff;
+	padding: 30px 12px;
+}
+
+.compartirWindow .rows{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.compartirWindow label{
+	font-size: 12px;
+	display: block;
+	line-height: 24px;
+	float: left;
+	width: 120px;
+}
+
+.compartirWindow input[type=text],
+.compartirWindow textarea{
+	float: left;
+	display: block;
+	height: 24px;
+	background: #fff;
+	border: 1px solid #c8c8c8;
+	outline: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 11px;
+	width: 278px;
+}
+
+.compartirWindow textarea{
+	resize: none;
+	overflow: hidden;
+	height: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.compartirWindow input[type=submit],
+.compartirWindow button{
+	background: #f5f5f5;
+	border: 1px solid #c8c8c8;
+	padding: 0 14px;
+	height: 30px;
+	display: block;
+	float: left;
+}
+
+.compartirWindow input[type=submit]{
+	margin-left: 120px;
+}
+
+.compartirWindow button{
+	margin-left: 10px;
+}
+
+
+.compartirWindow .content.confirmacion{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.compartirWindow h3{
+	font-family: "din-black";
+	font-size: 12px;
+	line-height: 16px;
+	color: #666;
+	padding-left: 30px;
+	background: url('./assets/bg-ventanaCompartir-mail.png') left no-repeat;
+	margin-bottom: 14px;
+}
+
+.compartirWindow p{
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 15px;
+}
+
+.compartirWindow a{
+	color: #3e4bed;
+	font-size: 12px;
+	text-decoration: underline;
+}
