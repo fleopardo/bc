@@ -13,7 +13,7 @@
 	padding: 20px;
 	width: 310px;
 	position: absolute;
-	bottom: 0;
+	bottom: 56px;
 	z-index: 10;
 	background: #fff url('./assets/novedades/fd-las-heras-title.png') 20px 72px no-repeat;
 }
@@ -33,7 +33,31 @@
 }
 
 
+.lasHeras .info{
+    height: auto;
+    min-height: auto;
+    width: auto;
+    float:none;
+    border-color: #b2d235;
+}
+
+.destacado.lasHeras .info h3{
+    font-size: 19px;
+    border-bottom: 1px dotted #000;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+
+
+
+.carousel-cont{
+    height: 635px;
+    position: relative;
+}
+
 .jcarousel-skin-tango .jcarousel-container {
+    
 }
 
 .jcarousel-skin-tango .jcarousel-direction-rtl {
@@ -57,9 +81,12 @@
     height: 635px;
 }
 
-
+.jcarousel-skin-tango .jcarousel-item img{
+    width: 100%;
+    height: auto;
+}
 .jcarousel-skin-tango .jcarousel-item-vertical {
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 
 .jcarousel-skin-tango .jcarousel-item-placeholder {
