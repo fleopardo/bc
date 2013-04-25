@@ -736,6 +736,7 @@ footer .social li a{
 	bottom: 0;
 	background: rgba(0, 0, 0, .5);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50000000,endColorstr=#50000000);
+	z-index: 2000;
 }
 
 .compartirWindow{
