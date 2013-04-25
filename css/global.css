@@ -578,16 +578,29 @@ footer .social li a{
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 	margin-bottom: 1px;
+	-webkit-transition:all 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:all 0.5s ease-out;  /* Opera */
+	-moz-transition:all 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:all 0.5s ease-out;   /* Internet Explorer */
+	transition:all 0.5s ease-out;  /* W3C */
 }
 
 .videos .list .volver{
 	background: #600066;
 }
 
+	.videos .list .volver:hover{
+		background-color: rgb(58, 1, 61);
+	}
+
 .videos .list .compartir{
 	background: #a0a0a0 url("./assets/icon-share.png") no-repeat 28px 13px;
 	text-indent: -9999px;
 }
+
+	.videos .list .compartir:hover{
+		background-color: #777;
+	}
 
 
 .videos .container-videos,
