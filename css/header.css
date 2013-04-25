@@ -83,6 +83,23 @@
 		top: 15px;
 	}
 
+	.headerYPF > div h2 a{
+		margin-left: 108px;
+		position: fixed;
+		top: 18px;
+		color: #474747;
+		font-size: 20px;
+		font-family: "din-medium";
+		text-transform: uppercase;
+		border-left: 1px solid #aaa;
+		line-height: 22px;
+		padding-left: 14px;
+	}
+
+	.headerYPF > div h2 span{
+		font-family: "din-black";
+	}
+
 /*****************************/
 
 /*
@@ -107,7 +124,7 @@
 		display: inline-block;
 		*display: inline; /* Para IE */
 		*zoom: 1; /* Para IE */
-		margin-right: 10px;
+		margin-right: 20px;
 		float: left;
 	}
 

@@ -197,13 +197,8 @@
 
 	/* Bloque texto izquierdo */
 
-	.desafio-energetico-internas .vaca-muerta .row .txt1{
-		background: #272727;
-		height: 220px;
-	}
-
-	.desafio-energetico-internas .vaca-muerta .row .txt1 .scrollCustom{
-		height: 220px;
+	.desafio-energetico-internas .vaca-muerta .row .microscopio{
+		position: relative;
 	}
 
 	/* Bloque texto derecho */
@@ -211,22 +206,19 @@
 	.desafio-energetico-internas .vaca-muerta .row .txt2{
 		background: url("./assets/textura-negra.jpg");
 		width: 757px;
-		height: 200px;
-		padding-top: 40px;
+		height: 218px;
 	}
 
 	.desafio-energetico-internas .vaca-muerta .row .txt2 .scrollCustom{
-		height: 200px;
+		height: 210px;
 	}
 
 	.desafio-energetico-internas .vaca-muerta .row .txt2 p{
 		font-family: "din-medium";
 		font-weight: normal;
-		font-size: 16px;
-		line-height: 35px;
-		width: 360px;
-		margin-right: 25px;
-		float: left;
+		font-size: 15px;
+		line-height: 22px;
+		margin-bottom: 13px;
 	}
 
 	.desafio-energetico-internas .vaca-muerta .row .txt2 p.last{
@@ -234,29 +226,16 @@
 	}
 
 	.desafio-energetico-internas .vaca-muerta .row .txt2 p span{
-		color: #1bb782;
-		font-size: 18px;
-	}
-
-	.desafio-energetico-internas .vaca-muerta .row .txt2 p span.big{
-		font-size: 30px;
+		font-family: "din-black"
 	}
 
 	/* SLider */
-	.desafio-energetico-internas .vaca-muerta .jcarousel-slider-interna{
+	.desafio-energetico-internas .vaca-muerta .el-equipo{
 		height: 472px;
 		width: 797px;
+		position: relative;
 	}
 
-	.desafio-energetico-internas .vaca-muerta .jcarousel-slider-interna li{
-		width: 797px;
-		height: 472px;
-	}
-
-	.desafio-energetico-internas .vaca-muerta .jcarousel-prev-horizontal,
-	.desafio-energetico-internas .vaca-muerta .jcarousel-next-horizontal{
-		top: 200px;
-	}
 
 /*
  * RECURSOS NO CONVENIONALES
