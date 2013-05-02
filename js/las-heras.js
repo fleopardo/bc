@@ -7,7 +7,8 @@
 ;(function(window){
 	$('#mycarousel').jcarousel({
         vertical : true,
-        scroll : 1
+        scroll : 1,
+        auto : 3
     });
 
 
