@@ -45,46 +45,51 @@ shale.navegacion = (function(window){
 
 			if(status == "success"){
 
-				if(window.history.pushState){
+				// Fix carga de la seccion antes que esten cargadas las imagenes
+				setTimeout(function(){
 
-					window.history.pushState({'page_id':page_id}, page_id, src);
+					if(window.history.pushState){
 
-				}else{
+						window.history.pushState({'page_id':page_id}, page_id, src);
 
-					window.location.hash = "#!"+page_id;
+					}else{
 
-				}
+						window.location.hash = "#!"+page_id;
 
-				$(".contenido").removeClass("active");
-				$("#"+page_id).addClass("active");
+					}
 
-				// Si appendeo en la izquierda muevo el scroll hacia la seccion donde estaba parado con velocidad 0, porque cuando agregas algo en la izquierda logicamente se corre todo el contenido..
-				if( flag_direction == "left" ){
+					$(".contenido").removeClass("active");
+					$("#"+page_id).addClass("active");
+
+					// Si appendeo en la izquierda muevo el scroll hacia la seccion donde estaba parado con velocidad 0, porque cuando agregas algo en la izquierda logicamente se corre todo el contenido..
+					if( flag_direction == "left" ){
+
+						$.scrollTo.window().queue([]).stop();
+
+						mascara.scrollTo("#" + id_seccion_actual, {speed:0, easing: shale.navegacion.easing});
+
+					}
 
 					$.scrollTo.window().queue([]).stop();
 
-					mascara.scrollTo("#" + id_seccion_actual, {speed:0, easing: shale.navegacion.easing});
+					mascara.scrollTo("#" + page_id, {speed:shale.navegacion.speed, easing: shale.navegacion.easing});
 
-				}
+					$("#loading").remove();
 
-				$.scrollTo.window().queue([]).stop();
+					//Ahora la seccion actual es hacia la que me movi
 
-				mascara.scrollTo("#" + page_id, {speed:shale.navegacion.speed, easing: shale.navegacion.easing});
+					id_seccion_actual = page_id;
 
-				$("#loading").remove();
+					// Activo los links en el header
+					if( $(".headerYPF").length > 0 ){
+						headerYPF.removeActives();
+						headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" a"));
+					}
 
-				//Ahora la seccion actual es hacia la que me movi
+					// lanzo un evento
+					$(window).trigger("navegacion");
 
-				id_seccion_actual = page_id;
-
-				// Activo los links en el header
-				if( $(".headerYPF").length > 0 ){
-					headerYPF.removeActives();
-					headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" a"));
-				}
-
-				// lanzo un evento
-				$(window).trigger("navegacion");
+				},1000);
 
 
 			}else if(status == "error"){

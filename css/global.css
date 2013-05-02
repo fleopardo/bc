@@ -90,26 +90,6 @@ body{
 	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
 }
 
-/* iPads (portrait) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : portrait) {
-	.contenido{
-		min-height: 1024px;
-	}
-}
-
-/* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-	.contenido{
-		min-height: 630px;
-	}
-}
-
 a{color: #fff;}
 
 a > img{
@@ -190,7 +170,8 @@ input.placeholder{ color: #373737; }
  * Contenedor Principal
 */
 .contenedor-principal{
-	padding-top: 100px;
+	padding-top: 75px;
+	padding-bottom: 60px;
 	width: 1200px;
 	margin: 0 auto;
 	position: relative;
@@ -272,12 +253,12 @@ input.placeholder{ color: #373737; }
 
 .preheader .flechas .anterior{
 	left: 0;
-	border-right: 2px ridge #444;
+	border-right: 1px solid #222;
 }
 
 .preheader .flechas .siguiente{
 	right: 0;
-	border-left: 2px ridge #444;
+	border-left: 1px solid #222;
 }
 
 .preheader .flechas .icon{
@@ -370,7 +351,7 @@ input.placeholder{ color: #373737; }
 .preheader .vistas li{
 	float: left;
 	width: 100px;
-	border-left: 2px ridge #444;
+	border-left: 1px solid #222;
 }
 
 .preheader .vistas li a{
@@ -458,7 +439,11 @@ input.placeholder{ color: #373737; }
 footer{
 	clear: both;
 	background: #373738;
-	margin-top: 45px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
 }
 
 footer > div{
@@ -890,4 +875,44 @@ footer .social li a{
 	color: #3e4bed;
 	font-size: 12px;
 	text-decoration: underline;
+}
+
+
+
+
+/* iPads ----------- */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+
+	.contenedor-principal{
+		padding-bottom: 0;
+	}
+
+	footer{
+		position: static;
+		margin-top: 45px;
+	}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	.contenido{
+		min-height: 1024px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	.contenido{
+		min-height: 630px;
+	}
 }
