@@ -496,23 +496,32 @@
 
 	.desafio-energetico-internas .energia-para-el-crecimiento .info{
 		width: 757px;
-		height: 214px;
-		background: url("./assets/desafio-energetico/energia-para-el-crecimiento/bg-info.jpg") no-repeat;
+		height: 204px;
+		background: url("./assets/textura-negra.jpg");
+		padding-top: 30px;
 	}
 
 	.desafio-energetico-internas .energia-para-el-crecimiento .info p{
-		font-family: "din-medium";
+		font-family: "din-regular";
 		font-weight: normal;
-		font-size: 19px;
+		font-size: 21px;
 		text-shadow: 2px 2px 3px #333;
-		line-height: 30px;
+		line-height: 35px;
+		border-top: 1px solid #fff;
+		padding-top: 18px;
+		margin-bottom: 22px;
 	}
 
-	.desafio-energetico-internas .energia-para-el-crecimiento .info p span{
-		font-size: 35px;
+	.desafio-energetico-internas .energia-para-el-crecimiento .info p strong{
+		font-size: 25px;
+		font-family: "din-black";
+		font-weight: normal;
+	}
+
+	.desafio-energetico-internas .energia-para-el-crecimiento .info p strong span{
 		color: #b98d00;
 	}
 
 	.desafio-energetico-internas .energia-para-el-crecimiento .info p.first{
-		margin-bottom: 60px;
+		border-top: 2px solid #fff;
 	}

@@ -131,3 +131,14 @@
 	.compromiso-internas .cmass .row .seguridad .scrollCustom{
 		height: 220px;
 	}
+
+	/* Medidas de Seguridad */
+
+	.compromiso-internas .cmass .row .medidas-seguridad{
+		height: 355px;
+		background: #111 url("./assets/textura-negra2.jpg");
+	}
+
+	.compromiso-internas .cmass .row .medidas-seguridad .scrollCustom{
+		height: 220px;
+	}

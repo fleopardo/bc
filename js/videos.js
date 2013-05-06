@@ -1,5 +1,4 @@
 
-
 	// Inicializa el carousel del submenu Sitios YPF
 	$('.jcarousel-playlist').removeClass("mask").jcarousel({
 		scroll: 1,
@@ -7,8 +6,6 @@
 	});
 
 	//Instancio el player y cargo el primer video de la playlist para reproducir.
-
-
 	if(shale.videoID){
 
 		var videoInicialDescripcion = $(".jcarousel-playlist li a#"+shale.videoID).attr("data-descripcion"),
@@ -25,18 +22,11 @@
 	}
 
 
-
-
 	$(".videoDescripcion").html(videoInicialDescripcion);
 	$(".container-videos .titulo").html(videoInicialTitulo);
 
-	jwplayer("mediaplayer").setup({
-			flashplayer: "./videoplayer/player.swf",
-			file: videoInicialPelicula,
-			image: videoInicialPoster,
-			skin: './videoplayer/glow.zip'
-		});
-
+	//agrego el video
+	$(".container-videos iframe").attr("src",videoInicialPelicula);
 
 	//On click del playlist actualizo la descripcion y reemplazo el video.
 	$(".jcarousel-playlist li a").bind(shale.event.TAP,function(event){
@@ -52,12 +42,8 @@
 		$(".videoDescripcion").html(descripcion);
 		$(".container-videos .titulo").html(titulo);
 
-		jwplayer("mediaplayer").setup({
-			flashplayer: "./videoplayer/player.swf",
-			file: video,
-			image: portada,
-			skin: './videoplayer/glow.zip'
-		});
+		// cambio el video
+		$(".container-videos iframe").attr("src",video);
 
 	});
 

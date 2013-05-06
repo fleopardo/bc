@@ -82,7 +82,7 @@
 							</dl>
 
 							<dl>
-								<dt><a href="plan-exploratorio.html">Plan exploratoria</a></dt>
+								<dt><a href="plan-exploratorio.html">Plan exploratorio</a></dt>
 
 								<dd><a href="plan-exploratorio.html#cuencas-productivas">Cuencas productivas</a></dd>
 								<dd><a href="plan-exploratorio.html#no-convencionales">No Convencional</a></dd>
@@ -292,7 +292,7 @@
 					<h3 class="titulo"></h3>
 
 					<div class="contentVideo">
-						<div id="mediaplayer"></div>
+						<iframe width="800" height="490" src="" frameborder="0" allowfullscreen></iframe>
 					</div>
 
 					<p class="videoDescripcion"></p>
@@ -304,22 +304,12 @@
 					<div class="jcarousel-playlist mask">
 						<ul>
 							<li>
-								<a href="./videos/test.flv" id="que-es-shale" data-descripcion="Lorem impsum" data-titulo="¿Qué es Shale?">
+								<a href="http://www.youtube.com/embed/mPxckJL0rGU" id="institucional" data-descripcion="Video institucional" data-titulo="Video institucional">
 									<img src="./img/videos/01.jpg" width="250" height="140" />
 								</a>
 							</li>
 							<li>
-								<a href="./videos/test.flv" id="que-es-shale2" data-descripcion="Lorem impsum 2" data-titulo="¿Qué es Shale 2?">
-									<img src="./img/videos/01.jpg" width="250" height="140" />
-								</a>
-							</li>
-							<li>
-								<a href="./videos/test.flv" id="que-es-shale3" data-descripcion="Lorem impsum 3" data-titulo="¿Qué es Shale 3?">
-									<img src="./img/videos/01.jpg" width="250" height="140" />
-								</a>
-							</li>
-							<li>
-								<a href="./videos/test.flv" id="que-es-shale4" data-descripcion="Lorem impsum 4" data-titulo="¿Qué es Shale 4?">
+								<a href="http://www.youtube.com/embed/FmxR5kC33dQ" id="ypf-tecnologia" data-descripcion="YPF Tecnología, innovación y desarrollo tecnológico" data-titulo="YPF Tecnología">
 									<img src="./img/videos/01.jpg" width="250" height="140" />
 								</a>
 							</li>
@@ -364,10 +354,13 @@
 	    			"js/navegacion.js",
 	    			"js/libs/jquery.jcarousel.js",
 	    			"js/libs/jquery.touchwipe.min.js",
-	    			"js/header.js",
-	    			"js/libs/jwplayer.js"],function(){
+	    			"js/header.js"],function(){
 
-		    	scr.js("js/global.js");
+		    	scr.js("js/global.js", function(){
+
+		    		scr.js("js/videos.js");
+
+		    	});
 
 			});
 
