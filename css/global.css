@@ -595,19 +595,13 @@ footer .social li a{
 
 .videos .container-videos,
 .videos .contentVideo,
-.videos .container-videos video,
-.videos .container-videos #mediaplayer,
-.videos #mediaplayer_wrapper,
 .videos .jcarousel-playlist,
 .videos .container-videos .videoDescripcion,
 .videos .container-playlist{
 	width: 800px;
 }
 
-.videos .contentVideo,
-.videos .container-videos video,
-.videos .container-videos #mediaplayer,
-#mediaplayer_wrapper{
+.videos .contentVideo{
 	height: 491px;
 }
 
@@ -643,7 +637,7 @@ footer .social li a{
 
 .videos .jcarousel-playlist{
     position: relative;
-    height: 140px;
+    height: 141px;
 }
 
 .videos .jcarousel-playlist ul {
@@ -662,21 +656,57 @@ footer .social li a{
 	cursor: pointer;
 }
 
-.videos .jcarousel-playlist li img{
-	opacity: 0.7;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-	filter: alpha(opacity=70);
+
+.videos .jcarousel-playlist li a{
+	position: relative;
+	display: block;
+}
+
+.videos .jcarousel-playlist li a > div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0, 0.5);
 	-webkit-transition:opacity 0.5s ease-out;  /* Chrome y Safari */
 	-o-transition:opacity 0.5s ease-out;  /* Opera */
 	-moz-transition:opacity 0.5s ease-out;  /* Mozilla Firefox */
 	-ms-transition:opacity 0.5s ease-out;   /* Internet Explorer */
 	transition:opacity 0.5s ease-out;  /* W3C */
+	opacity: 0;
+	-moz-opacity: 0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=0);
 }
 
-.videos .jcarousel-playlist li img:hover {
-    opacity: 1;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter: alpha(opacity=100);
+.videos .jcarousel-playlist li a:hover > div{
+	-moz-opacity: 1;
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+}
+
+.videos .jcarousel-playlist li a > div > span{
+	display: inline-block;
+	color: #fff;
+	font-family: "din-black";
+	font-weight: normal;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	text-align: left;
+	border-left: 2px solid #fff;
+	padding-left: 8px;
+	line-height: 18px;
+	font-size: 15px;
+}
+
+.videos .jcarousel-playlist li a img.videoplay{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+	z-index: 10;
 }
 
 .videos .jcarousel-playlist .jcarousel-prev-horizontal,

@@ -113,7 +113,10 @@
 	display: block;
 	padding: 30px 0;
 	border-bottom: 1px solid #191919;
-	
+}
+
+.listado-container .right-col a.last{
+	border-bottom: none;
 }
 
 .listado-container .right-col a:hover{
@@ -151,7 +154,11 @@
 	font-weight: normal;
 	position: absolute;
 	bottom: 40px;
-	left: 50px;
+	left: 58px;
+	text-align: left;
+	border-left: 2px solid #fff;
+	padding-left: 8px;
+	line-height: 22px;
 }
 
 .listado-container .right-col img.videoplay{
