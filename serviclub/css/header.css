@@ -73,7 +73,7 @@
 	.headerYPF > div .logo,
 	.headerYPF > div .logo a{
 		display: block;
-		width: 245px;
+		width: 98px;
 		height: 28px;
 	}
 
@@ -86,18 +86,16 @@
 	.headerYPF > div h2 a{
 		margin-left: 108px;
 		position: fixed;
-		top: 18px;
-		color: #474747;
-		font-size: 20px;
-		font-family: "din-medium";
-		text-transform: uppercase;
-		border-left: 1px solid #aaa;
-		line-height: 22px;
-		padding-left: 14px;
+		top: 20px;
+		display: block;
+		width: 102px;
+		height: 15px;
+		background: url("./assets-header/logo-serviclub.png") no-repeat left top;
 	}
 
 	.headerYPF > div h2 span{
 		font-family: "din-black";
+		font-weight: normal;
 	}
 
 /*****************************/
@@ -276,12 +274,15 @@
 			left: -35px;
 		}
 
-	.headerYPF .nav > ul .submenu dl{
-		margin-bottom: 20px;
+	.headerYPF .nav > ul .submenu dl,
+	.headerYPF .nav > ul .submenu ul{
+		margin-bottom: 10px;
+		float: none;
 	}
 
 	.headerYPF .nav > ul .submenu dl dt,
-	.headerYPF .nav > ul .submenu dl a{
+	.headerYPF .nav > ul .submenu dl a,
+	.headerYPF .nav > ul .submenu li a{
 		font-family: "din-medium";
 		line-height: 28px;
 		font-size: 12px;
@@ -290,13 +291,16 @@
 
 	.headerYPF .nav > ul .submenu dl dt{
 		color: #363636;
+		font-weight: bold;
 	}
 
-	.headerYPF .nav > ul .submenu dl a{
+	.headerYPF .nav > ul .submenu dl a,
+	.headerYPF .nav > ul .submenu ul li a{
 		color: #7a7a7a;
 	}
 
-	.headerYPF .nav > ul .submenu dl dt a{
+	.headerYPF .nav > ul .submenu dl dt a,
+	.headerYPF .nav > ul .submenu li a{
 		color: #363636;
 	}
 
@@ -326,142 +330,64 @@
 		padding: 0 10px;
 	}
 
-		/* Submenu nuevas fronteras */
 
-		.headerYPF .nuevas-fronteras .submenu{
-			width: 600px;
+		/* Submenu adhesion */
+
+		.headerYPF .adhesion .submenu{
+			width: 456px;
+			height: 380px;
 		}
 
-		.headerYPF .nuevas-fronteras .submenu dl{
+
+
+		/* Submenu Catalogo */
+
+		.headerYPF .catalogo .submenu{
+			width: 438px;
+			height: 190px;
+		}
+
+
+
+		/* Submenu mi serviclub */
+
+		.headerYPF .mi-serviclub .submenu{
+			width: 438px;
+			height: 200px;
+		}
+
+		.headerYPF .mi-serviclub .submenu .col{
+			width: 180px;
 			float: left;
-			margin-right: 45px;
+			margin-right: 10px;
 		}
 
-		.headerYPF .nuevas-fronteras .submenu .opid-link{
-			clear: both;
-		}
-
-
-		/* Submenu desafio energetico */
-
-		.headerYPF .desafio-energetico .submenu{
-			width: 570px;
-			height: 270px;
-		}
-
-		.headerYPF .desafio-energetico .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: center;
-		}
-
-		.headerYPF .desafio-energetico .submenu .info{
-			width: 320px;
-		}
-
-		/* Submenu cadena de energia */
-
-		.headerYPF .cadena-de-energia .submenu{
-			width: 586px;
-			height: 228px;
-		}
-
-		.headerYPF .cadena-de-energia .submenu .info{
-			width: 336px;
-		}
-
-		.headerYPF .cadena-de-energia .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: center;
-		}
-
-		.headerYPF .cadena-de-energia .submenu li a{
-			line-height: 28px;
-			border: none;
-			font-family: "din-medium";
-			display: inline;
-			color: #7a7a7a;
-		}
-
-		.headerYPF .cadena-de-energia .submenu li a:hover{
-			border:none;
-			color: #000000;
+		.headerYPF .mi-serviclub .submenu .info{
+			width: 249px;
 		}
 
 
-		/* Nuestra energia */
 
-		.headerYPF .compromiso .submenu{
-			width: 586px;
-			height: 228px;
+		/* Conoce serviclub */
+
+		.headerYPF .conoce-serviclub .submenu{
+			width: 438px;
+			height: 180px;
 		}
 
-		.headerYPF .compromiso .submenu .info{
-			width: 300px;
+		.headerYPF .conoce-serviclub .submenu .col{
+			width: 180px;
+			float: left;
+			margin-right: 10px;
 		}
 
-		.headerYPF .compromiso .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: center;
-		}
-
-		.headerYPF .nav > ul .compromiso .submenu dl{
-			margin-bottom: 0;
-			width: 220px;
-		}
-
-		.headerYPF .compromiso .submenu dd a{
-			line-height: 28px;
-			border: none;
-			font-family: "din-medium";
-			display: inline;
-			color: #7a7a7a;
-		}
-
-		.headerYPF .compromiso .submenu li a:hover{
-			border:none;
+		.headerYPF .conoce-serviclub .submenu .info{
+			width: 249px;
 		}
 
 
-		/* Nuestra energia */
 
-		.headerYPF .nuestra-energia .submenu{
-			width: 467px;
-			height: 195px;
-			right: -15px;
-		}
 
-		.headerYPF .nuestra-energia .submenu .info{
-			width: 240px;
-		}
-
-		.headerYPF .nuestra-energia .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: center;
-		}
-
-		.headerYPF .nuestra-energia .submenu li a{
-			line-height: 28px;
-			border: none;
-			font-family: "din-medium";
-			display: inline;
-			color: #7a7a7a;
-		}
-
-		.headerYPF .nuestra-energia .submenu li a:hover{
-			border:none;
-		}
 
 
 		/* Sitios YPF */
@@ -598,10 +524,15 @@
 
 		.headerYPF .lang .submenu ul{
 			float: none;
+			margin-bottom: 0px !important;
 		}
 
 		.headerYPF .lang .submenu li{
 			border-bottom: 1px solid #ccc;
+		}
+
+		.headerYPF .lang .submenu li.last{
+			border-bottom: none;
 		}
 
 		.headerYPF .nav > ul.secundaria > li.lang .submenu li a{

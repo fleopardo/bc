@@ -73,7 +73,7 @@
 	.headerYPF > div .logo,
 	.headerYPF > div .logo a{
 		display: block;
-		width: 245px;
+		width: 98px;
 		height: 28px;
 	}
 
@@ -276,12 +276,15 @@
 			left: -35px;
 		}
 
-	.headerYPF .nav > ul .submenu dl{
-		margin-bottom: 20px;
+	.headerYPF .nav > ul .submenu dl,
+	.headerYPF .nav > ul .submenu ul{
+		margin-bottom: 10px;
+		float: none;
 	}
 
 	.headerYPF .nav > ul .submenu dl dt,
-	.headerYPF .nav > ul .submenu dl a{
+	.headerYPF .nav > ul .submenu dl a,
+	.headerYPF .nav > ul .submenu li a{
 		font-family: "din-medium";
 		line-height: 28px;
 		font-size: 12px;
@@ -290,13 +293,16 @@
 
 	.headerYPF .nav > ul .submenu dl dt{
 		color: #363636;
+		font-weight: bold;
 	}
 
-	.headerYPF .nav > ul .submenu dl a{
+	.headerYPF .nav > ul .submenu dl a,
+	.headerYPF .nav > ul .submenu ul li a{
 		color: #7a7a7a;
 	}
 
-	.headerYPF .nav > ul .submenu dl dt a{
+	.headerYPF .nav > ul .submenu dl dt a,
+	.headerYPF .nav > ul .submenu li a{
 		color: #363636;
 	}
 
@@ -326,40 +332,176 @@
 		padding: 0 10px;
 	}
 
-		/* Submenu nuevas fronteras */
 
-		.headerYPF .ypf-hoy .submenu{
-			width: 600px;
-		}
-
-		.headerYPF .ypf-hoy .submenu dl{
-			float: left;
-			margin-right: 45px;
-		}
-
-		.headerYPF .ypf-hoy .submenu .opid-link{
-			clear: both;
-		}
-
-
-		/* Submenu desafio energetico */
+		/* Submenu Todo sobre YPF */
 
 		.headerYPF .todo-sobre-ypf .submenu{
-			width: 570px;
-			height: 270px;
+			width: 656px;
+			height: 380px;
+		}
+
+		.headerYPF .todo-sobre-ypf .submenu .col{
+			width: 180px;
+			float: left;
+			margin-right: 10px;
 		}
 
 		.headerYPF .todo-sobre-ypf .submenu h3{
 			color: #0063be;
 			margin-top: 10px;
 			text-transform: uppercase;
-			font-size: 11px;
 			text-align: center;
 		}
 
-		.headerYPF .todo-sobre-ypf .submenu .info{
-			width: 320px;
+		.headerYPF .todo-sobre-ypf .submenu h4{
+			float: none;
+			color: #0063be;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: left;
 		}
+
+		.headerYPF .todo-sobre-ypf .submenu h4 a{
+			color: #0063be;
+			line-height: 20px;
+		}
+
+		.headerYPF .todo-sobre-ypf .submenu .info{
+			width: 249px;
+		}
+
+
+
+
+
+
+		/* Submenu nuevas fronteras */
+
+		.headerYPF .ypf-hoy .submenu{
+			width: 438px;
+			height: 250px;
+		}
+
+		.headerYPF .ypf-hoy .submenu .col{
+			width: 180px;
+			float: left;
+			margin-right: 10px;
+		}
+
+		.headerYPF .ypf-hoy .submenu h3{
+			color: #0063be;
+			margin-top: 10px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.headerYPF .ypf-hoy .submenu h4{
+			float: none;
+			color: #0063be;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: left;
+		}
+
+		.headerYPF .ypf-hoy .submenu h4 a{
+			color: #0063be;
+			line-height: 20px;
+		}
+
+		.headerYPF .ypf-hoy .submenu .info{
+			width: 249px;
+		}
+
+
+
+		/* Submenu inversores */
+
+		.headerYPF .inversores .submenu{
+			width: 716px;
+			height: 460px;
+			left: -151px;
+		}
+
+		.headerYPF .inversores .submenu .col{
+			width: 210px;
+			float: left;
+			margin-right: 10px;
+		}
+
+		.headerYPF .inversores .submenu h3{
+			color: #0063be;
+			margin-top: 10px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.headerYPF .inversores .submenu h4{
+			float: none;
+			color: #0063be;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: left;
+		}
+
+		.headerYPF .inversores .submenu h4 a{
+			color: #0063be;
+			line-height: 20px;
+		}
+
+		.headerYPF .inversores .submenu .info{
+			width: 249px;
+		}
+
+
+
+
+		/* YPF y la industria */
+
+		.headerYPF .ypf-y-la-industria .submenu{
+			width: 900px;
+			height: 345px;
+			right: -447px;
+		}
+
+		.headerYPF .ypf-y-la-industria .submenu .col{
+			width: 180px;
+			float: left;
+			margin-right: 20px;
+		}
+
+		.headerYPF .ypf-y-la-industria .submenu .col.doble{
+			width: 420px;
+			float: left;
+			margin-right: 10px;
+		}
+
+		.headerYPF .ypf-y-la-industria .submenu h3{
+			color: #0063be;
+			margin-top: 10px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		.headerYPF .ypf-y-la-industria .submenu h4{
+			float: none;
+			color: #0063be;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: left;
+		}
+
+		.headerYPF .ypf-y-la-industria .submenu h4 a{
+			color: #0063be;
+			line-height: 20px;
+		}
+
+		.headerYPF .ypf-y-la-industria .submenu .info{
+			width: 249px;
+		}
+
+
+
+
 
 		/* Submenu cadena de energia */
 
@@ -369,15 +511,12 @@
 		}
 
 		.headerYPF .productos-y-servicios .submenu .info{
-			width: 336px;
+			width: 300px;
 		}
 
-		.headerYPF .productos-y-servicios .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
+		.headerYPF .productos-y-servicios .submenu li.uppercase a{
 			text-transform: uppercase;
-			font-size: 11px;
-			text-align: center;
+			color: #0063be;
 		}
 
 		.headerYPF .productos-y-servicios .submenu li a{
@@ -390,78 +529,12 @@
 
 		.headerYPF .productos-y-servicios .submenu li a:hover{
 			border:none;
-			color: #000000;
-		}
-
-
-		/* Nuestra energia */
-
-		.headerYPF .inversores .submenu{
-			width: 586px;
-			height: 228px;
-		}
-
-		.headerYPF .inversores .submenu .info{
-			width: 300px;
-		}
-
-		.headerYPF .inversores .submenu h3{
 			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: center;
-		}
-
-		.headerYPF .nav > ul .inversores .submenu dl{
-			margin-bottom: 0;
-			width: 220px;
-		}
-
-		.headerYPF .inversores .submenu dd a{
-			line-height: 28px;
-			border: none;
-			font-family: "din-medium";
-			display: inline;
-			color: #7a7a7a;
-		}
-
-		.headerYPF .inversores .submenu li a:hover{
-			border:none;
 		}
 
 
-		/* Nuestra energia */
 
-		.headerYPF .ypf-y-la-industria .submenu{
-			width: 467px;
-			height: 195px;
-			right: -15px;
-		}
 
-		.headerYPF .ypf-y-la-industria .submenu .info{
-			width: 240px;
-		}
-
-		.headerYPF .ypf-y-la-industria .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: center;
-		}
-
-		.headerYPF .ypf-y-la-industria .submenu li a{
-			line-height: 28px;
-			border: none;
-			font-family: "din-medium";
-			display: inline;
-			color: #7a7a7a;
-		}
-
-		.headerYPF .ypf-y-la-industria .submenu li a:hover{
-			border:none;
-		}
 
 
 		/* Sitios YPF */
@@ -480,6 +553,7 @@
 			position: absolute;
 			right: 5px;
 			top: 4px;
+			bottom: 5px;
 		}
 
 		.headerYPF .sitios-ypf .submenu .links li,
@@ -597,10 +671,15 @@
 
 		.headerYPF .lang .submenu ul{
 			float: none;
+			margin-bottom: 0px !important;
 		}
 
 		.headerYPF .lang .submenu li{
 			border-bottom: 1px solid #ccc;
+		}
+
+		.headerYPF .lang .submenu li.last{
+			border-bottom: none;
 		}
 
 		.headerYPF .nav > ul.secundaria > li.lang .submenu li a{
