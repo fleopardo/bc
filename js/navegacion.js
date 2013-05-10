@@ -83,7 +83,7 @@ shale.navegacion = (function(window){
 					// Activo los links en el header
 					if( $(".headerYPF").length > 0 ){
 						headerYPF.removeActives();
-						headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" a"));
+						headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" > a"));
 					}
 
 					// lanzo un evento
@@ -146,7 +146,7 @@ shale.navegacion = (function(window){
 			// Activo los links en el header
 			if( $(".headerYPF").length > 0 ){
 				headerYPF.removeActives();
-				headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" a"));
+				headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" > a"));
 			}
 
 			// lanzo un evento
@@ -209,7 +209,7 @@ shale.navegacion = (function(window){
 					// Activo los links en el header
 					if( $(".headerYPF").length > 0 ){
 						headerYPF.removeActives();
-						headerYPF.setActive($(".headerYPF ."+state.page_id+" a"));
+						headerYPF.setActive($(".headerYPF ."+state.page_id+" > a"));
 					}
 
 					// lanzo un evento
