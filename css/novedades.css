@@ -11,144 +11,145 @@
 
 
 .headerSections h3{
-	color: #F3AE24;
+  color: #F3AE24;
 }
 
 .modulos{
-	background: #fff;
-	margin-bottom: 30px;
+  background: #fff;
+  margin-bottom: 30px;
 }
 
 .modulos > div{
-	padding-left: 3px;
-	border-bottom: 2px solid #f7ac00;
-	border-right: 2px solid #f7ac00;
+  padding-left: 3px;
+  border-bottom: 2px solid #f7ac00;
+  border-right: 2px solid #f7ac00;
 }
 
 .info{
-	padding: 20px 15px 50px;
-	position: relative;
+  padding: 20px 15px 50px;
+  position: relative;
 }
 
 .info h3{
-	font-size: 15px;
-	line-height: 17px;
-	margin-bottom: 6px;
-	text-transform: uppercase;
+  font-size: 15px;
+  line-height: 17px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
 }
 
 .info h4{
-	font-size: 18px;
-	line-height: 20px;
-	margin-bottom: 12px;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 12px;
 }
 
 .destacado .info h3{
-	font-size: 26px;
-	line-height: 28px;
-	margin-bottom: 12px;
-	text-transform: none;
+  font-size: 26px;
+  line-height: 28px;
+  margin-bottom: 12px;
+  text-transform: none;
 }
 
-.info p{
-	font-size: 11px;
-	line-height: 14px;
-	margin-bottom: 20px;
+.info p,
+.info li{
+  font-size: 11px;
+  line-height: 14px;
+  margin-bottom: 20px;
 }
 
 .leer-mas{
-	position: absolute;
-	bottom: 10px;
-	text-transform: uppercase;
-	background: url(../css/assets/ic_flecha-azul.png) left no-repeat;
-	display: inline-block;
-	padding-left: 16px;
-	line-height: 21px;
-	font-family: "din-black";
-	font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  text-transform: uppercase;
+  background: url(../css/assets/ic_flecha-azul.png) left no-repeat;
+  display: inline-block;
+  padding-left: 16px;
+  line-height: 21px;
+  font-family: "din-black";
+  font-size: 12px;
 }
 
 .lt-ie10 .leer-mas{
-	font-family: arial, helvetica, sans-serif;
-	font-weight: bold;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .cont-links-bottom{
-	position: absolute;
-	bottom: 10px;
+  position: absolute;
+  bottom: 10px;
 }
 
 .cont-links-bottom .leer-mas{
-	position: static;
+  position: static;
 }
 
 .leer-mas:hover{
-	color: #16B2ED;
+  color: #16B2ED;
 }
 
 .span6.modulos > div{
-	padding-left: 0;
+  padding-left: 0;
 }
 
 .span6.modulos img{
-	float: left;
+  float: left;
 }
 
 .span6.modulos .info{
-	float: right;
-	padding-left: 10px;
-	width: 270px;
+  float: right;
+  padding-left: 10px;
+  width: 270px;
 }
 
 
 .mas-novedades .info{
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 
 
 article {
-	border-left: 3px solid #f7ac00;
+  border-left: 3px solid #f7ac00;
 }
 
 article .titulo{
-	font-family: "din-black";
-	font-size: 18px;
-	text-transform: uppercase;
-	background: #f2f2f2;
-	padding: 25px 13px 25px 27px;
-	line-height: 12px;
-	position: relative;
-	border-bottom: 1px solid #e2e2e2;
+  font-family: "din-black";
+  font-size: 18px;
+  text-transform: uppercase;
+  background: #f2f2f2;
+  padding: 25px 13px 25px 27px;
+  line-height: 12px;
+  position: relative;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 .lt-ie10 article .titulo{
-	font-family: arial, helvetica, sans-serif;
-	font-weight: bold;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
 }
 
 article .acordeon{
-	width: 28px;
-	height: 28px;
-	background: url("./assets/novedades/ic_accordion.jpg") top left;
-	display: block;
-	position: absolute;
-	right: 17px;
-	top: 17px;
-	cursor: pointer;
+  width: 28px;
+  height: 28px;
+  background: url("./assets/novedades/ic_accordion.jpg") top left;
+  display: block;
+  position: absolute;
+  right: 17px;
+  top: 17px;
+  cursor: pointer;
 }
 
 article .acordeon.open{
-	background-position: bottom left;
+  background-position: bottom left;
 }
 
 article .texto{
-	background: #fff;
-	padding: 25px 13px 25px 27px;
+  background: #fff;
+  padding: 25px 13px 25px 27px;
 }
 
 article .texto a:hover{
-	color: #aeaeae;
+  color: #aeaeae;
 }
 
 
@@ -159,113 +160,113 @@ article .texto a:hover{
 
 /* Detalle  */
 .headerSection{
-	position: relative;
+  position: relative;
 }
 
 .headerSection a{
-	position: absolute;
-	top: 5px;
-	right: 0;
-	font-size: 12px;
-	font-family: "din-black";
-	text-transform: uppercase;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 12px;
+  font-family: "din-black";
+  text-transform: uppercase;
 }
 
 .lt-ie10 .headerSection a{
-	font-family: arial, helvetica, sans-serif;
-	font-weight: bold;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .headerSection a:hover{
-	color: #F3AE24;
+  color: #F3AE24;
 }
 
 
 .nota .modulos{
-	background: none;
+  background: none;
 }
 
 .nota .modulos > div{
-	border:none;
+  border:none;
 }
 
 .nota h2{
-	text-transform: uppercase;
-	font-size: 26px;
-	line-height: 26px;
-	margin-bottom: 12px;
+  text-transform: uppercase;
+  font-size: 26px;
+  line-height: 26px;
+  margin-bottom: 12px;
 }
 
 .nota img{
-	float: right;
-	width: 340px;
+  float: right;
+  width: 340px;
 }
 
 .nota .info{
-	float: left;
-	width: 530px;
-	min-height: 620px;
-	background: #fff;
-	border-bottom: 2px solid #f7ac00;
-	border-right: 2px solid #f7ac00;
+  float: left;
+  width: 530px;
+  min-height: 620px;
+  background: #fff;
+  border-bottom: 2px solid #f7ac00;
+  border-right: 2px solid #f7ac00;
 }
 
 .nota .info ul{
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .nota .carouselSecundario {
-	background: #f2f2f2;
-	padding: 20px 0;
+  background: #f2f2f2;
+  padding: 20px 0;
 }
 
 .nota .carouselSecundario ul{
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .nota .carouselSecundario .jcarousel > li{
-	width: 500px;
+  width: 500px;
 }
 
 .nota .carouselSecundario .jcarousel li.first{
-	text-transform: uppercase;
-	margin-bottom: 15px;
-	margin-top: 30px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
 
 .nota .carouselSecundario .jcarousel li.first span{
-	text-transform: none;
-	font-family: din-medium;
+  text-transform: none;
+  font-family: din-medium;
 }
 
 .nota .carouselSecundario h1,
 .nota .carouselSecundario h2{
-	margin-left: 15px;
+  margin-left: 15px;
 }
 
 .nota .carouselSecundario h1,
 .nota .carouselSecundario h2,
 .nota .carouselSecundario .jcarousel li.first{
-	font-family: din-black;
-	font-size: 13px;
-	line-height: 15px;
+  font-family: din-black;
+  font-size: 13px;
+  line-height: 15px;
 }
 
 .lt-ie10 .nota .carouselSecundario h1,
 .lt-ie10 .nota .carouselSecundario h2,
 .lt-ie10 .nota .carouselSecundario .jcarousel li.first{
-	font-family: arial, helvetica, sans-serif;
-	font-weight: bold;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .nota .carouselSecundario h1{
-	text-transform: uppercase;
-	background: url(../css/assets/ic_flecha-verde.png) left no-repeat;
-	padding-left: 20px;
-	margin-bottom: 4px;
+  text-transform: uppercase;
+  background: url(../css/assets/ic_flecha-verde.png) left no-repeat;
+  padding-left: 20px;
+  margin-bottom: 4px;
 }
 
 .nota .carouselSecundario h2{
-	text-transform: none;
+  text-transform: none;
 }
 
