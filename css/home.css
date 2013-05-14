@@ -31,11 +31,14 @@ footer{
 
 #maximage .info-slider{
 	position:absolute;
-	top: 90px;
+	/*top: 90px;*/
 	margin-top: 90px;
 	z-index:9999;
 	left: 0;
 	right: 0;
+	height: 382px;
+	top: 50%;
+	margin-top: -191px;
 }
 
 #maximage .info-slider p{
@@ -74,6 +77,7 @@ footer{
 
 .cycle-nav {
     margin-top: 20px;
+    z-index: 9999;
 }
 
 .cycle-nav ul {
@@ -91,6 +95,7 @@ footer{
     height: 16px;
     width: 16px;
     border: 2px solid #000;
+    cursor: pointer;
 }
 
 .cycle-nav ul li.activeSlide a{
