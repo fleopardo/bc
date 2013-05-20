@@ -23,7 +23,7 @@
 		that.parent().addClass("active");
 
 		recetas.stop(true,true).fadeOut(500);
-		recetaToShow.stop(true,true).fadeIn(800);
+		recetaToShow.stop(true,true).delay(500).fadeIn(800);
 
 
 	})
@@ -37,6 +37,6 @@
  		});
  	});
 
- 	
+
 
 })(window);
