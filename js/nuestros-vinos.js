@@ -440,18 +440,41 @@
 	});
 
 
+
+
+
+	/* tooltips */
 	$(".botellas-container li").each(function(){
 
 		$(this).mouseenter(function(){
 			$(this).find('.tooltip').stop(true,true).fadeIn();
 		});
 
-		$(this).mouseout(function(){
+		$(this).mouseleave(function(){
 			$(this).find('.tooltip').stop(true,true).fadeOut();
 		});
 
 	});
-	
+
+	$(".botellas-container li").find(".more").on(latitud.event.TAP,function(event){
+
+		navegacion.isOpen = true;
+
+		event.preventDefault();
+
+		var url = $(this).parents("li").find("a:first").attr("href");
+
+		var asociacionLink = $(this).parents("li").attr("data-class");
+
+		var link = $seccionElVino.find("nav ."+asociacionLink + " a");
+
+		navegacion.peticion(url,link);
+
+		navegacion.activeLink(link);
+
+		$(".tooltip").fadeOut();
+	});
+
 
 
 
