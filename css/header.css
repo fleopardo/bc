@@ -137,12 +137,12 @@
 		border-top: 3px solid transparent;
 	}
 
-	.headerYPF .nav > ul.principal a:hover{
+	.headerYPF .nav > ul.principal a:hover,
+	.headerYPF .nav > ul.principal a.open{
 		color:#0063be;
 	}
 
-	.headerYPF .nav > ul.principal a.active,
-	.headerYPF .nav > ul.principal a.open{
+	.headerYPF .nav > ul.principal a.active{
 		border-top-color: #0063be;
 	}
 
