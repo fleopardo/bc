@@ -23,6 +23,10 @@ body{
 	font-weight: normal;
 }
 
+.lt-ie9 .contentPage.principal h2{
+	font: bold 22px/38px 'Century Gothic';
+}
+
 .articles{
 	margin: 0 auto;
 }
@@ -42,6 +46,7 @@ body{
 	height: auto;
 	float: left;
 	border: none;
+	border-top: 4px solid #000;
 }
 
 .img-video-container{
@@ -64,6 +69,14 @@ body{
 
 .articles article h3 span{
 	font-size: 22px;
+}
+
+.lt-ie9 .articles article h3 a{
+	font: 17px/19px 'Century Gothic';
+}
+
+.lt-ie9  .articles article h3 span{
+	font-size: 17px;
 }
 
 .share-container{
@@ -92,6 +105,10 @@ body{
 	font-weight: normal;
 }
 
+.lt-ie9 .over-article p{
+	font: 21px/25px 'Century Gothic';
+}
+
 .over-article a.leer-mas{
 	color: #fff;
 	font: 11px/23px 'neutraface2displaybold';
@@ -102,6 +119,9 @@ body{
 	background: url(./assets/tu-latitud/ic-leer-mas.png) left center no-repeat;
 }
 
+.lt-ie9 .over-article a.leer-mas{
+	font: 11px/23px 'Century Gothic';
+}
 
 
 /**** Transitions ****/

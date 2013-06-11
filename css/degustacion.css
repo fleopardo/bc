@@ -124,6 +124,7 @@ body{
 	float: right;
 	width: 56%;
 	position: relative;
+	margin-top: 40px;
 }
 
 .contentPage .contenedor .right-col .description{
@@ -132,6 +133,10 @@ body{
 
 .contentPage .contenedor .right-col .description img{
 	margin-bottom: 20px;
+}
+
+.contentPage .contenedor .right-col .description{
+	width: 500px;
 }
 
 .contentPage .contenedor .right-col .visual li{
@@ -197,6 +202,7 @@ body{
 	margin-top: 1px;
 	z-index: 100;
 	position: relative;
+	width: 490px;
 }
 
 .contentPage .contenedor .olfativa dd p{

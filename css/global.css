@@ -206,6 +206,10 @@ input.placeholder{ color: #373737; }
 	text-align: center;
 }
 
+.lt-ie9 .header nav > ul > li > a{
+	font-family: 'Century Gothic';
+}
+
 .header nav > ul > li .border-left,
 .header nav > ul > li .border-right{
 	position: absolute;
@@ -309,6 +313,10 @@ input.placeholder{ color: #373737; }
 	display: block;
 	line-height: 32px;
 	font-size: 15px;
+}
+
+.lt-ie9 .header nav > ul > li > div li a{
+	font-family: 'Century Gothic';
 }
 
 .header nav > ul > li > div li a:hover{

@@ -57,6 +57,12 @@ h2 span{
 	font-weight: normal;
 }
 
+.lt-ie9 h2{
+	font-family: "Century Gothic";
+	font-size: 50px;
+	line-height: 55px;
+}
+
 .fecha{
 	color: #1e1e1e;
 	text-transform: uppercase;
@@ -91,6 +97,13 @@ h2 span{
 	background: #fff;
 }
 
+.lt-ie9 .acciones li a{
+	font-family: "Century Gothic";
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 50px;
+}
+
 .acciones li a.primary{
 	background: #b89727;
 	color: #fff;
@@ -105,6 +118,11 @@ label[for="recordarme"]{
 	cursor: pointer;
 	position: relative;
 	top: 2px;
+}
+
+.lt-ie9 label[for="recordarme"]{
+	font-family: "Century Gothic";
+	font-size: 15px;
 }
 
 input#recordarme{
