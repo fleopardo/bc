@@ -207,7 +207,7 @@ input.placeholder{ color: #373737; }
 }
 
 .lt-ie9 .header nav > ul > li > a{
-	font-family: 'Century Gothic';
+	font-family: 'Muli', sans-serif;
 }
 
 .header nav > ul > li .border-left,
@@ -316,7 +316,7 @@ input.placeholder{ color: #373737; }
 }
 
 .lt-ie9 .header nav > ul > li > div li a{
-	font-family: 'Century Gothic';
+	font-family: 'Muli', sans-serif;
 }
 
 .header nav > ul > li > div li a:hover{

@@ -24,7 +24,10 @@ body{
 }
 
 .lt-ie9 .contentPage.principal h2{
-	font: bold 22px/38px 'Century Gothic';
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 38px;
 }
 
 .articles{
@@ -72,7 +75,10 @@ body{
 }
 
 .lt-ie9 .articles article h3 a{
-	font: 17px/19px 'Century Gothic';
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 19px;
 }
 
 .lt-ie9  .articles article h3 span{
@@ -106,7 +112,9 @@ body{
 }
 
 .lt-ie9 .over-article p{
-	font: 21px/25px 'Century Gothic';
+	font-family: 'Muli', sans-serif;
+	font-size: 21px;
+	line-height: 25px;
 }
 
 .over-article a.leer-mas{
@@ -120,7 +128,10 @@ body{
 }
 
 .lt-ie9 .over-article a.leer-mas{
-	font: 11px/23px 'Century Gothic';
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 23px;
 }
 
 
@@ -200,6 +211,16 @@ body{
 	font-size: 32px;
 }
 
+.lt-ie9 .nota .info-container h3{
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+}
+
+.lt-ie9 .nota .info-container h3 span{
+	font-family: 'Muli', sans-serif;
+	font-size: 25px;
+}
+
 .nota span.date{
 	color: #000;
 	font: 12px/16px tahoma, arial, helvetica,sans-serif;
@@ -250,6 +271,11 @@ ul.navigator li a{
 	font-family: 'neutraface2displaybold';
 	font-size: 9px;
 	font-weight: normal;
+}
+
+.lt-ie9 ul.navigator li a{
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
 }
 
 ul.navigator li a span{
