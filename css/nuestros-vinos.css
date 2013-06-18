@@ -14,7 +14,7 @@ body{
 
 .lt-ie9 .contentPage > section{
 	font-family: 'Muli', sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 18px;
 }
 
@@ -160,6 +160,10 @@ section.latitud .bloque1{
 .contentPage a.ir-abajo span{
 	background: #000;
 	padding: 0 18px 0 16px;
+}
+
+.lt-ie9 .contentPage a.ir-abajo{
+	font-size: 14px;
 }
 
 section.latitud .bloque2{
