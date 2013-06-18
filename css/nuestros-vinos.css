@@ -12,6 +12,12 @@ body{
 	font-weight: normal;
 }
 
+.lt-ie9 .contentPage > section{
+	font-family: 'Muli', sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+}
+
 .contentPage > section h2{
 	font-family: "neutra2displaylight";
 	font-size: 40px;
@@ -24,6 +30,16 @@ body{
 	font-family: "neutra2displaymedium";
 	font-size: 51px;
 	font-weight: normal;
+}
+
+.lt-ie9 .contentPage > section h2{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+}
+
+.lt-ie9 .contentPage > section h2 span{
+	font-family: 'Muli', sans-serif;
+	font-size: 40px;
 }
 
 .contentPage > section > .contenedor{
@@ -74,6 +90,11 @@ body{
 	height: 14px;
 	padding: 5px 5px 5px 10px;
 	font-weight: normal;
+}
+
+.lt-ie9 .scroll-nav li a span{
+	font-family: 'Muli', sans-serif;
+	font-size: 13px;
 }
 
 .scroll-nav li a span:after{
@@ -358,6 +379,10 @@ section.el-vino .bloqueBlanco{
 	right: 0;
 }
 
+.lt-ie9 .el-vino nav li a{
+	font-size: 11px;
+	font-family: 'Muli', sans-serif;
+}
 
 	.el-vino nav .malbec{
 		border-color: #a53228;
@@ -411,6 +436,13 @@ section.el-vino .bloqueBlanco{
 	font-weight: normal;
 }
 
+.lt-ie9 .nuestros-vinos-interna h2{
+	font-family: 'Muli', sans-serif;
+	font-size: 50px;
+	line-height: 52px;
+	font-weight: 300;
+}
+
 .nuestros-vinos-interna .left-col,
 .nuestros-vinos-interna .right-col{
 	width: 36.13%;
@@ -431,6 +463,13 @@ section.el-vino .bloqueBlanco{
 	font-family: "neutraface2displaybold";
 	text-transform: uppercase;
 	font-weight: normal;
+}
+
+.lt-ie9 .nuestros-vinos-interna h3,
+.lt-ie9 .nuestros-vinos-interna h4{
+	font-family: 'Muli', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .nuestros-vinos-interna h3{
@@ -456,6 +495,10 @@ section.el-vino .bloqueBlanco{
 .nuestros-vinos-interna p{
 	font-family: "neutra2displaymedium";
 	font-weight: normal;
+}
+
+.lt-ie9 .nuestros-vinos-interna p{
+	font-family: 'Muli', sans-serif;
 }
 
 .nuestros-vinos-interna .description{
