@@ -327,6 +327,10 @@ input.placeholder{ color: #373737; }
 	font-size: 18px;
 }
 
+.lt-ie9 .header nav > ul > li > div li a span.numero{
+	font-size: 15px;
+}
+
 .header nav .nuestros-vinos-menu li{
 	width: 21.28%;
 	margin-right:4.78%;
