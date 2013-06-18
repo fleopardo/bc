@@ -40,6 +40,13 @@ body{
 	color: #000;
 }
 
+.lt-ie9 .contentPage .contenedor h2{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+}
+
 .contentPage .contenedor h3{
 	font-family: "neutra2displaymedium";
 	font-weight: normal;
@@ -48,6 +55,13 @@ body{
 	color: #000;
 	text-transform: uppercase;
 	margin-bottom: 12px;
+}
+
+.lt-ie9 .contentPage .contenedor h3{
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
 }
 
 span.mascara-maridaje{
