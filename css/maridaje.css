@@ -27,6 +27,13 @@ body{
 	font-weight: normal;
 }
 
+.lt-ie9 .contentPage .contenedor h2{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+}
+
 .contentPage .contenedor h3,
 .contentPage .contenedor h4{
 	font-family: "neutraface2displaybold";
@@ -34,6 +41,14 @@ body{
 	line-height: 20px;
 	color: #000;
 	font-weight: normal;
+}
+
+.lt-ie9 .contentPage .contenedor h3,
+.lt-ie9 .contentPage .contenedor h4{
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
 }
 
 .contentPage .contenedor h3{
@@ -52,6 +67,14 @@ body{
 	font-size: 18px;
 	font-weight: normal;
 }
+
+.lt-ie9 .contentPage .contenedor p,
+.lt-ie9 .contentPage .contenedor .left-col .scroll li{
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+}
+
 
 .info-principal{
 	overflow: hidden;
@@ -75,8 +98,13 @@ body{
 }
 
 .contentPage .contenedor .left-col .scroll strong{
-	font-family: "neutra2displaymedium";
+	font-family: "neutraface2displaybold";
 	font-weight: normal;
+}
+
+.lt-ie9 .contentPage .contenedor .left-col .scroll strong{
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
 }
 
 .scroll .jspDrag{
@@ -140,6 +168,12 @@ body{
 	font-family: 'neutra2displaymedium';
 	text-transform: uppercase;
 	font-weight: normal;
+}
+
+.lt-ie9 .contentPage .contenedor .rueda-maridaje-ingreso h3{
+	font-size: 20px;
+	line-height: 24px;
+	font-family: 'Muli', sans-serif;
 }
 
 .contentPage .contenedor .rueda-maridaje-ingreso p{
@@ -232,4 +266,9 @@ body{
 	font-family: 'neutra2displaymedium';
 	font-size: 13px;
 	font-weight: normal;
+}
+
+.lt-ie9 .bloques-container .txt a span{
+	font-family: 'Muli', sans-serif;
+	font-size: 11px;
 }
