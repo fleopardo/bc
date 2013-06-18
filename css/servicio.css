@@ -22,6 +22,13 @@ body{
 	font-weight: normal;
 }
 
+.lt-ie9 .contentPage .contenedor h2{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+}
+
 .contentPage .contenedor h3{
 	font-family: "neutraface2displaybold";
 	font-size: 18px;
@@ -30,12 +37,26 @@ body{
 	font-weight: normal;
 }
 
+.lt-ie9 .contentPage .contenedor h3{
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
+}
+
 .contentPage .contenedor p,
 .contentPage .contenedor dd{
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
 	font-weight: normal;
+}
+
+.lt-ie9 .contentPage .contenedor p,
+.lt-ie9 .contentPage .contenedor dd{
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	line-height: 17px;
 }
 
 .contentPage .contenedor .left-col {
