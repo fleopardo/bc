@@ -27,6 +27,13 @@ body{
 	font-weight: normal;
 }
 
+.lt-ie9 .contentPage .contenedor h2{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+}
+
 .contentPage .contenedor p {
 	font-family: 'neutra2displaymedium';
 	color: #000;
@@ -35,9 +42,20 @@ body{
 	font-weight: normal;
 }
 
+.lt-ie9 .contentPage .contenedor p {
+	font-family: 'Muli', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
 .contentPage .contenedor p strong{
 	font-family: 'neutraface2displaybold';
 	font-weight: normal;
+}
+
+.lt-ie9 .contentPage .contenedor p strong{
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
 }
 
 .contentPage .contenedor > p {
@@ -54,6 +72,13 @@ body{
 	line-height: 22px;
 	margin-bottom: 20px;
 	font-weight: normal;
+}
+
+.lt-ie9 .contentPage .contenedor h3 {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
 }
 
 
@@ -80,6 +105,12 @@ body{
 	padding-right: 36px;
 	display: inline-block;
 	font-weight: normal;
+}
+
+.lt-ie9 .filter-container li a {
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
 }
 
 .filter-container li a span{
@@ -129,6 +160,13 @@ body{
 	color: #afafaf;
 }
 
+.lt-ie9 .vinos-container li a{
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 15px;
+}
+
 .vinos-container li img{
 	margin-bottom: 16px;
 	border-bottom: 7px solid #afafaf;
@@ -146,6 +184,11 @@ body{
 	color: #fff !important;
 	line-height: 66px;
 	padding: 0 12px;
+}
+
+.lt-ie9 .vinos-container li > p{
+	line-height: 66px !important;
+	font-size: 11px !important;
 }
 
 .vinos-container li.active{
