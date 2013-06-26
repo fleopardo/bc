@@ -164,6 +164,7 @@ var shale = shale || {};
 			});
 		}
 
+
 	/*
 	 * Instancio el scroll personalizado
 	*/

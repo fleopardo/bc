@@ -745,3 +745,82 @@
 		.compromiso .investigacion .more{
 			border-bottom-color: #006765;
 		}
+
+
+
+/* HOME Cadena de Energia */
+
+
+.cadena-de-energia .col{
+	width:975px;
+	float: left;
+}
+
+.cadena-de-energia .foto1{
+	width: 563px;
+	height: 288px;
+	position: relative;
+	float: left;
+	margin-right: 15px;
+}
+
+.cadena-de-energia .ver-mas{
+	width: 383px;
+	height: 288px;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	background: #c4a309 url("./assets/textura-amarilla.jpg");
+}
+
+.cadena-de-energia .ver-mas div h3{
+	font-family: "din-black";
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.cadena-de-energia .ver-mas div h3 span{
+	font-family: "din-light";
+	font-weight: normal;
+	display: block;
+}
+
+.cadena-de-energia .ver-mas div p.desc{
+	font-family: "din-regular";
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 20px;
+	margin-bottom: 12px;
+}
+
+	.cadena-de-energia .ver-mas:hover{
+		background: #705c00;
+	}
+
+	/* Cambio de color para icono "More" */
+	.cadena-de-energia .ver-mas .more{
+		border-bottom-color: #705c00;
+	}
+
+
+.cadena-de-energia .foto2,
+.cadena-de-energia .foto3{
+	float: left;
+	margin-right: 15px;
+	margin-top: 4px;
+}
+
+.cadena-de-energia .foto3{
+	margin-right: 0;
+}
+
+.cadena-de-energia .foto4{
+	width: 223px;
+	height: 484px;
+	position: relative;
+	float: left;
+	margin-right: 0;
+}

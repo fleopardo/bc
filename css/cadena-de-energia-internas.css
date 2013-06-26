@@ -1,0 +1,588 @@
+/*  Estructura del template */
+.cadena-de-energia-detalle .col-container{
+	overflow: hidden;
+	padding-left: 51px;
+	height: 472px;
+	background: #333333;
+	position: relative;
+}
+
+.cadena-de-energia-detalle .col{
+	float: left;
+	overflow: hidden;
+}
+
+	.cadena-de-energia-detalle .col1,
+	.cadena-de-energia-detalle .col4{
+		width: 210px;
+		height: 472px;
+	}
+
+	.cadena-de-energia-detalle .col2{
+		width: 362px;
+		height: 472px;
+	}
+
+	.cadena-de-energia-detalle .col3{
+		width: 366px;
+		height: 472px;
+	}
+
+.cadena-de-energia-detalle .col > .arriba{
+	width: 100%;
+	height: 291px;
+	overflow: hidden;
+}
+
+.cadena-de-energia-detalle .col > .abajo{
+	width: 100%;
+	height: 181px;
+	overflow: hidden;
+}
+
+.cadena-de-energia-detalle .col .txt{
+	padding: 25px;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+
+.cadena-de-energia-detalle .col .principal{
+	background: #919191 url("./assets/textura-gris2.jpg");
+}
+
+.cadena-de-energia-detalle .col .principal .txt{
+	padding: 25px 15px;
+}
+
+.cadena-de-energia-detalle .col .principal .step{
+	font-size: 40px;
+	line-height: 40px;
+	font-family: "din-regular";
+	font-weight: normal;
+	margin: 20px 0;
+	display: block;
+	background: url("./assets/cadena-de-energia/icons-titles.png") no-repeat;
+}
+
+	.cadena-de-energia-detalle .col .principal .step.uno{
+		background-position: 20px 1px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.dos{
+		background-position: 25px -39px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.tres{
+		background-position: 25px -83px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.cuatro{
+		background-position: 28px -127px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.cinco{
+		background-position: 28px -172px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.seis{
+		background-position: 28px -216px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.siete{
+		background-position: 28px -260px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.ocho{
+		background-position: 28px -299px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.nueve{
+		background-position: 28px -341px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.diez{
+		background-position: 47px -388px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.once{
+		background-position: 45px -434px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.doce{
+		background-position: 47px -480px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.trece{
+		background-position: 47px -525px;
+	}
+
+	.cadena-de-energia-detalle .col .principal .step.catorce{
+		background-position: 47px -578px;
+	}
+
+
+
+
+.cadena-de-energia-detalle .col .principal h3{
+	font-size: 32px;
+	line-height: 35px;
+	font-family: "din-light";
+	margin-bottom: 20px;
+}
+
+.cadena-de-energia-detalle .col .principal h3 span{
+	font-family: "din-black";
+	font-weight: normal;
+	display: block;
+}
+
+
+.cadena-de-energia-detalle .col > .arriba article{
+	height: 291px;
+}
+
+.cadena-de-energia-detalle .col > .abajo article{
+	height: 181px;
+}
+
+
+
+.cadena-de-energia-detalle .arriba .scrollCustom{
+	height: 247px;
+}
+
+.cadena-de-energia-detalle .abajo .scrollCustom{
+	height: 135px;
+}
+
+
+.cadena-de-energia-detalle .scrollCustom p{
+	margin-bottom: 10px;
+}
+
+/* Pantalla 01 */
+
+.cadena-de-energia-detalle .col2 .arriba .b-01{
+	background: #0088a9;
+}
+
+.cadena-de-energia-detalle .col3 .abajo .b-01{
+	background: #cdac12;
+}
+
+/* Pantalla 02 */
+
+.cadena-de-energia-detalle .col2 .abajo .b-02{
+	background: #d95a49;
+}
+
+.cadena-de-energia-detalle .col3 .arriba .b-02{
+	background: #103879;
+}
+
+
+/* Pantalla 03 */
+
+.cadena-de-energia-detalle .col2 .abajo .b-03{
+	background: #97b05a;
+}
+
+.cadena-de-energia-detalle .col3 .arriba .b-03{
+	background: #5f4665;
+}
+
+
+/* Pantalla 04 */
+
+.cadena-de-energia-detalle .col2 .arriba .b-04{
+	background: #cdac12;
+}
+
+.cadena-de-energia-detalle .col3 .abajo .b-04{
+	background: #870a00;
+}
+
+
+/* Pantalla 05 */
+
+.cadena-de-energia-detalle .col2 .arriba .b-05{
+	background: #d48d28;
+}
+
+.cadena-de-energia-detalle .col3 .abajo .b-05{
+	background: #751e13;
+}
+
+
+/* Pantalla 06 */
+
+.cadena-de-energia-detalle .col2 .arriba .b-06{
+	background: #d95a49;
+}
+
+.cadena-de-energia-detalle .col3 .abajo .b-06{
+	background: #0088a8;
+}
+
+
+/* Pantalla 07 */
+
+.cadena-de-energia-detalle .col2 .abajo .b-07{
+	background: #97b05a;
+}
+
+.cadena-de-energia-detalle .col3 .arriba .b-07{
+	background: #d95a49;
+}
+
+
+/* Pantalla 08 */
+
+.cadena-de-energia-detalle .col2 .abajo .b-08{
+	background: #d95a49;
+}
+
+.cadena-de-energia-detalle .col3 .arriba .b-08{
+	background: #00023b;
+}
+
+
+/* Pantalla 09 */
+
+.cadena-de-energia-detalle .col2 .abajo .b-09{
+	background: #ff5500;
+}
+
+.cadena-de-energia-detalle .col3 .arriba .b-09{
+	background: #cdac12;
+}
+
+/* Pantalla 10 */
+
+.cadena-de-energia-detalle .col2 .abajo .b-10{
+	background: #103879;
+}
+
+.cadena-de-energia-detalle .col3 .arriba .b-10{
+	background: #ff5500;
+}
+
+
+/* Pantalla 11 */
+
+.cadena-de-energia-detalle .col2 .arriba .b-11{
+	background: #e99c43;
+}
+
+
+/* Pantalla 12 */
+
+.cadena-de-energia-detalle .col2 .arriba .b-12{
+	background: #ff5500;
+}
+
+.cadena-de-energia-detalle .col3 .abajo .b-12{
+	background: #5f4665;
+}
+
+
+/* Pantalla 13 */
+
+.cadena-de-energia-detalle .col2 .abajo .b-13{
+	background: #103879;
+}
+
+.cadena-de-energia-detalle .col3 .arriba .b-13{
+	background: #78aab6;
+}
+
+
+/* Pantalla 14 */
+
+.cadena-de-energia-detalle .col2 .arriba .b-14{
+	background: #103879;
+}
+
+.cadena-de-energia-detalle .col3 .abajo .b-14{
+	background: #cdac12;
+}
+
+
+
+/* Menu */
+
+.col-container .menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 8;
+}
+
+.col-container .icon-menu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 51px;
+	height: 44px;
+	background: url("./assets/cadena-de-energia/menu.jpg") top left no-repeat;
+	display: block;
+	cursor: pointer;
+	z-index: 9;
+}
+
+.col-container .icon-menu:hover,
+.col-container .icon-menu.active{
+	background-position: bottom left;
+}
+
+.col-container .menu nav{
+	width: 260px;
+	padding: 20px 30px;
+	background: #600066;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 51px;
+}
+
+.col-container .menu nav h2{
+	font-size: 30px;
+	line-height: 35px;
+	font-family: "din-light";
+	font-weight: normal;
+	margin-bottom: 16px;
+}
+
+.col-container .menu nav h2 span{
+	font-family: "din-black";
+	display: block;
+}
+
+.col-container .menu nav li{
+	font-family: "din-regular";
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 25px;
+	list-style: decimal;
+	list-style-position: inside;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.col-container .menu nav li.hover,
+.col-container .menu nav li.active{
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+/* Mapa */
+.col-container .menu .mapa{
+	position: absolute;
+	left: 370px;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #272327;
+}
+
+.col-container .menu .mapa img{
+	position: absolute;
+	top: 77px;
+	left: 30px;
+}
+
+.col-container .menu .mapa li{
+	background: url("./assets/cadena-de-energia/icons-map.png");
+	cursor: pointer;
+	position: absolute;
+}
+
+	.col-container .menu .mapa li.uno{
+		width: 65px;
+		height: 75px;
+		background-position: 0px 0px;
+		top: 325px;
+		left: 431px;
+	}
+
+		.col-container .menu .mapa li.uno.hover,
+		.col-container .menu .mapa li.uno.active{
+			background-position: 0px -120px;
+		}
+
+	.col-container .menu .mapa li.dos{
+		width: 95px;
+		height: 75px;
+		background-position: -86px 0px;
+		top: 328px;
+		left: 715px;
+	}
+
+		.col-container .menu .mapa li.dos.hover,
+		.col-container .menu .mapa li.dos.active{
+			background-position: -86px -120px;
+		}
+
+	.col-container .menu .mapa li.tres{
+		width: 94px;
+		height: 62px;
+		background-position: -193px 0px;
+		top: 243px;
+		left: 700px;
+	}
+
+		.col-container .menu .mapa li.tres.hover,
+		.col-container .menu .mapa li.tres.active{
+			background-position: -193px -120px;
+		}
+
+	.col-container .menu .mapa li.cuatro{
+		width: 105px;
+		height: 75px;
+		background-position: -295px 0px;
+		top: 68px;
+		left: 570px;
+	}
+
+		.col-container .menu .mapa li.cuatro.hover,
+		.col-container .menu .mapa li.cuatro.active{
+			background-position: -295px -120px;
+		}
+
+	.col-container .menu .mapa li.cinco{
+		width: 78px;
+		height: 63px;
+		background-position: -411px 0px;
+		top: 80px;
+		left: 432px;
+	}
+
+		.col-container .menu .mapa li.cinco.hover,
+		.col-container .menu .mapa li.cinco.active{
+			background-position: -411px -120px;
+		}
+
+	.col-container .menu .mapa li.seis{
+		width: 120px;
+		height: 62px;
+		background-position: -503px 0px;
+		top: 80px;
+		left: 230px;
+	}
+
+		.col-container .menu .mapa li.seis.hover,
+		.col-container .menu .mapa li.seis.active{
+			background-position: -503px -120px;
+		}
+
+	.col-container .menu .mapa li.siete{
+		width: 95px;
+		height: 68px;
+		background-position: -627px 0px;
+		top: 80px;
+		left: 125px;
+	}
+
+		.col-container .menu .mapa li.siete.hover,
+		.col-container .menu .mapa li.siete.active{
+			background-position: -627px -120px;
+		}
+
+
+	.col-container .menu .mapa li.ocho{
+		width: 94px;
+		height: 68px;
+		background-position: -728px 0px;
+		top: 155px;
+		left: 30px;
+	}
+
+		.col-container .menu .mapa li.ocho.hover,
+		.col-container .menu .mapa li.ocho.active{
+			background-position: -728px -120px;
+		}
+
+	.col-container .menu .mapa li.nueve{
+		width: 60px;
+		height: 63px;
+		background-position: -832px 0px;
+		top: 238px;
+		left: 33px;
+	}
+
+		.col-container .menu .mapa li.nueve.hover,
+		.col-container .menu .mapa li.nueve.active{
+			background-position: -832px -120px;
+		}
+
+	.col-container .menu .mapa li.diez{
+		width: 90px;
+		height: 60px;
+		background-position: -899px 0px;
+		top: 238px;
+		left: 116px;
+	}
+
+		.col-container .menu .mapa li.diez.hover,
+		.col-container .menu .mapa li.diez.active{
+			background-position: -899px -120px;
+		}
+
+	.col-container .menu .mapa li.once{
+		width: 88px;
+		height: 65px;
+		background-position: -1001px 0px;
+		top: 338px;
+		left: 119px;
+	}
+
+		.col-container .menu .mapa li.once.hover,
+		.col-container .menu .mapa li.once.active{
+			background-position: -1001px -120px;
+		}
+
+	.col-container .menu .mapa li.doce{
+		width: 88px;
+		height: 68px;
+		background-position: -1097px 0px;
+		top: 332px;
+		left: 242px;
+	}
+
+		.col-container .menu .mapa li.doce.hover,
+		.col-container .menu .mapa li.doce.active{
+			background-position: -1097px -120px;
+		}
+
+	.col-container .menu .mapa li.trece{
+		width: 88px;
+		height: 54px;
+		background-position: -1196px 0px;
+		top: 146px;
+		left: 340px;
+	}
+
+		.col-container .menu .mapa li.trece.hover,
+		.col-container .menu .mapa li.trece.active{
+			background-position: -1196px -120px;
+		}
+
+	.col-container .menu .mapa li.catorce{
+		width: 114px;
+		height: 62px;
+		background-position: -1295px 0px;
+		top: 168px;
+		left: 468px;
+	}
+
+		.col-container .menu .mapa li.catorce.hover,
+		.col-container .menu .mapa li.catorce.active{
+			background-position: -1295px -120px;
+		}
+
+
+
+

@@ -119,12 +119,15 @@
 	}
 
 	/* .navegacion principal */
+	.headerYPF .nav > ul.principal{
+		min-width: 540px;
+	}
 
 	.headerYPF .nav > ul.principal > li{
 		display: inline-block;
 		*display: inline; /* Para IE */
 		*zoom: 1; /* Para IE */
-		margin-right: 20px;
+		margin-right: 15px;
 		float: left;
 	}
 
@@ -149,8 +152,7 @@
 	/* .navegacion secundaria */
 
 	.headerYPF .nav > ul.secundaria{
-		margin-left: 5px;
-		/*min-width: 245px;*/
+		min-width: 205px;
 	}
 
 	.headerYPF .nav > ul.secundaria > li{
@@ -158,10 +160,6 @@
 		display: inline-block;
 		*display: inline; /* Para IE */
 		*zoom: 1; /* Para IE */
-	}
-
-	.headerYPF .nav > ul.secundaria > li.sitios-ypf a{
-		min-width: 61px;
 	}
 
 	.headerYPF .nav > ul.secundaria > li,

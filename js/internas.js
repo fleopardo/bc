@@ -120,6 +120,88 @@
 		}*/
 
 
+	shale.showHideMap = function(){
+		if( $(".icon-menu").hasClass("active") ){
+			$(".icon-menu").removeClass("active");
+		}else{
+			$(".icon-menu").addClass("active");
+		}
+
+		$(".menu").animate({width: 'toggle'});
+	}
+
+	/*
+	 * Cadena de energia: Detectar hash e ir a la primer posicion
+	*/
+		if(document.location.search == "?map=off"){
+			shale.showHideMap();
+		}
+
+	/*
+	 * Cadena de energia: Abir y cerrar mapa desde el icono
+	*/
+		$(".cadena-de-energia-detalle .icon-menu").live(shale.event.TAP, function(){
+			shale.showHideMap();
+		});
+
+	/*
+	 * Cadena de energia: Hovers mapa interactivo
+	*/
+		// Hover
+		$(".cadena-de-energia-detalle .menu li").on("mouseover", function(){
+
+			var element = $(this).data("position");
+
+			// Reseteo los hovers
+			$(".cadena-de-energia-detalle .menu li").removeClass("hover");
+
+			// Agrego el hover a los 2 elementos que tienen el mismo data-position
+			$(".cadena-de-energia-detalle .menu li[data-position="+element+"]").addClass("hover");
+
+		});
+
+		// on Mouseleave borro el hover
+		$(".cadena-de-energia-detalle .menu li").on("mouseleave", function(){
+			$(".cadena-de-energia-detalle .menu li").removeClass("hover");
+		});
+
+	/*
+	 * Navegacion para cadena de energia
+	*/
+	$(".navegacion2, .cadena-de-energia-detalle .menu li").live(shale.event.TAP,function(event){
+
+		event.preventDefault();
+
+		var that = $(this);
+
+		// Si clickee en el mapa o el menu, o si clickee en las flechas y el menu esta abierto lo cierro primero y despues animo.
+		if( that.parents(".menu").length > 0 || $(".menu").is(":visible") ){
+
+			shale.showHideMap();
+
+			setTimeout(function(){
+				shale.navegacion2.init({
+					trigger: that,
+					speed: 600,
+					cantSection: 14,
+					easing: "easeInOutExpo"
+				});
+			},300);
+
+		// Sino animo directamente
+		}else{
+
+			shale.navegacion2.init({
+				trigger: that,
+				speed: 600,
+				cantSection: 14,
+				easing: "easeInOutExpo"
+			});
+
+		}
+
+	});
+
 	/*
 	 * Instancias onload
 	*/

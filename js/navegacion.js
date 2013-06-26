@@ -45,6 +45,15 @@ shale.navegacion = (function(window){
 
 			if(status == "success"){
 
+				// Si appendeo en la izquierda muevo el scroll hacia la seccion donde estaba parado con velocidad 0, porque cuando agregas algo en la izquierda logicamente se corre todo el contenido..
+				if( flag_direction == "left" ){
+
+					$.scrollTo.window().queue([]).stop();
+
+					mascara.scrollTo("#" + id_seccion_actual, {speed:0, easing: shale.navegacion.easing});
+
+				}
+
 				// Fix carga de la seccion antes que esten cargadas las imagenes
 				setTimeout(function(){
 
@@ -60,15 +69,6 @@ shale.navegacion = (function(window){
 
 					$(".contenido").removeClass("active");
 					$("#"+page_id).addClass("active");
-
-					// Si appendeo en la izquierda muevo el scroll hacia la seccion donde estaba parado con velocidad 0, porque cuando agregas algo en la izquierda logicamente se corre todo el contenido..
-					if( flag_direction == "left" ){
-
-						$.scrollTo.window().queue([]).stop();
-
-						mascara.scrollTo("#" + id_seccion_actual, {speed:0, easing: shale.navegacion.easing});
-
-					}
 
 					$.scrollTo.window().queue([]).stop();
 
