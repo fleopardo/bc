@@ -1,26 +1,26 @@
 /*
- * DESAFIO ENERGETICO DETALLE
+ * ENERGIA PARA EL CRECIMIENTO
 */
 
 	/* INTRO */
 
-	.desafio-energetico-internas .desafio-energetico-detalle .row .intro{
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .intro{
 		background: #0d7b6a;
 		height: 432px;
 	}
 
-	.desafio-energetico-internas .desafio-energetico-detalle .row .intro .scrollCustom{
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .intro .scrollCustom{
 		height: 300px;
 	}
 
 	/* Argentina un pais con futuro */
 
-	.desafio-energetico-internas .desafio-energetico-detalle .row .argentina{
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .argentina{
 		background: #6d8711;
 		height: 432px;
 	}
 
-	.desafio-energetico-internas .desafio-energetico-detalle .row .argentina h3{
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .argentina h3{
 		margin-top: 40px;
 		margin-bottom: 20px;
 		font-size: 22px;
@@ -29,30 +29,30 @@
 
 	/* Slider */
 
-	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-slider-interna{
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .jcarousel-slider-interna{
 		height: 472px;
 		width: 797px;
 		background: url("./assets/textura-negra2.jpg");
 	}
 
-	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-slider-interna li{
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .jcarousel-slider-interna li{
 		width: 797px;
 		height: 472px;
 	}
 
-	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-slider-interna li .content{
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .jcarousel-slider-interna li .content{
 		padding: 30px;
 	}
 
-	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-slider-interna li .content p{
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .jcarousel-slider-interna li .content p{
 		font-size: 15px;
 		font-family: "din-black";
 		font-weight: normal;
 		line-height: 20px;
 	}
 
-	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-prev-horizontal,
-	.desafio-energetico-internas .desafio-energetico-detalle .row .jcarousel-next-horizontal{
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .jcarousel-prev-horizontal,
+	.desafio-energetico-internas .energia-para-el-crecimiento .row .jcarousel-next-horizontal{
 		top: 200px;
 	}
 
@@ -477,31 +477,31 @@
 	}
 
 /*
- * ENERGIA PARA EL CRECIMIENTO
+ * DESAFIO ENERGETICO DETALLE
 */
 
 	/* detalle */
 
-	.desafio-energetico-internas .energia-para-el-crecimiento .row .intro{
+	.desafio-energetico-internas .desafio-energetico-detalle .row .intro{
 		background: #306f57;
 		height: 432px;
 	}
 
-	.desafio-energetico-internas .energia-para-el-crecimiento .row .intro .scrollCustom{
+	.desafio-energetico-internas .desafio-energetico-detalle .row .intro .scrollCustom{
 		height: 300px;
 	}
 
 
 	/* INFO */
 
-	.desafio-energetico-internas .energia-para-el-crecimiento .info{
+	.desafio-energetico-internas .desafio-energetico-detalle .info{
 		width: 757px;
 		height: 204px;
 		background: url("./assets/textura-negra.jpg");
 		padding-top: 30px;
 	}
 
-	.desafio-energetico-internas .energia-para-el-crecimiento .info p{
+	.desafio-energetico-internas .desafio-energetico-detalle .info p{
 		font-family: "din-regular";
 		font-weight: normal;
 		font-size: 21px;
@@ -512,16 +512,16 @@
 		margin-bottom: 22px;
 	}
 
-	.desafio-energetico-internas .energia-para-el-crecimiento .info p strong{
+	.desafio-energetico-internas .desafio-energetico-detalle .info p strong{
 		font-size: 25px;
 		font-family: "din-black";
 		font-weight: normal;
 	}
 
-	.desafio-energetico-internas .energia-para-el-crecimiento .info p strong span{
+	.desafio-energetico-internas .desafio-energetico-detalle .info p strong span{
 		color: #b98d00;
 	}
 
-	.desafio-energetico-internas .energia-para-el-crecimiento .info p.first{
+	.desafio-energetico-internas .desafio-energetico-detalle .info p.first{
 		border-top: 2px solid #fff;
 	}
