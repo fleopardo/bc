@@ -17,7 +17,7 @@ body{
 	position: relative;
 }
 
-.contentPage .contenedor h2 {
+/*.contentPage .contenedor h2 {
 	font-family: "neutra2displaylight";
 	font-size: 40px;
 	line-height: 44px;
@@ -32,28 +32,39 @@ body{
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
+}*/
+
+.contentPage .contenedor h2{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
 }
 
-.contentPage .contenedor p {
+/*.contentPage .contenedor p {
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
 	line-height: 22px;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .contentPage .contenedor p {
+.contentPage .contenedor p {
 	font-family: 'Muli', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
+	color: #000;
 }
 
-.contentPage .contenedor p strong{
+/*.contentPage .contenedor p strong{
 	font-family: 'neutraface2displaybold';
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .contentPage .contenedor p strong{
+.contentPage .contenedor p strong{
 	font-family: 'Muli', sans-serif;
 	font-weight: bold;
 }
@@ -64,7 +75,7 @@ body{
 }
 
 
-.contentPage .contenedor h3 {
+/*.contentPage .contenedor h3 {
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
@@ -72,13 +83,16 @@ body{
 	line-height: 22px;
 	margin-bottom: 20px;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .contentPage .contenedor h3 {
+.contentPage .contenedor h3 {
 	font-family: 'Muli', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
 	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
 
@@ -95,7 +109,7 @@ body{
 	margin-right: 36px;
 }
 
-.filter-container li a {
+/*.filter-container li a {
 	font-family: "neutraface2displaybold";
 	font-size: 14px;
 	line-height: 30px;
@@ -111,6 +125,18 @@ body{
 	font-family: 'Muli', sans-serif;
 	font-weight: bold;
 	font-size: 13px;
+}*/
+
+.filter-container li a {
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000;
+	background: url('./assets/elaboracion/bg-filters.png') top right no-repeat;
+	padding-right: 36px;
+	display: inline-block;
 }
 
 .filter-container li a span{
@@ -151,20 +177,22 @@ body{
 	display: block;
 }
 
-.vinos-container li a{
+/*.vinos-container li a{
 	font-family: "neutraface2displaybold";
 	text-transform: uppercase;
 	font-weight: normal;
 	font-size: 12px;
 	line-height: 16px;
 	color: #afafaf;
-}
+}*/
 
-.lt-ie9 .vinos-container li a{
+.vinos-container li a{
 	font-family: 'Muli', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	line-height: 15px;
+	text-transform: uppercase;
+	color: #afafaf;
 }
 
 .vinos-container li img{
