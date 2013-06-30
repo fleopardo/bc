@@ -13,7 +13,7 @@ body{
 	background-size: cover;
 }
 
-.contentPage .contenedor h2{
+/*.contentPage .contenedor h2{
 	font-family: "neutra2displaylight";
 	font-weight: normal;
 	font-size: 40px;
@@ -28,23 +28,34 @@ body{
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
+}*/
+
+.contentPage .contenedor h2{
+	font-family: 'Muli', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
 }
 
-.contentPage .contenedor h3,
+/*.contentPage .contenedor h3,
 .contentPage .contenedor h4{
 	font-family: "neutraface2displaybold";
 	font-size: 18px;
 	line-height: 22px;
 	color: #000;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .contentPage .contenedor h3,
-.lt-ie9 .contentPage .contenedor h4{
+.contentPage .contenedor h3,
+.contentPage .contenedor h4{
 	font-family: 'Muli', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
 	font-weight: bold;
+	color: #000;
 }
 
 .contentPage .contenedor h3{
@@ -56,18 +67,19 @@ body{
 	margin-bottom: 6px;
 }
 
-.contentPage .contenedor p,
+/*.contentPage .contenedor p,
 .contentPage .contenedor dd{
 	font-family: 'neutra2displaymedium';
-	color: #000;
+	
 	font-size: 18px;
-}
+}*/
 
-.lt-ie9 .contentPage .contenedor p,
-.lt-ie9 .contentPage .contenedor dd{
+.contentPage .contenedor p,
+.contentPage .contenedor dd{
 	font-family: 'Muli', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
+	color: #000;
 }
 
 .contentPage .contenedor .left-col {
