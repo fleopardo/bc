@@ -1,5 +1,4 @@
 
-
 body{
 	background-image: url("./assets/bg-teaser.jpg");
 	background-position: top center;
@@ -42,7 +41,7 @@ header h1 a{
 	background: url("./assets/logo.png") no-repeat top left;
 }
 
-h2{
+/*h2{
 	font-family: "neutra2displaylight";
 	font-weight: normal;
 	font-size: 41px;
@@ -55,15 +54,19 @@ h2{
 h2 span{
 	font-family: "neutraface2displaybold";
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 h2{
+h2{
 	font-family: 'Muli', sans-serif;
 	font-size: 50px;
 	line-height: 55px;
+	text-transform: uppercase;
+	width: 68%;
+	display: block;
+	margin-bottom: 20px;
 }
 
-.lt-ie9 h2 span{
+h2 span{
 	font-weight: bold;
 }
 
@@ -88,7 +91,7 @@ h2 span{
 	text-align: center;
 }
 
-.acciones li a{
+/*.acciones li a{
 	display: block;
 	width: 46px;
 	height: 46px;
@@ -99,13 +102,19 @@ h2 span{
 	color: #000;
 	font-weight: normal;
 	background: #fff;
-}
+}*/
 
-.lt-ie9 .acciones li a{
+.acciones li a{
 	font-family: 'Muli', sans-serif;
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 50px;
+	display: block;
+	width: 46px;
+	height: 46px;
+	text-transform: uppercase;
+	color: #000;
+	background: #fff;
 }
 
 .acciones li a.primary{
@@ -113,7 +122,7 @@ h2 span{
 	color: #fff;
 }
 
-label[for="recordarme"]{
+/*label[for="recordarme"]{
 	font-family: "neutraface2displaybold";
 	color: #fff;
 	font-size: 17px;
@@ -122,11 +131,17 @@ label[for="recordarme"]{
 	cursor: pointer;
 	position: relative;
 	top: 2px;
-}
+}*/
 
-.lt-ie9 label[for="recordarme"]{
+label[for="recordarme"]{
 	font-family: 'Muli', sans-serif;
 	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	position: relative;
+	top: 2px;
 }
 
 input#recordarme{
