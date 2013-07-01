@@ -11,7 +11,7 @@ body{
 	max-width: 984px;
 }
 
-.contentPage.principal h2{
+/*.contentPage.principal h2{
 	font-family: "neutraface2displaybold";
 	font-size: 22px;
 	line-height: 38px;
@@ -21,13 +21,16 @@ body{
 	padding: 0 15px;
 	margin: 0 0 40px;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .contentPage.principal h2{
+.contentPage.principal h2{
 	font-family: 'Muli', sans-serif;
-	font-weight: bold;
-	font-size: 22px;
-	line-height: 38px;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	color: #000;
 }
 
 .articles{
@@ -63,25 +66,25 @@ body{
 	margin-bottom: 3px;
 }
 
-.articles article h3 a{
+/*.articles article h3 a{
 	font: 18px/24px 'neutraface2displaybold';
 	color: #000;
 	text-transform: uppercase;
 	font-weight: normal;
-}
+}*/
 
 .articles article h3 span{
 	font-size: 22px;
 }
 
-.lt-ie9 .articles article h3 a{
+.articles article h3 a{
 	font-family: 'Muli', sans-serif;
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 19px;
 }
 
-.lt-ie9  .articles article h3 span{
+.articles article h3 span{
 	font-size: 17px;
 }
 
@@ -103,21 +106,25 @@ body{
 	cursor: pointer;
 }
 
-.over-article p{
+/*.over-article p{
 	color: #fff;
 	font: 21px/25px 'neutra2displaymedium';
 	text-transform: uppercase;
 	margin-bottom: 30px;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .over-article p{
+.over-article p{
 	font-family: 'Muli', sans-serif;
 	font-size: 21px;
 	line-height: 25px;
+	color: #fff;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 30px;
 }
 
-.over-article a.leer-mas{
+/*.over-article a.leer-mas{
 	color: #fff;
 	font: 11px/23px 'neutraface2displaybold';
 	text-transform: uppercase;
@@ -125,13 +132,18 @@ body{
 	display: inline-block;
 	padding-left: 12px;
 	background: url(./assets/tu-latitud/ic-leer-mas.png) left center no-repeat;
-}
+}*/
 
-.lt-ie9 .over-article a.leer-mas{
+.over-article a.leer-mas{
 	font-family: 'Muli', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	line-height: 23px;
+	display: inline-block;
+	padding-left: 12px;
+	background: url(./assets/tu-latitud/ic-leer-mas.png) left center no-repeat;
+	text-transform: uppercase;
+	color: #fff;
 }
 
 
@@ -195,7 +207,7 @@ body{
 	float: left;
 }
 
-.nota .info-container h3{
+/*.nota .info-container h3{
 	font-family: 'neutraface2displaybold';
 	font-weight: normal;
 	font-size: 25px;
@@ -209,17 +221,20 @@ body{
 
 .nota .info-container h3 span{
 	font-size: 32px;
-}
+}*/
 
-.lt-ie9 .nota .info-container h3{
+.nota .info-container h3{
 	font-family: 'Muli', sans-serif;
 	font-weight: bold;
+	font-size: 25px;
+	line-height: 30px;
+	color: #000;
+	text-transform: uppercase;
+	border-bottom: 1px solid #b2b2b2;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
 }
 
-.lt-ie9 .nota .info-container h3 span{
-	font-family: 'Muli', sans-serif;
-	font-size: 25px;
-}
 
 .nota span.date{
 	color: #000;
@@ -262,7 +277,7 @@ ul.navigator li.siguiente{
 	float: right;
 }
 
-ul.navigator li a{
+/*ul.navigator li a{
 	display: block;
 	background: url('./assets/tu-latitud/sp-siguiente-anterior.png') no-repeat;
 	line-height: 19px;
@@ -271,11 +286,18 @@ ul.navigator li a{
 	font-family: 'neutraface2displaybold';
 	font-size: 9px;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 ul.navigator li a{
+ul.navigator li a{
 	font-family: 'Muli', sans-serif;
 	font-weight: bold;
+	display: block;
+	background: url('./assets/tu-latitud/sp-siguiente-anterior.png') no-repeat;
+	line-height: 19px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: normal;
 }
 
 ul.navigator li a span{
