@@ -7,7 +7,7 @@ body{
 
 
 
-.contentPage.principal h2{
+/*.contentPage.principal h2{
 	font-family: "neutra2displaylight";
 	font-size: 41px;
 	text-transform: uppercase;
@@ -15,6 +15,16 @@ body{
 	padding-bottom: 15px;
 	border-bottom:1px solid #585656;
 	font-weight: normal;
+}*/
+
+.contentPage.principal h2{
+	font-family: "Muli", sans-serif;
+	font-weight: 300;
+	font-size: 41px;
+	text-transform: uppercase;
+	margin: 50px 0 30px;
+	padding-bottom: 15px;
+	border-bottom:1px solid #585656;
 }
 
 .info-container li,
