@@ -41,19 +41,23 @@ footer{
 	margin-top: -191px;
 }
 
-#maximage .info-slider p{
+/*#maximage .info-slider p{
 	font-size: 100px;
 	color: #fff;
 	text-transform: uppercase;
 	width: 650px;
 	font-family: "neutra2displaylight";
 	margin-bottom: 10px;
-}
+}*/
 
-.lt-ie9  #maximage .info-slider p{
+#maximage .info-slider p{
 	font-size: 90px;
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	width: 650px;
 }
 
 #arrow_left, #arrow_right {
