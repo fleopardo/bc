@@ -5,20 +5,21 @@ body{
 	background-size: cover;
 }
 
-.contentPage > section{
+/*.contentPage > section{
 	font-family: "neutra2displaymedium";
 	font-size: 18px;
 	background-repeat: no-repeat;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .contentPage > section{
+.contentPage > section{
 	font-family: 'Muli', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
+	background-repeat: no-repeat;
 }
 
-.contentPage > section h2{
+/*.contentPage > section h2{
 	font-family: "neutra2displaylight";
 	font-size: 40px;
 	text-transform: uppercase;
@@ -30,15 +31,19 @@ body{
 	font-family: "neutra2displaymedium";
 	font-size: 51px;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .contentPage > section h2{
+.contentPage > section h2{
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
-.lt-ie9 .contentPage > section h2 span{
+.contentPage > section h2 span{
 	font-family: 'Muli', sans-serif;
+	font-weight: 400;
 	font-size: 40px;
 }
 
@@ -76,7 +81,7 @@ body{
 	background: #a53228;
 }
 
-.scroll-nav li a span{
+/*.scroll-nav li a span{
 	position: absolute;
 	width: 135px;
 	top: 0;
@@ -90,11 +95,21 @@ body{
 	height: 14px;
 	padding: 5px 5px 5px 10px;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .scroll-nav li a span{
+.scroll-nav li a span{
 	font-family: 'Muli', sans-serif;
 	font-size: 13px;
+	position: absolute;
+	width: 135px;
+	top: 0;
+	bottom: 0;
+	left: -150px;
+	color: #fff;
+	text-transform: uppercase;
+	background: #000;
+	height: 14px;
+	padding: 5px 5px 5px 10px;
 }
 
 .scroll-nav li a span:after{
@@ -368,7 +383,7 @@ section.el-vino .bloqueBlanco{
 }
 
 
-.el-vino nav li a{
+/*.el-vino nav li a{
 	color: #fff;
 	background: #000;
 	text-transform: uppercase;
@@ -381,11 +396,20 @@ section.el-vino .bloqueBlanco{
 	bottom: 0;
 	left: 0;
 	right: 0;
-}
+}*/
 
 .lt-ie9 .el-vino nav li a{
 	font-size: 11px;
 	font-family: 'Muli', sans-serif;
+	color: #fff;
+	background: #000;
+	text-transform: uppercase;
+	padding: 13px 3px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 	.el-vino nav .malbec{
@@ -433,18 +457,20 @@ section.el-vino .bloqueBlanco{
 	overflow: hidden;
 }
 
-.nuestros-vinos-interna h2{
+/*.nuestros-vinos-interna h2{
 	font: 56px/58px "neutra2displaylight";
 	text-transform: uppercase;
 	color: #000;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .nuestros-vinos-interna h2{
+.nuestros-vinos-interna h2{
 	font-family: 'Muli', sans-serif;
 	font-size: 50px;
 	line-height: 52px;
 	font-weight: 300;
+	text-transform: uppercase;
+	color: #000;
 }
 
 .nuestros-vinos-interna .left-col,
@@ -462,15 +488,15 @@ section.el-vino .bloqueBlanco{
 	float: right;
 }
 
-.nuestros-vinos-interna h3,
+/*.nuestros-vinos-interna h3,
 .nuestros-vinos-interna h4{
 	font-family: "neutraface2displaybold";
 	text-transform: uppercase;
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .nuestros-vinos-interna h3,
-.lt-ie9 .nuestros-vinos-interna h4{
+.nuestros-vinos-interna h3,
+.nuestros-vinos-interna h4{
 	font-family: 'Muli', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -496,13 +522,14 @@ section.el-vino .bloqueBlanco{
 	color: #000;
 }
 
-.nuestros-vinos-interna p{
+/*.nuestros-vinos-interna p{
 	font-family: "neutra2displaymedium";
 	font-weight: normal;
-}
+}*/
 
-.lt-ie9 .nuestros-vinos-interna p{
+.nuestros-vinos-interna p{
 	font-family: 'Muli', sans-serif;
+	font-weight: normal;
 }
 
 .nuestros-vinos-interna .description{
