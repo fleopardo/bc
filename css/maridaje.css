@@ -275,7 +275,7 @@ body{
 	font-weight: normal;
 }*/
 
-.lt-ie9 .bloques-container .txt a span{
+.bloques-container .txt a span{
 	font-family: 'Muli', sans-serif;
 	font-size: 11px;
 	padding: 0 20px 0 12px;
