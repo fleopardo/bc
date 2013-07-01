@@ -1,4 +1,3 @@
-
 /*
  * autors:
  * Santiago Leopardo @sleopardo
@@ -13,7 +12,7 @@ body{
 	background-size: cover;
 }
 
-.contentPage .contenedor h2{
+/*.contentPage .contenedor h2{
 	font-family: "neutra2displaymedium";
 	font-size: 40px;
 	line-height: 30px;
@@ -26,6 +25,21 @@ body{
 .contentPage .contenedor h2 span{
 	font-size: 18px;
 	line-height: 20px;
+}*/
+
+.contentPage .contenedor h2{
+	font-family: "Muli", sans-serif;
+	font-size: 40px;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	color: #000;
+	font-weight: 300;
+}
+
+.contentPage .contenedor h2 span{
+	font-size: 18px;
+	line-height: 20px;
 }
 
 .contentPage .contenedor h3{
@@ -33,15 +47,15 @@ body{
 	font-size: 18px;
 	line-height: 22px;
 	color: #000;
-	font-weight: normal;
+	font-weight: 400;
 	text-transform: uppercase;
 	margin-bottom: 12px;
 }
 
 .contentPage .contenedor h4{
 	margin-bottom: 6px;
-	font-family: 'neutraface2displaybold';
-	font-weight: normal;
+	font-family: "Muli", sans-serif;
+	font-weight: bold;
 	font-size: 15px;
 	line-height: 23px;
 	text-transform: uppercase;
@@ -53,8 +67,8 @@ body{
 
 .contentPage .contenedor p,
 .contentPage .contenedor li{
-	font-family: 'neutra2displaymedium';
-	font-weight: normal;
+	font-family: "Muli", sans-serif;
+	font-weight: 300;
 	color: #000;
 	font-size: 18px;
 }
@@ -96,7 +110,8 @@ a.volver,
 a.nav,
 a.descargar{
 	color: #fff;
-	font-family: 'neutraface2displaybold';
+	font-family: "Muli", sans-serif;
+	font-weight: bold;
 	font-weight: normal;
 	font-size: 11px;
 	text-transform: uppercase;
