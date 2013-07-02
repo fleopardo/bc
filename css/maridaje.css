@@ -27,7 +27,7 @@ body{
 }*/
 
 .contentPage .contenedor h2{
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
@@ -47,7 +47,7 @@ body{
 
 .contentPage .contenedor h3,
 .contentPage .contenedor h4{
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
 	font-weight: bold;
@@ -73,7 +73,7 @@ body{
 
 .contentPage .contenedor p,
 .contentPage .contenedor .left-col .scroll li{
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 	color: #000;
@@ -107,7 +107,7 @@ body{
 }*/
 
 .contentPage .contenedor .left-col .scroll strong{
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 }
 
@@ -177,7 +177,7 @@ body{
 .contentPage .contenedor .rueda-maridaje-ingreso h3{
 	font-size: 20px;
 	line-height: 24px;
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	margin-bottom: 10px;
@@ -276,7 +276,7 @@ body{
 }*/
 
 .bloques-container .txt a span{
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 11px;
 	padding: 0 20px 0 12px;
 }

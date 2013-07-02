@@ -29,7 +29,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	     url('../fonts/neutra2displaylight.woff') format('woff'),
 	     url('../fonts/neutra2displaylight.ttf')  format('truetype');
 	font-weight: normal;
-	font-style: normal;   
+	font-style: normal;
 }
 
 @font-face {
@@ -54,6 +54,17 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'sofia_prolight';
+    src: url('../fonts/sofiaprolight-webfont.eot');
+    src: url('../fonts/sofiaprolight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sofiaprolight-webfont.woff') format('woff'),
+         url('../fonts/sofiaprolight-webfont.ttf') format('truetype'),
+         url('../fonts/sofiaprolight-webfont.svg#sofia_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*
  * End Fonts
@@ -85,7 +96,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 }
 
 body{
-	font-family: arial, helvetica, sans-serif;
+
 	color: #FFF;
 	background: #090909;
 	-webkit-font-smoothing: antialiased;
@@ -170,7 +181,7 @@ input.placeholder{ color: #373737; }
 .header nav{
 	float: right;
 	height: 92px;
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	width: 74%;
 }
 
@@ -214,7 +225,7 @@ input.placeholder{ color: #373737; }
 }
 
 .lt-ie9 .header nav > ul > li > a{
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 }
 
 .header nav > ul > li .border-left,
@@ -323,7 +334,7 @@ input.placeholder{ color: #373737; }
 }*/
 
 .header nav > ul > li > div li a{
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	display: block;
 	line-height: 32px;
 	font-size: 15px;
@@ -476,7 +487,7 @@ footer .social li a:hover{
 	padding: 0 10px 0 38px;
 	color: #fff;
 	/*font-family: "neutraface2displaybold";*/
-	font-family: 'Muli', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	text-transform: uppercase;
 	font-size: 11px;
 	line-height: 30px;
