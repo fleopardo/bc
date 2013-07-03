@@ -13,7 +13,7 @@ body{
 }*/
 
 .contentPage > section{
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body{
 }*/
 
 .contentPage > section h2{
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	font-weight: 300;
 	font-size: 40px;
 	text-transform: uppercase;
@@ -42,7 +42,7 @@ body{
 }
 
 .contentPage > section h2 span{
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	font-weight: 400;
 	font-size: 40px;
 }
@@ -98,7 +98,7 @@ body{
 }*/
 
 .scroll-nav li a span{
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	font-size: 13px;
 	position: absolute;
 	width: 135px;
@@ -400,7 +400,7 @@ section.el-vino .bloqueBlanco{
 
 .el-vino nav li a{
 	font-size: 11px;
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	color: #fff;
 	background: #000;
 	text-transform: uppercase;
@@ -465,7 +465,7 @@ section.el-vino .bloqueBlanco{
 }*/
 
 .nuestros-vinos-interna h2{
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	font-size: 50px;
 	line-height: 52px;
 	font-weight: 300;
@@ -497,7 +497,7 @@ section.el-vino .bloqueBlanco{
 
 .nuestros-vinos-interna h3,
 .nuestros-vinos-interna h4{
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -528,7 +528,7 @@ section.el-vino .bloqueBlanco{
 }*/
 
 .nuestros-vinos-interna p{
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	font-weight: normal;
 }
 

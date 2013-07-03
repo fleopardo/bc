@@ -21,9 +21,10 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
  * Fonts
 */
 
+/*
 @font-face {
 	font-family: 'neutra2displaylight';
-	src: url('../fonts/neutra2displaylight.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/neutra2displaylight.eot');
 	src: url('../fonts/bebasneue.svg#svgNeutra2displaylight') format('svg'),
 		 url('../fonts/neutra2displaylight.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/neutra2displaylight.woff') format('woff'),
@@ -45,7 +46,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 @font-face {
 	font-family: 'neutraface2displaybold';
-	src: url('../fonts/neutraface2displaybold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/neutraface2displaybold.eot');
 	src: url('../fonts/neutraface2displaybold.svg#svgNeutraface2displaybold') format('svg'),
 		 url('../fonts/neutraface2displaybold.eot?#iefix') format('embedded-opentype'),
 	     url('../fonts/neutraface2displaybold.woff') format('woff'),
@@ -65,7 +66,18 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
     font-style: normal;
 
 }
+*/
 
+@font-face {
+    font-family: 'MuseoSans_500';
+    src: url('../fonts/MuseoSans_500-webfont.eot');
+    src: url('../fonts/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_500-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_500-webfont.svg#museo_sans_500regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /*
  * End Fonts
 */
@@ -185,7 +197,7 @@ input.placeholder{ color: #373737; }
 .header nav{
 	float: right;
 	height: 92px;
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	width: 74%;
 }
 
@@ -229,7 +241,7 @@ input.placeholder{ color: #373737; }
 }
 
 .lt-ie9 .header nav > ul > li > a{
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 }
 
 .header nav > ul > li .border-left,
@@ -338,7 +350,7 @@ input.placeholder{ color: #373737; }
 }*/
 
 .header nav > ul > li > div li a{
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	display: block;
 	line-height: 32px;
 	font-size: 15px;
@@ -491,7 +503,7 @@ footer .social li a:hover{
 	padding: 0 10px 0 38px;
 	color: #fff;
 	/*font-family: "neutraface2displaybold";*/
-	font-family: 'sofia_prolight', sans-serif;
+	font-family: 'MuseoSans_500', sans-serif;
 	text-transform: uppercase;
 	font-size: 11px;
 	line-height: 30px;
