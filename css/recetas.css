@@ -14,7 +14,7 @@ body{
 
 .recetas .contentPage.principal{
 	background: url('./assets/maridaje/bg-suelo-botella.png') right 430px no-repeat;
-	padding: 90px 0;
+	padding: 90px 0 0 0;
 }
 
 /*.contentPage .contenedor h2{

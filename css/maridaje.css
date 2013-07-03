@@ -45,8 +45,8 @@ body{
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor h3,
-.contentPage .contenedor h4{
+.contentPage > .contenedor h3,
+.contentPage > .contenedor h4{
 	font-family: 'sofia_prolight', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
@@ -54,7 +54,7 @@ body{
 	color: #000;
 }
 
-.contentPage .contenedor h3{
+.contentPage > .contenedor h3{
 	font-size: 19px;
 	margin-bottom: 12px;
 }
@@ -71,8 +71,8 @@ body{
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor p,
-.contentPage .contenedor .left-col .scroll li{
+.contentPage > .contenedor p,
+.contentPage > .contenedor .left-col .scroll li{
 	font-family: 'sofia_prolight', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
@@ -85,19 +85,19 @@ body{
 	margin-bottom: 40px;
 }
 
-.contentPage .contenedor .left-col {
+.contentPage > .contenedor .left-col {
 	float: left;
 	width: 40%;
 }
 
-.contentPage .contenedor .left-col .scroll{
+.contentPage > .contenedor .left-col .scroll{
 	height: 300px;
 	overflow: auto;
 	padding-right: 20px;
 }
 
-.contentPage .contenedor .left-col .scroll p,
-.contentPage .contenedor .left-col .scroll li{
+.contentPage > .contenedor .left-col .scroll p,
+.contentPage > .contenedor .left-col .scroll li{
 	margin-bottom: 20px;
 }
 
@@ -106,7 +106,7 @@ body{
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor .left-col .scroll strong{
+.contentPage > .contenedor .left-col .scroll strong{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 }
@@ -119,13 +119,13 @@ body{
 	background: #bcbcbc;
 }
 
-.contentPage .contenedor .right-col {
+.contentPage > .contenedor .right-col {
 	float: right;
 	width: 50%;
 	position: relative;
 }
 
-.contentPage .contenedor .left-col .bloque{
+.contentPage > .contenedor .left-col .bloque{
 	margin-bottom: 23px;
 }
 
@@ -174,7 +174,7 @@ body{
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor .rueda-maridaje-ingreso h3{
+.contentPage > .contenedor .rueda-maridaje-ingreso h3{
 	font-size: 20px;
 	line-height: 24px;
 	font-family: 'sofia_prolight', sans-serif;
@@ -183,16 +183,16 @@ body{
 	margin-bottom: 10px;
 }
 
-.contentPage .contenedor .rueda-maridaje-ingreso p{
+.contentPage > .contenedor .rueda-maridaje-ingreso p{
 	color: #fff;
 	margin-bottom: 15px;
 }
 
-.contentPage .contenedor .rueda-maridaje-ingreso a{
+.contentPage > .contenedor .rueda-maridaje-ingreso a{
 	font-size: 11px;
 }
 
-.contentPage .contenedor .rueda-maridaje-ingreso a span{
+.contentPage > .contenedor .rueda-maridaje-ingreso a span{
 	padding: 0 20px 0 12px;
 }
 
@@ -230,35 +230,35 @@ body{
 	padding: 9px 1%;
 }
 
-.contentPage .contenedor .bloques-container h2{
+.contentPage > .contenedor .bloques-container h2{
 	font-size: 23px;
 	line-height: 25px;
 	margin-bottom: 4px;
 }
 
-.contentPage .contenedor .bloques-container h2,
-.contentPage .contenedor .bloques-container p{
+.contentPage > .contenedor .bloques-container h2,
+.contentPage > .contenedor .bloques-container p{
 	color: #fff
 }
 
 .bloques-container .txt a,
 .bloques-container .txt a span,
-.contentPage .contenedor .rueda-maridaje-ingreso a,
-.contentPage .contenedor .rueda-maridaje-ingreso a span{
+.contentPage > .contenedor .rueda-maridaje-ingreso a,
+.contentPage > .contenedor .rueda-maridaje-ingreso a span{
 	display: block;
 	line-height: 26px;
 	color: #fff
 }
 
 .bloques-container .txt a,
-.contentPage .contenedor .rueda-maridaje-ingreso a{
+.contentPage > .contenedor .rueda-maridaje-ingreso a{
 	background: url('./assets/maridaje/bg-links-bloques.png') left no-repeat;
 	padding-left: 28px;
 	text-transform: uppercase;
 }
 
 .bloques-container .txt a span,
-.contentPage .contenedor .rueda-maridaje-ingreso a span{
+.contentPage > .contenedor .rueda-maridaje-ingreso a span{
 	background: #000;
 }
 

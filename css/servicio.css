@@ -12,7 +12,7 @@ body{
 	background-size: cover;
 }
 
-/*.contentPage .contenedor h2{
+/*.contentPage > .contenedor h2{
 	font-family: "neutra2displaylight";
 	font-size: 40px;
 	text-transform: uppercase;
@@ -21,7 +21,7 @@ body{
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor h2{
+.contentPage > .contenedor h2{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
@@ -31,7 +31,7 @@ body{
 	color: #000;
 }
 
-/*.contentPage .contenedor h3{
+/*.contentPage > .contenedor h3{
 	font-family: "neutraface2displaybold";
 	font-size: 18px;
 	color: #000;
@@ -39,7 +39,7 @@ body{
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor h3{
+.contentPage > .contenedor h3{
 	font-family: 'sofia_prolight', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
@@ -48,49 +48,49 @@ body{
 	margin-bottom: 12px;
 }
 
-/*.contentPage .contenedor p,
-.contentPage .contenedor dd{
+/*.contentPage > .contenedor p,
+.contentPage > .contenedor dd{
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor p,
-.contentPage .contenedor dd{
+.contentPage > .contenedor p,
+.contentPage > .contenedor dd{
 	font-family: 'sofia_prolight', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 	color: #000;
 }
 
-.contentPage .contenedor .left-col {
+.contentPage > .contenedor .left-col {
 	float: left;
 	width: 40%;
 
 }
 
-.contentPage .contenedor .right-col {
+.contentPage > .contenedor .right-col {
 	float: right;
 	width: 55%;
 	position: relative;
 }
 
-.contentPage .contenedor .right-col img{
+.contentPage > .contenedor .right-col img{
 	width: 100%;
 	height: auto;
 }
 
-.contentPage .contenedor .left-col .bloque{
+.contentPage > .contenedor .left-col .bloque{
 	margin-bottom: 25px;
 }
 
-.contentPage .contenedor dl{
+.contentPage > .contenedor dl{
 	width: 360px;
 	margin-bottom: 4px;
 }
 
-.contentPage .contenedor dt{
+.contentPage > .contenedor dt{
 	background: url('./assets/cepas/sp_iconos.png') top right no-repeat;
 	padding-right: 36px;
 	line-height: 31px;
@@ -102,13 +102,13 @@ body{
 	z-index: 0;
 }
 
-.contentPage .contenedor dt span{
+.contentPage > .contenedor dt span{
 	background: #000;
 	padding: 0 10px;
 	display: block;
 }
 
-.contentPage .contenedor dt a{
+.contentPage > .contenedor dt a{
 	display: none;
 	position: absolute;
 	z-index: 10;
@@ -116,16 +116,16 @@ body{
 	top: 0;
 }
 
-.contentPage .contenedor dt.active{
+.contentPage > .contenedor dt.active{
 	background: url('./assets/cepas/sp_iconos.png') bottom right no-repeat;
 	color: #000;
 }
 
-.contentPage .contenedor dt.active span{
+.contentPage > .contenedor dt.active span{
 	background: #fff;
 }
 
-.contentPage .contenedor dt.active a{
+.contentPage > .contenedor dt.active a{
 	display: inline-block;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -134,7 +134,7 @@ body{
 	padding: 0 10px;
 }
 
-.contentPage .contenedor dd {
+.contentPage > .contenedor dd {
 	background: #fff;
 	padding: 4px 10px;
 	display: none;
@@ -144,12 +144,12 @@ body{
 	position: relative;
 }
 
-.contentPage .contenedor dd p{
+.contentPage > .contenedor dd p{
 	margin-bottom: 10px;
 }
 
-.contentPage .contenedor td,
-.contentPage .contenedor th {
+.contentPage > .contenedor td,
+.contentPage > .contenedor th {
  	padding: 4px 0;
  	text-align: left;
  	border-bottom: 1px solid #ccc;
@@ -157,11 +157,11 @@ body{
  	font-size: 14px;
 }
 
-.contentPage .contenedor th{
+.contentPage > .contenedor th{
 	text-transform: uppercase;
 }
 
-.contentPage .contenedor table{
+.contentPage > .contenedor table{
 	width: 100%;
 }
 

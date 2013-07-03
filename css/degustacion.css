@@ -13,7 +13,7 @@ body{
 	background-size: cover;
 }
 
-/*.contentPage .contenedor h2{
+/*.contentPage > .contenedor h2{
 	font-family: "neutra2displaylight";
 	font-size: 40px;
 	line-height: 44px;
@@ -23,14 +23,14 @@ body{
 	font-weight: normal;
 }
 
-.lt-ie9 .contentPage .contenedor h2{
+.lt-ie9 .contentPage > .contenedor h2{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
 }*/
 
-.contentPage .contenedor h2{
+.contentPage > .contenedor h2{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
@@ -40,8 +40,8 @@ body{
 	color: #000;
 }
 
-/*.contentPage .contenedor h3,
-.contentPage .contenedor h4{
+/*.contentPage > .contenedor h3,
+.contentPage > .contenedor h4{
 	font-family: "neutra2displaymedium";
 	font-size: 18px;
 	line-height: 22px;
@@ -49,8 +49,8 @@ body{
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor h3,
-.contentPage .contenedor h4{
+.contentPage > .contenedor h3,
+.contentPage > .contenedor h4{
 	font-family: 'sofia_prolight', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
@@ -58,79 +58,79 @@ body{
 	color: #000;
 }
 
-.contentPage .contenedor h3{
+.contentPage > .contenedor h3{
 	text-transform: uppercase;
 	margin-bottom: 12px;
 }
 
-.contentPage .contenedor h4{
+.contentPage > .contenedor h4{
 	margin-bottom: 20px;
 	color: #a53228;
 }
 
-/*.contentPage .contenedor p,
-.contentPage .contenedor dd,
-.contentPage .contenedor dt,
-.contentPage .contenedor li{
+/*.contentPage > .contenedor p,
+.contentPage > .contenedor dd,
+.contentPage > .contenedor dt,
+.contentPage > .contenedor li{
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor p,
-.contentPage .contenedor dd,
-.contentPage .contenedor dt,
-.contentPage .contenedor li{
+.contentPage > .contenedor p,
+.contentPage > .contenedor dd,
+.contentPage > .contenedor dt,
+.contentPage > .contenedor li{
 	font-family: 'sofia_prolight', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 	color: #000;
 }
 
-/*.contentPage .contenedor p strong{
+/*.contentPage > .contenedor p strong{
 	font-family: 'neutraface2displaybold';
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor p strong{
+.contentPage > .contenedor p strong{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 }
 
-.contentPage .contenedor .left-col {
+.contentPage > .contenedor .left-col {
 	float: left;
 	width: 40%;
 }
 
-.contentPage .contenedor .left-col p {
+.contentPage > .contenedor .left-col p {
 	margin-bottom: 20px;
 }
 
-/*.contentPage .contenedor .left-col p strong{
+/*.contentPage > .contenedor .left-col p strong{
 	font-family: 'neutraface2displaybold';
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor .left-col p strong{
+.contentPage > .contenedor .left-col p strong{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 }
 
-.contentPage .contenedor .left-col li{
+.contentPage > .contenedor .left-col li{
 	margin-bottom: 5px;
 	overflow: hidden;
 }
 
-.contentPage .contenedor .left-col li a,
-.contentPage .contenedor .left-col li span{
+.contentPage > .contenedor .left-col li a,
+.contentPage > .contenedor .left-col li span{
 	display: block;
 	line-height: 30px;
 	font-size: 13px;
 	color: #fff;
 }
 
-.contentPage .contenedor .left-col li a{
+.contentPage > .contenedor .left-col li a{
 	background: url('./assets/degustacion/bg-filters.png') right top no-repeat;
 	padding-right: 36px;
 	text-transform: uppercase;
@@ -138,65 +138,65 @@ body{
 	width: 40%;
 }
 
-.contentPage .contenedor .left-col li span{
+.contentPage > .contenedor .left-col li span{
 	background: #000;
 }
 
-.contentPage .contenedor .left-col li a span{
+.contentPage > .contenedor .left-col li a span{
 	padding: 0 12px;
 }
 
-.contentPage .contenedor .left-col li > span{
+.contentPage > .contenedor .left-col li > span{
 	margin-right: 1px;
 	width: 36px;
 	text-align: center;
 	float: left;
 }
 
-.contentPage .contenedor .left-col li.active a{
+.contentPage > .contenedor .left-col li.active a{
 	background-position: right bottom;
 }
 
-.contentPage .contenedor .left-col li.active a span{
+.contentPage > .contenedor .left-col li.active a span{
 	background: #fff;
 	color: #000;
 }
 
-.contentPage .contenedor .left-col li.active > span{
+.contentPage > .contenedor .left-col li.active > span{
 	background: #a53228;
 }
 
-.contentPage .contenedor .right-col {
+.contentPage > .contenedor .right-col {
 	float: right;
 	width: 56%;
 	position: relative;
 	margin-top: 40px;
 }
 
-.contentPage .contenedor .right-col .description{
+.contentPage > .contenedor .right-col .description{
 	display: none;
 }
 
-.contentPage .contenedor .right-col .description img{
+.contentPage > .contenedor .right-col .description img{
 	margin-bottom: 20px;
 }
 
-.contentPage .contenedor .right-col .description{
+.contentPage > .contenedor .right-col .description{
 	width: 500px;
 }
 
-.contentPage .contenedor .right-col .visual li{
+.contentPage > .contenedor .right-col .visual li{
 	margin-bottom: 15px;
 }
 
 
 
-.contentPage .contenedor .olfativa dl{
+.contentPage > .contenedor .olfativa dl{
 	width: 360px;
 	margin-bottom: 4px;
 }
 
-.contentPage .contenedor .olfativa dt{
+.contentPage > .contenedor .olfativa dt{
 	background: url('./assets/degustacion/sp_iconos.png') top right no-repeat;
 	padding-right: 36px;
 	line-height: 30px;
@@ -208,13 +208,13 @@ body{
 	z-index: 0;
 }
 
-.contentPage .contenedor .olfativa dt span{
+.contentPage > .contenedor .olfativa dt span{
 	background: #b1b1b1;
 	padding: 0 10px;
 	display: block;
 }
 
-.contentPage .contenedor .olfativa dt a{
+.contentPage > .contenedor .olfativa dt a{
 	display: none;
 	position: absolute;
 	z-index: 10;
@@ -222,16 +222,16 @@ body{
 	top: 0;
 }
 
-.contentPage .contenedor .olfativa dt.active{
+.contentPage > .contenedor .olfativa dt.active{
 	background: url('./assets/degustacion/sp_iconos.png') bottom right no-repeat;
 	color: #000;
 }
 
-.contentPage .contenedor .olfativa dt.active span{
+.contentPage > .contenedor .olfativa dt.active span{
 	background: #fff;
 }
 
-.contentPage .contenedor .olfativa dt.active a{
+.contentPage > .contenedor .olfativa dt.active a{
 	display: inline-block;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -240,7 +240,7 @@ body{
 	padding: 0 10px;
 }
 
-.contentPage .contenedor .olfativa dd {
+.contentPage > .contenedor .olfativa dd {
 	background: #fff;
 	padding: 4px 10px;
 	display: none;
@@ -251,6 +251,6 @@ body{
 	width: 490px;
 }
 
-.contentPage .contenedor .olfativa dd p{
+.contentPage > .contenedor .olfativa dd p{
 	margin-bottom: 10px;
 }

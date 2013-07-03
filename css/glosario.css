@@ -12,7 +12,7 @@ body{
 	background-size: cover;
 }
 
-/*.contentPage .contenedor h2{
+/*.contentPage > .contenedor h2{
 	font-family: "neutra2displaylight";
 	font-weight: normal;
 	font-size: 40px;
@@ -24,14 +24,14 @@ body{
 	z-index: 10;
 }
 
-.lt-ie9 .contentPage .contenedor h2{
+.lt-ie9 .contentPage > .contenedor h2{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
 }*/
 
-.contentPage .contenedor h2{
+.contentPage > .contenedor h2{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
@@ -43,13 +43,13 @@ body{
 	z-index: 10;
 }
 
-.contentPage.principal .contenedor{
+.contentPage.principal > .contenedor{
 	position: relative;
 	min-height: 700px;
 	padding-top: 40px;
 }
 
-.contentPage.principal .contenedor img{
+.contentPage.principal > .contenedor img{
 	width: 100%;
 	height: auto;
 	position: absolute;

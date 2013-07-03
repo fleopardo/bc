@@ -17,7 +17,7 @@ body{
 	padding: 0;
 }
 
-/*.contentPage .contenedor h2{
+/*.contentPage > .contenedor h2{
 	font-family: "neutra2displaylight";
 	font-size: 40px;
 	text-transform: uppercase;
@@ -26,14 +26,14 @@ body{
 	font-weight: normal;
 }
 
-.lt-ie9 .contentPage .contenedor h2{
+.lt-ie9 .contentPage > .contenedor h2{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
 }*/
 
-.contentPage .contenedor h2{
+.contentPage > .contenedor h2{
 	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
@@ -43,7 +43,7 @@ body{
 	color: #000;
 }
 
-/*.contentPage .contenedor h3{
+/*.contentPage > .contenedor h3{
 	font-family: "neutraface2displaybold";
 	font-size: 18px;
 	color: #000;
@@ -51,7 +51,7 @@ body{
 	font-weight: normal;
 }*/
 
-.contentPage .contenedor h3{
+.contentPage > .contenedor h3{
 	font-family: 'sofia_prolight', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
@@ -60,15 +60,15 @@ body{
 	margin-bottom: 12px;
 }
 
-/*.contentPage .contenedor p,
-.contentPage .contenedor dd{
+/*.contentPage > .contenedor p,
+.contentPage > .contenedor dd{
 	font-family: 'neutra2displaymedium';
 	color: #000;
 	font-size: 18px;
 }*/
 
-.contentPage .contenedor p,
-.contentPage .contenedor dd{
+.contentPage > .contenedor p,
+.contentPage > .contenedor dd{
 	font-family: 'sofia_prolight', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
@@ -76,35 +76,35 @@ body{
 	margin-bottom: 12px;
 }
 
-.contentPage .contenedor .left-col {
+.contentPage > .contenedor .left-col {
 	float: left;
 	width: 40%;
 	padding: 40px 0;
 }
 
-.contentPage .contenedor .right-col {
+.contentPage > .contenedor .right-col {
 	float: right;
 	width: 55%;
 	position: relative;
 	overflow: hidden;
 }
 
-.contentPage .contenedor .right-col img{
+.contentPage > .contenedor .right-col img{
 	width: 100%;
 	height: auto;
 	float: left;
 }
 
-.contentPage .contenedor .left-col .bloque{
+.contentPage > .contenedor .left-col .bloque{
 	margin-bottom: 25px;
 }
 
-.contentPage .contenedor dl{
+.contentPage > .contenedor dl{
 	width: 245px;
 	margin-bottom: 4px;
 }
 
-.contentPage .contenedor dt{
+.contentPage > .contenedor dt{
 	background: url('./assets/cepas/sp_iconos.png') top right no-repeat;
 	padding-right: 36px;
 	line-height: 31px;
@@ -114,22 +114,22 @@ body{
 	cursor: pointer;
 }
 
-.contentPage .contenedor dt span{
+.contentPage > .contenedor dt span{
 	background: #000;
 	padding: 0 10px;
 	display: block;
 }
 
-.contentPage .contenedor dt.active{
+.contentPage > .contenedor dt.active{
 	background: url('./assets/cepas/sp_iconos.png') bottom right no-repeat;
 	color: #000;
 }
 
-.contentPage .contenedor dt.active span{
+.contentPage > .contenedor dt.active span{
 	background: #fff;
 }
 
-.contentPage .contenedor dd {
+.contentPage > .contenedor dd {
 	background: #fff;
 	padding: 4px 10px;
 	display: none;
