@@ -29,7 +29,7 @@
 
 		<img src="./img/teaser/botella2.png" width="255" height="1046" class="botella">
 		<div class="columnaDerecha">
-			<!--  Header 
+			<!--  Header
 			<header>
 				<h1>
 					<a href="./index.html"><span class="hide">Latitud 33</span></a>
@@ -81,7 +81,8 @@
 
 		scr.js("js/libs/jquery.min.js", function(){
 
-	    	scr.js("js/latitud.js",function(){
+	    	scr.js(["js/latitud.js",
+	    			"js/libs/jquery.cookie.js"],function(){
 
 		    	scr.js(["js/global.js","js/prehome.js"]);
 

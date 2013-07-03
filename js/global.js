@@ -154,15 +154,12 @@
 			var altoHeader = $('header').height();
 			var altoFooter = $('footer').height();
 			var minHeightContainer = altoWindow - altoHeader - altoFooter;
-			
+
 			if( altoContenedor < minHeightContainer){
 				$('.contentPage.principal').css('height',minHeightContainer);
 			}
 		}
 
 	}
-
-	
-
 
 })(window);
