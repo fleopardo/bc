@@ -214,11 +214,6 @@ body{
 	padding: 0 12px;
 }
 
-.lt-ie9 .vinos-container li > p{
-	line-height: 66px !important;
-	font-size: 11px !important;
-}
-
 .vinos-container li.active{
 	background: url('./assets/elaboracion/ic-active.png') center top no-repeat;
 }
@@ -241,6 +236,7 @@ body{
 
 .vinos-container li.active > p{
 	display:block;
-	line-height: 66px;
+	height: 66px;
+	line-height: 30px;
 	font-size: 16px;
 }

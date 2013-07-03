@@ -14,8 +14,11 @@
 	$scrollCustom.jScrollPane({
 		verticalDragMaxHeight : 39,
 		verticalDragMinHeight : 39,
-		setWheelScrollingEnabled : true
+		setWheelScrollingEnabled : true,
+		animateScroll: true
 	});
+
+	var api = $scrollCustom.data('jsp');
 
 	/*
  	 * jsScrollPane soporte tactil
@@ -51,12 +54,17 @@
 
  	$('dt').each(function(){
  		$(this).click(function(){
+
+ 			$(this).parent().siblings('dl')
  			$(this).parent().siblings('dl').find('dd').slideUp();
  			$(this).parent().siblings('dl').find('dt').removeClass('active');
  			$(this).toggleClass('active');
  			$(this).siblings('dd').slideToggle();
+
+ 			var elementToScroll = $(".bloque."+$(this).parent().attr("class"));
+ 			api.scrollToElement(elementToScroll, true);
  		});
  	});
-	
+
 
 })(window);

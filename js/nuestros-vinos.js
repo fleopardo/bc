@@ -272,7 +272,11 @@
 
 	navegacion.showDetalle = function(){
 
-		$("#detalle-vino").delay(300).fadeIn(1000);
+		$("#detalle-vino").delay(300).fadeIn(1000, function(){
+
+			$.scrollTo($("#detalle-vino"), {speed: 200, easing:'easeOutExpo'});
+
+		});
 
 	};
 
@@ -282,7 +286,7 @@
 */
 
 
-	navegacion.closeDetalle = function(){
+	navegacion.closeDetalle = function(isOpen){
 
 
 		$("#detalle-vino").fadeOut(300,function(){
@@ -290,6 +294,11 @@
 			$("#detalle-vino").empty();
 
 			navegacion.isOpen = false;
+
+			/* Si abro un detalle desde la ventana de detalle no hago el scrolleo */
+			if(!isOpen){
+				$.scrollTo($(".botellas-container > ul"), {speed: 200, easing:'easeOutExpo'});
+			}
 
 		});
 
@@ -357,7 +366,7 @@
 
 		if(!link.hasClass("active")){
 
-			navegacion.closeDetalle();
+			navegacion.closeDetalle(true);
 
 			//Pongo un timer del mismo tiempo que el delay usando closeDetalle() Para que tenga tiempo de borrar el contenido
 			setTimeout(function(){

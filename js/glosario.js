@@ -12,7 +12,8 @@
 
 	filtros.on("click",function(event){
 
-		$('span.indicador').text(this.text);
+
+		$('span.indicador').text($(this).text());
 
 		event.preventDefault();
 

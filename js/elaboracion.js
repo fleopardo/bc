@@ -25,8 +25,8 @@
 		filtros.removeClass("active");
 		that.addClass("active");
 
-		vinosContainer.stop(true,true).fadeOut(300);
-		vinosContainerToShow.stop(true,true).fadeIn(800);
+		vinosContainer.stop(true,true).fadeOut(300, function(){});
+		vinosContainerToShow.stop(true,true).delay(200).fadeIn(800);
 
 
 	});

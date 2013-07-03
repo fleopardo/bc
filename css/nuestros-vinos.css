@@ -398,7 +398,7 @@ section.el-vino .bloqueBlanco{
 	right: 0;
 }*/
 
-.lt-ie9 .el-vino nav li a{
+.el-vino nav li a{
 	font-size: 11px;
 	font-family: 'sofia_prolight', sans-serif;
 	color: #fff;
