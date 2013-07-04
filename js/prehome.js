@@ -6,9 +6,7 @@
 
 ;(function(window){
 
-	if($.cookie('lat33remember')){
-		document.location.href = "home.html";
-	};
+
 
 	$(".acciones").delegate("a",latitud.event.TAP,function(){
 
