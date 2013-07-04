@@ -28,7 +28,7 @@ body{
 }*/
 
 .contentPage .contenedor h2{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
@@ -39,7 +39,7 @@ body{
 
 .contentPage .contenedor h3,
 .contentPage .contenedor h4{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
 	font-weight: bold;
@@ -65,7 +65,7 @@ body{
 
 .contentPage .contenedor p,
 .contentPage .contenedor dd{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 	color: #000;
@@ -100,7 +100,7 @@ body{
 
 .contentPage .contenedor .left-col .filter-container h4{
 	color: #000;
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	background: url('./assets/recetas/fd-title-lupa.png') left top no-repeat;
@@ -118,7 +118,7 @@ body{
 
 .contentPage .contenedor .left-col .filter-container h4 span{
 	color: #a53228;
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: normal;
 }
 
@@ -226,7 +226,7 @@ body{
 }*/
 
 .contentPage .contenedor .right-col .description h3{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 42px;
 	line-height: 47px;
 	font-weight: 300;
@@ -243,7 +243,7 @@ body{
 }*/
 
 .contentPage .contenedor .right-col .description h4{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 20px;
@@ -257,7 +257,7 @@ body{
 }*/
 
 .contentPage .contenedor .right-col .description h5{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 16px;
 	line-height: 17px;
 	color: #000;
@@ -271,7 +271,7 @@ body{
 }*/
 
 .contentPage .contenedor .right-col h6 a{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 400;
 	font-size: 22px;
 	line-height: 25px;

@@ -27,14 +27,14 @@ body{
 }
 
 .lt-ie9 .contentPage > .contenedor h2{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
 }*/
 
 .contentPage > .contenedor h2{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
@@ -52,7 +52,7 @@ body{
 }*/
 
 .contentPage > .contenedor h3{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
 	font-weight: bold;
@@ -69,7 +69,7 @@ body{
 
 .contentPage > .contenedor p,
 .contentPage > .contenedor dd{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 	color: #000;

@@ -24,7 +24,7 @@ body{
 }*/
 
 .contentPage.principal h2{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 40px;
@@ -78,7 +78,7 @@ body{
 }
 
 .articles article h3 a{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 19px;
@@ -115,7 +115,7 @@ body{
 }*/
 
 .over-article p{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-size: 21px;
 	line-height: 25px;
 	color: #fff;
@@ -135,7 +135,7 @@ body{
 }*/
 
 .over-article a.leer-mas{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 	font-size: 11px;
 	line-height: 23px;
@@ -224,7 +224,7 @@ body{
 }*/
 
 .nota .info-container h3{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 	font-size: 25px;
 	line-height: 30px;
@@ -289,7 +289,7 @@ ul.navigator li.siguiente{
 }*/
 
 ul.navigator li a{
-	font-family: 'MuseoSans_500', sans-serif;
+	font-family: 'sofia_prolight', sans-serif;
 	font-weight: bold;
 	display: block;
 	background: url('./assets/tu-latitud/sp-siguiente-anterior.png') no-repeat;
