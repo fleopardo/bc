@@ -27,8 +27,10 @@
 		that.parent().addClass("active");
 
 		items.hide();
-		itemToShow.stop(true,true).fadeIn(800);
+		itemToShow.stop(true,true).fadeIn(800, function(){
 
+		});
+		itemToShow.find("li:first").click();
 
 	});
 
