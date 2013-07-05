@@ -1,0 +1,93 @@
+.scroll{
+	height: 465px;
+	margin: 20px 0;
+}
+
+.leer-mas{
+	background: url(../css/assets/ic_flecha-rosa.png) left no-repeat;
+}
+
+.leer-mas:hover{
+	color: #d41e87;
+}
+
+.contentCarousel{
+	padding: 20px;
+	background: #fff;
+}
+
+.nota .carouselSecundario .jcarousel > li{
+	width: 870px;
+}
+
+.nota .carouselSecundario h2{
+  background: url(../css/assets/ic_flecha-verde.png) left no-repeat;
+  margin-bottom: 4px;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+.nota .carouselSecundario .jcarousel > li img{
+	width: auto;
+	float: none;
+	margin-top: 10px;
+}
+
+.nota .carouselSecundario .jcarousel > li .col-izq{
+	width: 430px;
+	float: left;
+	margin-right: 20px;
+	padding-left: 20px;
+}
+
+.nota .carouselSecundario .jcarousel > li .col-der{
+	width: 400px;
+	float: left;
+}
+
+.nota .carouselSecundario .jcarousel > li .col-der h3{
+	font-size: 14px;
+	font-family: "din-black";
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+	.nota .carouselSecundario .jcarousel > li.uno .col-der h3{
+		color: #f5ad00;
+	}
+
+	.nota .carouselSecundario .jcarousel > li.dos .col-der h3{
+		color: #f000a2;
+	}
+
+	.nota .carouselSecundario .jcarousel > li.tres .col-der h3{
+		color: #a6ca00;
+	}
+
+	.nota .carouselSecundario .jcarousel > li.cuatro .col-der h3{
+		color: #00b1f0;
+	}
+
+
+.nota .carouselSecundario .jcarousel > li .col-der p{
+	font-family: "din-medium";
+	font-style: italic;
+	font-weight: normal;
+	margin-bottom: 20px;
+	line-height: 18px;
+}
+
+.carouselSecundario .jcarousel-prev-horizontal,
+.carouselSecundario .jcarousel-prev-horizontal:hover{
+	background-position: 0px -102px;
+	width: 28px;
+	height: 28px;
+	right: 34px;
+}
+
+.carouselSecundario .jcarousel-next-horizontal,
+.carouselSecundario .jcarousel-next-horizontal:hover{
+	background-position: -27px -102px;
+	width: 28px;
+	height: 28px;
+}
