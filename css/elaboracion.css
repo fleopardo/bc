@@ -15,6 +15,7 @@ body{
 
 .contentPage > .contenedor{
 	position: relative;
+	background: url("./assets/elaboracion/bg.png") top right no-repeat;
 }
 
 /*.contentPage > .contenedor h2 {

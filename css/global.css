@@ -378,28 +378,54 @@ input.placeholder{ color: #373737; }
 	width: 27.34%;
 }
 
-.header nav .tu-latitud-menu li a{
-	line-height: 18px;
+.header nav .tu-latitud-menu img{
+	display: block;
+	margin-bottom: 3px;
 }
 
-.header nav .tu-latitud-menu li a.leer-mas{
-	font: 11px/15px arial, helvetica, sans-serif;
+.header nav .tu-latitud-menu li a,
+.header nav .tu-latitud-menu li p{
+	line-height: 18px;
+	font-size: 15px;
+}
+
+.header nav .tu-latitud-menu li .leer-mas{
+	font: 11px/18px arial, helvetica, sans-serif;
 	font-style: italic;
 	text-transform: none;
+	opacity: :0;
+	-moz-opacity: 0;
+	-webkit-opacity: 0;
+	-khtmk-opacity: 0;
+	filter: alpha(opacity=0);
 }
 
-.header nav .el-pacer-de-saber-menu li{
-	margin-right: 3.28%;
-	width: 11.42%;
-}
-
-header a.cont-img-Subm:hover{
+.header nav .tu-latitud-menu a:hover img{
 	opacity: :0.6;
 	-moz-opacity: 0.6;
 	-webkit-opacity: 0.7;
 	-khtmk-opacity: 0.7;
 	filter: alpha(opacity=60);
 }
+
+.header nav .tu-latitud-menu a:hover p{
+	color: #a53228;
+}
+
+.header nav .tu-latitud-menu a:hover p.leer-mas{
+	opacity: :1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	-khtmk-opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+
+.header nav .el-pacer-de-saber-menu li{
+	margin-right: 3.28%;
+	width: 11.42%;
+}
+
 
 #dimmer{
 	position: fixed;
