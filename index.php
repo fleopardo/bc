@@ -1,4 +1,6 @@
 <?php
+	error_reporting(0);
+
 	$date = date("d-m-Y", strtotime("-18 year"));
 
 	$dia = substr($date, 0, 2);
