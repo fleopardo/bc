@@ -90,7 +90,8 @@ body{
 
 .share-container{
 	border-top: 1px solid #666;
-	padding: 10px 1.5% ;
+	padding: 10px 1.5%;
+	height: 25px
 }
 
 .over-article{
