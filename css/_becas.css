@@ -1,0 +1,182 @@
+/*
+ * autors:
+ * Santiago Leopardo @sleopardo
+ * Fernando Leopardo @fer_leopardo
+*/
+
+.destacado{
+	margin-bottom: 20px;
+}
+
+.destacado > div{
+	position: relative;
+	height: 308px;
+}
+
+.destacado p{
+	width: 600px;
+	padding: 20px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	line-height: 16px;
+}
+
+.destacado p span{
+	font-family: "din-black";
+}
+
+.lt-ie10 .destacado p span{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.bloque .info{
+	float: left;
+	width: 505px;
+	padding: 20px;
+}
+
+
+.bloque .info h2{
+	font-family: din-black;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.lt-ie10 .bloque .info h2{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.bloque{
+	background: #fff;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.bloque1{
+	border-bottom: 2px solid #b2d235;
+	border-left: 2px solid #b2d235;
+}
+
+.bloque1 h2{
+text-transform: uppercase;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.bloque1 .right-col{
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+	width: 370px;
+}
+
+.bloque1 .right-col li{
+	margin-bottom: 5px;
+	padding-left: 25px;
+	background: url(../css/assets/ic_flecha-amarilla.png) left 2px no-repeat;
+	padding-right: 12px;
+}
+
+.bloque1 img{
+	float: right;
+}
+
+.bloque2{
+	border-bottom: 2px solid #34AAEC;
+	border-right: 2px solid #34AAEC;
+}
+
+.bloque2 h2{
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.bloque2 .left-col p{
+	/*text-transform: uppercase;*/
+}
+
+.bloque2 .left-col img,
+.bloque2 .left-col h2{
+	margin-bottom: 15px;
+}
+
+.bloque2 .left-col h2,
+.bloque2 .left-col p{
+	padding: 0 15px;
+}
+
+
+.bloque2 .right-col h2{
+	
+	margin: 24px 0 12px 19px;
+}
+
+.bloque2 .right-col li{
+	margin-bottom: 5px;
+	padding-left: 25px;
+	background: url(../css/assets/ic_flecha-amarilla.png) left 2px no-repeat;
+	padding-right: 12px;
+}
+
+.bloque2 .right-col .right p{
+	margin-top: 15px;
+}
+
+.info-extra{
+	margin: 20px;
+	background:#f2f2f2;
+	padding: 20px;
+}
+
+.info-extra h3,
+.info-extra p{
+	/*font-size: 11px;*/
+}
+
+.info-extra h3{
+	text-transform: uppercase;
+	font-family: din-black;
+}
+
+.lt-ie10 .info-extra h3{
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.info-extra .cont-links{
+	overflow: hidden;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+
+.solicitar{
+	float: right;
+	background: url(../css/assets/ic_flecha-verde-oscuro.png) left no-repeat;
+	padding-left: 17px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+a.links{
+	display: block;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+}
+
+a.condiciones{
+	background: url(../css/assets/ic_pdf.png) right no-repeat;
+	padding-right: 24px;
+	display: inline-block;
+
+
+
