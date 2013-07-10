@@ -23,8 +23,8 @@
 		that.addClass("active");
 
 		recetas.stop(true,true).fadeOut(500);
-		recetaToShow.stop(true,true).fadeIn(800);
-		console.log(filterBy);
+		recetaToShow.stop(true,true).delay(500).fadeIn(500);
+
 		$('#title-filter').removeClass();
 		$('#title-filter').addClass(filterBy);
 

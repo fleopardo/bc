@@ -12,25 +12,11 @@ body{
 	background-size: cover;
 }
 
-/*.contentPage .contenedor h2{
-	font-family: "neutra2displaymedium";
-	font-size: 40px;
-	line-height: 30px;
-	text-transform: uppercase;
-	margin-bottom: 30px;
-	color: #000;
-	font-weight: normal;
-}
-
-.contentPage .contenedor h2 span{
-	font-size: 18px;
-	line-height: 20px;
-}*/
 
 .contentPage .contenedor h2{
-	font-family: "Muli", sans-serif;
+	font-family: "sofia_prolight", sans-serif;
 	font-size: 40px;
-	line-height: 30px;
+	line-height: 38px;
 	text-transform: uppercase;
 	margin-bottom: 30px;
 	color: #000;
@@ -43,7 +29,7 @@ body{
 }
 
 .contentPage .contenedor h3{
-	font-family: "neutra2displaymedium";
+	font-family: "sofia_prolight";
 	font-size: 18px;
 	line-height: 22px;
 	color: #000;
@@ -54,7 +40,7 @@ body{
 
 .contentPage .contenedor h4{
 	margin-bottom: 6px;
-	font-family: "Muli", sans-serif;
+	font-family: "sofia_prolight", sans-serif;
 	font-weight: bold;
 	font-size: 15px;
 	line-height: 23px;
@@ -67,10 +53,11 @@ body{
 
 .contentPage .contenedor p,
 .contentPage .contenedor li{
-	font-family: "Muli", sans-serif;
+	font-family: "sofia_prolight", sans-serif;
 	font-weight: 300;
 	color: #000;
-	font-size: 18px;
+	font-size: 15px;
+	line-height: 22px;
 }
 
 .contentPage .contenedor .left-col {
@@ -110,7 +97,7 @@ a.volver,
 a.nav,
 a.descargar{
 	color: #fff;
-	font-family: "Muli", sans-serif;
+	font-family: "sofia_prolight", sans-serif;
 	font-weight: bold;
 	font-weight: normal;
 	font-size: 11px;
