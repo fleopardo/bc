@@ -60,7 +60,7 @@ body{
 
 .scroll-nav {
 	position: fixed;
-	right: 50px;
+	right: 20px;
 	top: 45%;
 	z-index: 1000;
 }
@@ -345,12 +345,7 @@ section.el-vino .bloqueBlanco{
     left: 50px;
     top: -8px;
     width: 16px;
-    background: #fff;
-    transform:rotate(7deg);
-    -webkit-transform: rotate(315deg);
-	-moz-transform: rotate(315deg);
-	-o-transform: rotate(315deg);
-	-ms-transform: rotate(315deg);
+    background: url("./assets/pico-tooltio.png") no-repeat center top;
 }
 
 .botellas-container .tooltip h3{
@@ -637,3 +632,13 @@ a.volver-vinos span{
 .contentPage.parallax section.la-creacion{
 	background-size: cover;
 }
+
+
+@media only screen and (max-width: 1110px){
+
+	.scroll-nav {
+		display: none;
+	}
+
+}
+

@@ -153,7 +153,9 @@ input.placeholder{ color: #373737; }
 
 .contenedor{
 	max-width: 1024px;
+	min-width: 960px;
 	margin: 0 auto;
+	padding: 0 10px;
 }
 
 .lt-ie10 .contenedor{
@@ -527,7 +529,6 @@ footer .social li a:hover{
 	display: inline-block;
 	padding: 0 10px 0 38px;
 	color: #fff;
-	/*font-family: "neutraface2displaybold";*/
 	font-family: 'sofia_prolight', sans-serif;
 	text-transform: uppercase;
 	font-size: 11px;
