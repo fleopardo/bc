@@ -21,6 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
 	<link rel="stylesheet" type="text/css" href="css/home-grilla.css" />
 	<link rel="stylesheet" type="text/css" href="css/libs/jquery.jscrollpane.css" />
+	<link rel="stylesheet" type="text/css" href="css/tipTip.css" />
 	<link rel="stylesheet" type="text/css" href="css/header.css" />
 </head>
 <body>
@@ -48,8 +49,8 @@
 							<dl>
 								<dt><a href="recursos-no-convencionales.html">Recursos no convencionales</a></dt>
 
-								<dd><a href="desafio-energetico-detalle.html">Desafio Energético</a></dd>
 								<dd><a href="energia-para-el-crecimiento.html">Energ&iacute;a para el crecimiento</a></dd>
+<dd><a href="desafio-energetico-detalle.html">Desafio Energético</a></dd>
 								<dd><a href="que-es-shale.html">Acerca de Shale</a></dd>
 								<dd><a href="que-es-shale.html#saber">Lo que hay que saber</a></dd>
 								<dd><a href="que-es-shale.html#shale-en-el-mundo">Shale en el mundo</a></dd>
@@ -84,7 +85,7 @@
 							</dl>
 
 							<dl>
-								<dt><a href="plan-exploratorio.html">Plan exploratorio</a></dt>
+								<dt><a href="plan-exploratorio.html">Plan estratégico</a></dt>
 
 								<dd><a href="plan-exploratorio.html#cuencas-productivas">Cuencas productivas</a></dd>
 								<dd><a href="plan-exploratorio.html#no-convencionales">No Convencional</a></dd>
@@ -146,8 +147,8 @@
 						</div>
 					</li>
 					<li class="cadena-de-energia">
-						<a href="#" class="hasSubmenu">Cadena de Energ&iacute;a</a>
-						<div class="submenu openLeft">
+						<a href="cadena-de-energia.html">Cadena de Energ&iacute;a</a>
+						<!--div class="submenu openLeft">
 
 							<div class="info">
 								<img src="./images/submenu-cadena-de-energia.jpg" width="233" height="131" />
@@ -157,22 +158,22 @@
 
 							<a href="cadena-de-energia.html">HOME</a>
 
-						</div>
+						</div-->
 					</li>
 				</ul>
 
 				<ul class="secundaria">
 					<!--<li class="icon buscar"><a href="#"><span class="hide">Buscar</span></a></li>-->
-					<li class="icon mapa"><a href="http://www.ypf.com/guia/paginas/mapa.aspx?entidad=NO&eid=HOME"><span class="hide">Mapa</span></a></li>
-					<li class="icon lang">
-						<a href="#" class="hasSubmenu"><span class="hide">Mapa</span></a>
+					<li class="icon mapa"><a href="http://www.ypf.com/guia/paginas/mapa.aspx?entidad=NO&eid=HOME" title="YPF Guia"><span class="hide">Mapa</span></a></li>
+					<!--li class="icon lang">
+						<a href="#" class="hasSubmenu" title="Idioma"><span class="hide">Idioma</span></a>
 						<div class="submenu openLeft">
 							<ul>
 								<li><a href="#">Español</a></li>
 								<li><a href="#">English</a></li>
 							</ul>
 						</div>
-					</li>
+					</li-->
 					<!--<li class="icon login">
 						<a href="#" class="hasSubmenu "><span class="hide">Login</span></a>
 						<div class="submenu openLeft">
@@ -203,7 +204,7 @@
 
 						</div>
 					</li>-->
-					<li class="icon asterisco"><a href="http://www.ypf.com/AsteriscoYPF/Paginas/Home.aspx"><span class="hide">Asterisco</span></a></li>
+					<li class="icon asterisco"><a href="http://www.ypf.com/AsteriscoYPF/Paginas/Home.aspx" title="YPF Asterisco"><span class="hide">Asterisco</span></a></li>
 					<li class="sitios-ypf">
 						<a href="#" class="last hasSubmenu">Sitios YPF</a>
 						<div class="submenu openLeft">
@@ -411,7 +412,8 @@
 	    			"js/libs/jquery.mousewheel.js",
 	    			"js/libs/jquery.jscrollpane.min.js",
 	    			"js/navegacion.js",
-"js/navegacion2.js",
+					"js/navegacion2.js",
+					"js/libs/jquery.tiptip.js",
 	    			"js/libs/jquery.jcarousel.js",
 	    			"js/header.js",
 	    			"js/libs/jwplayer.js"],function(){

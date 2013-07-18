@@ -152,7 +152,7 @@
 	/* .navegacion secundaria */
 
 	.headerYPF .nav > ul.secundaria{
-		min-width: 205px;
+		min-width: 160px;
 	}
 
 	.headerYPF .nav > ul.secundaria > li{

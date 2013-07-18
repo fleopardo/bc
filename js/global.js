@@ -45,6 +45,10 @@ var shale = shale || {};
 	    shale.event.LEAVE = (shale.touch) ? 'touchend' : 'mouseleave';
 
 
+	/* Inicializo tooltips */
+	$('[title]').tipTip();
+
+
 	/*
  	 * Inicializo y bindeo todo los eventos necesarios para el header
  	*/
@@ -149,7 +153,7 @@ var shale = shale || {};
 	/*
 	 * Bindeo para que funcione la navegacion animada
 	*/
-		if( !$("html").hasClass("ie7") ){
+		if( !$("html").hasClass("ie7") || !shale.touch ){
 
 			$(".navegacion").live(shale.event.TAP,function(event){
 
