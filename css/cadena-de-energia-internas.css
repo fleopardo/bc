@@ -156,6 +156,9 @@
 	height: 135px;
 }
 
+.cadena-de-energia-detalle .scrollCustom{
+	overflow: auto;
+}
 
 .cadena-de-energia-detalle .scrollCustom p{
 	margin-bottom: 10px;

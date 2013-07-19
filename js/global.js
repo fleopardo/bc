@@ -153,8 +153,9 @@ var shale = shale || {};
 	/*
 	 * Bindeo para que funcione la navegacion animada
 	*/
-		if( !$("html").hasClass("ie7") || !shale.touch ){
-
+		if( $("html").hasClass("ie7") || shale.touch ){
+			return false;
+		}else{
 			$(".navegacion").live(shale.event.TAP,function(event){
 
 				event.preventDefault();
@@ -177,7 +178,9 @@ var shale = shale || {};
 		shale.equalHeightListados();
 
 		// Instancio los scroll personalizado
-		shale.scrollCustom();
+		if(!$("html").hasClass("ie7") && $(".contenedor-principal").hasClass("cadena-de-energia-internas")){
+			shale.scrollCustom();
+		}
 
 
 	/*
@@ -269,7 +272,9 @@ var shale = shale || {};
 
 			// Instancio Scroll Personalizado
 			shale.equalHeightListados();
-			shale.scrollCustom();
+			if(!$("html").hasClass("ie7") && $(".contenedor-principal").hasClass("cadena-de-energia-internas")){
+				shale.scrollCustom();
+			}
 
 			// Seteo el alto de la seccion que viene a la mascara. Esto es porque si una seccion es muy alta y otra muy baja, la mascara toma el alto de la mas alta..y el footer queda abajo...dejando mucho espacio vacio
 			$(".mascara").css("height",$(".contenido.active").height());
