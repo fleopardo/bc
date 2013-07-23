@@ -108,6 +108,11 @@ input:-moz-placeholder { color:#373737; }
 :-ms-input-placeholder { color: #373737; }
 input.placeholder{ color: #373737; }
 
+
+.ie7 .scrollCustom{
+	overflow: auto;
+}
+
 .icon{
 	background-image: url("./assets/icons.png");
 	background-repeat: no-repeat;

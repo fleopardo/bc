@@ -72,6 +72,10 @@
 	overflow: hidden;
 }
 
+.ie7 .internas .scrollCustom{
+	overflow: auto;
+}
+
 .internas .jspVerticalBar {
 	right: 0;
 }

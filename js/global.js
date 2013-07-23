@@ -178,7 +178,7 @@ var shale = shale || {};
 		shale.equalHeightListados();
 
 		// Instancio los scroll personalizado
-		if(!$("html").hasClass("ie7") && $(".contenedor-principal").hasClass("cadena-de-energia-internas")){
+		if( !$("html").hasClass("ie7")){
 			shale.scrollCustom();
 		}
 
@@ -272,7 +272,8 @@ var shale = shale || {};
 
 			// Instancio Scroll Personalizado
 			shale.equalHeightListados();
-			if(!$("html").hasClass("ie7") && $(".contenedor-principal").hasClass("cadena-de-energia-internas")){
+
+			if( !$("html").hasClass("ie7")){
 				shale.scrollCustom();
 			}
 
