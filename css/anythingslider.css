@@ -1,0 +1,145 @@
+/*
+    AnythingSlider v1.4.1+ Default (base) theme
+
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+*/
+
+/******* SET DEFAULT DIMENSIONS HERE ********/
+div.anythingSlider {
+	width: 900px;/*710*/
+	height: 400px;/*330*/
+	margin: 0 auto;
+	/*overflow: hidden; /* needed for Opera and Safari */
+	
+	
+}
+
+/****** SET COLORS HERE *******/
+/* Default State */
+/*div.anythingSlider .thumbNav a.current, div.anythingSlider .thumbNav a {
+	  background:url(../images/layout/layout.png) no-repeat scroll -150px 0px;
+}*/
+div.anythingSlider .thumbNav a.cur {
+	
+	  /*background:url(../images/layout/layout.png) no-repeat scroll -150px 2px;*/
+	  background-color:#e65735
+}
+div.anythingSlider .start-stop {
+	background-color: #040;
+	color: #fff;
+}
+div.anythingSlider .start-stop.playing {
+	background-color: #FC613A;
+}
+div.anythingSlider .start-stop:hover, div.anythingSlider .start-stop.hover {
+	color: #ddd;
+}
+
+/* Active State */
+div.anythingSlider.activeSlider .anythingWindow {
+	border-color: #7C9127;
+	margin-top: 20px
+}
+
+div.anythingSlider .start-stop {
+	background-color: #080;
+	color: #fff;
+}
+div.anythingSlider .start-stop.playing {
+	background-color: #d00;
+}
+div.anythingSlider .start-stop:hover, div.anythingSlider .start-stop.hover {
+	color: #fff;
+}
+
+/**** DO NOT CHANGE BELOW THIS LINE ****/
+/* anythingSlider viewport window */
+div.anythingSlider .anythingWindow {
+	overflow: hidden;position: absolute;/**/
+	width: 100%;height: 100%;margin-left:-10px
+}
+/* wrapper: 45px right & left padding for the arrows, 28px @ bottom for navigation */
+div.anythingSlider {
+	position: relative;
+	/*ab*/
+	/*border:1px solid red;*/ z-index:505
+	
+}
+/* anythingSlider base UL */
+ul.anythingBase {
+	background: transparent;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+ul.anythingBase li.panel {
+	background: transparent;
+	display: block;
+	overflow: hidden;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+/* Navigation Arrows */
+div.anythingSlider .arrow {
+	top: 50%;
+	position: absolute;
+	display: none;
+}
+div.anythingSlider .arrow a {
+	display: block;
+	height: 120px;
+	margin: -60px 0 0 0;
+	width: 45px;
+	text-align: center;
+	outline: 0;
+	background: url(../images/arrows-default.png) no-repeat;
+	text-indent: -9999px;
+}
+div.anythingSlider .forward { right: 0; }
+div.anythingSlider .back { left: 0; }
+div.anythingSlider .forward a { background-position: 0 -40px; }
+div.anythingSlider .back a { background-position: -88px -40px; }
+div.anythingSlider .forward a:hover, div.anythingSlider .forward a.hover { background-position: 0 -240px; }
+div.anythingSlider .back a:hover, div.anythingSlider .back a.hover { background-position: -88px -240px; }
+div.anythingSlider .forward.disabled { display: none; } /* disabled arrows, hide or reduce opacity: opacity: .5; filter: alpha(opacity=50); */
+div.anythingSlider .back.disabled { display: none; }
+
+/* Navigation Links */
+div.anythingSlider .anythingControls { outline: 0; position:relative;/*ab*//*background:url(../images/layout/layout.png) no-repeat 0px -275px;*/ display: block; width:78px; height:12px; top:-21px; left:268px; z-index:200; }
+div.anythingSlider .thumbNav { margin: 0px 0px ; }
+div.anythingSlider .thumbNav li { display: inline; }
+
+div.anythingSlider .thumbNav a {float:left; margin-right:4px;background-color:#606060;
+display: block; width:22px;height:6px;text-indent:-9000px}
+div.anythingSlider .thumbNav a:hover {background-color:#F00}
+
+
+
+/* slider autoplay right-to-left, reverse order of nav links to look better */
+div.anythingSlider.rtl .thumbNav a { float: right; } /* reverse order of nav links */
+div.anythingSlider.rtl .thumbNav { float: left; }    /* move nav link group to left */
+div.anythingSlider.rtl .anythingWindow {
+	direction: ltr;
+	unicode-bidi: bidi-override;
+}
+/* div.anythingSlider.rtl .start-stop { float: right; } */ /* move start/stop button - in case you want to switch sides */
+
+/* Autoplay Start/Stop button */
+div.anythingSlider .start-stop {
+	display: none; 
+}
+div.anythingSlider .start-stop:hover, div.anythingSlider .start-stop.hover { background-image: none; }
+
+div.anythingSlider, div.anythingSlider .anythingWindow, div.anythingSlider .thumbNav a, div.anythingSlider .arrow a, div.anythingSlider .start-stop {
+	transition-duration: 0;
+	-o-transition-duration: 0;
+	-moz-transition-duration: 0;
+	-webkit-transition-duration: 0;
+}

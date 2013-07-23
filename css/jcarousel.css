@@ -1,0 +1,140 @@
+.jcarousel-container {
+}
+
+.jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.jcarousel-container-horizontal {
+	width: 278px;
+	margin: 0 auto;
+}
+
+.jcarousel-container-vertical {
+}
+
+.jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-clip-horizontal {
+}
+
+.jcarousel-clip-vertical {
+}
+
+.jcarousel-item {
+	width: 60px;
+	margin-right: 12px;
+}
+
+.jcarousel-item img{
+
+}
+
+.jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 10px;
+}
+
+.jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+ .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+
+ .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+/**
+ *  Horizontal Buttons
+ */
+
+ .jcarousel-prev-horizontal,
+ .jcarousel-next-horizontal{
+  	background:url(../images/sp_iconos-arrows.png) no-repeat;
+  	position: absolute;
+  	z-index:100;
+  	cursor: pointer;
+	width: 7px;
+	height: 13px;
+	top: 10px;
+}
+
+
+.jcarousel-prev-horizontal{
+	left: -25px;
+	background-position: 0 0;
+}
+
+.jcarousel-next-horizontal{
+	right: -20px;
+	background-position: -10px 0;
+}
+
+/*
+ .jcarousel-next-horizontal:hover,
+ .jcarousel-next-horizontal:focus {
+    background-position: 0 0;
+}
+
+ .jcarousel-next-horizontal:active {
+    background-position: 0 0;
+}
+
+ .jcarousel-next-disabled-horizontal,
+ .jcarousel-next-disabled-horizontal:hover,
+ .jcarousel-next-disabled-horizontal:focus,
+ .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: 0 0px;
+}
+
+ .jcarousel-prev-horizontal:hover,
+ .jcarousel-prev-horizontal:focus {
+   background-position: 0 0;
+}
+
+ .jcarousel-prev-horizontal:active {
+    background-position: 0 0;
+}
+*/
+
+div#carouselViewer
+{
+	margin-bottom: 20px;
+	width:350px;
+	height:185px;
+	overflow: hidden;
+}
+
+div#carouselViewer ul{
+	width: 350px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+div#carouselViewer ul li{
+	display: none;
+}
+
+div#carouselViewer ul li.first{
+	display: block;
+}
+
+span.jqueryZoomGallery{
+	display: block;
+	overflow: hidden;
+	position: relative;
+	cursor: move;
+}
+
+span.jqueryZoomGallery img{
+	position: relative;
+}
