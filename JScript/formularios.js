@@ -6,6 +6,7 @@ $(function(){
 	var tituloMensajeExito = '', parrafoMensajeExito="";
 
 
+
 	$("section.content form:not('.default')").submit(function(event){
 
 		event.stopPropagation();
