@@ -153,24 +153,9 @@
 		top: 200px;
 	}
 
+
+
 	/* Bloques de texto de abajo */
-
-	.nuevas-fronteras-internas .vision-exploratoria .row .col-izq{
-		width: 796px;
-		overflow: hidden;
-		margin-right: 10px;
-		float: left;
-	}
-
-	.nuevas-fronteras-internas .vision-exploratoria .row .col-der{
-		float: left;
-		width: 394px;
-		overflow: hidden;
-	}
-
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt{
-		margin-bottom: 10px;
-	}
 
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt h3{
 		font-size: 22px;
@@ -187,47 +172,40 @@
 
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt1,
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt2{
-		height: 300px;
+		height: 410px;
 	}
 
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .scrollCustom,
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .scrollCustom{
-		height: 190px;
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .scrollCustom{
+		height: 290px;
 	}
 
 
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt1{
 		background: #360f43;
+		width: 757px;
+		position: relative;
 	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 > div{
+		width: 340px;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .grafico{
+		position: absolute;
+		right: 30px;
+		top: 125px;
+	}
+
 
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt2{
 		background: #333 url("./assets/nuevas-fronteras/bg-internacional.jpg") no-repeat;
 	}
 
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-slider-interna,
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-slider-interna{
-		width: auto;
-		height: auto;
-		margin-top: 25px;
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .scrollCustom{
+		height: 110px;
 	}
 
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-slider-interna.mask,
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-slider-interna.mask{
-		overflow: hidden;
-	}
 
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-slider-interna li,
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-slider-interna li{
-		height: 455px;
-		width: 352px;
-	}
-
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-prev-horizontal,
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt1 .jcarousel-next-horizontal,
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-prev-horizontal,
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt2 .jcarousel-next-horizontal{
-		top: 255px;
-	}
 
 
 	/* Bloque 3 & Bloque 4 */
@@ -258,26 +236,18 @@
 	/* bloque 4 */
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt4{
 		background: #bc7eb0;
+		width: 756px;
+		position: relative;
 	}
 
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-slider-interna{
-		width: auto;
-		height: auto;
-		margin-top: 25px;
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 > div{
+		width: 345px;
 	}
 
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-slider-interna.mask{
-		overflow: hidden;
-	}
-
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-slider-interna li{
-		height: 455px;
-		width: 352px;
-	}
-
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-prev-horizontal,
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .jcarousel-next-horizontal{
-		top: 421px;
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .grafico{
+		position: absolute;
+		right: 0;
+		top: 55px;
 	}
 
 
@@ -285,15 +255,21 @@
 
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt5{
 		background: #653d7c;
-		height: 815px;
+		height: 370px;
+		width: 1160px;
+		position: relative;
+	}
+
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt5 > div{
+		width: 350px;
 	}
 
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt5 .scrollCustom{
-		height: 200px;
+		height: 265px;
 	}
 
-	.nuevas-fronteras-internas .vision-exploratoria .row .txt5 img{
+	.nuevas-fronteras-internas .vision-exploratoria .row .txt5 .grafico{
 		position: absolute;
-		bottom: 10px;
-		left: 18px;
+		bottom: 20px;
+		right: 20px;
 	}

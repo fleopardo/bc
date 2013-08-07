@@ -384,7 +384,7 @@
 /* Mapa */
 .col-container .menu .mapa{
 	position: absolute;
-	left: 370px;
+	left: 51px;
 	top: 0;
 	bottom: 0;
 	right: 0;
@@ -393,8 +393,8 @@
 
 .col-container .menu .mapa img{
 	position: absolute;
-	top: 77px;
-	left: 30px;
+	top: 0;
+	left: 0;
 }
 
 .col-container .menu .mapa li{
@@ -407,8 +407,8 @@
 		width: 65px;
 		height: 75px;
 		background-position: 0px 0px;
-		top: 325px;
-		left: 431px;
+		top: 375px;
+		left: 609px;
 	}
 
 		.col-container .menu .mapa li.uno.hover,
@@ -420,8 +420,8 @@
 		width: 95px;
 		height: 75px;
 		background-position: -86px 0px;
-		top: 328px;
-		left: 715px;
+		top: 375px;
+		left: 984px;
 	}
 
 		.col-container .menu .mapa li.dos.hover,
@@ -433,8 +433,8 @@
 		width: 94px;
 		height: 62px;
 		background-position: -193px 0px;
-		top: 243px;
-		left: 700px;
+		top: 245px;
+		left: 982px;
 	}
 
 		.col-container .menu .mapa li.tres.hover,
@@ -446,8 +446,8 @@
 		width: 105px;
 		height: 75px;
 		background-position: -295px 0px;
-		top: 68px;
-		left: 570px;
+		top: 14px;
+		left: 793px;
 	}
 
 		.col-container .menu .mapa li.cuatro.hover,
@@ -459,8 +459,8 @@
 		width: 78px;
 		height: 63px;
 		background-position: -411px 0px;
-		top: 80px;
-		left: 432px;
+		top: 22px;
+		left: 620px;
 	}
 
 		.col-container .menu .mapa li.cinco.hover,
@@ -472,8 +472,8 @@
 		width: 120px;
 		height: 62px;
 		background-position: -503px 0px;
-		top: 80px;
-		left: 230px;
+		top: 20px;
+		left: 342px;
 	}
 
 		.col-container .menu .mapa li.seis.hover,
@@ -485,8 +485,8 @@
 		width: 95px;
 		height: 68px;
 		background-position: -627px 0px;
-		top: 80px;
-		left: 125px;
+		top: 18px;
+		left: 181px;
 	}
 
 		.col-container .menu .mapa li.siete.hover,
@@ -499,8 +499,8 @@
 		width: 94px;
 		height: 68px;
 		background-position: -728px 0px;
-		top: 155px;
-		left: 30px;
+		top: 135px;
+		left: 70px;
 	}
 
 		.col-container .menu .mapa li.ocho.hover,
@@ -512,8 +512,8 @@
 		width: 60px;
 		height: 63px;
 		background-position: -832px 0px;
-		top: 238px;
-		left: 33px;
+		top: 243px;
+		left: 73px;
 	}
 
 		.col-container .menu .mapa li.nueve.hover,
@@ -525,8 +525,8 @@
 		width: 90px;
 		height: 60px;
 		background-position: -899px 0px;
-		top: 238px;
-		left: 116px;
+		top: 243px;
+		left: 177px;
 	}
 
 		.col-container .menu .mapa li.diez.hover,
@@ -538,8 +538,8 @@
 		width: 88px;
 		height: 65px;
 		background-position: -1001px 0px;
-		top: 338px;
-		left: 119px;
+		top: 383px;
+		left: 184px;
 	}
 
 		.col-container .menu .mapa li.once.hover,
@@ -551,8 +551,8 @@
 		width: 88px;
 		height: 68px;
 		background-position: -1097px 0px;
-		top: 332px;
-		left: 242px;
+		top: 380px;
+		left: 367px;
 	}
 
 		.col-container .menu .mapa li.doce.hover,
@@ -564,8 +564,8 @@
 		width: 88px;
 		height: 54px;
 		background-position: -1196px 0px;
-		top: 146px;
-		left: 340px;
+		top: 117px;
+		left: 489px;
 	}
 
 		.col-container .menu .mapa li.trece.hover,
@@ -577,8 +577,8 @@
 		width: 114px;
 		height: 62px;
 		background-position: -1295px 0px;
-		top: 168px;
-		left: 468px;
+		top: 125px;
+		left: 643px;
 	}
 
 		.col-container .menu .mapa li.catorce.hover,
