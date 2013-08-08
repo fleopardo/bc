@@ -127,7 +127,7 @@
 		display: inline-block;
 		*display: inline; /* Para IE */
 		*zoom: 1; /* Para IE */
-		margin-right: 15px;
+		margin-right: 12px;
 		float: left;
 	}
 

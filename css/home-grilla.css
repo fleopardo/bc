@@ -824,3 +824,202 @@
 	float: left;
 	margin-right: 0;
 }
+
+
+
+/*
+ * NOVEDADES
+*/
+
+/* columna izquierda */
+.novedades .col-izq{
+	width: 700px;
+	margin-right: 18px;
+	float: left;
+	background: #fff;
+	height: 579px;
+}
+
+.novedades .col-izq .detalle-novedad{
+	height: 383px;
+	overflow: hidden;
+}
+
+.novedades .col-izq .detalle-novedad article{
+	position: relative;
+}
+
+.novedades .col-izq .detalle-novedad article img{
+	max-width: 100%;
+}
+
+.novedades .col-izq .detalle-novedad article > div{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 40px;
+}
+
+.novedades .col-izq .detalle-novedad article > div p{
+	font-size: 30px;
+	font-family: "din-black";
+	line-height: 38px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.novedades .col-izq .detalle-novedad article > div a{
+	font-size: 12px;
+	font-family: "din-black";
+	line-height: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.novedades .col-izq .lista{
+
+}
+
+.novedades .col-izq .lista ul{
+	padding: 0 0 16px 30px;
+}
+
+.novedades .col-izq .lista li{
+	width: 145px;
+	float: left;
+	margin-right: 22px;
+	position: relative;
+}
+
+.novedades .col-izq .lista li a{
+	color: #676767;
+	font-size: 12px;
+	line-height: 15px;
+	font-family: "din-medium";
+	font-weight: normal;
+}
+
+.novedades .col-izq .lista li a img{
+	margin-top: 16px;
+	margin-bottom: 5px;
+	border: 3px solid transparent;
+}
+
+.novedades .col-izq .lista li.active:before,
+.novedades .col-izq .lista li:hover:before{
+	content:" ";
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 16px solid #fff;
+	position: absolute;
+	top: -10px;
+	left: 50%;
+	margin-left: -13px;
+}
+
+.novedades .col-izq .lista li.active img,
+.novedades .col-izq .lista li:hover img{
+	border-color: #b1b1b1;
+}
+
+/* columna derecha */
+
+.novedades .col-der{
+	width: 482px;
+	float: left;
+}
+
+/* Shale en el mundo & Vaca muerta */
+
+	.novedades .shale-en-el-mundo,
+	.novedades .vaca-muerta,
+	.novedades .energia-para-el-crecimiento{
+		float: left;
+		width: 480px;
+		height: 186px;
+		position: relative;
+	}
+
+	.novedades .shale-en-el-mundo{
+		background: url("./assets/home/novedades/shale-en-el-mundo.jpg") top right no-repeat;
+	}
+
+	.novedades .vaca-muerta{
+		background: url("./assets/home/novedades/vaca-muerta.jpg") top right no-repeat;
+	}
+
+	.novedades .energia-para-el-crecimiento{
+		background: url("./assets/home/novedades/energia-para-el-crecimiento.jpg") top right no-repeat;
+	}
+
+	.novedades .shale-en-el-mundo div,
+	.novedades .vaca-muerta div,
+	.novedades .energia-para-el-crecimiento div{
+		width: 208px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+		.novedades .shale-en-el-mundo div{
+			background: #b78c17;
+		}
+
+		.novedades .vaca-muerta div{
+			background: #6c6a2c;
+		}
+
+		.novedades .energia-para-el-crecimiento div{
+			background: #31aed2;
+		}
+
+		/* Hovers */
+		.novedades .shale-en-el-mundo:hover div{
+			background: #7b5e10;
+		}
+
+		.novedades .vaca-muerta:hover div{
+			background: #41401a;
+		}
+
+		.novedades .energia-para-el-crecimiento:hover div{
+			background: #1e6c82;
+		}
+
+		/* Cambio de color para icono "More" */
+		.novedades .shale-en-el-mundo .more{
+			border-bottom-color: #7b5e10;
+		}
+
+		.novedades .vaca-muerta .more{
+			border-bottom-color: #41401a;
+		}
+
+		.novedades .energia-para-el-crecimiento .more{
+			border-bottom-color: #1e6c82;
+		}
+
+	.novedades .shale-en-el-mundo div h3,
+	.novedades .vaca-muerta div h3,
+	.novedades .energia-para-el-crecimiento div h3{
+		font-family: "din-black";
+		font-weight: normal;
+		font-size: 19px;
+		line-height: 22px;
+	}
+
+	.novedades .shale-en-el-mundo div h3 span,
+	.novedades .vaca-muerta div h3 span,
+	.novedades .energia-para-el-crecimiento div h3 span{
+		font-family: "din-light";
+		font-weight: normal;
+		display: block;
+	}
+
+	.novedades .que-es-shale div h3 span{
+		display: inline;
+	}

@@ -1,0 +1,73 @@
+.novedades-internas .col-izq{
+	background: #fff;
+	width: 345px;
+	height: 530px;
+	padding: 25px;
+	margin-right: 12px;
+	float: left;
+}
+
+.novedades-internas .col-izq .scrollCustom{
+	height: 540px;
+}
+
+.novedades-internas article h2{
+	font-size: 26px;
+	line-height: 30px;
+	color: #0063be;
+	font-family: "din-black";
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.novedades-internas article h3{
+	font-size: 17px;
+	line-height: 22px;
+	color: #333333;
+	font-family: "din-medium";
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+
+.novedades-internas article p{
+	font-size: 14px;
+	line-height: 19px;
+	color: #676767;
+	font-family: "din-medium";
+	font-weight: normal;
+}
+
+
+.novedades-internas .col-der{
+	width: 792px;
+	float: left;
+	height: 580px;
+}
+
+.novedades-internas .col-der .img{
+	width: 389px;
+	height: 244px;
+}
+
+.novedades-internas .col-der .fotoizq{
+	margin-right: 11px;
+}
+
+.novedades-internas .col-der .txt{
+	padding: 25px;
+	background: url("./assets/textura-negra2.jpg");
+	height: 300px;
+}
+
+.novedades-internas .col-der .scrollCustom{
+	height: 275px;
+}
+
+.novedades-internas .col-der .txt p{
+	color: #b9b9b9;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "din-medium";
+	line-height: 19px;
+	margin-bottom: 10px;
+}

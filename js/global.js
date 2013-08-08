@@ -243,7 +243,7 @@ var shale = shale || {};
 	/*
 	 * Recursos no convencionales location
 	*/
-		//El problema es que no podemos tener un <a> dentro de otro <a>. Por eso vamos a redirigir el link por JS, al menos por ahora
+		//El problema es que no podemos tener un <a> dentro de otro <a>. Por eso vamos a redirigir el link por JS
 		$(".falso-link").live(shale.event.TAP,function(event){
 			event.stopPropagation();
 			event.preventDefault();
@@ -285,7 +285,7 @@ var shale = shale || {};
 
 	/* Compartir */
 
-	$(".compartir").live(shale.event.TAP, function(){
+	/*$(".compartir").live(shale.event.TAP, function(){
 
 		// creo y appendeo un contenedor
 		$("body").append("<div class='wrapperCompartir'>");
@@ -365,7 +365,28 @@ var shale = shale || {};
 
 		})
 
-	})
+	});*/
+
+
+	/*
+	 * Home de Novedades
+	*/
+
+	$("#novedades").find(".lista li").live("mouseenter", function(e){
+
+		// pongo los estilos al active
+		$("#novedades").find(".lista li").removeClass("active");
+		$(this).addClass("active");
+
+		//muestro la noticia ampliada arriba
+		var position = $(this).data("position");
+
+		$("#novedades").find(".detalle-novedad article").hide();
+		$("#novedades").find(".detalle-novedad article[data-position='"+position+"']").show();
+
+
+
+	});
 
 
 }());

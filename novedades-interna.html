@@ -20,19 +20,19 @@
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
 	<link rel="stylesheet" type="text/css" href="css/internas-global.css" />
-	<link rel="stylesheet" type="text/css" href="css/nuevas-fronteras-internas.css" />
+	<link rel="stylesheet" type="text/css" href="css/novedades-internas.css" />
 	<link rel="stylesheet" type="text/css" href="css/libs/jquery.jscrollpane.css" />
 	<link rel="stylesheet" type="text/css" href="css/tipTip.css" />
 	<link rel="stylesheet" type="text/css" href="css/header.css" />
+
 </head>
 <body>
 
-	<div class="contenedor-principal internas nuevas-fronteras-internas">
-
-		<header class="headerYPF">
+	<header class="headerYPF">
 		<div class="clearfix">
 			<h1 class="logo"><a href="http://www.ypf.com"><span class="hide">YPF</span></a></h1>
 			<h2><a href="index.html">Energía <span>YPF</span></a></h2>
+
 			<nav class="nav">
 				<ul class="principal">
 					<li class="desafio-energetico">
@@ -66,7 +66,7 @@
 						</div>
 					</li>
 					<li class="nuevas-fronteras">
-						<a href="#" class="hasSubmenu active">Nuevas Fronteras</a>
+						<a href="#" class="hasSubmenu">Nuevas Fronteras</a>
 						<div class="submenu openLeft">
 
 							<div class="info">
@@ -163,7 +163,7 @@
 						</div-->
 					</li>
 					<li class="novedades">
-						<a href="novedades.html">Novedades</a>
+						<a href="novedades.html" class="active">Novedades</a>
 					</li>
 				</ul>
 
@@ -269,158 +269,106 @@
 		</div>
 	</div>-->
 
+
+	<div class="contenedor-principal internas novedades-internas">
+
 		<div class="mascara">
 
 			<div class="slide clearfix">
 
-				<section id="vision-exploratoria" class="vision-exploratoria contenido clearfix">
+				<section id="novedades1" class="novedades1 contenido clearfix">
 
 					<div class="preheader">
 
 						<ul class="flechas">
+
+							<!--
+
+								FUNCIONAMIENTO PARA AGREGAR LAS DEMAS NOVEDADES Y NAVEGARLAS DESDE LAS FLECHAS.
+
+								* href = html que va a cargar por ajax
+								* data-nav = sabe si la carga atras o adelante. (Este dato ya esta puesto, no es necesario cambiarlo.)
+								* data-page-id = es el ID que tiene el section que esta dentro del "div.slide" de la pagina que se va a cargar(href). NO TIENE QUE REPETIRSE CON OTRA PAGINA, sino al hacer el scroll no sabe a cual dirigirse y rompe.
+
+								En el caso de este html el ID es "novedades1" -
+								esta linea:
+
+								<div class="slide clearfix">
+									<section id="novedades1" class="novedades1 contenido clearfix">
+
+								.......
+
+								Deshabilitar la flecha: si quisieran hacerlo como esta hecho en "nuestra-energia-detalle.html" simplemente le quitan el href y le agregan el class "disabled". EJ:
+
+								<a href="#" class="siguiente disabled">
+									<i class="icon"></i><span class="hide">Siguiente</span>
+								</a>
+
+							 -->
+
 							<li>
-								<a href="opid.html" class="anterior navegacion" data-nav="prev" data-page-id="opid">
+								<a href="cadena-de-energia.html" class="anterior navegacion" data-nav="prev" data-page-id="cadena-de-energia">
 									<i class="icon"></i><span class="hide">Anterior</span>
 								</a>
 							</li>
+
 							<li>
-								<a href="plan-estrategico.html" class="siguiente navegacion" data-nav="next" data-page-id="plan-exploratorio"><i class="icon"></i><span class="hide">Siguiente</span>
+								<a href="nuevas-fronteras.html" class="siguiente navegacion" data-nav="next" data-page-id="nuevas-fronteras"><i class="icon"></i><span class="hide">Siguiente</span>
 								</a>
 							</li>
-							<li><a href="nuevas-fronteras.html" class="volver">x</a></li>
+
+							<li><a href="novedades.html" class="volver">x</a></li>
 						</ul>
 
 						<ul class="breadcrumb">
-							<li><a href="index.html">Home</a><i class="icon"></i></li>
-							<li><a href="nuevas-fronteras.html">Nuevas Fronteras</a><i class="icon"></i></li>
-							<li><strong><a href="vision-exploratoria.html">Visión Exploratoria</a></strong></li>
+							<li>Home<i class="icon"></i></li>
+							<li><a href="novedades.html"><strong>Novedades</strong></a></li>
 						</ul>
 
 					</div>
 
-					<div class="row">
 
-						<article class="intro bloque bloque-texto">
 
-							<h3>Visión <br><span>Exploratoria</span></h3>
+					<div class="col-izq">
 
+						<article class="scrollCustom">
+							<h2>A partir de la nacionalización de YPF la empresa asume el compromiso de aumentar su producción.</h2>
+
+							<h3>La energía es la base fundamental para el desarrollo. Y las principales fuentes de energía, en la Argentina y en el mundo, son el petróleo y el gas.</h3>
+
+							<p>La energía es la base fundamental para el desarrollo. Y las principales fuentes de energía, en la Argentina y en el mundo, son el petróleo y el gas. El crecimiento económico y social se sostiene en los hidrocarburos. Sin ellos no habría producción, el campo no podría sembrar ni cosechar, las ambulancias no podrían trasladar a los enfermos, no podríamos llegar a nuestros trabajos y los insumos básicos no llegarían a las fábricas. </p>
+						</article>
+
+					</div>
+
+					<div class="col-der">
+
+						<div class="row">
+							<img src="img/novedades/01/foto1.jpg" width="389" height="244" class="img fotoizq"/>
+
+							<img src="img/novedades/01/foto2.jpg" width="389" height="244" class="img fotoder"/>
+						</div>
+
+						<div class="txt">
 							<div class="scrollCustom">
-								<p>En YPF buscamos incorporar nuevas reservas de gas y petróleo, convencional y no convencional, que permitan asegurar el autoabastecimiento hidrocarburífero necesario para el desarrollo sustentable de la Argentina.</p>
+								<p>La energía es la base fundamental para el desarrollo. Y las principales fuentes de energía, en la Argentina y en el mundo, son el petróleo y el gas. El crecimiento económico y social se sostiene en los hidrocarburos. Sin ellos no habría producción, el campo no podría sembrar ni cosechar, las ambulancias no podrían trasladar a los enfermos, no podríamos llegar a nuestros trabajos y los insumos básicos no llegarían a las fábricas. El 95% del transporte utiliza derivados del petróleo y del gas para funcionar. Más del 60% del gas que consume todo el país es utilizado de manera directa para el desarrollo, especialmente como insumo de la industria nacional y de nuestras principales centrales eléctricas.</p>
 
-								<p>A partir de esta visión realizaremos una cobertura integral de todas las cuencas de nuestro país y también focalizaremos nuestros proyectos exploratorios en el área internacional.</p>
+								<p>La energía es la base fundamental para el desarrollo. Y las principales fuentes de energía, en la Argentina y en el mundo, son el petróleo y el gas. El crecimiento económico y social se sostiene en los hidrocarburos. Sin ellos no habría producción, el campo no podría sembrar ni cosechar, las ambulancias no podrían trasladar a los enfermos, no podríamos llegar a nuestros trabajos y los insumos básicos no llegarían a las fábricas. El 95% del transporte utiliza derivados del petróleo y del gas para funcionar.</p>
 							</div>
-
-							<a href="mailto:?subject=Enviado desde Energía YPF&body=http://www.ypf.com/EnergiaYPF/Paginas/recursos-no-convencionales.html" class="compartir" target="_blank">Compartir</a>
-						</article>
-
-						<img src="./img/nuevas-fronteras/vision-exploratoria/grafico.jpg" width="797" height="472" class="bloque last" />
+						</div>
 
 					</div>
 
-					<div class="row">
-
-						<article class="bloque bloque-texto txt txt1" id="exploracion-en-cuencas-productivas">
-
-							<a href="mailto:?subject=Enviado desde Energía YPF&body=http://www.ypf.com/EnergiaYPF/Paginas/recursos-no-convencionales.html" class="compartir" target="_blank">Compartir</a>
-
-							<div>
-								<span href="vision-exploratoria.html" class="tit-uppercase">Visión Exploratoria</span>
-
-								<h3>Exploración en <br><span>Cuencas Productivas</span></h3>
-								<div class="scrollCustom">
-									<p>YPF se propone explorar el remanente de las cuencas que están actualmente en producción y lograr una rápida puesta en producción de los recursos adicionales, junto con la incorporación de reservas.</p>
-
-									<p>En su tarea ponemos el énfasis en la exploración de gas, dadas las necesidades de incrementar la producción de este recurso que tiene el país.</p>
-								</div>
-							</div>
-
-
-							<img src="./img/nuevas-fronteras/vision-exploratoria/slide-cuencas-productivas.png" width="365" height="269" class="grafico"/>
-
-
-						</article>
-
-
-						<article class="bloque bloque-texto last txt txt2" id="internacional">
-							<a href="mailto:?subject=Enviado desde Energía YPF&body=http://www.ypf.com/EnergiaYPF/Paginas/recursos-no-convencionales.html" class="compartir" target="_blank">Compartir</a>
-
-							<div>
-								<span href="vision-exploratoria.html" class="tit-uppercase">Visión Exploratoria</span>
-
-								<h3><span>Internacional</span></h3>
-								<div class="scrollCustom">
-									<p>La región sudamericana tiene importantes recursos hidrocarburíferos y un gran potencial de desarrollo. En YPF analizamos proyectos de exploración en distintos países de la región que nos permitirán incorporar reservas y facilitarán los procesos de integración y crecimiento.</p>
-								</div>
-
-								<img src="./img/nuevas-fronteras/vision-exploratoria/slide-internacional.png" width="363" height="200" />
-
-							</div>
-						</article>
-
-					</div>
-
-
-					<div class="row">
-
-						<article class="bloque bloque-texto txt txt3" id="offshore">
-							<span href="vision-exploratoria.html" class="tit-uppercase">Visión Exploratoria</span>
-
-							<h3><span>Offshore</span></h3>
-							<div class="scrollCustom">
-								<p>La exploración en aguas profundas en la Argentina tiene el potencial de ser el único remanente en reservorios convencionales con grandes cantidades de petróleo y gas. YPF iniciará la exploración en Cuenca del Colorado y del margen norte de la Plataforma Continental Argentina. Además, nos proponemos relanzar la exploración en las cuencas Austral y Malvinas.</p>
-							</div>
-
-							<img src="./img/nuevas-fronteras/vision-exploratoria/offshore.png" width="317" height="252" />
-
-							<a href="mailto:?subject=Enviado desde Energía YPF&body=http://www.ypf.com/EnergiaYPF/Paginas/recursos-no-convencionales.html" class="compartir" target="_blank">Compartir</a>
-						</article>
-
-
-						<article class="bloque bloque-texto last txt txt4" id="exploracion-nuevas-cuencas">
-							<a href="mailto:?subject=Enviado desde Energía YPF&body=http://www.ypf.com/EnergiaYPF/Paginas/recursos-no-convencionales.html" class="compartir" target="_blank">Compartir</a>
-							<div>
-								<span href="vision-exploratoria.html" class="tit-uppercase">Visión Exploratoria</span>
-
-								<h3>Exploración en <br><span>Nuevas Cuencas</span></h3>
-								<div class="scrollCustom">
-									<p>YPF asume el alto riesgo que implica la exploración en las cuencas que potencialmente pueden tener recursos hidrocarburíferos pero que todavía no son productivas, las cuales se encuentran ubicadas en distintas provincias del país que no eran consideradas petroleras, pero que pueden llegar a contar con recursos de petróleo y gas tanto convencionales como no convencionales.</p>
-
-									<p>Las cuencas en las que detectamos nuevas oportunidades de exploración son: Chacoparaná (Misiones, Entre Ríos, Chaco, Santiago del Estero, Santa Fe, Corrientes, Córdoba y Formosa); Paleozoica y Cretácica (Salta, Jujuy, Formosa y Tucumán); la región geológica Bolsones Intermontanos (La Rioja y San Juan); Subcuenca Triásica Los Tordillos (Mendoza); Claromecó (Buenos Aires) y Cañadón Asfalto-Somuncurá (Chubut y Río Negro).</p>
-								</div>
-							</div>
-
-							<img src="./img/nuevas-fronteras/vision-exploratoria/slide-nuevas-cuencas.png" width="354" height="428" class="grafico" />
-
-						</article>
-
-					</div>
-
-					<div class="row">
-						<article class="bloque bloque-texto last txt txt5" id="exploracion-no-convencional">
-							<a href="mailto:?subject=Enviado desde Energía YPF&body=http://www.ypf.com/EnergiaYPF/Paginas/recursos-no-convencionales.html" class="compartir" target="_blank">Compartir</a>
-
-							<span href="vision-exploratoria.html" class="tit-uppercase">Visión Exploratoria</span>
-
-							<h3>Exploración <br><span>No convencional</span></h3>
-							<div class="scrollCustom">
-								<p>La exploración en áreas de recursos no convencionales posibilitará que podamos incrementar significativamente nuestras reservas de petróleo y gas ya que la Argentina posee un gran potencial en este tipo de recursos.</p>
-
-								<p>La actividad exploratoria en estas áreas no convencionales se lleva a cabo principalmente en la formación Vaca Muerta, ubicada en la Cuenca Neuquina, en la formación D-129, ubicada en la Cuenca del Golfo San Jorge, y también se analizan potenciales recursos en las Cuencas Noroeste, Cuyana, Austral, y en la Chaco-Paranaense.</p>
-							</div>
-
-							<img src="./img/nuevas-fronteras/vision-exploratoria/exploracion-no-convencional.png" width="770" height="331" class="grafico"/>
-
-						</article>
-					</div>
-
-					<a href="#" class="backToTop">Volver Arriba</a>
 				</section>
 
 			</div>
 
 		</div>
 
+		<!--a href="#" class="backToTop">Volver Arriba <span class="icon top"></span></a-->
+
 	</div>
+
 
 	<footer>
 		<div class="clearfix">
@@ -458,13 +406,10 @@
 					"js/navegacion2.js",
 					"js/libs/jquery.tiptip.js",
 	    			"js/libs/jquery.jcarousel.js",
-	    			"js/libs/jquery.touchwipe.min.js",
 	    			"js/header.js",
 	    			"js/libs/jwplayer.js"],function(){
 
-		    	scr.js("js/global.js",function(){
-		    		scr.js("js/internas.js")
-		    	});
+		    	scr.js("js/global.js");
 
 			});
 
