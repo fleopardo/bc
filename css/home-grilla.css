@@ -831,195 +831,225 @@
  * NOVEDADES
 */
 
-/* columna izquierda */
-.novedades .col-izq{
-	width: 700px;
-	margin-right: 18px;
-	float: left;
-	background: #fff;
-	height: 579px;
-}
 
-.novedades .col-izq .detalle-novedad{
-	height: 383px;
-	overflow: hidden;
-}
+/* Nota principal */
 
-.novedades .col-izq .detalle-novedad article{
-	position: relative;
-}
+	.novedades .date{
+		color: #8e8e8e;
+		font-family: "din-medium";
+		font-weight: normal;
+		font-size: 12px;
+		margin-bottom: 15px;
+		display: block;
+	}
 
-.novedades .col-izq .detalle-novedad article img{
-	max-width: 100%;
-}
-
-.novedades .col-izq .detalle-novedad article > div{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	padding: 40px;
-}
-
-.novedades .col-izq .detalle-novedad article > div p{
-	font-size: 30px;
-	font-family: "din-black";
-	line-height: 38px;
-	font-weight: normal;
-	margin-bottom: 20px;
-}
-
-.novedades .col-izq .detalle-novedad article > div a{
-	font-size: 12px;
-	font-family: "din-black";
-	line-height: 16px;
-	font-weight: normal;
-	text-transform: uppercase;
-}
-
-.novedades .col-izq .lista{
-
-}
-
-.novedades .col-izq .lista ul{
-	padding: 0 0 16px 30px;
-}
-
-.novedades .col-izq .lista li{
-	width: 145px;
-	float: left;
-	margin-right: 22px;
-	position: relative;
-}
-
-.novedades .col-izq .lista li a{
-	color: #676767;
-	font-size: 12px;
-	line-height: 15px;
-	font-family: "din-medium";
-	font-weight: normal;
-}
-
-.novedades .col-izq .lista li a img{
-	margin-top: 16px;
-	margin-bottom: 5px;
-	border: 3px solid transparent;
-}
-
-.novedades .col-izq .lista li.active:before,
-.novedades .col-izq .lista li:hover:before{
-	content:" ";
-	width: 0;
-	height: 0;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-bottom: 16px solid #fff;
-	position: absolute;
-	top: -10px;
-	left: 50%;
-	margin-left: -13px;
-}
-
-.novedades .col-izq .lista li.active img,
-.novedades .col-izq .lista li:hover img{
-	border-color: #b1b1b1;
-}
-
-/* columna derecha */
-
-.novedades .col-der{
-	width: 482px;
-	float: left;
-}
-
-/* Shale en el mundo & Vaca muerta */
-
-	.novedades .shale-en-el-mundo,
-	.novedades .vaca-muerta,
-	.novedades .energia-para-el-crecimiento{
-		float: left;
-		width: 480px;
-		height: 186px;
+	.novedades .nota-principal{
+		width: 710px;
+		height: 384px;
 		position: relative;
+		float: left;
+		margin-right: 10px;
+		overflow: hidden;
 	}
 
-	.novedades .shale-en-el-mundo{
-		background: url("./assets/home/novedades/shale-en-el-mundo.jpg") top right no-repeat;
+	.novedades .nota-principal img{
+		float: right;
 	}
 
-	.novedades .vaca-muerta{
-		background: url("./assets/home/novedades/vaca-muerta.jpg") top right no-repeat;
-	}
-
-	.novedades .energia-para-el-crecimiento{
-		background: url("./assets/home/novedades/energia-para-el-crecimiento.jpg") top right no-repeat;
-	}
-
-	.novedades .shale-en-el-mundo div,
-	.novedades .vaca-muerta div,
-	.novedades .energia-para-el-crecimiento div{
-		width: 208px;
+	.novedades .nota-principal div{
+		background-color: #222;
+		width: 199px;
 		position: absolute;
 		top: 0;
 		bottom: 0;
 		left: 0;
 	}
 
-		.novedades .shale-en-el-mundo div{
-			background: #b78c17;
-		}
+	.novedades .nota-principal div h3{
+		font-size: 19px;
+		font-family: "din-medium";
+		font-weight: normal;
+		line-height: 22px;
+		margin-bottom: 20px;
+	}
 
-		.novedades .vaca-muerta div{
-			background: #6c6a2c;
-		}
+	.novedades .nota-principal div p.desc{
+		font-family: "din-regular";
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 12px;
+	}
 
-		.novedades .energia-para-el-crecimiento div{
-			background: #31aed2;
-		}
+	.novedades .nota-principal .more{
+		border-bottom-color: #b88d00
+	}
+
+	.novedades .nota-principal:hover div{
+		background-color: #b88d00;
+	}
+
+	.novedades .nota-principal:hover .date{
+		color: #fff;
+	}
+
+
+	.novedades .lista-notas{
+		float: left;
+		width: 478px;
+		background: #333333;
+		height: 383px;
+		overflow: hidden;
+	}
+
+	.novedades .lista-notas .scrollCustom{
+		height: 320px;
+	}
+
+	.novedades .lista-notas h3{
+		font-family: "din-black";
+		text-transform: uppercase;
+		padding: 0 20px;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 50px;
+	}
+
+	.novedades .lista-notas a.nota{
+		display: block;
+		-webkit-transition: all 0.5s ease-out;
+		-o-transition: all 0.5s ease-out;
+		-moz-transition: all 0.5s ease-out;
+		-ms-transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;
+		background: transparent;
+	}
+
+	.novedades .lista-notas a.nota:hover{
+		background: #222;
+	}
+
+	.novedades .lista-notas a.nota:hover .date{
+		color: #fff;
+	}
+
+	.novedades .lista-notas article{
+		padding: 18px 20px 15px 115px;
+		border-top: 1px solid #222;
+		min-height: 70px;
+		position: relative;
+	}
+
+	.novedades .lista-notas .foto{
+		position: absolute;
+		left: 20px;
+		top: 12px;
+	}
+
+	.novedades .lista-notas article h4{
+		font-family: "din-medium";
+		font-size: 14px;
+		font-weight: normal;
+		color: #fff;
+		line-height: 18px;
+	}
+
+/* Notas inferiores */
+	.novedades .notas{
+		float: left;
+		width: 480px;
+		height: 186px;
+		position: relative;
+		background: #333333;
+	}
+
+	.novedades .notas:hover .date{
+		color: #fff;
+	}
+
+	.novedades .notas div h3{
+		font-family: "din-medium";
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 19px;
+	}
+
+
+
+	.novedades .nota-secundaria{
+		width: 465px;
+		margin-right: 10px;
+		float: left;
+		clear: both;
+		overflow: hidden;
+	}
+
+	.ie7 .novedades .nota-secundaria{
+		width: 474px;
+	}
+
+	.novedades .nota-secundaria div{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		background: #333333;
+		width: 185px;
+	}
+
+	/* Hovers */
+	.novedades .nota-secundaria:hover div{
+		background: #650476;
+	}
+
+	/* Cambio de color para icono "More" */
+	.novedades .nota-secundaria .more{
+		border-bottom-color: #650476;
+	}
+
+
+	.novedades .nota3,
+	.novedades .nota4,
+	.novedades .nota5{
+		width: 235px;
+		height: 186px;
+		float: left;
+		position: relative;
+		margin-right: 10px;
+	}
+
+	.ie7 .novedades .nota3,
+	.ie7 .novedades .nota4,
+	.ie7 .novedades .nota5{
+		width: 232px;
+	}
+
+	.novedades .nota5{
+		margin-right: 0;
+	}
 
 		/* Hovers */
-		.novedades .shale-en-el-mundo:hover div{
-			background: #7b5e10;
+		.novedades .nota3:hover{
+			background: #0b5853;
 		}
 
-		.novedades .vaca-muerta:hover div{
-			background: #41401a;
+		.novedades .nota4:hover{
+			background: #476e61;
 		}
 
-		.novedades .energia-para-el-crecimiento:hover div{
-			background: #1e6c82;
+		.novedades .nota5:hover{
+			background: #77b8a2;
 		}
 
 		/* Cambio de color para icono "More" */
-		.novedades .shale-en-el-mundo .more{
-			border-bottom-color: #7b5e10;
+		.novedades .nota3 .more{
+			border-bottom-color: #0b5853;
 		}
 
-		.novedades .vaca-muerta .more{
-			border-bottom-color: #41401a;
+		.novedades .nota4 .more{
+			border-bottom-color: #476e61;
 		}
 
-		.novedades .energia-para-el-crecimiento .more{
-			border-bottom-color: #1e6c82;
+		.novedades .nota5 .more{
+			border-bottom-color: #77b8a2;
 		}
-
-	.novedades .shale-en-el-mundo div h3,
-	.novedades .vaca-muerta div h3,
-	.novedades .energia-para-el-crecimiento div h3{
-		font-family: "din-black";
-		font-weight: normal;
-		font-size: 19px;
-		line-height: 22px;
-	}
-
-	.novedades .shale-en-el-mundo div h3 span,
-	.novedades .vaca-muerta div h3 span,
-	.novedades .energia-para-el-crecimiento div h3 span{
-		font-family: "din-light";
-		font-weight: normal;
-		display: block;
-	}
-
-	.novedades .que-es-shale div h3 span{
-		display: inline;
-	}

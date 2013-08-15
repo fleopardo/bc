@@ -19,10 +19,12 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/home-grilla.css" />
+	<link rel="stylesheet" type="text/css" href="css/internas-global.css" />
+	<link rel="stylesheet" type="text/css" href="css/novedades-internas.css" />
 	<link rel="stylesheet" type="text/css" href="css/libs/jquery.jscrollpane.css" />
 	<link rel="stylesheet" type="text/css" href="css/tipTip.css" />
 	<link rel="stylesheet" type="text/css" href="css/header.css" />
+
 </head>
 <body>
 
@@ -268,27 +270,54 @@
 	</div>-->
 
 
-	<div class="contenedor-principal home">
+	<div class="contenedor-principal internas novedades-internas">
 
 		<div class="mascara">
 
 			<div class="slide clearfix">
 
-				<section id="novedades" class="novedades contenido clearfix">
+				<section id="novedades1" class="novedades1 contenido clearfix">
 
 					<div class="preheader">
 
 						<ul class="flechas">
+
+							<!--
+
+								FUNCIONAMIENTO PARA AGREGAR LAS DEMAS NOVEDADES Y NAVEGARLAS DESDE LAS FLECHAS.
+
+								* href = html que va a cargar por ajax
+								* data-nav = sabe si la carga atras o adelante. (Este dato ya esta puesto, no es necesario cambiarlo.)
+								* data-page-id = es el ID que tiene el section que esta dentro del "div.slide" de la pagina que se va a cargar(href). NO TIENE QUE REPETIRSE CON OTRA PAGINA, sino al hacer el scroll no sabe a cual dirigirse y rompe.
+
+								En el caso de este html el ID es "novedades1" -
+								esta linea:
+
+								<div class="slide clearfix">
+									<section id="novedades1" class="novedades1 contenido clearfix">
+
+								.......
+
+								Deshabilitar la flecha: si quisieran hacerlo como esta hecho en "nuestra-energia-detalle.html" simplemente le quitan el href y le agregan el class "disabled". EJ:
+
+								<a href="#" class="siguiente navegacion disabled">
+									<i class="icon"></i><span class="hide">Siguiente</span>
+								</a>
+
+							 -->
+
 							<li>
-								<a href="cadena-de-energia.html" class="anterior navegacion" data-nav="prev" data-page-id="cadena-de-energia">
+								<a href="#" class="anterior navegacion disabled">
 									<i class="icon"></i><span class="hide">Anterior</span>
 								</a>
 							</li>
+
 							<li>
-								<a href="index.html" class="siguiente navegacion" data-nav="next" data-page-id="desafio-energetico">
-									<i class="icon"></i><span class="hide">Siguiente</span>
+								<a href="#" class="siguiente navegacion disabled"><i class="icon"></i><span class="hide">Siguiente</span>
 								</a>
 							</li>
+
+							<li><a href="novedades.html" class="volver">x</a></li>
 						</ul>
 
 						<ul class="breadcrumb">
@@ -296,28 +325,43 @@
 							<li><a href="novedades.html"><strong>Novedades</strong></a></li>
 						</ul>
 
-						<ul class="vistas">
-							<li><a href="novedades.html" class="grilla active"><i class="icon"></i>Grilla</a></li>
-						</ul>
-
 					</div>
 
 
 
-					<a href="novedades-interna-con-foto.html" class="bloque nota-principal">
-						<article>
-							<div>
-								<span class="date">25 julio | SUSTENTABILIDAD</span>
+					<div class="col-izq">
 
-								<h3>A partir de la nacionalización de YPF la empresa asume el compromiso de aumentar su producción.</h3>
+						<span class="date">25 julio | SUSTENTABILIDAD</span>
 
-							 	<p class="desc">En YPF nos desarrollamos con un profundo sentido de responsabilidad y compromiso que guía todas nuestras actividades y operaciones.</p>
+						<a href="mailto:?subject=Enviado desde Energía YPF&body=http://www.ypf.com/EnergiaYPF/Paginas/novedades.html" class="compartir" target="_blank">Compartir</a>
 
-							 	<p class="more"><span>+</span></p>
+						<h2>A partir de la nacionalización de YPF la empresa asume el compromiso de aumentar su producción.</h2>
+
+						<h3>La energía es la base fundamental para el desarrollo. Y las principales fuentes de energía, en la Argentina y en el mundo, son el petróleo y el gas.</h3>
+
+						<article class="scrollCustom">
+
+							<!-- columna izquierda de la nota -->
+							<div class="col1">
+
+								<img src="img/novedades/0001.jpg" />
+								<p class="fuente">Fuente: Referencia YPF.</p>
+
 							</div>
-							<img src="img/home/novedades/01.jpg" />
+
+							<!-- columna derecha de la nota -->
+							<div class="col2">
+								<p>La energía es la base fundamental para el desarrollo. Y las principales fuentes de energía, en la Argentina y en el mundo, son el petróleo y el gas. El crecimiento económico y social se sostiene en los hidrocarburos. Sin ellos no habría producción, el campo no podría sembrar ni cosechar, las ambulancias no podrían trasladar a los enfermos, no podríamos llegar a nuestros trabajos y los insumos básicos no llegarían a las fábricas. </p>
+
+								<p>La energía es la base fundamental para el desarrollo. Y las principales fuentes de energía, en la Argentina y en el mundo, son el petróleo y el gas. El crecimiento económico y social se sostiene en los hidrocarburos. Sin ellos no habría producción, el campo no podría sembrar ni cosechar, las ambulancias no podrían trasladar a los enfermos, no podríamos llegar a nuestros trabajos y los insumos básicos no llegarían a las fábricas. </p>
+
+								<p>La energía es la base fundamental para el desarrollo. Y las principales fuentes de energía, en la Argentina y en el mundo, son el petróleo y el gas. El crecimiento económico y social se sostiene en los hidrocarburos. Sin ellos no habría producción, el campo no podría sembrar ni cosechar, las ambulancias no podrían trasladar a los enfermos, no podríamos llegar a nuestros trabajos y los insumos básicos no llegarían a las fábricas. </p>
+							</div>
+
 						</article>
-					</a>
+
+					</div>
+
 
 					<div class="bloque lista-notas">
 
@@ -373,61 +417,35 @@
 								</article>
 							</a>
 
+							<a href="novedades-interna.html" class="nota">
+								<article>
+
+									<span class="date">25 julio | SUSTENTABILIDAD</span>
+
+									<h4>Su gran potencial se debe a sus características geológicas y su ubicación.</h4>
+
+									<img src="img/home/novedades/foto-listado01.jpg" width="80" height="81" class="foto" />
+
+								</article>
+							</a>
+
+							<a href="novedades-interna.html" class="nota">
+								<article>
+
+									<span class="date">25 julio | SUSTENTABILIDAD</span>
+
+									<h4>Su gran potencial se debe a sus características geológicas y su ubicación.</h4>
+
+									<img src="img/home/novedades/foto-listado01.jpg" width="80" height="81" class="foto" />
+
+								</article>
+							</a>
+
 						</div>
-					</div>
-
-					<div class="row">
-
-						<a href="novedades-interna.html" class="bloque notas nota-secundaria energia-para-el-crecimiento">
-							<article>
-						 		<img src="img/home/novedades/00001.jpg" />
-						 		<div>
-						 			<span class="date">25 julio | SUSTENTABILIDAD</span>
-
-						 			<h3>A partir de la nacionalización de YPF la empresa asume el compromiso de aumentar su producción.</h3>
-
-						 			<p class="more"><span>+</span></p>
-						 		</div>
-							 </article>
-						</a>
-
-						<a href="novedades-interna.html" class="bloque notas nota3">
-							<article>
-								<div>
-									<span class="date">25 julio | SUSTENTABILIDAD</span>
-
-									<h3>A partir de la nacionalización de YPF la empresa asume el compromiso de aumentar su producción.</h3>
-
-							 		<p class="more"><span>+</span></p>
-								</div>
-							</article>
-						</a>
-
-						<a href="novedades-interna.html" class="bloque notas nota4">
-							<article>
-								<div>
-									<span class="date">25 julio | SUSTENTABILIDAD</span>
-
-									<h3>Primera red de universidades.</h3>
-
-							 		<p class="more"><span>+</span></p>
-								</div>
-							</article>
-						</a>
-
-						<a href="novedades-interna.html" class="bloque notas nota5">
-							<article>
-								<div>
-									<span class="date">25 julio | SUSTENTABILIDAD</span>
-
-							 		<h3>Este es el camino del autoabastecimiento.</h3>
-
-							 		<p class="more"><span>+</span></p>
-								</div>
-							</article>
-						</a>
 
 					</div>
+
+
 
 				</section>
 

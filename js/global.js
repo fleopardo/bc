@@ -160,6 +160,8 @@ var shale = shale || {};
 
 				event.preventDefault();
 
+				if($(this).hasClass("disabled")) return;
+
 				shale.navegacion.init({
 					trigger: $(this),
 					speed: 800,
@@ -366,27 +368,6 @@ var shale = shale || {};
 		})
 
 	});*/
-
-
-	/*
-	 * Home de Novedades
-	*/
-
-	$("#novedades").find(".lista li").live("mouseenter", function(e){
-
-		// pongo los estilos al active
-		$("#novedades").find(".lista li").removeClass("active");
-		$(this).addClass("active");
-
-		//muestro la noticia ampliada arriba
-		var position = $(this).data("position");
-
-		$("#novedades").find(".detalle-novedad article").hide();
-		$("#novedades").find(".detalle-novedad article[data-position='"+position+"']").show();
-
-
-
-	});
 
 
 }());
