@@ -1,3 +1,7 @@
+.novedades-internas a img{
+	border: none;
+}
+
 .novedades-internas .date{
 	color: #8e8e8e;
 	font-family: "din-medium";

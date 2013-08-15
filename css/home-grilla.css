@@ -834,6 +834,10 @@
 
 /* Nota principal */
 
+	.novedades a img{
+		border: none;
+	}
+
 	.novedades .date{
 		color: #8e8e8e;
 		font-family: "din-medium";
