@@ -48,9 +48,11 @@
 	margin-bottom: 20px;
 }
 
+
 .novedades-internas .col-izq .scrollCustom{
 	height: 370px;
 	margin-top: 25px;
+	position: relative;
 }
 
 .novedades-internas .col-izq .col1,
@@ -98,11 +100,10 @@
 
 .novedades-internas .lista-notas .scrollCustom{
 	height: 515px;
-}
-
-.novedades-internas .lista-notas .scrollCustom{
+	position: relative;
 	padding: 0 !important;
 }
+
 
 .novedades-internas .lista-notas .jspVerticalBar {
 	right: 10px;

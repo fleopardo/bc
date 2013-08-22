@@ -904,10 +904,12 @@
 		background: #333333;
 		height: 383px;
 		overflow: hidden;
+		position: relative;
 	}
 
 	.novedades .lista-notas .scrollCustom{
 		height: 320px;
+		position: relative;
 	}
 
 	.novedades .lista-notas h3{
