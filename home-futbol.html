@@ -5,6 +5,9 @@
 
 	<link rel="stylesheet" type="text/css" href="header/css/header.css" />
 	<link rel="stylesheet" type="text/css" href="header/css/global.css" />
+
+	<link rel="stylesheet" type="text/css" href="./css/global.css" />
+	<link rel="stylesheet" type="text/css" href="./css/interna-global.css" />
 	<link rel="stylesheet" type="text/css" href="./css/libs/sequencejs-theme.modern-slide-in.css" />
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="js/libs/html5.js"></script>
@@ -12,7 +15,6 @@
 	
 </head>
 <body>
-
 	<header class="headerYPF">
 		<div class="clearfix">
 			<h1 class="logo"><a href="http://www.ypf.com"><span class="hide">YPF</span></a></h1>
@@ -344,45 +346,85 @@
 			</form>
 		</div>
 	</div>
+	<!-- FIN HEADER -->
 
-	<section class="content home-futbol">
-		<div class="breadcrumb-container">
+	<div class="layout">
+		<div class="breadcrumb-container clearfix">
 			<ul class="breadcrumb">
 				<li><a href="#" title="">Home</a></li>
 				<li class="last"><a href="#" title="">Fútbol</a></li>
 			</ul>
 			<ul class="options">
-				<li class="btn-list"><a href="#" title=""></a></li>
-				<li class="btn-postales"><a href="#" title=""></a></li>
-				<li class="btn-share"><a href="#" title=""></a></li>
-				<li class="btn-close"><a href="#" title=""></a></li>
+				<li class="btn-list"><a href="#" title="">Lista</a></li>
+				<li class="btn-postales"><a href="#" title="">Postales</a></li>
+				<li class="btn-share"><a href="#" title="">Share</a></li>
+				<li class="btn-close"><a href="#" title="">Close</a></li>
 			</ul>
 		</div>
 
-	</section>
+		<!--galeria -->
+		<div class="galeria-cont" style="">
+			<div id="sequence">
+				<ul>
+					<li id="intro">
+						<div class="destacado animate-in">
+							<p class="date"><span>25.02.2011</span>|<span>10:15hs</span></p>
+							<h2 class="title animate-in">Solo soy yo, no hay competencia.</h2>
+							<h3 class="subtitle animate-in">Se que voy a ganar. Conozco<br />el final de esta competencia.</h3>
+							<a href="#">Leer nota completa</a>
+						</div>
+						<img class="model animate-in" src="img/model1.png" alt="Model 1" />
+					</li>
 
-	<!--galeria -->
-	<div class="galeria-cont" style="">
-		<div id="sequence">
-			<ul>
-				<li id="intro">
-					<h2 class="title animate-in">Solo soy yo, no hay competencia.</h2>
-					<h3 class="subtitle animate-in">Se que voy a ganar. Conozco<br />el final de esta competencia.</h3>
-					<img class="model animate-in" src="img/model1.png" alt="Model 1" />
-				</li>
-				<li id="creative">
-					<h2 class="title">La tabla es una extensión</h2>
-					<h3 class="subtitle">de mis piernas. Me siento enérgico.<br />la monta&ntilde;a es mía.</h3>
-					<img class="model" src="img/model2.png" alt="Model 2" />
-				</li>
+					<li id="creative">
+						<div class="destacado animate-in">
+							<p class="date"><span>25.02.2011</span>|<span>10:15hs</span></p>
+							<h2 class="title animate-in">Solo sos tu</h2>
+							<h3 class="subtitle animate-in">hola mundo<br />soy un texto.</h3>
+							<a href="#">Leer nota completa</a>
+						</div>
+						<img class="model" src="img/model2.png" alt="Model 2" />
+					</li>
+				</ul>
+			</div>
+			<ul id="nav">
+				<li><a href="javascript:void(0);"></a></li>
+				<li><a href="javascript:void(0);"></a></li>
 			</ul>
 		</div>
-		<ul id="nav">
-			<li><a href="javascript:void(0);"></a></li>
-			<li><a href="javascript:void(0);"></a></li>
-		</ul>
+		<!-- FIN galeria -->
+
+
+		<section class="content home-futbol">
+			<section class="filter-container">
+				<p>Filtrar resultados por:</p>
+				<ul class="filters">
+					<li><a href="#" title="Notas">Notas</a></li>
+					<li><a href="#" title="Postales">Postales</a></li>
+				</ul>
+			</section>
+
+			<section>
+				<article class="item principal">
+					<a href="#" title="">
+						<img src="./img/futbol-home/.jpg" alt="" width="" height="">
+						<h2>Seleccion argentina</h2>
+						<span class="icono"></span>
+					</a>
+				</article>
+
+				<article class="item">
+					<a href="#" title="">
+						<img src="./img/futbol-home/.jpg" alt="" width="" height="">
+						<h2>Seleccion argentina</h2>
+						<span class="icono"></span>
+					</a>
+				</article>
+			</section>
+
+		</section>
+
 	</div>
-	<!-- FIN galeria -->
 
 <!-- Incluir JQUERY -->
 <script src="./js/libs/jquery.min.js"></script>

@@ -151,7 +151,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	transition-duration: 1s;
 }
 
-.title {
+.destacado {
 	/*font-size: 3.4em;*/
 	left: -7%;
 	top:60px;
@@ -161,7 +161,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	z-index: 50;
 }
 
-.title.animate-in {
+.destacado.animate-in {
 	left: 32px;
 	top: 60px;
 	opacity: 1;
@@ -173,7 +173,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	transition-duration: .5s;
 }
 
-.title.animate-out {
+.destacado.animate-out {
 	left: 7%;
 	opacity: 0;
 
@@ -184,37 +184,6 @@ Aside from these comments, you may modify and distribute this file as you please
 	transition-duration: .5s;
 }
 
-.subtitle {
-	/*color: black;
-	font-size: 2em;*/
-	left: -7%;
-	width: 35%;
-	opacity: 0;
-	top: 86px;
-	z-index: 50;
-}
-
-.subtitle.animate-in {
-	left: 32px;
-	opacity: 1;
-
-	-webkit-transition-duration: .5s;
-	-moz-transition-duration: .5s;
-	-o-transition-duration: .5s;
-	-ms-transition-duration: .5s;
-	transition-duration: .5s;
-}
-
-.subtitle.animate-out {
-	left: 7%;
-	opacity: 0;
-
-	-webkit-transition-duration: .5s;
-	-moz-transition-duration: .5s;
-	-o-transition-duration: .5s;
-	-ms-transition-duration: .5s;
-	transition-duration: .5s;
-}
 
 .model {
 	/*left: 30%;*/
@@ -251,4 +220,10 @@ Aside from these comments, you may modify and distribute this file as you please
 	-o-transition-duration: .5s;
 	-ms-transition-duration: .5s;
 	transition-duration: .5s;
+}
+
+
+#sequence li > div{
+	position: absolute;
+	z-index: 20;
 }
