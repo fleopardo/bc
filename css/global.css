@@ -142,3 +142,54 @@ strong{
 body{
 }
 
+.layout{
+    width: 1058px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.breadcrumb-container{
+    background: #000;
+}
+
+.breadcrumb-container ul.breadcrumb{
+    float: left;
+}
+
+.breadcrumb-container ul.options{
+    float: right;
+}
+
+.breadcrumb-container li{
+    display: inline-block;
+}
+
+.breadcrumb-container li a{
+    color: #fff;
+    display: inline-block;
+    line-height: 36px;
+    font: 12px/36px arial, Helvetica, Sans-serif;
+}
+
+.breadcrumb-container ul.options a{
+    background: url("./assets/sp-breadcrumb.jpg") no-repeat;
+    width: 64px;
+    height: 36px;
+    text-indent: -9999px;
+}
+
+.breadcrumb-container ul.options .btn-list a{
+    background-position: 0 0;
+}
+
+.breadcrumb-container ul.options .btn-postales a{
+    background-position: 0 -36px;
+}
+
+.breadcrumb-container ul.options .btn-share a{
+    background-position: 0 -72px;
+}
+
+.breadcrumb-container ul.options .btn-close a{
+    background-position: 0 -108px;
+}

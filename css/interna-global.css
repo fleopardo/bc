@@ -149,8 +149,9 @@ body{
 /*Home*/
 
 .galeria-cont{
-	position:relative;
+	position: relative;
 	height: 521px;
-	width:1028px;
-	margin:0 auto;
+	width: 1028px;
+	margin: 0 auto;
+	z-index: 0;
 }
