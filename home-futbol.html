@@ -4,10 +4,12 @@
 	<meta charset="utf-8" />
 
 	<link rel="stylesheet" type="text/css" href="header/css/header.css" />
+	<link rel="stylesheet" type="text/css" href="header/css/global.css" />
+	<link rel="stylesheet" type="text/css" href="./css/libs/sequencejs-theme.modern-slide-in.css" />
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="js/libs/html5.js"></script>
 	<![endif]-->
-
+	
 </head>
 <body>
 
@@ -343,11 +345,44 @@
 		</div>
 	</div>
 
-	<section class="content">
-		
+	<section class="content home-futbol">
+		<div class="breadcrumb-container">
+			<ul class="breadcrumb">
+				<li><a href="#" title="">Home</a></li>
+				<li class="last"><a href="#" title="">Fútbol</a></li>
+			</ul>
+			<ul class="options">
+				<li class="btn-list"><a href="#" title=""></a></li>
+				<li class="btn-postales"><a href="#" title=""></a></li>
+				<li class="btn-share"><a href="#" title=""></a></li>
+				<li class="btn-close"><a href="#" title=""></a></li>
+			</ul>
+		</div>
 
 	</section>
 
+	<!--galeria -->
+	<div class="galeria-cont" style="">
+		<div id="sequence">
+			<ul>
+				<li id="intro">
+					<h2 class="title animate-in">Solo soy yo, no hay competencia.</h2>
+					<h3 class="subtitle animate-in">Se que voy a ganar. Conozco<br />el final de esta competencia.</h3>
+					<img class="model animate-in" src="img/model1.png" alt="Model 1" />
+				</li>
+				<li id="creative">
+					<h2 class="title">La tabla es una extensión</h2>
+					<h3 class="subtitle">de mis piernas. Me siento enérgico.<br />la monta&ntilde;a es mía.</h3>
+					<img class="model" src="img/model2.png" alt="Model 2" />
+				</li>
+			</ul>
+		</div>
+		<ul id="nav">
+			<li><a href="javascript:void(0);"></a></li>
+			<li><a href="javascript:void(0);"></a></li>
+		</ul>
+	</div>
+	<!-- FIN galeria -->
 
 <!-- Incluir JQUERY -->
 <script src="./js/libs/jquery.min.js"></script>
@@ -357,6 +392,49 @@
 
 <script src="./js/global.js"></script>
 
+<script type="text/javascript" src="./js/libs/sequence.jquery-min.js"></script>
+<script type="text/javascript">
+
+	/*/mobile/i.test(navigator.userAgent) && !location.hash && setTimeout(function () {
+	  if (!pageYOffset) window.scrollTo(0, 1);
+	}, 1000);*/
+
+	$(document).ready(function(){
+		var options = {
+			nextButton: true,
+			prevButton: true,
+			animateStartingFrameIn: true,
+			transitionThreshold: 250,
+			preloadTheseFrames: [1]/*,
+			preloadTheseImages: [
+				"img/tn-model1.png",
+				"img/tn-model2.png",
+				"img/tn-model3.png"
+			]*/
+		};
+
+		var sequence = $("#sequence").sequence(options).data("sequence");
+
+		sequence.afterLoaded = function(){
+			$("#nav").fadeIn(100);
+			$("#nav li:nth-child("+(sequence.settings.startingFrameID)+") a").addClass("active");
+		}
+
+		sequence.beforeNextFrameAnimatesIn = function(){
+			$("#nav li:not(:nth-child("+(sequence.nextFrameID)+")) a").removeClass("active");
+			$("#nav li:nth-child("+(sequence.nextFrameID)+") a").addClass("active");
+		}
+
+		$("#nav li").click(function(){
+			if(!sequence.active){
+				$(this).children("a").removeClass("active").children("a").addClass("active");
+				sequence.nextFrameID = $(this).index()+1;
+				sequence.goTo(sequence.nextFrameID);
+			}
+		});
+
+	});
+</script>
 
 </body>
 </html>
