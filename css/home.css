@@ -8,7 +8,7 @@ html,body {
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
-	white-space: nowrap;
+	position: relative;
 }
 
 .cols{
@@ -60,15 +60,4 @@ html,body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-}
-
-
-.desaturated{
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
-	-o-filter: grayscale(100%);
-	filter: url(filter.svg#gris);
-	filter: gray;
 }
