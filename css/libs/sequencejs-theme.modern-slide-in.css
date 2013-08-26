@@ -107,7 +107,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	height: 100%;
 	margin: 0;
 	position: absolute;
-	max-width: 960px;
+	max-width: 1058px;
 	width: 100%;
 	
 	/*backface-visibility prevents graphical glitches when frames are animating*/
@@ -153,8 +153,8 @@ Aside from these comments, you may modify and distribute this file as you please
 
 .destacado {
 	/*font-size: 3.4em;*/
-	left: -7%;
-	top:60px;
+	left: 0;
+	top:100px;
 	width: 35%;
 	opacity: 0;
 	/*bottom: 1%;*/
@@ -184,6 +184,11 @@ Aside from these comments, you may modify and distribute this file as you please
 	transition-duration: .5s;
 }
 
+#sequence li .destacado h2,
+#sequence li .destacado h3,
+#sequence li .destacado a{
+	position: relative;
+}
 
 .model {
 	/*left: 30%;*/
@@ -220,10 +225,4 @@ Aside from these comments, you may modify and distribute this file as you please
 	-o-transition-duration: .5s;
 	-ms-transition-duration: .5s;
 	transition-duration: .5s;
-}
-
-
-#sequence li > div{
-	position: absolute;
-	z-index: 20;
 }
