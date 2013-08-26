@@ -1,4 +1,9 @@
 <!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6" lang="es"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="es"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie10 lt-ie9 ie8" lang="es"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js lt-ie10 ie9" lang="es"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 <head>
 	<title>Equipo YPF</title>
 	<meta charset="utf-8" />
@@ -349,20 +354,32 @@
 
 	<section class="content home">
 
-		<div class="cols col1">
-			COL 1 COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1COL 1
+		<div class="cols col1 active">
+			<img src="img/home/futbol.jpg" />
+			<div>
+				as dsad sd
+			</div>
 		</div>
 
 		<div class="cols col2">
-			COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2 COL 2
+			<img src="img/home/tc2000.jpg" />
+			<div>
+
+			</div>
 		</div>
 
 		<div class="cols col3">
-			COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3 COL 3
+			<img src="img/home/futbol.jpg" />
+			<div>
+
+			</div>
 		</div>
 
 		<div class="cols col4">
-			COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4 COL 4
+			<img src="img/home/tc2000.jpg" />
+			<div>
+
+			</div>
 		</div>
 
 
@@ -377,7 +394,30 @@
 <script src="./header/js/header.js"></script>
 
 <!-- Inicializaciones -->
+<script src="./js/libs/jquery.backstretch.min.js"></script>
+
 <script src="./js/global.js"></script>
+
+<script>
+
+
+	$(".cols").on("mouseenter",function(){
+
+		if($(this).hasClass("active")) return;
+
+		$(".cols").removeClass("active");
+		$(this).addClass("active");
+
+		$(".cols:not(.active)").animate({
+			'width': '20%'
+		});
+
+		$(this).animate({
+			'width': '40%'
+		});
+
+	});
+</script>
 
 
 </body>
