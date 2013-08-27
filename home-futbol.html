@@ -407,7 +407,7 @@
 			<section class="item-container">
 				<article class="item imagen principal postales">
 					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="518" height="342">
 						<h2>Seleccion argentina</h2>
 						<span class="icono"></span>
 					</a>
@@ -415,7 +415,7 @@
 
 				<article class="item imagen postales">
 					<a href="#" title="">
-						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
 						<h2>Seleccion argentina</h2>
 						<span class="icono"></span>
 					</a>
@@ -423,7 +423,7 @@
 
 				<article class="item imagen postales">
 					<a href="#" title="">
-						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
 						<h2>Seleccion argentina</h2>
 						<span class="icono"></span>
 					</a>
@@ -431,7 +431,7 @@
 
 				<article class="item imagen postales">
 					<a href="#" title="">
-						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
 						<h2>Seleccion argentina</h2>
 						<span class="icono"></span>
 					</a>
@@ -439,7 +439,7 @@
 
 				<article class="item imagen postales">
 					<a href="#" title="">
-						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
 						<h2>Seleccion argentina</h2>
 						<span class="icono"></span>
 					</a>
@@ -449,7 +449,7 @@
 					<a href="#" title="">
 						<h2>Seleccion argentina</h2>
 						<p>hola mundo, que tal, soy un parrafo del item</p>
-						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
 						<span class="icono"></span>
 					</a>
 				</article>
@@ -458,7 +458,7 @@
 					<a href="#" title="">
 						<h2>Seleccion argentina</h2>
 						<p>hola mundo, que tal, soy un parrafo del item</p>
-						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
 						<span class="icono"></span>
 					</a>
 				</article>
@@ -467,7 +467,7 @@
 					<a href="#" title="">
 						<h2>Seleccion argentina</h2>
 						<p>hola mundo, que tal, soy un parrafo del item</p>
-						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
 						<span class="icono"></span>
 					</a>
 				</article>
@@ -476,7 +476,7 @@
 					<a href="#" title="">
 						<h2>Seleccion argentina</h2>
 						<p>hola mundo, que tal, soy un parrafo del item</p>
-						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
 						<span class="icono"></span>
 					</a>
 				</article>
@@ -551,100 +551,8 @@
 <script type="text/javascript" src="./js/libs/jquery.backstretch.min.js"></script>
 
 <script type="text/javascript" src="./js/libs/isotope.js"></script>
- 
-<script type="text/javascript">
 
-	/*/mobile/i.test(navigator.userAgent) && !location.hash && setTimeout(function () {
-	  if (!pageYOffset) window.scrollTo(0, 1);
-	}, 1000);*/
-
-	$(document).ready(function(){
-
-		$.backstretch("./css/assets/fd-home-futbol.jpg");
-
-		var options = {
-			nextButton: true,
-			prevButton: true,
-			animateStartingFrameIn: true,
-			transitionThreshold: 250,
-			preloadTheseFrames: [1]/*,
-			preloadTheseImages: [
-				"img/tn-model1.png",
-				"img/tn-model2.png",
-				"img/tn-model3.png"
-			]*/
-		};
-
-		var sequence = $("#sequence").sequence(options).data("sequence");
-
-		sequence.afterLoaded = function(){
-			$("#nav").fadeIn(100);
-			$("#nav li:nth-child("+(sequence.settings.startingFrameID)+") a").addClass("active");
-		}
-
-		sequence.beforeNextFrameAnimatesIn = function(){
-			$("#nav li:not(:nth-child("+(sequence.nextFrameID)+")) a").removeClass("active");
-			$("#nav li:nth-child("+(sequence.nextFrameID)+") a").addClass("active");
-		}
-
-		$("#nav li").click(function(){
-			if(!sequence.active){
-				$(this).children("a").removeClass("active").children("a").addClass("active");
-				sequence.nextFrameID = $(this).index()+1;
-				sequence.goTo(sequence.nextFrameID);
-			}
-		});
-
-		/* ISOTOPE */
-		;(function(){
-
-			// cache container
-			$container = $('.item-container');
-
-			if($container.length > 0){
-
-				$container.isotope({
-				  // options
-				  itemSelector : '.item',
-				  layoutMode : 'fitRows'
-				});
-
-				setTimeout(function(){
-			        $container.isotope({
-			          filter: '*',
-			          resizeble: true,
-			          animationOptions: {
-			             duration: 750,
-			             easing: 'linear',
-			             queue: false,
-			         }
-			        });
-			    }, 200);
-
-				// filter items when filter link is clicked
-				$('.filter-container .filters a').click(function(event){
-
-					var that = $(this);
-					var selector = that.data('filter');
-
-					$('.filter-container .filters a').removeClass("active");
-					that.parent().addClass("active");
-
-					$container.isotope({ filter: selector });
-					return false;
-
-				});
-
-
-
-			}
-
-		}());
-
-
-
-	});
-</script>
+<script type="text/javascript" src="./js/home-interna.js"></script>
 
 </body>
 </html>

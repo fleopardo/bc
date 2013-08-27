@@ -59,6 +59,7 @@
     border-top: 2px solid #f8533d;
     width: 254px;
     position: relative;
+    margin: 5px;
 }
 
 .item a{
