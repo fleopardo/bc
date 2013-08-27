@@ -62,7 +62,7 @@
     margin: 5px;
 }
 
-.item a{
+.item > a{
     display: block;
     padding: 12px;
 }
@@ -88,8 +88,14 @@
     color: #fff;
     font-size: 11px;
     line-height: 15px;
+    margin-bottom: 5px;
 }
 
+.item span.link{
+    font-size: 11px;
+    line-height: 16px;
+    color: #f8533d;
+}
 
 .item img{
     width: 100%;
