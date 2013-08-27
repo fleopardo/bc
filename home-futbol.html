@@ -413,33 +413,75 @@
 					</a>
 				</article>
 
-				<article class="item imagen notas">
+				<article class="item imagen postales">
 					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
 						<h2>Seleccion argentina</h2>
 						<span class="icono"></span>
 					</a>
 				</article>
 
-				<article class="item imagen-texto">
+				<article class="item imagen postales">
+					<a href="#" title="">
+						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<h2>Seleccion argentina</h2>
+						<span class="icono"></span>
+					</a>
+				</article>
+
+				<article class="item imagen postales">
+					<a href="#" title="">
+						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<h2>Seleccion argentina</h2>
+						<span class="icono"></span>
+					</a>
+				</article>
+
+				<article class="item imagen postales">
+					<a href="#" title="">
+						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<h2>Seleccion argentina</h2>
+						<span class="icono"></span>
+					</a>
+				</article>
+
+				<article class="item imagen-texto notas">
 					<a href="#" title="">
 						<h2>Seleccion argentina</h2>
 						<p>hola mundo, que tal, soy un parrafo del item</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
 						<span class="icono"></span>
 					</a>
 				</article>
 
-				<article class="item imagen-texto">
+				<article class="item imagen-texto notas">
 					<a href="#" title="">
 						<h2>Seleccion argentina</h2>
 						<p>hola mundo, que tal, soy un parrafo del item</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="" height="">
+						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
 						<span class="icono"></span>
 					</a>
 				</article>
 
-				<article class="item">
+				<article class="item imagen-texto notas">
+					<a href="#" title="">
+						<h2>Seleccion argentina</h2>
+						<p>hola mundo, que tal, soy un parrafo del item</p>
+						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<span class="icono"></span>
+					</a>
+				</article>
+
+				<article class="item imagen-texto notas">
+					<a href="#" title="">
+						<h2>Seleccion argentina</h2>
+						<p>hola mundo, que tal, soy un parrafo del item</p>
+						<img src="./img/internas-home/im-item.jpg" alt="" width="" height="">
+						<span class="icono"></span>
+					</a>
+				</article>
+
+				<article class="item notas">
 					<a href="#" title="">
 						<h2>Seleccion argentina</h2>
 						<h3>Seleccion argentina</h3>
@@ -448,7 +490,25 @@
 					</a>
 				</article>
 
-				<article class="item">
+				<article class="item notas">
+					<a href="#" title="">
+						<h2>Seleccion argentina</h2>
+						<h3>Seleccion argentina</h3>
+						<p>hola mundo, que tal, soy un parrafo del item</p>
+						<span class="icono"></span>
+					</a>
+				</article>
+
+				<article class="item notas">
+					<a href="#" title="">
+						<h2>Seleccion argentina</h2>
+						<h3>Seleccion argentina</h3>
+						<p>hola mundo, que tal, soy un parrafo del item</p>
+						<span class="icono"></span>
+					</a>
+				</article>
+
+				<article class="item notas">
 					<a href="#" title="">
 						<h2>Seleccion argentina</h2>
 						<h3>Seleccion argentina</h3>
@@ -461,7 +521,22 @@
 
 		</section>
 
+
+
 	</div>
+
+	<footer>
+		<div class="clearfix">
+			<p>&copy; YPF 2013</p>
+
+			<ul class="links">
+				<li><a href="http://www.ypf.com/Paginas/TerminosYCondiciones.aspx">Términos y Condiciones</a></li>
+				<li><a href="http://www.ypf.com/Paginas/MapaWeb.aspx">Mapa del Sitio</a></li>
+				<li><a href="http://www.ypf.com/Extranet">Clientes y Proveedores</a></li>
+				<li><a href="http://www.ypf.com/YPFHoy/YPFSalaPrensa">Sala de Prensa</a></li>
+			</ul>
+		</div>
+	</footer>
 
 <!-- Incluir JQUERY -->
 <script src="./js/libs/jquery.min.js"></script>
@@ -473,8 +548,10 @@
 
 <script type="text/javascript" src="./js/libs/sequence.jquery-min.js"></script>
 
-<script type="text/javascript" src="./js/libs/isotope.js"></script>
+<script type="text/javascript" src="./js/libs/jquery.backstretch.min.js"></script>
 
+<script type="text/javascript" src="./js/libs/isotope.js"></script>
+ 
 <script type="text/javascript">
 
 	/*/mobile/i.test(navigator.userAgent) && !location.hash && setTimeout(function () {
@@ -482,6 +559,9 @@
 	}, 1000);*/
 
 	$(document).ready(function(){
+
+		$.backstretch("./css/assets/fd-home-futbol.jpg");
+
 		var options = {
 			nextButton: true,
 			prevButton: true,
@@ -537,7 +617,10 @@
 			             duration: 750,
 			             easing: 'linear',
 			             queue: false,
-			           }
+			         }/*,
+			         //   masonryHorizontal : {
+				        //   rowHeight: 4000
+				        // }*/
 			        });
 			    }, 200);
 
@@ -560,6 +643,8 @@
 			}
 
 		}());
+
+
 
 	});
 </script>
