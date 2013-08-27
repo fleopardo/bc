@@ -205,9 +205,13 @@ body{
 .item{
     background: rgba(0,0,0,0.3);
     border-top: 2px solid #f8533d;
-    padding: 12px;
-    width: 230px;
+    width: 254px;
     position: relative;
+}
+
+.item a{
+    display: block;
+    padding: 12px;
 }
 
 .item h2,
