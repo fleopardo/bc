@@ -245,8 +245,11 @@ body{
 
 
 .item.imagen{
-    padding: 0;
     border-top: none;
+}
+
+.item.imagen > a{
+    padding: 0;
 }
 
 .item.imagen h2{
