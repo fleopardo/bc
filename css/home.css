@@ -9,6 +9,7 @@ html,body {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+	background: #ccc;
 }
 
 .cols{
@@ -62,15 +63,22 @@ html,body {
 	color: #fff;
 }
 
-.col1 .txt div h3{
+.cols .txt h3{
 	font-size: 31px;
-	font-family: "din";
+	font-family: "din-black";
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+
+/* Columna principal */
+
+.col1 .txt h3{
+	padding: 25px 15%;
 }
 
 .col1 .txt div{
 	background: #f8533d;
+	padding: 30px 15% 100px 15%;
 }
 
-.col1 .txt div h3{
-	background: #f8533d;
-}
