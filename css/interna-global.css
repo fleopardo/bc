@@ -171,4 +171,91 @@ body{
     line-height: 40px;
     text-transform: uppercase;
     color: #fff;
+    margin-right: 6px;
+}
+
+.filter-container li a{
+    color: #fff;
+    text-transform: uppercase;
+    background: url("./assets/sp-checkbox-filters.png") left top no-repeat;
+    display: inline-block;
+    padding-left: 20px;
+    line-height: 13px;
+    margin-right: 20px;
+}
+
+.filter-container li.checked a{
+    background-position: left bottom;
+}
+
+
+
+
+
+
+.item{
+    background: rgba(0,0,0,0.3);
+    border-top: 2px solid #f8533d;
+    padding: 12px;
+    width: 230px;
+    position: relative;
+}
+
+.item h2,
+.item h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.item h2{
+    font-size: 19px;
+    line-height: 21px;
+}
+
+.item h3{
+    font-size: 27px;
+    line-height: 30px;
+    font-family: "din-black";
+}
+
+.item p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+
+.item img{
+    width: 100%;
+}
+
+
+
+.item.imagen{
+    padding: 0;
+    border-top: none;
+}
+
+.item.imagen h2{
+    font-size: 13px;
+    line-height: 22px;
+    background: #f8533d;
+    font-family: "din-black";
+    position:absolute;
+    bottom: 0;
+    padding: 0 8px;
+    left: 0;
+    z-index: 10;
+}
+
+
+.item.principal{
+    width: 518px;
+}
+
+
+.item.imagen-texto h2{
+    font-size: 19px;
+    line-height: 22px;
+    color: #f8533d;
 }
