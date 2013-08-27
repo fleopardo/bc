@@ -250,3 +250,9 @@ Aside from these comments, you may modify and distribute this file as you please
 	line-height: 18px;
 	text-transform: uppercase;
 }
+
+#sequence li .destacado a{
+	font-size: 13px;
+	line-height: 16px;
+	font-family: "din-light"
+}
