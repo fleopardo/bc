@@ -183,6 +183,7 @@ body{
 
 .breadcrumb-container{
     background: #000;
+    padding-left: 10px;
 }
 
 .breadcrumb-container ul.breadcrumb{
