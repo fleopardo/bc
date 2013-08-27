@@ -354,7 +354,7 @@
 
 	<section class="content home">
 
-		<div class="cols col1 active">
+		<div class="cols col1 principal active">
 				<img src="img/home/futbol.jpg" />
 
 				<article class="txt">
@@ -362,7 +362,7 @@
 						<h3>Fútbol</h3>
 						<div>
 							<a href="#">
-								<p class="title">Neque quisquam ipsum Neque quisquam ipsum</p>
+								<p class="title">Neque quisquam ipsum Neque quisquam ipsum Neque Neque</p>
 
 								<p class="ic-more"><span>+</span></p>
 							</a>
@@ -374,31 +374,64 @@
 
 		</div>
 
-		<div class="cols col2">
+		<div class="cols col2 secundaria">
 			<img src="img/home/tc2000.jpg" />
 
-			<article>
+			<article class="txt DN">
 				<h3>TC2000</h3>
 				<div>
+					<div>
+						<p>Fat fringilla turpis elementum a. Fusce porta nunc vitae erat. Fusce porta nunc vitae erat</p>
+					    <a href="#" class="mas">Leer nota completa</a>
+					</div>
+
+					<div>
+						<p>Fat fringilla turpis elementum a. Fusce porta nunc vitae erat. Fusce porta</p>
+					    <a href="#" class="mas">Leer nota completa</a>
+					</div>
 
 				</div>
 
-				<p class="ic-more"><span>+</span></p>
+				<a href=""><p class="ic-more"><span>+</span></p></a>
 			</article>
 		</div>
 
-		<div class="cols col3">
+		<div class="cols col3 secundaria">
 			<img src="img/home/futbol.jpg" />
-			<div>
+			<article class="txt DN">
+				<h3>TC2000</h3>
+				<div>
+					<div>
+						<p>Fat fringilla turpis elementum a. Fusce porta nunc vitae erat. Fusce porta nunc vitae erat</p>
+					    <a href="#" class="mas">Leer nota completa</a>
+					</div>
 
-			</div>
+					<div>
+						<p>Fat fringilla turpis elementum a. Fusce porta nunc vitae erat. Fusce porta</p>
+					    <a href="#" class="mas">Leer nota completa</a>
+					</div>
+
+				</div>
+			</article>
 		</div>
 
-		<div class="cols col4">
+		<div class="cols col4 secundaria">
 			<img src="img/home/tc2000.jpg" />
-			<div>
+			<article class="txt DN">
+				<h3>TC2000</h3>
+				<div>
+					<div>
+						<p>Fat fringilla turpis elementum a. Fusce porta nunc vitae erat. Fusce porta nunc vitae erat</p>
+					    <a href="#" class="mas">Leer nota completa</a>
+					</div>
 
-			</div>
+					<div>
+						<p>Fat fringilla turpis elementum a. Fusce porta nunc vitae erat. Fusce porta</p>
+					    <a href="#" class="mas">Leer nota completa</a>
+					</div>
+
+				</div>
+			</article>
 		</div>
 
 
@@ -433,24 +466,32 @@
 
 <script>
 
-
 	$(".cols").on("mouseenter",function(){
 
 		var that = $(this);
 
 		if(that.hasClass("active")) return;
 
+
 		$(".cols").removeClass("active");
+		that.addClass("active");
+
+
+		$(".cols:not(.active)").stop().find("article").hide(300);
+
 		$(".cols").stop(true,true).animate({
 			'width': '20%'
-		},"easeOutExpo");
+		},300,"easeInExpo");
 
-		that.addClass("active");
+
 		that.stop(true,true).animate({
 			'width': '39.9%'
-		},"easeOutExpo");
+		},300, "easeInExpo", function(){
+			that.find("article").stop().fadeIn(300);
+		});
 
 	});
+
 </script>
 
 

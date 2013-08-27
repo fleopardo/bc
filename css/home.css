@@ -70,31 +70,80 @@ html,body {
 	text-transform: uppercase;
 }
 
+.cols .txt > div{
+
+}
 
 /* Columna principal */
 
-.col1 .txt h3{
+.principal .txt h3{
 	padding: 25px 15%;
 }
 
-.col1 .txt div{
+.principal .txt div{
 	background: #f8533d;
 }
 
-.col1 .txt div a{
+.principal .txt div a{
 	color: #fff;
 	display: block;
-	padding: 30px 15% 100px 15%;
+	padding: 30px 15% 50px 15%;
 }
 
-.col1 .txt div a:hover{
+.principal .txt div a:hover{
 	color: #333;
 }
 
-.col1 .txt div p.title{
+.principal .txt div p.title{
 	font-size: 31px;
 	font-family: "din-black";
 	font-weight: normal;
 	line-height: 36px;
 }
 
+
+/* Columna secundaria */
+
+.secundaria .txt h3{
+	padding: 25px 15%;
+}
+
+.secundaria .txt > div{
+	background: #0063be;
+	padding: 30px 10% 15px 10%;
+}
+
+.secundaria .txt > div > div{
+	border-bottom: 1px solid #1972c4;
+	padding-bottom: 13px;
+	margin-bottom: 18px;
+}
+
+.secundaria .txt > div p,
+.secundaria .txt > div a{
+	font-size: 11px;
+	font-family: "din-medium";
+	font-weight: normal;
+	line-height: 15px;
+}
+
+.secundaria .txt > div > div .mas{
+	display: block;
+	padding-left: 15px;
+	margin-top: 5px;
+}
+
+.secundaria .txt > div > div .mas{
+	display: block;
+	padding-left: 15px;
+	margin-top: 5px;
+}
+
+.secundaria .txt > div a{
+	color: #fff;
+	padding: none;
+}
+
+.secundaria .txt > div a:hover{
+	color: #333;
+}

@@ -253,8 +253,16 @@ body{
 	left: -14px;
 	top: 10px;
 	font-size: 18px;
+	color: #fff;
 }
 
+a .ic-more span{
+	color: #fff;
+}
+
+a:hover .ic-more span{
+	color: #333;
+}
 
 
 
