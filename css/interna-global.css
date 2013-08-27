@@ -150,8 +150,25 @@ body{
 
 .galeria-cont{
 	position: relative;
-	height: 521px;
+	height: 335px;
 	width: 1058px;
 	margin: 0 auto;
 	z-index: 0;
+}
+
+.filter-container{
+    overflow: hidden;
+    background: #000;
+}
+
+.filter-container > p,
+.filter-container > ul,
+.filter-container li{
+    float: left;
+}
+
+.filter-container > p{
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #fff;
 }
