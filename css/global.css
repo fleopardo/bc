@@ -31,6 +31,8 @@ time, mark, audio, video {
 
 body {
     line-height:1;
+    font-family: "din-regular";
+    font-weight: normal;
 }
 
 article,aside,details,figcaption,figure,
@@ -120,23 +122,52 @@ strong{
 .DN{display:none;}
 
 
-/*@font-face {
-	font-family:"big_noodle_titling";
-	src: url("../fonts/big_noodle_titling-webfont.eot");
+/*
+ * Fonts
+*/
+@font-face {
+	font-family: "din-regular";
+	src: url("../fonts/din-regular.eot");
 	src: local("?"),
-	url("../fonts/big_noodle_titling-webfont.woof") format("woff"),
-	url("../fonts/big_noodle_titling-webfont.ttf") format("truetype"),
-	url("../fonts/big_noodle_titling-webfont.svg#blaimim_-webfont") format("svg");
+	url("../fonts/din-regular.woff") format("woff"),
+	url("../fonts/din-regular.ttf") format("truetype"),
+	url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
 }
 
 @font-face {
-	font-family:"big_noodle_titling_oblique";
-	src: url("../fonts/big_noodle_titling_oblique-webfont.eot");
+	font-family: "din-light";
+	src: url("../fonts/din-light.eot");
 	src: local("?"),
-	url("../fonts/big_noodle_titling_oblique-webfont.woof") format("woff"),
-	url("../fonts/big_noodle_titling_oblique-webfont.ttf") format("truetype"),
-	url("../fonts/big_noodle_titling_oblique-webfont.svg#blaimim_-webfont") format("svg");
-}*/
+	url("../fonts/din-light.woff") format("woff"),
+	url("../fonts/din-light.ttf") format("truetype"),
+	url("../fonts/din-light.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: "din-medium";
+	src: url("../fonts/din-medium.eot");
+	src: local("?"),
+	url("../fonts/din-medium.woff") format("woff"),
+	url("../fonts/din-medium.ttf") format("truetype"),
+	url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: "din-black";
+	src: url("../fonts/din-black.eot");
+	src: local("?"),
+	url("../fonts/din-black.woff") format("woff"),
+	url("../fonts/din-black.ttf") format("truetype"),
+	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
 
 
 body{
@@ -192,4 +223,120 @@ body{
 
 .breadcrumb-container ul.options .btn-close a{
     background-position: 0 -108px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Footer
+*/
+
+footer{
+	clear: both;
+	background: #373738;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+footer > div{
+	width: 1200px;
+	margin: 0 auto;
+	background: #373738;
+}
+
+footer > div p,
+footer > div ul.links,
+footer > div ul li{
+	float: left;
+}
+
+footer > div ul.links{
+	background: url("./assets/separador-footer.gif") no-repeat center left;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+footer > div ul.links li{
+	margin-right: 10px;
+	padding-right: 10px;
+	background: url("./assets/separador-footer.gif") no-repeat center right;
+}
+
+footer > div p,
+footer > div ul.links li a{
+	color: #ececec;
+	font-size: 11px;
+	font-family: arial, helvetica, sans-serif;
+	line-height: 40px;
+}
+
+footer > div ul.links li a:hover{
+	text-decoration: underline;
+}
+
+/* Links sociales */
+
+footer .social{
+	float: right;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+footer .social li a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background: url("./assets/icons-social.png") no-repeat;
+	margin-left: 20px;
+}
+
+	footer .social li a.compartir{
+		background-position: -6px -2px;
+	}
+
+	footer .social li a.facebook{
+		background-position: -45px -2px;
+	}
+
+	footer .social li a.twitter{
+		background-position: -85px -2px;
+	}
+
+	footer .social li a.youtube{
+		background-position: -123px 1px;
+	}
+
+	footer .social li a.mail{
+		background-position: -161px -2px;
+	}
+
+
+
+/* Mobiles ----------- */
+
+@media only screen and (max-device-width : 430px){
+
+	.headerYPF,
+	.headerYPF h1,
+	.headerYPF h2 a{
+		position: absolute !important;
+		width: 100% !important;
+	}
+
+	footer{
+		position: static;
+	}
+
 }

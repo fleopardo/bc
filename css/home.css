@@ -36,7 +36,6 @@ html,body {
 	-moz-transition:all 0.5s ease-out;  /* Mozilla Firefox */
 	-ms-transition:all 0.5s ease-out;   /* Internet Explorer */
 	transition:all 0.5s ease-out;  /* W3C */
-
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
@@ -55,9 +54,23 @@ html,body {
 	filter: none;
 }
 
-.cols div{
+.cols .txt{
 	position: absolute;
-	bottom: 0;
+	bottom: 40px;
 	left: 0;
 	right: 0;
+	color: #fff;
+}
+
+.col1 .txt div h3{
+	font-size: 31px;
+	font-family: "din";
+}
+
+.col1 .txt div{
+	background: #f8533d;
+}
+
+.col1 .txt div h3{
+	background: #f8533d;
 }
