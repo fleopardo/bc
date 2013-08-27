@@ -233,7 +233,27 @@ body{
 
 
 
+/*
+ * icono ver mas (Cambiar color del border bottom para cada bloque)
+*/
 
+.ic-more{
+	border-bottom: 30px solid rgba(0,0,0,0.3);
+	border-left: 31px solid transparent;
+	width: 0;
+	height: 0;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.ic-more span{
+	position: absolute;
+	left: -14px;
+	top: 10px;
+	font-size: 18px;
+}
 
 
 
@@ -253,7 +273,7 @@ footer{
 }
 
 footer > div{
-	width: 1200px;
+	width: 1058px;
 	margin: 0 auto;
 	background: #373738;
 }

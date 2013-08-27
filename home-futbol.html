@@ -4,15 +4,15 @@
 	<meta charset="utf-8" />
 
 	<link rel="stylesheet" type="text/css" href="header/css/header.css" />
-	<link rel="stylesheet" type="text/css" href="header/css/global.css" />
 
+	<link rel="stylesheet" type="text/css" href="./css/libs/isotope.css" />
 	<link rel="stylesheet" type="text/css" href="./css/global.css" />
 	<link rel="stylesheet" type="text/css" href="./css/interna-global.css" />
 	<link rel="stylesheet" type="text/css" href="./css/libs/sequencejs-theme.modern-slide-in.css" />
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="js/libs/html5.js"></script>
 	<![endif]-->
-	
+
 </head>
 <body>
 	<header class="headerYPF">
@@ -399,13 +399,13 @@
 			<section class="filter-container clearfix">
 				<p>Filtrar resultados por:</p>
 				<ul class="filters">
-					<li><a href="#" title="Notas">Notas</a></li>
-					<li class="checked"><a href="#" title="Postales">Postales</a></li>
+					<li><a href="#" title="Notas" data-filter=".notas">Notas</a></li>
+					<li class="checked"><a href="#" title="Postales" data-filter=".postales">Postales</a></li>
 				</ul>
 			</section>
 
 			<section class="item-container">
-				<article class="item imagen principal">
+				<article class="item imagen principal postales">
 					<a href="#" title="">
 						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="" height="">
 						<h2>Seleccion argentina</h2>
@@ -413,7 +413,7 @@
 					</a>
 				</article>
 
-				<article class="item imagen">
+				<article class="item imagen notas">
 					<a href="#" title="">
 						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="" height="">
 						<h2>Seleccion argentina</h2>
@@ -472,6 +472,9 @@
 <script src="./js/global.js"></script>
 
 <script type="text/javascript" src="./js/libs/sequence.jquery-min.js"></script>
+
+<script type="text/javascript" src="./js/libs/isotope.js"></script>
+
 <script type="text/javascript">
 
 	/*/mobile/i.test(navigator.userAgent) && !location.hash && setTimeout(function () {
@@ -511,6 +514,52 @@
 				sequence.goTo(sequence.nextFrameID);
 			}
 		});
+
+		/* ISOTOPE */
+		;(function(){
+
+			// cache container
+			$container = $('.item-container');
+
+			if($container.length > 0){
+
+				$container.isotope({
+				  // options
+				  itemSelector : '.item',
+				  layoutMode : 'fitRows'
+				});
+
+				setTimeout(function(){
+			        $container.isotope({
+			          filter: '*',
+			          resizeble: true,
+			          animationOptions: {
+			             duration: 750,
+			             easing: 'linear',
+			             queue: false,
+			           }
+			        });
+			    }, 200);
+
+				// filter items when filter link is clicked
+				$('.filter-container .filters a').click(function(event){
+
+					var that = $(this);
+					var selector = that.data('filter');
+
+					$('.filter-container .filters a').removeClass("active");
+					that.parent().addClass("active");
+
+					$container.isotope({ filter: selector });
+					return false;
+
+				});
+
+
+
+			}
+
+		}());
 
 	});
 </script>
