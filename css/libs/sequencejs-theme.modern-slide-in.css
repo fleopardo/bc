@@ -118,18 +118,6 @@ Aside from these comments, you may modify and distribute this file as you please
 	backface-visibility: hidden;
 }
 
-#sequence h2 {
-	color: #fff;
-	font: 22px/22px big_noodle_titling_oblique;
-	text-transform: uppercase;
-}
-
-#sequence h3 {
-	font: 22px/22px big_noodle_titling_oblique;
-	color:#c02b2b;
-	text-transform: uppercase;
-}
-
 .next,.prev {
 	position: absolute;
 	opacity: 0.6;
@@ -151,15 +139,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	transition-duration: 1s;
 }
 
-.destacado {
-	/*font-size: 3.4em;*/
-	left: 0;
-	top:100px;
-	width: 35%;
-	opacity: 0;
-	/*bottom: 1%;*/
-	z-index: 50;
-}
+
 
 .destacado.animate-in {
 	left: 32px;
@@ -184,13 +164,6 @@ Aside from these comments, you may modify and distribute this file as you please
 	transition-duration: .5s;
 }
 
-#sequence li .destacado h2,
-#sequence li .destacado h3,
-#sequence li .destacado a,
-#sequence li .destacado .date,
-#sequence li .destacado span{
-	position: relative;
-}
 
 .model {
 	/*left: 30%;*/
@@ -227,4 +200,53 @@ Aside from these comments, you may modify and distribute this file as you please
 	-o-transition-duration: .5s;
 	-ms-transition-duration: .5s;
 	transition-duration: .5s;
+}
+
+
+.destacado {
+	/*font-size: 3.4em;*/
+	left: 0;
+	top:100px;
+	width: 35%;
+	opacity: 0;
+	/*bottom: 1%;*/
+	z-index: 50;
+}
+
+
+#sequence li .destacado h2,
+#sequence li .destacado h3,
+#sequence li .destacado a,
+#sequence li .destacado .date,
+#sequence li .destacado span{
+	position: relative;
+	color: #fff;
+}
+
+#sequence li .destacado .date{
+	font-size: 13px;
+	line-height: 16px;
+}
+
+#sequence li .destacado .date span{
+	margin: 0 5px;
+}
+
+#sequence li .destacado .date .fecha{
+	font-family: "din-black";
+	margin-left: 0;
+}
+
+#sequence li .destacado h2{
+	font-family: "din-black";
+	font-size: 42px;
+	line-height: 44px;
+	text-transform: uppercase;
+}
+
+#sequence li .destacado h3{
+	font-family: "din-black";
+	font-size: 15px;
+	line-height: 18px;
+	text-transform: uppercase;
 }
