@@ -203,7 +203,7 @@ body{
 
 
 .item{
-    background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.7);
     border-top: 2px solid #f8533d;
     width: 254px;
     position: relative;
@@ -271,4 +271,14 @@ body{
     font-size: 19px;
     line-height: 22px;
     color: #f8533d;
+}
+
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
 }
