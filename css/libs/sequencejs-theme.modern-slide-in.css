@@ -186,7 +186,9 @@ Aside from these comments, you may modify and distribute this file as you please
 
 #sequence li .destacado h2,
 #sequence li .destacado h3,
-#sequence li .destacado a{
+#sequence li .destacado a,
+#sequence li .destacado .date,
+#sequence li .destacado span{
 	position: relative;
 }
 
@@ -199,7 +201,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	/*position: relative;*/
 	position: absolute;
 	height: auto !important;
-	max-height: 521px !important;
+	max-height: 335px !important;
 	width: 100%;
 	min-width: 1028px; /*prevents the model from shrinking when the browser is resized*/
 	max-width: 1028px;
