@@ -583,6 +583,10 @@
 		font-family: "din-black";
 	}
 
+	.mitos-y-verdades .more:hover{
+		opacity: .6;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=60);
+	}
 	/* INTRO */
 
 	.mitos-y-verdades .intro{
@@ -599,11 +603,19 @@
 		font-family: "din-black";
 	}
 
+	.mitos-y-verdades .intro .more{
+		border-bottom-color: #ac9e2c;
+	}
+
 
 	/* BLOQUE AMARILLO */
 
 	.mitos-y-verdades .amarillo{
 		background: #ac9e2c;
+	}
+
+	.mitos-y-verdades .amarillo .more{
+		border-bottom-color: #4f4707;
 	}
 
 	/* BLOQUE VERDE */
@@ -612,10 +624,18 @@
 		background: #6d8711;
 	}
 
+	.mitos-y-verdades .verde .more{
+		border-bottom-color: #526707;
+	}
+
 	/* BLOQUE NARANJA */
 
 	.mitos-y-verdades .naranja{
 		background: #b98d00;
+	}
+
+	.mitos-y-verdades .naranja .more{
+		border-bottom-color: #795d04;
 	}
 
 	/* BLOQUE VIOLETA */
@@ -624,8 +644,16 @@
 		background: #650476;
 	}
 
+	.mitos-y-verdades .violeta .more{
+		border-bottom-color: #460452;
+	}
+
 	/* BLOQUE TURQUESA */
 
 	.mitos-y-verdades .turquesa{
 		background: #2a775b;
+	}
+
+	.mitos-y-verdades .turquesa .more{
+		border-bottom-color: #05534e;
 	}
