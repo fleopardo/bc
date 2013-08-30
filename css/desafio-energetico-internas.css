@@ -525,3 +525,107 @@
 	.desafio-energetico-internas .desafio-energetico-detalle .info p.first{
 		border-top: 2px solid #fff;
 	}
+
+
+
+
+/*
+ * MITOS Y VERDADES
+*/
+
+	.mitos-y-verdades .col-izq{
+		float: left;
+		width: 380px;
+	}
+
+	.mitos-y-verdades .col-der{
+		float: left;
+		width: 820px;
+	}
+
+	.mitos-y-verdades .bloque{
+		margin-bottom: 15px;
+		width: 328px;
+	}
+
+	.mitos-y-verdades .bloque.last{
+		margin-bottom: 0;
+	}
+
+	.mitos-y-verdades .col-der .bloque{
+		width: 364px;
+		height: 270px;
+	}
+
+	.mitos-y-verdades .bloque h4{
+		font-size: 18px;
+		font-weight: normal;
+		font-family: "din-medium";
+		line-height: 22px;
+	}
+
+	.mitos-y-verdades .bloque .resp{
+		font-size: 41px;
+		font-weight: normal;
+		font-family: "din-black";
+		line-height: 45px;
+		margin: 10px 0;
+		text-transform: uppercase;
+	}
+
+	.mitos-y-verdades .bloque .explicacion{
+		font-size: 15px;
+		font-weight: normal;
+		line-height: 19px;
+	}
+
+	.mitos-y-verdades .bloque .explicacion strong{
+		font-family: "din-black";
+	}
+
+	/* INTRO */
+
+	.mitos-y-verdades .intro{
+		background: #333333;
+	}
+
+	.mitos-y-verdades .intro h3{
+		font-size: 30px;
+		font-weight: normal;
+		margin-bottom: 30px;
+	}
+
+	.mitos-y-verdades .intro h3 span{
+		font-family: "din-black";
+	}
+
+
+	/* BLOQUE AMARILLO */
+
+	.mitos-y-verdades .amarillo{
+		background: #ac9e2c;
+	}
+
+	/* BLOQUE VERDE */
+
+	.mitos-y-verdades .verde{
+		background: #6d8711;
+	}
+
+	/* BLOQUE NARANJA */
+
+	.mitos-y-verdades .naranja{
+		background: #b98d00;
+	}
+
+	/* BLOQUE VIOLETA */
+
+	.mitos-y-verdades .violeta{
+		background: #650476;
+	}
+
+	/* BLOQUE TURQUESA */
+
+	.mitos-y-verdades .turquesa{
+		background: #2a775b;
+	}
