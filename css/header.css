@@ -344,7 +344,7 @@
 
 		.headerYPF .desafio-energetico .submenu{
 			width: 570px;
-			/*height: 322px;*/
+			min-height: 322px;
 		}
 
 		.headerYPF .desafio-energetico .submenu h3{
