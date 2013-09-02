@@ -135,6 +135,7 @@
     font-size: 19px;
     line-height: 22px;
     color: #f8533d;
+    margin-bottom: 5px;
 }
 
 
@@ -148,21 +149,21 @@
 }
 
 
-.item.notas h2{
+.item.texto h2{
 	margin-bottom: 15px;
 }
 
-.item.notas h3{
+.item.texto h3{
 	margin-bottom: 15px;
 }
 
-.item.notas p{
+.item.texto p{
 	font-family: "din-regular";
 	font-size: 11px;
 	line-height: 15px;
 }
 
-.item.notas .link{
+.item.texto .link{
 	margin-top: 5px;
 	display: inline-block;
 }
