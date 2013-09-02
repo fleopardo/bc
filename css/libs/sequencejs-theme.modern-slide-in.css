@@ -57,32 +57,28 @@ Aside from these comments, you may modify and distribute this file as you please
 	background: #d9d9d9;
 }
 
-#nav {
-	bottom: 9px;
-	right: 50%;
-	margin-left: -15px;
+
+#nav .sequence-prev,
+#nav .sequence-next{
+	display: block;
+	width: 36px;
+	height: 69px;
+	background: url(../assets/arrows_sequence.png) left top no-repeat;
+	cursor: pointer;
 	position: absolute;
 	z-index: 100;
+	top: 50%;
+	margin-top: -34px;
 }
 
-#nav li {
-	display: inline-block;
-	height: 14px;
-	width:15px;
+#nav .sequence-prev{
+	left: 30px;
 }
 
-#nav li a {
-	cursor: pointer;
-	background: url(../img/fd_galeria-arrows.png) left top no-repeat;
-	display: block;
-	width:15px;
-	height:14px;
+#nav .sequence-next{
+	right: 30px;
+	background-position: top right;
 }
-
-#nav li a.active {
-	background: url(../img/fd_galeria-arrows.png) left bottom no-repeat;
-}
-
 
 
 #sequence li{
@@ -142,8 +138,8 @@ Aside from these comments, you may modify and distribute this file as you please
 
 
 .destacado.animate-in {
-	left: 32px;
-	top: 60px;
+	left: 115px;
+	top: 20px;
 	opacity: 1;
 
 	-webkit-transition-duration: .5s;
@@ -226,6 +222,7 @@ Aside from these comments, you may modify and distribute this file as you please
 #sequence li .destacado .date{
 	font-size: 13px;
 	line-height: 16px;
+	margin-bottom: 23px;
 }
 
 #sequence li .destacado .date span{
@@ -242,17 +239,21 @@ Aside from these comments, you may modify and distribute this file as you please
 	font-size: 42px;
 	line-height: 44px;
 	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
 #sequence li .destacado h3{
 	font-family: "din-black";
 	font-size: 15px;
-	line-height: 18px;
+	line-height: 20px;
 	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
-#sequence li .destacado a{
+#sequence li .destacado a.leer-nota{
 	font-size: 13px;
 	line-height: 16px;
-	font-family: "din-light"
+	font-family: "din-light";
+	margin-bottom: 8px;
+	display: inline-block;
 }

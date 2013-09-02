@@ -18,6 +18,7 @@ html,body {
 	min-height: 100%;
 	vertical-align: top;
 	position: relative;
+	overflow: hidden;
 }
 
 .cols.active{
@@ -29,14 +30,10 @@ html,body {
 	min-height: 100%;
 	position: absolute;
 	z-index: 0;
-	left: 0;
 	top: 0;
 	bottom: 0;
-	-webkit-transition:all 0.5s ease-out;  /* Chrome y Safari */
-	-o-transition:all 0.5s ease-out;  /* Opera */
-	-moz-transition:all 0.5s ease-out;  /* Mozilla Firefox */
-	-ms-transition:all 0.5s ease-out;   /* Internet Explorer */
-	transition:all 0.5s ease-out;  /* W3C */
+	right: -36%;
+
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
@@ -70,11 +67,19 @@ html,body {
 	text-transform: uppercase;
 }
 
-.cols .txt > div{
-
+.cols .txt .mas{
+	display: block;
+	padding-left: 15px;
+	margin-top: 5px;
+	background: url("./assets/arrow-more.jpg") no-repeat 0px 3px;
+	color: #fff;
 }
 
 /* Columna principal */
+
+.principal img{
+	right: 0;
+}
 
 .principal .txt h3{
 	padding: 25px 15%;
@@ -82,15 +87,10 @@ html,body {
 
 .principal .txt div{
 	background: #f8533d;
-}
-
-.principal .txt div a{
-	color: #fff;
-	display: block;
 	padding: 30px 15% 50px 15%;
 }
 
-.principal .txt div a:hover{
+.principal .txt a:hover{
 	color: #333;
 }
 
@@ -101,6 +101,9 @@ html,body {
 	line-height: 36px;
 }
 
+.principal .txt .mas{
+	margin-top: 10px;
+}
 
 /* Columna secundaria */
 
@@ -125,19 +128,6 @@ html,body {
 	font-family: "din-medium";
 	font-weight: normal;
 	line-height: 15px;
-}
-
-.secundaria .txt > div > div .mas{
-	display: block;
-	padding-left: 15px;
-	margin-top: 5px;
-}
-
-.secundaria .txt > div > div .mas{
-	display: block;
-	padding-left: 15px;
-	margin-top: 5px;
-	background: url("./assets/arrow-more.jpg") no-repeat 0px 3px;
 }
 
 .secundaria .txt > div a{

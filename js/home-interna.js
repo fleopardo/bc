@@ -8,40 +8,54 @@
 
 ;(function(){
 
+
 	$.backstretch("./css/assets/fd-home-futbol.jpg");
 
-	var options = {
-		nextButton: true,
-		prevButton: true,
-		animateStartingFrameIn: true,
-		transitionThreshold: 250,
-		preloadTheseFrames: [1]/*,
-		preloadTheseImages: [
-			"img/tn-model1.png",
-			"img/tn-model2.png",
-			"img/tn-model3.png"
-		]*/
-	};
 
-	var sequence = $("#sequence").sequence(options).data("sequence");
+	if($("#sequence").length > 0){
+		var options = {
+			nextButton: true,
+			prevButton: true,
+			cycle: true,
+			animateStartingFrameIn: true,
+			transitionThreshold: 250,
+			preloadTheseFrames: [1]/*,
+			preloadTheseImages: [
+				"img/tn-model1.png",
+				"img/tn-model2.png",
+				"img/tn-model3.png"
+			]*/
+		};
 
-	sequence.afterLoaded = function(){
-		$("#nav").fadeIn(100);
-		$("#nav li:nth-child("+(sequence.settings.startingFrameID)+") a").addClass("active");
-	}
+		var sequence = $("#sequence").sequence(options).data("sequence");
 
-	sequence.beforeNextFrameAnimatesIn = function(){
-		$("#nav li:not(:nth-child("+(sequence.nextFrameID)+")) a").removeClass("active");
-		$("#nav li:nth-child("+(sequence.nextFrameID)+") a").addClass("active");
-	}
-
-	$("#nav li").click(function(){
-		if(!sequence.active){
-			$(this).children("a").removeClass("active").children("a").addClass("active");
-			sequence.nextFrameID = $(this).index()+1;
-			sequence.goTo(sequence.nextFrameID);
+		sequence.afterLoaded = function(){
+			$("#nav").fadeIn(100);
+			$("#nav li:nth-child("+(sequence.settings.startingFrameID)+") a").addClass("active");
 		}
-	});
+
+		sequence.beforeNextFrameAnimatesIn = function(){
+			$("#nav li:not(:nth-child("+(sequence.nextFrameID)+")) a").removeClass("active");
+			$("#nav li:nth-child("+(sequence.nextFrameID)+") a").addClass("active");
+		}
+
+		$("#nav li").click(function(){
+			if(!sequence.active){
+				$(this).children("a").removeClass("active").children("a").addClass("active");
+				sequence.nextFrameID = $(this).index()+1;
+				sequence.goTo(sequence.nextFrameID);
+			}
+		});
+
+		$(".sequence-next").on("click", function(){
+			sequence.next();
+		})
+
+		$(".sequence-prev").on("click", function(){
+			sequence.prev();
+		})
+
+	}
 
 }());
 
@@ -81,8 +95,15 @@ $container = $('.item-container');
 			var that = $(this);
 			var selector = that.data('filter');
 
-			$('.filter-container .filters a').removeClass("active");
-			that.parent().addClass("active");
+			if( that.data("id") == "all"){
+
+				$('.filter-container .filters li').addClass("active");
+
+			}else{
+
+				$('.filter-container .filters li').removeClass("active");
+				that.parent().addClass("active");
+			}
 
 			$container.isotope({ filter: selector });
 			return false;

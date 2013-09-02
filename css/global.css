@@ -190,6 +190,10 @@ body{
     float: left;
 }
 
+.breadcrumb-container ul.breadcrumb li.last a{
+    font-weight: bold;
+}
+
 .breadcrumb-container ul.options{
     float: right;
 }
@@ -203,7 +207,11 @@ body{
     color: #fff;
     display: inline-block;
     line-height: 36px;
-    font: 12px/36px arial, Helvetica, Sans-serif;
+    font: 11px/36px arial, Helvetica, Sans-serif;
+}
+
+.breadcrumb-container ul.options li{
+	border-left: 1px solid #3f5709;
 }
 
 .breadcrumb-container ul.options a{
@@ -212,6 +220,7 @@ body{
     height: 36px;
     text-indent: -9999px;
 }
+
 
 .breadcrumb-container ul.options .btn-list a{
     background-position: 0 0;

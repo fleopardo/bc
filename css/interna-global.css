@@ -12,6 +12,8 @@
     background: #000;
     padding: 0 10px;
     margin: 14px 0;
+    position: relative;
+	z-index: 60;
 }
 
 .filter-container > p,
@@ -45,7 +47,7 @@
     font-size: 13px;
 }
 
-.filter-container li.checked a{
+.filter-container li.active a{
     background-position: 0 -22px;
 }
 

@@ -22,6 +22,7 @@
 	<header class="headerYPF">
 		<div class="clearfix">
 			<h1 class="logo"><a href="http://www.ypf.com"><span class="hide">YPF</span></a></h1>
+			<h2><a href="http://www.equipoypf.com.ar">Equipo<span> YPF</span></a></h2>
 
 			<nav class="nav">
 				<ul class="principal">
@@ -361,11 +362,13 @@
 
 						<h3>Fútbol</h3>
 						<div>
-							<a href="home-futbol.html">
-								<p class="title">Ingresá para conocer todas las novedades del fútbol argentino</p>
 
-								<p class="ic-more"><span>+</span></p>
-							</a>
+							<p class="title">Neque quisquam ipsum Neque quisquam ipsum</p>
+							<a href="#" class="mas">Leer nota completa</a>
+
+
+							<a href="#"><p class="ic-more"><span>+</span></p></a>
+
 						</div>
 
 
@@ -467,36 +470,7 @@
 <script src="./js/libs/jquery.easing.1.3.js"></script>
 
 <script src="./js/global.js"></script>
-
-<script>
-
-	$(".cols").on("mouseenter",function(){
-
-		var that = $(this);
-
-		if(that.hasClass("active")) return;
-
-
-		$(".cols").removeClass("active");
-		that.addClass("active");
-
-
-		$(".cols:not(.active)").stop().find("article").hide(300);
-
-		$(".cols").stop(true,true).animate({
-			'width': '20%'
-		},300,"easeInExpo");
-
-
-		that.stop(true,true).animate({
-			'width': '39.9%'
-		},300, "easeInExpo", function(){
-			that.find("article").stop().fadeIn(300);
-		});
-
-	});
-
-</script>
+<script src="./js/home.js"></script>
 
 
 </body>
