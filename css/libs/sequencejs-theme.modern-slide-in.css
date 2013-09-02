@@ -7,7 +7,7 @@ Theme Author:   Ian Lunn @IanLunn
 Author URL:   http://www.ianlunn.co.uk/
 Theme URL:   http://www.sequencejs.com/themes/sliding-horizontal-parallax/
 
-This is a FREE theme and is dual licensed under the following: 
+This is a FREE theme and is dual licensed under the following:
 http://www.opensource.org/licenses/mit-license.php | http://www.gnu.org/licenses/gpl.html
 
 Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise stated.
@@ -109,7 +109,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	position: absolute;
 	max-width: 1058px;
 	width: 100%;
-	
+
 	/*backface-visibility prevents graphical glitches when frames are animating*/
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
@@ -176,8 +176,8 @@ Aside from these comments, you may modify and distribute this file as you please
 	height: auto !important;
 	max-height: 335px !important;
 	width: 100%;
-	min-width: 1028px; /*prevents the model from shrinking when the browser is resized*/
-	max-width: 1028px;
+	min-width: 1024px; /*prevents the model from shrinking when the browser is resized*/
+	max-width: 1058px;
 }
 
 .model.animate-in {
