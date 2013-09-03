@@ -264,3 +264,15 @@ Aside from these comments, you may modify and distribute this file as you please
 	color: #f8533d;
 	background-position: 0px -10px;
 }
+
+
+
+
+#sequence li{
+	z-index: 1;
+}
+
+#sequence li.first{
+	z-index: 5;
+}
+
