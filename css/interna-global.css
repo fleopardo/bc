@@ -97,13 +97,15 @@
     font-size: 11px;
     line-height: 16px;
     color: #f8533d;
+    background-image: url("./assets/ic_flechas-links.png");
+    background-repeat: no-repeat;
+    background-position: 0px -10px;
+    padding-left: 17px;
 }
 
 .item img{
     width: 100%;
 }
-
-
 
 .item.imagen{
     border-top: none;
@@ -168,5 +170,7 @@
 	display: inline-block;
 }
 
-
+.item a:hover .ic-more span{
+	color: #f8533d;
+}
 
