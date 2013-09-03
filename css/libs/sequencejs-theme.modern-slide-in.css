@@ -259,3 +259,8 @@ Aside from these comments, you may modify and distribute this file as you please
 	background: url("../assets/ic_flechas-links.png") no-repeat 0px 6px;
 	padding-left: 17px;
 }
+
+#sequence li .destacado a.leer-nota:hover{
+	color: #f8533d;
+	background-position: 0px -10px;
+}
