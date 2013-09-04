@@ -6,14 +6,14 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	z-index: 5;
+	z-index: 2;
 }
 
 .bloque.img-izquierda img{
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 5;
+	z-index: 2;
 }
 
 .bloque article > div,
@@ -250,6 +250,7 @@
 		top: 0;
 		bottom: 0;
 		left: 0;
+		z-index: 5;
 	}
 
 	.desafio-energetico .desafio-energetico-detalle div h3{
@@ -292,17 +293,17 @@
 		position: relative;
 	}
 
-	.desafio-energetico .shale-en-el-mundo{
+	/*.desafio-energetico .shale-en-el-mundo{
 		background: url("./assets/home/desafio-energetico/shale-en-el-mundo.jpg") top right no-repeat;
-	}
+	}*/
 
 	/*.desafio-energetico .vaca-muerta{
 		background: url("./assets/home/desafio-energetico/vaca-muerta.jpg") top right no-repeat;
 	}*/
 
-	.desafio-energetico .energia-para-el-crecimiento{
+	/*.desafio-energetico .energia-para-el-crecimiento{
 		background: url("./assets/home/desafio-energetico/energia-para-el-crecimiento.jpg") top right no-repeat;
-	}
+	}*/
 
 	.desafio-energetico .shale-en-el-mundo div,
 	/*.desafio-energetico .vaca-muerta div,*/
@@ -312,6 +313,7 @@
 		top: 0;
 		bottom: 0;
 		left: 0;
+		z-index: 5;
 	}
 
 		.desafio-energetico .shale-en-el-mundo div{
