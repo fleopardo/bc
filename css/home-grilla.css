@@ -2,6 +2,20 @@
 	margin-bottom: 10px;
 }
 
+.bloque.img-derecha img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 5;
+}
+
+.bloque.img-izquierda img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
 .bloque article > div,
 .bloque{
 	-webkit-transition:background 0.5s ease-out;  /* Chrome y Safari */
@@ -224,7 +238,6 @@
 	.desafio-energetico .desafio-energetico-detalle{
 		width: 710px;
 		height: 384px;
-		background: url("./assets/home/desafio-energetico/desafio-energetico-detalle.jpg") top right no-repeat;
 		position: relative;
 		float: left;
 		margin-right: 10px;
