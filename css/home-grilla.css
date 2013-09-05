@@ -54,7 +54,7 @@
 			width: 710px;
 			height: 575px;
 			margin-right: 10px;
-			background: url("./assets/home/nuevas-fronteras/nuevas-fronteras-detalle.jpg") no-repeat top right;
+			
 			position: relative;
 			float: left;
 		}
@@ -106,13 +106,13 @@
 			position: relative;
 		}
 
-		.nuevas-fronteras .exploracion-no-convencional{
+		/*.nuevas-fronteras .exploracion-no-convencional{
 			background: url("./assets/home/nuevas-fronteras/exploracion-no-convencional.jpg") no-repeat top right;
-		}
+		}*/
 
-		.nuevas-fronteras .offshore{
+		/*.nuevas-fronteras .offshore{
 			background: url("./assets/home/nuevas-fronteras/offshore.jpg") no-repeat top right;
-		}
+		}*/
 
 		.nuevas-fronteras .exploracion-no-convencional div,
 		.nuevas-fronteras .offshore div{
@@ -121,6 +121,7 @@
 			top: 0;
 			bottom: 0;
 			left: 0;
+			z-index: 5;
 		}
 
 		.nuevas-fronteras .exploracion-no-convencional div{
@@ -617,7 +618,7 @@
 	.compromiso .intro{
 		width: 710px;
 		height: 384px;
-		background: url("./assets/home/compromiso/intro.jpg") top right no-repeat;
+		/*background: url("./assets/home/compromiso/intro.jpg") top right no-repeat;*/
 		position: relative;
 		float: left;
 		margin-right: 10px;
@@ -630,6 +631,7 @@
 		top: 0;
 		bottom: 0;
 		left: 0;
+		z-index: 5;
 	}
 
 	.compromiso .intro div h3{
@@ -666,21 +668,21 @@
 		position: relative;
 	}
 
-	.compromiso .educar{
+	/*.compromiso .educar{
 		background: url("./assets/home/compromiso/educar.jpg") top right no-repeat;
-	}
+	}*/
 
-	.compromiso .desarrollo{
+	/*.compromiso .desarrollo{
 		background: url("./assets/home/compromiso/desarrollo-regional.jpg") top right no-repeat;
-	}
+	}*/
 
-	.compromiso .calidad{
+	/*.compromiso .calidad{
 		background: url("./assets/home/compromiso/calidad.jpg") top right no-repeat;
 	}
-
-	.compromiso .tecnologia{
+*/
+	/*.compromiso .tecnologia{
 		background: url("./assets/home/compromiso/tecnologia.jpg") top right no-repeat;
-	}
+	}*/
 
 	.compromiso .educar div,
 	.compromiso .desarrollo div,
@@ -691,6 +693,7 @@
 		top: 0;
 		bottom: 0;
 		left: 0;
+		z-index: 5;
 	}
 
 		.compromiso .educar div{
