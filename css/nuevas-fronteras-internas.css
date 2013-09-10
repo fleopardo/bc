@@ -154,6 +154,37 @@
 	}
 
 
+	/* Grafico */
+
+	/* Grafico Matriz de energía primaria */
+	.internas .exploracion-cuencas-productivas{
+		width:757px;
+		height: 433px;
+		background: url("./assets/textura-negra2.jpg");
+	}
+
+	.internas .row .exploracion-cuencas-productivas h3{
+		position: absolute;
+		z-index: 1;
+		font-size: 18px;
+		font-family: "din-black";
+		line-height: 22px;
+		width: 255px;
+		padding: 12px 45px 12px 0;
+		border-top: 2px solid #fff;
+		border-bottom: 1px solid #fff;
+		top: 30px;
+		left: 60px;
+	}
+
+	.internas .row .exploracion-cuencas-productivas img{
+		position: absolute;
+		left: 20px;
+		top: 0;
+		z-index: 0;
+	}
+
+
 
 	/* Bloques de texto de abajo */
 

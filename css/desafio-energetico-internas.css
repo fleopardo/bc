@@ -58,6 +58,106 @@
 
 
 
+	/* GRAFICO 1 */
+	.internas .energia-para-el-crecimiento .row .grafico-1{
+		width: 757px;
+		height: 432px;
+		background: url("./assets/textura-negra2.jpg");
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-1 .contenedor{
+		width: 400px;
+		position: relative;
+		z-index: 1;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-1 h3{
+		font-size: 15px;
+		font-family: "din-black";
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-1 p{
+		font-size: 12px;
+		font-family: "din-regular";
+		line-height: 15px;
+		margin-bottom: 10px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-1 img{
+		position: absolute;
+		top: 0;
+		left: 0px;
+		z-index: 0;
+	}
+
+
+	/* GRAFICO 2 */
+	.internas .energia-para-el-crecimiento .row .grafico-2 .tit-uppercase{
+		margin-bottom: 10px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-2{
+		width:554px;
+		height: 683px;
+		background: url("./assets/textura-negra2.jpg");
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-2 h3{
+		font-size: 15px;
+		font-family: "din-black";
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+
+
+
+	/* GRAFICO 3 */
+
+	.internas .energia-para-el-crecimiento .row .grafico-3{
+		width:555px;
+		height: 683px;
+		background: url("./assets/textura-negra2.jpg");
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-3 h3{
+		font-size: 15px;
+		font-family: "din-black";
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-3 p{
+		font-size: 12px;
+		font-family: "din-regular";
+		line-height: 18px;
+		margin-bottom: 10px;
+		padding-right: 80px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-3 p.pie-foto{
+		font-size: 13px;
+		font-family: "din-black";
+		line-height: 19px;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-3 h4{
+		margin-top: 60px;
+		padding-bottom: 8px;
+		padding-right: 200px;
+		border-bottom: 1px solid #fff;
+		font-size: 14px;
+		font-family: "din-black";
+		line-height: 19px;
+		margin-bottom: 15px;
+	}
+
+
+
+
 
 
 /*
@@ -177,6 +277,25 @@
 		margin-left: -34px;
 		z-index: 10;
 	}
+
+
+
+	/* GRAFICO RECURSOS SHALE */
+
+	.internas .grafico-recursos-shale{
+		width:757px;
+		height: 548px;
+		background: url("./assets/textura-negra2.jpg");
+	}
+
+	.internas .row .grafico-recursos-shale h3{
+		font-size: 20px;
+		font-family: "din-black";
+		margin-left: 30px;
+	}
+
+
+
 
 
 /*
@@ -360,6 +479,39 @@
 	}
 
 
+
+	/* Grafico Matriz de energía primaria */
+	.internas .grafico-matriz-energia{
+		width:757px;
+		height: 365px;
+		background: url("./assets/textura-negra2.jpg");
+	}
+
+	.internas .row .grafico-matriz-energia h3{
+		font-size: 24px;
+		font-family: "din-black";
+		margin-bottom: 2px;
+	}
+
+	.internas .row .grafico-matriz-energia h4{
+		font-size: 16px;
+		margin-bottom: 8px;
+	}
+
+	.internas .row .grafico-matriz-energia .desc{
+		font-size: 12px;
+	}
+
+	.internas .row .grafico-matriz-energia .pie{
+		border-top: 1px solid #ccc;
+		padding-top: 5px;
+		margin-top: 5px;
+		margin-right: 20px;
+		font-size: 11px;
+	}
+
+
+
 /*
  * RECURSOS CONVENIONALES
 */
@@ -527,7 +679,55 @@
 	}
 
 
+	/* Grafico ventana vaca muerta */
 
+	.internas .desafio-energetico-detalle .row .grafico-ventana-vaca-muerta{
+		width: 797px;
+		height: 472px;
+		background: #333;
+		position: relative;
+	}
+
+	.internas .desafio-energetico-detalle .row .grafico-ventana-vaca-muerta .content{
+		position: absolute;
+		z-index: 1;
+		width: 240px;
+		left: 40px;
+		top: 40px;
+	}
+
+	.internas .desafio-energetico-detalle .row .grafico-ventana-vaca-muerta h3{
+		font-size: 26px;
+		font-family: "din-regular";
+		font-weight: normal;
+		line-height: 30px;
+		margin-bottom: 10px;
+	}
+
+	.internas .desafio-energetico-detalle .row .grafico-ventana-vaca-muerta h3 span{
+		font-family: "din-black";
+	}
+
+	.internas .desafio-energetico-detalle .row .grafico-ventana-vaca-muerta p{
+		font-size: 15px;
+		line-height: 19px;
+	}
+
+	.internas .desafio-energetico-detalle .row .grafico-ventana-vaca-muerta .introduction{
+		border-top: 3px solid #fff;
+		border-bottom: 3px solid #fff;
+		padding: 18px 0;
+		margin-bottom: 20px;
+	}
+
+	.internas .desafio-energetico-detalle .row .grafico-ventana-vaca-muerta .datos{
+		margin-bottom: 15px;
+	}
+
+	.internas .desafio-energetico-detalle .row .grafico-ventana-vaca-muerta .final{
+		border-top: 1px solid #fff;
+		padding-top: 10px;
+	}
 
 /*
  * MITOS Y VERDADES

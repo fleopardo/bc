@@ -142,3 +142,92 @@
 	.compromiso-internas .cmass .row .medidas-seguridad .scrollCustom{
 		height: 220px;
 	}
+
+
+
+	/* Grafico Estimulacion hidraulica */
+
+	.internas .grafico-estimulacion-hidraulica{
+		width:757px;
+		height: 430px;
+		background: #202020;
+	}
+
+	.internas .grafico-estimulacion-hidraulica .titulo{
+		width: 285px;
+		margin-right: 18px;
+	}
+
+		.internas .row .grafico-estimulacion-hidraulica h3{
+			font-size: 22px;
+			font-family: "din-black";
+			line-height: 22px;
+			margin-bottom: 10px;
+		}
+
+		.internas .row .grafico-estimulacion-hidraulica h4{
+			font-size: 20px;
+			font-family: "din-regular";
+			line-height: 24px;
+			width: 300px;
+		}
+
+	.internas .grafico-estimulacion-hidraulica .texto{
+		width: 445px
+	}
+
+		.internas .grafico-estimulacion-hidraulica .texto p{
+			font-size: 13px;
+			margin-bottom: 5px;
+		}
+
+	.internas .grafico-estimulacion-hidraulica img{
+		display: block;
+		margin-top: 15px;
+	}
+
+
+
+
+	/* Grafico grafico-decada-de-energia */
+
+	.internas .grafico-decada-de-energia{
+		width:757px;
+		height: 357px;
+		background: #02a5b6;
+	}
+
+	.internas .row .grafico-decada-de-energia h3{
+		font-size: 22px;
+		font-family: "din-black";
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+
+	.internas .row .grafico-decada-de-energia .desc{
+		width: 339px;
+	}
+
+	.internas .row .grafico-decada-de-energia li{
+		float: left;
+		width: 240px;
+		margin-right: 17px;
+	}
+
+	.internas .row .grafico-decada-de-energia li.last{
+		margin-right: 0px;
+	}
+
+	.internas .row .grafico-decada-de-energia li h4{
+		font-size: 15px;
+		line-height: 18px;
+		padding: 5px 0;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		margin: 10px 0 5px 0;
+		font-family: "din-black";
+	}
+
+	.internas .row .grafico-decada-de-energia li p{
+		font-size: 13px;
+	}
