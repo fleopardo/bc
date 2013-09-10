@@ -121,6 +121,17 @@ strong{
 
 .DN{display:none;}
 
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+h2{
+    text-transform: uppercase;
+}
 
 /*
  * Fonts
@@ -171,8 +182,8 @@ strong{
 
 
 body{
-    font-family: "din-regular";
-    font-size: 12px;
+    font-family: "din-medium";
+    font-size: 13px;
     padding: 75px 0;
 }
 
@@ -212,6 +223,58 @@ body{
     z-index: 0;
 }
 
+section.content-container aside{
+    width: 160px;
+    border-top: 3px solid #e65834;
+    padding-top: 10px;
+}
+
+section.content-container aside h2{
+    color: #e65834;
+    font-size: 11px;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+section.content-container aside ul{
+    margin-bottom: 14px;
+}
+
+section.content-container aside li{
+    margin-bottom: 5px;
+}
+
+section.content-container aside li a{
+    font-size: 11px;
+    line-height: 15px;
+    color: #808080;
+}
+
+section.content-container aside li.first a{
+    text-transform: uppercase;
+    font-family: "din-black";
+}
+
+
+section.content{
+    width: 850px;
+}
+
+section.content h2{
+    color: #292929;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+section.content .left,
+section.content .right{
+    width: 415px;
+}
+
+section.content .bloque{
+    overflow: hidden;
+}
+/****** FIN HOME *******/
 
 
 
@@ -230,7 +293,7 @@ footer{
 }
 
 footer > div{
-    width: 1058px;
+    width: 1024px;
     margin: 0 auto;
     background: #373738;
 }
