@@ -30,8 +30,11 @@
 
 	});
 
-
+	/* Carousel de recomendados */
 	$relatedCarousel = $("#carousel-relacionados");
 	$relatedCarousel.removeClass("mask").jcarousel();
+
+	/* twitter */
+	$("div.tweets").twitscroller({user: 'dedoInteractive'});
 
 }());

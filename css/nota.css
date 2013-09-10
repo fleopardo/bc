@@ -86,6 +86,38 @@
 }
 
 
+.redes-sociales .tweets{
+	padding: 0 10px;
+	margin-top: 12px;
+}
+
+.redes-sociales .tweets li{
+	line-height: 36px;
+}
+
+.redes-sociales .tweets li span.title{
+	color: #5b5b5b;
+	display: inline-block;
+	font-size: 11px;
+}
+
+.redes-sociales .tweets li span.title a{
+	color: #5b5b5b;
+	text-decoration: none;
+}
+
+.redes-sociales .tweets li span.date{
+	font-size: 10px;
+	color: #b3b3b3;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.redes-sociales .tweets li a{
+	color: #d50e69;
+}
+
+
 /* ESTILOS BLOQUE NOTICIA */
 
 .news{
