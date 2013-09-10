@@ -352,7 +352,15 @@ section.content .bloque p{
     bottom: 0;
     left: 0;
     background: rgba(21,176,218,0.9);
+    display: none;
+}
+
+.box-img-detalle .over-img > a{
+    display: block;
+    cursor: pointer;
     padding: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 .box-img-detalle .over-img p{

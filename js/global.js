@@ -55,4 +55,15 @@
 
 	}
 
+
+
+	/* :Hovers detalle*/
+	$('.box-img-detalle').mouseenter(function(){
+		$(this).find('.over-img').fadeIn();
+	});
+
+	$('.box-img-detalle').mouseleave(function(){
+		$(this).find('.over-img').fadeOut();
+	});
+
 }());
