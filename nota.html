@@ -6,9 +6,10 @@
 	<link rel="stylesheet" type="text/css" href="header/css/header.css" />
 
 	<link rel="stylesheet" type="text/css" href="./css/libs/isotope.css" />
+	<link rel="stylesheet" type="text/css" href="./css/libs/jcarousel.css" />
+	<link rel="stylesheet" type="text/css" href="./css/libs/lightbox.css" />
 	<link rel="stylesheet" type="text/css" href="./css/global.css" />
-	<link rel="stylesheet" type="text/css" href="./css/home-futbol.css" />
-	<link rel="stylesheet" type="text/css" href="./css/libs/sequencejs-theme.modern-slide-in.css" />
+	<link rel="stylesheet" type="text/css" href="./css/nota.css" />
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="js/libs/html5.js"></script>
 	<![endif]-->
@@ -353,7 +354,8 @@
 		<div class="breadcrumb-container clearfix">
 			<ul class="breadcrumb">
 				<li><a href="/" title="">Home ></a></li>
-				<li class="last"><a href="./home-futbol.html" title="Fútbol">Fútbol</a></li>
+				<li><a href="./home-futbol.html" title="Futbol">Futbol ></a></li>
+				<li class="last"><a href="./nota.html" title="Nota">Nota</a></li>
 			</ul>
 			<ul class="options">
 				<li class="btn-list"><a href="#" title="">Lista</a></li>
@@ -363,191 +365,164 @@
 			</ul>
 		</div>
 
-		<!--galeria -->
-		<div class="galeria-cont" style="">
-			<div id="sequence">
-				<ul>
-					<li id="uno" class="first">
-						<div class="destacado animate-in">
-							<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
-							<h2 class="">Neque vel in quisquam ipsum quam 1. </h2>
-							<h3 class="">Quisqu vel sapien nibh congue vel facilisis orci. Suspendisse potenti</h3>
-							<a href="#" title="" class="leer-nota">Leer nota completa</a>
-							<div class="social">
-								<span>Like</span>
-								<span>Compartir</span>
-							</div>
-						</div>
-						<img class="model animate-in" src="img/internas-home/model1.jpg" />
-					</li>
 
-					<li id="dos">
-						<div class="destacado">
-							<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
-							<h2 class="">Neque vel in quisquam ipsum quam 2. </h2>
-							<h3 class="">Quisqu vel sapien nibh congue vel facilisis orci. Suspendisse potenti</h3>
-							<a href="#" title="" class="leer-nota">Leer nota completa</a>
-							<div class="social">
-								<span>Like</span>
-								<span>Compartir</span>
-							</div>
-						</div>
-						<img class="model animate-in" src="img/internas-home/model1.jpg" />
-					</li>
+		<section class="content nota clearfix">
 
-					<li id="tres">
-						<div class="destacado">
-							<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
-							<h2 class="">Neque vel in quisquam ipsum quam 3. </h2>
-							<h3 class="">Quisqu vel sapien nibh congue vel facilisis orci. Suspendisse potenti</h3>
-							<a href="#" title="" class="leer-nota">Leer nota completa</a>
-							<div class="social">
-								<span>Like</span>
-								<span>Compartir</span>
-							</div>
+			<div class="leftCol">
+				<article class="bloque">
+
+					<div class="galeria">
+
+						<div class="zoom">
+							<article data-id="1">
+								<h3>Quisque ante enim proin malesuada</h3>
+								<a rel="lightbox" href="./img/notas/foto-test-01.jpg"><img src="./img/notas/foto-test-01.jpg" width="518" height="417" /></a>
+							</article>
+
+							<article data-id="2" class="DN">
+								<h3>Quisque ante enim proin malesuada</h3>
+								<a rel="lightbox" href="./img/notas/foto-test-02.jpg"><img src="./img/notas/foto-test-02.jpg" width="518" height="417" /></a>
+							</article>
+
+							<article data-id="3" class="DN">
+								<h3>Quisque ante enim proin malesuada</h3>
+								<a rel="lightbox" href="./img/notas/foto-test-01.jpg"><img src="./img/notas/foto-test-01.jpg" width="518" height="417" /></a>
+							</article>
+
+							<article data-id="4" class="DN">
+								<h3>Quisque ante enim proin malesuada</h3>
+								<a rel="lightbox" href="./img/notas/foto-test-02.jpg"><img src="./img/notas/foto-test-02.jpg" width="518" height="417" /></a>
+							</article>
+
+							<article data-id="5" class="DN">
+								<h3>Quisque ante enim proin malesuada</h3>
+								<a rel="lightbox" href="./img/notas/foto-test-01.jpg"><img src="./img/notas/foto-test-01.jpg" width="518" height="417" /></a>
+							</article>
+
+							<article data-id="6" class="DN">
+								<h3>Quisque ante enim proin malesuada</h3>
+								<a rel="lightbox" href="./img/notas/foto-test-02.jpg"><img src="./img/notas/foto-test-02.jpg" width="518" height="417" /></a>
+							</article>
 						</div>
-						<img class="model animate-in" src="img/internas-home/model1.jpg" />
-					</li>
-				</ul>
+
+						<ul id="carousel-thumbs" class="mask">
+						   <li data-id="1"><img src="./img/notas/foto-test-01.jpg" width="77" height="55" /></li>
+						   <li data-id="2"><img src="./img/notas/foto-test-02.jpg" width="77" height="55" /></li>
+						   <li data-id="3"><img src="./img/notas/foto-test-01.jpg" width="77" height="55" /></li>
+						   <li data-id="4"><img src="./img/notas/foto-test-02.jpg" width="77" height="55" /></li>
+						   <li data-id="5"><img src="./img/notas/foto-test-01.jpg" width="77" height="55" /></li>
+						   <li data-id="6"><img src="./img/notas/foto-test-02.jpg" width="77" height="55" /></li>
+
+						</ul>
+
+					</div>
+
+				</article>
+
+				<article class="bloque redes-sociales">
+					<h3 class="title-section">Redes Sociales</h3>
+
+				</article>
 			</div>
 
-			<ul id="nav">
-				<li><a href="javascript:void(0);" class="sequence-prev"></a></li>
-				<li><a href="javascript:void(0);" class="sequence-next"></a></li>
-			</ul>
-		</div>
-		<!-- FIN galeria -->
+			<div class="rightCol">
+				<article class="bloque news">
+
+					<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
+
+					<h2>Neque quisquam ipsum Phasellus</h2>
+
+					<h3>Quisque vel sapien vel nibh congue vel facilisis orci. Suspendisse potenti</h3>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat tincidunt nisi at mattis. Ut augue orci, mollis ac venenatis in, malesuada ut purus. Duis magna purus, ultrices id laoreet sit amet, imperdiet ac dui. Maecenas eu felis dui. Ut facilisis blandit arcu, in ultrices orci gravida et. Vivamus semper consequat diam eget accumsan. Cras sapien felis, porttitor vitae cursus suscipit, luctus at lacus. Aliquam eget nulla libero. Curabitur et libero cursus odio laoreet vehicula sit amet a metus. Vivamus tincidunt eleifend quam at condimentum.</p>
+
+					<p>In id metus sed erat pellentesque pulvinar. Fusce ac semper ligula. Praesent ut odio sed elit pretium ultrices eu non turpis. Morbi sit amet orci sit amet nulla bibendum condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean consequat sapien sit amet turpis semper iaculis. Aenean et est neque. Proin faucibus scelerisque leo, in sodales urna sollicitudin id. Cras convallis dignissim nisi et iaculis. Sed nulla lectus, sagittis non aliquet.</p>
+
+					<p>In hac habitasse platea dictumst. Vivamus vel sapien vel nulla semper laoreet a nec orci. In elementum placerat aliquet. Aenean et dui ligula. Donec at sapien quis risus adipiscing elementum. Sed tincidunt feugiat justo, et dignissim velit blandit id. Integer accumsan cursus justo, ut dignissim orci semper sit amet. Suspendisse tempor mattis lobortis. Vestibulum eu urna sit amet orci aliquet facilisis. Pellentesque elementum faucibus molestie. Sed tellus est, congue vel blandit vulputate, bibendum quis libero. Sed dolor sem, pulvinar eu congue a, tincidunt vel nisl. Curabitur eu arcu turpis. Donec diam est, lacinia vel varius in, faucibus eget lectus. Mauris blandit erat purus, sit amet pulvinar mauris. Donec lobortis augue et ligula eleifend id tempus mauris sollicitudin.</p>
+
+					<p>Phasellus libero leo, ultricies consectetur elementum ac, bibendum ac lectus. Donec quis est leo. Mauris condimentum nisl nec purus rhoncus rhoncus. Nam tortor ante, tempor vitae auctor vel, dictum eu nisl. Nulla at tellus vel eros varius volutpat sed et justo. Nulla vulputate egestas est eu iaculis. Etiam aliquet commodo metus, sodales commodo quam pretium quis.</p>
+
+					<p>Pellentesque malesuada porttitor nibh nec gravida. Cras sed risus non urna cursus pellentesque. Etiam a neque eget libero pellentesque ultricies. Vivamus at lectus nunc, et scelerisque velit. Mauris quis faucibus eros. Sed lectus sem, aliquam ut varius vitae, hendrerit ut enim. Quisque lobortis consectetur dolor eu vestibulum.</p>
+				</article>
+			</div>
 
 
-		<section class="content home-futbol">
-			<section class="filter-container clearfix">
-				<p>Filtrar resultados por:</p>
-				<ul class="filters">
-					<li class="active"><a href="#" title="Todos" data-filter="*" data-id="all">Todos</a></li>
-					<li class="active"><a href="#" title="Notas" data-filter=".notas">Notas</a></li>
-					<li class="active"><a href="#" title="Postales" data-filter=".postales">Postales</a></li>
-				</ul>
-			</section>
+			<div class="notas-relacionadas">
 
-			<section class="item-container">
-				<article class="item imagen principal postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="518" height="335">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
+				<article class="bloque redes-sociales">
+					<h3 class="title-section">Notas relacionadas</h3>
+
+					<ul id="carousel-relacionados" class="mask">
+
+						<li>
+							<img src="./img/notas/relacionados.jpg" width="130" height="90" />
+							<div class="txt">
+								<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
+
+								<h3>Lorem ipsum dolor</h3>
+
+								<p>Gravida ac congue ipsum. Ante congue sagit tis. Sed elitv elem entum non.</p>
+
+								<a href="#" class="leer-nota">Leer nota completa</a>
+							</div>
+						</li>
+
+						<li>
+							<img src="./img/notas/relacionados.jpg" width="130" height="90" />
+							<div class="txt">
+								<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
+
+								<h3>Lorem ipsum dolor</h3>
+
+								<p>Gravida ac congue ipsum. Ante congue sagit tis. Sed elitv elem entum non.</p>
+
+								<a href="#" class="leer-nota">Leer nota completa</a>
+							</div>
+						</li>
+
+						<li>
+							<img src="./img/notas/relacionados.jpg" width="130" height="90" />
+							<div class="txt">
+								<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
+
+								<h3>Lorem ipsum dolor</h3>
+
+								<p>Gravida ac congue ipsum. Ante congue sagit tis. Sed elitv elem entum non.</p>
+
+								<a href="#" class="leer-nota">Leer nota completa</a>
+							</div>
+						</li>
+
+						<li>
+							<img src="./img/notas/relacionados.jpg" width="130" height="90" />
+							<div class="txt">
+								<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
+
+								<h3>Lorem ipsum dolor</h3>
+
+								<p>Gravida ac congue ipsum. Ante congue sagit tis. Sed elitv elem entum non.</p>
+
+								<a href="#" class="leer-nota">Leer nota completa</a>
+							</div>
+						</li>
+
+						<li>
+							<img src="./img/notas/relacionados.jpg" width="130" height="90" />
+							<div class="txt">
+								<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
+
+								<h3>Lorem ipsum dolor</h3>
+
+								<p>Gravida ac congue ipsum. Ante congue sagit tis. Sed elitv elem entum non.</p>
+
+								<a href="#" class="leer-nota">Leer nota completa</a>
+							</div>
+						</li>
+
+					</ul>
 				</article>
 
-				<article class="item imagen postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item imagen postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item imagen postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item imagen postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item imagen-texto notas">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<p>Fusce porta nuvitae erat gravid congue orci ipsum vulputate. Sed commodo tincidunt.</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item imagen-texto notas">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<p>Fusce porta nuvitae erat gravid congue orci ipsum vulputate. Sed commodo tincidunt.</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item imagen-texto notas">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<p>Fusce porta nuvitae erat gravid congue orci ipsum vulputate. Sed commodo tincidunt.</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item imagen-texto notas">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<p>Fusce porta nuvitae erat gravid congue orci ipsum vulputate. Sed commodo tincidunt.</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item notas texto">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<h3>Donec massa elementum</h3>
-						<p>Quisque ante enim. Proin male suada quam  arcu sodale fringil. Integer ege sollicit ipsum, at fringilla turpis elementum a. Fusce porta nuvitae erat gravida congue ipsum vulputate. Sed commodo tincidunt orcieu.</p>
-						<span class="link">Leer nota completa</span>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item notas texto">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<h3>Donec massa elementum</h3>
-						<p>Quisque ante enim. Proin male suada quam  arcu sodale fringil. Integer ege sollicit ipsum, at fringilla turpis elementum a. Fusce porta nuvitae erat gravida congue ipsum vulputate. Sed commodo tincidunt orcieu.</p>
-						<span class="link">Leer nota completa</span>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item notas texto">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<h3>Donec massa elementum</h3>
-						<p>Quisque ante enim. Proin male suada quam  arcu sodale fringil. Integer ege sollicit ipsum, at fringilla turpis elementum a. Fusce porta nuvitae erat gravida congue ipsum vulputate. Sed commodo tincidunt orcieu.</p>
-						<span class="link">Leer nota completa</span>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-				<article class="item notas texto">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<h3>Donec massa elementum</h3>
-						<p>Quisque ante enim. Proin male suada quam  arcu sodale fringil. Integer ege sollicit ipsum, at fringilla turpis elementum a. Fusce porta nuvitae erat gravida congue ipsum vulputate. Sed commodo tincidunt orcieu.</p>
-						<span class="link">Leer nota completa</span>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
-
-			</section>
-
+			</div>
 		</section>
 
 
@@ -575,13 +550,13 @@
 
 <script src="./js/global.js"></script>
 
-<script type="text/javascript" src="./js/libs/sequence.jquery-min.js"></script>
+<script src="./js/libs/jquery.backstretch.min.js"></script>
 
-<script type="text/javascript" src="./js/libs/jquery.backstretch.min.js"></script>
+<script src="./js/libs/jquery.jcarousel.js"></script>
 
-<script type="text/javascript" src="./js/libs/isotope.js"></script>
+<script src="./js/libs/lightbox-2.6.min.js"></script>
 
-<script type="text/javascript" src="./js/home-futbol.js"></script>
+<script src="./js/nota.js"></script>
 
 </body>
 </html>

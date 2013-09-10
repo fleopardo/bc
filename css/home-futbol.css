@@ -1,0 +1,176 @@
+/*Home*/
+
+.galeria-cont{
+	position: relative;
+	height: 335px;
+	width: 1058px;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+.filter-container{
+    background: #000;
+    padding: 0 10px;
+    margin: 14px 0;
+    position: relative;
+	z-index: 60;
+}
+
+.filter-container > p,
+.filter-container > ul,
+.filter-container li{
+    float: left;
+}
+
+.filter-container > p{
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 6px;
+    font-family: "din-light";
+    font-size: 13px;
+}
+
+.filter-container > ul{
+    margin-top: 10px;
+}
+
+.filter-container li a{
+    color: #fff;
+    text-transform: uppercase;
+    background: url("./assets/sp-checkbox-filters.png") 0 1px no-repeat;
+    display: inline-block;
+    padding-left: 20px;
+    line-height: 18px;
+    margin-right: 20px;
+    font-family: "din-black";
+    font-size: 13px;
+}
+
+.filter-container li.active a{
+    background-position: 0 -22px;
+}
+
+
+
+
+
+
+.item{
+    background: rgba(0,0,0,0.7);
+    border-top: 2px solid #f8533d;
+    width: 254px;
+    position: relative;
+    margin: 5px;
+}
+
+.item > a{
+    display: block;
+    padding: 12px;
+}
+
+.item h2,
+.item h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.item h2{
+    font-size: 19px;
+    line-height: 21px;
+}
+
+.item h3{
+    font-size: 27px;
+    line-height: 30px;
+    font-family: "din-black";
+}
+
+.item p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+.item span.link{
+    font-size: 11px;
+    line-height: 16px;
+    color: #f8533d;
+    background-image: url("./assets/ic_flechas-links.png");
+    background-repeat: no-repeat;
+    background-position: 0px -10px;
+    padding-left: 17px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.item.imagen{
+    border-top: none;
+}
+
+.item.imagen > a{
+    padding: 0;
+}
+
+.item.imagen h2{
+    font-size: 13px;
+    line-height: 22px;
+    background: #f8533d;
+    font-family: "din-black";
+    position:absolute;
+    bottom: 0;
+    padding: 0 8px;
+    left: 0;
+    z-index: 10;
+}
+
+
+.item.principal{
+    width: 518px;
+}
+
+
+.item.imagen-texto h2{
+    font-size: 19px;
+    line-height: 22px;
+    color: #f8533d;
+    margin-bottom: 5px;
+}
+
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+.item.texto h2{
+	margin-bottom: 15px;
+}
+
+.item.texto h3{
+	margin-bottom: 15px;
+}
+
+.item.texto p{
+	font-family: "din-regular";
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.item.texto .link{
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.item a:hover .ic-more span{
+	color: #f8533d;
+}
+
