@@ -1,0 +1,287 @@
+/*
+Theme created for use with Sequence.js (http://www.sequencejs.com/)
+
+Theme:   Sliding Horizontal Parallax (Responsive)
+Version:   0.2.2 Beta
+Theme Author:   Ian Lunn @IanLunn
+Author URL:   http://www.ianlunn.co.uk/
+Theme URL:   http://www.sequencejs.com/themes/sliding-horizontal-parallax/
+
+This is a FREE theme and is dual licensed under the following:
+http://www.opensource.org/licenses/mit-license.php | http://www.gnu.org/licenses/gpl.html
+
+Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise stated.
+Aside from these comments, you may modify and distribute this file as you please. Have fun!
+ */
+
+
+
+.next,.prev {
+	color: white;
+	cursor: pointer;
+	display: none;
+	font-weight: bold;
+	padding: 10px 15px;
+	position: absolute;
+	top: 50%;
+	z-index: 1000;
+	height: 75px;
+	margin-top: -47.5px;
+}
+
+.pause {
+	bottom: 0;
+	cursor: pointer;
+	position: absolute;
+	z-index: 1000;
+}
+
+.paused {
+	opacity: 0.3;
+}
+
+.prev {
+	left: 3%;
+}
+
+.next {
+	right: 3%;
+}
+
+.prev img, .next img{
+	height: 100%;
+	width: auto;
+}
+
+#sequence-preloader{
+	background: #d9d9d9;
+}
+
+
+#nav .sequence-prev,
+#nav .sequence-next{
+	display: block;
+	width: 36px;
+	height: 69px;
+	background: url(../assets/arrows_sequence.png) left top no-repeat;
+	cursor: pointer;
+	position: absolute;
+	z-index: 100;
+	top: 50%;
+	margin-top: -34px;
+}
+
+#nav .sequence-prev{
+	left: 30px;
+}
+
+#nav .sequence-next{
+	right: 30px;
+	background-position: top right;
+}
+
+
+#sequence li{
+	height: 100%;
+	position: absolute;
+	/*top: -50%;*/
+	top:0;
+	width: 100%;
+}
+
+#sequence li * {
+	position: absolute;
+}
+
+#sequence li img{
+	height: 100%;
+}
+
+#sequence {
+	/*background: url("../images/bg-sequence.jpg") no-repeat 50% 100%;*/
+	display: block;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	max-width: 2000px;
+	width: 100%;
+
+	/*backface-visibility prevents graphical glitches when frames are animating*/
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.next,.prev {
+	position: absolute;
+	opacity: 0.6;
+
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	transition-duration: 1s;
+}
+
+.next:hover,.prev:hover {
+	opacity: 1;
+
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	transition-duration: 1s;
+}
+
+
+
+.destacado.animate-in {
+	left: 115px;
+	top: 20px;
+	opacity: 1;
+
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+.destacado.animate-out {
+	left: 7%;
+	opacity: 0;
+
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+
+.model {
+	/*left: 30%;*/
+	left: -5%;
+	/*bottom: -48%;*/
+	bottom: 0;
+	opacity: 0;
+	/*position: relative;*/
+	position: absolute;
+	height: auto!important;
+	max-height: 398px!important;
+	width: 100%;
+	min-width: 1024px; /*prevents the model from shrinking when the browser is resized*/
+	max-width: 2000px;
+}
+
+.model.animate-in {
+	left: 0;
+	opacity: 1;
+
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	-ms-transition-duration: 1s;
+	transition-duration: 1s;
+}
+
+.model.animate-out {
+	left: 5%;
+	opacity: 0;
+
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+
+.destacado {
+	/*font-size: 3.4em;*/
+	left: 0;
+	top:100px;
+	width: 35%;
+	opacity: 0;
+	/*bottom: 1%;*/
+	z-index: 50;
+	background: #e65834;
+	padding: 30px 30px 30px 90px;
+}
+
+.destacado.animate-in{
+	left: 0;
+}
+
+.destacado.animate-out{
+	left: -50px;
+}
+
+#sequence li .destacado h2,
+#sequence li .destacado h3,
+#sequence li .destacado p,
+#sequence li .destacado a,
+#sequence li .destacado span{
+	position: relative;
+	color: #fff;
+}
+
+#sequence li .destacado .date{
+	font-size: 13px;
+	line-height: 16px;
+	margin-bottom: 23px;
+}
+
+#sequence li .destacado .date span{
+	margin: 0 5px;
+}
+
+#sequence li .destacado .date .fecha{
+	font-family: "din-black";
+	margin-left: 0;
+}
+
+#sequence li .destacado h2{
+	font-family: "din-black";
+	font-size: 42px;
+	line-height: 44px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+#sequence li .destacado h3{
+	font-family: "din-black";
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#sequence li .destacado a.leer-nota{
+	font-size: 13px;
+	line-height: 16px;
+	font-family: "din-light";
+	margin-bottom: 8px;
+	display: inline-block;
+	background: url("../assets/ic_flechas-links.png") no-repeat 0px 6px;
+	padding-left: 17px;
+}
+
+#sequence li .destacado a.leer-nota:hover{
+	color: #f8533d;
+	background-position: 0px -10px;
+}
+
+
+
+
+#sequence li{
+	z-index: 1;
+}
+
+#sequence li.first{
+	z-index: 5;
+}
+

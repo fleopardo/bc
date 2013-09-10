@@ -1,0 +1,213 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+
+http://html5doctor.com/html-5-reset-stylesheet/
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: "din-regular";
+    font-weight: normal;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	text-decoration:none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+    resize:none;
+    outline:none;
+}
+li{list-style:none;}
+
+strong{
+	font-weight:bold;
+}
+
+/*CLEARFIX*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+
+.DN{display:none;}
+
+
+/*
+ * Fonts
+*/
+@font-face {
+	font-family: "din-regular";
+	src: url("../fonts/din-regular.eot");
+	src: local("?"),
+	url("../fonts/din-regular.woff") format("woff"),
+	url("../fonts/din-regular.ttf") format("truetype"),
+	url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: "din-light";
+	src: url("../fonts/din-light.eot");
+	src: local("?"),
+	url("../fonts/din-light.woff") format("woff"),
+	url("../fonts/din-light.ttf") format("truetype"),
+	url("../fonts/din-light.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: "din-medium";
+	src: url("../fonts/din-medium.eot");
+	src: local("?"),
+	url("../fonts/din-medium.woff") format("woff"),
+	url("../fonts/din-medium.ttf") format("truetype"),
+	url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: "din-black";
+	src: url("../fonts/din-black.eot");
+	src: local("?"),
+	url("../fonts/din-black.woff") format("woff"),
+	url("../fonts/din-black.ttf") format("truetype"),
+	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+
+body{
+    font-family: "din-regular";
+    font-size: 12px;
+    padding: 75px 0;
+}
+
+.layout{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+
+.breadcrumb-container{
+    background: #292929;
+    padding-left: 10px;
+}
+
+.breadcrumb-container li{
+    display: inline-block;
+    color: #fff;
+}
+
+.breadcrumb-container li a{
+    color: #fff;
+    display: inline-block;
+    line-height: 36px;
+    font: 12px/36px arial, Helvetica, Sans-serif;
+}
+
+
+
+/******** HOME *********/
+.galeria-cont{
+    position: relative;
+    height: 398px;
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 0;
+}
