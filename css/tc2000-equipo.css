@@ -1,0 +1,118 @@
+.tc2000-equipo{
+}
+
+.tc2000-equipo .banner-destacado{
+	background: url("./assets/tc-2000-destacado.jpg") center top no-repeat;
+}
+
+
+
+
+.tc2000-equipo .bloque{
+	background: rgba(0,0,0,0.5);
+	border-top: 3px solid #f8533d;
+	margin-bottom: 15px;
+}
+
+.tc2000-equipo .title-section{
+	color: #f8533d;
+	font-family: "din-regular";
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+
+/* ESTILOS GALERIA */
+
+
+.tc2000-equipo .jcarousel-container-horizontal {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.tc2000-equipo .jcarousel-prev-horizontal,
+.tc2000-equipo  .jcarousel-next-horizontal{
+	top: 50%;
+	margin-top: -18px;
+}
+
+.tc2000-equipo .jcarousel-prev-horizontal,
+.tc2000-equipo .jcarousel-next-horizontal{
+	top: 50%;
+	margin-top: -18px;
+}
+
+/*#carousel-equipo li,*/
+#carousel-equipo .jcarousel-item{
+	position: relative;
+	width: 307px;
+	height: 640px;
+	margin-right: 20px;
+}
+
+#carousel-equipo .jcarousel-next-horizontal {
+    right: -30px;
+}
+
+#carousel-equipo .jcarousel-prev-horizontal {
+    left: -30px;
+}
+
+
+#carousel-equipo li img{
+	width: 100%;
+	height: auto;
+	border-top: 2px solid #f8533d;
+}
+
+#carousel-equipo .txt{
+	padding: 10px;
+	background: rgba(0,0,0,0.7);
+}
+
+#carousel-equipo .txt h3{
+	font-size: 22px;
+	font-weight: 24px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	color: #fff;
+	min-height: 44px;
+	background: url("./assets/fd-camiseta.png") right no-repeat;
+}
+
+#carousel-equipo .txt h3 span{
+	font-family: "din-black";
+}
+
+#carousel-equipo .txt li,
+#carousel-equipo .txt p{
+	line-height: 15px;
+	color: #fff;
+}
+
+#carousel-equipo .txt ul,
+#carousel-equipo .txt p{
+	margin-bottom: 10px;
+}
+
+
+#carousel-equipo .leer-nota{
+	font-size: 12px;
+	line-height: 15px;
+	font-family: "din-light";
+	margin-bottom: 8px;
+	margin-top: 4px;
+	display: inline-block;
+	background: url("./assets/ic_flechas-links.png") no-repeat;
+	background-position: 0px -10px;
+	padding-left: 17px;
+	color: #f8533d;
+}
+
+#carousel-equipo .leer-nota:hover{
+	color: #fff;
+	background-position: 0px 6px;
+}
