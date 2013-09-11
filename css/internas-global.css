@@ -1,5 +1,9 @@
 /* Estilo global */
 
+.internas .preheader{
+	padding-right: 143px;
+}
+
 .internas .row{
 	margin-bottom: 12px;
 	clear: both;

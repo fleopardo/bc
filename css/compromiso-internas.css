@@ -231,3 +231,53 @@
 	.internas .row .grafico-decada-de-energia li p{
 		font-size: 13px;
 	}
+
+
+
+	/* Grafico medio ambiente (TABLA) */
+
+	.internas .cmass .row .grafico-medio-ambiente{
+		width: 757px;
+		height: 445px;
+		background: url("./assets/textura-negra2.jpg");
+	}
+
+	.internas .cmass .row .grafico-medio-ambiente h3{
+		font-size: 15px;
+		font-family: "din-black";
+		line-height: 22px;
+		margin-bottom: 5px;
+		text-transform: uppercase;
+	}
+
+	.internas .cmass .row .grafico-medio-ambiente h4{
+		font-size: 15px;
+		font-family: "din-regular";
+		line-height: 20px;
+		font-weight: normal;
+	}
+
+	.internas .cmass .row .grafico-medio-ambiente table{
+		margin-top: 18px;
+		border-top: 2px solid #fff;
+	}
+
+	.internas .cmass .row .grafico-medio-ambiente tr{
+		border-bottom: 1px solid #fff;
+	}
+
+	.internas .cmass .row .grafico-medio-ambiente td,
+	.internas .cmass .row .grafico-medio-ambiente th{
+		padding: 4px;
+		text-align: left;
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.internas .cmass .row .grafico-medio-ambiente th{
+		font-size: 14px;
+		font-weight: normal;
+		padding-top: 6px;
+		padding-bottom: 6px;
+		font-family: "din-black"
+	}

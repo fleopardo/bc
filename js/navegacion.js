@@ -81,10 +81,10 @@ shale.navegacion = (function(window){
 					id_seccion_actual = page_id;
 
 					// Activo los links en el header
-					if( $(".headerYPF").length > 0 ){
+					/*if( $(".headerYPF").length > 0 && $(".contenedor-principal").hasClass("home")){
 						headerYPF.removeActives();
-						headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" > a"));
-					}
+						headerYPF.setActive($(".headerYPF ."+state.page_id+" > a"));
+					}*/
 
 					// lanzo un evento
 					$(window).trigger("navegacion");
@@ -144,9 +144,9 @@ shale.navegacion = (function(window){
 			id_seccion_actual = page_id;
 
 			// Activo los links en el header
-			if( $(".headerYPF").length > 0 ){
+			if( $(".headerYPF").length > 0 && $(".contenedor-principal").hasClass("home")){
 				headerYPF.removeActives();
-				headerYPF.setActive($(".headerYPF ."+id_seccion_actual+" > a"));
+				headerYPF.setActive($(".headerYPF ."+state.page_id+" > a"));
 			}
 
 			// lanzo un evento
@@ -207,7 +207,7 @@ shale.navegacion = (function(window){
 					$("#"+state.page_id).addClass("active");
 
 					// Activo los links en el header
-					if( $(".headerYPF").length > 0 ){
+					if( $(".headerYPF").length > 0 && $(".contenedor-principal").hasClass("home")){
 						headerYPF.removeActives();
 						headerYPF.setActive($(".headerYPF ."+state.page_id+" > a"));
 					}

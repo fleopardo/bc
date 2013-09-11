@@ -922,6 +922,79 @@ footer .social li a{
 
 
 
+
+/* NUEVO COMPARTIR */
+
+.preheader .share{
+	position: relative;
+	z-index: 2;
+	float: right;
+}
+
+.preheader .share dt{
+	float: left;
+	height: 44px;
+	line-height: 44px;
+	margin-right: 15px;
+}
+
+.preheader .share dd{
+	float: left;
+	border-right: 1px solid #222;
+}
+
+.preheader .share dd:last-of-type{
+	border-right: 0px;
+}
+
+.preheader .share dd a{
+	background: url('./assets/sprite-share.png') top left no-repeat;
+	display: block;
+	width: 40px;
+	height: 44px;
+}
+
+	.preheader .share dd a.fb{
+		background-position: 5px 0px;
+	}
+
+		.preheader .share dd a.fb:hover{
+			background-position: 5px -45px;
+		}
+
+	.preheader .share dd a.tw{
+		background-position: -32px 0px;
+	}
+
+		.preheader .share dd a.tw:hover{
+			background-position: -32px -45px;
+		}
+
+	.preheader .share dd a.li{
+		background-position: -71px 0px;
+	}
+
+		.preheader .share dd a.li:hover{
+			background-position: -71px -45px;
+		}
+
+	.preheader .share dd a.gplus{
+		background-position: -111px 0px;
+	}
+
+		.preheader .share dd a.gplus:hover{
+			background-position: -111px -45px;
+		}
+
+	.preheader .share dd a.mail{
+		background-position: -151px 0px;
+	}
+
+		.preheader .share dd a.mail:hover{
+			background-position: -151px -45px;
+		}
+
+
 /* iPads ----------- */
 
 @media only screen
