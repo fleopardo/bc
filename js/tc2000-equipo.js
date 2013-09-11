@@ -17,6 +17,15 @@
 	$relatedCarousel = $("#carousel-equipo");
 	$relatedCarousel.removeClass("mask").jcarousel();
 
-	
+	$relatedCarousel.find('li.jcarousel-item').each(function(){
+		$(this).mouseenter(function(){
+			$(this).addClass('active');
+		});
+
+		$(this).mouseleave(function(){
+			$(this).removeClass('active');
+		});
+		
+	});
 
 }());
