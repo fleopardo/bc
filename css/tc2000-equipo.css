@@ -49,8 +49,9 @@
 #carousel-equipo .jcarousel-item{
 	position: relative;
 	width: 307px;
-	height: 640px;
+	height: 540px;
 	margin-right: 20px;
+	background: rgba(0,0,0,0.7);
 }
 
 #carousel-equipo .jcarousel-next-horizontal {
@@ -70,7 +71,6 @@
 
 #carousel-equipo .txt{
 	padding: 10px;
-	background: rgba(0,0,0,0.7);
 }
 
 #carousel-equipo .txt h3{
