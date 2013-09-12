@@ -6,18 +6,12 @@
 */
 
 
+
 ;(function(){
 
-
-	$.backstretch("./css/assets/fd-home-futbol.jpg");
-
-
-}());
-
-
+$.backstretch("./css/assets/fd-calendario.jpg");
 
 /* ISOTOPE */
-;(function(){
 
 // cache container
 $container = $('.item-container');
