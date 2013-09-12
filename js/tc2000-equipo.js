@@ -9,7 +9,7 @@
 ;(function(){
 
 
-	$.backstretch("./css/assets/fd-notas.jpg");
+	$.backstretch("./css/assets/fd-tc2000-equipo.jpg");
 
 
 
