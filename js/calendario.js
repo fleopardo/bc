@@ -103,7 +103,7 @@ $container = $('.item-container');
 
 		}else{
 
-			alert("B====D");
+			return false;
 
 		}
 
@@ -143,8 +143,7 @@ $container = $('.item-container');
 
 		}else{
 
-			alert("B====D");
-
+			return false;
 		}
 
 	});
