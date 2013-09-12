@@ -71,10 +71,12 @@ $container = $('.item-container');
 
 
 
-	$('a.prev').click(function(){
+	$('a.prev').click(function(event){
+
+		event.preventDefault();
 
 		var mesActive = $('.animated.active'),
-			mesPrev = $('.animated.active').prev("section");
+			mesPrev = $('.animated.active').prev(".item-container");
 
 		
 		if(mesPrev.length > 0) {
@@ -108,15 +110,17 @@ $container = $('.item-container');
 	});
 
 
-	$('a.next').click(function(){
+	$('a.next').click(function(event){
+
+		event.preventDefault();
 
 		var mesActive = $('.animated.active'),
-			mesNext = $('.animated.active').next("section");
+			mesNext = $('.animated.active').next(".item-container");
 		
 		
 
 		if(mesNext.length > 0) {
-			
+
 			//cambio valor de mes y año
 			$('.meses-container p').html(mesNext.data('mes')+'<span> | '+mesNext.data('ano')+'</span>');
 
