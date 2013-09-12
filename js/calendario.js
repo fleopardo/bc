@@ -122,7 +122,8 @@ $container = $('.item-container');
 		if(mesNext.length > 0) {
 
 			//cambio valor de mes y año
-			$('.meses-container p').html(mesNext.data('mes')+'<span> | '+mesNext.data('ano')+'</span>');
+			$('.meses-container p .mes').html(mesNext.data('mes'));
+			$('.meses-container p .ano').html(mesNext.data('ano'));
 
 			mesActive.removeClass('fadeIn active').css('display','none');
 			mesNext.addClass('fadeIn active').css('display','block');
