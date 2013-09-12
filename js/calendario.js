@@ -9,9 +9,11 @@
 
 ;(function(){
 
-$.backstretch("./css/assets/fd-calendario.jpg");
 
-/* ISOTOPE */
+	$.backstretch("./css/assets/fd-calendario.jpg");
+
+
+	/* ISOTOPE */
 
 // cache container
 $container = $('.item-container');
@@ -64,5 +66,49 @@ $container = $('.item-container');
 
 
 	}
+
+
+	$('a.prev').click(function(){
+
+		var mesActive = $(this).parent().parent(),
+			mesPrev = $(this).parent().parent().prev("div");
+
+		
+		if(mesPrev.length > 0) {
+
+			mesActive.removeClass('fadeIn').css('display','none');
+			mesPrev.addClass('fadeIn').css('display','block');
+			//alert('exist');
+
+		}else{
+
+			alert("no exist");
+
+		}
+
+	});
+
+
+	$('a.next').click(function(){
+
+		var mesActive = $(this).parent().parent(),
+			mesNext = $(this).parent().parent().next("div");
+
+		
+		if(mesNext.length > 0) {
+
+			mesActive.removeClass('fadeIn').css('display','none');
+			mesNext.addClass('fadeIn').css('display','block');
+			//alert('exist');
+		}else{
+
+			alert("no exist");
+
+		}
+
+	});
+
+
+
 
 }());
