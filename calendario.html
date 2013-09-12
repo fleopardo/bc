@@ -8,6 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="./css/libs/isotope.css" />
 	<link rel="stylesheet" type="text/css" href="./css/global.css" />
 	<link rel="stylesheet" type="text/css" href="./css/calendario.css" />
+	<link rel="stylesheet" type="text/css" href="./css/animate.css" />
+
+
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="js/libs/html5.js"></script>
 	<![endif]-->
@@ -363,138 +366,311 @@
 		</div>
 
 		<section class="content calendario">
-			<div class="meses-container">
-				<a href="#" title="Anterior">Anterior</a>
-				<p>Enero | <span>2013</span></p>
-				<a href="#" title="Siguiente">Siguiente</a>
+			<div class="animated fadeIn">
+				<div class="meses-container">
+					<a href="#" title="Anterior" class="arrows prev">Anterior</a>
+					<p>Enero | <span>2013</span></p>
+					<a href="#" title="Siguiente" class="arrows next">Siguiente</a>
+				</div>
+				<section class="filter-container clearfix">
+					<p>Filtrar resultados por:</p>
+					<ul class="filters">
+						<li class="active"><a href="#" title="Todos" data-filter="*" data-id="all">Todos</a></li>
+						<li class="active"><a href="#" title="Fútbol" data-filter=".futbol">Fútbol</a></li>
+						<li class="active"><a href="#" title="TC 2000" data-filter=".tc2000">TC 2000</a></li>
+					</ul>
+				</section>
+
+				<section class="item-container">
+
+					<article class="item tc2000">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">tc2000</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item tc2000">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">tc2000</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item tc2000">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">tc2000</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item tc2000">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">tc2000</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+				</section>
+
 			</div>
-			<section class="filter-container clearfix">
-				<p>Filtrar resultados por:</p>
-				<ul class="filters">
-					<li class="active"><a href="#" title="Todos" data-filter="*" data-id="all">Todos</a></li>
-					<li class="active"><a href="#" title="Notas" data-filter=".notas">Notas</a></li>
-					<li class="active"><a href="#" title="Postales" data-filter=".postales">Postales</a></li>
-				</ul>
-			</section>
 
-			<section class="item-container">
-				<article class="item imagen principal postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="518" height="335">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+			<div class="animated" style="display:none;">
+				<div class="meses-container">
+					<a href="#" title="Anterior" class="arrows prev">Anterior</a>
+					<p>Febrero | <span>2013</span></p>
+					<a href="#" title="Siguiente" class="arrows next">Siguiente</a>
+				</div>
+				<section class="filter-container clearfix">
+					<p>Filtrar resultados por:</p>
+					<ul class="filters">
+						<li class="active"><a href="#" title="Todos" data-filter="*" data-id="all">Todos</a></li>
+						<li class="active"><a href="#" title="Fútbol" data-filter=".futbol">Fútbol</a></li>
+						<li class="active"><a href="#" title="TC 2000" data-filter=".tc2000">TC 2000</a></li>
+					</ul>
+				</section>
 
-				<article class="item imagen postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+				<section class="item-container">
 
-				<article class="item imagen postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item tc2000">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">tc2000</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item imagen postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item tc2000">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">tc2000</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item imagen postales">
-					<a href="#" title="">
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<h2>proin malesuada</h2>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item tc2000">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">tc2000</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item imagen-texto notas">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<p>Fusce porta nuvitae erat gravid congue orci ipsum vulputate. Sed commodo tincidunt.</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item tc2000">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">tc2000</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item imagen-texto notas">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<p>Fusce porta nuvitae erat gravid congue orci ipsum vulputate. Sed commodo tincidunt.</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item imagen-texto notas">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<p>Fusce porta nuvitae erat gravid congue orci ipsum vulputate. Sed commodo tincidunt.</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item imagen-texto notas">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<p>Fusce porta nuvitae erat gravid congue orci ipsum vulputate. Sed commodo tincidunt.</p>
-						<img src="./img/internas-home/im-item-principal.jpg" alt="" width="253" height="161">
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item notas texto">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<h3>Donec massa elementum</h3>
-						<p>Quisque ante enim. Proin male suada quam  arcu sodale fringil. Integer ege sollicit ipsum, at fringilla turpis elementum a. Fusce porta nuvitae erat gravida congue ipsum vulputate. Sed commodo tincidunt orcieu.</p>
-						<span class="link">Leer nota completa</span>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item notas texto">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<h3>Donec massa elementum</h3>
-						<p>Quisque ante enim. Proin male suada quam  arcu sodale fringil. Integer ege sollicit ipsum, at fringilla turpis elementum a. Fusce porta nuvitae erat gravida congue ipsum vulputate. Sed commodo tincidunt orcieu.</p>
-						<span class="link">Leer nota completa</span>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item notas texto">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<h3>Donec massa elementum</h3>
-						<p>Quisque ante enim. Proin male suada quam  arcu sodale fringil. Integer ege sollicit ipsum, at fringilla turpis elementum a. Fusce porta nuvitae erat gravida congue ipsum vulputate. Sed commodo tincidunt orcieu.</p>
-						<span class="link">Leer nota completa</span>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-				<article class="item notas texto">
-					<a href="#" title="">
-						<h2>Praesent</h2>
-						<h3>Donec massa elementum</h3>
-						<p>Quisque ante enim. Proin male suada quam  arcu sodale fringil. Integer ege sollicit ipsum, at fringilla turpis elementum a. Fusce porta nuvitae erat gravida congue ipsum vulputate. Sed commodo tincidunt orcieu.</p>
-						<span class="link">Leer nota completa</span>
-						<p class="ic-more"><span>+</span></p>
-					</a>
-				</article>
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
 
-			</section>
+					<article class="item futbol">
+						<a href="#" title="">
+							<span class="date">10.11.2013</span>
+							<span class="time">10:15hs.</span>
+							<span class="deporte">Fútbol</span>
+							<h2>proin malesuada</h2>
+							<p class="bajada">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="ic-more"><span>+</span></p>
+						</a>
+					</article>
+
+				</section>
+
+			</div>
 
 		</section>
 

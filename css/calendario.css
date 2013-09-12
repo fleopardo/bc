@@ -4,29 +4,52 @@
     margin-top: 15px;
 }
 
-.calendario p{
+.meses-container{
+    background: #0063be;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.meses-container p{
     color: #fff;
     font-family: "din-black";
     font-size: 30px;
-    line-height: 52px;
+    line-height: 56px;
     text-transform: uppercase;
     margin-left: 45px;
 }
 
-.calendario p span{
+.meses-container p span{
     font-family: "din-light";
 }
 
-.meses-container{
-    background: #0063be;
+.meses-container a.arrows{
+    display: block;
+    position: absolute;
+    background: url("./assets/arrows-carousel.png") no-repeat;
+    width: 20px;
+    height: 36px;
+    top: 50%;
+    margin-top: -18px;
     overflow: hidden;
+    text-indent: -9999px;
 }
 
+.meses-container a.arrows.prev{
+    background-position: left top;
+    left: 8px;
+}
+
+.meses-container a.arrows.next{
+    background-position: right top;
+    right: 8px;
+}
 
 .filter-container{
-    background: #000;
+    background: #014788;
     padding: 0 10px;
-    margin: 14px 0;
+    margin: 0 0 14px;
     position: relative;
 	z-index: 60;
 }
@@ -69,7 +92,7 @@
 
 
 
-
+/**ITEMS**/
 
 .item{
     background: rgba(0,0,0,0.7);
@@ -84,77 +107,68 @@
     padding: 12px;
 }
 
-.item h2,
-.item h3{
-    color: #fff;
-    text-transform: uppercase;
-}
-
 .item h2{
-    font-size: 19px;
-    line-height: 21px;
-}
-
-.item h3{
-    font-size: 27px;
-    line-height: 30px;
-    font-family: "din-black";
-}
-
-.item p{
     color: #fff;
+    font-size: 30px;
+    line-height: 34px;
+    margin-bottom: 14px;
+}
+
+.item p.bajada{
+    color: #f8533d;
+    font-family: "din-black";
     font-size: 11px;
     line-height: 15px;
     margin-bottom: 5px;
+    background: url("./assets/flag-orange.png") left top no-repeat;
+    padding-top: 12px;
 }
 
-.item span.link{
-    font-size: 11px;
-    line-height: 16px;
-    color: #f8533d;
-    background-image: url("./assets/ic_flechas-links.png");
-    background-repeat: no-repeat;
-    background-position: 0px -10px;
-    padding-left: 17px;
+.item span.date,
+.item span.deporte,
+.item span.time{
+    display: block;
+    color: #fff;
 }
 
-.item img{
-    width: 100%;
+.item span.date{
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
 }
 
-.item.imagen{
-    border-top: none;
+.item span.time{
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 3px;
 }
 
-.item.imagen > a{
-    padding: 0;
-}
-
-.item.imagen h2{
-    font-size: 13px;
-    line-height: 22px;
-    background: #f8533d;
+.item span.deporte{
+    font-size: 15px;
+    line-height: 18px;
     font-family: "din-black";
-    position:absolute;
-    bottom: 0;
-    padding: 0 8px;
-    left: 0;
-    z-index: 10;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 
-.item.principal{
-    width: 518px;
-}
-
-
-.item.imagen-texto h2{
-    font-size: 19px;
-    line-height: 22px;
+.item a:hover .ic-more span{
     color: #f8533d;
-    margin-bottom: 5px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*isotope*/
 
 .isotope-item {
   z-index: 2;
@@ -164,28 +178,3 @@
   pointer-events: none;
   z-index: 1;
 }
-
-
-.item.texto h2{
-	margin-bottom: 15px;
-}
-
-.item.texto h3{
-	margin-bottom: 15px;
-}
-
-.item.texto p{
-	font-family: "din-regular";
-	font-size: 11px;
-	line-height: 15px;
-}
-
-.item.texto .link{
-	margin-top: 5px;
-	display: inline-block;
-}
-
-.item a:hover .ic-more span{
-	color: #f8533d;
-}
-
