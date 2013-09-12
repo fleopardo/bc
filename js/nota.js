@@ -37,4 +37,8 @@
 	/* twitter */
 	$("div.tweets").twitscroller({user: 'dedoInteractive'});
 
+	setTimeout(function(){
+
+	},300)
+
 }());

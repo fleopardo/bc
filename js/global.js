@@ -80,4 +80,55 @@ var app = app || {};
 		}
 
 
+	/*
+ 	 * @public
+ 	 * Metodo para instanciar scroll personalizados
+ 	*/
+		app.scrollCustom = function(){
+
+		 	var $scrollCustom = $(".scrollCustom:not(.init)");
+
+		 	if($scrollCustom.length > 0){
+
+				$scrollCustom.jScrollPane({
+					verticalDragMaxHeight : 100,
+					verticalDragMinHeight : 50,
+					setWheelScrollingEnabled : true
+				}).addClass("init");
+
+				/*
+			 	 * jsScrollPane soporte tactil
+			 	*/
+
+				if(app.touch){
+
+			 		$scrollCustom.bind('touchstart', function(e){
+
+						var cpos = dragPosition;
+
+						e = e.originalEvent.touches[0];
+
+						var sY = e.pageY;
+						var sX = e.pageX;
+
+						$scrollCustom.bind('touchmove',function(ev){
+							ev.preventDefault();
+							ev = ev.originalEvent.touches[0];
+
+							var top = cpos-(ev.pageY-sY);
+							positionDrag(top);
+
+						});
+
+						$scrollCustom.bind('touchend',function(ev){
+							$scrollCustom.unbind('touchmove touchend');
+						});
+
+					});
+			 	}
+
+			}
+
+		}
+
 }());

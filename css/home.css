@@ -66,6 +66,7 @@ html,body {
 	font-family: "din-black";
 	font-weight: normal;
 	text-transform: uppercase;
+	background: url("./assets/flag-white.png") 15.5% 5px no-repeat;
 }
 
 .cols .txt .mas{
