@@ -4,29 +4,52 @@
     margin-top: 15px;
 }
 
-.calendario p{
+.meses-container{
+    background: #0063be;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.meses-container p{
     color: #fff;
     font-family: "din-black";
     font-size: 30px;
-    line-height: 52px;
+    line-height: 56px;
     text-transform: uppercase;
     margin-left: 45px;
 }
 
-.calendario p span{
+.meses-container p span{
     font-family: "din-light";
 }
 
-.meses-container{
-    background: #0063be;
+.meses-container a.arrows{
+    display: block;
+    position: absolute;
+    background: url("./assets/arrows-carousel.png") no-repeat;
+    width: 20px;
+    height: 36px;
+    top: 50%;
+    margin-top: -18px;
     overflow: hidden;
+    text-indent: -9999px;
 }
 
+.meses-container a.arrows.prev{
+    background-position: left top;
+    left: 8px;
+}
+
+.meses-container a.arrows.next{
+    background-position: right top;
+    right: 8px;
+}
 
 .filter-container{
-    background: #000;
+    background: #014788;
     padding: 0 10px;
-    margin: 14px 0;
+    margin: 0 0 14px;
     position: relative;
 	z-index: 60;
 }
