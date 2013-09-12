@@ -80,6 +80,19 @@ $container = $('.item-container');
 			mesPrev.addClass('fadeIn').css('display','block');
 			//alert('exist');
 
+			//Reacomodo items del isotope
+			
+		        $container.isotope({
+		          filter: '*',
+		          resizeble: true,
+		          animationOptions: {
+		             duration: 750,
+		             easing: 'linear',
+		             queue: false,
+		         }
+		        });
+		    
+
 		}else{
 
 			alert("no exist");
@@ -99,7 +112,20 @@ $container = $('.item-container');
 
 			mesActive.removeClass('fadeIn').css('display','none');
 			mesNext.addClass('fadeIn').css('display','block');
-			//alert('exist');
+
+			//Reacomodo items del isotope
+			
+		        $container.isotope({
+		          filter: '*',
+		          resizeble: true,
+		          animationOptions: {
+		             duration: 750,
+		             easing: 'linear',
+		             queue: false,
+		         }
+		        });
+		    
+
 		}else{
 
 			alert("no exist");
