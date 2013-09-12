@@ -86,26 +86,50 @@
 }
 
 .redes-sociales .scrollCustom{
-	height: 110px;
+	height: 120px;
 }
 
 .redes-sociales .tweets{
-	padding: 0 10px;
-	margin-top: 12px;
 }
 
 .redes-sociales .tweets li{
-	line-height: 36px;
+	line-height: 15px;
+	font-size: 11px;
+	background: #000;
+	padding: 10px;
+	position: relative;
+	margin: 0 55px 10px 55px;
+	min-height: 33px;
+}
+
+.redes-sociales .tweets li:before{
+	position: absolute;
+	content: "";
+	display: block;
+	background: url("./assets/twitter-feed.jpg") no-repeat;
+	width: 53px;
+	height: 53px;
+	top: 0;
+	left: -55px;
+}
+
+.redes-sociales .tweets li:nth-child(even) {
+
+}
+
+.redes-sociales .tweets li:nth-child(even):before {
+	left: auto;
+	right: -55px;
 }
 
 .redes-sociales .tweets li span.title{
-	color: #5b5b5b;
-	display: inline-block;
+	color: #fff;
+	display: inline;
 	font-size: 11px;
 }
 
 .redes-sociales .tweets li span.title a{
-	color: #5b5b5b;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -114,6 +138,7 @@
 	color: #b3b3b3;
 	text-transform: uppercase;
 	text-decoration: none;
+	margin-left: 5px;
 }
 
 .redes-sociales .tweets li a{
@@ -142,6 +167,10 @@
 	margin-left: 0;
 }
 
+.news .scrollCustom{
+	height: 620px;
+}
+
 .news h2{
 	font-size: 35px;
 	line-height: 40px;
@@ -162,12 +191,8 @@
 	margin-bottom: 20px;
 }
 
-.news .scrollCustom{
-	height: 610px;
-}
-
 .news p{
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 	font-size: 13px;
 	line-height: 19px;
 	color: #fff;
