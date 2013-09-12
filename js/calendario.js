@@ -100,7 +100,7 @@ $container = $('.item-container');
 
 		}else{
 
-			alert("no exist");
+			alert("B====D");
 
 		}
 
@@ -135,7 +135,7 @@ $container = $('.item-container');
 
 		}else{
 
-			alert("no exist");
+			alert("B====D");
 
 		}
 
