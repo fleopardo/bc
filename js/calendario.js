@@ -68,6 +68,9 @@ $container = $('.item-container');
 	}
 
 
+
+
+
 	$('a.prev').click(function(){
 
 		var mesActive = $(this).parent().parent(),
@@ -76,21 +79,21 @@ $container = $('.item-container');
 		
 		if(mesPrev.length > 0) {
 
-			mesActive.removeClass('fadeIn').css('display','none');
-			mesPrev.addClass('fadeIn').css('display','block');
+			mesActive.removeClass('fadeIn active').css('display','none');
+			mesPrev.addClass('fadeIn active').css('display','block');
 			//alert('exist');
 
 			//Reacomodo items del isotope
 			
-		        $container.isotope({
-		          filter: '*',
-		          resizeble: true,
-		          animationOptions: {
-		             duration: 750,
-		             easing: 'linear',
-		             queue: false,
-		         }
-		        });
+	        $container.isotope({
+	          filter: '*',
+	          resizeble: true,
+	          animationOptions: {
+	             duration: 750,
+	             easing: 'linear',
+	             queue: false,
+	         }
+	        });
 		    
 
 		}else{
@@ -106,24 +109,23 @@ $container = $('.item-container');
 
 		var mesActive = $(this).parent().parent(),
 			mesNext = $(this).parent().parent().next("div");
-
 		
 		if(mesNext.length > 0) {
 
-			mesActive.removeClass('fadeIn').css('display','none');
-			mesNext.addClass('fadeIn').css('display','block');
+			mesActive.removeClass('fadeIn active').css('display','none');
+			mesNext.addClass('fadeIn active').css('display','block');
 
 			//Reacomodo items del isotope
 			
-		        $container.isotope({
-		          filter: '*',
-		          resizeble: true,
-		          animationOptions: {
-		             duration: 750,
-		             easing: 'linear',
-		             queue: false,
-		         }
-		        });
+	        $container.isotope({
+	          filter: '*',
+	          resizeble: true,
+	          animationOptions: {
+	             duration: 750,
+	             easing: 'linear',
+	             queue: false,
+	         }
+	        });
 		    
 
 		}else{
