@@ -16,7 +16,7 @@
 }
 
 .nota .bloque{
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,0.8);
 	border-top: 3px solid #f8533d;
 	margin-bottom: 15px;
 }
@@ -85,6 +85,9 @@
 	padding: 20px;
 }
 
+.redes-sociales .scrollCustom{
+	height: 110px;
+}
 
 .redes-sociales .tweets{
 	padding: 0 10px;
@@ -157,6 +160,10 @@
 	text-transform: uppercase;
 	width: 70%;
 	margin-bottom: 20px;
+}
+
+.news .scrollCustom{
+	height: 610px;
 }
 
 .news p{

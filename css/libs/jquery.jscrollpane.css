@@ -20,7 +20,7 @@
 {
 	position: absolute;
 	top: 0;
-	right: 10px;
+	right: 0px;
 	width: 10px;
 	height: 100%;
 }
@@ -60,7 +60,7 @@
 .jspDrag
 {
 	background: #555555;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(255,255,255,0.7);
 	position: relative;
 	top: 0;
 	cursor: pointer;

@@ -211,7 +211,7 @@ body{
 }
 
 .breadcrumb-container ul.options li{
-	border-left: 1px solid #3f5709;
+	border-left: 1px solid #666;
 }
 
 .breadcrumb-container ul.options a{
@@ -302,7 +302,7 @@ a:hover .ic-more span{
 	font-size: 60px;
 	line-height: 64px;
 	margin-bottom: 14px;
-	
+
 }
 
 .banner-destacado h3 span,
@@ -327,6 +327,11 @@ a:hover .ic-more span{
 	width: 40%;
 }
 
+
+.scrollCustom{
+	overflow: hidden;
+	padding-right: 5px;
+}
 
 
 /*

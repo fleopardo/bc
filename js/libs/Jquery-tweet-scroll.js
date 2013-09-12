@@ -63,7 +63,9 @@
                                 auto: r.speed
                             });*/
 
-                            e(".twitscroller-replace").removeClass("twitscroller-replace")
+                            e(".twitscroller-replace").removeClass("twitscroller-replace");
+
+                            app.scrollCustom();
                         }
                     })
             });

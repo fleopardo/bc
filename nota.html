@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/libs/isotope.css" />
 	<link rel="stylesheet" type="text/css" href="./css/libs/jcarousel.css" />
 	<link rel="stylesheet" type="text/css" href="./css/libs/lightbox.css" />
+	<link rel="stylesheet" type="text/css" href="./css/libs/jquery.jscrollpane.css" />
 	<link rel="stylesheet" type="text/css" href="./css/global.css" />
 	<link rel="stylesheet" type="text/css" href="./css/nota.css" />
 	<!--[if lt IE 9]>
@@ -423,7 +424,7 @@
 
 					<h3 class="title-section">Redes Sociales</h3>
 
-					<div id="contentTweeter">
+					<div id="contentTweeter" class="scrollCustom">
 						<div class="tweets"></div>
 					</div>
 
@@ -435,19 +436,23 @@
 
 					<p class="date"><span class="fecha">25.02.2011</span>|<span>10:15hs</span></p>
 
-					<h2>Neque quisquam ipsum Phasellus</h2>
+					<div class="scrollCustom">
 
-					<h3>Quisque vel sapien vel nibh congue vel facilisis orci. Suspendisse potenti</h3>
+						<h2>Neque quisquam ipsum Phasellus</h2>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat tincidunt nisi at mattis. Ut augue orci, mollis ac venenatis in, malesuada ut purus. Duis magna purus, ultrices id laoreet sit amet, imperdiet ac dui. Maecenas eu felis dui. Ut facilisis blandit arcu, in ultrices orci gravida et. Vivamus semper consequat diam eget accumsan. Cras sapien felis, porttitor vitae cursus suscipit, luctus at lacus. Aliquam eget nulla libero. Curabitur et libero cursus odio laoreet vehicula sit amet a metus. Vivamus tincidunt eleifend quam at condimentum.</p>
+						<h3>Quisque vel sapien vel nibh congue vel facilisis orci. Suspendisse potenti</h3>
 
-					<p>In id metus sed erat pellentesque pulvinar. Fusce ac semper ligula. Praesent ut odio sed elit pretium ultrices eu non turpis. Morbi sit amet orci sit amet nulla bibendum condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean consequat sapien sit amet turpis semper iaculis. Aenean et est neque. Proin faucibus scelerisque leo, in sodales urna sollicitudin id. Cras convallis dignissim nisi et iaculis. Sed nulla lectus, sagittis non aliquet.</p>
 
-					<p>In hac habitasse platea dictumst. Vivamus vel sapien vel nulla semper laoreet a nec orci. In elementum placerat aliquet. Aenean et dui ligula. Donec at sapien quis risus adipiscing elementum. Sed tincidunt feugiat justo, et dignissim velit blandit id. Integer accumsan cursus justo, ut dignissim orci semper sit amet. Suspendisse tempor mattis lobortis. Vestibulum eu urna sit amet orci aliquet facilisis. Pellentesque elementum faucibus molestie. Sed tellus est, congue vel blandit vulputate, bibendum quis libero. Sed dolor sem, pulvinar eu congue a, tincidunt vel nisl. Curabitur eu arcu turpis. Donec diam est, lacinia vel varius in, faucibus eget lectus. Mauris blandit erat purus, sit amet pulvinar mauris. Donec lobortis augue et ligula eleifend id tempus mauris sollicitudin.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus feugiat tincidunt nisi at mattis. Ut augue orci, mollis ac venenatis in, malesuada ut purus. Duis magna purus, ultrices id laoreet sit amet, imperdiet ac dui. Maecenas eu felis dui. Ut facilisis blandit arcu, in ultrices orci gravida et. Vivamus semper consequat diam eget accumsan. Cras sapien felis, porttitor vitae cursus suscipit, luctus at lacus. Aliquam eget nulla libero. Curabitur et libero cursus odio laoreet vehicula sit amet a metus. Vivamus tincidunt eleifend quam at condimentum.</p>
 
-					<p>Phasellus libero leo, ultricies consectetur elementum ac, bibendum ac lectus. Donec quis est leo. Mauris condimentum nisl nec purus rhoncus rhoncus. Nam tortor ante, tempor vitae auctor vel, dictum eu nisl. Nulla at tellus vel eros varius volutpat sed et justo. Nulla vulputate egestas est eu iaculis. Etiam aliquet commodo metus, sodales commodo quam pretium quis.</p>
+						<p>In id metus sed erat pellentesque pulvinar. Fusce ac semper ligula. Praesent ut odio sed elit pretium ultrices eu non turpis. Morbi sit amet orci sit amet nulla bibendum condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean consequat sapien sit amet turpis semper iaculis. Aenean et est neque. Proin faucibus scelerisque leo, in sodales urna sollicitudin id. Cras convallis dignissim nisi et iaculis. Sed nulla lectus, sagittis non aliquet.</p>
 
-					<p>Pellentesque malesuada porttitor nibh nec gravida. Cras sed risus non urna cursus pellentesque. Etiam a neque eget libero pellentesque ultricies. Vivamus at lectus nunc, et scelerisque velit. Mauris quis faucibus eros. Sed lectus sem, aliquam ut varius vitae, hendrerit ut enim. Quisque lobortis consectetur dolor eu vestibulum.</p>
+						<p>In hac habitasse platea dictumst. Vivamus vel sapien vel nulla semper laoreet a nec orci. In elementum placerat aliquet. Aenean et dui ligula. Donec at sapien quis risus adipiscing elementum. Sed tincidunt feugiat justo, et dignissim velit blandit id. Integer accumsan cursus justo, ut dignissim orci semper sit amet. Suspendisse tempor mattis lobortis. Vestibulum eu urna sit amet orci aliquet facilisis. Pellentesque elementum faucibus molestie. Sed tellus est, congue vel blandit vulputate, bibendum quis libero. Sed dolor sem, pulvinar eu congue a, tincidunt vel nisl. Curabitur eu arcu turpis. Donec diam est, lacinia vel varius in, faucibus eget lectus. Mauris blandit erat purus, sit amet pulvinar mauris. Donec lobortis augue et ligula eleifend id tempus mauris sollicitudin.</p>
+
+						<p>Phasellus libero leo, ultricies consectetur elementum ac, bibendum ac lectus. Donec quis est leo. Mauris condimentum nisl nec purus rhoncus rhoncus. Nam tortor ante, tempor vitae auctor vel, dictum eu nisl. Nulla at tellus vel eros varius volutpat sed et justo. Nulla vulputate egestas est eu iaculis. Etiam aliquet commodo metus, sodales commodo quam pretium quis.</p>
+
+						<p>Pellentesque malesuada porttitor nibh nec gravida. Cras sed risus non urna cursus pellentesque. Etiam a neque eget libero pellentesque ultricies. Vivamus at lectus nunc, et scelerisque velit. Mauris quis faucibus eros. Sed lectus sem, aliquam ut varius vitae, hendrerit ut enim. Quisque lobortis consectetur dolor eu vestibulum.</p>
+					</div>
 				</article>
 			</div>
 
@@ -560,6 +565,10 @@
 <script src="./js/libs/jquery.jcarousel.js"></script>
 
 <script src="./js/libs/lightbox-2.6.min.js"></script>
+
+<script src="./js/libs/jquery.mousewheel.js"></script>
+
+<script src="./js/libs/jquery.jscrollpane.min.js"></script>
 
 <script src="./js/libs/Jquery-tweet-scroll.js"></script>
 
