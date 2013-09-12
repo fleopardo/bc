@@ -76,6 +76,8 @@ $container = $('.item-container');
 		var mesActive = $('.animated.active'),
 			mesPrev = $('.animated.active').prev("section");
 
+			//cambio valor de mes y año
+		$('.meses-container p').html(mesPrev.data('mes')+'<span> | '+mesPrev.data('ano')+'</span>');
 		
 		if(mesPrev.length > 0) {
 
@@ -110,6 +112,9 @@ $container = $('.item-container');
 		var mesActive = $('.animated.active'),
 			mesNext = $('.animated.active').next("section");
 		
+		//cambio valor de mes y año
+		$('.meses-container p').html(mesNext.data('mes')+'<span> | '+mesNext.data('ano')+'</span>');
+
 		if(mesNext.length > 0) {
 
 			mesActive.removeClass('fadeIn active').css('display','none');
