@@ -91,7 +91,7 @@ $container = $('.item-container');
 			//Reacomodo items del isotope
 			
 	        $container.isotope({
-	          filter: '*',
+	          filter: $(".filters li.active a").data("filter"),
 	          resizeble: true,
 	          animationOptions: {
 	             duration: 750,
@@ -130,7 +130,7 @@ $container = $('.item-container');
 			//Reacomodo items del isotope
 			
 	        $container.isotope({
-	          filter: '*',
+	          filter: $(".filters li.active a").data("filter"),
 	          resizeble: true,
 	          animationOptions: {
 	             duration: 750,
