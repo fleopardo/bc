@@ -78,18 +78,19 @@ $container = $('.item-container');
 		var mesActive = $('.animated.active'),
 			mesPrev = $('.animated.active').prev(".item-container");
 
-		
+
 		if(mesPrev.length > 0) {
-			
+
 			//cambio valor de mes y año
-			$('.meses-container p').html(mesPrev.data('mes')+'<span> | '+mesPrev.data('ano')+'</span>');
-		
+			$('.meses-container p .mes').html(mesPrev.data('mes'));
+			$('.meses-container p .ano').html(mesPrev.data('ano'));
+
 			mesActive.removeClass('fadeIn active').css('display','none');
 			mesPrev.addClass('fadeIn active').css('display','block');
 			//alert('exist');
 
 			//Reacomodo items del isotope
-			
+
 	        $container.isotope({
 	          filter: $(".filters li.active a").data("filter"),
 	          resizeble: true,
@@ -99,7 +100,7 @@ $container = $('.item-container');
 	             queue: false,
 	         }
 	        });
-		    
+
 
 		}else{
 
@@ -116,8 +117,8 @@ $container = $('.item-container');
 
 		var mesActive = $('.animated.active'),
 			mesNext = $('.animated.active').next(".item-container");
-		
-		
+
+
 
 		if(mesNext.length > 0) {
 
@@ -129,7 +130,7 @@ $container = $('.item-container');
 			mesNext.addClass('fadeIn active').css('display','block');
 
 			//Reacomodo items del isotope
-			
+
 	        $container.isotope({
 	          filter: $(".filters li.active a").data("filter"),
 	          resizeble: true,
@@ -139,7 +140,7 @@ $container = $('.item-container');
 	             queue: false,
 	         }
 	        });
-		    
+
 
 		}else{
 
