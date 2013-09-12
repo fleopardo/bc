@@ -53,7 +53,10 @@
                                 var i = n.text.replace(/\b(https?|ftp|file):\/\/[\-A-Z0-9+&@#\/%?=~_|$!:,.;]*[A-Z0-9+&@#\/%=~_|$]/ig, '<a href="$&" target="_top">$&</a>').replace(/@(\w*)\b/ig, '@<a href="http://twitter.com/$1" target="_top">$1</a>').replace(/#(\w*)\b/ig, '<a href="http://twitter.com/search?q=%23$1" target="_top">#$1</a>');
                                 var o = s(n.created_at);
                                 var u = "http://twitter.com/" + r.user + "/statuses/" + n.id_str;
-                                e("<li></li>").html('<span class="title"><a href="' + u + '" target="_blank">' + i + "</a></span></span>").append('<span class="date">' + o + "</span>").appendTo(".twitscroller-replace ul");
+                                e("<li></li>")
+                                	.html('<span class="title"><a href="' + u + '" target="_blank">' + i + "</a></span></span>")
+                                	/*.append('<span class="date">' + o + "</span>")*/
+                                	.appendTo(".twitscroller-replace ul");
 
                             });
 
