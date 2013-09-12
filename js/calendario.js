@@ -73,8 +73,8 @@ $container = $('.item-container');
 
 	$('a.prev').click(function(){
 
-		var mesActive = $(this).parent().parent(),
-			mesPrev = $(this).parent().parent().prev("div");
+		var mesActive = $('.animated.active'),
+			mesPrev = $('.animated.active').prev("section");
 
 		
 		if(mesPrev.length > 0) {
@@ -107,8 +107,8 @@ $container = $('.item-container');
 
 	$('a.next').click(function(){
 
-		var mesActive = $(this).parent().parent(),
-			mesNext = $(this).parent().parent().next("div");
+		var mesActive = $('.animated.active'),
+			mesNext = $('.animated.active').next("section");
 		
 		if(mesNext.length > 0) {
 
