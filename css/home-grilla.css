@@ -56,7 +56,7 @@
 			width: 710px;
 			height: 575px;
 			margin-right: 10px;
-			
+
 			position: relative;
 			float: left;
 		}
@@ -385,6 +385,10 @@
 			border-bottom-color: #1d4334;
 		}
 
+		.desafio-energetico .mitos-verdades .more{
+			border-bottom-color: #516313;
+		}
+
 	.desafio-energetico .shale-en-el-mundo div h3,
 	.desafio-energetico .vaca-muerta div h3,
 	.desafio-energetico .mitos-verdades div h3,
@@ -453,7 +457,6 @@
 
 	.ie7 .desafio-energetico .recursos-convencionales,
 	.ie7 .desafio-energetico .argentina-un-pais-con-futuro,
-	.desafio-energetico .que-es-shale,
 	.ie7 .desafio-energetico .que-es-shale{
 		width: 232px;
 	}

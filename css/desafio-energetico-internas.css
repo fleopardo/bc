@@ -139,7 +139,7 @@
 
 	.internas .energia-para-el-crecimiento .row .grafico-3 p.pie-foto{
 		font-size: 13px;
-		font-family: "din-black";
+		font-family: "din-medium";
 		line-height: 19px;
 		margin-bottom: 10px;
 		margin-top: 10px;
@@ -151,7 +151,7 @@
 		padding-right: 200px;
 		border-bottom: 1px solid #fff;
 		font-size: 14px;
-		font-family: "din-black";
+		font-family: "din-medium";
 		line-height: 19px;
 		margin-bottom: 15px;
 	}
@@ -205,11 +205,11 @@
 
 	.desafio-energetico-internas .que-es-shale .row .shale-en-el-mundo{
 		background: #b78c17;
-		height: 620px;
+		height: 649px;
 	}
 
 	.desafio-energetico-internas .que-es-shale .row .shale-en-el-mundo .scrollCustom{
-		height: 515px;
+		height: 560px;
 	}
 
 	/* Article Diferencias ambientales */
@@ -285,14 +285,13 @@
 
 	.internas .grafico-recursos-shale{
 		width:757px;
-		height: 620px;
+		height: 650px;
 		background: url("./assets/textura-negra2.jpg");
 	}
 
 	.internas .row .grafico-recursos-shale h3{
 		font-size: 20px;
 		font-family: "din-black";
-		margin-left: 30px;
 	}
 
 
@@ -763,6 +762,12 @@
 		font-weight: normal;
 		font-family: "din-medium";
 		line-height: 22px;
+	}
+
+	.mitos-y-verdades .bloque h4 a:hover{
+		opacity: 0.5;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		filter: alpha(opacity=50);
 	}
 
 	.mitos-y-verdades .bloque .resp{

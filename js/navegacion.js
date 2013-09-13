@@ -89,7 +89,7 @@ shale.navegacion = (function(window){
 					// lanzo un evento
 					$(window).trigger("navegacion");
 
-				},800);
+				},1200);
 
 
 			}else if(status == "error"){
