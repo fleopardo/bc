@@ -85,6 +85,42 @@
 		margin-bottom: 10px;
 	}
 
+	.internas .energia-para-el-crecimiento .row .grafico-1 .referencias{
+		margin-top: 23px;
+		margin-left: 10px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-1 .referencias li{
+		line-height: 18px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-1 .referencias li span{
+		display: inline-block;
+		width: 20px;
+		height: 10px;
+		margin-right: 5px;
+	}
+
+		.internas .energia-para-el-crecimiento .row .grafico-1 .referencias li.noroeste span{
+			background-color: #e0bb18;
+		}
+
+		.internas .energia-para-el-crecimiento .row .grafico-1 .referencias li.cuyana span{
+			background-color: #86a02d;
+		}
+
+		.internas .energia-para-el-crecimiento .row .grafico-1 .referencias li.neuquina span{
+			background-color: #00756a;
+		}
+
+		.internas .energia-para-el-crecimiento .row .grafico-1 .referencias li.golfo-san-jorge span{
+			background-color: #00494e;
+		}
+
+		.internas .energia-para-el-crecimiento .row .grafico-1 .referencias li.austral span{
+			background-color: #7d7c32;
+		}
+
 	.internas .energia-para-el-crecimiento .row .grafico-1 img{
 		position: absolute;
 		top: 0;
