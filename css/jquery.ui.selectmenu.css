@@ -57,7 +57,7 @@
 }
 
 .ui-selectmenu-menu li a,.ui-selectmenu-status {
-    color: #4c4d4f;
+    color: #838383;
     line-height: 26px;
     display: block;
     padding: 0 10px;
@@ -86,7 +86,7 @@
 .ui-selectmenu-status {
     line-height: 34px;
     padding: 0 10px;
-    color: #787878!important;
+    color: #838383!important;
     text-transform: uppercase;
 }
 
@@ -166,7 +166,7 @@ header .ui-selectmenu-icon {
 header .ui-selectmenu-status {
     line-height: 41px;
     padding: 0 10px;
-    color: #8b8b8b;
+    color: #838383;
 }
 
 .contacto .ui-selectmenu-menu li a {
