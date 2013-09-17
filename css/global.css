@@ -306,6 +306,16 @@ section.content .bloque img{
     border-top: 4px solid #0063be;
 }
 
+section.content .bloque span.date{
+    font-family: "din-black";
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+section.content .bloque h4{
+    margin-bottom: 5px;
+}
+
 .box-img-detalle{
     position: relative;
 }
@@ -377,6 +387,58 @@ section.content .bloque img{
     width: 470px;
 }
 
+section.content .cabecera{
+    margin-bottom: 20px;
+}
+
+section.content .cabecera h2{ 
+    color: #e65834;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "din-medium";
+    margin-bottom: 8px;
+}
+
+section.content .cabecera h3{
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    line-height: 48px;
+    font-family: "din-regular";
+}
+
+section.content .cabecera > div{
+    background: #e65834;
+    padding: 20px;
+}
+
+section.content .cabecera > div h4,
+section.content .cabecera > div p{
+    color: #fff;
+}
+
+section.content .cabecera > div h4{
+    font-size: 23px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+section.content .cabecera > div p{
+    margin-bottom: 0;
+}
+
+section.content a.leer-mas-parrafo{
+    color: #0063be;
+    font-family: "din-black";
+    display: inline-block;
+    background: url("./assets/fd-link-azul.png") right no-repeat;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+
+
+
+
 
 
 
@@ -394,8 +456,6 @@ section.content .bloque img{
     margin-bottom: 6px;
     border-top: none;
 }
-
-/****** FIN HOME *******/
 
 
 
@@ -439,48 +499,7 @@ section.content .bloque img{
     background: url("./assets/fd-downstream.jpg") center top no-repeat;
 }
 
-
-.upstream-downstream .cabecera{
-    margin-bottom: 20px;
-}
-
-.upstream-downstream .cabecera h2{ 
-    color: #e65834;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: "din-medium";
-    margin-bottom: 8px;
-}
-
-.upstream-downstream .cabecera h3{
-    font-size: 42px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-    line-height: 48px;
-    font-family: "din-regular";
-}
-
-.upstream-downstream .cabecera > div{
-    background: #e65834;
-    padding: 20px;
-}
-
-.upstream-downstream .cabecera > div h4,
-.upstream-downstream .cabecera > div p{
-    color: #fff;
-}
-
-.upstream-downstream .cabecera > div h4{
-    font-size: 23px;
-    line-height: 28px;
-    margin-bottom: 5px;
-}
-
-.upstream-downstream .cabecera > div p{
-    margin-bottom: 0;
-}
-
-/* ESTILOS GALERIA */
+/* estilos galeria */
 .galeria{
     width: 392px;
 }
@@ -542,18 +561,104 @@ section.content .bloque img{
     width: 400px;
 }
 
-.upstream-downstream section.content .info p a{
-    color: #0063be;
-    font-family: "din-black";
-    display: inline-block;
-    background: url("./assets/fd-link-azul.png") right no-repeat;
-    padding-right: 10px;
-    margin-left: 5px;
+
+
+
+
+
+/**** NOVEDADES ****/
+
+.novedades section.content{
+    width: 545px;
+    margin-left: 20px;
+}
+
+.novedades section.content .bloque{
+    border-top: 1px solid #e3e3e3;
+    padding-top: 30px;
+}
+
+.novedades section.content .bloque p{
+    font-family: "din-regular";
+}
+
+section.content-container aside.search-bar{
+    width: 264px;
+    border-top: none;
+}
+
+section.content-container aside.search-bar h2{
+    font-size: 23px;
+    line-height: 26px;
+    color: #292929;
+    text-transform: none;
+}
+
+section.content-container aside.search-bar form{
+    margin-bottom: 30px;
+}
+
+form.busqueda-simple fieldset{
+    position: relative;
+}
+
+section.content-container aside.search-bar form .row{
+    margin-bottom: 10px;
+}
+
+form.busqueda-simple input[type="text"]{
+    height: 34px;
+    line-height: 34px;
+    position: relative;
+    z-index: 0;
+    border: 1px solid #d8d8d8;
+    width: 85%;
+    padding: 0 12% 0 3%;
+}
+
+form.busqueda-simple input[type="submit"]{
+    position: absolute;
+    z-index: 10;
+    display: block;
+    right: 0;
+    top: 0;
+    height: 34px;
+    width: 34px;
+    background: url("./assets/ic-search-bar-simple.png") 10px 10px no-repeat;
+    border: none;
+    cursor: pointer;
 }
 
 
+section.content-container aside.search-bar label{
+    color: #9d9c9c;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 34px;
+    font-family: "din-black";
+    display: inline-block;
+    width: 44px;
+}
 
+section.content-container aside.search-bar select{
+    width: 215px;
+}
 
+section.content-container aside.search-bar .busqueda-avanzada fieldset.submit{
+    border-top: 1px solid #d8d8d8;
+    padding-top: 10px;
+}
+
+section.content-container aside.search-bar .busqueda-avanzada input[type=submit]{
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    background: #0063be url("./assets/fd-link-blanco.png") 80px 16px no-repeat;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 15px;
+}
 
 
 

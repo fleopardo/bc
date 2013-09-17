@@ -66,4 +66,13 @@
 		$(this).find('.over-img').fadeOut();
 	});
 
+
+	/*INCIALIZACION DE PLUG IN SELECTMENU*/
+	$('select').selectmenu({
+		transferClasses:true
+	});
+
+	//Placeholder fallback
+	$('input[placeholder],textarea[placeholder]').placeholder();
+
 }());
