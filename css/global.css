@@ -425,8 +425,111 @@ section.content .bloque img{
 }
 
 .operaciones-ypf section.content h3{
+    margin-bottom: 30px;
+}
+
+
+
+/*** UPSTREAM y DOWNSTREAM ***/
+.upstream-downstream .cabecera{
     margin-bottom: 20px;
 }
+
+.upstream-downstream .cabecera h2{ 
+    color: #e65834;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "din-medium";
+    margin-bottom: 8px;
+}
+
+.upstream-downstream .cabecera h3{
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    line-height: 48px;
+    font-family: "din-regular";
+}
+
+.upstream-downstream .cabecera > div{
+    background: #e65834;
+    padding: 20px;
+}
+
+.upstream-downstream .cabecera > div h4,
+.upstream-downstream .cabecera > div p{
+    color: #fff;
+}
+
+.upstream-downstream .cabecera > div h4{
+    font-size: 23px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.upstream-downstream .cabecera > div p{
+    margin-bottom: 0;
+}
+
+/* ESTILOS GALERIA */
+.galeria{
+    width: 392px;
+}
+
+.galeria .zoom > article{
+    position: relative;
+}
+
+.galeria .zoom > article h3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #f8533d;
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "din-black";
+    padding: 5px;
+}
+
+.galeria .zoom > article img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.galeria #carousel-thumbs img{
+    cursor: pointer;
+}
+
+.galeria .jcarousel-container-horizontal{
+    width: 392px;
+    margin: 0 auto;
+}
+
+.galeria .jcarousel-item {
+    width: 130px;
+    height: 62px;
+    padding: 7px;
+    margin: 0;
+}
+
+/* Horizontal Buttons */
+
+.galeria .jcarousel-prev-horizontal,
+.galeria .jcarousel-next-horizontal{
+    top: 18px;
+}
+
+/* Horizontal Buttons */
+
+.galeria .jcarousel-prev-horizontal,
+.galeria .jcarousel-next-horizontal{
+    top: 18px;
+}
+
+
+
 
 
 

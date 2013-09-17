@@ -1,0 +1,58 @@
+.jcarousel-clip {
+    overflow: hidden;
+}
+
+/* Jcarousel Items default */
+
+.jcarousel-container-horizontal{
+	width: 480px;
+}
+
+.jcarousel-item {
+	width: 115px;
+	height: 60px;
+	margin-right: 3px;
+}
+
+/* Horizontal Buttons */
+
+.jcarousel-prev-horizontal,
+.jcarousel-next-horizontal{
+  	background:url(../assets/arrows-carousel.png) no-repeat;
+  	position: absolute;
+  	z-index:100;
+  	cursor: pointer;
+}
+
+.jcarousel-prev-horizontal,
+.jcarousel-next-horizontal{
+	width: 20px;
+	height: 36px;
+	top: 18px;
+}
+
+
+.jcarousel-prev-horizontal,
+.jcarousel-next-horizontal{
+	top: 52px;
+}
+
+.jcarousel-next-horizontal {
+    background-position: -27px 0px;
+	right: -23px;
+}
+
+.jcarousel-prev-horizontal {
+    background-position: top left;
+	left: -23px;
+}
+
+.jcarousel-next-disabled-horizontal{
+    cursor: default;
+    background-position: -27px -37px;
+}
+
+.jcarousel-prev-disabled-horizontal{
+    cursor: default;
+    background-position: 0px -37px;
+}
