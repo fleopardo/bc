@@ -542,6 +542,11 @@ section.content .bloque img{
     width: 420px;
 }
 
+.upstream-downstream section.content .info p a{
+    color: #0063be;
+    font-family: "din-black";
+}
+
 
 
 
