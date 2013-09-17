@@ -431,6 +431,15 @@ section.content .bloque img{
 
 
 /*** UPSTREAM y DOWNSTREAM ***/
+.upstream .destacado{
+    background: url("./assets/fd-upstream.jpg") center top no-repeat;
+}
+
+.downstream .destacado{
+    background: url("./assets/fd-downstream.jpg") center top no-repeat;
+}
+
+
 .upstream-downstream .cabecera{
     margin-bottom: 20px;
 }
@@ -529,7 +538,9 @@ section.content .bloque img{
 }
 
 
-
+.upstream-downstream section.content .info{
+    width: 420px;
+}
 
 
 
