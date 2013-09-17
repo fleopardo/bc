@@ -254,6 +254,191 @@ a.link-ppal span{
     margin-top: 35px;
 }
 
+section.content{
+    width: 850px;
+}
+
+section.content h2,
+section.content h3{
+    color: #292929;
+    font-size: 23px;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+
+section.content p{
+    margin-bottom: 15px;
+}
+
+section.content .left,
+section.content .right{
+    width: 415px;
+}
+
+section.content .bloque{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+section.content .bloque ul{
+    margin-bottom: 20px;
+}
+
+section.content .bloque li{
+    border-bottom: 1px solid #ececec;
+    padding: 3px 0;
+}
+
+section.content .bloque li a{
+    color: #808080;
+    font-size: 11px;
+    line-height: 18px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+section.content .bloque p{
+    margin-bottom: 12px;
+}
+
+section.content .bloque img{
+    margin-bottom: 6px;
+    border-top: 4px solid #0063be;
+}
+
+.box-img-detalle{
+    position: relative;
+}
+
+.box-img-detalle img{
+    width: 100%;
+}
+
+.box-img-detalle .over-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(21,176,218,0.9);
+    display: none;
+}
+
+.box-img-detalle .over-img > a{
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.box-img-detalle .over-img p{
+    color: #fff;
+    font-family: "din-black";
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.destacado{
+    min-height: 158px;
+    padding-top: 90px;
+}
+
+.destacado h2,
+.destacado h3{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.destacado h2{
+    background: url("./assets/flag-white.png") left no-repeat;
+    padding-left: 16px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.destacado h3{
+    font-size: 55px;
+    line-height: 60px;
+    font-family: "din-black";
+}
+
+.destacado h3 span{
+    font-family: "din-light";
+}
+
+.destacado p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    background: #e65834;
+    padding: 14px;
+    width: 470px;
+}
+
+
+
+
+/******** HOME *********/
+.galeria-cont{
+    position: relative;
+    height: 398px;
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+
+.home section.content .bloque img{
+    margin-bottom: 6px;
+    border-top: none;
+}
+
+/****** FIN HOME *******/
+
+
+
+
+/****** LA COMPAÑIA *******/
+.compania .destacado{
+    background: url("./assets/fd-compania-destacado.jpg") center top no-repeat;
+}
+
+
+
+
+
+/**** COMPAÑIA ***/
+
+.compania section.content .bloque{
+    width: 412px;
+}
+
+
+
+
+
+/**** OPERACIONES YPF ****/
+.operaciones-ypf .destacado{
+    background: url("./assets/fd-operaciones-destacado.jpg") center top no-repeat;
+}
+
+.operaciones-ypf section.content h3{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /***** Menu lateral *****/
 
 section.content-container aside{
@@ -301,166 +486,6 @@ section.content-container aside li > ul{
 
 
 /***** Fin Menu lateral *****/
-
-
-
-
-
-
-/******** HOME *********/
-.galeria-cont{
-    position: relative;
-    height: 398px;
-    width: 1200px;
-    margin: 0 auto;
-    z-index: 0;
-}
-
-
-
-
-
-
-
-section.content{
-    width: 850px;
-}
-
-section.content h2{
-    color: #292929;
-    font-size: 23px;
-    line-height: 28px;
-    margin-bottom: 12px;
-}
-
-section.content p{
-    margin-bottom: 15px;
-}
-
-section.content .left,
-section.content .right{
-    width: 415px;
-}
-
-section.content .bloque{
-    overflow: hidden;
-    margin-bottom: 30px;
-}
-
-section.content .bloque ul{
-    margin-bottom: 20px;
-}
-
-section.content .bloque li{
-    border-bottom: 1px solid #ececec;
-    padding: 3px 0;
-}
-
-section.content .bloque li a{
-    color: #808080;
-    font-size: 11px;
-    line-height: 18px;
-    display: inline-block;
-    text-transform: uppercase;
-}
-
-section.content .bloque p{
-    margin-bottom: 12px;
-}
-
-section.content .bloque img{
-    margin-bottom: 6px;
-}
-
-.box-img-detalle{
-    position: relative;
-}
-
-.box-img-detalle img{
-    width: 100%;
-}
-
-.box-img-detalle .over-img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(21,176,218,0.9);
-    display: none;
-}
-
-.box-img-detalle .over-img > a{
-    display: block;
-    cursor: pointer;
-    padding: 10px;
-    width: 100%;
-    height: 100%;
-}
-
-.box-img-detalle .over-img p{
-    color: #fff;
-    font-family: "din-black";
-    font-size: 15px;
-    line-height: 18px;
-}
-
-/****** FIN HOME *******/
-
-
-
-
-/****** LA COMPAÑIA *******/
-.compania .destacado{
-    background: url("./assets/fd-compania-destacado.jpg") center top no-repeat;
-    min-height: 158px;
-    padding-top: 90px;
-}
-
-.destacado h2,
-.destacado h3{
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.destacado h2{
-    background: url("./assets/flag-white.png") left no-repeat;
-    padding-left: 16px;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.destacado h3{
-    font-size: 55px;
-    line-height: 60px;
-    font-family: "din-black";
-}
-
-.destacado p{
-    color: #fff;
-    font-size: 15px;
-    line-height: 20px;
-    background: #e65834;
-    padding: 14px;
-    width: 470px;
-}
-
-
-
-
-/**** COMPAÑIA ***/
-
-.compania section.content .bloque{
-    width: 412px;
-}
-
-.compania section.content .bloque img{
-    border-top: 4px solid #0063be;
-}
-
-
-
 
 
 
