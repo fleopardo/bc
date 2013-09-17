@@ -512,14 +512,14 @@ section.content .bloque img{
 }
 
 .galeria .jcarousel-container-horizontal{
-    width: 392px;
+    width: 388px;
     margin: 0 auto;
 }
 
 .galeria .jcarousel-item {
-    width: 130px;
-    height: 62px;
-    padding: 7px;
+    width: 125px;
+    height: 60px;
+    padding: 7px 2px;
     margin: 0;
 }
 
@@ -539,12 +539,16 @@ section.content .bloque img{
 
 
 .upstream-downstream section.content .info{
-    width: 420px;
+    width: 400px;
 }
 
 .upstream-downstream section.content .info p a{
     color: #0063be;
     font-family: "din-black";
+    display: inline-block;
+    background: url("./assets/fd-link-azul.png") right no-repeat;
+    padding-right: 10px;
+    margin-left: 5px;
 }
 
 

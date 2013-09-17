@@ -38,21 +38,21 @@
 }
 
 .jcarousel-next-horizontal {
-    background-position: -27px 0px;
+    background-position: -27px -37px;
 	right: -23px;
 }
 
 .jcarousel-prev-horizontal {
-    background-position: top left;
+    background-position: 0px -37px;
 	left: -23px;
 }
 
 .jcarousel-next-disabled-horizontal{
     cursor: default;
-    background-position: -27px -37px;
+    background-position: -50px -37px;
 }
 
 .jcarousel-prev-disabled-horizontal{
     cursor: default;
-    background-position: 0px -37px;
+    background-position: -50px -37px;
 }
