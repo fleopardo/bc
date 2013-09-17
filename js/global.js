@@ -9,7 +9,7 @@
 ;(function(){
 
 
-
+	// Slider home
 	if($("#sequence").length > 0){
 		var options = {
 			nextButton: true,

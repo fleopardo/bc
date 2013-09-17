@@ -184,6 +184,7 @@ h2{
 body{
     font-family: "din-medium";
     font-size: 13px;
+    line-height: 18px;
     padding: 75px 0;
     color: #838383;
 }
@@ -192,9 +193,6 @@ body{
     width: 1024px;
     margin: 0 auto;
 }
-
-
-
 
 .breadcrumb-container{
     background: #292929;
@@ -256,14 +254,7 @@ a.link-ppal span{
     margin-top: 35px;
 }
 
-/******** HOME *********/
-.galeria-cont{
-    position: relative;
-    height: 398px;
-    width: 1200px;
-    margin: 0 auto;
-    z-index: 0;
-}
+/***** Menu lateral *****/
 
 section.content-container aside{
     width: 160px;
@@ -288,14 +279,47 @@ section.content-container aside li{
 
 section.content-container aside li a{
     font-size: 11px;
-    line-height: 15px;
+    line-height: 18px;
     color: #808080;
+    display: inline-block;
 }
 
-section.content-container aside li.first a{
+section.content-container aside li.active > a{
+    background: #ececec;
+    display: block;
+}
+
+section.content-container aside li.first > a{
     text-transform: uppercase;
     font-family: "din-black";
 }
+
+section.content-container aside li > ul{
+    margin-left: 14px;
+    margin-bottom: 0;
+}
+
+
+/***** Fin Menu lateral *****/
+
+
+
+
+
+
+/******** HOME *********/
+.galeria-cont{
+    position: relative;
+    height: 398px;
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+
+
+
+
 
 
 section.content{
@@ -307,6 +331,10 @@ section.content h2{
     font-size: 23px;
     line-height: 28px;
     margin-bottom: 12px;
+}
+
+section.content p{
+    margin-bottom: 15px;
 }
 
 section.content .left,
@@ -338,6 +366,10 @@ section.content .bloque li a{
 
 section.content .bloque p{
     margin-bottom: 12px;
+}
+
+section.content .bloque img{
+    margin-bottom: 6px;
 }
 
 .box-img-detalle{
@@ -374,6 +406,61 @@ section.content .bloque p{
 }
 
 /****** FIN HOME *******/
+
+
+
+
+/****** LA COMPAÑIA *******/
+.compania .destacado{
+    background: url("./assets/fd-compania-destacado.jpg") center top no-repeat;
+    min-height: 158px;
+    padding-top: 90px;
+}
+
+.destacado h2,
+.destacado h3{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.destacado h2{
+    background: url("./assets/flag-white.png") left no-repeat;
+    padding-left: 16px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.destacado h3{
+    font-size: 55px;
+    line-height: 60px;
+    font-family: "din-black";
+}
+
+.destacado p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    background: #e65834;
+    padding: 14px;
+    width: 470px;
+}
+
+
+
+
+/**** COMPAÑIA ***/
+
+.compania section.content .bloque{
+    width: 412px;
+}
+
+.compania section.content .bloque img{
+    border-top: 4px solid #0063be;
+}
+
+
+
 
 
 

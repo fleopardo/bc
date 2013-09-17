@@ -137,7 +137,7 @@ Aside from these comments, you may modify and distribute this file as you please
 
 
 
-.destacado.animate-in {
+.dest.animate-in {
 	left: 115px;
 	top: 20px;
 	opacity: 1;
@@ -149,7 +149,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	transition-duration: .5s;
 }
 
-.destacado.animate-out {
+.dest.animate-out {
 	left: 7%;
 	opacity: 0;
 
@@ -199,7 +199,7 @@ Aside from these comments, you may modify and distribute this file as you please
 }
 
 
-.destacado {
+.dest {
 	/*font-size: 3.4em;*/
 	left: 0;
 	top:100px;
@@ -211,39 +211,39 @@ Aside from these comments, you may modify and distribute this file as you please
 	padding: 30px 30px 30px 90px;
 }
 
-.destacado.animate-in{
+.dest.animate-in{
 	left: 0;
 }
 
-.destacado.animate-out{
+.dest.animate-out{
 	left: -50px;
 }
 
-#sequence li .destacado h2,
-#sequence li .destacado h3,
-#sequence li .destacado p,
-#sequence li .destacado a,
-#sequence li .destacado span{
+#sequence li .dest h2,
+#sequence li .dest h3,
+#sequence li .dest p,
+#sequence li .dest a,
+#sequence li .dest span{
 	position: relative;
 	color: #fff;
 }
 
-#sequence li .destacado .date{
+#sequence li .dest .date{
 	font-size: 13px;
 	line-height: 16px;
 	margin-bottom: 23px;
 }
 
-#sequence li .destacado .date span{
+#sequence li .dest .date span{
 	margin: 0 5px;
 }
 
-#sequence li .destacado .date .fecha{
+#sequence li .dest .date .fecha{
 	font-family: "din-black";
 	margin-left: 0;
 }
 
-#sequence li .destacado h2{
+#sequence li .dest h2{
 	font-family: "din-black";
 	font-size: 42px;
 	line-height: 44px;
@@ -251,7 +251,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	margin-bottom: 10px;
 }
 
-#sequence li .destacado h3{
+#sequence li .dest h3{
 	font-family: "din-black";
 	font-size: 15px;
 	line-height: 20px;
@@ -259,7 +259,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	margin-bottom: 20px;
 }
 
-#sequence li .destacado a.leer-nota{
+#sequence li .dest a.leer-nota{
 	font-size: 13px;
 	line-height: 16px;
 	font-family: "din-light";
@@ -269,7 +269,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	padding-left: 17px;
 }
 
-#sequence li .destacado a.leer-nota:hover{
+#sequence li .dest a.leer-nota:hover{
 	color: #f8533d;
 	background-position: 0px -10px;
 }
