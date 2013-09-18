@@ -573,6 +573,10 @@ section.content a.leer-mas-parrafo{
     margin-left: 20px;
 }
 
+.novedades .destacado{
+    background: url("./assets/fd-novedades-destacado.jpg") center top no-repeat;
+}
+
 .novedades section.content .bloque{
     border-top: 1px solid #e3e3e3;
     padding-top: 30px;
