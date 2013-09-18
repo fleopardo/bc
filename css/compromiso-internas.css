@@ -150,7 +150,7 @@
 	.internas .grafico-estimulacion-hidraulica{
 		width:757px;
 		height: 430px;
-		background: #202020;
+		background: #1a1a1a;
 	}
 
 	.internas .grafico-estimulacion-hidraulica .titulo{
@@ -173,7 +173,7 @@
 		}
 
 	.internas .grafico-estimulacion-hidraulica .texto{
-		width: 445px
+		width: 445px;
 	}
 
 		.internas .grafico-estimulacion-hidraulica .texto p{
@@ -186,7 +186,25 @@
 		margin-top: 15px;
 	}
 
+	.internas .grafico-estimulacion-hidraulica h5{
+		font-size: 15px;
+		padding-top: 5px;
+		border-top: 1px solid #fff;
+		margin: 15px 0;
+	}
 
+	.internas .grafico-estimulacion-hidraulica h5 span{
+		font-size: 18px;
+	}
+
+	.internas .grafico-estimulacion-hidraulica h5.tit-izq{
+		width: 285px;
+		margin-right: 18px;
+	}
+
+	.internas .grafico-estimulacion-hidraulica h5.tit-der{
+		width: 445px;
+	}
 
 
 	/* Grafico grafico-decada-de-energia */
@@ -281,3 +299,43 @@
 		padding-bottom: 6px;
 		font-family: "din-black"
 	}
+
+
+	/* grafico-casing-agua */
+
+	.internas .cmass .row .grafico-casing-agua{
+		position: relative;
+	}
+
+	.internas .cmass .row .grafico-casing-agua li{
+		position: absolute;
+		left: 260px;
+		color: #333;
+		font-size: 11px;
+	}
+
+		.internas .cmass .row .grafico-casing-agua li.uno{
+			top: 70px;
+		}
+
+		.internas .cmass .row .grafico-casing-agua li.dos{
+			top: 100px;
+		}
+
+		.internas .cmass .row .grafico-casing-agua li.tres{
+			top: 160px;
+		}
+
+		.internas .cmass .row .grafico-casing-agua li.cuatro{
+			top: 224px;
+		}
+
+		.internas .cmass .row .grafico-casing-agua li.cinco{
+			top: 285px;
+		}
+
+		.internas .cmass .row .grafico-casing-agua li.seis{
+			top: 360px;
+		}
+
+

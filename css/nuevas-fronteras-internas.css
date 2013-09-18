@@ -42,6 +42,37 @@
 	}
 
 
+	/* grafico-informacion-sismica */
+
+	.nuevas-fronteras-internas .opid .row .grafico-informacion-sismica{
+		position: relative;
+	}
+
+	.nuevas-fronteras-internas .opid .row .grafico-informacion-sismica .title{
+		position: absolute;
+		top: 45px;
+		left: 45px;
+		width: 245px;
+	}
+
+	.nuevas-fronteras-internas .opid .row .grafico-informacion-sismica h3{
+		font-size: 20px;
+		font-weight: normal;
+		font-family: "din-medium";
+		line-height: 22px;
+		padding: 6px 0;
+		border-bottom: 2px solid #fff;
+		border-top: 1px solid #fff;
+	}
+
+	.nuevas-fronteras-internas .opid .row .grafico-informacion-sismica h4{
+		font-size: 24px;
+		font-family: "din-black";
+		font-weight: normal;
+		margin-top: 14px;
+	}
+
+
 
 
 /*
@@ -184,6 +215,44 @@
 		z-index: 0;
 	}
 
+	.internas .row .exploracion-cuencas-productivas .referencias{
+		position: absolute;
+		top: 170px;
+		left: 61px;
+		z-index: 1;
+	}
+
+	.internas .row .exploracion-cuencas-productivas .referencias li{
+		line-height: 22px;
+		font-size: 13px;
+	}
+
+	.internas .row .exploracion-cuencas-productivas .referencias li span{
+		display: inline-block;
+		width: 20px;
+		height: 10px;
+		margin-right: 5px;
+	}
+
+		.internas .row .exploracion-cuencas-productivas .referencias li.cuencas-productivas span{
+			background-color: #009591;
+		}
+
+		.internas .row .exploracion-cuencas-productivas .referencias li.no-convencional span{
+			background-color: #006378;
+		}
+
+		.internas .row .exploracion-cuencas-productivas .referencias li.nuevas-cuencas span{
+			background-color: #cb7faf;
+		}
+
+		.internas .row .exploracion-cuencas-productivas .referencias li.offshore span{
+			background-color: #a10160;
+		}
+
+		.internas .row .exploracion-cuencas-productivas li.internacional span{
+			background-color: #a7003b;
+		}
 
 
 	/* Bloques de texto de abajo */
@@ -277,8 +346,8 @@
 
 	.nuevas-fronteras-internas .vision-exploratoria .row .txt4 .grafico{
 		position: absolute;
-		right: 0;
-		top: 55px;
+		right: 15px;
+		top: 44px;
 	}
 
 

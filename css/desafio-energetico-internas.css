@@ -144,11 +144,41 @@
 		font-size: 21px;
 		font-family: "din-black";
 		line-height: 30px;
-		margin-bottom: 0px;
+		margin-bottom: 20px;
 		margin-top: 26px;
 	}
 
 
+	.internas .energia-para-el-crecimiento .row .grafico-2 > .content-graf > div{
+		width: 48%;
+		margin-right: 4%;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-2 > .content-graf > div.last{
+		margin-right: 0%;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-2 > .content-graf img{
+		margin-top: 25px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-2 h4{
+		font-size: 21px;
+		line-height: 26px;
+		padding: 5px 0;
+		border-top: 2px solid #fff;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-2 h5{
+		font-size: 14px;
+	}
+
+	.internas .energia-para-el-crecimiento .row .grafico-2 .pie{
+		clear: both;
+		margin-top: 20px;
+		font-size: 12px;
+		line-height: 18px;
+	}
 
 	/* GRAFICO 3 */
 
@@ -188,6 +218,7 @@
 		border-bottom: 1px solid #fff;
 		font-size: 14px;
 		font-family: "din-medium";
+		font-weight: normal;
 		line-height: 19px;
 		margin-bottom: 15px;
 	}
@@ -211,6 +242,35 @@
 	.desafio-energetico-internas .que-es-shale .row .que-es-shale-detalle .scrollCustom{
 		height: 300px;
 	}
+
+
+	/* grafico-tight-oil */
+
+	.desafio-energetico-internas .que-es-shale .row .grafico-tight-oil{
+		position: relative;
+	}
+
+	.desafio-energetico-internas .que-es-shale .row .grafico-tight-oil li{
+		position: absolute;
+		font-size: 16px;
+		font-family: "din-medium";
+	}
+
+		.desafio-energetico-internas .que-es-shale .row .grafico-tight-oil li.convencional{
+			top: 110px;
+			left: 637px;
+		}
+
+		.desafio-energetico-internas .que-es-shale .row .grafico-tight-oil li.tight{
+			top: 222px;
+			left: 635px;
+		}
+
+		.desafio-energetico-internas .que-es-shale .row .grafico-tight-oil li.shale{
+			top: 335px;
+			left: 635px;
+		}
+
 
 	/* Bloque lo que hay que saber */
 
@@ -326,7 +386,7 @@
 	}
 
 	.internas .row .grafico-recursos-shale h3{
-		font-size: 20px;
+		font-size: 17px;
 		font-family: "din-black";
 	}
 
@@ -769,28 +829,18 @@
  * MITOS Y VERDADES
 */
 
-	.mitos-y-verdades .col-izq{
-		float: left;
-		width: 380px;
-	}
-
-	.mitos-y-verdades .col-der{
-		float: left;
-		width: 820px;
-	}
-
 	.mitos-y-verdades .bloque{
 		margin-bottom: 15px;
-		width: 328px;
+		width: 352px;
+		height: 270px;
 	}
 
 	.mitos-y-verdades .bloque.last{
 		margin-bottom: 0;
 	}
 
-	.mitos-y-verdades .col-der .bloque{
-		width: 364px;
-		height: 270px;
+	.mitos-y-verdades .bloque.first{
+		clear: both;
 	}
 
 	.mitos-y-verdades .bloque h4{
@@ -831,22 +881,22 @@
 	}
 	/* INTRO */
 
-	.mitos-y-verdades .intro{
-		background: #333333;
+	.mitos-y-verdades .celeste{
+		background: #1d8cae;
 	}
 
-	.mitos-y-verdades .intro h3{
+	.mitos-y-verdades .celeste h3{
 		font-size: 30px;
 		font-weight: normal;
 		margin-bottom: 30px;
 	}
 
-	.mitos-y-verdades .intro h3 span{
+	.mitos-y-verdades .celeste h3 span{
 		font-family: "din-black";
 	}
 
-	.mitos-y-verdades .intro .more{
-		border-bottom-color: #ac9e2c;
+	.mitos-y-verdades .celeste .more{
+		border-bottom-color: #086987;
 	}
 
 

@@ -153,6 +153,7 @@
 
 	.headerYPF .nav > ul.secundaria{
 		min-width: 160px;
+		white-space: nowrap;
 	}
 
 	.headerYPF .nav > ul.secundaria > li{
