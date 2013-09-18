@@ -354,15 +354,42 @@
 	<div class="layout">
 		<div class="breadcrumb-container clearfix">
 			<ul class="breadcrumb">
-				<li><a href="/" title="">Home ></a></li>
+				<li><a href="./" title="">Home ></a></li>
 				<li><a href="./home-futbol.html" title="Futbol">Futbol ></a></li>
 				<li class="last"><a href="./nota.html" title="Nota">Nota</a></li>
 			</ul>
 			<ul class="options">
 				<li class="btn-list"><a href="#" title="">Lista</a></li>
-				<li class="btn-postales"><a href="#" title="">Postales</a></li>
-				<li class="btn-share"><a href="#" title="">Share</a></li>
-				<li class="btn-close"><a href="./index.html" title="Home">Close</a></li>
+				<li class="btn-postales"><a href="postales.html" title="">Postales</a></li>
+				<li class="btn-share">
+					<a href="#" title="">Share</a>
+					<div class="submenu">
+
+						<div class="header cont">
+							<h3>Suscribite para recibir nuestras novedades</h3>
+						</div>
+
+						<form>
+							<div class="fields cont">
+								<p class="first">
+									<label for="user">Nombre</label>
+									<input type="text" id="nombre" name="nombre" />
+								</p>
+
+								<p>
+									<label for="user">Email</label>
+									<input type="text" id="email" name="email" class="error"/>
+								</p>
+							</div>
+
+							<div class="action cont">
+								<input type="submit" value="Suscribir" />
+							</div>
+						</form>
+
+					</div>
+				</li>
+				<li class="btn-close"><a href="./" title="Home">Close</a></li>
 			</ul>
 		</div>
 
@@ -378,31 +405,37 @@
 							<article data-id="1">
 								<h3>Quisque ante enim proin malesuada</h3>
 								<a rel="lightbox" href="./img/notas/foto-test-01.jpg"><img src="./img/notas/foto-test-01.jpg" width="518" height="417" /></a>
+								<a href="#"><p class="ic-more"><span>+</span></p></a>
 							</article>
 
 							<article data-id="2" class="DN">
 								<h3>Quisque ante enim proin malesuada</h3>
 								<a rel="lightbox" href="./img/notas/foto-test-02.jpg"><img src="./img/notas/foto-test-02.jpg" width="518" height="417" /></a>
+								<a href="#"><p class="ic-more"><span>+</span></p></a>
 							</article>
 
 							<article data-id="3" class="DN">
 								<h3>Quisque ante enim proin malesuada</h3>
 								<a rel="lightbox" href="./img/notas/foto-test-01.jpg"><img src="./img/notas/foto-test-01.jpg" width="518" height="417" /></a>
+								<a href="#"><p class="ic-more"><span>+</span></p></a>
 							</article>
 
 							<article data-id="4" class="DN">
 								<h3>Quisque ante enim proin malesuada</h3>
 								<a rel="lightbox" href="./img/notas/foto-test-02.jpg"><img src="./img/notas/foto-test-02.jpg" width="518" height="417" /></a>
+								<a href="#"><p class="ic-more"><span>+</span></p></a>
 							</article>
 
 							<article data-id="5" class="DN">
 								<h3>Quisque ante enim proin malesuada</h3>
 								<a rel="lightbox" href="./img/notas/foto-test-01.jpg"><img src="./img/notas/foto-test-01.jpg" width="518" height="417" /></a>
+								<a href="#"><p class="ic-more"><span>+</span></p></a>
 							</article>
 
 							<article data-id="6" class="DN">
 								<h3>Quisque ante enim proin malesuada</h3>
 								<a rel="lightbox" href="./img/notas/foto-test-02.jpg"><img src="./img/notas/foto-test-02.jpg" width="518" height="417" /></a>
+								<a href="#"><p class="ic-more"><span>+</span></p></a>
 							</article>
 						</div>
 
@@ -459,7 +492,7 @@
 
 			<div class="notas-relacionadas">
 
-				<article class="bloque redes-sociales">
+				<article class="bloque">
 					<h3 class="title-section">Notas relacionadas</h3>
 
 					<ul id="carousel-relacionados" class="mask">

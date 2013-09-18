@@ -69,6 +69,8 @@
                             e(".twitscroller-replace").removeClass("twitscroller-replace");
 
                             app.scrollCustom();
+
+                            $(".redes-sociales").addClass("init");
                         }
                     })
             });

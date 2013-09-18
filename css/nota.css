@@ -37,6 +37,10 @@
 	position: relative;
 }
 
+.galeria .zoom .ic-more:hover span{
+	color: #f8533d;
+}
+
 .galeria .zoom > article h3{
 	position: absolute;
 	bottom: 0;
@@ -81,15 +85,19 @@
 
 /* REDES SOCIALES */
 
-.redes-sociales{
+.redes-sociales.bloque{
 	padding: 20px;
+	background-image: url("./assets/ajax-loader.gif");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.redes-sociales.bloque.init{
+	background-image: none;
 }
 
 .redes-sociales .scrollCustom{
 	height: 120px;
-}
-
-.redes-sociales .tweets{
 }
 
 .redes-sociales .tweets li{
@@ -203,10 +211,11 @@
 
 .notas-relacionadas{
 	clear: both;
+	color: #fff;
 }
 
-.notas-relacionadas{
-	color: #fff;
+.notas-relacionadas .bloque{
+	padding: 20px;
 }
 
 .notas-relacionadas .jcarousel-container-horizontal {

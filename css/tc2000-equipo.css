@@ -132,7 +132,8 @@
 	color: #f8533d;
 }
 
-#carousel-equipo .leer-nota:hover{
+#carousel-equipo .leer-nota:hover,
+#carousel-equipo .jcarousel-item.active .leer-nota{
 	color: #fff;
 	background-position: 0px 6px;
 }
