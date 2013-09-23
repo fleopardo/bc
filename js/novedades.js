@@ -15,7 +15,7 @@
 
 	$notas.css('height',$altoNotaContentInicial);
 
-	
+
 	$notasPreview.on("click", function(event){
 
 		 event.preventDefault();
@@ -29,8 +29,7 @@
 		 	var $notaActive = $(this).data('id'),
 		 		$altoNotaActive = $notas.find('article[data-id="' + $notaActive + '"]').height();
 
-		 	console.log($altoNotaActive);
-
+		 	
 		 	$notasPreview.removeClass('active');
 		 	$(this).addClass('active');
 
