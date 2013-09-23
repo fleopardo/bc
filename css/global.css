@@ -643,6 +643,11 @@ section.content a.leer-mas-parrafo{
     margin-bottom:35px;
     padding-bottom:20px;
     border-bottom: 1px solid #d8d8d8;
+    display: none;
+}
+
+.novedades section.content .nota.active{
+    display: block;
 }
 
 .novedades section.content .nota img{
