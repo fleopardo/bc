@@ -639,11 +639,17 @@ section.content a.leer-mas-parrafo{
     color: #292929;
 }
 
-.novedades section.content .nota{
+.novedades section.content .notas-content{
+    position: relative;
     margin-bottom:35px;
     padding-bottom:20px;
     border-bottom: 1px solid #d8d8d8;
+}
+
+.novedades section.content .nota{
+    
     display: none;
+    position: absolute;
 }
 
 .novedades section.content .nota.active{
