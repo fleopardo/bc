@@ -68,11 +68,14 @@
 
 
 	/*INCIALIZACION DE PLUG IN SELECTMENU*/
-	$('select').selectmenu({
-		transferClasses:true
-	});
+	if($("select").length > 0){
+		$('select').selectmenu({
+			transferClasses:true
+		});
+	}
 
 	//Placeholder fallback
-	$('input[placeholder],textarea[placeholder]').placeholder();
-
+	if($("input[placeholder],textarea[placeholder]").length > 0){
+		$('input[placeholder],textarea[placeholder]').placeholder();
+	}
 }());

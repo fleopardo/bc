@@ -219,13 +219,31 @@ a.link-ppal{
     line-height: 38px;
     font-family: "din-black";
     background: #ececec;
+    /* Firefox */
+    -moz-transition: all 0.1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.1s ease-in;
+    /* Opera */
+    -o-transition: all 0.1s ease-in;
+    /* Standard */
+    transition: all 0.1s ease-in;
 }
+
+a.link-ppal:hover{
+    background: #0063be;
+    color: #fff;
+}
+
 
 a.link-ppal span{
     display: inline-block;
     background: url("./assets/fd-link-ppal.png") right no-repeat;
     padding-right: 14px;
     padding-left: 10px;
+}
+
+a.link-ppal:hover span{
+    background: url("./assets/fd-link-blanco.png") right no-repeat;
 }
 
 .more{
@@ -297,6 +315,10 @@ section.content .bloque li a{
     text-transform: uppercase;
 }
 
+section.content .bloque li a:hover{
+    color: #0063be;
+}
+
 section.content .bloque p{
     margin-bottom: 12px;
 }
@@ -322,6 +344,7 @@ section.content .bloque h4{
 
 .box-img-detalle img{
     width: 100%;
+    margin-bottom: 0!important;
 }
 
 .box-img-detalle .over-img{
@@ -337,9 +360,12 @@ section.content .bloque h4{
 .box-img-detalle .over-img > a{
     display: block;
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     padding: 10px;
-    width: 100%;
-    height: 100%;
 }
 
 .box-img-detalle .over-img p{
@@ -724,15 +750,21 @@ section.content-container aside li{
 }
 
 section.content-container aside li a{
-    font-size: 11px;
+    font-size: 12px;
     line-height: 18px;
     color: #808080;
-    display: inline-block;
+    display: block;
+    padding-left: 5px;
+}
+
+section.content-container aside li > a:hover,
+section.content-container aside li.active > a{
+    background: #ececec;
+
 }
 
 section.content-container aside li.active > a{
-    background: #ececec;
-    display: block;
+    
 }
 
 section.content-container aside li.first > a{
@@ -741,11 +773,13 @@ section.content-container aside li.first > a{
 }
 
 section.content-container aside li > ul{
-    margin-left: 14px;
     margin-bottom: 0;
+    margin-top: 5px;
 }
 
-
+section.content-container aside li > ul li a{
+    padding-left: 14px;
+}
 /** Fin Menu lateral **/
 
 
@@ -834,13 +868,13 @@ section.content-container aside.search-bar .busqueda-avanzada input[type=submit]
     padding-left: 15px;
     border: none;
     /* Firefox */
-    -moz-transition: all 0.3s ease-in;
+    -moz-transition: all 0.2s ease-in;
     /* WebKit */
-    -webkit-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.2s ease-in;
     /* Opera */
-    -o-transition: all 0.3s ease-in;
+    -o-transition: all 0.2s ease-in;
     /* Standard */
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 section.content-container aside.search-bar .busqueda-avanzada input[type=submit]:hover{
