@@ -59,11 +59,11 @@
 
 	/* :Hovers detalle*/
 	$('.box-img-detalle').mouseenter(function(){
-		$(this).find('.over-img').fadeIn();
+		$(this).find('.over-img').stop(true,true).fadeIn();
 	});
 
 	$('.box-img-detalle').mouseleave(function(){
-		$(this).find('.over-img').fadeOut();
+		$(this).find('.over-img').stop(true,true).fadeOut();
 	});
 
 
