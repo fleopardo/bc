@@ -1,15 +1,12 @@
-.tc2000-equipo{
-}
-
 .tc2000-equipo .banner-destacado{
 	background: url("./assets/tc-2000-destacado.jpg") center top no-repeat;
 }
 
 
-
-
 .tc2000-equipo .bloque{
 	background: rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000009f,endColorstr=#0000009f);
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000009f,endColorstr=#0000009f)";
 	border-top: 3px solid #f8533d;
 	margin-bottom: 15px;
 }
@@ -29,7 +26,7 @@
 
 
 .tc2000-equipo .jcarousel-container-horizontal {
-	width: 960px;
+	width: 1020px;
 	margin: 0 auto;
 }
 
@@ -48,7 +45,7 @@
 /*#carousel-equipo li,*/
 #carousel-equipo .jcarousel-item{
 	position: relative;
-	width: 307px;
+	width: 325px;
 	height: 540px;
 	margin-right: 20px;
 	background: rgba(0,0,0,0.8);

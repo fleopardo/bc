@@ -37,7 +37,7 @@ $container = $('.item-container');
 	          animationOptions: {
 	             duration: 750,
 	             easing: 'linear',
-	             queue: false,
+	             queue: false
 	         }
 	        });
 	    }, 200);
