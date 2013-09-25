@@ -61,19 +61,19 @@ var app = app || {};
 			});
 
 			// Bindeo para abrir submenus
-			headerYPF.vars.header.find(".hasSubmenu").on("click",function(event){
+			headerYPF.vars.header.find(".hasSubmenu").on(app.event.TAP,function(event){
 				event.preventDefault();
 				headerYPF.openSubmenu($(this));
 			});
 
 			// Bindeo para abrir buscador
-			headerYPF.vars.header.find(".buscar > a").on("click", function(event){
+			headerYPF.vars.header.find(".buscar > a").on(app.event.TAP, function(event){
 				event.preventDefault();
 				headerYPF.openSearch();
 			});
 
 			// Bindeo para cerrar buscador
-			headerYPF.vars.buscador.find(".close").on("click", function(){
+			headerYPF.vars.buscador.find(".close").on(app.event.TAP, function(){
 				headerYPF.closeSearch();
 			});
 
@@ -84,9 +84,13 @@ var app = app || {};
  	 * @public
  	 * Metodo para instanciar scroll personalizados
  	*/
-		app.scrollCustom = function(){
+		app.scrollCustom = function(selector){
 
-		 	var $scrollCustom = $(".scrollCustom:not(.init)");
+			if(selector){
+				var $scrollCustom = selector;
+			}else{
+		 		var $scrollCustom = $(".scrollCustom:not(.init)");
+		 	}
 
 		 	if($scrollCustom.length > 0){
 
@@ -130,5 +134,42 @@ var app = app || {};
 			}
 
 		}
+
+
+	/* Popup newsletter */
+
+	if ( $(".breadcrumb-container").length > 0 ){
+
+		$(".breadcrumb-container").find(".btn-share a").on(app.event.TAP, function(e){
+
+			e.preventDefault();
+			e.stopPropagation();
+
+			var that = $(this);
+
+			that.next(".submenu").slideToggle(function(){
+
+				if( that.next(".submenu").is(":visible") == true ){
+
+					$("body").append("<div id='dimmer1'></div>");
+
+					$("#dimmer1").one("click", function(e){
+
+						e.preventDefault();
+						e.stopPropagation();
+
+						that.next(".submenu").slideToggle();
+						$("#dimmer1").remove();
+					});
+
+				}
+
+			});
+
+		});
+
+	}
+
+
 
 }());

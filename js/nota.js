@@ -34,11 +34,11 @@
 	$relatedCarousel = $("#carousel-relacionados");
 	$relatedCarousel.removeClass("mask").jcarousel();
 
+
+	app.scrollCustom($(".news .scrollCustom"));
+
 	/* twitter */
-	$("div.tweets").twitscroller({user: 'dedoInteractive'});
+	$("div.tweets").twitscroller({user: ''});
 
-	setTimeout(function(){
-
-	},300)
 
 }());

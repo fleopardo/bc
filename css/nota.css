@@ -17,6 +17,8 @@
 
 .nota .bloque{
 	background: rgba(0,0,0,0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000009f,endColorstr=#0000009f);
+  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000009f,endColorstr=#0000009f)";
 	border-top: 3px solid #f8533d;
 	margin-bottom: 15px;
 }
@@ -35,6 +37,10 @@
 
 .galeria .zoom > article{
 	position: relative;
+}
+
+.galeria .zoom .ic-more:hover span{
+	color: #f8533d;
 }
 
 .galeria .zoom > article h3{
@@ -64,11 +70,26 @@
 	margin: 0 auto;
 }
 
-.galeria .jcarousel-item {
+.galeria .jcarousel-item{
 	width: 77px;
 	height: 55px;
 	padding: 7px;
 	margin: 0;
+	display: inline-block;
+}
+
+.galeria .mask{
+	margin-left: 20px;
+	height: 70px;
+	overflow: hidden;
+}
+
+.galeria .mask li{
+	width: 80px;
+	height: 55px;
+	padding: 7px;
+	margin: 0;
+	display: inline-block;
 }
 
 /* Horizontal Buttons */
@@ -81,15 +102,19 @@
 
 /* REDES SOCIALES */
 
-.redes-sociales{
+.redes-sociales.bloque{
 	padding: 20px;
+	background-image: url("./assets/ajax-loader.gif");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.redes-sociales.bloque.init{
+	background-image: none;
 }
 
 .redes-sociales .scrollCustom{
 	height: 120px;
-}
-
-.redes-sociales .tweets{
 }
 
 .redes-sociales .tweets li{
@@ -203,10 +228,11 @@
 
 .notas-relacionadas{
 	clear: both;
+	color: #fff;
 }
 
-.notas-relacionadas{
-	color: #fff;
+.notas-relacionadas .bloque{
+	padding: 20px;
 }
 
 .notas-relacionadas .jcarousel-container-horizontal {
@@ -281,4 +307,17 @@
 .notas-relacionadas .leer-nota:hover{
 	color: #fff;
 	background-position: 0px 6px;
+}
+
+
+
+.notas-relacionadas .mask{
+	margin-left: 20px;
+	height: 120px;
+	overflow: hidden;
+}
+
+.notas-relacionadas .mask li{
+	width: 300px;
+	display: inline-block;
 }

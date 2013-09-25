@@ -1,0 +1,125 @@
+/* Postales */
+
+.layout{
+	position: relative;
+	z-index: 5;
+	padding-bottom: 0;
+}
+
+.postales{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.slides-pagination{
+	bottom: 50px;
+}
+
+.slides-navigation{
+	top: 60%;
+}
+
+.slides-navigation a{
+	width: 36px;
+	height: 69px;
+	background: url(./assets/arrows_sequence.png) no-repeat;
+	cursor: pointer;
+	display: block;
+}
+
+
+.slides-navigation a.prev{
+	background-position: left top;
+	left: 70px;
+}
+
+.slides-navigation a.next{
+	background-position: top right;
+	right: 70px;
+}
+
+
+.postales .container{
+	position: absolute;
+	top: 120px;
+}
+
+.postales .container > div{
+	background: rgba(0,0,0,0.7);
+	padding: 20px;
+	position: relative;
+}
+
+
+.postales .date{
+	font-size: 13px;
+	line-height: 16px;
+	margin-bottom: 23px;
+	color: #fff;
+}
+
+.postales .date span{
+	margin: 0 5px;
+}
+
+.postales .date .fecha{
+	font-family: "din-black";
+	margin-left: 0;
+}
+
+
+.postales .container{
+	width: 45%;
+}
+
+.postales .container h3{
+	background: #f8533d;
+	padding: 8px 8px 8px 40px;
+	color: #fff;
+	font-size: 13px;
+	line-height: 13px;
+	font-family: "din-black";
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-left: 40px;
+	display: inline-block;
+}
+
+.postales .container .icon_cam{
+	width: 25px;
+	height: 21px;
+	display: inline-block;
+	vertical-align: middle;
+	background: url("./assets/icon_postales.png") no-repeat top left;
+}
+
+.postales .container h4 a{
+	color: #fff;
+	font-size: 35px;
+	line-height: 40px;
+	font-family: "din-black";
+	font-weight: normal;
+}
+
+.postales .container h4 a:hover{
+	color: #f8533d;
+}
+
+.postales .container h5{
+	color: #f8533d;
+	margin-top: 20px;
+	font-size: 15px;
+	line-height: 18px;
+	text-transform: uppercase;
+	font-family: "din-black";
+	font-weight: normal;
+	padding-top: 12px;
+	background: url("./assets/flag-orange.png") left top no-repeat;
+}
+
+.postales .ic-more:hover span{
+	color: #f8533d;
+}

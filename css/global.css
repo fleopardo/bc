@@ -170,6 +170,15 @@ strong{
 }
 
 
+a{
+	-webkit-transition: color ease 0.4s;
+	-moz-transition: color ease 0.4s;
+	-o-transition: color ease 0.4s;
+	-ms-transition: color ease  0.4s;
+	transition: color ease  0.4s;
+}
+
+
 body{
     font-family: "din-regular";
     font-size: 12px;
@@ -194,6 +203,10 @@ body{
     font-weight: bold;
 }
 
+.breadcrumb-container ul.breadcrumb li.last a:hover{
+    text-decoration: underline;
+}
+
 .breadcrumb-container ul.options{
     float: right;
 }
@@ -203,7 +216,7 @@ body{
     color: #fff;
 }
 
-.breadcrumb-container li a{
+.breadcrumb-container li > a{
     color: #fff;
     display: inline-block;
     line-height: 36px;
@@ -212,34 +225,173 @@ body{
 
 .breadcrumb-container ul.options li{
 	border-left: 1px solid #666;
+	position: relative;
 }
 
-.breadcrumb-container ul.options a{
+.breadcrumb-container ul.options li > a{
     background: url("./assets/sp-breadcrumb.jpg") no-repeat;
     width: 64px;
     height: 36px;
     text-indent: -9999px;
 }
 
-
-.breadcrumb-container ul.options .btn-list a{
+.breadcrumb-container ul.options .btn-list > a{
     background-position: 0 0;
 }
 
-.breadcrumb-container ul.options .btn-postales a{
+	.breadcrumb-container ul.options .btn-list > a:hover{
+	    background-position: -64px 0;
+	}
+
+.breadcrumb-container ul.options .btn-postales > a{
     background-position: 0 -36px;
 }
 
-.breadcrumb-container ul.options .btn-share a{
+	.breadcrumb-container ul.options .btn-postales > a:hover{
+	    background-position: -64px -36px;
+	}
+
+.breadcrumb-container ul.options .btn-share > a{
     background-position: 0 -72px;
 }
 
-.breadcrumb-container ul.options .btn-close a{
+	.breadcrumb-container ul.options .btn-share > a:hover{
+	    background-position: -64px -72px;
+	}
+
+.breadcrumb-container ul.options .btn-close > a{
     background-position: 0 -108px;
 }
 
+	.breadcrumb-container ul.options .btn-close > a:hover{
+	    background-position: -64px -108px;
+	}
 
 
+.breadcrumb-container ul.options .btn-share > a:hover{
+    background-position: -64px -72px;
+}
+
+
+/* popup Suscribirse */
+
+.breadcrumb-container ul.options .btn-share .submenu{
+	position: absolute;
+	z-index: 105;
+	display: none;
+	background: #000;
+	right: -3px;
+	font-family: "din-medium";
+	font-size: 12px;
+	color: #fff;
+	width: 360px;
+	padding: 20px 20px 10px 20px;
+}
+
+.breadcrumb-container ul.options .btn-share .submenu .cont{
+	padding: 0 10px 10px 10px;
+}
+
+.breadcrumb-container ul.options .btn-share .submenu .header,
+.breadcrumb-container ul.options .btn-share .submenu .fields{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.breadcrumb-container ul.options .btn-share .submenu .header{
+	overflow: hidden;
+}
+
+	.breadcrumb-container ul.options .btn-share .submenu .header h3{
+		font-family: "din-regular";
+		color: #f8533d;
+		font-size: 11px;
+	}
+
+
+.breadcrumb-container ul.options .btn-share .submenu .fields{
+	margin-top: 18px;
+}
+
+	.breadcrumb-container ul.options .btn-share .submenu .fields p{
+		margin-bottom: 10px;
+	}
+
+	.breadcrumb-container ul.options .btn-share .submenu .fields label{
+		width: 75px;
+		display: inline-block;
+		margin-right: 5px;
+	}
+
+	.ie7 .breadcrumb-container ul.options .btn-share .submenu .fields label{
+		display: inline;
+		zoom: 1;
+	}
+
+	.breadcrumb-container ul.options .btn-share .submenu .fields input{
+		border: 1px solid #dbdbdb;
+		width: 235px;
+		height: 10px;
+		padding: 10px;
+		color: #666;
+		-moz-box-shadow: inset 0px 0px 5px #ccc;
+		-webkit-box-shadow: inset 0px 0px 5px #ccc;
+		box-shadow: inset 0px 0px 5px #ccc;
+		background: #fff;
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.breadcrumb-container ul.options .btn-share .submenu .fields input.error{
+		border: 1px solid red;
+	}
+
+.breadcrumb-container ul.options .btn-share .submenu .action{
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+	.breadcrumb-container ul.options .btn-share .submenu .action a{
+		text-transform: none;
+		width: auto !important;
+		height: auto !important;
+		line-height: 28px;
+		border: none;
+		text-decoration: none;
+		color: #666666;
+		display: inline;
+		float: left;
+	}
+
+	.breadcrumb-container ul.options .btn-share .submenu .action input[type="submit"]{
+		border: 1px solid #001916;
+		background: #001916; /* Old browsers */
+		background: -moz-linear-gradient(top,  #424242 0%, #001916 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#424242), color-stop(100%,#001916)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  #424242 0%,#001916 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  #424242 0%,#001916 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  #424242 0%,#001916 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  #424242 0%,#001916 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#001916',GradientType=0 ); /* IE6-9 */
+
+		height: 28px;
+		margin: 0 0 0 30px;
+		padding: 0 20px;
+		text-transform: uppercase;
+		color: #fff;
+		cursor: pointer;
+		float: right;
+	}
+
+#dimmer1 {
+	position: fixed;
+	z-index: 3;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: transparent;
+}
 
 
 
