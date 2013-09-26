@@ -167,6 +167,7 @@ a.carrito,
 .form-enviar-amigo input[type=submit],
 .opciones.canjear input[type="submit"],
 .perfil .right-col input[type=submit],
+.perfil .link-nuevo-traspaso,
 .perfil .right-col .header-detalle > div a,
 .carrito .mascaraFormularioEnviado a.continuar-canje,
 .carrito .resumen-container .submit a.imprimir,
@@ -1667,7 +1668,7 @@ div.mas-informacion a{
 		.right-col  p.filtros span.order select{
 			width: 215px;
 		}
-		
+
 		.right-col  p.filtros  a.ui-selectmenu{
 			margin-left: 10px;
 		}

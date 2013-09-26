@@ -360,6 +360,9 @@
 						<li class="active">
 							<a href="perfil-traspaso-puntos.html" title="Traspaso de puntos">Traspaso de Puntos</a>
 						</li>
+						<li>
+							<a href="perfil-ultimos-traspasos-de-puntos.html" title="Últimos traspasos de puntos">Últimos traspasos de puntos</a>
+						</li>
 					</ul>
 					<h3 class="link"><a href="perfil-pedir-tarjeta-simple.html" title="Reemplazar mi tarjeta">Reemplazar mi Tarjeta</a></h3>
 					<h3 class="link"><a href="perfil-mis-favoritos.html" class="clearfix"><span class="left">Mis Favoritos</span> <span class="right">5 (items)</span></a></h3>
@@ -383,9 +386,12 @@
 
 							<p class="form-error-message">ERROR. Algunos de los campos no fueron completados correctamente.</p>
 
-							<div class="rows tarjeta-donante">
+							<div class="rows select tarjeta-donante clearfix">
 								<label for="">Tarjeta Donante</label>
-								<input type="text" placeholder="xxxxxxxxxxxxxxx" />
+								<select class="">
+									<option>xxxxxxxxxxxxxxx</option>
+									<option>xxxxxxxxxxxxxxx</option>
+								</select>
 
 								<div>
 									<label>Tus puntos</label>
@@ -395,10 +401,15 @@
 
 							<div class="rows tarjeta-receptora">
 								<label for="">Tarjeta Receptora</label>
-								<input type="text" placeholder="xxxxxxxxxxxxxxx" />
+
+								<select class="">
+									<option>xxxxxxxxxxxxxxx</option>
+									<option>xxxxxxxxxxxxxxx</option>
+								</select>
+
 							</div>
 
-							<div class="rows tipo-tarjeta">
+							<div class="rows select tipo-tarjeta clearfix">
 
 								<label for="">Tipo de Tarjeta</label>
 								<input type="text" placeholder="xxxxxxxxxxxxxxx" />

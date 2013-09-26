@@ -318,7 +318,8 @@ section.content.confirmacionRegistro{
 	width: 49px;
 }
 
-.perfil .right-col input[type=submit]{
+.perfil .right-col input[type=submit],
+.perfil .link-nuevo-traspaso{
     color: #fff;
     display: block;
     margin-left: 373px;
@@ -336,7 +337,8 @@ section.content.confirmacionRegistro{
     transition: background 100ms ease-in 100ms;
 }
 
-.perfil .right-col input[type=submit]:hover{
+.perfil .right-col input[type=submit]:hover,
+.perfil .link-nuevo-traspaso:hover{
 	background-color: #f03d41;
 }
 
@@ -347,7 +349,7 @@ section.content.confirmacionRegistro{
 	border-bottom: none;
 }
 
-.pedir-tarjeta .right-col input[type=submit]{
+.pedir-tarjeta .right-col input[type=submit],{
 	background-position: -830px -9px;
 	width: 140px;
 	margin-left: 343px;
@@ -1295,9 +1297,19 @@ span.tipo-prod{
 }
 
 /* Tarjeta donante y tarjeta receptora*/
+.perfilTraspasoPuntos .right-col .tarjeta-donante select,
+.perfilTraspasoPuntos .right-col .tarjeta-receptora select{
+	width: 245px;
+}
+
 .perfilTraspasoPuntos .right-col .tarjeta-donante > input,
 .perfilTraspasoPuntos .right-col .tarjeta-receptora > input{
 	width: 222px;
+}
+
+.perfilTraspasoPuntos .right-col .tarjeta-donante .ui-selectmenu,
+.perfilTraspasoPuntos .right-col .tarjeta-receptora .ui-selectmenu{
+	float: left;
 }
 
 .perfilTraspasoPuntos .right-col .tarjeta-donante > div > label,
@@ -1348,6 +1360,34 @@ span.tipo-prod{
 
 
 /* Submit */
-.perfilTraspasoPuntos .right-col .submit input[type="submit"]{
+.perfilTraspasoPuntos .right-col .submit input[type="submit"],
+.perfilTraspasoPuntos .right-col .link-nuevo-traspaso{
 	margin-left: 160px;
 }
+
+
+.perfilTraspasoPuntos .link-nuevo-traspaso{
+	width: 160px;
+	background-position: -795px -9px;
+}
+
+
+/* puntos enviados con exito */
+.perfilTraspasoPuntos.enviado .cont-legend span.exito{
+	color: #559548;
+}
+
+
+
+/* Ultimos traspaso de puntos  */
+
+.perfil .perfilTraspasoPuntos.ultimosTraspasos .right-col table td,
+.perfil .perfilTraspasoPuntos.ultimosTraspasos .right-col table th{
+	width: 25%;
+}
+
+.perfil .perfilTraspasoPuntos.ultimosTraspasos .right-col .link-nuevo-traspaso{
+	margin-left: 500px;
+	margin-bottom: 15px;
+}
+
