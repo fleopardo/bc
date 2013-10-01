@@ -17,11 +17,16 @@
 
 .nota .bloque{
 	background: rgba(0,0,0,0.8);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000009f,endColorstr=#0000009f);
-  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000009f,endColorstr=#0000009f)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000)";
 	border-top: 3px solid #f8533d;
 	margin-bottom: 15px;
 }
+
+.ie7 .nota .bloque{
+	background: #333;
+}
+
 
 .nota .title-section{
 	color: #f8533d;

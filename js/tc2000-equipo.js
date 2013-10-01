@@ -16,16 +16,17 @@
 	/* Carousel de recomendados */
 	$relatedCarousel = $("#carousel-equipo");
 	$relatedCarousel.removeClass("mask").jcarousel();
-
+	/*
 	$relatedCarousel.find('li.jcarousel-item').each(function(){
-		$(this).mouseenter(function(){
+
+		$(this).on("mouseover", function(){
 			$(this).addClass('active');
 		});
 
-		$(this).mouseleave(function(){
+		$(this).on("mouseout",function(){
 			$(this).removeClass('active');
 		});
-		
-	});
 
+	});
+	*/
 }());

@@ -57,13 +57,17 @@
 
 
 .item{
-    background: rgba(0,0,0,0.7);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000009f,endColorstr=#0000009f);
-  	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0000009f,endColorstr=#0000009f)";
+    background: rgba(0,0,0,0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000)";
     border-top: 2px solid #f8533d;
     width: 254px;
     position: relative;
     margin: 5px;
+}
+
+.ie7 .item{
+	background: #333;
 }
 
 .item > a{

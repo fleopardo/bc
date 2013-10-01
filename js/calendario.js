@@ -97,7 +97,7 @@ $container = $('.item-container');
 	          animationOptions: {
 	             duration: 750,
 	             easing: 'linear',
-	             queue: false,
+	             queue: false
 	         }
 	        });
 
@@ -137,7 +137,7 @@ $container = $('.item-container');
 	          animationOptions: {
 	             duration: 750,
 	             easing: 'linear',
-	             queue: false,
+	             queue: false
 	         }
 	        });
 

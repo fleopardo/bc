@@ -48,11 +48,16 @@
 }
 
 .postales .container > div{
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000)";
 	padding: 20px;
 	position: relative;
 }
 
+.ie7 .postales .container > div{
+	background: #333;
+}
 
 .postales .date{
 	font-size: 13px;
