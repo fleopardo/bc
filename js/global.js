@@ -150,14 +150,14 @@ var app = app || {};
 			that.next(".submenu").slideToggle(function(){
 
 				if( that.next(".submenu").is(":visible") == true ){
-
+					that.addClass('active');
 					$("body").append("<div id='dimmer1'></div>");
 
 					$("#dimmer1").one("click", function(e){
 
 						e.preventDefault();
 						e.stopPropagation();
-
+						that.removeClass('active');
 						that.next(".submenu").slideToggle();
 						$("#dimmer1").remove();
 					});

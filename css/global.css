@@ -268,7 +268,8 @@ body{
 	}
 
 
-.breadcrumb-container ul.options .btn-share > a:hover{
+.breadcrumb-container ul.options .btn-share > a:hover,
+.breadcrumb-container ul.options .btn-share > a.active{
     background-position: -64px -72px;
 }
 

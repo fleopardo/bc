@@ -35,6 +35,10 @@
 
 /* ESTILOS GALERIA */
 
+.galeria .zoom{
+	height: 417px;
+}
+
 .galeria .zoom > article{
 	position: relative;
 }
