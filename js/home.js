@@ -44,11 +44,11 @@
 		/* Corro la posicion de la imagen para que se centre cuando se achica */
 		$(".cols:not(.active)").find("img").animate({
 			"right": "-36%"
-		},250);
+		},0);
 
 		that.find("img").animate({
 			"right": "0%"
-		},250);
+		},0);
 
 
 
