@@ -185,7 +185,7 @@ body{
     font-family: "din-medium";
     font-size: 13px;
     line-height: 18px;
-    padding: 75px 0;
+    padding: 57px 0 75px;
     color: #838383;
 }
 
@@ -411,6 +411,7 @@ section.content .bloque h4{
     background: #e65834;
     padding: 14px;
     width: 470px;
+    font-family: "din-regular";
 }
 
 section.content .cabecera{
@@ -481,6 +482,7 @@ section.content a.leer-mas-parrafo{
 .home section.content .bloque img{
     margin-bottom: 6px;
     border-top: none;
+    float: left;
 }
 
 
@@ -514,7 +516,19 @@ section.content a.leer-mas-parrafo{
     margin-bottom: 30px;
 }
 
+.operaciones-ypf a.link-ppal{
+    background: none;
+    display: inline-block;
+}
 
+.operaciones-ypf a.link-ppal:hover{
+    color: #0063be;
+}
+
+.operaciones-ypf a.link-ppal span{
+    padding:0;
+    background: none;
+}
 
 /*** UPSTREAM y DOWNSTREAM ***/
 .upstream .destacado{
@@ -625,6 +639,11 @@ section.content a.leer-mas-parrafo{
 .novedades section.content{
     width: 545px;
     margin-left: 20px;
+}
+
+.novedades section.content h3{
+    font-size: 40px;
+    line-height: 45px;
 }
 
 .novedades section.content .bloques-tabs .bloque{
