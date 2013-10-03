@@ -183,9 +183,10 @@ h2{
 
 body{
     font-family: "din-medium";
+    font-weight: normal;
     font-size: 13px;
     line-height: 18px;
-    padding: 57px 0 75px;
+    padding: 55px 0 75px;
     color: #838383;
 }
 
@@ -397,7 +398,8 @@ section.content .bloque h4{
 .destacado h3{
     font-size: 55px;
     line-height: 60px;
-    font-family: "din-black";
+    font-family: "din-regular";
+    font-weight: normal;
 }
 
 .destacado h3 span{
@@ -418,7 +420,7 @@ section.content .cabecera{
     margin-bottom: 20px;
 }
 
-section.content .cabecera h2{ 
+section.content .cabecera h2{
     color: #e65834;
     font-size: 18px;
     line-height: 24px;
@@ -470,6 +472,10 @@ section.content a.leer-mas-parrafo{
 
 
 /******** HOME *********/
+.galeria-bg{
+	background: #f2efeb;
+}
+
 .galeria-cont{
     position: relative;
     height: 398px;
@@ -542,6 +548,11 @@ section.content a.leer-mas-parrafo{
 /* estilos galeria */
 .galeria{
     width: 392px;
+}
+
+.galeria .zoom{
+	height: 200px;
+	overflow: hidden;
 }
 
 .galeria .zoom > article{
@@ -692,7 +703,7 @@ section.content a.leer-mas-parrafo{
 }
 
 .novedades section.content .nota{
-    
+
     display: none;
     position: absolute;
 }
@@ -783,7 +794,7 @@ section.content-container aside li.active > a{
 }
 
 section.content-container aside li.active > a{
-    
+
 }
 
 section.content-container aside li.first > a{
