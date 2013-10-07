@@ -215,11 +215,11 @@ body{
 a.link-ppal{
     display: block;
     text-transform: uppercase;
-    color: #9d9c9c;
+    color: #fff;
     font-size: 13px;
     line-height: 38px;
     font-family: "din-black";
-    background: #ececec;
+    background: #ccc;
     /* Firefox */
     -moz-transition: all 0.1s ease-in;
     /* WebKit */
@@ -235,16 +235,19 @@ a.link-ppal:hover{
     color: #fff;
 }
 
-
 a.link-ppal span{
     display: inline-block;
-    background: url("./assets/fd-link-ppal.png") right no-repeat;
-    padding-right: 14px;
-    padding-left: 10px;
 }
 
-a.link-ppal:hover span{
-    background: url("./assets/fd-link-blanco.png") right no-repeat;
+a.link-ppal span.descargar{
+	background: url("./assets/fd-pdf.png") 6px 8px no-repeat;
+	padding-left: 30px;
+	margin-right: 5px;
+}
+
+a.link-ppal span.peso{
+	font-family: "din-regular";
+	text-transform: lowercase;
 }
 
 .more{
@@ -418,6 +421,7 @@ section.content .bloque h4{
 
 section.content .cabecera{
     margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 section.content .cabecera h2{
@@ -653,8 +657,8 @@ section.content a.leer-mas-parrafo{
 }
 
 .novedades section.content h3{
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 30px;
+	line-height: 35px;
 }
 
 .novedades section.content .bloques-tabs .bloque{
@@ -662,8 +666,16 @@ section.content a.leer-mas-parrafo{
     width: 180px;
     height: 85px;
     overflow: hidden;
-    border-top: 4px solid #0063be;
+    border-top: 4px solid transparent;
     margin-right: 2px;
+     /* Firefox */
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
 }
 
 .novedades section.content .bloques-tabs .bloque:last-child{
@@ -682,17 +694,31 @@ section.content a.leer-mas-parrafo{
     -o-transition: all 0.3s ease-in;
     /* Standard */
     transition: all 0.3s ease-in;
+    background: #f4f4f4;
+}
+
+.novedades section.content .bloques-tabs .bloque.active,
+.novedades section.content .bloques-tabs .bloque:hover{
+	border-top: 4px solid #0063be;
 }
 
 .novedades section.content .bloques-tabs .bloque.active > a,
 .novedades section.content .bloques-tabs .bloque > a:hover{
     background: #d5d5d5;
-
 }
 
 .novedades section.content .bloques-tabs .bloque h4,
 .novedades section.content .bloques-tabs .bloque .date{
     color: #292929;
+    font-family: "din-regular";
+}
+
+.novedades section.content .bloques-tabs .bloque h4{
+	font-size: 11px;
+}
+
+.novedades section.content .bloques-tabs .bloque .date{
+    font-style: italic;
 }
 
 .novedades section.content .notas-content{
@@ -768,7 +794,7 @@ section.content-container aside h2{
     color: #e65834;
     font-size: 11px;
     line-height: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 section.content-container aside ul{
@@ -823,6 +849,9 @@ section.content-container aside li > ul li a{
 section.content-container aside.search-bar{
     width: 264px;
     border-top: none;
+    border-left: 1px solid #d8d8d8;
+	padding-left: 15px;
+	min-height: 650px;
 }
 
 section.content-container aside.search-bar h2{
@@ -833,7 +862,7 @@ section.content-container aside.search-bar h2{
 }
 
 section.content-container aside.search-bar form{
-    margin-bottom: 45px;
+    margin-bottom: 15px;
 }
 
 form.busqueda-simple fieldset{
@@ -884,7 +913,8 @@ section.content-container aside.search-bar select{
 
 section.content-container aside.search-bar .busqueda-avanzada fieldset.submit{
     border-top: 1px solid #d8d8d8;
-    padding-top: 10px;
+    padding-top: 18px;
+    margin-top: 20px;
 }
 
 section.content-container aside.search-bar .busqueda-avanzada input[type=submit]{
@@ -945,7 +975,13 @@ section.content-container aside.search-bar h3 a{
 /*fin menu lateral novedades*/
 
 
+/* comunicados-de-prensa */
 
+.comunicados-de-prensa section.content .bloque{
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
 
 
 /*
