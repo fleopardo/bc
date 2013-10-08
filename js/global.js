@@ -17,12 +17,11 @@
 			cycle: true,
 			animateStartingFrameIn: true,
 			transitionThreshold: 250,
-			preloadTheseFrames: [1]/*,
-			preloadTheseImages: [
-				"img/tn-model1.png",
-				"img/tn-model2.png",
-				"img/tn-model3.png"
-			]*/
+			preloadTheseFrames: [1],
+			fallback: {
+	            theme: "fade",
+	            speed: 500
+        	}
 		};
 
 		var sequence = $("#sequence").sequence(options).data("sequence");

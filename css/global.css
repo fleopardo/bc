@@ -220,6 +220,7 @@ a.link-ppal{
     line-height: 38px;
     font-family: "din-black";
     background: #ccc;
+    padding-left: 30px;
     /* Firefox */
     -moz-transition: all 0.1s ease-in;
     /* WebKit */
@@ -678,6 +679,7 @@ section.content a.leer-mas-parrafo{
     transition: all 0.3s ease-in;
 }
 
+.novedades section.content .bloques-tabs .bloque.last,
 .novedades section.content .bloques-tabs .bloque:last-child{
     margin-right: 0;
 }
@@ -729,7 +731,6 @@ section.content a.leer-mas-parrafo{
 }
 
 .novedades section.content .nota{
-
     display: none;
     position: absolute;
 }
@@ -756,19 +757,48 @@ section.content a.leer-mas-parrafo{
     text-transform: uppercase;
 }
 
-.novedades .jcarousel-container-horizontal{
-    width: 486px;
-    margin: 0 auto;
+.novedades .lista-videos{
+	overflow: hidden;
+	width: 100%;
 }
 
-.novedades .jcarousel-item {
-    width: 158px;
-    height: 127px;
-    padding: 7px 2px;
-    margin: 0;
+.novedades .lista-videos ul{
+	overflow: hidden;
+	height: 200px;
+	width: 1000px;
 }
 
+.novedades .lista-videos li{
+    width: 177px;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+}
 
+.novedades .lista-videos li:after{
+    background: url("./assets/ic-play.png") no-repeat;
+	content: '';
+	width: 35px;
+	height: 33px;
+	position: absolute;
+	top: 95px;
+	right: 16px;
+}
+
+.novedades .lista-videos li p{
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: "din-regular";
+    color: #636363;
+}
+
+.novedades .lista-videos li a{
+    text-decoration: none;
+}
+
+.novedades .lista-videos li a img{
+    border: none;
+}
 
 
 
@@ -981,6 +1011,10 @@ section.content-container aside.search-bar h3 a{
 	border-bottom: 1px solid #e5e5e5;
 	padding-bottom: 15px;
 	margin-bottom: 15px;
+}
+
+.comunicados-de-prensa a.link-ppal{
+	padding-left: 0;
 }
 
 
