@@ -1119,3 +1119,298 @@
 		.novedades .nota5 .more{
 			border-bottom-color: #77b8a2;
 		}
+
+
+
+
+
+/*
+ * Home Principal
+*/
+
+	/* Desafio energetico detalle */
+
+	.index .desafio-energetico-detalle{
+		width: 710px;
+		height: 384px;
+		position: relative;
+		float: left;
+		margin-right: 10px;
+	}
+
+	.index .desafio-energetico-detalle div{
+		background-color: #0d7b6a;
+		width: 199px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 5;
+	}
+
+	.index .desafio-energetico-detalle div h3{
+		font-size: 29px;
+		font-family: "din-medium";
+		font-weight: normal;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+
+	.index .desafio-energetico-detalle div h3 span{
+		font-family: "din-light";
+		font-weight: normal;
+	}
+
+	.index .desafio-energetico-detalle div p.desc{
+		font-family: "din-regular";
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 12px;
+	}
+
+	.index .desafio-energetico-detalle .more{
+		border-bottom-color: #084a40
+	}
+
+	.index .desafio-energetico-detalle:hover div{
+		background-color: #084a40;
+	}
+
+
+
+
+
+	.index .lista-notas{
+		float: left;
+		width: 478px;
+		background: #333333;
+		height: 383px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.index .lista-notas .date{
+		color: #8e8e8e;
+		font-family: "din-medium";
+		font-weight: normal;
+		font-size: 12px;
+		margin-bottom: 15px;
+		display: block;
+	}
+
+	.index .lista-notas .scrollCustom{
+		height: 320px;
+		position: relative;
+	}
+
+	.index .lista-notas h3{
+		font-family: "din-black";
+		text-transform: uppercase;
+		padding: 0 20px;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 50px;
+	}
+
+	.index .lista-notas a.nota{
+		display: block;
+		-webkit-transition: all 0.5s ease-out;
+		-o-transition: all 0.5s ease-out;
+		-moz-transition: all 0.5s ease-out;
+		-ms-transition: all 0.5s ease-out;
+		transition: all 0.5s ease-out;
+		background: transparent;
+	}
+
+	.index .lista-notas a.nota:hover{
+		background: #222;
+	}
+
+	.index .lista-notas a.nota:hover .date{
+		color: #fff;
+	}
+
+	.index .lista-notas article{
+		padding: 18px 20px 15px 115px;
+		border-top: 1px solid #222;
+		min-height: 70px;
+		position: relative;
+	}
+
+	.index .lista-notas .foto{
+		position: absolute;
+		left: 20px;
+		top: 12px;
+	}
+
+	.index .lista-notas article h4{
+		font-family: "din-medium";
+		font-size: 14px;
+		font-weight: normal;
+		color: #fff;
+		line-height: 18px;
+	}
+
+
+
+	/* Shale en el mundo & Vaca muerta */
+
+	.index .cadena-de-energia{
+		float: left;
+		width: 480px;
+		height: 186px;
+		position: relative;
+		overflow: hidden;
+	}
+
+
+	.index .cadena-de-energia div{
+		width: 208px;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 5;
+	}
+
+
+		.index .cadena-de-energia div{
+			background: #ba8b01 url("./assets/textura-amarilla.jpg");
+			left: auto;
+			right: 0;
+			width: 185px;
+		}
+
+
+
+		/* Hovers */
+
+		.index .cadena-de-energia:hover div{
+			background: #6f5c00;
+		}
+
+		/* Cambio de color para icono "More" */
+
+		.index .cadena-de-energia .more{
+			border-bottom-color: #6f5c00;
+		}
+
+
+	.index .cadena-de-energia div h3,
+	.index .tecnologia-especializada div h3,
+	.index .exploracion-no-convencional div h3,
+	.index .preguntas-respuestas div h3{
+		font-family: "din-black";
+		font-weight: normal;
+		font-size: 19px;
+		line-height: 22px;
+	}
+
+	.index .cadena-de-energia div h3{
+		font-size: 22px;
+		line-height: 24px;
+		margin-top: 48px;
+	}
+
+	.index .preguntas-respuestas div h3{
+		margin-top: 48px;
+	}
+
+	.index .tecnologia-especializada div h3{
+		margin-top: 40px;
+	}
+
+	.index .cadena-de-energia div h3 span,
+	.index .tecnologia-especializada div h3 span,
+	.index .exploracion-no-convencional div h3 span,
+	.index .preguntas-respuestas div h3 span{
+		font-family: "din-light";
+		font-weight: normal;
+		display: block;
+	}
+
+	.index .exploracion-no-convencional div h3 span{
+		display: inline;
+	}
+
+
+	/* estilos solo para que es Shale, energia para el crecimiento */
+
+	.index .cadena-de-energia{
+		width: 465px;
+		margin-right: 10px;
+		float: left;
+		clear: both;
+	}
+
+	.ie7 .index .cadena-de-energia{
+		width: 474px;
+	}
+
+
+
+	/* Recursos convencionales */
+
+	.index .preguntas-respuestas,
+	.index .tecnologia-especializada,
+	.index .exploracion-no-convencional{
+		width: 235px;
+		height: 186px;
+		float: left;
+		position: relative;
+		margin-right: 10px;
+	}
+
+	.index .tecnologia-especializada{
+		width: 235px;
+	}
+
+	.index .tecnologia-especializada div{
+		padding: 10px;
+	}
+
+	.ie7 .index .preguntas-respuestas,
+	.ie7 .index .tecnologia-especializada,
+	.ie7 .index .exploracion-no-convencional{
+		width: 232px;
+	}
+
+	.index .preguntas-respuestas{
+		background: #a65901;
+		margin-right: 0;
+	}
+
+	.index .exploracion-no-convencional{
+		background: #653d7c;
+	}
+
+	.index .tecnologia-especializada{
+		background: #2e2275;
+	}
+
+		/* Hovers */
+		.index .preguntas-respuestas:hover{
+			background: #663700;
+		}
+
+		.index .tecnologia-especializada:hover{
+			background: #31005f;
+		}
+
+		.index .exploracion-no-convencional:hover{
+			background: #432853;
+		}
+
+		/* Cambio de color para icono "More" */
+		.index .preguntas-respuestas .more{
+			border-bottom-color: #663700;
+		}
+
+		.index .tecnologia-especializada .more{
+			border-bottom-color: #31005f;
+		}
+
+		.index .exploracion-no-convencional .more{
+			border-bottom-color: #432853;
+		}

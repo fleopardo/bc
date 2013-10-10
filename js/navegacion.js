@@ -81,10 +81,10 @@ shale.navegacion = (function(window){
 					id_seccion_actual = page_id;
 
 					// Activo los links en el header
-					/*if( $(".headerYPF").length > 0 && $(".contenedor-principal").hasClass("home")){
+					if( $(".headerYPF").length > 0 && $(".contenedor-principal").hasClass("home")){
 						headerYPF.removeActives();
-						headerYPF.setActive($(".headerYPF ."+state.page_id+" > a"));
-					}*/
+						headerYPF.setActive($(".headerYPF ."+page_id+" > a"));
+					}
 
 					// lanzo un evento
 					$(window).trigger("navegacion");
@@ -146,7 +146,7 @@ shale.navegacion = (function(window){
 			// Activo los links en el header
 			if( $(".headerYPF").length > 0 && $(".contenedor-principal").hasClass("home")){
 				headerYPF.removeActives();
-				headerYPF.setActive($(".headerYPF ."+state.page_id+" > a"));
+				headerYPF.setActive($(".headerYPF ."+page_id+" > a"));
 			}
 
 			// lanzo un evento

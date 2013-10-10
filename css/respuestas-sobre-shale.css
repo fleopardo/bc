@@ -1,0 +1,183 @@
+/*
+ * MITOS Y VERDADES
+*/
+
+	.respuestas-sobre-shale .bloque{
+		margin: 0;
+		width: 400px;
+		height: 421px;
+		background: #434343;
+		padding: 0;
+	}
+
+	.respuestas-sobre-shale .bloque.last{
+		margin-bottom: 0;
+	}
+
+	.respuestas-sobre-shale .bloque.first{
+		clear: both;
+	}
+
+
+	/* INTRO */
+
+	.respuestas-sobre-shale .intro{
+		background: #a65900;
+		padding: 20px;
+		height: 380px;
+		width: 360px;
+	}
+
+	.respuestas-sobre-shale .intro h4{
+		font-size: 30px;
+		font-weight: normal;
+		font-family: "din-regular";
+		line-height: 34px;
+		margin-bottom: 40px;
+	}
+
+	.respuestas-sobre-shale .intro h4 span{
+		font-family: "din-black";
+	}
+
+	.respuestas-sobre-shale .intro p{
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.respuestas-sobre-shale .intro p a{
+		font-family: "din-medium";
+	}
+
+
+	/* PREGUNTAS */
+
+	.respuestas-sobre-shale .bloque .pregunta,
+	.respuestas-sobre-shale .bloque .respuesta{
+		padding: 20px;
+		position: relative;
+	}
+
+	.respuestas-sobre-shale .bloque .pregunta{
+		height: 170px;
+	}
+
+	.respuestas-sobre-shale .bloque .pregunta:after{
+		width: 0;
+		height: 0;
+		border-top: 15px solid white;
+		border-left: 20px solid transparent;
+		position: absolute;
+		bottom: -12px;
+		right: 30px;
+		content: " ";
+	}
+
+	.respuestas-sobre-shale .bloque .pregunta h5,
+	.respuestas-sobre-shale .bloque .respuesta h5{
+		margin-bottom: 28px;
+		margin-top: 10px;
+		line-height: 16px;
+		position: relative;
+		background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5NjFFMTQ4NzFGMDgxMUUzQjFDRkFDMEZGREYyNDdCMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5NjFFMTQ4ODFGMDgxMUUzQjFDRkFDMEZGREYyNDdCMiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjk2MUUxNDg1MUYwODExRTNCMUNGQUMwRkZERjI0N0IyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjk2MUUxNDg2MUYwODExRTNCMUNGQUMwRkZERjI0N0IyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+6zA+vQAAAMBJREFUeNqck4ENgkAMRQtxAEbACTw3OCdxBd2ADWAD3UQ30A10A9mg9iclaZojnv3JI+TgPqX/2jAzrahXrO7FN2Fi6IST8OJ1XYRs91mD9GOz1+hNYPDh/4WqqNGePIREMR1a3Rw1gI4wyW7xLWxNEnth0vszvuxT3BScOzVe4s2m0l2pFPQkaU+impZ0bhwTEu3tIYtEjINJrZY0u2bW6olLaxZm7Ty4akrknlfNTg349UFHZPSzEwHjQl8BBgAaxbz1LWUY5AAAAABJRU5ErkJggg==);
+		padding-left: 22px;
+		background-repeat: no-repeat;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+
+	.respuestas-sobre-shale .bloque .pregunta p{
+		font-family: arial;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.respuestas-sobre-shale .bloque .pregunta p.firma{
+		font-size: 14px;
+		margin-top: 20px;
+		font-style: italic;
+	}
+
+	.respuestas-sobre-shale .bloque .pregunta p.fecha{
+		font-size: 11px;
+		font-style: italic;
+		font-weight: normal;
+	}
+
+	.respuestas-sobre-shale .bloque .respuesta .scrollCustom{
+		height: 110px;
+	}
+
+	.respuestas-sobre-shale .bloque .respuesta .scrollCustom p{
+		font-family: arial;
+		font-style: italic;
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.respuestas-sobre-shale .bloque .pregunta h5:before,
+	.respuestas-sobre-shale .bloque .respuesta h5:before{
+		content: '-';
+		position: absolute;
+		bottom: -20px;
+		left: 0;
+	}
+
+
+	/* BLOQUE VERDE */
+
+	.respuestas-sobre-shale .verde .pregunta{
+		background: #5d7500;
+	}
+
+	.respuestas-sobre-shale .verde .pregunta:after{
+		border-top-color: #5d7500;
+	}
+
+
+	/* BLOQUE NARANJA */
+
+	.respuestas-sobre-shale .naranja .pregunta{
+		background: #9e7900;
+	}
+
+	.respuestas-sobre-shale .naranja .pregunta:after{
+		border-top-color: #9e7900;
+	}
+
+
+	/* BLOQUE TURQUEZA */
+
+	.respuestas-sobre-shale .turqueza .pregunta{
+		background: #26785a;
+	}
+
+	.respuestas-sobre-shale .turqueza .pregunta:after{
+		border-top-color: #26785a;
+	}
+
+
+	/* BLOQUE VIOLETA */
+
+	.respuestas-sobre-shale .violeta .pregunta{
+		background: #660078;
+	}
+
+	.respuestas-sobre-shale .violeta .pregunta:after{
+		border-top-color: #660078;
+	}
+
+
+	/* BLOQUE CELESTE */
+
+	.respuestas-sobre-shale .celeste .pregunta{
+		background: #108baf;
+	}
+
+	.respuestas-sobre-shale .celeste .pregunta:after{
+		border-top-color: #108baf;
+	}
