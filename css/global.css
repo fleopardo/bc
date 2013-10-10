@@ -632,6 +632,17 @@ section.content .bloque h2{
     width: 400px;
 }
 
+.upstream-downstream section.content .info h5{
+    font-family: "din-black";
+    border-bottom: 1px solid #e7e5e5;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
+
+.upstream-downstream section.content .info p{
+    font-family: "din-regular";
+}
+
 .upstream-downstream .scrollCustom{
 	overflow: hidden;
 	margin-top: 5px;
