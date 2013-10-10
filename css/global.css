@@ -565,7 +565,7 @@ section.content .bloque h2{
     background: url("./assets/fd-downstream.jpg") center top no-repeat;
 }
 
-/* estilos galeria */
+/*
 .galeria{
     width: 392px;
 }
@@ -613,23 +613,43 @@ section.content .bloque h2{
     margin: 0;
 }
 
-/* Horizontal Buttons */
+
 
 .galeria .jcarousel-prev-horizontal,
 .galeria .jcarousel-next-horizontal{
     top: 18px;
 }
 
-/* Horizontal Buttons */
+
 
 .galeria .jcarousel-prev-horizontal,
 .galeria .jcarousel-next-horizontal{
     top: 18px;
-}
+}*/
 
 
 .upstream-downstream section.content .info{
     width: 400px;
+}
+
+.upstream-downstream .scrollCustom{
+	overflow: hidden;
+	margin-top: 5px;
+	width: 395px !important;
+}
+
+.upstream-downstream .scrollCustom ul{
+	overflow: hidden;
+	height: 80px;
+	width: 1000px;
+}
+
+.upstream-downstream .scrollCustom li{
+    width: 125px;
+    height: 60px;
+    float: left;
+    margin-right: 8px;
+    position: relative;
 }
 
 
