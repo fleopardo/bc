@@ -18,6 +18,8 @@
 			animateStartingFrameIn: true,
 			transitionThreshold: 250,
 			preloadTheseFrames: [1],
+			//pagination: true,
+			//showPaginationOnInit:true,
 			fallback: {
 	            theme: "fade",
 	            speed: 500

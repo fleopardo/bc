@@ -540,6 +540,7 @@ section.content .bloque h2{
     padding-left: 0;
     border-top: 1px solid #ddd;
     margin-top: 30px;
+    font-family: "din-medium";
 }
 
 .operaciones-ypf a.link-ppal:hover{
@@ -547,8 +548,12 @@ section.content .bloque h2{
 }
 
 .operaciones-ypf a.link-ppal span{
-    padding:0;
-    background: none;
+    padding:0 15px 0 0;
+    background: transparent url("./assets/fd-link-ppal.png") right 14px no-repeat;
+}
+
+.operaciones-ypf a.link-ppal:hover span{
+    background: transparent url("./assets/fd-link-azul.png") right 14px no-repeat;
 }
 
 /*** UPSTREAM y DOWNSTREAM ***/

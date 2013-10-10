@@ -139,7 +139,7 @@ Aside from these comments, you may modify and distribute this file as you please
 
 .dest.animate-in {
 	left: 115px;
-	top: 20px;
+	top: 50px;
 	opacity: 1;
 
 	-webkit-transition-duration: .5s;
@@ -245,7 +245,7 @@ Aside from these comments, you may modify and distribute this file as you please
 }
 
 #sequence li .dest h2{
-	font-family: "din-medium";
+	font-family: "din-black";
 	font-weight: normal;
 	font-size: 42px;
 	line-height: 44px;
@@ -260,6 +260,11 @@ Aside from these comments, you may modify and distribute this file as you please
 	line-height: 20px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
+}
+
+#sequence li .dest p{
+	font-family: "din-regular";
+	font-weight: normal;
 }
 
 #sequence li .dest a.leer-nota{
@@ -289,3 +294,21 @@ Aside from these comments, you may modify and distribute this file as you please
 	z-index: 5;
 }
 
+h2.heading{
+	position: absolute;
+	z-index: 60;
+	background: #0063be;
+	color: #fff;
+	padding: 0 16px;
+	font-size: 18px;
+	line-height: 24px;
+	left: 90px;
+	top: 18px;
+	font-family: "din-medium";
+}
+
+h2.heading span{
+	background: url("../assets/flag-white.png") left no-repeat;
+	padding-left: 16px;
+	display: inline-block;
+}
