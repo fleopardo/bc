@@ -29,8 +29,8 @@
 		var sequence = $("#sequence").sequence(options).data("sequence");
 
 		sequence.afterLoaded = function(){
-			$("#nav").fadeIn(100);
-			$("#nav li:nth-child("+(sequence.settings.startingFrameID)+") a").addClass("active");
+			$("#arrows").fadeIn(100);
+			$("#arrows li:nth-child("+(sequence.settings.startingFrameID)+") a").addClass("active");
 		}
 
 		sequence.beforeNextFrameAnimatesIn = function(){
@@ -38,7 +38,7 @@
 			$("#nav li:nth-child("+(sequence.nextFrameID)+") a").addClass("active");
 		}
 
-		$("#nav li").click(function(){
+		$("#arrows li").click(function(){
 			if(!sequence.active){
 				$(this).children("a").removeClass("active").children("a").addClass("active");
 				sequence.nextFrameID = $(this).index()+1;
