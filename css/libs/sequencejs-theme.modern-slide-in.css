@@ -312,3 +312,18 @@ h2.heading span{
 	padding-left: 16px;
 	display: inline-block;
 }
+
+
+#arrows{
+	position: absolute;
+	z-index: 60;
+	left: 50%;
+}
+
+#arrows li a {
+	cursor: pointer;
+	background: url(../img/fd_galeria-arrows.png) left top no-repeat;
+	display: block;
+	width: 15px;
+	height: 14px;
+}
