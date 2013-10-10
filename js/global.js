@@ -34,8 +34,8 @@
 		}
 
 		sequence.beforeNextFrameAnimatesIn = function(){
-			$("#nav li:not(:nth-child("+(sequence.nextFrameID)+")) a").removeClass("active");
-			$("#nav li:nth-child("+(sequence.nextFrameID)+") a").addClass("active");
+			$("#arrows li:not(:nth-child("+(sequence.nextFrameID)+")) a").removeClass("active");
+			$("#arrows li:nth-child("+(sequence.nextFrameID)+") a").addClass("active");
 		}
 
 		$("#arrows li").click(function(){

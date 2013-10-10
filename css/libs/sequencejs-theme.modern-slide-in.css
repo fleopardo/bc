@@ -208,7 +208,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	/*bottom: 1%;*/
 	z-index: 50;
 	background: #e65834;
-	padding: 30px 30px 30px 90px;
+	padding: 30px 30px 60px 90px;
 }
 
 .dest.animate-in{
@@ -317,13 +317,25 @@ h2.heading span{
 #arrows{
 	position: absolute;
 	z-index: 60;
-	left: 50%;
+	left: 90px;
+	top: 210px;
+}
+
+#arrows li {
+	display: inline-block;
 }
 
 #arrows li a {
 	cursor: pointer;
-	background: url(../img/fd_galeria-arrows.png) left top no-repeat;
+	background: #fff;
 	display: block;
 	width: 15px;
 	height: 14px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+#arrows li a.active {
+	background: #373738;
 }
