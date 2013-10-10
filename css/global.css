@@ -186,7 +186,7 @@ body{
     font-weight: normal;
     font-size: 13px;
     line-height: 18px;
-    padding: 55px 0 75px;
+    padding: 90px 0 75px;
     color: #838383;
 }
 
@@ -198,6 +198,11 @@ body{
 .breadcrumb-container{
     background: #292929;
     padding-left: 10px;
+    position: fixed;
+	top: 55px;
+	left: 0;
+	right: 0;
+	z-index: 10;
 }
 
 .breadcrumb-container li{
@@ -215,11 +220,11 @@ body{
 a.link-ppal{
     display: block;
     text-transform: uppercase;
-    color: #fff;
+    color: #aeadad;
     font-size: 13px;
     line-height: 38px;
     font-family: "din-black";
-    background: #ccc;
+    background: #ececec;
     padding-left: 30px;
     /* Firefox */
     -moz-transition: all 0.1s ease-in;
@@ -232,7 +237,7 @@ a.link-ppal{
 }
 
 a.link-ppal:hover{
-    background: #0063be;
+    background: #00b7e3;
     color: #fff;
 }
 
@@ -402,7 +407,7 @@ section.content .bloque h4{
 .destacado h3{
     font-size: 55px;
     line-height: 60px;
-    font-family: "din-regular";
+    font-family: "din-black";
     font-weight: normal;
 }
 
@@ -429,7 +434,7 @@ section.content .cabecera h2{
     color: #e65834;
     font-size: 18px;
     line-height: 24px;
-    font-family: "din-medium";
+    font-family: "din-regular";
     margin-bottom: 8px;
 }
 
@@ -470,7 +475,9 @@ section.content a.leer-mas-parrafo{
     margin-left: 5px;
 }
 
-
+section.content .bloque h2{
+    font-family: "din-regular";
+}
 
 
 
@@ -529,7 +536,10 @@ section.content a.leer-mas-parrafo{
 
 .operaciones-ypf a.link-ppal{
     background: none;
-    display: inline-block;
+    display: block;
+    padding-left: 0;
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
 }
 
 .operaciones-ypf a.link-ppal:hover{
@@ -712,11 +722,12 @@ section.content a.leer-mas-parrafo{
 .novedades section.content .bloques-tabs .bloque h4,
 .novedades section.content .bloques-tabs .bloque .date{
     color: #292929;
-    font-family: "din-regular";
+    font-family: "din-medium";
+	font-weight: normal;
 }
 
 .novedades section.content .bloques-tabs .bloque h4{
-	font-size: 11px;
+	font-size: 12px;
 }
 
 .novedades section.content .bloques-tabs .bloque .date{
@@ -905,7 +916,6 @@ section.content-container aside.search-bar form .row{
 
 form.busqueda-simple input[type="text"]{
     height: 34px;
-    line-height: 34px;
     position: relative;
     z-index: 0;
     border: 1px solid #d8d8d8;

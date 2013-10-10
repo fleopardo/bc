@@ -50,9 +50,9 @@
 		left: 0;
 		right: 0;
 		height: 55px;
-		-moz-box-shadow: 0 8px 15px -5px #333;
-		-webkit-box-shadow: 0 8px 15px -5px #333;
-		box-shadow: 0 8px 15px -5px #333;
+		-moz-box-shadow: 0 8px 15px -5px #666;
+		-webkit-box-shadow: 0 8px 15px -5px #666;
+		box-shadow: 0 8px 15px -5px #666;
 		z-index: 1000;
 	}
 
@@ -131,7 +131,7 @@
 	.headerYPF .nav > ul.principal a{
 		font-size: 12px;
 		color: #363636;
-		font-family: "din-black";
+		font-family: "din-medium";
 		display: block;
 		line-height: 52px;
 		border-top: 3px solid transparent;

@@ -163,7 +163,7 @@ Aside from these comments, you may modify and distribute this file as you please
 
 .model {
 	/*left: 30%;*/
-	left: -5%;
+	left: 0;
 	/*bottom: -48%;*/
 	bottom: 0;
 	opacity: 0;
@@ -188,7 +188,7 @@ Aside from these comments, you may modify and distribute this file as you please
 }
 
 .model.animate-out {
-	left: 5%;
+	left: 0;
 	opacity: 0;
 
 	-webkit-transition-duration: .5s;
@@ -202,7 +202,7 @@ Aside from these comments, you may modify and distribute this file as you please
 .dest {
 	/*font-size: 3.4em;*/
 	left: 0;
-	top:100px;
+	top:50px;
 	width: 35%;
 	opacity: 0;
 	/*bottom: 1%;*/
@@ -216,7 +216,7 @@ Aside from these comments, you may modify and distribute this file as you please
 }
 
 .dest.animate-out{
-	left: -50px;
+	left: 0px;
 }
 
 #sequence li .dest h2,
@@ -245,7 +245,7 @@ Aside from these comments, you may modify and distribute this file as you please
 }
 
 #sequence li .dest h2{
-	font-family: "din-regular";
+	font-family: "din-medium";
 	font-weight: normal;
 	font-size: 42px;
 	line-height: 44px;
