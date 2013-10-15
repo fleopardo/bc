@@ -992,11 +992,11 @@ form.busqueda-simple input[type="submit"]{
     position: absolute;
     z-index: 10;
     display: block;
-    right: 0;
-    top: 0;
+    right: 5px;
+    top: 9px;
     height: 17px;
     width: 13px;
-    background: url("./assets/ic-search-bar-simple.png") 10px 10px no-repeat;
+    background: url("./assets/ic-search-bar-simple.png") no-repeat;
     border: none;
     cursor: pointer;
 }
