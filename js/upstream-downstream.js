@@ -11,7 +11,7 @@
 
 	var $galleryCarousel = $('#carousel-thumbs'),
 		$galleryZoom = $(".galeria .zoom");
-
+		$prueba = $(".upstream-downstream section.content .galeria.left article > a");
 
 	/* Instancio carousel */
 	//$galleryCarousel.removeClass("mask").jcarousel();
@@ -87,6 +87,14 @@
 		$galleryZoom.find("article").hide();
 		$galleryZoom.find("article[data-id='" + $(this).data('id') + "']").show();
 
+	});
+
+	$prueba.mouseenter(function(){
+		$(this).find('div').stop(true,true).fadeIn();
+	});
+
+	$prueba.mouseleave(function(){
+		$(this).find('div').stop(true,true).fadeOut();
 	});
 
 }());

@@ -627,6 +627,11 @@ section.content .bloque h2{
     top: 18px;
 }*/
 
+.upstream-downstream section.content .galeria.left{
+    width: 392px;
+}
+
+
 
 .upstream-downstream section.content .info{
     width: 400px;
@@ -663,9 +668,32 @@ section.content .bloque h2{
     position: relative;
 }
 
+.upstream-downstream section.content .galeria.left article > a{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
 
 
+.upstream-downstream section.content .galeria.left article > a > div{
+    position: absolute;
+    z-index: 60;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 5px;
+    background: #0063be;
+    display: none;
+}
 
+.upstream-downstream section.content .galeria.left article > a > img{
+    float: left;
+}
+
+.upstream-downstream section.content .galeria.left article > a > div p{
+    color: #fff;
+    margin-bottom: 0;
+}
 
 
 /**** COMUNICADOS DE PRENSA ****/
