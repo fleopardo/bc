@@ -4,7 +4,7 @@
     background: #fff;
     display: inline-block;
     position: relative;
-    height: 34px;
+    height: 23px;
     vertical-align: middle;
     text-decoration: none;
     overflow: hidden;
@@ -16,8 +16,8 @@
 .ui-selectmenu-icon {
     background: url("./assets/ic-selectmenu.png") no-repeat;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 5px;
+    top: 9px;
     width: 11px;
     height: 6px;
 }
@@ -84,7 +84,7 @@
 }
 
 .ui-selectmenu-status {
-    line-height: 34px;
+    line-height: 23px;
     padding: 0 10px;
     color: #838383!important;
     text-transform: uppercase;
