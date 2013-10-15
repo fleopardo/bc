@@ -246,7 +246,6 @@ Aside from these comments, you may modify and distribute this file as you please
 
 #sequence li .dest h2{
 	font-family: "din-black";
-	font-weight: normal;
 	font-size: 42px;
 	line-height: 44px;
 	text-transform: uppercase;
@@ -304,7 +303,8 @@ h2.heading{
 	line-height: 24px;
 	left: 90px;
 	top: 18px;
-	font-family: "din-medium";
+	font-family: "din-regular";
+	font-size: 13px;
 }
 
 h2.heading span{
@@ -323,14 +323,15 @@ h2.heading span{
 
 #arrows li {
 	display: inline-block;
+	margin-right: 2px;
 }
 
 #arrows li a {
 	cursor: pointer;
 	background: #fff;
 	display: block;
-	width: 15px;
-	height: 14px;
+	width: 10px;
+	height: 10px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
