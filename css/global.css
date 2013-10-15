@@ -967,7 +967,7 @@ section.content-container aside.search-bar h2{
 }
 
 section.content-container aside.search-bar form{
-    margin-bottom: 15px;
+    margin-bottom: 32px;
 }
 
 form.busqueda-simple fieldset{
@@ -979,7 +979,7 @@ section.content-container aside.search-bar form .row{
 }
 
 form.busqueda-simple input[type="text"]{
-    height: 23px;
+    height: 34px;
     position: relative;
     z-index: 0;
     border: 1px solid #d8d8d8;
@@ -992,7 +992,7 @@ form.busqueda-simple input[type="submit"]{
     position: absolute;
     z-index: 10;
     display: block;
-    right: 5px;
+    right: 8px;
     top: 9px;
     height: 17px;
     width: 13px;
@@ -1024,8 +1024,8 @@ section.content-container aside.search-bar .busqueda-avanzada fieldset.submit{
 section.content-container aside.search-bar .busqueda-avanzada input[type=submit]{
     cursor: pointer;
     width: 100%;
-    color: #fff;
-    background: #0063be url("./assets/fd-link-blanco.png") 80px 16px no-repeat;
+    color: #9d9c9c;
+    background: #d8d8d8 url("./assets/fd-link-ppal.png") 80px 16px no-repeat;
     height: 40px;
     text-transform: uppercase;
     text-align: left;
@@ -1042,7 +1042,9 @@ section.content-container aside.search-bar .busqueda-avanzada input[type=submit]
 }
 
 section.content-container aside.search-bar .busqueda-avanzada input[type=submit]:hover{
-    background-color: #e65834;
+    background: #0063be url("./assets/fd-link-blanco.png") 80px 16px no-repeat;;
+    color: #fff;
+
 }
 
 section.content-container aside.search-bar img{
