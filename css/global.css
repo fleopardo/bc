@@ -979,7 +979,7 @@ section.content-container aside.search-bar form .row{
 }
 
 form.busqueda-simple input[type="text"]{
-    height: 34px;
+    height: 23px;
     position: relative;
     z-index: 0;
     border: 1px solid #d8d8d8;
@@ -994,8 +994,8 @@ form.busqueda-simple input[type="submit"]{
     display: block;
     right: 0;
     top: 0;
-    height: 34px;
-    width: 34px;
+    height: 17px;
+    width: 13px;
     background: url("./assets/ic-search-bar-simple.png") 10px 10px no-repeat;
     border: none;
     cursor: pointer;
