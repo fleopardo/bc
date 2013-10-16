@@ -357,7 +357,7 @@ section.content .bloque h4{
     margin-bottom: 0!important;
 }
 
-.box-img-detalle .over-img{
+.over-img{
     position: absolute;
     top: 0;
     right: 0;
@@ -367,7 +367,7 @@ section.content .bloque h4{
     display: none;
 }
 
-.box-img-detalle .over-img > a{
+.over-img > a{
     display: block;
     cursor: pointer;
     position: absolute;
@@ -378,7 +378,7 @@ section.content .bloque h4{
     padding: 10px;
 }
 
-.box-img-detalle .over-img p{
+.over-img p{
     color: #fff;
     font-family: "din-black";
     font-size: 15px;
@@ -502,7 +502,16 @@ section.content .bloque h2{
     float: left;
 }
 
+.compania section.content .link-ppal span,
+.home section.content .link-ppal span{
+    background: url("./assets/fd-link-ppal.png") right 14px no-repeat;
+    padding-right: 10px;
+}
 
+.compania section.content .link-ppal:hover span,
+.home section.content .link-ppal:hover span{
+    background: url("./assets/fd-link-blanco.png") right 14px no-repeat;
+}
 
 
 /****** LA COMPAÑIA *******/
@@ -673,27 +682,14 @@ section.content .bloque h2{
     overflow: hidden;
 }
 
-
-.upstream-downstream section.content .galeria.left article > a > div{
-    position: absolute;
-    z-index: 60;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 10px 5px;
-    background: #0063be;
-    display: none;
-}
-
 .upstream-downstream section.content .galeria.left article > a > img{
     float: left;
 }
 
-.upstream-downstream section.content .galeria.left article > a > div p{
-    color: #fff;
-    margin-bottom: 0;
-}
 
+.upstream-downstream .over-img{
+    padding: 10px;
+}
 
 /**** COMUNICADOS DE PRENSA ****/
 
@@ -981,7 +977,7 @@ form.busqueda-simple input[type="text"]{
     height: 34px;
     position: relative;
     z-index: 0;
-    border: 1px solid #d8d8d8;
+    border: 2px solid #d8d8d8;
     width: 85%;
     padding: 0 12% 0 3%;
     color: #838383;
