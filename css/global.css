@@ -176,7 +176,7 @@ h2{
 	url("../fonts/din-black.woff") format("woff"),
 	url("../fonts/din-black.ttf") format("truetype"),
 	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
-	font-weight: normal;
+	/*font-weight: normal;*/
   	font-style: normal;
 }
 
@@ -408,7 +408,6 @@ section.content .bloque h4{
     font-size: 55px;
     line-height: 60px;
     font-family: "din-black";
-    font-weight: normal;
 }
 
 .destacado h3 span{
