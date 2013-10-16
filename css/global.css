@@ -966,7 +966,7 @@ section.content-container aside.search-bar h2{
 }
 
 section.content-container aside.search-bar form{
-    margin-bottom: 15px;
+    margin-bottom: 32px;
 }
 
 form.busqueda-simple fieldset{
@@ -991,11 +991,11 @@ form.busqueda-simple input[type="submit"]{
     position: absolute;
     z-index: 10;
     display: block;
-    right: 0;
-    top: 0;
-    height: 34px;
-    width: 34px;
-    background: url("./assets/ic-search-bar-simple.png") 10px 10px no-repeat;
+    right: 8px;
+    top: 9px;
+    height: 17px;
+    width: 13px;
+    background: url("./assets/ic-search-bar-simple.png") no-repeat;
     border: none;
     cursor: pointer;
 }
@@ -1023,8 +1023,8 @@ section.content-container aside.search-bar .busqueda-avanzada fieldset.submit{
 section.content-container aside.search-bar .busqueda-avanzada input[type=submit]{
     cursor: pointer;
     width: 100%;
-    color: #fff;
-    background: #0063be url("./assets/fd-link-blanco.png") 80px 16px no-repeat;
+    color: #9d9c9c;
+    background: #d8d8d8 url("./assets/fd-link-ppal.png") 80px 16px no-repeat;
     height: 40px;
     text-transform: uppercase;
     text-align: left;
@@ -1041,7 +1041,9 @@ section.content-container aside.search-bar .busqueda-avanzada input[type=submit]
 }
 
 section.content-container aside.search-bar .busqueda-avanzada input[type=submit]:hover{
-    background-color: #e65834;
+    background: #0063be url("./assets/fd-link-blanco.png") 80px 16px no-repeat;;
+    color: #fff;
+
 }
 
 section.content-container aside.search-bar img{
