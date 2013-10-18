@@ -432,7 +432,9 @@ a:hover .ic-more span{
 	color: #333;
 }
 
-
+.lt-ie9 .ic-more{
+	bottom:40px;
+}
 
 /*Destacados*/
 
