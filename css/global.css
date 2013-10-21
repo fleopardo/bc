@@ -258,6 +258,13 @@ a.link-ppal:hover{
 
 a.link-ppal span{
     display: inline-block;
+    background: url("./assets/fd-link-ppal.png") right 14px no-repeat;
+    padding-right: 10px;
+}
+
+a.link-ppal:hover span{
+    background: url("./assets/fd-link-blanco.png") right 14px no-repeat;
+    padding-right: 10px;
 }
 
 a.link-ppal span.descargar{
@@ -312,6 +319,11 @@ section.content h3{
     font-size: 23px;
     line-height: 28px;
     margin-bottom: 12px;
+}
+
+.title-container{
+    width: 530px;
+    float: left;
 }
 
 section.content p{
@@ -533,25 +545,16 @@ section.content .bloque h2{
     float: left;
 }
 
-.home section.content .link-ppal span{
-    background: url("./assets/fd-link-ppal.png") right 14px no-repeat;
-    padding-right: 10px;
-}
-
-.home section.content .link-ppal:hover span{
-    background: url("./assets/fd-link-blanco.png") right 14px no-repeat;
-}
-
 
 /*bloque e-pagos*/
-.bloque-pagos{
+.formularios-pagos{
     background: #f8f8f8;
     border-top: 4px solid #dedede;
     padding: 12px 18px;
     margin-bottom: 40px;
 }
 
-.bloque-pagos legend{
+.formularios-pagos legend{
     color: #292929;
     font-size: 23px;
     line-height: 25px;
@@ -561,15 +564,15 @@ section.content .bloque h2{
     border-bottom: 1px solid #dedede;
 }
 
-.bloque-pagos input[type=text],
-.bloque-pagos input[type=password]{
+.formularios-pagos input[type=text],
+.formularios-pagos input[type=password]{
     border: 1px solid #d8d8d8;
     padding: 0 5px;
     height: 34px;
     color: #808080;
 }
 
-.bloque-pagos input[type=submit]{
+.formularios-pagos input[type=submit]{
     cursor: pointer;
     color: #9d9c9c;
     background: #d8d8d8 url("./assets/fd-link-ppal.png") 95px 14px no-repeat;
@@ -589,44 +592,44 @@ section.content .bloque h2{
     transition: all 0.2s ease-in;
 }
 
-.bloque-pagos input[type=submit]:hover{
+.formularios-pagos input[type=submit]:hover{
     background: #0063be url("./assets/fd-link-blanco.png") 95px 14px no-repeat;;
     color: #fff;
 }
 
-.bloque-pagos.horizontal input[type=text],
-.bloque-pagos.horizontal input[type=password]{
+.formularios-pagos.horizontal input[type=text],
+.formularios-pagos.horizontal input[type=password]{
     width: 243px;
     margin-right: 20px;
 }
 
-.bloque-pagos.horizontal input[type=submit]{
+.formularios-pagos.horizontal input[type=submit]{
     width: 255px;
 }
 
 
-.bloque-pagos.vertical{
+.formularios-pagos.vertical{
     width: 240px;
 }
 
-.bloque-pagos.vertical legend{
+.formularios-pagos.vertical legend{
     padding-bottom: 0;
     border-bottom: none;
 }
 
-.bloque-pagos.vertical fieldset.submit{
+.formularios-pagos.vertical fieldset.submit{
     padding-top: 20px;
     border-top: 1px solid #dedede;
 }
 
-.bloque-pagos.vertical input[type="text"],
-.bloque-pagos.vertical input[type="password"]{
+.formularios-pagos.vertical input[type="text"],
+.formularios-pagos.vertical input[type="password"]{
     width: 228px;
     display: block;
     margin-bottom: 20px;
 }
 
-.bloque-pagos.vertical input[type="submit"]{
+.formularios-pagos.vertical input[type="submit"]{
     width: 100%;
 }
 
@@ -634,17 +637,37 @@ section.content .bloque h2{
 
 
 
+/********+ CLIENTES Y PROVEEDORES *********/
+.top-content{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dedede;
+}
 
-/**** OPERACIONES YPF ****/
-.operaciones-ypf .destacado{
+section.content .top-content h2{
+    color: #0063be;
+}
+
+.clientes-y-proveedores .formularios-pagos{
+    width: 265px;
+    padding-left: 20px;
+    padding-right: 0;
+    float: right;
+    border-left: 1px solid #dedede;
+    border-top: none;
+    background: none;
+    margin-bottom: 0;
+}
+
+.clientes-y-proveedores .destacado{
     background: url("./assets/fd-operaciones-destacado.jpg") center top no-repeat;
 }
 
-.operaciones-ypf section.content h3{
+.clientes-y-proveedores section.content h3{
     margin-bottom: 30px;
 }
 
-.operaciones-ypf a.link-ppal{
+.clientes-y-proveedores a.link-ppal{
     background: none;
     display: block;
     padding-left: 0;
@@ -653,16 +676,16 @@ section.content .bloque h2{
     font-family: "din-medium";
 }
 
-.operaciones-ypf a.link-ppal:hover{
+.clientes-y-proveedores a.link-ppal:hover{
     color: #0063be;
 }
 
-.operaciones-ypf a.link-ppal span{
+.clientes-y-proveedores a.link-ppal span{
     padding:0 15px 0 0;
     background: transparent url("./assets/fd-link-ppal.png") right 14px no-repeat;
 }
 
-.operaciones-ypf a.link-ppal:hover span{
+.clientes-y-proveedores a.link-ppal:hover span{
     background: transparent url("./assets/fd-link-azul.png") right 14px no-repeat;
 }
 
