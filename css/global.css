@@ -461,7 +461,7 @@ section.content .bloque h4{
     color: #fff;
     font-size: 15px;
     line-height: 20px;
-    background: #e65834;
+    background: #0063be;
     padding: 14px;
     width: 470px;
     font-family: "din-regular";
@@ -638,6 +638,7 @@ section.content .bloque h2{
 
 
 /********+ CLIENTES Y PROVEEDORES *********/
+
 .top-content{
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -660,7 +661,7 @@ section.content .top-content h2{
 }
 
 .clientes-y-proveedores .destacado{
-    background: url("./assets/fd-operaciones-destacado.jpg") center top no-repeat;
+    background: url("./assets/fd-clientes-y-proveedores.jpg") center top no-repeat;
 }
 
 .clientes-y-proveedores section.content h3{
