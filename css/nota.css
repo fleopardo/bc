@@ -190,6 +190,7 @@
 	font-size: 13px;
 	line-height: 16px;
 	margin-bottom: 23px;
+	float: left;
 }
 
 .news .date span{
@@ -199,6 +200,10 @@
 .news .date .fecha{
 	font-family: "din-black";
 	margin-left: 0;
+}
+
+.news .social{
+	float: left;
 }
 
 .news .scrollCustom{

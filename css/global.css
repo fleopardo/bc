@@ -436,6 +436,85 @@ a:hover .ic-more span{
 	bottom:36px;
 }
 
+
+
+/*Compartir social media*/
+
+.social > a{
+	color: #fff;
+	font: 11px/15px arial, Helvetica, sans-serif;
+	font-style: italic;
+	display: inline-block;
+	background: url("./assets/ic-share.jpg") 13px center no-repeat;
+	padding: 15px 15px 15px 30px;
+
+}
+
+.social > a.active{
+	background-color: #000;
+}
+
+.social .share{
+	position: absolute;
+	z-index: 50;
+}
+
+.social .share a{
+	display: inline-block;
+	width: 55px;
+	height: 38px;
+	background: url("./assets/sp-social-media.png") no-repeat;
+}
+
+.social .share li{
+	margin-right: 1px;
+	float: left;
+}
+
+.social .share a.fb{
+	background-position: 0 0;
+}
+
+.social .share a.fb:hover{
+	background-position: 0 -38px;
+}
+
+.social .share a.tw{
+	background-position: -56px 0;
+}
+
+.social .share a.tw:hover{
+	background-position: -56px -38px;
+}
+
+.social .share a.li{
+	background-position: -112px 0;
+}
+
+.social .share a.li:hover{
+	background-position: -112px -38px;
+}
+
+.social .share a.gplus{
+	background-position: -168px 0;
+}
+
+.social .share a.gplus:hover{
+	background-position: -168px -38px;
+}
+
+.social .share a.mail{
+	background-position: -224px 0;
+}
+
+.social .share a.mail:hover{
+	background-position: -224px -38px;
+}
+
+.social .share a span.hide{
+	display: none;
+}
+
 /*Destacados*/
 
 .banner-destacado{

@@ -169,7 +169,34 @@ var app = app || {};
 		});
 
 	}
+	/*Popups compartir*/
+	if( $(".social .share a").length > 0 ){
 
+		$(".social .share dt").on('click', function(){
+			$(this).find('dd').
+		});
+
+		app.popup = function(url) {
+
+			var ancho = 650;
+			var alto = 450;
+			var posicion_x = (screen.width/2)-(ancho/2);
+			var posicion_y = (screen.height/2)-(alto/2);
+
+			window.open(url, "", "width="+ancho+",height="+alto+",menubar=0,toolbar=0,directories=0,scrollbars=no,resizable=no,left="+posicion_x+",top="+posicion_y+"");
+		}
+
+
+		$(".social .share a").on("click", function(e){
+
+			e.preventDefault();
+			var url = $(this).attr("href");
+			app.popup(url);
+
+		});
+	}
+	
+	
 
 
 }());
