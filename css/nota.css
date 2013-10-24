@@ -190,6 +190,7 @@
 	font-size: 13px;
 	line-height: 16px;
 	margin-bottom: 23px;
+	margin-top: 14px;
 	float: left;
 }
 
@@ -204,6 +205,7 @@
 
 .news .social{
 	float: left;
+	margin-left: 15px;
 }
 
 .news .scrollCustom{

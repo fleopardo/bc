@@ -172,8 +172,20 @@ var app = app || {};
 	/*Popups compartir*/
 	if( $(".social .share a").length > 0 ){
 
-		$(".social .share dt").on('click', function(){
-			$(this).find('dd').
+		$(".social > a").on('click', function(){
+			
+			if( $(this).hasClass('active') ){
+				//console.log("tiene active");
+				$(this).removeClass('active');
+				$(".social .share").stop(true,true).fadeOut();
+				
+			}else{
+				//console.log("no tiene active");
+				$(this).addClass('active');
+				$(".social .share").stop(true,true).fadeIn();
+			}
+
+			
 		});
 
 		app.popup = function(url) {
