@@ -203,7 +203,8 @@ Aside from these comments, you may modify and distribute this file as you please
 	/*font-size: 3.4em;*/
 	left: 0;
 	top:100px;
-	width: 35%;
+	/*width: 35%;*/
+	width: 440px;
 	opacity: 0;
 	/*bottom: 1%;*/
 	z-index: 50;
@@ -214,7 +215,10 @@ Aside from these comments, you may modify and distribute this file as you please
 #sequence li .destacado h3,
 #sequence li .destacado a,
 #sequence li .destacado .date,
-#sequence li .destacado span{
+#sequence li .destacado span,
+#sequence .social-container,
+#sequence .social-container .social,
+#sequence .social-container .social li{
 	position: relative;
 	color: #fff;
 }
@@ -223,6 +227,8 @@ Aside from these comments, you may modify and distribute this file as you please
 	font-size: 13px;
 	line-height: 16px;
 	margin-bottom: 23px;
+	margin-top: 14px;
+	float: left;
 }
 
 #sequence li .destacado .date span{
@@ -232,6 +238,20 @@ Aside from these comments, you may modify and distribute this file as you please
 #sequence li .destacado .date .fecha{
 	font-family: "din-black";
 	margin-left: 0;
+}
+
+#sequence .social-container .social .share{
+	width: 280px;
+	left: auto;
+}
+
+#sequence .social-container .social{
+	float: left;
+	margin-left: 15px;
+}
+
+#sequence .social-container .social li{
+	width: auto;
 }
 
 #sequence li .destacado h2{

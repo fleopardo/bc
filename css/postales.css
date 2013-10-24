@@ -63,7 +63,9 @@
 	font-size: 13px;
 	line-height: 16px;
 	margin-bottom: 23px;
+	margin-top: 14px;
 	color: #fff;
+	float: left;
 }
 
 .postales .date span{
@@ -75,6 +77,10 @@
 	margin-left: 0;
 }
 
+.postales .social{
+	float: left;
+	margin-left: 15px;
+}
 
 .postales .container{
 	width: 45%;
