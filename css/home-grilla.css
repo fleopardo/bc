@@ -1254,7 +1254,7 @@
 
 
 
-	/* Shale en el mundo & Vaca muerta */
+	/*  */
 
 	.index .cadena-de-energia{
 		float: left;
@@ -1265,7 +1265,8 @@
 	}
 
 
-	.index .cadena-de-energia div{
+	.index .cadena-de-energia div,
+	.index .tecnologia-especializada div{
 		width: 208px;
 		position: absolute;
 		top: 0;
@@ -1275,11 +1276,15 @@
 	}
 
 
-		.index .cadena-de-energia div{
-			background: #ba8b01 url("./assets/textura-amarilla.jpg");
+		.index .cadena-de-energia div,
+		.index .tecnologia-especializada div{
 			left: auto;
 			right: 0;
 			width: 185px;
+		}
+
+		.index .cadena-de-energia div{
+			background: #ba8b01 url("./assets/textura-amarilla.jpg");
 		}
 
 
@@ -1299,7 +1304,7 @@
 
 	.index .cadena-de-energia div h3,
 	.index .tecnologia-especializada div h3,
-	.index .exploracion-no-convencional div h3,
+	.index .mitos-verdades div h3,
 	.index .preguntas-respuestas div h3{
 		font-family: "din-black";
 		font-weight: normal;
@@ -1307,54 +1312,65 @@
 		line-height: 22px;
 	}
 
-	.index .cadena-de-energia div h3{
+	.index .cadena-de-energia div h3,
+	.index .tecnologia-especializada div h3{
 		font-size: 22px;
 		line-height: 24px;
 		margin-top: 48px;
 	}
 
+
 	.index .preguntas-respuestas div h3{
 		margin-top: 48px;
 	}
 
-	.index .tecnologia-especializada div h3{
-		margin-top: 40px;
-	}
-
 	.index .cadena-de-energia div h3 span,
 	.index .tecnologia-especializada div h3 span,
-	.index .exploracion-no-convencional div h3 span,
+	.index .mitos-verdades div h3 span,
 	.index .preguntas-respuestas div h3 span{
 		font-family: "din-light";
 		font-weight: normal;
 		display: block;
 	}
 
-	.index .exploracion-no-convencional div h3 span{
+	.index .mitos-verdades div h3 span{
 		display: inline;
 	}
 
 
 	/* estilos solo para que es Shale, energia para el crecimiento */
 
-	.index .cadena-de-energia{
+	.index .cadena-de-energia,
+	.index .tecnologia-especializada{
 		width: 465px;
 		margin-right: 10px;
 		float: left;
 		clear: both;
+		position: relative;
 	}
 
-	.ie7 .index .cadena-de-energia{
+	.ie7 .index .cadena-de-energia,
+	.ie7 .index .tecnologia-especializada{
 		width: 474px;
 	}
 
+	.index .tecnologia-especializada{
+		background: #2e2275;
+		height: 187px;
+	}
 
+	.index .tecnologia-especializada .more{
+		border-bottom-color: #31005f;
+	}
+
+	.index .tecnologia-especializada:hover{
+		background: #31005f;
+	}
 
 	/* Recursos convencionales */
 
 	.index .preguntas-respuestas,
-	.index .tecnologia-especializada,
-	.index .exploracion-no-convencional{
+	.index .mitos-verdades{
 		width: 235px;
 		height: 186px;
 		float: left;
@@ -1362,31 +1378,23 @@
 		margin-right: 10px;
 	}
 
-	.index .tecnologia-especializada{
-		width: 235px;
-	}
-
-	.index .tecnologia-especializada div{
-		padding: 10px;
-	}
 
 	.ie7 .index .preguntas-respuestas,
-	.ie7 .index .tecnologia-especializada,
-	.ie7 .index .exploracion-no-convencional{
+	.ie7 .index .mitos-verdades{
 		width: 232px;
 	}
 
 	.index .preguntas-respuestas{
-		background: #a65901;
 		margin-right: 0;
+		background: #a65901;
 	}
 
-	.index .exploracion-no-convencional{
-		background: #653d7c;
+	.index .preguntas-respuestas div{
+		background: url("assets/ic_preguntas-home.png") no-repeat 20px 35px;
 	}
 
-	.index .tecnologia-especializada{
-		background: #2e2275;
+	.index .mitos-verdades{
+		background: #6d8800;
 	}
 
 		/* Hovers */
@@ -1394,12 +1402,8 @@
 			background: #663700;
 		}
 
-		.index .tecnologia-especializada:hover{
-			background: #31005f;
-		}
-
-		.index .exploracion-no-convencional:hover{
-			background: #432853;
+		.index .mitos-verdades:hover{
+			background: #516407;
 		}
 
 		/* Cambio de color para icono "More" */
@@ -1407,10 +1411,79 @@
 			border-bottom-color: #663700;
 		}
 
-		.index .tecnologia-especializada .more{
-			border-bottom-color: #31005f;
+		.index .mitos-verdades .more{
+			border-bottom-color: #516407;
 		}
 
+
+
+	/* Sabias que */
+
+	.index .sabias-que{
+		width: 478px;
+		height: 187px;
+		background: #2a2a2a;
+		margin-right: 10px;
+		float: left;
+	}
+
+	.index .sabias-que h3{
+		font-family: "din-light";
+		font-size: 22px;
+		line-height: 26px;
+		margin-bottom: 18px;
+		padding-left: 30px;
+		background: url("./assets/sabias-que.png") no-repeat left center;
+	}
+
+	.index .sabias-que p{
+		font-size: 13px;
+		line-height: 20px;
+	}
+
+
+
+	/* Exploracion no convecional */
+
+	.index .exploracion-no-convencional{
+		float: left;
+		width: 478px;
+		height: 186px;
+		position: relative;
+	}
+
+	.index .exploracion-no-convencional h3{
+		font-family: "din-light";
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 18px;
+	}
+
+	.index .exploracion-no-convencional div{
+		background: #743882;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.index .exploracion-no-convencional img{
+		top: 10px;
+		right: 35px;
+	}
+
+
+	/* Cambio de color para icono "More" */
+
 		.index .exploracion-no-convencional .more{
-			border-bottom-color: #432853;
+			border-bottom-color: #452a55;
 		}
+
+		.index .exploracion-no-convencional div:hover{
+			background: #452a55;
+		}
+
+
+
+
