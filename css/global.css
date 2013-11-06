@@ -566,8 +566,11 @@ section.content .bloque img{
 }
 
 
-
-
+/**** COMERCIALES ****/
+.comerciales .destacado{
+    background: url("./assets/destacado-comerciales.jpg") center top no-repeat;
+    padding-top: 118px;
+}
 
 
 
