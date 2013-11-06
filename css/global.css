@@ -278,6 +278,21 @@ a.link-ppal span.peso{
 	text-transform: lowercase;
 }
 
+a.flag-links{
+    display: inline-block;
+    background: url("./assets/fd-flag-links.png") left 5px no-repeat;
+    padding-left: 16px;
+    font-family: "din-black";
+    font-size: 11px;
+    line-height: 18px;
+    color: #bbb;
+}
+
+a.flag-links:hover{
+    background-position: left -20px;
+    color: #0063be;
+}
+
 .more{
     border-bottom: 25px solid #1f4a58;
     border-left: 26px solid transparent;
@@ -704,10 +719,16 @@ section.content .top-content h2{
 }
 
 
+/*** PROMOCIONES ***/
 
 
-
-
+.promociones section.content h4{
+    color: #9d9c9c;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: "din-medium";
+    margin: 14px 0;
+}
 
 
 
