@@ -437,7 +437,7 @@ section.content .bloque img{
 
 .destacado{
     min-height: 158px;
-    padding-top: 40px;
+    padding-top: 52px;
 }
 
 .destacado h2,
@@ -650,7 +650,6 @@ section.content .top-content h2{
 
 .acerca-de-boxes .destacado{
     background: url("./assets/destacado-acerca-de-boxes.jpg") center top no-repeat;
-    padding-top: 52px;
 }
 
 .acerca-de-boxes .destacado p{
@@ -720,7 +719,9 @@ section.content .top-content h2{
 
 
 /*** PROMOCIONES ***/
-
+.promociones .destacado{
+    background: url("./assets/destacado-promociones.jpg") center top no-repeat;
+}
 
 .promociones section.content h4{
     color: #9d9c9c;
