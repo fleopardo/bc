@@ -391,49 +391,7 @@ section.content .bloque img{
     float: left;
 }
 
-/*section.content .bloque span.date{
-    font-family: "din-black";
-    margin-bottom: 5px;
-    display: inline-block;
-}
 
-
-.box-img-detalle{
-    position: relative;
-}
-
-.box-img-detalle img{
-    width: 100%;
-    margin-bottom: 0!important;
-}
-
-.over-img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(21,176,218,0.9);
-    display: none;
-}
-
-.over-img > a{
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-}
-
-.over-img p{
-    color: #fff;
-    font-family: "din-black";
-    font-size: 15px;
-    line-height: 18px;
-}*/
 
 .destacado{
     min-height: 158px;
@@ -476,58 +434,6 @@ section.content .bloque img{
     font-family: "din-medium";
 }
 
-/*section.content .cabecera{
-    margin-bottom: 20px;
-    border-bottom: 1px solid #e5e5e5;
-}
-
-section.content .cabecera h2{
-    color: #e65834;
-    font-size: 18px;
-    line-height: 24px;
-    font-family: "din-regular";
-    margin-bottom: 8px;
-}
-
-section.content .cabecera h3{
-    font-size: 42px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-    line-height: 48px;
-    font-family: "din-regular";
-}
-
-section.content .cabecera > div{
-    background: #e65834;
-    padding: 20px;
-}
-
-section.content .cabecera > div h4,
-section.content .cabecera > div p{
-    color: #fff;
-}
-
-section.content .cabecera > div h4{
-    font-size: 23px;
-    line-height: 28px;
-    margin-bottom: 5px;
-}
-
-section.content .cabecera > div p{
-    margin-bottom: 0;
-}
-
-section.content a.leer-mas-parrafo{
-    color: #0063be;
-    font-family: "din-black";
-    display: inline-block;
-    background: url("./assets/fd-link-azul.png") right no-repeat;
-    padding-right: 10px;
-    margin-left: 5px;
-}*/
-
-
-
 
 
 
@@ -552,101 +458,11 @@ section.content a.leer-mas-parrafo{
 }
 
 
-/*bloque e-pagos
-.formularios-pagos{
-    background: #f8f8f8;
-    border-top: 4px solid #dedede;
-    padding: 12px 18px;
-    margin-bottom: 40px;
-}
-
-.formularios-pagos legend{
-    color: #292929;
-    font-size: 23px;
-    line-height: 25px;
-    width: 100%;
-    padding-bottom: 15px;
-    margin-bottom: 17px;
-    border-bottom: 1px solid #dedede;
-}
-
-.formularios-pagos input[type=text],
-.formularios-pagos input[type=password]{
-    border: 1px solid #d8d8d8;
-    padding: 0 5px;
-    height: 34px;
-    color: #808080;
-}
-
-
-
-.formularios-pagos input[type=submit]:hover{
-    background: #0063be url("./assets/fd-link-blanco.png") 95px 14px no-repeat;;
-    color: #fff;
-}
-
-.formularios-pagos.horizontal input[type=text],
-.formularios-pagos.horizontal input[type=password]{
-    width: 243px;
-    margin-right: 20px;
-}
-
-.formularios-pagos.horizontal input[type=submit]{
-    width: 255px;
-}
-
-
-.formularios-pagos.vertical{
-    width: 240px;
-}
-
-.formularios-pagos.vertical legend{
-    padding-bottom: 0;
-    border-bottom: none;
-}
-
-.formularios-pagos.vertical fieldset.submit{
-    padding-top: 20px;
-    border-top: 1px solid #dedede;
-}
-
-.formularios-pagos.vertical input[type="text"],
-.formularios-pagos.vertical input[type="password"]{
-    width: 228px;
-    display: block;
-    margin-bottom: 20px;
-}
-
-.formularios-pagos.vertical input[type="submit"]{
-    width: 100%;
-}*/
 
 
 
 
-
-/********+ CLIENTES Y PROVEEDORES *********/
-
-/*.top-content{
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #dedede;
-}
-
-section.content .top-content h2{
-    color: #0063be;
-}
-
-.clientes-y-proveedores .formularios-pagos{
-    width: 265px;
-    padding-left: 20px;
-    padding-right: 0;
-    float: right;
-    border-left: 1px solid #dedede;
-    border-top: none;
-    background: none;
-    margin-bottom: 0;
-}*/
+/******** ACERCA DE BOXES *********/
 
 .acerca-de-boxes .destacado{
     background: url("./assets/destacado-acerca-de-boxes.jpg") center top no-repeat;
@@ -663,27 +479,7 @@ section.content .top-content h2{
     border-bottom: 1px solid #d8d8d8;
 }
 
-/*.clientes-y-proveedores a.link-ppal{
-    background: none;
-    display: block;
-    padding-left: 0;
-    border-top: 1px solid #ddd;
-    margin-top: 30px;
-    font-family: "din-medium";
-}
 
-.clientes-y-proveedores a.link-ppal:hover{
-    color: #0063be;
-}
-
-.clientes-y-proveedores a.link-ppal span{
-    padding:0 15px 0 0;
-    background: transparent url("./assets/fd-link-ppal.png") right 14px no-repeat;
-}
-
-.clientes-y-proveedores a.link-ppal:hover span{
-    background: transparent url("./assets/fd-link-azul.png") right 14px no-repeat;
-}*/
 
 
 /* BOXES MAS CERCANOS */
@@ -730,6 +526,48 @@ section.content .top-content h2{
     font-family: "din-medium";
     margin: 14px 0;
 }
+
+
+
+/**** BASES Y CONDICIONES ****/
+
+.bases-condiciones .destacado{
+    background: url("./assets/destacado-bases.jpg") center top no-repeat;
+}
+
+.bases-condiciones section.content .title-container{
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 40px;
+}
+
+.bases-condiciones section.content .title-container h2{
+    color: #0063be;
+    font-family: "din-medium";
+    font-size: 18px;
+    line-height: 24px;
+    background: url("./assets/fd-flag-links.png") left -15px no-repeat;
+    padding-left: 20px;
+}
+
+.bases-condiciones section.content .title-container h3{
+    font-family: "din-regular";
+    font-size: 30px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.bases-condiciones section.content dt{
+    font-family: "din-black";
+}
+
+.bases-condiciones section.content dd{
+    font-family: "din-regular";
+    margin-bottom: 30px;
+}
+
+
+
+
 
 
 
