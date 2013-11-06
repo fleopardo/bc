@@ -309,7 +309,7 @@ section.content{
 }
 
 .tres-columnas section.content{
-    width: 545px;
+    width: 542px;
     margin-left: 20px;
 }
 
@@ -321,11 +321,6 @@ section.content h3{
     margin-bottom: 12px;
 }
 
-.title-container{
-    width: 530px;
-    float: left;
-}
-
 section.content p{
     margin-bottom: 15px;
 }
@@ -335,50 +330,44 @@ section.content .right{
     width: 415px;
 }
 
-.tres-columnas section.content .box-img-detalle{
-    width: 100%;
-    margin-bottom: 15px;
-}
-
 section.content .bloque{
     overflow: hidden;
     margin-bottom: 30px;
+    width: 260px;
 }
 
-.tres-columnas section.content .bloque{
-    margin-bottom: 30px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ececec;
+section.content .bloque h2{
+    color: #fff;
+    font-size: 17px;
+    line-height: 32px;
+    background: #a5a5a5;
+    padding: 0 12px;
+    font-family: "din-medium";
 }
 
-section.content .bloque ul{
-    margin-bottom: 20px;
+section.content .bloque.principal h2{
+    margin-bottom: 10px;
 }
 
-section.content .bloque li{
-    border-bottom: 1px solid #ececec;
-    padding: 3px 0;
+section.content .bloque h3{
+    color: #9d9c9c;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: "din-medium";
+    margin-bottom: 4px;
 }
-
-section.content .bloque li a{
-    color: #808080;
-    font-size: 11px;
-    line-height: 18px;
-    display: inline-block;
-    text-transform: uppercase;
-}
-
-section.content .bloque li a:hover{
-    color: #0063be;
-}
-
 section.content .bloque p{
-    margin-bottom: 12px;
+    color: #9d9c9c;
+    font-family: "din-regular";
+    margin-bottom: 4px;
+}
+
+section.content .bloque.principal{
+    width: 542px;
 }
 
 section.content .bloque img{
-    margin-bottom: 6px;
-    border-top: 4px solid #0063be;
+    float: left;
 }
 
 section.content .bloque span.date{
@@ -387,11 +376,8 @@ section.content .bloque span.date{
     display: inline-block;
 }
 
-section.content .bloque h4{
-    margin-bottom: 5px;
-}
 
-.box-img-detalle{
+/*.box-img-detalle{
     position: relative;
 }
 
@@ -426,7 +412,7 @@ section.content .bloque h4{
     font-family: "din-black";
     font-size: 15px;
     line-height: 18px;
-}
+}*/
 
 .destacado{
     min-height: 158px;
@@ -757,17 +743,17 @@ section.content-container aside li > ul li a{
 
 
 
-/*********** menu lateral novedades ***********/
+/*********** aside derecho ***********/
 
-section.content-container aside.search-bar{
-    width: 264px;
+section.content-container aside.right-aside{
+    width: 262px;
     border-top: none;
-    border-left: 1px solid #d8d8d8;
-	padding-left: 15px;
-	min-height: 650px;
+    padding-left: 20px;
+    padding-top: 0;
+    float: right;
 }
 
-section.content-container aside.search-bar h2{
+/*section.content-container aside.search-bar h2{
     font-size: 23px;
     line-height: 26px;
     color: #292929;
@@ -817,19 +803,19 @@ section.content-container aside.search-bar label{
     font-family: "din-black";
     display: inline-block;
     width: 44px;
-}
+}*/
 
-section.content-container aside.search-bar select{
+section.content-container aside.right-aside select{
     width: 213px;
 }
 
-section.content-container aside.search-bar .busqueda-avanzada fieldset.submit{
+section.content-container aside.right-aside fieldset.submit{
     border-top: 1px solid #d8d8d8;
     padding-top: 18px;
     margin-top: 20px;
 }
 
-section.content-container aside.search-bar .busqueda-avanzada input[type=submit]{
+section.content-container aside.right-aside input[type=submit]{
     cursor: pointer;
     width: 100%;
     color: #9d9c9c;
@@ -849,13 +835,13 @@ section.content-container aside.search-bar .busqueda-avanzada input[type=submit]
     transition: all 0.2s ease-in;
 }
 
-section.content-container aside.search-bar .busqueda-avanzada input[type=submit]:hover{
+section.content-container aside.right-aside input[type=submit]:hover{
     background: #0063be url("./assets/fd-link-blanco.png") 80px 16px no-repeat;;
     color: #fff;
 
 }
 
-section.content-container aside.search-bar img{
+/*section.content-container aside.search-bar img{
     width: 100%;
 }
 
@@ -883,7 +869,7 @@ section.content-container aside.search-bar h3 a{
     margin-bottom: 5px;
     display: block;
     color: #292929;
-}
+}*/
 
 
 /*fin menu lateral novedades*/

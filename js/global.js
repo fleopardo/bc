@@ -59,13 +59,13 @@
 
 
 	/* :Hovers detalle*/
-	$('.box-img-detalle').mouseenter(function(){
-		$(this).find('.over-img').stop(true,true).fadeIn();
-	});
+	// $('.box-img-detalle').mouseenter(function(){
+	// 	$(this).find('.over-img').stop(true,true).fadeIn();
+	// });
 
-	$('.box-img-detalle').mouseleave(function(){
-		$(this).find('.over-img').stop(true,true).fadeOut();
-	});
+	// $('.box-img-detalle').mouseleave(function(){
+	// 	$(this).find('.over-img').stop(true,true).fadeOut();
+	// });
 
 
 	/*INCIALIZACION DE PLUG IN SELECTMENU*/
