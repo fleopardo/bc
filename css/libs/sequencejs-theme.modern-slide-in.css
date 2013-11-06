@@ -209,6 +209,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	z-index: 50;
 	background: #1b2c5a;
 	padding: 30px 30px 60px 90px;
+	height: 152px;
 }
 
 .dest.animate-in{
@@ -318,7 +319,7 @@ h2.heading span{
 	position: absolute;
 	z-index: 60;
 	left: 90px;
-	top: 210px;
+	top: 250px;
 }
 
 #arrows li {
