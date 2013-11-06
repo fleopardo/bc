@@ -422,7 +422,7 @@ section.content .bloque span.date{
 
 .destacado{
     min-height: 158px;
-    padding-top: 90px;
+    padding-top: 40px;
 }
 
 .destacado h2,
@@ -452,11 +452,11 @@ section.content .bloque span.date{
 .destacado p{
     color: #fff;
     font-size: 15px;
-    line-height: 20px;
-    background: #0063be;
+    line-height: 19px;
+    background: #292929;
     padding: 14px;
-    width: 470px;
-    font-family: "din-regular";
+    /*width: 470px;*/
+    font-family: "din-medium";
 }
 
 section.content .cabecera{
@@ -632,14 +632,22 @@ section.content .top-content h2{
     border-top: none;
     background: none;
     margin-bottom: 0;
+}*/
+
+.acerca-de-boxes .destacado{
+    background: url("./assets/destacado-acerca-de-boxes.jpg") center top no-repeat;
+    padding-top: 52px;
 }
 
-.clientes-y-proveedores .destacado{
-    background: url("./assets/fd-clientes-y-proveedores.jpg") center top no-repeat;
+.acerca-de-boxes .destacado p{
+    font-size: 19px;
+    line-height: 25px;
 }
 
-.clientes-y-proveedores section.content h3{
+.acerca-de-boxes section.content h3{
     margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d8d8d8;
 }
 
 .clientes-y-proveedores a.link-ppal{
@@ -662,7 +670,7 @@ section.content .top-content h2{
 
 .clientes-y-proveedores a.link-ppal:hover span{
     background: transparent url("./assets/fd-link-azul.png") right 14px no-repeat;
-}*/
+}
 
 
 
