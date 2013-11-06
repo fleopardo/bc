@@ -376,14 +376,14 @@ section.content .bloque img{
     float: left;
 }
 
-section.content .bloque span.date{
+/*section.content .bloque span.date{
     font-family: "din-black";
     margin-bottom: 5px;
     display: inline-block;
 }
 
 
-/*.box-img-detalle{
+.box-img-detalle{
     position: relative;
 }
 
@@ -437,6 +437,7 @@ section.content .bloque span.date{
     padding-left: 16px;
     font-size: 18px;
     line-height: 24px;
+    font-family: "din-regular";
 }
 
 .destacado h3{
@@ -454,12 +455,13 @@ section.content .bloque span.date{
     font-size: 15px;
     line-height: 19px;
     background: #292929;
+    width: 520px;
     padding: 14px;
     /*width: 470px;*/
     font-family: "din-medium";
 }
 
-section.content .cabecera{
+/*section.content .cabecera{
     margin-bottom: 20px;
     border-bottom: 1px solid #e5e5e5;
 }
@@ -507,11 +509,8 @@ section.content a.leer-mas-parrafo{
     background: url("./assets/fd-link-azul.png") right no-repeat;
     padding-right: 10px;
     margin-left: 5px;
-}
+}*/
 
-section.content .bloque h2{
-    font-family: "din-regular";
-}
 
 
 
@@ -650,7 +649,7 @@ section.content .top-content h2{
     border-bottom: 1px solid #d8d8d8;
 }
 
-.clientes-y-proveedores a.link-ppal{
+/*.clientes-y-proveedores a.link-ppal{
     background: none;
     display: block;
     padding-left: 0;
@@ -670,7 +669,40 @@ section.content .top-content h2{
 
 .clientes-y-proveedores a.link-ppal:hover span{
     background: transparent url("./assets/fd-link-azul.png") right 14px no-repeat;
+}*/
+
+
+/* BOXES MAS CERCANOS */
+.boxes-mas-cercanos section.content{
+    background: #f8f8f8;
+    padding: 20px;
+    width: 810px;
 }
+
+.boxes-mas-cercanos .destacado {
+    background: url("./assets/destacado-boxes-cercanos.jpg") center top no-repeat;
+    padding-top: 36px;
+}
+
+.boxes-mas-cercanos section.content h3{
+    border-top: 1px dotted #d6d5d5;
+    padding-top: 10px;
+}
+
+.boxes-mas-cercanos section.content-container form.busqueda-boxes input[type=submit]{
+    width: 262px;
+}
+
+.boxes-mas-cercanos section.content-container .resultado-busqueda > a{
+    width: 350px;
+}
+
+
+.boxes-mas-cercanos section.content-container .resultado-busqueda > a{
+    margin-top: 30px;
+}
+
+
 
 
 
@@ -748,26 +780,26 @@ section.content-container aside.right-aside{
     float: right;
 }
 
-section.content-container aside.right-aside form{
+section.content-container form.busqueda-boxes{
     margin-bottom: 32px;
 }
 
-section.content-container aside.right-aside form .row{
+section.content-container form.busqueda-boxes .row{
     margin-bottom: 20px;
 }
 
-section.content-container aside.right-aside select{
+section.content-container form.busqueda-boxes select{
     width: 262px;
 }
 
-section.content-container aside.right-aside fieldset.submit{
+section.content-container form.busqueda-boxes fieldset.submit{
     border-top: 1px solid #d8d8d8;
     padding-top: 18px;
     margin-top: 20px;
 }
 
-section.content-container aside.right-aside input[type=submit],
-section.content-container aside.right-aside .resultado-busqueda > a{
+section.content-container form.busqueda-boxes input[type=submit],
+section.content-container .resultado-busqueda > a{
     cursor: pointer;
     width: 100%;
     color: #9d9c9c;
@@ -775,7 +807,7 @@ section.content-container aside.right-aside .resultado-busqueda > a{
     height: 40px;
     text-transform: uppercase;
     text-align: left;
-    padding-left: 15px;
+    padding: 0 0 0 15px;
     border: none;
     /* Firefox */
     -moz-transition: all 0.2s ease-in;
@@ -785,11 +817,10 @@ section.content-container aside.right-aside .resultado-busqueda > a{
     -o-transition: all 0.2s ease-in;
     /* Standard */
     transition: all 0.2s ease-in;
-    display: block;
 }
 
-section.content-container aside.right-aside input[type=submit]:hover,
-section.content-container aside.right-aside .resultado-busqueda > a:hover{
+section.content-container form.busqueda-boxes input[type=submit]:hover,
+section.content-container .resultado-busqueda > a:hover{
     background: #0063be url("./assets/fd-link-blanco.png") 80px 16px no-repeat;
     color: #fff;
 
@@ -801,14 +832,18 @@ section.content-container aside.right-aside .resultado-busqueda > a:hover{
 }
 
 
-section.content-container aside.right-aside .resultado-busqueda > a{
+section.content-container .resultado-busqueda > a{
     line-height: 40px;
+    background-position: 190px 16px;
+    display: block;
+    width: 247px;
+}
+
+section.content-container .resultado-busqueda > a:hover{
     background-position: 190px 16px;
 }
 
-section.content-container aside.right-aside .resultado-busqueda > a:hover{
-    background-position: 190px 16px;
-}
+
 /*fin aside derecho*/
 
 
