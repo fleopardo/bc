@@ -233,6 +233,8 @@
 
 		elementToAppend.append(html);
 
+		$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
+
 	}
 
 
