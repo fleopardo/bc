@@ -790,7 +790,21 @@ section.content .bloque img{
     font-family: "din-black";
 }
 
+.puntos-diagnostico section.content .description-info.azul li.active{
+    color: #009fde;
+}
 
+.puntos-diagnostico section.content .description-info.verde li.active{
+    color: #75aa3b;
+}
+
+.puntos-diagnostico section.content .description-info.rojo li.active{
+    color: #f15a5b;
+}
+
+.puntos-diagnostico section.content .description-info.amarillo li.active{
+    color: #dbbe19;
+}
 
 
 
