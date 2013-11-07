@@ -583,18 +583,20 @@ section.content .bloque img{
 
 .puntos-diagnostico section.content{
     background: #f8f8f8;
-    background: #f8f8f8;
     padding: 20px;
     width: 810px;
 }
 
 .puntos-diagnostico section.content .img-cont{
     position: relative;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted #d6d5d5;
+    margin-bottom: 30px;
 }
 
 .puntos-diagnostico section.content img.vehiculo{
     position: relative;
-    z-index: 5;
+    z-index: 0;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico{
@@ -611,7 +613,7 @@ section.content .bloque img{
     color: #fff;
     text-align: center;
     line-height: 22px;
-    z-index: 10;
+    z-index: 5;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.azul{
@@ -750,13 +752,43 @@ section.content .bloque img{
     left: 705px;
 }
 
+.puntos-diagnostico section.content .description-info {
+    display: none;
+    width: 370px;
+}
 
+.puntos-diagnostico section.content .description-info h4{
+    font-size: 17px;
+    line-height: 24px;
+    font-family: "din-black";
+    margin-bottom: 12px;
+}
 
+.puntos-diagnostico section.content .description-info.azul h4{
+    color: #009fde;
+}
 
+.puntos-diagnostico section.content .description-info.verde h4{
+    color: #75aa3b;
+}
 
+.puntos-diagnostico section.content .description-info.rojo h4{
+    color: #f15a5b;
+}
 
+.puntos-diagnostico section.content .description-info.amarillo h4{
+    color: #dbbe19;
+}
 
+.puntos-diagnostico section.content .description-info li{
+    color: #a09f9f;
+    padding: 4px 0;
+    border-bottom: 1px solid #e6e4e4;
+}
 
+.puntos-diagnostico section.content .description-info li span{
+    font-family: "din-black";
+}
 
 
 
