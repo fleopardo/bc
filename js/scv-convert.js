@@ -82,7 +82,7 @@
 
 		provincias.sort();
 
-		boxes_search.renderOptions(provincias,elementToAppend);
+		boxes_search.renderOptions(provincias,elementToAppend, "provincias");
 
 	}
 
@@ -227,7 +227,7 @@
 
 		$.each(data, function( index, value ){
 
-			html += '<option value="'+	data[index] + '">'+	data[index] + '</option>';
+			html += '<option value="'+	data[index] + '">'+	data[index].toLowerCase(); + '</option>';
 
 		});
 
@@ -239,32 +239,24 @@
 
 	// RENDER RESULTS
 
-	boxes_search.renderResults = function(data, barrio_elegido, elementToAppend){
+	boxes_search.renderResults = function(data, localidad_elegida, elementToAppend){
 
 		var html = '';
 
 		$.each(data, function( index, value ){
 
-			if(data[index].PARTIDO == barrio_elegido){
 
-				html += '<ul>'+
-							'<li>APIES: '+ data[index].APIES + '</li>'+
-							'<li>CODIGO_POSTAL: '+ data[index].CODIGO_POSTAL + '</li>'+
-							'<li>DIRECCION: '+ data[index].DIRECCION + '</li>'+
-							'<li>LOCALIDAD: '+ data[index].LOCALIDAD + '</li>'+
-							'<li>PARTIDO: '+ data[index].PARTIDO + '</li>'+
-							'<li>PROVINCIA: '+ data[index].PROVINCIA + '</li>'+
-							'<li>RAZON_SOCIAL: '+ data[index].RAZON_SOCIAL + '</li>'+
-							'<li>REGISTRO_AUTOMOTOR: '+ data[index].REGISTRO_AUTOMOTOR + '</li>'+
-						'</ul>';
+			if(data[index].LOCALIDAD == localidad_elegida){
+
+				html += '<li>' + data[index].RAZON_SOCIAL + ' - ' + data[index].DIRECCION + '<br />' + data[index].PARTIDO + ' - ' + data[index].LOCALIDAD + '</li>';
 
 			}
 
 		});
 
-
-
-		elementToAppend.append(html);
+		console.log(html);
+		console.log($(elementToAppend));
+		$(elementToAppend).append(html);
 
 	}
 
@@ -283,7 +275,11 @@
 
 	var select_localidades = $("#localidad");
 
-	var submit = $("#buscar");
+	var submit = $("#buscarBoxes");
+
+	var form_busqueda = $(".busqueda-boxes");
+
+	var contenedor_resultados = $(".resultado-busqueda");
 
 
 
@@ -314,42 +310,95 @@
 
 			select_localidades.prop("disabled",true).empty();
 
-			submit.prop("disabled",true);
+			submit.prop("disabled",true).removeClass("active");
 
 		});
 
 
-		// bindeo eventos a las localidades
+		// bindeo eventos a los partidos
 
 		select_partidos.on("change", function(event){
 
 			var value = $(this).find("option:selected").val();
 
-			if (value == "default") return;
+			if (value == "default") {
+
+				select_localidades.prop("disabled",true).empty();
+
+				submit.prop("disabled",true).removeClass("active");
+
+				return;
+
+			}
 
 			boxes_search.getLocalidades(data,value,select_localidades);
 
 			select_localidades.prop("disabled",false);
 
-			submit.prop("disabled",false);
+			submit.prop("disabled",true).removeClass("active");
+
+		});
+
+		// bindeo eventos a las localidades
+
+		select_localidades.on("change", function(event){
+
+			var value = $(this).find("option:selected").val();
+
+			if (value == "default") {
+
+				submit.prop("disabled",true).removeClass("active");
+
+				return;
+
+			}
+
+			submit.prop("disabled",false).addClass("active");
 
 		});
 
 
 		// Bindeo submit
 
-		$("form").on("submit", function(event){
+		form_busqueda.on("submit", function(event){
 
 			event.stopPropagation();
 
 			event.preventDefault();
 
+			var localidad_elegida = select_localidades.find("option:selected").val();
 
-			var barrio_elegido = select_barrios.find("option:selected").val();
+			// Imprimo los resultados
+			boxes_search.renderResults(data, localidad_elegida, contenedor_resultados.find("ul"));
 
-			boxes_search.renderResults(data, barrio_elegido, $("body"));
+			// Muestro los resultados
+			form_busqueda.fadeOut("fast", function(){
 
-		})
+				contenedor_resultados.fadeIn();
+
+			});
+
+		});
+
+
+		// Bindeo realizar otra busqueda
+
+		contenedor_resultados.find("a").on("click", function(event){
+
+			event.stopPropagation();
+
+			event.preventDefault();
+
+			// vacio los resultados anteriores
+			contenedor_resultados.find("ul").empty();
+
+			// Muestro el form
+			contenedor_resultados.hide()
+
+			form_busqueda.show();
+
+
+		});
 
 	});
 

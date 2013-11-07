@@ -392,45 +392,37 @@
 
 			<aside class="right-aside">
 				<h2>Resultados de Boxes más cercanos</h2>
+
 				<form method="" action="" class="busqueda-boxes">
 					<fieldset>
 						<div class="row">
 							<select id="provincia">
 								<option>provincia</option>
-								<option>2012</option>
-								<option>2011</option>
 							</select>
 						</div>
 
 						<div class="row">
-							<select id="localidad">
+							<select id="partido" disabled>
+								<option>partido</option>
+							</select>
+						</div>
+
+						<div class="row">
+							<select id="localidad" disabled>
 								<option>localidad</option>
-								<option>Enero</option>
-								<option>Febrero</option>
-							</select>
-						</div>
-
-						<div class="row">
-							<select id="barrio">
-								<option>barrio</option>
-								<option>Enero</option>
-								<option>Febrero</option>
 							</select>
 						</div>
 
 					</fieldset>
 					<fieldset class="submit">
-						<input type="submit" value="Buscar">
+						<input type="submit" id="buscarBoxes" value="Buscar" disabled>
 					</fieldset>
 				</form>
 
 				<div class="resultado-busqueda">
-					<ul>
-						<li>Estacion box - Cordoba 4455<br />Capital federal - Capital federal</li>
-						<li>Estacion box - Cordoba 4455<br />Capital federal - Capital federal</li>
-						<li>Estacion box - Cordoba 4455<br />Capital federal - Capital federal</li>
-						<li>Estacion box - Cordoba 4455<br />Capital federal - Capital federal</li>
-					</ul>
+
+					<ul></ul>
+
 					<a href="#" title="Realizar otra búsqueda">Realizar otra búsqueda</a>
 				</div>
 			</aside>
@@ -462,11 +454,13 @@
 		<script src="./js/libs/jquery.placeholder.js"></script>
 		<script src="./js/libs/jquery.ui.selectmenu.js"></script>
 
+		<script src="./js/libs/jquery.csv-0.71.min.js"></script>
 		<!-- Inicializaciones -->
 
 
 
 		<script src="./js/global.js"></script>
+		<script src="./js/scv-convert.js"></script>
 
 	</div>
 

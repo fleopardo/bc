@@ -892,6 +892,7 @@ section.content-container form.busqueda-boxes .row{
 
 section.content-container form.busqueda-boxes select{
     width: 262px;
+    text-transform: capitalize;
 }
 
 section.content-container form.busqueda-boxes fieldset.submit{
@@ -921,11 +922,23 @@ section.content-container .resultado-busqueda > a{
     transition: all 0.2s ease-in;
 }
 
-section.content-container form.busqueda-boxes input[type=submit]:hover,
+section.content-container form.busqueda-boxes input[type=submit]{
+	cursor: not-allowed;
+}
+
+section.content-container form.busqueda-boxes input[type=submit].active{
+	cursor: pointer;
+}
+
+section.content-container form.busqueda-boxes input[type=submit].active:hover,
 section.content-container .resultado-busqueda > a:hover{
     background: #0063be url("./assets/fd-link-blanco.png") 80px 16px no-repeat;
     color: #fff;
+}
 
+
+.resultado-busqueda{
+	display: none;
 }
 
 .resultado-busqueda li{
