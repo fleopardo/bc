@@ -19,7 +19,7 @@
 			filterBy = that.data("id"),
 			descriptionToShow = $(".description-info[data-id="+filterBy+"]"),
 			filtroId = that.attr("id");
-			console.log(filtroId);
+			
 		if(descriptionToShow.is(":visible")) return;
 
 		filtros.removeClass("active");
@@ -28,8 +28,8 @@
 		descriptionInfo.stop(true,true).fadeOut(300, function(){});
 		descriptionToShow.stop(true,true).delay(200).fadeIn(800);
 		
-		if(descriptionInfo.find('ul').find('li').hasClass('active')) return;
-		descriptionInfo.find('ul').find("#"+filtroId).removeClass('active');
+	
+		descriptionInfo.find('ul').find('li').removeClass('active');
 		descriptionInfo.find('ul').find("#"+filtroId).addClass('active');
 
 
