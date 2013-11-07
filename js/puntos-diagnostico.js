@@ -27,7 +27,9 @@
 
 		descriptionInfo.stop(true,true).fadeOut(300, function(){});
 		descriptionToShow.stop(true,true).delay(200).fadeIn(800);
-
+		
+		if(descriptionInfo.find('ul').find('li').hasClass('active')) return;
+		descriptionInfo.find('ul').find("#"+filtroId).removeClass('active');
 		descriptionInfo.find('ul').find("#"+filtroId).addClass('active');
 
 
