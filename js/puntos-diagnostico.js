@@ -15,19 +15,31 @@
 
 		event.preventDefault();
 
-		var that = $(this);
-		var filterBy = that.data("id");
-		var descriptionToShow = $(".description-info[data-id="+filterBy+"]");
+		var that = $(this),
+			filterBy = that.data("id"),
+			descriptionToShow = $(".description-info[data-id="+filterBy+"]"),
+			filtroId = that.attr("id");
+			//console.log(filtroId);
 
+		if(that.hasClass('active')) {
+			return;
+
+		}else{
+			filtros.removeClass('active');
+			that.addClass('active');
+			descriptionInfo.find('ul').find('li').removeClass('active');
+			descriptionInfo.find('ul').find("#"+filtroId).addClass('active');
+		}
 
 		if(descriptionToShow.is(":visible")) return;
 
-		filtros.removeClass("active");
-		that.addClass("active");
+		//filtros.removeClass("active");
+		//that.addClass("active");
 
 		descriptionInfo.stop(true,true).fadeOut(300, function(){});
 		descriptionToShow.stop(true,true).delay(200).fadeIn(800);
 
+		
 
 
 	});
