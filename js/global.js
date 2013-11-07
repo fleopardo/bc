@@ -69,11 +69,11 @@
 
 
 	/*INCIALIZACION DE PLUG IN SELECTMENU*/
-	if($("select").length > 0){
+	/*if($("select").length > 0){
 		$('select').selectmenu({
 			transferClasses:true
 		});
-	}
+	}*/
 
 	//Placeholder fallback
 	if($("input[placeholder],textarea[placeholder]").length > 0){

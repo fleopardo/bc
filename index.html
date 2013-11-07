@@ -414,7 +414,7 @@
                     <li><a href="javascript:void(0);"></a></li>
 				</ul>
 
-				
+
 			</div>
 		</div>
 		<!-- FIN galeria -->
@@ -473,24 +473,18 @@
 						<div class="row">
 							<select id="provincia">
 								<option>provincia</option>
-								<option>2012</option>
-								<option>2011</option>
 							</select>
 						</div>
 
 						<div class="row">
-							<select id="localidad">
+							<select id="partido" disabled>
+								<option>partido</option>
+							</select>
+						</div>
+
+						<div class="row">
+							<select id="localidad" disabled>
 								<option>localidad</option>
-								<option>Enero</option>
-								<option>Febrero</option>
-							</select>
-						</div>
-
-						<div class="row">
-							<select id="barrio">
-								<option>barrio</option>
-								<option>Enero</option>
-								<option>Febrero</option>
 							</select>
 						</div>
 
@@ -541,11 +535,13 @@
 
 		<script type="text/javascript" src="./js/libs/sequence.jquery-min.js"></script>
 
+		<script src="./js/libs/jquery.csv-0.71.min.js"></script>
 		<!-- Inicializaciones -->
 
 
 
 		<script src="./js/global.js"></script>
+		<script src="./js/scv-convert.js"></script>
 
 	</div>
 
