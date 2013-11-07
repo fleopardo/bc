@@ -574,6 +574,191 @@ section.content .bloque img{
 
 
 
+
+/**** PUNTOS DE DIAGNOSTICO ****/
+.puntos-diagnostico .destacado{
+    background: url("./assets/destacado-puntos-diagnostico.jpg") center top no-repeat;
+    padding-top: 40px;
+}
+
+.puntos-diagnostico section.content{
+    position: relative;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico{
+    position: absolute;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 50%;
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 50%;
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    z-index: 10;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.azul{
+    background: #009fde;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.verde{
+    background: #75aa3b;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.rojo{
+    background: #f15a5b;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.amarillo{
+    background: #dbbe19;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-1{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-2{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-3{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-4{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-5{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-6{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-7{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-8{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-9{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-10{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-11{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-12{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-1{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-13{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-14{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-15{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-16{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-17{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-18{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-19{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-20{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-21{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-22{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-23{
+    top: ;
+    left: ;
+}
+
+.puntos-diagnostico section.content a.pto-diagnostico.pto-24{
+    top: ;
+    left: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /***** Menu lateral principal*****/
 
 section.content-container aside{
