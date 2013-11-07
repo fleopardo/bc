@@ -7,7 +7,35 @@
 
 
 ;(function(){
+	/*
+ 	 * Inicializo y bindeo todo los eventos necesarios para el header
+ 	*/
 
+	if( $(".headerYPF").length > 0 ){
+
+		$('.jcarousel-header').removeClass("mask").jcarousel({
+			scroll: 1,
+			start : 1
+		});
+
+		// Bindeo para abrir submenus
+		headerYPF.vars.header.find(".hasSubmenu").on("click",function(event){
+			event.preventDefault();
+			headerYPF.openSubmenu($(this));
+		});
+
+		// Bindeo para abrir buscador
+		headerYPF.vars.header.find(".buscar > a").on("click", function(event){
+			event.preventDefault();
+			headerYPF.openSearch();
+		});
+
+		// Bindeo para cerrar buscador
+		headerYPF.vars.buscador.find(".close").on("click", function(){
+			headerYPF.closeSearch();
+		});
+
+	}
 
 	// Slider home
 	if($("#sequence").length > 0){
