@@ -582,7 +582,19 @@ section.content .bloque img{
 }
 
 .puntos-diagnostico section.content{
+    background: #f8f8f8;
+    background: #f8f8f8;
+    padding: 20px;
+    width: 810px;
+}
+
+.puntos-diagnostico section.content .img-cont{
     position: relative;
+}
+
+.puntos-diagnostico section.content img.vehiculo{
+    position: relative;
+    z-index: 5;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico{
@@ -619,128 +631,123 @@ section.content .bloque img{
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-1{
-    top: ;
-    left: ;
+    top: 18px;
+    left: 132px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-2{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 198px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-3{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 234px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-4{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 595px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-5{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 346px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-6{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 512px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-7{
-    top: ;
-    left: ;
+    top: 18px;
+    left: 42px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-8{
-    top: ;
-    left: ;
+    top: 18px;
+    left: 107px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-9{
-    top: ;
-    left: ;
+    top: 18px;
+    left: 156px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-10{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 310px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-11{
-    top: ;
-    left: ;
+    top: 18px;
+    left: 185px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-12{
-    top: ;
-    left: ;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-1{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 260px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-13{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 539px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-14{
-    top: ;
-    left: ;
+    top: 18px;
+    left: 81px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-15{
-    top: ;
-    left: ;
+    top: 412px;
+    left: 56px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-16{
-    top: ;
-    left: ;
+    top: 412px;
+    left: 388px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-17{
-    top: ;
-    left: ;
+    top: 412px;
+    left: 445px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-18{
-    top: ;
-    left: ;
+    top: 412px;
+    left: 146px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-19{
-    top: ;
-    left: ;
+    top: 412px;
+    left: 283px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-20{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 637px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-21{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 666px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-22{
-    top: ;
-    left: ;
+    top: 412px;
+    left: 106px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-23{
-    top: ;
-    left: ;
+    top: 18px;
+    left: 260px;
 }
 
 .puntos-diagnostico section.content a.pto-diagnostico.pto-24{
-    top: ;
-    left: ;
+    top: 413px;
+    left: 705px;
 }
 
 
