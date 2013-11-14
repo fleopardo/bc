@@ -293,6 +293,18 @@ a.flag-links:hover{
     color: #0063be;
 }
 
+
+a.leer-mas{
+    background: url("./assets/fd-leer-mas.jpg") no-repeat center right;
+    display: inline-block;
+    padding-right: 13px;
+    color: #0063be;
+}
+
+a.leer-mas:hover{
+    text-decoration: underline;
+}
+
 .more{
     border-bottom: 25px solid #1f4a58;
     border-left: 26px solid transparent;
@@ -366,6 +378,10 @@ section.content .bloque h2{
     background: #a5a5a5;
     padding: 0 12px;
     font-family: "din-medium";
+}
+
+.home section.content a.bloque:hover h2{
+    background: #192853;
 }
 
 section.content .bloque.principal h2{
@@ -458,8 +474,45 @@ section.content .bloque img{
 }
 
 
+/*
+.home .box-img-detalle{
+    position: relative;
+    width: 260px;
+}
 
+.home .box-img-detalle img{
+    width: 100%;
+    margin-bottom: 0!important;
+}
 
+.home .over-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(21,176,218,0.9);
+    display: none;
+}
+
+.home .over-img > a{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.home .over-img p{
+    color: #fff;
+    font-family: "din-black";
+    font-size: 15px;
+    line-height: 18px;
+}
+*/
 
 
 /******** ACERCA DE BOXES *********/
@@ -881,7 +934,9 @@ section.content-container aside.right-aside{
     padding-top: 0;
     float: right;
 }
-
+section.content-container aside.right-aside h2{
+    color: rgb(41, 41, 41);
+}
 section.content-container form.busqueda-boxes{
     margin-bottom: 32px;
 }
@@ -896,9 +951,9 @@ section.content-container form.busqueda-boxes select{
 }
 
 section.content-container form.busqueda-boxes fieldset.submit{
-    border-top: 1px solid #d8d8d8;
+    /*border-top: 1px solid #d8d8d8;
     padding-top: 18px;
-    margin-top: 20px;
+    margin-top: 20px;*/
 }
 
 section.content-container form.busqueda-boxes input[type=submit],
@@ -906,7 +961,7 @@ section.content-container .resultado-busqueda > a{
     cursor: pointer;
     width: 100%;
     color: #9d9c9c;
-    background: #d8d8d8 url("./assets/fd-link-ppal.png") 80px 16px no-repeat;
+    background: #d8d8d8 url("./assets/fd-link-ppal.png") 65px 16px no-repeat;
     height: 40px;
     text-transform: uppercase;
     text-align: left;
@@ -932,7 +987,7 @@ section.content-container form.busqueda-boxes input[type=submit].active{
 
 section.content-container form.busqueda-boxes input[type=submit].active:hover,
 section.content-container .resultado-busqueda > a:hover{
-    background: #0063be url("./assets/fd-link-blanco.png") 80px 16px no-repeat;
+    background: #0063be url("./assets/fd-link-blanco.png") 65px 16px no-repeat;
     color: #fff;
 }
 

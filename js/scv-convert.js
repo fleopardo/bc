@@ -25,7 +25,7 @@
 
 		    error: function() {
 
-		        alert("error");
+		        alert("error al cargar el scv");
 
 		    }
 
@@ -304,7 +304,17 @@
 
 			var value = $(this).find("option:selected").val();
 
-			if (value == "default") return;
+			if (value == "default") {
+
+				select_partidos.prop("disabled",true).empty();
+
+				select_localidades.prop("disabled",true).empty();
+
+				$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
+
+				return;
+					
+			}
 
 			boxes_search.getPartidos(data,value,select_partidos);
 
@@ -313,6 +323,8 @@
 			select_localidades.prop("disabled",true).empty();
 
 			submit.prop("disabled",true).removeClass("active");
+
+			$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
 
 		});
 
@@ -326,6 +338,8 @@
 			if (value == "default") {
 
 				select_localidades.prop("disabled",true).empty();
+
+				$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
 
 				submit.prop("disabled",true).removeClass("active");
 
