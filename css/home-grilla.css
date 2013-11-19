@@ -1130,16 +1130,17 @@
 
 	/* Desafio energetico detalle */
 
-	.index .desafio-energetico-detalle{
+	.index .videos{
 		width: 710px;
 		height: 384px;
 		position: relative;
 		float: left;
 		margin-right: 10px;
+		overflow: hidden;
 	}
 
-	.index .desafio-energetico-detalle div{
-		background-color: #0d7b6a;
+	.index .videos div{
+		background-color: #bea30e;
 		width: 199px;
 		position: absolute;
 		top: 0;
@@ -1148,7 +1149,7 @@
 		z-index: 5;
 	}
 
-	.index .desafio-energetico-detalle div h3{
+	.index .videos div h3{
 		font-size: 29px;
 		font-family: "din-medium";
 		font-weight: normal;
@@ -1156,12 +1157,12 @@
 		margin-bottom: 25px;
 	}
 
-	.index .desafio-energetico-detalle div h3 span{
+	.index .videos div h3 span{
 		font-family: "din-light";
 		font-weight: normal;
 	}
 
-	.index .desafio-energetico-detalle div p.desc{
+	.index .videos div p.desc{
 		font-family: "din-regular";
 		font-weight: normal;
 		font-size: 14px;
@@ -1169,12 +1170,12 @@
 		margin-bottom: 12px;
 	}
 
-	.index .desafio-energetico-detalle .more{
-		border-bottom-color: #084a40
+	.index .videos .more{
+		border-bottom-color: #766509;
 	}
 
-	.index .desafio-energetico-detalle:hover div{
-		background-color: #084a40;
+	.index .videos:hover div{
+		background-color: #766509;
 	}
 
 
@@ -1252,59 +1253,24 @@
 		line-height: 18px;
 	}
 
-
-
-	/*  */
-
-	.index .cadena-de-energia{
-		float: left;
-		width: 480px;
-		height: 186px;
-		position: relative;
-		overflow: hidden;
-	}
-
-
-	.index .cadena-de-energia div,
-	.index .tecnologia-especializada div{
-		width: 208px;
+	.index .tecnologia-especializada div,
+	.index .energia-para-el-crecimiento div{
 		position: absolute;
 		top: 0;
 		bottom: 0;
-		left: 0;
 		z-index: 5;
+		left: 0;
+		right: auto;
+		width: 200px;
 	}
 
-
-		.index .cadena-de-energia div,
-		.index .tecnologia-especializada div{
-			left: auto;
-			right: 0;
-			width: 185px;
-		}
-
-		.index .cadena-de-energia div{
-			background: #ba8b01 url("./assets/textura-amarilla.jpg");
-		}
-
-
-
-		/* Hovers */
-
-		.index .cadena-de-energia:hover div{
-			background: #6f5c00;
-		}
-
-		/* Cambio de color para icono "More" */
-
-		.index .cadena-de-energia .more{
-			border-bottom-color: #6f5c00;
-		}
 
 
 	.index .cadena-de-energia div h3,
 	.index .tecnologia-especializada div h3,
+	.index .energia-para-el-crecimiento div h3,
 	.index .mitos-verdades div h3,
+	.index .exploracion-no-convencional div h3,
 	.index .preguntas-respuestas div h3{
 		font-family: "din-black";
 		font-weight: normal;
@@ -1312,11 +1278,17 @@
 		line-height: 22px;
 	}
 
-	.index .cadena-de-energia div h3,
-	.index .tecnologia-especializada div h3{
+	.index .tecnologia-especializada div h3,
+	.index .energia-para-el-crecimiento div h3,
+	.index .cadena-de-energia div h3{
 		font-size: 22px;
 		line-height: 24px;
 		margin-top: 48px;
+	}
+
+	.index .tecnologia-especializada div h3,
+	.index .energia-para-el-crecimiento div h3{
+		margin-top: 30px;
 	}
 
 
@@ -1326,37 +1298,40 @@
 
 	.index .cadena-de-energia div h3 span,
 	.index .tecnologia-especializada div h3 span,
+	.index .energia-para-el-crecimiento div h3 span,
 	.index .mitos-verdades div h3 span,
+	.index .exploracion-no-convencional div h3 span,
 	.index .preguntas-respuestas div h3 span{
 		font-family: "din-light";
 		font-weight: normal;
 		display: block;
 	}
 
-	.index .mitos-verdades div h3 span{
+	.index .mitos-verdades div h3 span,
+	.index .exploracion-no-convencional div h3 span{
 		display: inline;
 	}
 
 
 	/* estilos solo para que es Shale, energia para el crecimiento */
 
-	.index .cadena-de-energia,
-	.index .tecnologia-especializada{
-		width: 465px;
+	.index .tecnologia-especializada,
+	.index .energia-para-el-crecimiento{
+		height: 187px;
 		margin-right: 10px;
 		float: left;
-		clear: both;
 		position: relative;
 	}
 
-	.ie7 .index .cadena-de-energia,
-	.ie7 .index .tecnologia-especializada{
-		width: 474px;
+	.ie7 .index .tecnologia-especializada,
+	.ie7 .index .energia-para-el-crecimiento{
+		width: 464px;
 	}
 
 	.index .tecnologia-especializada{
 		background: #2e2275;
-		height: 187px;
+		clear: both;
+		width: 470px;
 	}
 
 	.index .tecnologia-especializada .more{
@@ -1367,11 +1342,26 @@
 		background: #31005f;
 	}
 
+	.index .energia-para-el-crecimiento{
+		background: #017c6a;
+		width: 478px;
+	}
+
+	.index .energia-para-el-crecimiento .more{
+		border-bottom-color: #07574b;
+	}
+
+	.index .energia-para-el-crecimiento:hover{
+		background: #07574b;
+	}
+
 	/* Recursos convencionales */
 
 	.index .preguntas-respuestas,
-	.index .mitos-verdades{
-		width: 235px;
+	.index .mitos-verdades,
+	.index .cadena-de-energia,
+	.index .exploracion-no-convencional{
+		width: 230px;
 		height: 186px;
 		float: left;
 		position: relative;
@@ -1380,7 +1370,9 @@
 
 
 	.ie7 .index .preguntas-respuestas,
-	.ie7 .index .mitos-verdades{
+	.ie7 .index .mitos-verdades,
+	.ie7 .index .cadena-de-energia,
+	.ie7 .index .exploracion-no-convencional{
 		width: 232px;
 	}
 
@@ -1397,6 +1389,10 @@
 		background: #6d8800;
 	}
 
+	.index .exploracion-no-convencional{
+		background: #653d7c;
+	}
+
 		/* Hovers */
 		.index .preguntas-respuestas:hover{
 			background: #663700;
@@ -1404,6 +1400,10 @@
 
 		.index .mitos-verdades:hover{
 			background: #516407;
+		}
+
+		.index .exploracion-no-convencional:hover{
+			background: #452a55;
 		}
 
 		/* Cambio de color para icono "More" */
@@ -1415,6 +1415,26 @@
 			border-bottom-color: #516407;
 		}
 
+		.index .exploracion-no-convencional .more{
+			border-bottom-color: #452a55;
+		}
+
+
+	.index .cadena-de-energia{
+		background: #ba8b01 url("./assets/textura-amarilla.jpg");
+	}
+
+		/* Hovers */
+
+		.index .cadena-de-energia:hover{
+			background: #6f5c00;
+		}
+
+		/* Cambio de color para icono "More" */
+
+		.index .cadena-de-energia .more{
+			border-bottom-color: #6f5c00;
+		}
 
 
 	/* Sabias que */
@@ -1423,7 +1443,7 @@
 		width: 478px;
 		height: 187px;
 		background: #2a2a2a;
-		margin-right: 10px;
+		margin-right: 0;
 		float: left;
 	}
 
@@ -1444,7 +1464,7 @@
 
 
 	/* Exploracion no convecional */
-
+/*
 	.index .exploracion-no-convencional{
 		float: left;
 		width: 478px;
@@ -1472,17 +1492,17 @@
 		top: 10px;
 		right: 35px;
 	}
-
+*/
 
 	/* Cambio de color para icono "More" */
 
-		.index .exploracion-no-convencional .more{
+		/*.index .exploracion-no-convencional .more{
 			border-bottom-color: #452a55;
 		}
 
 		.index .exploracion-no-convencional div:hover{
 			background: #452a55;
-		}
+		}*/
 
 
 

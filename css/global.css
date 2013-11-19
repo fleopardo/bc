@@ -159,6 +159,7 @@ input.placeholder{ color: #373737; }
 	display: block;
 	font-family: "din-black";
 	font-weight: normal;
+	line-height: 15px;
 }
 
 .contenido .tit-uppercase:hover{

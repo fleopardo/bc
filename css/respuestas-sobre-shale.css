@@ -47,24 +47,28 @@
 }
 
 	.respuestas-sobre-shale .col-der .bloque{
-		width: auto;
+		width: 100%;
 		border-top: 2px solid #fff;
 		padding-top: 15px;
 		margin-bottom: 20px;
+	}
+
+	.respuestas-sobre-shale .col-der h4{
+		font-size: 18px;
+		margin-bottom: 25px;
 	}
 
 	.respuestas-sobre-shale .col-der .bloque h5{
 		font-size: 15px;
 		font-family: "din-medium";
 		font-weight: normal;
-		line-height: 35px;
-		padding-left: 40px;
-		margin-bottom: 15px;
+		line-height: 22px;
+		margin-bottom: 25px;
 	}
 
 	.respuestas-sobre-shale .col-der .bloque p{
-		font-size: 12px;
-		line-height: 16px;
+		font-size: 14px;
+		line-height: 18px;
 		color: #daf3ed;
 		font-weight: normal;
 	}
@@ -96,4 +100,3 @@
 	.respuestas-sobre-shale .col-der .bloque .respuesta p a{
 		text-decoration: underline;
 	}
-
