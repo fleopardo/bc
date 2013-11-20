@@ -1,7 +1,7 @@
 /*
  * Reset solo para el header, para que no rompa nada del site donde se implemente.
 */
-.headerYPF div,.headerYPF span,.headerYPF h1,.headerYPF h2,.headerYPF h3,.headerYPF h4,.headerYPF p,.headerYPF img,.headerYPF strong,.headerYPF b,.headerYPF i,.headerYPF dl,.headerYPF dt,.headerYPF dd,.headerYPF ul,.headerYPF li,.headerYPF fieldset,.headerYPF form,.headerYPF label,.headerYPF legend,.headerYPF .headerYPF,.headerYPF .nav{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-weight: normal;} .headerYPF,.headerYPF .nav{display:block} .headerYPF .nav ul{list-style:none} .headerYPF a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+.headerYPF div,.headerYPF span,.headerYPF h1,.headerYPF h2,.headerYPF h3,.headerYPF h4,.headerYPF p,.headerYPF img,.headerYPF strong,.headerYPF b,.headerYPF i,.headerYPF dl,.headerYPF dt,.headerYPF dd,.headerYPF ul,.headerYPF li,.headerYPF fieldset,.headerYPF form,.headerYPF label,.headerYPF legend,.headerYPF .headerYPF,.headerYPF .navNuevo{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;font-weight: normal;} .headerYPF,.headerYPF .navNuevo{display:block} .headerYPF .navNuevo ul{list-style:none} .headerYPF a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
 .headerYPF input,.headerYPF select{vertical-align:middle;resize:none;outline:0} .headerYPF li{list-style:none} .headerYPF strong{font-weight:bold}
 
 .headerYPF .clearfix{ *zoom: 1; }
@@ -14,20 +14,20 @@
 
 	@font-face {
 		font-family: "din-medium";
-		src: url("../fonts/din-medium.eot");
+		src: url("../header-fonts/din-medium.eot");
 		src: local("?"),
-		url("../fonts/din-medium.svg#blaimim_-webfont") format("svg"),
-		url("../fonts/din-medium.woff") format("woff"),
-		url("../fonts/din-medium.ttf") format("truetype");
+		url("../header-fonts/din-medium.svg#blaimim_-webfont") format("svg"),
+		url("../header-fonts/din-medium.woff") format("woff"),
+		url("../header-fonts/din-medium.ttf") format("truetype");
 	}
 
 	@font-face {
 		font-family: "din-black";
-		src: url("../fonts/din-black.eot");
+		src: url("../header-fonts/din-black.eot");
 		src: local("?"),
-		url("../fonts/din-black.svg#blaimim_-webfont") format("svg"),
-		url("../fonts/din-black.woff") format("woff"),
-		url("../fonts/din-black.ttf") format("truetype");
+		url("../header-fonts/din-black.svg#blaimim_-webfont") format("svg"),
+		url("../header-fonts/din-black.woff") format("woff"),
+		url("../header-fonts/din-black.ttf") format("truetype");
 	}
 
 
@@ -50,15 +50,15 @@
 		left: 0;
 		right: 0;
 		height: 55px;
-		-moz-box-shadow: 0 8px 15px -5px #666;
-		-webkit-box-shadow: 0 8px 15px -5px #666;
-		box-shadow: 0 8px 15px -5px #666;
+		-moz-box-shadow: 0 8px 15px -5px #333;
+		-webkit-box-shadow: 0 8px 15px -5px #333;
+		box-shadow: 0 8px 15px -5px #333;
 		z-index: 1000;
 	}
 
 	.headerYPF > div,
 	.headerBuscador > div{
-		max-width: 1058px;
+		max-width: 1200px;
 		min-width: 1024px;
 		margin: 0 auto;
 		position: relative;
@@ -79,8 +79,9 @@
 
 	.headerYPF > div .logo{
 		background: url("./assets/logo.png") no-repeat left top;
-		position: fixed;
+		position: relative;
 		top: 15px;
+		display:inline-block;
 	}
 
 	.headerYPF > div h2 a{
@@ -106,21 +107,22 @@
  * .navegacion
 */
 
-	.headerYPF .nav{
+	.headerYPF .navNuevo{
 		float: right;
+		display:inline-block;
 	}
 
-	.headerYPF .nav ul{
+	.headerYPF .navNuevo ul{
 		float: left;
 	}
 
-	.headerYPF .nav ul li{
+	.headerYPF .navNuevo ul li{
 		position: relative;
 	}
 
 	/* .navegacion principal */
 
-	.headerYPF .nav > ul.principal > li{
+	.headerYPF .navNuevo > ul.principal > li{
 		display: inline-block;
 		*display: inline; /* Para IE */
 		*zoom: 1; /* Para IE */
@@ -128,48 +130,48 @@
 		float: left;
 	}
 
-	.headerYPF .nav > ul.principal a{
+	.headerYPF .navNuevo > ul.principal a{
 		font-size: 12px;
 		color: #363636;
-		font-family: "din-medium";
+		font-family: "din-black";
 		display: block;
 		line-height: 52px;
 		border-top: 3px solid transparent;
 	}
 
-	.headerYPF .nav > ul.principal a:hover,
-	.headerYPF .nav > ul.principal a.open{
+	.headerYPF .navNuevo > ul.principal a:hover,
+	.headerYPF .navNuevo > ul.principal a.open{
 		color:#0063be;
 	}
 
-	.headerYPF .nav > ul.principal a.active{
+	.headerYPF .navNuevo > ul.principal a.active{
 		border-top-color: #0063be;
 	}
 
 	/* .navegacion secundaria */
 
-	.headerYPF .nav > ul.secundaria{
+	.headerYPF .navNuevo > ul.secundaria{
 		margin-left: 5px;
 		/*min-width: 245px;*/
 	}
 
-	.headerYPF .nav > ul.secundaria > li{
+	.headerYPF .navNuevo > ul.secundaria > li{
 		float: left;
 		display: inline-block;
 		*display: inline; /* Para IE */
 		*zoom: 1; /* Para IE */
 	}
 
-	.headerYPF .nav > ul.secundaria > li.sitios-ypf a{
+	.headerYPF .navNuevo > ul.secundaria > li.sitios-ypf a{
 		min-width: 61px;
 	}
 
-	.headerYPF .nav > ul.secundaria > li,
-	.headerYPF .nav > ul.secundaria > li a{
+	.headerYPF .navNuevo > ul.secundaria > li,
+	.headerYPF .navNuevo > ul.secundaria > li a{
 		height: 55px;
 	}
 
-	.headerYPF .nav > ul.secundaria > li a{
+	.headerYPF .navNuevo > ul.secundaria > li a{
 		display: inline-block;
 		*display: inline; /* Para IE */
 		*zoom: 1; /* Para IE */
@@ -181,75 +183,75 @@
 		line-height: 55px;
 	}
 
-	.headerYPF .nav > ul.secundaria > li a.last{
+	.headerYPF .navNuevo > ul.secundaria > li a.last{
 		padding: 0 10px;
 		border-right: 1px solid #cbcbcb;
 	}
 
-	.headerYPF .nav > ul.secundaria > li.icon > a,
-	.headerYPF .nav > ul.secundaria > li.sitios-ypf > a:hover,
-	.headerYPF .nav > ul.secundaria > li.sitios-ypf > a.active{
+	.headerYPF .navNuevo > ul.secundaria > li.icon > a,
+	.headerYPF .navNuevo > ul.secundaria > li.sitios-ypf > a:hover,
+	.headerYPF .navNuevo > ul.secundaria > li.sitios-ypf > a.active{
 		background: url("./assets/icons.png") no-repeat;
 	}
 
-	.headerYPF .nav > ul.secundaria > li.icon a{
+	.headerYPF .navNuevo > ul.secundaria > li.icon a{
 		width: 39px;
 	}
 
-		.headerYPF .nav > ul.secundaria > li.buscar a{
+		.headerYPF .navNuevo > ul.secundaria > li.buscar a{
 			background-position: 0px 0px;
 		}
 
-			.headerYPF .nav > ul.secundaria > li.buscar a:hover,
-			.headerYPF .nav > ul.secundaria > li.buscar a.active,
-			.headerYPF .nav > ul.secundaria > li.buscar a.open{
+			.headerYPF .navNuevo > ul.secundaria > li.buscar a:hover,
+			.headerYPF .navNuevo > ul.secundaria > li.buscar a.active,
+			.headerYPF .navNuevo > ul.secundaria > li.buscar a.open{
 				background-position: 0px -54px;
 			}
 
-		.headerYPF .nav > ul.secundaria > li.lang a{
+		.headerYPF .navNuevo > ul.secundaria > li.lang a{
 			background-position: -160px 0px;
 		}
 
-			.headerYPF .nav > ul.secundaria > li.lang a:hover,
-			.headerYPF .nav > ul.secundaria > li.lang a.active{
+			.headerYPF .navNuevo > ul.secundaria > li.lang a:hover,
+			.headerYPF .navNuevo > ul.secundaria > li.lang a.active{
 				background-position: -160px -55px;
 			}
 
 
-		.headerYPF .nav > ul.secundaria > li.mapa a{
+		.headerYPF .navNuevo > ul.secundaria > li.mapa a{
 			background-position: -40px 0px;
 		}
 
-			.headerYPF .nav > ul.secundaria > li.mapa a:hover,
-			.headerYPF .nav > ul.secundaria > li.mapa a.active{
+			.headerYPF .navNuevo > ul.secundaria > li.mapa a:hover,
+			.headerYPF .navNuevo > ul.secundaria > li.mapa a.active{
 				background-position: -40px -54px;
 			}
 
 
 
-		.headerYPF .nav > ul.secundaria > li.login a{
+		.headerYPF .navNuevo > ul.secundaria > li.login a{
 			background-position: -80px 0px;
 		}
 
-			.headerYPF .nav > ul.secundaria > li.login a:hover,
-			.headerYPF .nav > ul.secundaria > li.login a.active,
-			.headerYPF .nav > ul.secundaria > li.login a.open{
+			.headerYPF .navNuevo > ul.secundaria > li.login a:hover,
+			.headerYPF .navNuevo > ul.secundaria > li.login a.active,
+			.headerYPF .navNuevo > ul.secundaria > li.login a.open{
 				background-position: -80px -54px;
 			}
 
-		.headerYPF .nav > ul.secundaria > li.asterisco a{
+		.headerYPF .navNuevo > ul.secundaria > li.asterisco a{
 			background-position: -120px 0px;
 		}
 
-			.headerYPF .nav > ul.secundaria > li.asterisco a:hover,
-			.headerYPF .nav > ul.secundaria > li.asterisco a.active{
+			.headerYPF .navNuevo > ul.secundaria > li.asterisco a:hover,
+			.headerYPF .navNuevo > ul.secundaria > li.asterisco a.active{
 				background-position: -120px -54px;
 			}
 
 
-		.headerYPF .nav > ul.secundaria > li.sitios-ypf a:hover,
-		.headerYPF .nav > ul.secundaria > li.sitios-ypf a.active,
-		.headerYPF .nav > ul.secundaria > li.sitios-ypf a.open{
+		.headerYPF .navNuevo > ul.secundaria > li.sitios-ypf a:hover,
+		.headerYPF .navNuevo > ul.secundaria > li.sitios-ypf a.active,
+		.headerYPF .navNuevo > ul.secundaria > li.sitios-ypf a.open{
 			background-position: 0px -121px;
 		}
 
@@ -276,41 +278,41 @@
 			left: -35px;
 		}
 
-	.headerYPF .nav > ul .submenu dl,
-	.headerYPF .nav > ul .submenu ul{
+	.headerYPF .navNuevo > ul .submenu dl,
+	.headerYPF .navNuevo > ul .submenu ul{
 		margin-bottom: 10px;
 		float: none;
 	}
 
-	.headerYPF .nav > ul .submenu dl dt,
-	.headerYPF .nav > ul .submenu dl a,
-	.headerYPF .nav > ul .submenu li a{
+	.headerYPF .navNuevo > ul .submenu dl dt,
+	.headerYPF .navNuevo > ul .submenu dl a,
+	.headerYPF .navNuevo > ul .submenu li a{
 		font-family: "din-medium";
 		line-height: 28px;
 		font-size: 12px;
 		border: none;
 	}
 
-	.headerYPF .nav > ul .submenu dl dt{
+	.headerYPF .navNuevo > ul .submenu dl dt{
 		color: #363636;
 		font-weight: bold;
 	}
 
-	.headerYPF .nav > ul .submenu dl a,
-	.headerYPF .nav > ul .submenu ul li a{
+	.headerYPF .navNuevo > ul .submenu dl a,
+	.headerYPF .navNuevo > ul .submenu ul li a{
 		color: #7a7a7a;
 	}
 
-	.headerYPF .nav > ul .submenu dl dt a,
-	.headerYPF .nav > ul .submenu li a{
+	.headerYPF .navNuevo > ul .submenu dl dt a,
+	.headerYPF .navNuevo > ul .submenu li a{
 		color: #363636;
 	}
 
-	.headerYPF .nav > ul .submenu a:hover{
+	.headerYPF .navNuevo > ul .submenu a:hover{
 		color: #0063be;
 	}
 
-	.headerYPF .nav > ul .submenu dl a.linea-doble{
+	.headerYPF .navNuevo > ul .submenu dl a.linea-doble{
 		line-height: 16px;
 	}
 
@@ -418,7 +420,7 @@
 
 		.headerYPF .inversores .submenu{
 			width: 716px;
-			height: 460px;
+			height: 480px;
 			left: -151px;
 		}
 
@@ -507,24 +509,24 @@
 
 		.headerYPF .productos-y-servicios .submenu{
 			width: 586px;
-			height: 228px;
+			height: 250px;
 		}
 
 		.headerYPF .productos-y-servicios .submenu .info{
 			width: 300px;
 		}
 
-		.headerYPF .productos-y-servicios .submenu li.uppercase a{
-			text-transform: uppercase;
+		.headerYPF .productos-y-servicios .submenu h4{
+			float: none;
 			color: #0063be;
+			text-transform: uppercase;
+			font-size: 11px;
+			text-align: left;
 		}
 
-		.headerYPF .productos-y-servicios .submenu li a{
-			line-height: 28px;
-			border: none;
-			font-family: "din-medium";
-			display: inline;
-			color: #7a7a7a;
+		.headerYPF .productos-y-servicios .submenu h4 a{
+			color: #0063be;
+			line-height: 20px;
 		}
 
 		.headerYPF .productos-y-servicios .submenu li a:hover{
@@ -572,7 +574,7 @@
 				padding-left: 26px;
 			}
 
-		.headerYPF .nav > ul.secundaria > li .submenu .links li a{
+		.headerYPF .navNuevo > ul.secundaria > li .submenu .links li a{
 			line-height: 32px;
 			border: none;
 			font-family: "din-black";
@@ -584,7 +586,7 @@
 			height: auto;
 		}
 
-		.headerYPF .nav > ul.secundaria > li .submenu .links li a:hover{
+		.headerYPF .navNuevo > ul.secundaria > li .submenu .links li a:hover{
 			color: #0063be;
 		}
 
@@ -682,7 +684,7 @@
 			border-bottom: none;
 		}
 
-		.headerYPF .nav > ul.secundaria > li.lang .submenu li a{
+		.headerYPF .navNuevo > ul.secundaria > li.lang .submenu li a{
 			background-image: url("./assets/icons-sitios-ypf.png");
 			background-repeat:  no-repeat;
 			background-position: right 3px;
@@ -699,7 +701,7 @@
 			width: auto;
 		}
 
-		.headerYPF .nav > ul.secundaria > li.lang .submenu li a:hover{
+		.headerYPF .navNuevo > ul.secundaria > li.lang .submenu li a:hover{
 			background-color: #ccc;
 		}
 
@@ -855,6 +857,11 @@
 		float: right;
 	}
 
+    .headerBuscador #form{
+		margin-top: 11px;
+		float: right;
+	}
+
 	.headerBuscador input[type="text"]{
 		border: 1px solid #dbdbdb;
 		width: 305px;
@@ -886,6 +893,23 @@
 		cursor: pointer;
 	}
 
+    
+    #linkBuscar{
+		border: 1px solid #dbdbdb;
+		background: #f0f0f0;
+		background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(240,240,240,1)));
+		background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+		height: 42px;
+		margin: 0 0 0 30px;
+		padding: 10px 25px;
+		text-transform: uppercase;
+		color: #999;
+		cursor: pointer;
+	}
 	.headerBuscador .close{
 		color: #999;
 		font-family: "din-black";
