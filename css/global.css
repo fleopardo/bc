@@ -474,6 +474,7 @@ section.content .bloque img{
 }
 
 
+
 /*
 .home .box-img-detalle{
     position: relative;
@@ -530,6 +531,11 @@ section.content .bloque img{
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #d8d8d8;
+}
+
+.acerca-de-boxes section.content img.logos-recomendaciones{
+    margin-top: 80px;
+    display: block;
 }
 
 
