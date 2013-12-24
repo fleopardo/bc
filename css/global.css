@@ -870,6 +870,10 @@ section.content .bloque img{
     width: 810px;
 }
 
+.puntos-diagnostico section.content.right h3{
+    text-transform: uppercase;
+}
+
 .puntos-diagnostico section.content .img-cont{
     position: relative;
     padding-bottom: 30px;
