@@ -865,21 +865,22 @@ section.content .bloque img{
 }
 
 .puntos-diagnostico section.content{
-    background: #f8f8f8;
+    /*background: #f8f8f8;*/
     padding: 20px;
     width: 810px;
 }
 
 .puntos-diagnostico section.content.right h3{
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
 .puntos-diagnostico section.content .img-cont{
     position: relative;
-    padding-bottom: 30px;
-    border-bottom: 1px dotted #d6d5d5;
+    padding-bottom: 60px;
+    /*border-bottom: 1px dotted #d6d5d5;*/
     margin-bottom: 30px;
-    min-height: 750px;
+    min-height: 820px;
 }
 
 .puntos-diagnostico section.content img.vehiculo{
@@ -891,22 +892,10 @@ section.content .bloque img{
 .puntos-diagnostico section.content img.vehiculo.active{
     display: block;
 }
-/*.puntos-diagnostico section.content a.pto-diagnostico{
-    position: absolute;
-    display: inline-block;
-    width: 22px;
-    height: 22px;
-     Safari 3-4, iOS 1-3.2, Android 1.6-
-    -webkit-border-radius: 50%;*/
-    /* Firefox 1-3.6
-    -moz-border-radius: 50%;*/
-    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+
-    border-radius: 50%;
-    color: #fff;
-    text-align: center;
-    line-height: 22px;
-    z-index: 5;
-}*/
+
+.puntos-diagnostico section.content .lista-principal{
+	margin-bottom: 30px;
+}
 
 .puntos-diagnostico section.content .lista-principal > li > a{
 	text-transform: uppercase;
@@ -990,12 +979,12 @@ section.content .bloque img{
 
 .puntos-diagnostico section.content .ver-completo .lista-principal ul.mecanica{
 	left: 0;
-	top: 800px;
+	top: 760px;
 }
 
 .puntos-diagnostico section.content .ver-completo .lista-principal ul.seguridad{
 	left: 420px;
-	top: 800px;
+	top: 760px;
 }
 
 .puntos-diagnostico section.content .lista-principal > li > ul > li{
@@ -1049,181 +1038,46 @@ section.content .bloque img{
     background: #dbbe19;
 }
 
-/*.puntos-diagnostico section.content a.pto-diagnostico.pto-1{
-    top: 18px;
-    left: 132px;
+a#ver-todos,
+a#ver-unico,
+a#ver-unico span,
+a#ver-todos span{
+	display: inline-block;
+	line-height: 36px;
+	color: #fff;
+	font-size: 12px;
+	font-family: "din-black";
+	text-transform: uppercase;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico.pto-2{
-    top: 413px;
-    left: 198px;
+a#ver-todos,
+a#ver-todos span{
+	background: url("./assets/fd-corte-gris.png") no-repeat;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico.pto-3{
-    top: 413px;
-    left: 234px;
+a#ver-unico,
+a#ver-unico span{
+	background: url("./assets/fd-corte-azul.png") no-repeat;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico.pto-4{
-    top: 413px;
-    left: 595px;
+a#ver-todos,
+a#ver-unico{
+	background-position: right bottom;
+	padding-right: 11px;
+	position: relative;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico.pto-5{
-    top: 413px;
-    left: 346px;
+a#ver-todos span,
+a#ver-unico span{
+	background-position: left top;
+	padding-left: 20px;
+	padding-right: 10px;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico.pto-6{
-    top: 413px;
-    left: 512px;
+a#ver-todos{
+	left: -14px;
+	z-index: 5;
 }
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-7{
-    top: 18px;
-    left: 42px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-8{
-    top: 18px;
-    left: 107px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-9{
-    top: 18px;
-    left: 156px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-10{
-    top: 413px;
-    left: 310px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-11{
-    top: 18px;
-    left: 185px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-12{
-    top: 413px;
-    left: 260px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-13{
-    top: 413px;
-    left: 539px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-14{
-    top: 18px;
-    left: 81px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-15{
-    top: 412px;
-    left: 56px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-16{
-    top: 412px;
-    left: 388px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-17{
-    top: 412px;
-    left: 445px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-18{
-    top: 412px;
-    left: 146px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-19{
-    top: 412px;
-    left: 283px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-20{
-    top: 413px;
-    left: 637px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-21{
-    top: 413px;
-    left: 666px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-22{
-    top: 412px;
-    left: 106px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-23{
-    top: 18px;
-    left: 260px;
-}
-
-.puntos-diagnostico section.content a.pto-diagnostico.pto-24{
-    top: 413px;
-    left: 705px;
-}*/
-
-.puntos-diagnostico section.content .description-info {
-    display: none;
-    width: 370px;
-}
-
-.puntos-diagnostico section.content .description-info h4{
-    font-size: 17px;
-    line-height: 24px;
-    font-family: "din-black";
-    margin-bottom: 12px;
-}
-
-.puntos-diagnostico section.content .description-info.azul h4{
-    color: #009fde;
-}
-
-.puntos-diagnostico section.content .description-info.verde h4{
-    color: #75aa3b;
-}
-
-.puntos-diagnostico section.content .description-info.rojo h4{
-    color: #f15a5b;
-}
-
-.puntos-diagnostico section.content .description-info.amarillo h4{
-    color: #dbbe19;
-}
-
-.puntos-diagnostico section.content .description-info li{
-    color: #a09f9f;
-    padding: 4px 0;
-    border-bottom: 1px solid #e6e4e4;
-}
-
-.puntos-diagnostico section.content .description-info li span{
-    font-family: "din-black";
-}
-
-.puntos-diagnostico section.content .description-info.azul li.active{
-    color: #009fde;
-}
-
-.puntos-diagnostico section.content .description-info.verde li.active{
-    color: #75aa3b;
-}
-
-.puntos-diagnostico section.content .description-info.rojo li.active{
-    color: #f15a5b;
-}
-
-.puntos-diagnostico section.content .description-info.amarillo li.active{
-    color: #dbbe19;
-}
-
-
 
 
 
