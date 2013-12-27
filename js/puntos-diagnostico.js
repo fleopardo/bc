@@ -73,7 +73,7 @@
 	detalle.click(function(event){
 		event.preventDefault();
 
-		if( $(this).hasClass('active') ){
+		if( $(this).hasClass('active')  || imgCont.hasClass('ver-completo') ){
 			return;
 		}else{
 			detalleID = $(this).attr('id');
@@ -81,10 +81,12 @@
 			detalle.removeClass('active');
 			$(this).addClass('active');
 
-			imgCont.find('img.active').stop(true,true).fadeOut();
-			imgCont.find('img.active').removeClass('active');
-			imgCont.find('img#' + detalleID).stop(true,true).fadeIn();
-			imgCont.find('img#' + detalleID).addClass('active');
+			imgCont.find('img.active').stop(true,true).fadeOut(function(){
+				imgCont.find('img.active').removeClass('active');
+				imgCont.find('img#' + detalleID).stop(true,true).fadeIn();
+				imgCont.find('img#' + detalleID).addClass('active');
+			});
+
 		}
 
 	});

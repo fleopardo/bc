@@ -879,6 +879,7 @@ section.content .bloque img{
     padding-bottom: 30px;
     border-bottom: 1px dotted #d6d5d5;
     margin-bottom: 30px;
+    min-height: 750px;
 }
 
 .puntos-diagnostico section.content img.vehiculo{
