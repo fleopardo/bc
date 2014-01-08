@@ -1,0 +1,30 @@
+/* BOXES MAS CERCANOS */
+.boxes-mas-cercanos section.content{
+    background: #f8f8f8;
+    padding: 20px;
+    width: 810px;
+}
+
+.boxes-mas-cercanos .destacado {
+    background: url("./assets/destacado-boxes-cercanos.jpg") center top no-repeat;
+    padding-top: 36px;
+}
+
+.boxes-mas-cercanos section.content h3{
+    /*border-top: 1px dotted #d6d5d5;
+    padding-top: 20px;*/
+    margin-bottom: 24px;
+}
+
+.boxes-mas-cercanos section.content-container form.busqueda-boxes input[type=submit]{
+    width: 262px;
+}
+
+.boxes-mas-cercanos section.content-container .resultado-busqueda > a{
+    width: 350px;
+}
+
+
+.boxes-mas-cercanos section.content-container .resultado-busqueda > a{
+    margin-top: 30px;
+}

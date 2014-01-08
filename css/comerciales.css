@@ -1,0 +1,233 @@
+/**** COMERCIALES ****/
+.comerciales .destacado{
+    background: url("./assets/destacado-comerciales.jpg") center top no-repeat;
+    padding-top: 118px;
+}
+
+
+
+/* Videos */
+
+.overlayVideo{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.8);
+	z-index: 998;
+}
+
+#container-video{
+	position: absolute;
+	top: 80px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+.videos.contenido{
+	padding: 50px 0;
+	background: #fff;
+	width: 100%;
+	position: relative;
+}
+
+.videos .list{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.videos .list a{
+	display: block;
+	width: 72px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	margin-bottom: 1px;
+	-webkit-transition:all 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:all 0.5s ease-out;  /* Opera */
+	-moz-transition:all 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:all 0.5s ease-out;   /* Internet Explorer */
+	transition:all 0.5s ease-out;  /* W3C */
+}
+
+.videos .list .volver{
+	background: #600066;
+}
+
+	.videos .list .volver:hover{
+		background-color: rgb(58, 1, 61);
+	}
+
+.videos .list .compartir{
+	background: #a0a0a0 url("./assets/icon-share.png") no-repeat 28px 13px;
+	text-indent: -9999px;
+}
+
+	.videos .list .compartir:hover{
+		background-color: #777;
+	}
+
+
+.videos .container-videos,
+.videos .container-playlist{
+	margin: 0 auto;
+}
+
+.videos .container-videos,
+.videos .contentVideo,
+.videos .jcarousel-playlist,
+.videos .container-videos .videoDescripcion,
+.videos .container-playlist{
+	width: 800px;
+}
+
+.videos .contentVideo{
+	height: 491px;
+}
+
+.videos .container-videos h3{
+	color: #000;
+	margin-bottom: 20px;
+	font-size: 35px;
+	font-family: "din-regular";
+	font-weight: normal;
+}
+
+.videos .container-videos .videoDescripcion{
+	color: #676767;
+	margin: 30px 0 20px 0;
+	font-size: 16px;
+}
+
+/* Playlist */
+
+.videos .container-playlist{
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+    padding: 20px 0;
+}
+
+.videos .container-playlist h3{
+	color: #000;
+	font-size: 17px;
+	margin-bottom: 25px;
+	font-family: "din-black";
+	font-weight: normal;
+}
+
+.videos .jcarousel-playlist{
+    position: relative;
+    height: 141px;
+}
+
+.videos .jcarousel-playlist ul {
+    width: 20000em;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.videos .jcarousel-playlist li {
+    float: left;
+    width: 252px;
+    height: 140px;
+	margin-right: 22px;
+	cursor: pointer;
+}
+
+
+.videos .jcarousel-playlist li a{
+	position: relative;
+	display: block;
+}
+
+.videos .jcarousel-playlist li a > div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0, 0.5);
+	-webkit-transition:opacity 0.5s ease-out;  /* Chrome y Safari */
+	-o-transition:opacity 0.5s ease-out;  /* Opera */
+	-moz-transition:opacity 0.5s ease-out;  /* Mozilla Firefox */
+	-ms-transition:opacity 0.5s ease-out;   /* Internet Explorer */
+	transition:opacity 0.5s ease-out;  /* W3C */
+	opacity: 0;
+	-moz-opacity: 0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=0);
+}
+
+.videos .jcarousel-playlist li a:hover > div{
+	-moz-opacity: 1;
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100);
+}
+
+.videos .jcarousel-playlist li a > div > span{
+	display: inline-block;
+	color: #fff;
+	font-family: "din-black";
+	font-weight: normal;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	text-align: left;
+	border-left: 2px solid #fff;
+	padding-left: 8px;
+	line-height: 18px;
+	font-size: 15px;
+}
+
+.videos .jcarousel-playlist li a img.videoplay{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -25px;
+	margin-left: -25px;
+	z-index: 10;
+}
+
+.videos .jcarousel-playlist .jcarousel-prev-horizontal,
+.videos .jcarousel-playlist .jcarousel-next-horizontal{
+  	background: url("./assets/icons-carousel.png") no-repeat;
+  	position: absolute;
+  	z-index:100;
+  	cursor: pointer;
+	width: 10px;
+	height: 19px;
+	top: 60px;
+}
+
+.videos .jcarousel-playlist .jcarousel-prev-horizontal{
+	left: -25px;
+	background-position: 0 0;
+}
+
+.videos .jcarousel-playlist .jcarousel-next-horizontal{
+	right: -25px;
+	background-position: -10px 0;
+}
+
+.videos .jcarousel-playlist .jcarousel-prev-disabled,
+.videos .jcarousel-playlist .jcarousel-next-disabled{
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	cursor: default;
+}
+
+.videos .jcarousel-playlist .jcarousel-clip {
+    overflow: hidden;
+}
+
+/* Mascara hasta que cargue javascript */
+
+.videos .jcarousel-playlist.mask{
+	overflow: hidden;
+}
