@@ -1,0 +1,39 @@
+/******** HOME *********/
+
+.galeria-bg{
+	background: #f2efeb;
+}
+
+.galeria-cont{
+    position: relative;
+    height: 398px;
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.home section.content .bloque{
+	overflow: hidden;
+	margin-bottom: 30px;
+	width: 272px;
+}
+
+.home section.content .bloque img{
+    border-top: none;
+    float: left;
+}
+
+.home section.content a.bloque h2{
+    background: #292929;
+    padding: 5px 12px;
+    text-transform: none;
+    color: #fff;
+	font-size: 21px;
+	font-weight: normal;
+	font-family: "din-regular";
+	line-height: 41px;
+}
+
+.home section.content a.bloque:hover h2{
+    background: #292929;
+}
