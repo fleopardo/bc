@@ -387,7 +387,7 @@ section.content .bloque img{
 
 .destacado{
     min-height: 158px;
-    padding-top: 52px;
+    padding-top: 105px;
 }
 
 .destacado h2,
@@ -419,7 +419,7 @@ section.content .bloque img{
     color: #fff;
     font-size: 15px;
     line-height: 19px;
-    background: #292929;
+    background: #e65834;
     width: 520px;
     padding: 14px;
     /*width: 470px;*/
