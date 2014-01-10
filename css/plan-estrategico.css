@@ -1,3 +1,13 @@
 .plan-estrategico .destacado {
 	background: url("../images/plan-estrategico/header.jpg") center top no-repeat;
 }
+
+.plan-estrategico .pdf{
+	display: block;
+	background: #f0f0f0 url("./assets/ic_pdf.png") no-repeat 17px 10px;
+	line-height: 40px;
+	color: #808080;
+	font-size: 13px;
+	text-decoration: underline;
+	padding-left: 40px;
+}
