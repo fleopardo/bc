@@ -1,0 +1,16 @@
+.la-accion-de-ypf .destacado {
+	background: url("../images/accion-ypf/header.jpg") center top no-repeat;
+}
+
+.la-accion-de-ypf .bloque{
+	border-bottom: 1px solid #ececec;
+	margin-bottom: 20px;
+}
+
+.la-accion-de-ypf .bloque img{
+	margin-bottom: 10px;
+}
+
+.la-accion-de-ypf .bloque:hover h2{
+	color: #0063be;
+}
