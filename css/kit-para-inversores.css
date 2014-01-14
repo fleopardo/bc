@@ -1,0 +1,21 @@
+.kit-para-inversores .destacado {
+	background: url("../images/kit-para-inversores/header.jpg") center top no-repeat;
+}
+
+.kit-para-inversores .destacado p{
+	padding-bottom: 50px;
+}
+
+.kit-para-inversores .content h2 span{
+	text-transform: lowercase;
+}
+
+.kit-para-inversores .descargar{
+	display: block;
+	background: #f0f0f0 url("./assets/fd-link-ppal.png") 95px center no-repeat;
+	line-height: 40px;
+	color: #808080;
+	font-size: 13px;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
