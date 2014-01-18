@@ -25,6 +25,10 @@
 	text-align: left;
 	border-right: 1px solid #dadada;
 	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #292929;
+	font-family: "din-black";
+	font-size: 11px;
 }
 
 .miembros-del-directorio .content td,
