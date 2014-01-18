@@ -1,0 +1,30 @@
+.auditores-externos .destacado {
+	background: url("../images/auditores-externos/header.jpg") center top no-repeat;
+}
+
+.auditores-externos .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.auditores-externos .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.auditores-externos .content article{
+	border-top: 1px solid #ececec;
+	padding: 25px 0 10px;
+}
+
+.auditores-externos .content h4{
+	font-family: "din-black";
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}

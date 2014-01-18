@@ -1,0 +1,66 @@
+.comision-fiscalizadora .destacado {
+	background: url("../images/comision-fiscalizadora/header.jpg") center top no-repeat;
+}
+
+.comision-fiscalizadora .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.comision-fiscalizadora .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.comision-fiscalizadora .content thead{
+	background: #f3f3f3;
+	border: 1px solid #dadada;
+}
+
+.comision-fiscalizadora .content th{
+	text-align: left;
+	border-right: 1px solid #dadada;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #292929;
+	font-family: "din-black";
+	font-size: 11px;
+}
+
+.comision-fiscalizadora .content td,
+.comision-fiscalizadora .content th{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.comision-fiscalizadora .content td{
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.comision-fiscalizadora .content th.last{
+	border-right: none;
+}
+
+.comision-fiscalizadora .content td.col1,
+.comision-fiscalizadora .content th.col1{
+	width: 172px;
+}
+
+.comision-fiscalizadora .content td.col2,
+.comision-fiscalizadora .content th.col2{
+	width: 222px;
+}
+
+.comision-fiscalizadora .content td.col3,
+.comision-fiscalizadora .content th.col3{
+	width: 134px;
+}
+
+.comision-fiscalizadora .content td.col4,
+.comision-fiscalizadora .content th.col4{
+	width: 88px;
+}
