@@ -1,0 +1,48 @@
+.capital-subscripto .destacado {
+	background: url("../images/capital-subscripto/header.jpg") center top no-repeat;
+}
+
+.capital-subscripto .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.capital-subscripto .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.capital-subscripto .content article{
+	border-top: 1px solid #ececec;
+	padding: 25px 0 10px;
+}
+
+.capital-subscripto .content table{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.capital-subscripto .content td{
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+	background: #f0f0f0;
+	vertical-align: middle;
+}
+
+.capital-subscripto .content td.col1{
+	text-transform: uppercase;
+	font-family: "din-black";
+}
+
+.capital-subscripto .content td.col1,
+.capital-subscripto .content td.col2{
+	width: 170px;
+}
+
+.capital-subscripto .content td.col3{
+	width: ;
+}
