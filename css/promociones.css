@@ -1,9 +1,9 @@
 /*** PROMOCIONES ***/
-.promociones .destacado{
+.contenedor-principal .promociones .destacado{
     background: url("./assets/destacado-promociones.jpg") center top no-repeat;
 }
 
-.promociones section.content h4{
+.contenedor-principal .promociones section.content h4{
     color: #9d9c9c;
     font-size: 17px;
     line-height: 24px;

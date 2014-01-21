@@ -1,21 +1,21 @@
 /**** PUNTOS DE DIAGNOSTICO ****/
-.puntos-diagnostico .destacado{
+.contenedor-principal .puntos-diagnostico .destacado{
     background: url("./assets/destacado-puntos-diagnostico.jpg") center top no-repeat;
     padding-top: 40px;
 }
 
-.puntos-diagnostico section.content{
+.contenedor-principal .puntos-diagnostico section.content{
     /*background: #f8f8f8;*/
     padding: 20px;
     width: 810px;
 }
 
-.puntos-diagnostico section.content.right h3{
+.contenedor-principal .puntos-diagnostico section.content.right h3{
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 
-.puntos-diagnostico section.content .img-cont{
+.contenedor-principal .puntos-diagnostico section.content .img-cont{
     position: relative;
     padding-bottom: 60px;
     /*border-bottom: 1px dotted #d6d5d5;*/
@@ -23,21 +23,21 @@
     min-height: 820px;
 }
 
-.puntos-diagnostico section.content img.vehiculo{
+.contenedor-principal .puntos-diagnostico section.content img.vehiculo{
     position: relative;
     z-index: 0;
     display: none;
 }
 
-.puntos-diagnostico section.content img.vehiculo.active{
+.contenedor-principal .puntos-diagnostico section.content img.vehiculo.active{
     display: block;
 }
 
-.puntos-diagnostico section.content .lista-principal{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal{
 	margin-bottom: 30px;
 }
 
-.puntos-diagnostico section.content .lista-principal > li > a{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li > a{
 	text-transform: uppercase;
 	color: #363636;
 	font-family: "din-black";
@@ -48,46 +48,46 @@
 	display: inline-block;
 }
 
-.puntos-diagnostico section.content .lista-principal > li a.azul.active,
-.puntos-diagnostico section.content .ver-completo .lista-principal > li a.azul{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.azul.active,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.azul{
 	background: url("./assets/fd-diagnostico-principal-active-azul.jpg") 10px bottom no-repeat;
 }
 
-.puntos-diagnostico section.content .lista-principal > li a.azul.active span,
-.puntos-diagnostico section.content .ver-completo .lista-principal > li a.azul span{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.azul.active span,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.azul span{
 	background: #009fde;
 }
 
-.puntos-diagnostico section.content .lista-principal > li a.verde.active,
-.puntos-diagnostico section.content .ver-completo .lista-principal > li a.verde{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.verde.active,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.verde{
 	background: url("./assets/fd-diagnostico-principal-active-verde.jpg") 10px bottom no-repeat;
 }
 
-.puntos-diagnostico section.content .lista-principal > li a.verde.active span,
-.puntos-diagnostico section.content .ver-completo .lista-principal > li a.verde span{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.verde.active span,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.verde span{
 	background: #75aa3b;
 }
 
-.puntos-diagnostico section.content .lista-principal > li a.rojo.active,
-.puntos-diagnostico section.content .ver-completo .lista-principal > li a.rojo{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.rojo.active,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.rojo{
 	background: url("./assets/fd-diagnostico-principal-active-rojo.jpg") 10px bottom no-repeat;
 }
 
-.puntos-diagnostico section.content .lista-principal > li a.rojo.active span,
-.puntos-diagnostico section.content .ver-completo .lista-principal > li a.rojo span{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.rojo.active span,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.rojo span{
 	background: #f16a6b;
 }
 
-.puntos-diagnostico section.content .lista-principal > li a.last{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.last{
 	background: none;
 }
 
-.puntos-diagnostico section.content .ver-completo .lista-principal > li a.amarillo span,
-.puntos-diagnostico section.content .lista-principal > li a.active.amarillo span{
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.amarillo span,
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.active.amarillo span{
 	background: #dbbe19;
 }
 
-.puntos-diagnostico section.content .lista-principal > li > a span{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li > a span{
 	display: inline-block;
     width: 28px;
     height: 28px;
@@ -105,7 +105,7 @@
     margin-right: 8px;
 }
 
-.puntos-diagnostico section.content .lista-principal > li > ul{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li > ul{
 	position: absolute;
 	top: 0px;
 	left: 260px;
@@ -113,34 +113,34 @@
 	display: none;
 }
 
-.puntos-diagnostico section.content .ver-completo .lista-principal ul.fluidos{
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal ul.fluidos{
 	left: 530px;
 }
 
-.puntos-diagnostico section.content .ver-completo .lista-principal ul.mecanica{
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal ul.mecanica{
 	left: 0;
 	top: 760px;
 }
 
-.puntos-diagnostico section.content .ver-completo .lista-principal ul.seguridad{
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal ul.seguridad{
 	left: 420px;
 	top: 760px;
 }
 
-.puntos-diagnostico section.content .lista-principal > li > ul > li{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li > ul > li{
 	margin-bottom: 6px;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico{
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico{
 	color: #8f8f8f;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico:hover,
-.puntos-diagnostico section.content a.pto-diagnostico.active{
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico:hover,
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.active{
 	color: #363636;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico span{
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico span{
     display: inline-block;
     width: 22px;
     height: 22px;
@@ -158,23 +158,23 @@
     margin-right: 8px;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico.azul.active span,
-.puntos-diagnostico section.content .ver-completo a.pto-diagnostico.azul span{
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.azul.active span,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo a.pto-diagnostico.azul span{
     background: #009fde;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico.verde.active span,
-.puntos-diagnostico section.content .ver-completo a.pto-diagnostico.verde span{
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.verde.active span,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo a.pto-diagnostico.verde span{
     background: #75aa3b;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico.rojo.active span,
-.puntos-diagnostico section.content .ver-completo a.pto-diagnostico.rojo span{
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.rojo.active span,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo a.pto-diagnostico.rojo span{
     background: #f15a5b;
 }
 
-.puntos-diagnostico section.content a.pto-diagnostico.amarillo.active span,
-.puntos-diagnostico section.content .ver-completo a.pto-diagnostico.amarillo span{
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.amarillo.active span,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo a.pto-diagnostico.amarillo span{
     background: #dbbe19;
 }
 

@@ -1,21 +1,21 @@
 /******** ACERCA DE BOXES *********/
 
-.acerca-de-boxes .destacado{
+.contenedor-principal .acerca-de-boxes .destacado{
     background: url("./assets/destacado-acerca-de-boxes.jpg") center top no-repeat;
 }
 
-.acerca-de-boxes .destacado p{
+.contenedor-principal .acerca-de-boxes .destacado p{
     font-size: 19px;
     line-height: 25px;
 }
 
-.acerca-de-boxes section.content h3{
+.contenedor-principal .acerca-de-boxes section.content h3{
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #d8d8d8;
 }
 
-.acerca-de-boxes section.content img.logos-recomendaciones{
+.contenedor-principal .acerca-de-boxes section.content img.logos-recomendaciones{
     margin-top: 80px;
     display: block;
 }

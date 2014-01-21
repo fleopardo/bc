@@ -1,6 +1,5 @@
-
-
 /******** HOME *********/
+
 .galeria-bg{
 	background: #f2efeb;
 }
@@ -14,55 +13,13 @@
 }
 
 
-.home section.content .bloque img{
+.contenedor-principal .home section.content .bloque img{
     margin-bottom: 6px;
     border-top: none;
     float: left;
 }
 
 
-.home section.content a.bloque:hover h2{
+.contenedor-principal .home section.content a.bloque:hover h2{
     background: #192853;
 }
-
-
-/*
-.home .box-img-detalle{
-    position: relative;
-    width: 260px;
-}
-
-.home .box-img-detalle img{
-    width: 100%;
-    margin-bottom: 0!important;
-}
-
-.home .over-img{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(21,176,218,0.9);
-    display: none;
-}
-
-.home .over-img > a{
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-}
-
-.home .over-img p{
-    color: #fff;
-    font-family: "din-black";
-    font-size: 15px;
-    line-height: 18px;
-}
-*/
-

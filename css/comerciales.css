@@ -1,5 +1,5 @@
 /**** COMERCIALES ****/
-.comerciales .destacado{
+.contenedor-principal .comerciales .destacado{
     background: url("./assets/destacado-comerciales.jpg") center top no-repeat;
     padding-top: 118px;
 }
