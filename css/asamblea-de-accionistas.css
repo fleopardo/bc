@@ -14,35 +14,32 @@
 	font-size: 30px;
 	line-height: 34px;
 	text-transform: uppercase;
+	border-bottom: 1px solid #ececec;
+	margin-bottom: 25px;
+	padding-bottom: 12px;
 }
 
-.asamblea-de-accionistas .content article{
-	border-top: 1px solid #ececec;
-	padding: 25px 0 10px;
+.asamblea-de-accionistas .content h4{
+	font-size: 20px;
+	line-height: 24px;
+	font-family: "din-medium";
+	margin-bottom: 15px;
 }
 
-.asamblea-de-accionistas .content table{
-	width: 100%;
-	margin-top: 10px;
+.asamblea-de-accionistas ul.docs{
+	margin-top: 30px;
 }
 
-.asamblea-de-accionistas .content td{
+.asamblea-de-accionistas .docs li{
+	background: #ececec;
+	padding: 8px 10px;
 	border-bottom: 1px solid #fff;
-	padding: 10px;
-	background: #f0f0f0;
-	vertical-align: middle;
 }
 
-.asamblea-de-accionistas .content td.col1{
-	text-transform: uppercase;
-	font-family: "din-black";
-}
-
-.asamblea-de-accionistas .content td.col1,
-.asamblea-de-accionistas .content td.col2{
-	width: 170px;
-}
-
-.asamblea-de-accionistas .content td.col3{
-	width: ;
+.asamblea-de-accionistas .docs li a{
+	font-family: "din-medium";
+	font-size: 13px;
+	line-height: 20px;
+	display: inline-block;
+	color: #808080;
 }
