@@ -15,6 +15,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
 	<link rel="stylesheet" type="text/css" href="css/asamblea-de-accionistas.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.ui.selectmenu.css" />
 
 </head>
 <body>
@@ -454,7 +455,19 @@
 
 
 				<h4>Documentos</h4>
+				<form action="" method="">
+					<fieldset>
+						<select>
+							<option>2014</option>
+							<option>2013</option>
+						</select>
+					</fieldset>
+				</form>
 
+				<ul class="docs" data-ano="2013">
+					<li><a href="#" title="">18-07-2012 Sintesis Asamblea General Ordinaria del 17-07-2012</a></li>
+					<li><a href="#" title="">04-06-2012 Síntesis Asamblea General de Accionistas</a></li>
+				</ul>
 
 			</section>
 
@@ -478,10 +491,12 @@
 
 		<!-- Incluir JQUERY -->
 		<script src="./jquery/jquery.min.js"></script>
+		<script src="./jquery/jquery-ui-1.8.12.custom.min.js"></script>
 
 		<!-- Incluir header.js para tener las funcionalidades del menu -->
 		<script src="./header/js/header.js"></script>
 
+		<script src="./jquery/jquery.ui.selectmenu.js"></script>
 		<script src="./js/global.js"></script>
 
 	</div>
