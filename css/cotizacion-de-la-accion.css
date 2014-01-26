@@ -1,0 +1,58 @@
+.cotizacion-de-la-accion .destacado {
+	background: url("../images/cotizacion-de-la-accion/header.jpg") center top no-repeat;
+}
+
+.cotizacion-de-la-accion .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.cotizacion-de-la-accion .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+}
+
+.cotizacion-de-la-accion .content .select-mercado{
+	margin-bottom: 10px;
+}
+
+.cotizacion-de-la-accion .content .select-mercado label{
+	margin-left: 15px;
+}
+
+.cotizacion-de-la-accion .content table{
+	width: 100%;
+}
+
+.cotizacion-de-la-accion .content thead{
+	background: #f3f3f3;
+	border: 1px solid #dadada;
+}
+
+.cotizacion-de-la-accion .content th{
+	text-align: left;
+	border-right: 1px solid #dadada;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #292929;
+	font-family: "din-black";
+	font-size: 11px;
+}
+
+.cotizacion-de-la-accion .content td,
+.cotizacion-de-la-accion .content th{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.cotizacion-de-la-accion .content td{
+	border-bottom: 1px solid #e0e0e0;
+
+}
