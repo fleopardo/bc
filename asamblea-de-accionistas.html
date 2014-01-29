@@ -457,15 +457,20 @@
 				<h4>Documentos</h4>
 				<form action="" method="">
 					<fieldset>
-						<select>
-							<option>2014</option>
-							<option>2013</option>
+						<select class="select-year">
+							<option data-year="2014">2014</option>
+							<option data-year="2013">2013</option>
 						</select>
 					</fieldset>
 				</form>
 
-				<ul class="docs" data-ano="2013">
+				<ul class="docs" data-year="2014">
 					<li><a href="#" title="">18-07-2012 Sintesis Asamblea General Ordinaria del 17-07-2012</a></li>
+					<li><a href="#" title="">04-06-2012 Síntesis Asamblea General de Accionistas</a></li>
+				</ul>
+
+				<ul class="docs DN" data-year="2013">
+					<li><a href="#" title="">18-07-2012 Sintesis Asamblea General Ordinaria</a></li>
 					<li><a href="#" title="">04-06-2012 Síntesis Asamblea General de Accionistas</a></li>
 				</ul>
 
@@ -498,6 +503,8 @@
 
 		<script src="./jquery/jquery.ui.selectmenu.js"></script>
 		<script src="./js/global.js"></script>
+
+		<script src="./js/asamblea-de-accionistas.js"></script>
 
 	</div>
 
