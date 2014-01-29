@@ -1,0 +1,104 @@
+.hechos-relevantes .destacado {
+	background: url("../images/hechos-relevantes/header.jpg") center top no-repeat;
+}
+
+
+/* TABS */
+.tabs{
+    margin-bottom: 1px
+}
+
+.tabs li{
+    display: inline-block;
+    width: 120px;
+    padding: 15px;
+    background: #f2f1f1;
+    color: #a7a7a7;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.tabs li.active,
+.tabs li:hover{
+    background: #292929;
+    color: #fff;
+}
+
+
+/* ACORDEON */
+.hechos-relevantes .acordeon-container article{
+    margin-bottom: 1px;
+    color: #fff;
+}
+    
+    .hechos-relevantes .acordeon-container article.q1{
+        background: #02aedc;
+    }
+
+    .hechos-relevantes .acordeon-container article.q2{
+        background: #0291dc;
+    }
+
+    .hechos-relevantes .acordeon-container article.q3{
+        background: #0273ff;
+    }
+
+    .hechos-relevantes .acordeon-container article.q4{
+        background: #0063be;
+    }
+
+.hechos-relevantes .acordeon-container article .titulo{
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    line-height: 40px;
+    font-size: 15px;
+    background: url('./assets/ic_tit_accordeon.png') no-repeat 10px center;
+    padding-left: 40px;
+}
+
+.hechos-relevantes .acordeon-container article .acordeon{
+    width: 18px;
+    height: 18px;
+    background: url("./assets/ic_accordeon.png") top left;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.hechos-relevantes .acordeon-container article .acordeon.open{
+    background-position: bottom left;
+}
+
+.hechos-relevantes .acordeon-container article .texto{
+    padding: 25px 40px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "din-light";
+}
+
+.hechos-relevantes .acordeon-container article .texto li{
+    border-bottom: 1px solid #35bee3;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.hechos-relevantes .acordeon-container article .texto li p{
+    margin: 0;
+    padding-right: 250px;
+}
+
+.hechos-relevantes .acordeon-container article .texto li .descargar{
+    position: absolute;
+    right: 80px;
+    top: 0;
+    display: block;
+    background: url('./assets/ic_pdf_transparent.png') no-repeat left center;
+    padding-left: 22px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
