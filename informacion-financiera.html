@@ -15,6 +15,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
 	<link rel="stylesheet" type="text/css" href="css/informacion-financiera.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.ui.selectmenu.css" />
 
 </head>
 <body>
@@ -404,8 +405,8 @@
 		<div class="destacado">
 			<div class="layout">
 				<h2>Centro de inversores</h2>
-				<h3>Plan <span>estratégico</span></h3>
-				<p>Conocé la Estrategia de gestión 2013 – 2017. Encontrá los objetivos, la misión y la visión de nuestra compañía.</p>
+				<h3>Información <span>financiera</span></h3>
+				<p>Encontrá los informes de resultados económicos, estados contables, información sobre la evolución del negocio y datos de interés para inversores.</p>
 			</div>
 		</div>
 
@@ -414,7 +415,7 @@
 			<aside class="left">
 				<h2>CENTRO DE INVERSORES</h2>
 				<ul>
-					<li><a href="./plan-estrategico.html" title="Plan Estratégico">Plan Estratégico</a></li>
+					<li class="first"><a href="./plan-estrategico.html" title="Plan Estratégico">Plan Estratégico</a></li>
 					<li>
 						<a href="./gobierno-corporativo.html" title="Gobierno corporativo">Gobierno corporativo</a>
 						<ul>
@@ -448,6 +449,67 @@
 			</aside>
 
 			<section class="content right">
+				<div class="bloques-container top">
+					<article class="bloque left">
+						<div>
+							<h3>Informe anual (form 20 F)</h3>
+							<p>Sólo disponible en inglés. Los accionistas de YPF S.A., obligacionistas y titulares de American Depositary Receipts, podrán recibir de forma gratuita una copia impresa del informe, que incluye los estados financieros auditados, si así lo solicitan.</p>
+							<form action="" method="">
+								<fieldset>
+									<select>
+										<option>2014</option>
+										<option>2013</option>
+									</select>
+								</fieldset>
+							</form>
+						</div>
+						<ul class="docs" data-ano="form20-2013">
+							<li><a href="#" title="">Informe anual (from 20 F) YPF s.a</a></li>
+						</ul>
+					</article>
+
+					<article class="bloque right">
+						<div>
+							<h3>Informe anual</h3>
+							<form action="" method="">
+								<fieldset>
+									<select>
+										<option>2014</option>
+										<option>2013</option>
+									</select>
+								</fieldset>
+							</form>
+						</div>
+						<ul class="docs" data-ano="anual-2013">
+							<li><a href="#" title="">Informe anual</a></li>
+							<li><a href="#" title="">Informe anual</a></li>
+							<li><a href="#" title="">Informe anual</a></li>
+						</ul>
+					</article>
+				</div>
+
+				<div class="bloques-container bottom">
+					<article class="bloque left">
+						<div>
+							<h3>Estados contables</h3>
+						</div>
+						<ul class="docs" data-ano="form20-2013">
+							<li><a href="#" title="">Estados contables 1T2013</a></li>
+							<li><a href="#" title="">Estados contables 1T2013</a></li>
+						</ul>
+					</article>
+
+					<article class="bloque right">
+						<div>
+							<h3>Nota de analísta</h3>
+						</div>
+						<ul class="docs" data-ano="form20-2013">
+							<li><a href="#" title="">Nota de analísta 1T2013</a></li>
+							<li><a href="#" title="">Nota de analísta 1T2013</a></li>
+							<li><a href="#" title="">Nota de analísta 1T2013</a></li>
+						</ul>
+					</article>
+				</div>
 
 			</section>
 
@@ -471,16 +533,16 @@
 
 		<!-- Incluir JQUERY -->
 		<script src="./jquery/jquery.min.js"></script>
+		<script src="./jquery/jquery-ui-1.8.12.custom.min.js"></script>
 
 		<!-- Incluir header.js para tener las funcionalidades del menu -->
 		<script src="./header/js/header.js"></script>
-		<!-- Incluir jquery.placeholder.js para tener las funcionalidades del placeholder -->
 
+		<script src="./jquery/jquery.ui.selectmenu.js"></script>
 
 		<script src="./js/global.js"></script>
-
+		<script src="./js/informacion-financiera.js"></script>
 	</div>
-
 
 </div>
 </body>

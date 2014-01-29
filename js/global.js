@@ -9,6 +9,8 @@
 ;(function(){
 
 
+	var ypf = {};
+
 	// Slider home
 	if($("#sequence").length > 0){
 		var options = {
@@ -108,4 +110,27 @@
 	if($("input[placeholder],textarea[placeholder]").length > 0){
 		$('input[placeholder],textarea[placeholder]').placeholder();
 	}
+
+
+	//Funcion equalHeight
+	ypf.equalHeight = function(element){
+
+        var height = 0;
+
+        element.each(function(){
+
+                if ($(this).height() > height){
+
+                        height = $(this).height();
+
+                }
+
+        });
+
+        element.css("height",height);
+
+    }
+
+    window.ypf = ypf;
+
 }());

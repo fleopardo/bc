@@ -1,0 +1,44 @@
+.informacion-financiera .destacado {
+	background: url("../images/informacion-financiera/header.jpg") center top no-repeat;
+}
+
+.informacion-financiera .bloques-container{
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+.informacion-financiera .content .bloque{
+	background: #f2f1f1;
+	padding: 10px;
+	width: 392px;
+}
+
+.informacion-financiera .content h3{
+	font-size: 23px;
+	line-height: 28px;
+	font-family: "din-medium";
+	margin-bottom: 25px;
+}
+
+.informacion-financiera .content article p{
+	margin-bottom: 15px;
+}
+
+.informacion-financiera .bloque ul{
+	margin-top: 20px;
+}
+
+.informacion-financiera .bloque li{
+	padding: 8px 10px;
+	border-top: 1px solid #fff;
+}
+
+.informacion-financiera .bloque li a{
+	font-family: "din-medium";
+	font-size: 13px;
+	line-height: 20px;
+	display: inline-block;
+	color: #808080;
+	background: url(./assets/ic_pdf_transparent.png) left no-repeat;
+	padding-left: 20px;
+}
