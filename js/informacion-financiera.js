@@ -10,7 +10,9 @@
 	 * Variables
 	*/
 	var $acordeon = $(".acordeon-container .titulo"),
-	    $tabs = $(".tabs li");
+	    $tabs = $(".tabs li"),
+	    selectForm20 = $(".select-form20"),
+		selectInformeAnual = $(".select-informe-anual");
 
 
 	if( $acordeon.length > 0){
@@ -56,9 +58,7 @@
 	}
 
 
-	var selectForm20 = $(".select-form20"),
-		selectInformeAnual = $(".select-informe-anual");
-
+	/* Selects */
 
  	selectForm20.on("change", function(event){
 
