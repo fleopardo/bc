@@ -94,7 +94,7 @@
     position: relative;
     line-height: 40px;
     font-size: 15px;
-    background: url('./assets/ic_tit_accordeon.png') no-repeat 10px center;
+    background: url('../images/informacion-financiera/ic-colapsable-cuatrimestre.png') no-repeat 10px center;
     padding-left: 40px;
 }
 
