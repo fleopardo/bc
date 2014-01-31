@@ -18,6 +18,7 @@
 
 .rating-crediticio .content table{
 	width: 100%;
+	margin-bottom: 20px;
 }
 
 .rating-crediticio .content thead{
@@ -50,12 +51,35 @@
 .rating-crediticio .content td{
 	border-bottom: 1px solid #fff;
 	background: #e6e5e5;
+	padding-left: 90px;
+	position: relative;
 }
 
 .rating-crediticio .content th.last{
 	border-right: none;
 }
 
+.rating-crediticio .content td img{
+	position: absolute;
+	left: 30px;
+	top: 15px;
+}
+
+.rating-crediticio .content .ref-tables{
+	overflow: hidden;
+}
+
+.rating-crediticio .content .ref-tables li{
+	float: left;
+	margin-right: 30px;
+	line-height: 30px;
+}
+
+.rating-crediticio .content .ref-tables li img{
+	margin-right: 10px;
+	position: relative;
+	top: -2px;
+}
 /*.rating-crediticio .content td.col1,
 .rating-crediticio .content th.col1{
 	width: 172px;
