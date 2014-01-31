@@ -16,13 +16,17 @@
 	text-transform: uppercase;
 }
 
+.rating-crediticio .content table{
+	width: 100%;
+}
+
 .rating-crediticio .content thead{
 	background: #f3f3f3;
 	border: 1px solid #dadada;
 }
 
 .rating-crediticio .content th{
-	text-align: left;
+	text-align: center;
 	border-right: 1px solid #dadada;
 	padding: 5px 10px;
 	text-transform: uppercase;
@@ -40,9 +44,6 @@
 
 .rating-crediticio .content .first-head th{
 	background: #292929;
-}
-
-.rating-crediticio .content .first-head th{
 	font-size: 17px;
 }
 
@@ -55,7 +56,7 @@
 	border-right: none;
 }
 
-.rating-crediticio .content td.col1,
+/*.rating-crediticio .content td.col1,
 .rating-crediticio .content th.col1{
 	width: 172px;
 }
@@ -73,4 +74,4 @@
 .rating-crediticio .content td.col4,
 .rating-crediticio .content th.col4{
 	width: 88px;
-}
+}*/
