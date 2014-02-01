@@ -121,7 +121,7 @@
 		});
 
 
-		//Funcionalidad link contrae y expande info
+	//Funcionalidad link contrae y expande info
 	$('a.exp-contraer').on('click', function(event){
 			event.preventDefault();
 
@@ -133,7 +133,7 @@
 
 				expandibleCont.removeClass('expanded');
 				$("span",$(this)).html('Cargar más');
-				$(this).css('background-position', 'right 4px');
+				$("span",$(this)).css('background-position', 'right -17px');
 				expandibleCont.animate({
 					height: expandibleCont.data('css-height')
 				});
@@ -144,8 +144,6 @@
 				});
 				expandibleCont.addClass('expanded');
 				$("span", $(this)).html('Cargar menos');
-				console.log($("span",(this)));
-
 				$("span",$(this)).css('background-position', 'right 4px');
 				//$(this).find('span').css('background-position', 'right 4px');
 			}
