@@ -104,4 +104,18 @@
 .rating-crediticio .content article{
 	margin-bottom: 30px;
 	padding-top: 20px;
+
+}
+
+.expansible-container{
+	height: 300px;
+	overflow: hidden;
+}
+
+.expansible-container.expanded{
+	height: 100%;
+}
+
+a.exp-contraer{
+
 }

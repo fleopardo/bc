@@ -112,6 +112,37 @@
 	}
 
 
+	// me guardo los heights iniciales
+	$('.expansible-container').each(function(){
+		$(this).attr('data-css-height',$(this).height());
+	});
+
+
+	//Funcionalidad link contrae y expande info
+	$('a.exp-contraer').on('click', function(event){
+		event.preventDefault();
+
+		var expandibleCont = $(this).siblings('.expansible-container'),
+			expCont100 = $(this).siblings('.expansible-container').find('.content-expandible')
+
+
+		if( expandibleCont.hasClass('expanded') ){
+
+			expandibleCont.removeClass('expanded');
+			expandibleCont.animate({
+				height: expandibleCont.data('css-height')
+			});
+
+		}else{
+			expandibleCont.animate({
+				height: expCont100.height()
+			});
+			expandibleCont.addClass('expanded');
+		}
+
+	});
+
+
 	//Funcion equalHeight
 	ypf.equalHeight = function(element){
 
