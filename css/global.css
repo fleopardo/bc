@@ -333,6 +333,29 @@ a.leer-mas:hover{
     line-height: 18px;
 }
 
+.expansible-container{
+	height: 320px;
+	overflow: hidden;
+}
+
+a.exp-contraer{
+	display: block;
+	padding-top: 5px;
+	border-top: 1px solid #e0e0e0;
+	margin-top: 5px;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "din-black";
+	text-transform: uppercase;
+	color: #636363;
+}
+
+a.exp-contraer span{
+	display: inline-block;
+	background: url(./assets/sp-expandible-arrows.png) right -17px no-repeat;
+	padding-right: 20px;
+}
+
 .content-container{
     margin-top: 35px;
 }
