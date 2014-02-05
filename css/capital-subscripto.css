@@ -46,3 +46,8 @@
 .capital-subscripto .content td.col3{
 	width: ;
 }
+
+.capital-subscripto .evolucion-row td{
+	background: #929292;
+	color: #fff;
+}
