@@ -4,12 +4,15 @@
 
 .informacion-financiera .bloques-container{
 	overflow: hidden;
-	margin-bottom: 25px;
 }
 
 .informacion-financiera .content .bloque{
 	background: #f2f1f1;
 	padding: 10px;
+	margin-bottom: 25px;
+}
+
+.informacion-financiera .content .bloques-container .bloque{
 	width: 392px;
 }
 
@@ -39,7 +42,7 @@
 	line-height: 20px;
 	display: inline-block;
 	color: #808080;
-	background: url(./assets/ic_pdf_transparent.png) left no-repeat;
+	background: url(./assets/ic_pdf_transparent.png) left top no-repeat;
 	padding-left: 25px;
 }
 
