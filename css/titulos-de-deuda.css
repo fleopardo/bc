@@ -34,22 +34,27 @@
 
 .titulos-de-deuda .content td.col1,
 .titulos-de-deuda .content th.col1{
-	width: 172px;
+	width: 130px;
 }
 
 .titulos-de-deuda .content td.col2,
 .titulos-de-deuda .content th.col2{
-	width: 222px;
+	width: 130px;
 }
 
 .titulos-de-deuda .content td.col3,
 .titulos-de-deuda .content th.col3{
-	width: 134px;
+	width: 130px;
 }
 
 .titulos-de-deuda .content td.col4,
 .titulos-de-deuda .content th.col4{
-	width: 88px;
+	width: 140px;
+}
+
+.titulos-de-deuda .content td.col5,
+.titulos-de-deuda .content th.col5{
+	width: 200px;
 }
 
 .titulos-de-deuda .content tr{
@@ -66,10 +71,10 @@
 }
 
 .titulos-de-deuda .content tr.headerColapsible.closed .last{
-	background: url(./assets/sp-expandible-arrows-orange-close.png) right no-repeat;
+	background: url(./assets/sp-expandible-arrows-orange-close.png) 190px 14px no-repeat;
 }
 
 .titulos-de-deuda .content tr.headerColapsible.opened .last{
-	background: url(./assets/sp-expandible-arrows-orange-open.png) right no-repeat;
+	background: url(./assets/sp-expandible-arrows-orange-open.png) 190px 14px no-repeat;
 }
 
