@@ -170,7 +170,7 @@ Aside from these comments, you may modify and distribute this file as you please
 	/*position: relative;*/
 	position: absolute;
 	height: auto!important;
-	max-height: 398px!important;
+	max-height: 435px!important;
 	width: 100%;
 	min-width: 1024px; /*prevents the model from shrinking when the browser is resized*/
 	max-width: 2000px;
