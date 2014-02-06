@@ -6,8 +6,12 @@
 
 .galeria-cont{
     position: relative;
-    height: 398px;
-    width: 1200px;
+    /*height: 398px;*/
+    /*width: 1200px;*/
+    height: 435px;
+    width: 100%;
+    max-width: 2000px;
+    overflow: hidden;
     margin: 0 auto;
     z-index: 0;
 }
