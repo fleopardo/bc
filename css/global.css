@@ -261,6 +261,27 @@ a.exp-contraer span{
 	padding-right: 20px;
 }
 
+input[type="submit"]{
+	display: block;
+	cursor: pointer;
+	color: #fff;
+	background: #d8d8d8 url("./assets/fd-input-submit.png") 65px 16px no-repeat;
+	height: 40px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 0 0 0 15px;
+	border: none;
+	-moz-transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	width: 160px;
+}
+
+input[type="submit"]:hover{
+	background: #0063be url("./assets/fd-input-submit.png") 65px 16px no-repeat;
+}
+
 .content-container{
     margin-top: 35px;
 }
