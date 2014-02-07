@@ -4,7 +4,7 @@
 
 .estatuto .pdf{
 	display: block;
-	background: #f0f0f0 url("./assets/ic_pdf.png") no-repeat 17px 10px;
+	background: #f0f0f0 url("./assets/ic_pdf_transparent.png") no-repeat 14px 10px;
 	line-height: 40px;
 	color: #808080;
 	font-size: 13px;
