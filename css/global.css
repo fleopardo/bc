@@ -215,7 +215,8 @@ body{
 }
 
 .breadcrumb-container{
-    background: #292929;
+    background: rgb(232,232,232);
+    background: rgba(232,232,232, 0.85);
     padding-left: 10px;
     position: fixed;
 	top: 55px;
@@ -224,19 +225,63 @@ body{
 	z-index: 9;
 }
 
+.breadcrumb-container ul.breadcrumb{
+    float: left;
+}
+
+.breadcrumb-container ul.options{
+    float: right;
+    padding-top: 8px;
+}
+
 .breadcrumb-container li{
     display: inline-block;
     color: #fff;
 }
 
 .breadcrumb-container li a{
-    color: #fff;
+    color: #5e5e5e;
     display: inline-block;
     line-height: 36px;
     font: 12px/36px arial, Helvetica, Sans-serif;
 }
 
-.breadcrumb-container li.last a{font-weight: bold;}
+.breadcrumb-container li.last a{
+	font-family: "din-black";
+	color: #0063be;
+}
+
+.breadcrumb-container ul.options li a{
+    display: inline-block;
+    background: url(./assets/sp-breadcrumb-icons.png) no-repeat;
+    padding-left: 28px;
+    line-height: 15px;
+    margin-right: 20px;
+}
+
+.breadcrumb-container ul.options li a.news-btn{
+    background-position: left top;
+}
+
+.breadcrumb-container ul.options li a.mmedia-btn{
+    background-position: left bottom;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb{
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background: #fff;
+}
+#dimmerSubmenu{
+	background: red;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
 
 .expansible-container{
 	height: 320px;
