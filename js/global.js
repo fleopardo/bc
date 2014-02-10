@@ -99,6 +99,7 @@
 			$(this).siblings('.submenu-breadcrumb').stop(true,true).fadeOut();
 
 		}else{
+			
 			$('.breadcrumb-container .options li a').removeClass('active');
 			$('.submenu-breadcrumb').stop(true,true).fadeOut();
 			$('#dimmerSubmenu').remove();
@@ -128,7 +129,10 @@
 
 	//Placeholder fallback
 	if($("input[placeholder],textarea[placeholder]").length > 0){
+
+		console.log()
 		$('input[placeholder],textarea[placeholder]').placeholder();
+
 	}
 
 
