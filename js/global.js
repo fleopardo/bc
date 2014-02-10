@@ -94,7 +94,6 @@
 		event.preventDefault();
 
 		if ( $(this).hasClass('active') ) {
-			alert('Tiene active y hago click');
 			$(this).removeClass('active');
 			$('#dimmerSubmenu').remove();
 			$(this).siblings('.submenu-breadcrumb').stop(true,true).fadeOut();

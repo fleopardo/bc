@@ -231,7 +231,6 @@ body{
 
 .breadcrumb-container ul.options{
     float: right;
-    padding-top: 8px;
 }
 
 .breadcrumb-container li{
@@ -251,28 +250,65 @@ body{
 	color: #0063be;
 }
 
+.breadcrumb-container ul.options li{
+    position: relative;
+    margin-right: 10px;
+}
+
 .breadcrumb-container ul.options li a{
     display: inline-block;
     background: url(./assets/sp-breadcrumb-icons.png) no-repeat;
-    padding-left: 28px;
     line-height: 15px;
-    margin-right: 20px;
+    padding: 11px 10px 11px 42px;
+
+}
+
+.breadcrumb-container ul.options li a.active{
+    background-color: #ddd;
 }
 
 .breadcrumb-container ul.options li a.news-btn{
-    background-position: left top;
+    background-position: 8px 11px;
 }
 
 .breadcrumb-container ul.options li a.mmedia-btn{
-    background-position: left bottom;
+    background-position: 8px -34px;
 }
 
 .breadcrumb-container ul.options li .submenu-breadcrumb{
     display: none;
     position: absolute;
     z-index: 9999;
-    background: #fff;
+    background: #ddd;
+    right: 0;
+    padding: 30px;
+    top: 36px;
 }
+
+.breadcrumb-container ul.options li .submenu-breadcrumb legend{
+    font-size: 13px;
+    color: #5e5e5e;
+    margin-bottom: 15px;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb input[type=text]{
+    width: 247px;
+    background: #fff;
+    padding: 0 10px;
+    height: 25px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb input[type=submit]{
+    width: 100%;
+    background-color: #bfbfbf;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb input[type=submit]:hover{
+    background-color: #0063be;
+}
+
 #dimmerSubmenu{
 	background: red;
 	position: fixed;
