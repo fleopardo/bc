@@ -8,7 +8,6 @@
 
 .informacion-financiera .content .bloque{
 	background: #f2f1f1;
-	padding: 10px;
 	margin-bottom: 25px;
 }
 
@@ -16,11 +15,38 @@
 	width: 392px;
 }
 
-.informacion-financiera .content h3{
-	font-size: 23px;
-	line-height: 28px;
-	font-family: "din-medium";
+.informacion-financiera .content .bloque h3{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "din-black";
 	margin-bottom: 25px;
+	color: #fff;
+	padding: 4px 10px;
+}
+
+.informacion-financiera .content .form20f h3{
+	background: #09bdee;
+}
+
+.informacion-financiera .content .informe-anual h3{
+	background: #02aedc;
+}
+
+.informacion-financiera .content .estados-contables h3{
+	background: #0291dd;
+}
+
+.informacion-financiera .content .nota-analista h3{
+	background: #0273ff;
+}
+
+.informacion-financiera .content .presentaciones h3{
+	background: #0063be;
+}
+
+.informacion-financiera .bloque > div,
+.informacion-financiera .bloque ul{
+	padding: 0 10px 10px;
 }
 
 .informacion-financiera .content article p{
