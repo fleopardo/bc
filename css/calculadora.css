@@ -1,0 +1,139 @@
+.calculadora .destacado {
+	background: url("../images/calculadora/header.jpg") center top no-repeat;
+}
+
+.calculadora .content{
+	background: #f2f1f1;
+	padding: 25px 0;
+}
+
+.calculadora .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: none;
+	padding: 0 40px;
+	margin-bottom: 30px;
+}
+
+.calculadora .content form{
+	margin-bottom: 30px;
+}
+
+.calculadora .content form .left,
+.calculadora .content form .right{
+	width: auto;
+}
+
+.calculadora .content form fieldset{
+	overflow: hidden;
+	padding: 30px 40px;
+}
+
+.calculadora .content legend{
+	color: #919191;
+	font-family: "din-black";
+	font-size: 15px;
+	line-height: 30px;
+	text-transform: uppercase;
+	background: url(../images/calculadora/fd-legend.png) left no-repeat;
+	padding-left: 25px;
+}
+
+.calculadora .content form label{
+	text-transform: uppercase;
+	color: #0e94e0;
+	font-family: "din-medium";
+	display: inline-block;
+}
+
+.calculadora .content form select.dia{
+	width: 60px;
+}
+
+.calculadora .content form select.ano,
+.calculadora .content form select.mes{
+	width: 120px;
+}
+
+.calculadora .content form fieldset.radios-container{
+	background: #f6f5f5;
+}
+
+.calculadora .content form fieldset.radios-container label{
+	color: #808080;
+	font-family: "din-regular";
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.calculadora .content form fieldset.radios-container input{
+	margin-top: -2px;
+}
+
+.calculadora .content form fieldset.input-text label{
+	line-height: 30px;
+	margin-right: 20px;
+}
+
+.calculadora .content form fieldset.input-text input[type=text]{
+	width: 118px;
+	padding: 0 5px;
+	height: 30px;
+	display: inline-block;
+}
+
+.calculadora .content form input[type=submit]{
+	margin: 0 auto;
+	background-position: 82px 16px;
+}
+
+.calculadora .content table{
+	width: 800px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.calculadora .content thead{
+	border: 1px solid #dadada;
+}
+
+.calculadora .content table.step-one thead{
+	background: #6b6b6b;
+}
+
+.calculadora .content table.step-two thead{
+	background: #d99b2d;
+}
+
+.calculadora .content th{
+	text-align: left;
+	border-right: 1px solid #dadada;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "din-black";
+	font-size: 11px;
+}
+
+.calculadora .content td,
+.calculadora .content th{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.calculadora .content td{
+	border-bottom: 1px solid #e0e0e0;
+	background: #bebebe;
+	color: #fff;
+}
+
+.calculadora .content th.last{
+	border-right: none;
+}
+
+.calculadora .content img.grafico{
+	width: 610px;
+	margin: 0 auto;
+	display: block;
+}
+
