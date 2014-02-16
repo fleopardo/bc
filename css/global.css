@@ -152,6 +152,14 @@ h2{
     color:    #808080;
 }
 
+a{
+	color: #808080;
+}
+
+a:hover{
+	color: #3a3939;
+}
+
 /*
  * Fonts
 */
@@ -300,6 +308,7 @@ body{
     height: 25px;
     margin-bottom: 8px;
     display: block;
+    border: none;
 }
 
 .breadcrumb-container ul.options li .submenu-breadcrumb input[type=submit]{
