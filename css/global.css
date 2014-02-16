@@ -536,9 +536,12 @@ section.content-container aside.right-aside{
  * Footer
 */
 
+footer, footer > div{
+	background: #f6f6f6;
+}
+
 footer{
     clear: both;
-    background: #373738;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -549,7 +552,6 @@ footer{
 footer > div{
     width: 1024px;
     margin: 0 auto;
-    background: #373738;
 }
 
 footer > div p,
@@ -572,7 +574,7 @@ footer > div ul.links li{
 
 footer > div p,
 footer > div ul.links li a{
-    color: #ececec;
+    color: #bcbcbc;
     font-size: 11px;
     font-family: arial, helvetica, sans-serif;
     line-height: 40px;
@@ -582,7 +584,86 @@ footer > div ul.links li a:hover{
     text-decoration: underline;
 }
 
-/* Links sociales */
+
+
+
+
+
+/* NUEVO COMPARTIR */
+
+footer .share{
+	float: right;
+}
+
+footer .share dt{
+	float: left;
+	height: 44px;
+	line-height: 44px;
+	margin-right: 15px;
+	color: #bcbcbc;
+    font-size: 11px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+footer .share dd{
+	float: left;
+}
+
+footer .share dd:last-of-type{
+	border-right: 0px;
+}
+
+footer .share dd a{
+	background: url('./assets/sprite-share.png') top left no-repeat;
+	display: block;
+	width: 40px;
+	height: 44px;
+	text-indent: -9999px;
+}
+
+	footer .share dd a.fb{
+		background-position: 5px 0px;
+	}
+
+		footer .share dd a.fb:hover{
+			background-position: 5px -45px;
+		}
+
+	footer .share dd a.tw{
+		background-position: -32px 0px;
+	}
+
+		footer .share dd a.tw:hover{
+			background-position: -32px -45px;
+		}
+
+	footer .share dd a.li{
+		background-position: -71px 0px;
+	}
+
+		footer .share dd a.li:hover{
+			background-position: -71px -45px;
+		}
+
+	footer .share dd a.gplus{
+		background-position: -111px 0px;
+	}
+
+		footer .share dd a.gplus:hover{
+			background-position: -111px -45px;
+		}
+
+	footer .share dd a.mail{
+		background-position: -151px 0px;
+	}
+
+		footer .share dd a.mail:hover{
+			background-position: -151px -45px;
+		}
+
+
+
+/* Links sociales
 
 footer .social{
     float: right;
@@ -616,7 +697,7 @@ footer .social li a{
 
     footer .social li a.mail{
         background-position: -161px -2px;
-    }
+    }*/
 
 
 
