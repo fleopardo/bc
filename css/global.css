@@ -260,6 +260,7 @@ body{
     background: url(./assets/sp-breadcrumb-icons.png) no-repeat;
     line-height: 15px;
     padding: 11px 20px 11px 52px;
+    font-family: "din-medium";
 
 }
 
