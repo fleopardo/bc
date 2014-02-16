@@ -263,6 +263,7 @@ body{
 
 }
 
+.breadcrumb-container ul.options li a:hover,
 .breadcrumb-container ul.options li a.active{
     background-color: #ddd;
 }
@@ -302,7 +303,8 @@ body{
 
 .breadcrumb-container ul.options li .submenu-breadcrumb input[type=submit]{
     width: 100%;
-    background-color: #bfbfbf;
+    background: #bfbfbf url(./assets/ic-submit-breadcrumb.png) 156px 15px no-repeat;
+    padding-left: 110px;
 }
 
 .breadcrumb-container ul.options li .submenu-breadcrumb input[type=submit]:hover{
@@ -662,42 +664,6 @@ footer .share dd a{
 		}
 
 
-
-/* Links sociales
-
-footer .social{
-    float: right;
-    overflow: hidden;
-    margin-top: 10px;
-}
-
-footer .social li a{
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: url("./assets/icons-social.png") no-repeat;
-    margin-left: 20px;
-}
-
-    footer .social li a.compartir{
-        background-position: -6px -2px;
-    }
-
-    footer .social li a.facebook{
-        background-position: -45px -2px;
-    }
-
-    footer .social li a.twitter{
-        background-position: -85px -2px;
-    }
-
-    footer .social li a.youtube{
-        background-position: -123px 1px;
-    }
-
-    footer .social li a.mail{
-        background-position: -161px -2px;
-    }*/
 
 
 
