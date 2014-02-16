@@ -259,7 +259,7 @@ body{
     display: inline-block;
     background: url(./assets/sp-breadcrumb-icons.png) no-repeat;
     line-height: 15px;
-    padding: 11px 10px 11px 42px;
+    padding: 11px 20px 11px 52px;
 
 }
 
@@ -269,11 +269,11 @@ body{
 }
 
 .breadcrumb-container ul.options li a.news-btn{
-    background-position: 8px 11px;
+    background-position: 18px 11px;
 }
 
 .breadcrumb-container ul.options li a.mmedia-btn{
-    background-position: 8px -34px;
+    background-position: 18px -34px;
 }
 
 .breadcrumb-container ul.options li .submenu-breadcrumb{
@@ -297,7 +297,7 @@ body{
     background: #fff;
     padding: 0 10px;
     height: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     display: block;
 }
 
