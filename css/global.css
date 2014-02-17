@@ -263,6 +263,10 @@ body{
     margin-right: 10px;
 }
 
+.breadcrumb-container ul.options li:last-child{
+    margin-right: 0;
+}
+
 .breadcrumb-container ul.options li a{
     display: inline-block;
     background: url(./assets/sp-breadcrumb-icons.png) no-repeat;
