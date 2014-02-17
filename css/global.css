@@ -260,11 +260,6 @@ body{
 
 .breadcrumb-container ul.options li{
     position: relative;
-    margin-right: 10px;
-}
-
-.breadcrumb-container ul.options li:last-child{
-    margin-right: 0;
 }
 
 .breadcrumb-container ul.options li a{
@@ -272,7 +267,7 @@ body{
     background: url(./assets/sp-breadcrumb-icons.png) no-repeat;
     line-height: 15px;
     padding: 11px 20px 11px 52px;
-    font-family: "din-medium";
+    font-family: "din-black";
 
 }
 
