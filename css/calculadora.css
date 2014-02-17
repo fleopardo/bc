@@ -80,6 +80,7 @@
 	padding: 0 5px;
 	height: 30px;
 	display: inline-block;
+	border: 2px solid #d8d8d8;
 }
 
 .calculadora .content form input[type=submit]{
