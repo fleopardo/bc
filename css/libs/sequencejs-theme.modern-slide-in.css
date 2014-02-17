@@ -139,7 +139,7 @@ Aside from these comments, you may modify and distribute this file as you please
 
 .dest.animate-in {
 	left: 115px;
-	top: 50px;
+	top: 82px;
 	opacity: 1;
 
 	-webkit-transition-duration: .5s;
@@ -216,7 +216,7 @@ activar para usar galeria no full size
 .dest {
 	/*font-size: 3.4em;*/
 	left: 0;
-	top:50px;
+	top:82px;
 	width: 42%;
 	min-width: 700px;
 	max-width: 800px;
@@ -319,7 +319,7 @@ h2.heading{
 	font-size: 18px;
 	line-height: 24px;
 	left: 90px;
-	top: 18px;
+	top: 50px;
 	font-family: "din-regular";
 	font-size: 13px;
 }

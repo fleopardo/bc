@@ -434,6 +434,7 @@ section.content .bloque p{
 .destacado{
     min-height: 158px;
     padding-top: 120px;
+    margin-top: -34px;
 }
 
 .destacado h2,
