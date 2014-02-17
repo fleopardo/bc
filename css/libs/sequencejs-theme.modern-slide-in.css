@@ -185,7 +185,7 @@ activar para usar galeria no full size
 	/*position: relative;*/
 	position: absolute;
 	height: 435px !important;
-	
+
 	min-width: 1024px; /*prevents the model from shrinking when the browser is resized*/
 }
 
@@ -221,7 +221,7 @@ activar para usar galeria no full size
 	opacity: 0;
 	/*bottom: 1%;*/
 	z-index: 50;
-	background: #e65834;
+	background: #da9c18;
 	padding: 30px 30px 60px 90px;
 	height: 152px;
 }

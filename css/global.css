@@ -482,7 +482,7 @@ section.content-container aside{
 }
 
 section.content-container aside h2{
-    color: #808080;
+    color: #da9c18;
     font-family: "din-black";
     font-size: 11px;
     line-height: 18px;
@@ -504,6 +504,10 @@ section.content-container aside li a{
     display: block;
 }
 
+section.content-container aside li > a{
+	font-family: "din-black";
+}
+
 section.content-container aside li > a:hover,
 section.content-container aside li.active > a{
     background: #ececec;
@@ -521,6 +525,7 @@ section.content-container aside li > ul{
 
 section.content-container aside li > ul li a{
     padding-left: 14px;
+    font-family: "din-regular";
 }
 /** Fin Menu lateral **/
 
