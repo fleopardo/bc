@@ -511,7 +511,6 @@ section.content-container aside li > a{
 section.content-container aside li > a:hover,
 section.content-container aside li.active > a{
     background: #ececec;
-    font-family: "din-regular";
 }
 
 section.content-container aside li.active > a{

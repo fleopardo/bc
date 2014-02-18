@@ -75,6 +75,10 @@
 	color: #fff;
 }
 
+.home .ypf-en-bolsa a:hover{
+	color: #3a3939;
+}
+
 .home .ypf-en-bolsa h3,
 .home .ypf-en-bolsa h4,
 .home .ypf-en-bolsa th,
@@ -128,6 +132,10 @@
 	font-size: 11px;
 	line-height: 20px;
 	display: inline-block;
+}
+
+.home .ypf-en-bolsa .descargar:hover{
+	color: #3a3939;
 }
 
 
