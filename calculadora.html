@@ -14,12 +14,13 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/gobierno-corporativo.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.ui.selectmenu.css" />
+	<link rel="stylesheet" type="text/css" href="css/calculadora.css" />
 
 </head>
 <body>
 	<div id="contenedor-principal" class="contenedor-principal">
-	<div class="gobierno-corporativo">
+	<div class="calculadora">
 
 		<header class="headerYPF">
 		   <div class="clearfix">
@@ -399,8 +400,8 @@
 		<div class="destacado">
 			<div class="layout">
 				<h2>Centro de inversores</h2>
-				<h3>Gobierno <span>corporativo</span></h3>
-				<p>En esta sección encontrarás las normas y herramientas que utilizamos para cumplir con los más altos estándares internacionales, garantizando una gestión sostenible y el cumplimiento de las mejores prácticas internacionales.</p>
+				<h3>Calculadora</h3>
+				<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</p>
 			</div>
 		</div>
 
@@ -411,7 +412,7 @@
 				<ul>
 					<li><a href="./" title="Home">Home</a></li>
 					<li class="first"><a href="./plan-estrategico.html" title="Plan Estratégico">Plan Estratégico</a></li>
-					<li class="active">
+					<li>
 						<a href="./gobierno-corporativo.html" title="Gobierno corporativo">Gobierno corporativo</a>
 						<ul>
 							<li><a href="./estatuto.html" title="Estatuto">Estatuto</a></li>
@@ -432,7 +433,7 @@
 							<li><a href="./cotizacion-de-la-accion.html" title="Cotizacion de la acción">Cotizacion de la acción</a></li>
 							<li><a href="./dividendos.html" title="Dividendos">Dividendos</a></li>
 							<li><a href="./analistas.html" title="Analistas">Analistas</a></li>
-							<li><a href="./calculadora.html" title="Calculadora">Calculadora</a></li>
+							<li class="active"><a href="./calculadora.html" title="Calculadora">Calculadora</a></li>
 						</ul>
 					</li>
 					<li><a href="./titulos-de-deuda.html" title="Títulos de deuda">Títulos de deuda</a></li>
@@ -444,71 +445,123 @@
 			</aside>
 
 			<section class="content right">
+				<h3>Calculadora de inversores</h3>
 
-				<div class="clearfix">
-
-					<a href="./estatuto.html" class="bloque left">
-						<div class="">
-							<img src="./images/gobierno-corporativo/estatuto.jpg" width="412" height="97">
-							<h2>Estatuto</h2>
+				<form>
+					<fieldset>
+						<legend>Seleccionar período</legend>
+						<div class="left">
+							<p><label for="">Desde</label></p>
+							<select class="ano">
+								<option>2013</option>
+								<option>2014</option>
+							</select>
+							<select class="mes">
+								<option>enero</option>
+								<option>febrero</option>
+							</select>
+							<select class="dia">
+								<option>1</option>
+								<option>2</option>
+							</select>
 						</div>
-					</a>
-
-					<a href="./miembros-del-directorio.html" class="bloque right">
-						<div class="">
-							<img src="./images/gobierno-corporativo/miembros-de-directorio.jpg" width="412" height="97">
-							<h2>Miembros del directorio</h2>
+						<div class="right">
+							<p><label for="">hasta</label></p>
+							<select class="ano">
+								<option>2013</option>
+								<option>2014</option>
+							</select>
+							<select class="mes">
+								<option>enero</option>
+								<option>febrero</option>
+							</select>
+							<select class="dia">
+								<option>1</option>
+								<option>2</option>
+							</select>
 						</div>
-					</a>
-
-				</div>
-
-				<div class="clearfix">
-
-					<a href="./comision-fiscalizadora.html" class="bloque left">
-						<div class="">
-							<img src="./images/gobierno-corporativo/comision-fiscalizadora.jpg" width="412" height="97">
-							<h2>Comisión fiscalizadora</h2>
+					</fieldset>
+					<fieldset class="radios-container">
+						<div class="left">
+							<input type="checkbox" checked="checked" id="calcular-dividendos">
+							<label for="calcular-dividendos">Calcular inversion de dividendos</label>
 						</div>
-					</a>
-
-					<a href="./comite-de-auditoria.html" class="bloque right">
-						<div class="">
-							<img src="./images/gobierno-corporativo/comite-auditoria.jpg" width="412" height="97">
-							<h2>Comité de auditoría</h2>
+						<div class="right">
+							<input type="radio" id="nyse" name="nyse">
+							<label for="nyse">NYSE</label>
+							<input type="radio" id="bcba" name="nyse">
+							<label for="bcba">BCBA</label>
 						</div>
-					</a>
-
-				</div>
-
-				<div class="clearfix">
-
-					<a href="./auditores-externos.html" class="bloque left">
-						<div class="">
-							<img src="./images/gobierno-corporativo/auditores-externos.jpg" width="412" height="97">
-							<h2>Auditores externos</h2>
+					</fieldset>
+					<fieldset class="input-text">
+						<div class="left">
+							<label for="amount-invested">Amount invested</label>
+							<input type="text" id="amount-invested" placeholder="1000">
 						</div>
-					</a>
-
-					<a href="./capital-subscripto.html" class="bloque right">
-						<div class="">
-							<img src="./images/gobierno-corporativo/capital-subscripto.jpg" width="412" height="97">
-							<h2>Capital subscripto</h2>
+						<div class="right">
+							<label for="number-shares">Number of shares bought</label>
+							<input type="text" id="number-shares" placeholder="50">
 						</div>
-					</a>
+					</fieldset>
+					<fieldset>
+						<input type="submit" value="Calcular">
+					</fieldset>
+				</form>
 
-				</div>
 
-				<div class="clearfix">
+				<table class="step-one">
+					<thead>
+						<tr>
+							<th class="col1">Valor actual de las acciones</th>
+							<th class="col2">Valor actual con reinversión de dividendos</th>
+							<th class="col3">Variación porcentual del precio de la acción</th>
+							<th class="col4">Retorno anualizado</th>
+							<th class="col5">Retorno total con inversión de dividendos</th>
+							<th class="col6">Retorno total anualizado</th>
+							<th class="col7 last">Período de tenencia</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="col1">-</td>
+							<td class="col2">-</td>
+							<td class="col3">-</td>
+							<td class="col4">-</td>
+							<td class="col5">-</td>
+							<td class="col6">-</td>
+							<td class="col6 last">-</td>
+						</tr>
 
-					<a href="./asamblea-de-accionistas.html" class="bloque left">
-						<div class="">
-							<img src="./images/gobierno-corporativo/asamblea-accionista.jpg" width="412" height="97">
-							<h2>Asamblea de accionistas</h2>
-						</div>
-					</a>
+					</tbody>
+				</table>
 
-				</div>
+				<table class="step-two">
+					<thead>
+						<tr>
+							<th class="col1">Valor actual de las acciones</th>
+							<th class="col2">Valor actual con reinversión de dividendos</th>
+							<th class="col3">Variación porcentual del precio de la acción</th>
+							<th class="col4">Retorno anualizado</th>
+							<th class="col5">Retorno total con inversión de dividendos</th>
+							<th class="col6">Retorno total anualizado</th>
+							<th class="col7 last">Período de tenencia</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="col1">38 841.60</td>
+							<td class="col2">63 877.86</td>
+							<td class="col3">94.78 %</td>
+							<td class="col4">5.61 %-</td>
+							<td class="col5">220.33 %</td>
+							<td class="col6">10.00 %</td>
+							<td class="col6 last">12 years,<br>2 months<br>and 15 days</td>
+						</tr>
+
+					</tbody>
+				</table>
+
+				<img src="./images/calculadora/im-grafico.jpg" width="609" height="330" class="grafico">
 
 			</section>
 
@@ -544,13 +597,15 @@
 
 		<!-- Incluir JQUERY -->
 		<script src="./jquery/jquery.min.js"></script>
+		<script src="./jquery/jquery-ui-1.8.12.custom.min.js"></script>
 
 		<!-- Incluir header.js para tener las funcionalidades del menu -->
 		<script src="./header/js/header.js"></script>
 
+		<script src="./jquery/jquery.ui.selectmenu.js"></script>
 		<script src="./jquery/jquery.placeholder.js"></script>
 
-<script src="./js/global.js"></script>
+		<script src="./js/global.js"></script>
 
 	</div>
 

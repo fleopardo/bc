@@ -2,13 +2,14 @@
 
 .galeria-bg{
 	background: #f2efeb;
+	margin-top: -34px;
 }
 
 .galeria-cont{
     position: relative;
     /*height: 398px;*/
     /*width: 1200px;*/
-    height: 435px;
+    height: 398px;
     width: 100%;
     max-width: 2000px;
     overflow: hidden;
@@ -33,19 +34,20 @@
     padding: 5px 12px;
     text-transform: none;
     color: #fff;
-	font-size: 21px;
+	font-size: 19px;
 	font-weight: normal;
-	font-family: "din-regular";
-	line-height: 41px;
+	font-family: "din-medium";
+	line-height: 38px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	margin-bottom: 0;
+	text-transform: uppercase;
 }
 
 .home section.content a.bloque:hover h2{
-    background: #e65834;
+    background: #da9c18;
 }
 
 
@@ -71,6 +73,10 @@
 
 .home .ypf-en-bolsa a{
 	color: #fff;
+}
+
+.home .ypf-en-bolsa a:hover{
+	color: #3a3939;
 }
 
 .home .ypf-en-bolsa h3,
@@ -128,6 +134,10 @@
 	display: inline-block;
 }
 
+.home .ypf-en-bolsa .descargar:hover{
+	color: #3a3939;
+}
+
 
 /* SECCION NOTICIAS */
 
@@ -157,10 +167,6 @@
 	padding-bottom: 30px;
 }
 
-.home .news article a{
-	color: #808080;
-}
-
 .home .news article a:hover{
 	color: #0063be;
 }
@@ -178,6 +184,11 @@
 	font-size: 19px;
 	line-height: 24px;
 	margin-bottom: 25px;
+	color: #292929;
+}
+
+.home .news article .title:hover{
+	color: #0063be;
 }
 
 
