@@ -28,9 +28,9 @@
 
 	                        }
 
-	                })
+	                });
 
-	        })
+	        });
 
 	}
 
@@ -42,12 +42,12 @@
 	        $tabs.removeClass("active");
 	        $(this).addClass("active");
 	        $(".acordeon-container").hide();
-	        $(".acordeon-container[data-year='" + $(this).data("year") + "']").show()
+	        $(".acordeon-container[data-year='" + $(this).data("year") + "']").show();
 
 	    });
 
 	}
-}();
+})();
 
 
 
