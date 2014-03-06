@@ -1,0 +1,113 @@
+.agenda .destacado {
+	background: url("../images/agenda/header.jpg") center top no-repeat;
+}
+
+.agenda .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.agenda .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.agenda .content table{
+	margin-bottom: 30px;
+}
+
+.agenda .content thead{
+	background: #f3f3f3;
+	border: 1px solid #dadada;
+}
+
+.agenda .content th{
+	text-align: left;
+	border-right: 1px solid #dadada;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #292929;
+	font-family: "din-black";
+	font-size: 11px;
+}
+
+.agenda .content td,
+.agenda .content th{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.agenda .content td{
+	border-bottom: 1px solid #fff;
+	color: #fff;
+}
+
+.agenda .content th.last{
+	border-right: none;
+}
+
+.agenda .content td.col1,
+.agenda .content th.col1{
+	width: 120px;
+}
+
+.agenda .content td.col2,
+.agenda .content th.col2{
+	width: 520px;
+}
+
+/*.agenda .content td.col3,
+.agenda .content th.col3{
+	width: 150px;
+}*/
+
+.agenda .content td.col1{
+	border-right: 1px solid #fff;
+}
+
+.agenda .content td.col1 span{
+	font-family: "din-black";
+}
+
+.row-one td.col1{
+	background: #e65834;
+}
+.row-two td.col1{
+	background: #d13c16;
+}
+.row-three td.col1{
+	background: #ac2503;
+}
+.row-four td.col1{
+	background: #861b00;
+}
+
+.agenda .content td.col2{
+	background: #9d9ea0;
+	font-family: "din-black";
+}
+
+/*.agenda .content td.col3{
+	background: #bbb;
+}*/
+
+.agenda .content table label{
+	margin-right: 5px;
+}
+
+.agenda .content legend{
+	margin-bottom: 20px;
+}
+
+.agenda .content input[type=text]{
+	width: 320px;
+	padding: 0 10px;
+	border: 3px solid #e7e7e7;
+	height: 20px;
+	font: 13px/20px "din-black";
+	margin-bottom: 20px;
+}

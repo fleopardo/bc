@@ -1,0 +1,172 @@
+.informacion-financiera .destacado {
+	background: url("../images/informacion-financiera/header.jpg") center top no-repeat;
+}
+
+.informacion-financiera .bloques-container{
+	overflow: hidden;
+}
+
+.informacion-financiera .content .bloque{
+	background: #f2f1f1;
+	margin-bottom: 25px;
+}
+
+.informacion-financiera .content .bloques-container .bloque{
+	width: 392px;
+}
+
+.informacion-financiera .content .bloque h3{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "din-black";
+	margin-bottom: 25px;
+	color: #fff;
+	padding: 4px 10px;
+}
+
+.informacion-financiera .content .form20f h3{
+	background: #09bdee;
+}
+
+.informacion-financiera .content .informe-anual h3{
+	background: #02aedc;
+}
+
+.informacion-financiera .content .estados-contables h3{
+	background: #0291dd;
+}
+
+.informacion-financiera .content .nota-analista h3{
+	background: #0273ff;
+}
+
+.informacion-financiera .content .presentaciones h3{
+	background: #0063be;
+}
+
+.informacion-financiera .bloque > div,
+.informacion-financiera .bloque ul{
+	padding: 0 10px 10px;
+}
+
+.informacion-financiera .content article p{
+	margin-bottom: 15px;
+}
+
+.informacion-financiera .bloque ul{
+	margin-top: 20px;
+}
+
+.informacion-financiera .bloque li{
+	padding: 8px 10px;
+	border-top: 1px solid #fff;
+}
+
+.informacion-financiera .bloque li a{
+	font-family: "din-medium";
+	font-size: 13px;
+	line-height: 20px;
+	display: inline-block;
+	background: url(./assets/ic_pdf_transparent.png) left top no-repeat;
+	padding-left: 25px;
+}
+
+
+* TABS */
+.tabs{
+    margin-bottom: 1px
+}
+
+.tabs li{
+    display: inline-block;
+    width: 120px;
+    padding: 15px;
+    background: #f2f1f1;
+    color: #a7a7a7;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.tabs li.active,
+.tabs li:hover{
+    background: #292929;
+    color: #fff;
+}
+
+
+/* ACORDEON */
+.informacion-financiera .acordeon-container article{
+    margin-bottom: 1px;
+    color: #fff;
+}
+
+    .informacion-financiera .acordeon-container article.q1{
+        background: #02aedc;
+    }
+
+    .informacion-financiera .acordeon-container article.q2{
+        background: #0291dc;
+    }
+
+    .informacion-financiera .acordeon-container article.q3{
+        background: #0273ff;
+    }
+
+    .informacion-financiera .acordeon-container article.q4{
+        background: #0063be;
+    }
+
+.informacion-financiera .acordeon-container article .titulo{
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    line-height: 40px;
+    font-size: 15px;
+    background: url('../images/informacion-financiera/ic-colapsable-cuatrimestre.png') no-repeat 10px center;
+    padding-left: 40px;
+}
+
+.informacion-financiera .acordeon-container article .acordeon{
+    width: 18px;
+    height: 18px;
+    background: url("./assets/ic_accordeon.png") top left;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.informacion-financiera .acordeon-container article .acordeon.open{
+    background-position: bottom left;
+}
+
+.informacion-financiera .acordeon-container article .texto{
+    padding: 25px 40px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: "din-light";
+}
+
+.informacion-financiera .acordeon-container article .texto li{
+    border-bottom: 1px solid #35bee3;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.informacion-financiera .acordeon-container article .texto li p{
+    margin: 0;
+    padding-right: 250px;
+}
+
+.informacion-financiera .acordeon-container article .texto li .descargar{
+    position: absolute;
+    right: 80px;
+    top: 0;
+    display: block;
+    background: url('./assets/ic_pdf_transparent.png') no-repeat left center;
+    padding-left: 22px;
+    text-transform: uppercase;
+    color: #fff;
+}

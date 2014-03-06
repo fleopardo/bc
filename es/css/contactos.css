@@ -1,0 +1,63 @@
+.contactos .destacado {
+	background: url("../images/contactos/header.jpg") center top no-repeat;
+}
+
+.contactos .destacado p{
+	padding-bottom: 50px;
+}
+
+.contactos .content h2{
+	text-transform: none;
+}
+
+.contactos .contact-info{
+	background: #f6f6f6;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.contactos .contact-info > p{
+	margin: 20px 0;
+}
+
+.contactos .content h3{
+	color: #636636;
+	font-style: italic;
+	font: 15px/18px "din-black";
+}
+
+.contactos .content dt{
+	color: #d99b2d;
+	font: 11px/25px "din-medium";
+	text-transform: uppercase;
+	background: url("../images/contactos/sprite-contacto.png") no-repeat;
+	padding-left: 30px;
+	margin-bottom: 5px;
+}
+
+.contactos .content dt.email{
+	background-position: left top;
+}
+
+.contactos .content dt.telefono{
+	background-position: left bottom;
+}
+
+.contactos .content dd{
+	font: 11px/15px "din-medium";
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+
+/*.contactos .content legend{
+	margin-bottom: 20px;
+}
+
+.contactos .content input[type=text]{
+	width: 320px;
+	padding: 0 10px;
+	border: 3px solid #e7e7e7;
+	height: 20px;
+	font: 13px/20px "din-black";
+	margin-bottom: 20px;
+}*/

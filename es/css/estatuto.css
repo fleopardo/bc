@@ -1,0 +1,41 @@
+.estatuto .destacado {
+	background: url("../images/estatuto/header.jpg") center top no-repeat;
+}
+
+.estatuto .pdf{
+	display: block;
+	background: #f0f0f0 url("./assets/ic_pdf_transparent.png") no-repeat 14px 10px;
+	line-height: 40px;
+	color: #808080;
+	font-size: 13px;
+	text-decoration: underline;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+
+.estatuto .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.estatuto .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.estatuto .content article{
+	border-top: 1px solid #ececec;
+	padding: 25px 0 10px;
+}
+
+.estatuto .content h4{
+	font-family: "din-black";
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}

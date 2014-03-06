@@ -1,0 +1,108 @@
+.rating-crediticio .destacado {
+	background: url("../images/rating-crediticio/header.jpg") center top no-repeat;
+}
+
+.rating-crediticio .content h2{
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.rating-crediticio .content h2,
+.rating-crediticio .content h3{
+	font-size: 17px;
+	line-height: 23px;
+}
+
+.rating-crediticio .content h2{
+	text-transform: none;
+}
+
+.rating-crediticio .content h3{
+	text-transform: uppercase;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 10px;
+}
+
+.rating-crediticio .content table{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.rating-crediticio .content thead{
+	border-top: 1px solid #dadada;
+}
+
+.rating-crediticio .content th{
+	text-align: left;
+	padding: 5px 10px;
+}
+
+.rating-crediticio .content td,
+.rating-crediticio .content th{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.rating-crediticio .content td{
+	position: relative;
+	text-align: left;
+}
+
+.rating-crediticio .content th.last{
+	border-right: none;
+}
+
+.rating-crediticio .content td img{
+	position: absolute;
+	left: 30px;
+	top: 15px;
+}
+
+.rating-crediticio .content table.double-header thead{
+	border: 1px solid #dadada;
+}
+
+.rating-crediticio .content table.double-header th{
+	text-transform: uppercase;
+	background: #cdcccc;
+	font-family: "din-black";
+	font-size: 15px;
+	color: #fff;
+	border-right: 1px solid #dadada;
+}
+
+.rating-crediticio .content table.double-header .first-head th{
+	background: #292929;
+	font-size: 17px;
+	text-align: center;
+}
+
+.rating-crediticio .content table.double-header td{
+	background: #e6e5e5;
+	padding-left: 90px;
+	border-bottom: 1px solid #fff;
+}
+
+.rating-crediticio .content .ref-tables{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.rating-crediticio .content .ref-tables li{
+	float: left;
+	margin-right: 40px;
+}
+
+.rating-crediticio .content .ref-tables li img{
+	margin-right: 10px;
+	position: relative;
+	top: -2px;
+}
+
+.rating-crediticio .content article{
+	margin-bottom: 30px;
+	padding-top: 20px;
+
+}

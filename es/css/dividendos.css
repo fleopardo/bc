@@ -1,0 +1,49 @@
+.dividendos .destacado {
+	background: url("../images/dividendos/header.jpg") center top no-repeat;
+}
+
+.dividendos .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.dividendos .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.dividendos .content table{
+	width: 100%;
+}
+
+.dividendos .content thead{
+	background: #f3f3f3;
+	border: 1px solid #dadada;
+}
+
+.dividendos .content th{
+	text-align: left;
+	border-right: 1px solid #dadada;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #292929;
+	font-family: "din-black";
+	font-size: 11px;
+}
+
+.dividendos .content td,
+.dividendos .content th{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.dividendos .content td{
+	border-bottom: 1px solid #e0e0e0;
+	width: 30%;
+}

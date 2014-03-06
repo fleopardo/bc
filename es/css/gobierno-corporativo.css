@@ -1,0 +1,16 @@
+.gobierno-corporativo .destacado {
+	background: url("../images/gobierno-corporativo/header.jpg") center top no-repeat;
+}
+
+.gobierno-corporativo .bloque{
+	border-bottom: 1px solid #ececec;
+	margin-bottom: 20px;
+}
+
+.gobierno-corporativo .bloque img{
+	margin-bottom: 10px;
+}
+
+.gobierno-corporativo .bloque:hover h2{
+	color: #0063be;
+}

@@ -1,0 +1,66 @@
+.miembros-del-directorio .destacado {
+	background: url("../images/miembros-del-directorio/header.jpg") center top no-repeat;
+}
+
+.miembros-del-directorio .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.miembros-del-directorio .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.miembros-del-directorio .content thead{
+	background: #f3f3f3;
+	border: 1px solid #dadada;
+}
+
+.miembros-del-directorio .content th{
+	text-align: left;
+	border-right: 1px solid #dadada;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #292929;
+	font-family: "din-black";
+	font-size: 11px;
+}
+
+.miembros-del-directorio .content td,
+.miembros-del-directorio .content th{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.miembros-del-directorio .content td{
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.miembros-del-directorio .content th.last{
+	border-right: none;
+}
+
+.miembros-del-directorio .content td.col1,
+.miembros-del-directorio .content th.col1{
+	width: 172px;
+}
+
+.miembros-del-directorio .content td.col2,
+.miembros-del-directorio .content th.col2{
+	width: 222px;
+}
+
+.miembros-del-directorio .content td.col3,
+.miembros-del-directorio .content th.col3{
+	width: 134px;
+}
+
+.miembros-del-directorio .content td.col4,
+.miembros-del-directorio .content th.col4{
+	width: 88px;
+}

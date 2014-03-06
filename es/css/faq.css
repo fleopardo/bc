@@ -1,0 +1,32 @@
+.faq .destacado {
+	background: url("../images/faq/header.jpg") center top no-repeat;
+}
+
+.faq .content h2{
+	text-transform: none;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+.faq .content dl dt{
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #222;
+}
+
+.faq .content dl dd{
+	color: #999;
+	font-family: "din-light";
+	line-height: 18px;
+	margin-bottom: 20px;
+}
+
+.faq .content dl dd table{
+	margin-top: 10px;
+}
+
+.faq .content dl dd table td{
+	border-bottom: 1px solid #ccc;
+	padding: 3px 18px 3px 0;
+}

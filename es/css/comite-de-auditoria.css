@@ -1,0 +1,66 @@
+.comite-de-auditoria .destacado {
+	background: url("../images/comite-de-auditoria/header.jpg") center top no-repeat;
+}
+
+.comite-de-auditoria .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.comite-de-auditoria .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.comite-de-auditoria .content thead{
+	background: #f3f3f3;
+	border: 1px solid #dadada;
+}
+
+.comite-de-auditoria .content th{
+	text-align: left;
+	border-right: 1px solid #dadada;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #292929;
+	font-family: "din-black";
+	font-size: 11px;
+}
+
+.comite-de-auditoria .content td,
+.comite-de-auditoria .content th{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.comite-de-auditoria .content td{
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.comite-de-auditoria .content th.last{
+	border-right: none;
+}
+
+.comite-de-auditoria .content td.col1,
+.comite-de-auditoria .content th.col1{
+	width: 172px;
+}
+
+.comite-de-auditoria .content td.col2,
+.comite-de-auditoria .content th.col2{
+	width: 222px;
+}
+
+.comite-de-auditoria .content td.col3,
+.comite-de-auditoria .content th.col3{
+	width: 134px;
+}
+
+.comite-de-auditoria .content td.col4,
+.comite-de-auditoria .content th.col4{
+	width: 88px;
+}
