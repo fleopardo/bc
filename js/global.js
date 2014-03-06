@@ -90,35 +90,35 @@
 	}
 
 	//Funcion de breadcrumb newsletter y multimedia
-	$('.breadcrumb-container .options li a').on('click',function(event){
-		event.preventDefault();
+	// $('.breadcrumb-container .options li a').on('click',function(event){
+	// 	event.preventDefault();
 
-		if ( $(this).hasClass('active') ) {
-			$(this).removeClass('active');
-			$('#dimmerSubmenu').remove();
-			$(this).siblings('.submenu-breadcrumb').stop(true,true).fadeOut();
+	// 	if ( $(this).hasClass('active') ) {
+	// 		$(this).removeClass('active');
+	// 		$('#dimmerSubmenu').remove();
+	// 		$(this).siblings('.submenu-breadcrumb').stop(true,true).fadeOut();
 
-		}else{
-			
-			$('.breadcrumb-container .options li a').removeClass('active');
-			$('.submenu-breadcrumb').stop(true,true).fadeOut();
-			$('#dimmerSubmenu').remove();
+	// 	}else{
 
-			$(this).addClass('active');
-			$(this).siblings('.submenu-breadcrumb').stop(true,true).fadeIn();
-			$('body').append('<div id="dimmerSubmenu"></div>');
-		}
+	// 		$('.breadcrumb-container .options li a').removeClass('active');
+	// 		$('.submenu-breadcrumb').stop(true,true).fadeOut();
+	// 		$('#dimmerSubmenu').remove();
 
-		$('#dimmerSubmenu').on('click',function(){
-			$('.breadcrumb-container .options li a').removeClass('active');
-			$('.submenu-breadcrumb').stop(true,true).fadeOut();
-			$('#dimmerSubmenu').remove();
-		});
+	// 		$(this).addClass('active');
+	// 		$(this).siblings('.submenu-breadcrumb').stop(true,true).fadeIn();
+	// 		$('body').append('<div id="dimmerSubmenu"></div>');
+	// 	}
 
-
+	// 	$('#dimmerSubmenu').on('click',function(){
+	// 		$('.breadcrumb-container .options li a').removeClass('active');
+	// 		$('.submenu-breadcrumb').stop(true,true).fadeOut();
+	// 		$('#dimmerSubmenu').remove();
+	// 	});
 
 
-	});
+
+
+	// });
 
 	/*INCIALIZACION DE PLUG IN SELECTMENU*/
 	if($("select").length > 0){
