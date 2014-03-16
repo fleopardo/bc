@@ -78,3 +78,11 @@
 	background: url(./assets/sp-expandible-arrows-orange-open.png) 190px 14px no-repeat;
 }
 
+.titulos-de-deuda a.descargar{
+	font-family: "din-medium";
+	font-size: 13px;
+	line-height: 20px;
+	display: inline-block;
+	background: url(./assets/ic_pdf_transparent.png) left top no-repeat;
+	padding-left: 25px;
+}
