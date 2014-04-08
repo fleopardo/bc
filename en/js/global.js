@@ -1,4 +1,4 @@
-/*
+CARGAR MENOS/*
  * autors:
  * Santiago Leopardo @sleopardo
  * Fernando Leopardo @fer_leopardo
@@ -156,7 +156,7 @@
 			if( expandibleCont.hasClass('expanded') ){
 
 				expandibleCont.removeClass('expanded');
-				$("span",$(this)).html('Cargar más');
+				$("span",$(this)).html('Load less');
 				$("span",$(this)).css('background-position', 'right -17px');
 				expandibleCont.animate({
 					height: expandibleCont.data('css-height')
@@ -167,7 +167,7 @@
 					height: expCont100.height()
 				});
 				expandibleCont.addClass('expanded');
-				$("span", $(this)).html('Cargar menos');
+				$("span", $(this)).html('Load less');
 				$("span",$(this)).css('background-position', 'right 4px');
 				//$(this).find('span').css('background-position', 'right 4px');
 			}
