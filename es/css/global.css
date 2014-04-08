@@ -652,22 +652,29 @@ footer .share dd a{
 			background-position: -40px bottom;
 		}
 
+    footer .share dd a.ln{
+        background-position: -80px top;
+    }
+
+        footer .share dd a.ln:hover{
+            background-position: -80px bottom;
+        }
+
 	footer .share dd a.gplus{
-		background-position: -80px top;
-	}
-
-		footer .share dd a.gplus:hover{
-			background-position: -80px bottom;
-		}
-
-	footer .share dd a.yt{
 		background-position: -120px top;
 	}
 
-		footer .share dd a.yt:hover{
+		footer .share dd a.gplus:hover{
 			background-position: -120px bottom;
 		}
 
+	footer .share dd a.yt{
+		background-position: -160px top;
+	}
+
+		footer .share dd a.yt:hover{
+			background-position: -160px bottom;
+		}
 
 
 
