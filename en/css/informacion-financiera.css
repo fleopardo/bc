@@ -1,5 +1,11 @@
 .informacion-financiera .destacado {
 	background: url("../images/informacion-financiera/header.jpg") center top no-repeat;
+    padding-top: 82px;
+}
+
+.informacion-financiera .destacado h3{
+    font-size: 48px;
+    line-height: 48px;
 }
 
 .informacion-financiera .bloques-container{

@@ -1,9 +1,10 @@
 .kit-para-inversores .destacado {
 	background: url("../images/kit-para-inversores/header.jpg") center top no-repeat;
+	padding-top: 126px;
 }
 
 .kit-para-inversores .destacado p{
-	padding-bottom: 50px;
+	padding-bottom: 14px;
 }
 
 .kit-para-inversores .content h2 span{
