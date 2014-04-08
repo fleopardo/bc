@@ -637,36 +637,44 @@ footer .share dd a{
 }
 
 	footer .share dd a.fb{
-		background-position: 0 top;
-	}
+        background-position: 0 top;
+    }
 
-		footer .share dd a.fb:hover{
-			background-position: 0 bottom;
-		}
+        footer .share dd a.fb:hover{
+            background-position: 0 bottom;
+        }
 
-	footer .share dd a.tw{
-		background-position: -40px top;
-	}
+    footer .share dd a.tw{
+        background-position: -40px top;
+    }
 
-		footer .share dd a.tw:hover{
-			background-position: -40px bottom;
-		}
+        footer .share dd a.tw:hover{
+            background-position: -40px bottom;
+        }
 
-	footer .share dd a.gplus{
-		background-position: -80px top;
-	}
+    footer .share dd a.ln{
+        background-position: -80px top;
+    }
 
-		footer .share dd a.gplus:hover{
-			background-position: -80px bottom;
-		}
+        footer .share dd a.ln:hover{
+            background-position: -80px bottom;
+        }
 
-	footer .share dd a.yt{
-		background-position: -120px top;
-	}
+    footer .share dd a.gplus{
+        background-position: -120px top;
+    }
 
-		footer .share dd a.yt:hover{
-			background-position: -120px bottom;
-		}
+        footer .share dd a.gplus:hover{
+            background-position: -120px bottom;
+        }
+
+    footer .share dd a.yt{
+        background-position: -160px top;
+    }
+
+        footer .share dd a.yt:hover{
+            background-position: -160px bottom;
+        }
 
 
 
