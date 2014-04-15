@@ -1,4 +1,4 @@
-CARGAR MENOS/*
+/*
  * autors:
  * Santiago Leopardo @sleopardo
  * Fernando Leopardo @fer_leopardo
