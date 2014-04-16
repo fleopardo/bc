@@ -1,6 +1,5 @@
 /* BOXES MAS CERCANOS */
 .contenedor-principal .adhesion section.content{
-    background: #f8f8f8;
     padding: 20px;
     width: 810px;
 }
@@ -10,19 +9,60 @@
     padding-top: 36px;
 }
 
-.contenedor-principal .adhesion section.content h3{
-    margin-bottom: 24px;
+.contenedor-principal .adhesion section.content legend{
+    text-transform: uppercase;
+    line-height: 30px;
+    border-bottom: 4px solid #ddd;
+    margin-bottom: 40px;
 }
 
-.contenedor-principal .adhesion section.content-container form.busqueda-boxes input[type=submit]{
-    width: 262px;
+.contenedor-principal .adhesion section.content-container input[type=text],
+.contenedor-principal .adhesion section.content-container input[type=password]{
+	border: 1px solid #dcdcdc;
+	padding: 0 5px;
+	height: 32px;
 }
 
-.contenedor-principal .adhesion section.content-container .resultado-busqueda > a{
-    width: 350px;
+.contenedor-principal .adhesion section.content-container input[type=text]{
+    width: 410px;
 }
 
+.row.password-cont{
+	background: #f8f8f8;
+	padding:30px 20px 10px;
+	width: 380px;
+}
 
-.contenedor-principal .adhesion section.content-container .resultado-busqueda > a{
-    margin-top: 30px;
+.row.password-cont input{
+	width: 370px;
+}
+
+.captcha-cont label{
+	display: inline-block;
+	line-height: 34px;
+}
+
+.captcha-cont img{
+	border: 3px solid #dcdcdc;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 37px;
+}
+
+.captcha-text label{
+	display: inline-block;
+}
+
+.captcha-text input{
+	width: 158px!important;
+	margin-left: 12px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contenedor-principal .adhesion section.content-container input[type=submit]{
+    width: 380px;
+    border: 3px solid #0f6ac5;
+    background: #fff;
+    color: #0f6ac5;
 }
