@@ -14,7 +14,7 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/boxes-mas-cercanos.css" />
+	<link rel="stylesheet" type="text/css" href="css/adhesion.css" />
 
 	<link rel="stylesheet" type="text/css" href="css/libs/jquery.ui.selectmenu.css" />
 	<link rel="stylesheet" type="text/css" href="./css/libs/sequencejs-theme.modern-slide-in.css" />
@@ -23,7 +23,7 @@
 <body>
 
 	<div id="contenedor-principal" class="contenedor-principal">
-		<div class="boxes-mas-cercanos">
+		<div class="adhesion">
 
 			<header class="headerYPF">
 				<div class="clearfix">
@@ -417,26 +417,30 @@
 				<section class="content right">
 
 					<form method="" action="" class="busqueda-boxes">
-						<h3>Encontrá los boxes mas cercanos</h3>
 						<fieldset>
+							<legend>Para solicitar tu usuario por favor completá el formulario.<br>
+							Al presionar el botón enviar recibirás un e-mail con instrucciones para confirmar tu registro.</legend>
 							<div class="row">
-								<select id="provincia">
-									<option>provincia</option>
-								</select>
+								<input type="text" name="" id="" placeholder="Nombre">
 							</div>
-
 							<div class="row">
-								<select id="partido" disabled>
-									<option>partido</option>
-								</select>
+								<input type="text" name="" id="" placeholder="Apellido">
 							</div>
-
 							<div class="row">
-								<select id="localidad" disabled>
-									<option>localidad</option>
-								</select>
+								<input type="text" name="" id="" placeholder="Email">
 							</div>
+							<div class="row password-cont">
+								<input type="password" name="" id="" placeholder="Contraseña">
+								<input type="password" name="" id="" placeholder="Confirmar contraseña">
+							</div>
+							<div class="row captcha-cont">
+								<label>Imagen de verificación</label>
 
+							</div>
+							<div class="row captcha-cont">
+								<label for="capcha-input">Ingresá los caracteres que aparecen en la imagen</label>
+								<input type="text" name="" id="capcha-input" placeholder="">
+							</div>
 						</fieldset>
 						<fieldset class="submit">
 							<input type="submit" id="buscarBoxes" value="Buscar" disabled>
