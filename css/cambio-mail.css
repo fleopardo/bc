@@ -1,0 +1,80 @@
+/* Adhesion */
+.contenedor-principal .cambio-mail section.content{
+    padding: 0 20px 20px;
+    width: 810px;
+}
+
+.contenedor-principal .cambio-mail .destacado {
+    background: url("./assets/destacado-adhesion-completo.jpg") center top no-repeat;
+    padding-top: 36px;
+}
+
+.contenedor-principal .cambio-mail section.content h3{
+    text-transform: uppercase;
+    line-height: 22px;
+    border-bottom: 4px solid #ddd;
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #4f4f4f;
+    padding-bottom: 20px;
+}
+
+.contenedor-principal .cambio-mail section.content .row{
+    margin-bottom: 20px;
+}
+
+.contenedor-principal .cambio-mail section.content label{
+    color: #0f6ac5;
+    font-size: 13px;
+    line-height: 32px;
+    font-family: "din-medium";
+    display: inline-block;
+    width: 130px;
+    padding-left: 20px;
+}
+
+.contenedor-principal .adhesion-completa section.content-container input[type=text],
+.contenedor-principal .adhesion-completa section.content-container input[type=password]{
+	border: 1px solid #dcdcdc;
+	padding: 0 5px;
+	height: 32px;
+}
+
+.contenedor-principal .cambio-mail section.content-container input[type=text],
+.contenedor-principal .cambio-mail section.content-container input[type=password]{
+	border: 1px solid #dcdcdc;
+	padding: 0 5px;
+	height: 32px;
+}
+
+.contenedor-principal .cambio-mail section.content-container input[type=text]{
+    width: 410px;
+}
+
+.cambio-mail section.content-container .row.password-cont{
+	background: #f8f8f8;
+	padding:30px 20px 10px;
+	width: 535px;
+}
+
+.cambio-mail section.content-container .row.password-cont label{
+	padding-left: 0;
+}
+
+.cambio-mail section.content-container .row.password-cont input{
+	width: 370px;
+}
+
+.cambio-mail section.content-container input[type=submit]{
+    width: 575px;
+    border: 3px solid #0f6ac5;
+    background: #fff;
+    color: #0f6ac5;
+    display: inline-block;
+    background: url(./assets/ic-submit.png) 300px center no-repeat;
+    padding-left: 230px;
+    text-align: left;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
