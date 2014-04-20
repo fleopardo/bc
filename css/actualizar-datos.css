@@ -1,0 +1,195 @@
+/* datos de usuario */
+.actualizar-datos section.content-container .row.password-cont{
+    background: #f8f8f8;
+    padding:30px 20px 10px;
+    width: 535px;
+}
+
+.actualizar-datos section.content-container .row.password-cont label{
+    padding-left: 0;
+}
+
+.actualizar-datos section.content-container .row.password-cont input{
+    width: 370px;
+}
+
+.actualizar-datos section.content-container .datos-usuarios .row.checkboxCont label{
+    width: 545px;
+}
+
+
+
+
+/* datos personales */
+
+
+.contenedor-principal .actualizar-datos section.content{
+    padding: 0 20px 20px;
+    width: 810px;
+}
+
+.contenedor-principal .actualizar-datos .destacado {
+    background: url("./assets/destacado-adhesion-completo.jpg") center top no-repeat;
+    padding-top: 36px;
+}
+
+.contenedor-principal .actualizar-datos section.content h3{
+    line-height: 22px;
+    border-bottom: 4px solid #ddd;
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #4f4f4f;
+    padding-bottom: 20px;
+}
+
+.contenedor-principal .actualizar-datos section.content .row{
+    margin-bottom: 20px;
+}
+
+.contenedor-principal .actualizar-datos section.content label,
+.contenedor-principal .actualizar-datos section.content span.label{
+    color: #0f6ac5;
+    font-size: 13px;
+    line-height: 32px;
+    font-family: "din-medium";
+    display: inline-block;
+    width: 138px;
+}
+
+.contenedor-principal .actualizar-datos section.content-container input[type=text],
+.contenedor-principal .actualizar-datos section.content-container input[type=password]{
+	border: 1px solid #dcdcdc;
+	padding: 0 5px;
+	height: 32px;
+}
+
+.contenedor-principal .actualizar-datos section.content-container input[type=text]{
+    /*width: 450px;*/
+}
+
+.actualizar-datos section.content-container .fecha-nacimiento select#day{
+	width: 75px;
+}
+
+.actualizar-datos section.content-container .fecha-nacimiento select#month{
+	width: 135px;
+}
+
+.actualizar-datos section.content-container .fecha-nacimiento select#year{
+	width: 85px;
+}
+
+.actualizar-datos section.content-container #month-button,
+.actualizar-datos section.content-container #day-button,
+.actualizar-datos section.content-container #type-button{
+	margin-right: 7px;
+}
+
+.actualizar-datos section.content-container .row.dni select{
+	width: 185px;
+}
+
+.actualizar-datos section.content-container .row.dni input[type=text]{
+	width: 113px;
+}
+
+.actualizar-datos section.content-container .row.radiobuttons label{
+	width: 70px;
+}
+
+.actualizar-datos section.content-container .row.radiobuttons input[type=radio]{
+	margin-right: 30px;
+}
+
+.actualizar-datos section.content-container .row.address-info input[type=text]{
+	margin-right: 15px;
+}
+
+.actualizar-datos section.content-container .row.address-info input.number{
+	width: 112px;
+}
+
+.actualizar-datos section.content-container .row.address-info input.piso{
+	width: 160px;
+}
+
+.actualizar-datos section.content-container .row.address-info input.apart{
+	width: 118px;
+}
+
+.actualizar-datos section.content-container .row.provincia select,
+.actualizar-datos section.content-container .row.marca select,
+.actualizar-datos section.content-container .row.modelo select{
+	width: 318px;
+}
+
+.actualizar-datos section.content-container .row.localidad input#localidad,
+.actualizar-datos section.content-container .row.telefono-fijo input#codigo-de-area{
+	width: 160px;
+	margin-right: 15px;
+}
+
+.actualizar-datos section.content-container .row.localidad input#codigo-postal,
+.actualizar-datos section.content-container .row.telefono-fijo input#numeroFijo{
+	width: 118px;
+}
+
+.actualizar-datos section.content-container .row.telefono-movil input#codigo-de-area-movil,
+.actualizar-datos section.content-container .row.telefono-movil input#numeroMovil{
+	margin-right: 15px;
+}
+
+.actualizar-datos section.content-container .row.telefono-movil input#codigo-de-area-movil{
+	width: 70px;
+}
+
+.actualizar-datos section.content-container .row.telefono-movil input#numeroMovil{
+	width: 80px;
+}
+
+.actualizar-datos section.content-container .row.telefono-movil select{
+	width: 108px;
+}
+
+.actualizar-datos section.content-container #yearCar-button{
+	margin-right: 15px;
+}
+
+.actualizar-datos section.content-container .row select#yearCar,
+.actualizar-datos section.content-container .row select#model{
+	width: 149px;
+}
+
+.actualizar-datos section.content-container .row.checkboxCont{
+	overflow: hidden;
+}
+
+.actualizar-datos section.content-container .row.checkboxCont label{
+	color: #b9b9b9;
+	width: 440px;
+	line-height: 18px;
+	margin-left: 10px;
+}
+
+.actualizar-datos section.content-container .row.checkboxCont input[type=checkbox],
+.actualizar-datos section.content-container .row.checkboxCont label{
+	float: left;
+}
+
+.actualizar-datos section.content-container .row.checkboxCont input[type=checkbox]{
+	margin-top: 5px;
+}
+
+.contenedor-principal .actualizar-datos section.content-container input[type=submit]{
+    width: 462px;
+    border: 3px solid #0f6ac5;
+    background: #fff;
+    color: #0f6ac5;
+    display: inline-block;
+    background: url(./assets/ic-submit.png) 260px center no-repeat;
+    padding-left: 200px;
+    text-align: left;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
