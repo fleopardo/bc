@@ -1,6 +1,7 @@
 /* BOXES MAS CERCANOS */
+
 .contenedor-principal .adhesion-completa section.content{
-    padding: 20px;
+    padding: 0 20px 20px;
     width: 810px;
 }
 
@@ -10,5 +11,138 @@
 }
 
 .contenedor-principal .adhesion-completa section.content h3{
-    margin-bottom: 24px;
+    text-transform: uppercase;
+    line-height: 22px;
+    border-bottom: 4px solid #ddd;
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #4f4f4f;
+    padding-bottom: 20px;
+}
+
+.contenedor-principal .adhesion-completa section.content .row{
+    margin-bottom: 20px;
+}
+
+.contenedor-principal .adhesion-completa section.content label,
+.contenedor-principal .adhesion-completa section.content span.label{
+    color: #0f6ac5;
+    font-size: 13px;
+    line-height: 32px;
+    font-family: "din-medium";
+    display: inline-block;
+    width: 138px;
+}
+
+.contenedor-principal .adhesion-completa section.content-container input[type=text],
+.contenedor-principal .adhesion-completa section.content-container input[type=password]{
+	border: 1px solid #dcdcdc;
+	padding: 0 5px;
+	height: 32px;
+}
+
+.contenedor-principal .adhesion-completa section.content-container input[type=text]{
+    width: 450px;
+}
+
+.adhesion-completa section.content-container .fecha-nacimiento select#day{
+	width: 75px;
+}
+
+.adhesion-completa section.content-container .fecha-nacimiento select#month{
+	width: 135px;
+}
+
+.adhesion-completa section.content-container .fecha-nacimiento select#year{
+	width: 85px;
+}
+
+.adhesion-completa section.content-container #month-button,
+.adhesion-completa section.content-container #day-button,
+.adhesion-completa section.content-container #type-button{
+	margin-right: 7px;
+}
+
+.adhesion-completa section.content-container .row.dni select{
+	width: 185px;
+}
+
+.adhesion-completa section.content-container .row.dni input[type=text]{
+	width: 113px;
+}
+
+.adhesion-completa section.content-container .row.radiobuttons label{
+	width: 70px;
+}
+
+.adhesion-completa section.content-container .row.radiobuttons input[type=radio]{
+	margin-right: 30px;
+}
+
+.adhesion-completa section.content-container .row.address-info input[type=text]{
+	margin-right: 15px;
+}
+
+.adhesion-completa section.content-container .row.address-info input.number{
+	width: 120px;
+}
+
+.adhesion-completa section.content-container .row.address-info input.street{
+	width: 160px;
+}
+
+.adhesion-completa section.content-container .row.address-info input.apart{
+	width: 110px;
+}
+
+.adhesion-completa section.content-container .row.provincia select{
+	width: 318px;
+}
+
+
+
+
+
+
+.row.password-cont{
+	background: #f8f8f8;
+	padding:30px 20px 10px;
+	width: 380px;
+}
+
+.row.password-cont input{
+	width: 370px;
+}
+
+.captcha-cont label{
+	display: inline-block;
+	line-height: 34px;
+}
+
+.captcha-cont img{
+	border: 3px solid #dcdcdc;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 37px;
+}
+
+.captcha-text label{
+	display: inline-block;
+}
+
+.captcha-text input{
+	width: 158px!important;
+	margin-left: 12px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contenedor-principal .adhesion-completa section.content-container input[type=submit]{
+    width: 380px;
+    border: 3px solid #0f6ac5;
+    background: #fff;
+    color: #0f6ac5;
+    display: inline-block;
+    background: url(./assets/ic-submit.png) 200px center no-repeat;
+    padding-left: 152px;
 }

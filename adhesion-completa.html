@@ -427,9 +427,9 @@
 				</aside>
 
 				<section class="content right">
+					<h3>Datos de usuario</h3>
+					<form method="" action="" class="adhesionCompleta">
 
-					<form method="" action="" class="busqueda-boxes">
-						<h3>Encontrá los boxes mas cercanos</h3>
 						<fieldset>
 							<!-- Nombre -->
 							<div class="row">
@@ -469,27 +469,28 @@
 
 							</div>
 
-							<div class="row">
-								<span class="label">Sexo<span>
+							<div class="row radiobuttons">
+								<span class="label">Sexo</span>
 
-								<label>Femenino<input type="radio" name="gender" /></label>
-								<label>Masculino<input type="radio" name="gender" /></label>
+								<label>Femenino</label>
+								<input type="radio" name="gender" />
+
+								<label>Masculino</label>
+								<input type="radio" name="gender" />
 							</div>
 
 							<div class="row">
-								<label for="email">E-mail</label>
 								<input type="text" id="email" placeholder="E-mail" />
 							</div>
 
 							<div class="row">
-								<label for="calle">Calle</label>
 								<input type="text" id="calle" placeholder="Calle" />
 							</div>
 
-							<div class="row">
-								<input type="text" placeholder="Altura" />
-								<input type="text" placeholder="Piso" />
-								<input type="text" placeholder="Depto" />
+							<div class="row address-info">
+								<input type="text" placeholder="Altura" class="number" />
+								<input type="text" placeholder="Piso" class="street" />
+								<input type="text" placeholder="Depto" class="apart" />
 							</div>
 
 							<div class="row provincia">

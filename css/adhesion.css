@@ -19,6 +19,10 @@
     padding-bottom: 20px;
 }
 
+.contenedor-principal .adhesion section.content .row{
+    margin-bottom: 20px;
+}
+
 .contenedor-principal .adhesion section.content-container input[type=text],
 .contenedor-principal .adhesion section.content-container input[type=password]{
 	border: 1px solid #dcdcdc;
@@ -30,40 +34,40 @@
     width: 410px;
 }
 
-.row.password-cont{
+.adhesion section.content-container .row.password-cont{
 	background: #f8f8f8;
 	padding:30px 20px 10px;
 	width: 380px;
 }
 
-.row.password-cont input{
+.adhesion section.content-container .row.password-cont input{
 	width: 370px;
 }
 
-.captcha-cont label{
+.adhesion section.content-container .captcha-cont label{
 	display: inline-block;
 	line-height: 34px;
 }
 
-.captcha-cont img{
+.adhesion section.content-container .captcha-cont img{
 	border: 3px solid #dcdcdc;
 	display: inline-block;
 	vertical-align: middle;
 	margin-left: 37px;
 }
 
-.captcha-text label{
+.adhesion section.content-container .captcha-text label{
 	display: inline-block;
 }
 
-.captcha-text input{
+.adhesion section.content-container .captcha-text input{
 	width: 158px!important;
 	margin-left: 12px;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.contenedor-principal .adhesion section.content-container input[type=submit]{
+.adhesion section.content-container input[type=submit]{
     width: 380px;
     border: 3px solid #0f6ac5;
     background: #fff;
@@ -71,4 +75,8 @@
     display: inline-block;
     background: url(./assets/ic-submit.png) 200px center no-repeat;
     padding-left: 152px;
+    text-align: left;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
