@@ -1,0 +1,20 @@
+/* Adhesion */
+.contenedor-principal .cambiar-contrasena section.content{
+    padding: 0 20px 20px;
+    width: 810px;
+}
+
+.contenedor-principal .cambiar-contrasena .destacado {
+    background: url("./assets/destacado-adhesion-completo.jpg") center top no-repeat;
+    padding-top: 36px;
+}
+
+.contenedor-principal .cambiar-contrasena section.content h3{
+    text-transform: uppercase;
+    line-height: 22px;
+    border-bottom: 4px solid #ddd;
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #4f4f4f;
+    padding-bottom: 20px;
+}
