@@ -84,65 +84,90 @@
 }
 
 .adhesion-completa section.content-container .row.address-info input.number{
-	width: 120px;
+	width: 112px;
 }
 
-.adhesion-completa section.content-container .row.address-info input.street{
+.adhesion-completa section.content-container .row.address-info input.piso{
 	width: 160px;
 }
 
 .adhesion-completa section.content-container .row.address-info input.apart{
-	width: 110px;
+	width: 118px;
 }
 
-.adhesion-completa section.content-container .row.provincia select{
+.adhesion-completa section.content-container .row.provincia select,
+.adhesion-completa section.content-container .row.marca select,
+.adhesion-completa section.content-container .row.modelo select{
 	width: 318px;
 }
 
-
-
-
-
-
-.row.password-cont{
-	background: #f8f8f8;
-	padding:30px 20px 10px;
-	width: 380px;
+.adhesion-completa section.content-container .row.localidad input#localidad,
+.adhesion-completa section.content-container .row.telefono-fijo input#codigo-de-area{
+	width: 160px;
+	margin-right: 15px;
 }
 
-.row.password-cont input{
-	width: 370px;
+.adhesion-completa section.content-container .row.localidad input#codigo-postal,
+.adhesion-completa section.content-container .row.telefono-fijo input#numeroFijo{
+	width: 118px;
 }
 
-.captcha-cont label{
-	display: inline-block;
-	line-height: 34px;
+.adhesion-completa section.content-container .row.telefono-movil input#codigo-de-area-movil,
+.adhesion-completa section.content-container .row.telefono-movil input#numeroMovil{
+	margin-right: 15px;
 }
 
-.captcha-cont img{
-	border: 3px solid #dcdcdc;
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 37px;
+.adhesion-completa section.content-container .row.telefono-movil input#codigo-de-area-movil{
+	width: 70px;
 }
 
-.captcha-text label{
-	display: inline-block;
+.adhesion-completa section.content-container .row.telefono-movil input#numeroMovil{
+	width: 80px;
 }
 
-.captcha-text input{
-	width: 158px!important;
-	margin-left: 12px;
-	display: inline-block;
-	vertical-align: top;
+.adhesion-completa section.content-container .row.telefono-movil select{
+	width: 108px;
+}
+
+.adhesion-completa section.content-container #yearCar-button{
+	margin-right: 15px;
+}
+
+.adhesion-completa section.content-container .row select#yearCar,
+.adhesion-completa section.content-container .row select#model{
+	width: 149px;
+}
+
+.adhesion-completa section.content-container .row.checkboxCont{
+	overflow: hidden;
+}
+
+.adhesion-completa section.content-container .row.checkboxCont label{
+	color: #b9b9b9;
+	width: 440px;
+	line-height: 18px;
+	margin-left: 10px;
+}
+
+.adhesion-completa section.content-container .row.checkboxCont input[type=checkbox],
+.adhesion-completa section.content-container .row.checkboxCont label{
+	float: left;
+}
+
+.adhesion-completa section.content-container .row.checkboxCont input[type=checkbox]{
+	margin-top: 5px;
 }
 
 .contenedor-principal .adhesion-completa section.content-container input[type=submit]{
-    width: 380px;
+    width: 462px;
     border: 3px solid #0f6ac5;
     background: #fff;
     color: #0f6ac5;
     display: inline-block;
-    background: url(./assets/ic-submit.png) 200px center no-repeat;
-    padding-left: 152px;
+    background: url(./assets/ic-submit.png) 260px center no-repeat;
+    padding-left: 200px;
+    text-align: left;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
