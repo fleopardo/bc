@@ -1,6 +1,6 @@
-/* BOXES MAS CERCANOS */
+/* Adhesion */
 .contenedor-principal .adhesion section.content{
-    padding: 20px;
+    padding: 0 20px 20px;
     width: 810px;
 }
 
@@ -9,11 +9,14 @@
     padding-top: 36px;
 }
 
-.contenedor-principal .adhesion section.content legend{
+.contenedor-principal .adhesion section.content h3{
     text-transform: uppercase;
-    line-height: 30px;
+    line-height: 22px;
     border-bottom: 4px solid #ddd;
     margin-bottom: 40px;
+    font-size: 15px;
+    color: #4f4f4f;
+    padding-bottom: 20px;
 }
 
 .contenedor-principal .adhesion section.content-container input[type=text],
