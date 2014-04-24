@@ -1,0 +1,697 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+
+http://html5doctor.com/html-5-reset-stylesheet/
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: "din-regular";
+    font-weight: normal;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	text-decoration:none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+    resize:none;
+    outline:none;
+}
+li{list-style:none;}
+
+strong{
+	font-weight:bold;
+}
+
+select{
+	width: 160px;
+}
+
+/*CLEARFIX*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{display:inline-block;}
+* html .clearfix{height:1%;}
+.clearfix{display:block;}
+
+
+
+.DN{display:none;}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #808080;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #808080;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #808080;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #808080;
+}
+
+a{
+	color: #808080;
+}
+
+a:hover{
+	color: #3a3939;
+}
+
+/*
+ * Fonts
+*/
+@font-face {
+	font-family: "din-regular";
+	src: url("../fonts/din-regular.eot");
+	src: local("?"),
+	url("../fonts/din-regular.woff") format("woff"),
+	url("../fonts/din-regular.ttf") format("truetype"),
+	url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: "din-light";
+	src: url("../fonts/din-light.eot");
+	src: local("?"),
+	url("../fonts/din-light.woff") format("woff"),
+	url("../fonts/din-light.ttf") format("truetype"),
+	url("../fonts/din-light.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: "din-medium";
+	src: url("../fonts/din-medium.eot");
+	src: local("?"),
+	url("../fonts/din-medium.woff") format("woff"),
+	url("../fonts/din-medium.ttf") format("truetype"),
+	url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
+	font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+	font-family: "din-black";
+	src: url("../fonts/din-black.eot");
+	src: local("?"),
+	url("../fonts/din-black.woff") format("woff"),
+	url("../fonts/din-black.ttf") format("truetype"),
+	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
+	/*font-weight: normal;*/
+  	font-style: normal;
+}
+
+
+body{
+    font-family: "din-medium";
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 90px 0 75px;
+    color: #838383;
+}
+
+.layout{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.breadcrumb-container{
+    background: rgb(232,232,232);
+    background: rgba(232,232,232, 0.85);
+    padding-left: 10px;
+    position: fixed;
+	top: 55px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.breadcrumb-container ul.breadcrumb{
+    float: left;
+}
+
+.breadcrumb-container ul.options{
+    float: right;
+}
+
+.breadcrumb-container li{
+    display: inline-block;
+    color: #fff;
+}
+
+.breadcrumb-container li a{
+    color: #5e5e5e;
+    display: inline-block;
+    line-height: 36px;
+    font: 12px/36px arial, Helvetica, Sans-serif;
+}
+
+.breadcrumb-container li.last a{
+	font-family: "din-black";
+	color: #0063be;
+}
+
+.breadcrumb-container ul.options li{
+    position: relative;
+}
+
+.breadcrumb-container ul.options li a{
+    display: inline-block;
+    background: url(./assets/sp-breadcrumb-icons.png) no-repeat;
+    line-height: 15px;
+    padding: 11px 20px 11px 52px;
+    font-family: "din-black";
+
+}
+
+.breadcrumb-container ul.options li a:hover,
+.breadcrumb-container ul.options li a.active{
+    background-color: #ddd;
+}
+
+.breadcrumb-container ul.options li a.news-btn{
+    background-position: 18px 11px;
+}
+
+.breadcrumb-container ul.options li a.mmedia-btn{
+    background-position: 18px -34px;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb{
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background: #ddd;
+    right: 0;
+    padding: 30px;
+    top: 36px;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb legend{
+    font-size: 13px;
+    color: #5e5e5e;
+    margin-bottom: 15px;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb input[type=text]{
+    width: 247px;
+    background: #fff;
+    padding: 0 10px;
+    height: 25px;
+    margin-bottom: 8px;
+    display: block;
+    border: none;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb input[type=submit]{
+    width: 100%;
+    background: #bfbfbf url(./assets/ic-submit-breadcrumb.png) 156px 15px no-repeat;
+    padding-left: 110px;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb input[type=submit]:hover{
+    background-color: #0063be;
+}
+
+#dimmerSubmenu{
+	background: transparent;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.expansible-container{
+	height: 320px;
+	overflow: hidden;
+}
+
+a.exp-contraer{
+	display: block;
+	padding-top: 5px;
+	border-top: 1px solid #e0e0e0;
+	margin-top: 5px;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "din-black";
+	text-transform: uppercase;
+	color: #636363;
+}
+
+a.exp-contraer span{
+	display: inline-block;
+	background: url(./assets/sp-expandible-arrows.png) right -17px no-repeat;
+	padding-right: 20px;
+}
+
+input[type="submit"]{
+	display: block;
+	cursor: pointer;
+	color: #fff;
+	background: #d8d8d8 url("./assets/fd-input-submit.png") 65px 16px no-repeat;
+	height: 40px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 0 0 0 15px;
+	border: none;
+	-moz-transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	width: 130px;
+}
+
+input[type="submit"]:hover{
+	background: #0063be url("./assets/fd-input-submit.png") 65px 16px no-repeat;
+}
+
+.content-container{
+    margin-top: 35px;
+}
+
+section.content{
+    width: 850px;
+}
+
+.tres-columnas section.content{
+    width: 570px;
+    margin-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #d8d8d8;
+}
+
+section.content h2,
+section.content h3{
+    color: #292929;
+    font-size: 23px;
+    line-height: 28px;
+    margin-bottom: 12px;
+}
+
+section.content p{
+    margin-bottom: 15px;
+}
+
+section.content .left,
+section.content .right{
+    width: 415px;
+}
+
+section.content .bloque.principal h2{
+    margin-bottom: 10px;
+}
+
+section.content .bloque h3{
+    color: #9d9c9c;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: "din-medium";
+    margin-bottom: 4px;
+}
+
+section.content .bloque p{
+    color: #9d9c9c;
+    font-family: "din-regular";
+    margin-bottom: 4px;
+}
+
+
+
+.destacado{
+    min-height: 158px;
+    padding-top: 120px;
+    margin-top: -34px;
+}
+
+.destacado h2,
+.destacado h3{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.destacado h2{
+    background: url("./assets/flag-white.png") left no-repeat;
+    padding-left: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "din-regular";
+    margin-bottom: 0px;
+}
+
+.destacado h3{
+    font-size: 55px;
+    line-height: 60px;
+    font-family: "din-black";
+}
+
+.destacado h3 span{
+    font-family: "din-light";
+}
+
+.destacado p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 19px;
+    background: #d99b2d;
+    width: 520px;
+    padding: 14px;
+    /*width: 470px;*/
+    font-family: "din-medium";
+}
+
+
+
+
+
+/***** Menu lateral principal*****/
+
+section.content-container aside{
+    width: 160px;
+    border-top: 3px solid #d99b2d;
+    padding-top: 10px;
+}
+
+section.content-container aside h2{
+    color: #da9c18;
+    font-family: "din-black";
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+section.content-container aside ul{
+    margin-bottom: 14px;
+}
+
+section.content-container aside li{
+    margin-bottom: 5px;
+}
+
+section.content-container aside li a{
+    font-size: 11px;
+    line-height: 16px;
+    color: #808080;
+    display: block;
+}
+
+section.content-container aside li > a{
+	font-family: "din-black";
+}
+
+section.content-container aside li > a:hover,
+section.content-container aside li.active > a{
+    background: #ececec;
+}
+
+section.content-container aside li.active > a{
+
+}
+
+section.content-container aside li > ul{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+section.content-container aside li > ul li a{
+    padding-left: 14px;
+    font-family: "din-regular";
+}
+/** Fin Menu lateral **/
+
+
+
+
+
+
+
+/*********** aside derecho ***********/
+
+section.content-container aside.right-aside{
+    width: 235px;
+    border-top: none;
+    padding-top: 0;
+    float: right;
+}
+
+/*fin aside derecho*/
+
+
+
+
+/*
+ * Footer
+*/
+
+footer, footer > div{
+	background: #f6f6f6;
+}
+
+footer{
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+footer > div{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+footer > div p,
+footer > div ul.links,
+footer > div ul li{
+    float: left;
+}
+
+footer > div ul.links{
+    background: url("./assets/separador-footer.gif") no-repeat center left;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+footer > div ul.links li{
+    margin-right: 10px;
+    padding-right: 10px;
+    background: url("./assets/separador-footer.gif") no-repeat center right;
+}
+
+footer > div p,
+footer > div ul.links li a,
+footer > div dl.share dt,
+footer > div dl.share dd a{
+    color: #bcbcbc;
+    font-size: 11px;
+    font-family: arial, helvetica, sans-serif;
+    line-height: 56px;
+}
+
+footer > div ul.links li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+/* NUEVO COMPARTIR */
+
+footer .share{
+	float: right;
+}
+
+footer .share dt{
+	float: left;
+	margin-right: 15px;
+	color: #bcbcbc;
+    font-size: 11px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+footer .share dd{
+	float: left;
+}
+
+footer .share dd:last-of-type{
+	border-right: 0px;
+}
+
+footer .share dd a{
+	background: url('./assets/sprite-share.png') top left no-repeat;
+	display: block;
+	width: 40px;
+	text-indent: -9999px;
+}
+
+	footer .share dd a.fb{
+		background-position: 0 top;
+	}
+
+		footer .share dd a.fb:hover{
+			background-position: 0 bottom;
+		}
+
+	footer .share dd a.tw{
+		background-position: -40px top;
+	}
+
+		footer .share dd a.tw:hover{
+			background-position: -40px bottom;
+		}
+
+    footer .share dd a.ln{
+        background-position: -80px top;
+    }
+
+        footer .share dd a.ln:hover{
+            background-position: -80px bottom;
+        }
+
+	footer .share dd a.gplus{
+		background-position: -120px top;
+	}
+
+		footer .share dd a.gplus:hover{
+			background-position: -120px bottom;
+		}
+
+	footer .share dd a.yt{
+		background-position: -160px top;
+	}
+
+		footer .share dd a.yt:hover{
+			background-position: -160px bottom;
+		}
+
+
+
+
+/* Mobiles ----------- */
+
+@media only screen and (max-device-width : 430px){
+
+    .headerYPF,
+    .headerYPF h1,
+    .headerYPF h2 a{
+        position: absolute !important;
+        width: 100% !important;
+    }
+
+    footer{
+        position: static;
+    }
+
+}

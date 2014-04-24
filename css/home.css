@@ -1,0 +1,204 @@
+/******** HOME *********/
+
+.galeria-bg{
+	background: #f2efeb;
+	margin-top: -34px;
+}
+
+.galeria-cont{
+    position: relative;
+    /*height: 398px;*/
+    /*width: 1200px;*/
+    height: 398px;
+    width: 100%;
+    max-width: 2000px;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.home section.content .bloque{
+	overflow: hidden;
+	margin-bottom: 15px;
+	width: 272px;
+	position: relative;
+}
+
+.home section.content .bloque img{
+    border-top: none;
+    float: left;
+}
+
+.home section.content a.bloque h2{
+    background: #292929;
+    padding: 5px 12px;
+    text-transform: none;
+    color: #fff;
+	font-size: 19px;
+	font-weight: normal;
+	font-family: "din-medium";
+	line-height: 38px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.home section.content a.bloque:hover h2{
+    background: #da9c18;
+}
+
+
+/* ASIDE RIGHT */
+
+.home .ypf-en-bolsa{
+	padding: 15px;
+	background: #2dafd9;
+	color: #fff;
+	font-family: "din-light";
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.home .ypf-en-bolsa > div{
+	margin-bottom: 39px;
+}
+
+.home .ypf-en-bolsa > div p{
+	font-size: 10px;
+	line-height: 13px;
+}
+
+.home .ypf-en-bolsa a{
+	color: #fff;
+}
+
+.home .ypf-en-bolsa a:hover{
+	color: #3a3939;
+}
+
+.home .ypf-en-bolsa h3,
+.home .ypf-en-bolsa h4,
+.home .ypf-en-bolsa th,
+.home .ypf-en-bolsa strong{
+	font-family: "din-medium";
+	font-weight: normal;
+}
+
+.home .ypf-en-bolsa h3{
+	font-size: 20px;
+	line-height: 25px;
+	border-bottom: 1px solid #96d7ec;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+}
+
+.home .ypf-en-bolsa h4{
+	border-bottom: 1px solid #96d7ec;
+	font-size: 13px;
+	line-height: 16px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+.home .ypf-en-bolsa table th,
+.home .ypf-en-bolsa table td{
+	padding: 3px 10px 3px 0;
+}
+
+
+.home .ypf-en-bolsa th{
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.home .ypf-en-bolsa table + p{
+	margin-top: 8px;
+}
+
+.home .ypf-en-bolsa h4.no-border{
+	border: none;
+	padding: none;
+	margin: none;
+}
+
+.home .ypf-en-bolsa .descargar{
+	text-transform: uppercase;
+	background: url("./assets/ic_pdf_blue.jpg") right center no-repeat;
+	padding-right: 30px;
+	font-size: 11px;
+	line-height: 20px;
+	display: inline-block;
+}
+
+.home .ypf-en-bolsa .descargar:hover{
+	color: #3a3939;
+}
+
+
+/* SECCION NOTICIAS */
+
+.home .news{
+	margin-left: 180px;
+	margin-top: 30px;
+	padding: 20px 20px 0 20px;
+	background-color: #f8f8f8;
+}
+
+.home .news h3{
+	font-family: "din-medium";
+	font-weight: normal;
+	font-size: 23px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	color: #292929;
+}
+
+.home .news article{
+	width: 250px;
+	margin-right: 20px;
+	font-family: "din-regular";
+	font-weight: normal;
+	float: left;
+	padding-bottom: 30px;
+}
+
+.home .news article a:hover{
+	color: #0063be;
+}
+
+.home .news article .date{
+	font-size: 11px;
+	margin-bottom: 5px;
+}
+
+.home .news article .txt{
+	font-size: 13px;
+}
+
+.home .news article .title{
+	font-size: 19px;
+	line-height: 24px;
+	margin-bottom: 25px;
+	color: #292929;
+}
+
+.home .news article .title:hover{
+	color: #0063be;
+}
+
+
+.scrollCustom {
+	overflow: hidden;
+	margin-top: 5px;
+	width: 805px;
+}
+
+.scrollCustom > div{
+	overflow: hidden;
+	width: 4000px;
+}
