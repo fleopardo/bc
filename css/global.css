@@ -332,12 +332,20 @@ body{
 .breadcrumb-container ul.login .username{
     text-transform: uppercase;
     font-size: 13px;
-    padding-right: 30px;
-    background-image: url('') no-repeat right center;
 }
 
 .breadcrumb-container ul.login .username span{
     color: #0063BD;
+}
+
+.breadcrumb-container ul.login .username .icon{
+    background: url('./assets/sprite-icons-login.png') no-repeat right bottom;
+    margin-left: 5px;
+    width: 10px;
+    height: 9px;
+    display: inline-block;
+    position: relative;
+    top: -1px;
 }
 
 .breadcrumb-container .login .submenu-breadcrumb{
@@ -353,8 +361,16 @@ body{
 .breadcrumb-container .login .submenu-breadcrumb a{
     font-weight: bold;
     display: inline-block;
-    padding-left: 30px;
-    background-image: url('') no-repeat right center;
+}
+
+.breadcrumb-container .login .submenu-breadcrumb a .icon{
+    background: url('./assets/sprite-icons-login.png') no-repeat top left;
+    width: 16px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    margin-right: 10px;
 }
 
 #dimmerSubmenu{
