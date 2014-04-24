@@ -1,8 +1,8 @@
-.estaciones .destacado {
-	background: url("../images/estaciones/header.jpg") center top no-repeat;
+.lubricantes .destacado {
+	background: url("../images/lubricantes/header.jpg") center top no-repeat;
 }
 
-.estaciones .content h2{
+.lubricantes .content h2{
 	background: url("./assets/flag-light-blue.png") left no-repeat;
 	padding-left: 14px;
 	color: #3cb1bb;
@@ -10,22 +10,26 @@
 	line-height: 22px;
 }
 
-.estaciones .content h3{
+.lubricantes .content h3{
 	font-size: 24px;
 	line-height: 28px;
 	text-transform: uppercase;
 }
 
-.estaciones .content article{
+.lubricantes .content article{
 	border-top: 1px solid #ececec;
 	padding: 25px 0 10px;
 }
 
-.estaciones .content h4{
+.lubricantes .content h4{
 	font-family: "din-black";
 	font-size: 13px;
 	line-height: 18px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 	color: #3cb1bb;
+}
+
+.lubricantes img.banner-img{
+	margin-bottom: 20px;
 }
