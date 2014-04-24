@@ -33,3 +33,9 @@
 .lubricantes img.banner-img{
 	margin-bottom: 20px;
 }
+
+.lubricantes .content th{
+	color: #3cb1bb;
+	font-family: "din-medium";
+	text-transform: uppercase;
+}
