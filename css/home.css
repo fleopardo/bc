@@ -39,3 +39,17 @@
 	text-transform: uppercase;
 	clear: left;
 }
+
+.home section.content .bloque .link-ppal{
+    font-family: "din-black";
+    text-transform: 13px;
+    text-transform: uppercase;
+    color: #aeadad;
+    display: inline-block;
+}
+
+.home section.content .bloque .link-ppal span{
+    background: url("./assets/ic-link-bloque.png") right center no-repeat;
+    padding-right: 10px;
+    display: inline-block;
+}
