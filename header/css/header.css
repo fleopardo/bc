@@ -79,7 +79,7 @@
 
 	.headerYPF > div .logo{
 		background: url("./assets/logo.png") no-repeat left top;
-		position: relative;
+		position: fixed;
 		top: 15px;
 		display:inline-block;
 	}
@@ -91,7 +91,7 @@
 		color: #474747;
 		font-size: 20px;
 		font-family: "din-medium";
-		text-transform: uppercase;
+		text-transform: capitalize;
 		border-left: 1px solid #aaa;
 		line-height: 22px;
 		padding-left: 14px;
@@ -335,207 +335,12 @@
 	}
 
 
-		/* Submenu Todo sobre YPF */
+		/* Submenu Estaciones */
 
-		.headerYPF .todo-sobre-ypf .submenu{
-			width: 656px;
-			height: 380px;
+		.headerYPF .estaciones .submenu{
+			width: 160px;
+			height: 130px;
 		}
-
-		.headerYPF .todo-sobre-ypf .submenu .col{
-			width: 180px;
-			float: left;
-			margin-right: 10px;
-		}
-
-		.headerYPF .todo-sobre-ypf .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			text-align: center;
-		}
-
-		.headerYPF .todo-sobre-ypf .submenu h4{
-			float: none;
-			color: #0063be;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: left;
-		}
-
-		.headerYPF .todo-sobre-ypf .submenu h4 a{
-			color: #0063be;
-			line-height: 20px;
-		}
-
-		.headerYPF .todo-sobre-ypf .submenu .info{
-			width: 249px;
-		}
-
-
-
-
-
-
-		/* Submenu nuevas fronteras */
-
-		.headerYPF .ypf-hoy .submenu{
-			width: 438px;
-			height: 250px;
-		}
-
-		.headerYPF .ypf-hoy .submenu .col{
-			width: 180px;
-			float: left;
-			margin-right: 10px;
-		}
-
-		.headerYPF .ypf-hoy .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			text-align: center;
-		}
-
-		.headerYPF .ypf-hoy .submenu h4{
-			float: none;
-			color: #0063be;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: left;
-		}
-
-		.headerYPF .ypf-hoy .submenu h4 a{
-			color: #0063be;
-			line-height: 20px;
-		}
-
-		.headerYPF .ypf-hoy .submenu .info{
-			width: 249px;
-		}
-
-
-
-		/* Submenu inversores */
-
-		.headerYPF .inversores .submenu{
-			width: 716px;
-			height: 480px;
-			left: -151px;
-		}
-
-		.headerYPF .inversores .submenu .col{
-			width: 210px;
-			float: left;
-			margin-right: 10px;
-		}
-
-		.headerYPF .inversores .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			text-align: center;
-		}
-
-		.headerYPF .inversores .submenu h4{
-			float: none;
-			color: #0063be;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: left;
-		}
-
-		.headerYPF .inversores .submenu h4 a{
-			color: #0063be;
-			line-height: 20px;
-		}
-
-		.headerYPF .inversores .submenu .info{
-			width: 249px;
-		}
-
-
-
-
-		/* YPF y la industria */
-
-		.headerYPF .ypf-y-la-industria .submenu{
-			width: 900px;
-			height: 345px;
-			right: -447px;
-		}
-
-		.headerYPF .ypf-y-la-industria .submenu .col{
-			width: 180px;
-			float: left;
-			margin-right: 20px;
-		}
-
-		.headerYPF .ypf-y-la-industria .submenu .col.doble{
-			width: 420px;
-			float: left;
-			margin-right: 10px;
-		}
-
-		.headerYPF .ypf-y-la-industria .submenu h3{
-			color: #0063be;
-			margin-top: 10px;
-			text-transform: uppercase;
-			text-align: center;
-		}
-
-		.headerYPF .ypf-y-la-industria .submenu h4{
-			float: none;
-			color: #0063be;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: left;
-		}
-
-		.headerYPF .ypf-y-la-industria .submenu h4 a{
-			color: #0063be;
-			line-height: 20px;
-		}
-
-		.headerYPF .ypf-y-la-industria .submenu .info{
-			width: 249px;
-		}
-
-
-
-
-
-		/* Submenu cadena de energia */
-
-		.headerYPF .productos-y-servicios .submenu{
-			width: 586px;
-			height: 250px;
-		}
-
-		.headerYPF .productos-y-servicios .submenu .info{
-			width: 300px;
-		}
-
-		.headerYPF .productos-y-servicios .submenu h4{
-			float: none;
-			color: #0063be;
-			text-transform: uppercase;
-			font-size: 11px;
-			text-align: left;
-		}
-
-		.headerYPF .productos-y-servicios .submenu h4 a{
-			color: #0063be;
-			line-height: 20px;
-		}
-
-		.headerYPF .productos-y-servicios .submenu li a:hover{
-			border:none;
-			color: #0063be;
-		}
-
-
-
 
 
 
