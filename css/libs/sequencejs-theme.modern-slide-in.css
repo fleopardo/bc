@@ -243,7 +243,7 @@ activar para usar galeria no full size
 .dest .cont-desc{
 	position: relative;
 	width: 550px;
-	background: #da9c18;
+	background: #3cb1bb;
 	padding: 30px 30px 60px 5px;
 	height: 152px;
 }
@@ -252,7 +252,7 @@ activar para usar galeria no full size
 	content: "";
 	display: block;
 	position: absolute;
-	background: #da9c18;
+	background: #3cb1bb;
 	top: 0;
 	bottom: 0;
 	left: -1000px;

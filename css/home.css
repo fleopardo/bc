@@ -18,18 +18,16 @@
 }
 
 .home section.content .bloque{
-	overflow: hidden;
 	margin-bottom: 15px;
-	width: 272px;
-	position: relative;
+	width: 410px;
 }
 
 .home section.content .bloque img{
-    border-top: none;
-    float: left;
+	border-top: 4px solid #3cb1bb;
+	float: left;
 }
 
-.home section.content a.bloque h2{
+.home section.content .bloque h2{
     background: #292929;
     padding: 5px 12px;
     text-transform: none;
@@ -38,14 +36,6 @@
 	font-weight: normal;
 	font-family: "din-medium";
 	line-height: 38px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin-bottom: 0;
 	text-transform: uppercase;
-}
-
-.home section.content a.bloque:hover h2{
-    background: #da9c18;
+	clear: left;
 }

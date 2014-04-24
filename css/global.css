@@ -330,50 +330,6 @@ body{
 	left: 0;
 }
 
-.expansible-container{
-	height: 320px;
-	overflow: hidden;
-}
-
-a.exp-contraer{
-	display: block;
-	padding-top: 5px;
-	border-top: 1px solid #e0e0e0;
-	margin-top: 5px;
-	font-size: 13px;
-	line-height: 18px;
-	font-family: "din-black";
-	text-transform: uppercase;
-	color: #636363;
-}
-
-a.exp-contraer span{
-	display: inline-block;
-	background: url(./assets/sp-expandible-arrows.png) right -17px no-repeat;
-	padding-right: 20px;
-}
-
-input[type="submit"]{
-	display: block;
-	cursor: pointer;
-	color: #fff;
-	background: #d8d8d8 url("./assets/fd-input-submit.png") 65px 16px no-repeat;
-	height: 40px;
-	text-transform: uppercase;
-	text-align: left;
-	padding: 0 0 0 15px;
-	border: none;
-	-moz-transition: all 0.2s ease-in;
-	-webkit-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-	width: 130px;
-}
-
-input[type="submit"]:hover{
-	background: #0063be url("./assets/fd-input-submit.png") 65px 16px no-repeat;
-}
-
 .content-container{
     margin-top: 35px;
 }
@@ -477,12 +433,12 @@ section.content .bloque p{
 
 section.content-container aside{
     width: 160px;
-    border-top: 3px solid #d99b2d;
+    border-top: 3px solid #3cb1bb;
     padding-top: 10px;
 }
 
 section.content-container aside h2{
-    color: #da9c18;
+    color: #3cb1bb;
     font-family: "din-black";
     font-size: 11px;
     line-height: 18px;
