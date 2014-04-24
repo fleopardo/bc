@@ -25,17 +25,15 @@
 .home section.content .bloque img{
 	border-top: 4px solid #3cb1bb;
 	float: left;
+	margin-bottom: 10px;
 }
 
 .home section.content .bloque h2{
-    background: #292929;
-    padding: 5px 12px;
-    text-transform: none;
-    color: #fff;
-	font-size: 19px;
+    color: #000;
+	font-size: 24px;
 	font-weight: normal;
 	font-family: "din-medium";
-	line-height: 38px;
+	line-height: 28px;
 	text-transform: uppercase;
 	clear: left;
 }
@@ -44,7 +42,7 @@
     font-family: "din-black";
     text-transform: 13px;
     text-transform: uppercase;
-    color: #aeadad;
+    color: #636363;
     display: inline-block;
 }
 
