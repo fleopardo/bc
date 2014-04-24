@@ -320,6 +320,39 @@ body{
     background-color: #0063be;
 }
 
+.breadcrumb-container ul.login{
+    float: right;
+    position: relative;
+}
+
+.breadcrumb-container ul.login .username{
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-right: 30px;
+    background-image: url('') no-repeat right center;
+}
+
+.breadcrumb-container ul.login .username span{
+    color: #0063BD;
+}
+
+.breadcrumb-container .login .submenu-breadcrumb{
+    position: absolute;
+    background: rgba(232,232,232, 0.85);
+    padding: 10px 20px 40px 20px;
+    top: 37px;
+    left: -30px;
+    right: 0;
+    text-align: right;
+}
+
+.breadcrumb-container .login .submenu-breadcrumb a{
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 30px;
+    background-image: url('') no-repeat right center;
+}
+
 #dimmerSubmenu{
 	background: transparent;
 	position: fixed;
