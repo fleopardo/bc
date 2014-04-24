@@ -34,8 +34,61 @@
 	margin-bottom: 20px;
 }
 
-.lubricantes .content th{
+.lubricantes .content article table{
+	width: 100%;
+}
+
+.lubricantes .content article th,
+.lubricantes .content article td{
+	width: 28%;
+	text-align: left;
+}
+
+.lubricantes .content article th{
 	color: #3cb1bb;
 	font-family: "din-medium";
 	text-transform: uppercase;
+}
+
+.lubricantes .content article td{
+	background: url("./assets/flag-light-blue.png") left 15px no-repeat;
+	font-family: "din-medium";
+	font-size: 14px;
+	line-height: 18px;
+	padding: 8px 15px;
+}
+
+.lubricantes .content .prod-dest{
+	margin-top: 30px;
+}
+
+.lubricantes .content .prod-dest h3{
+	background: #3cb1bb;
+	padding: 0 20px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 36px;
+	font-family: "din-medium";
+	margin-bottom: 20px;
+}
+
+.lubricantes .content .prod-dest .prod-container{
+	display: block;
+	text-align: center;
+	width: 140px;
+	padding: 0 20px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.lubricantes .content .prod-dest .prod-container img{
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 8px;
+}
+
+.lubricantes .content .prod-dest .prod-container p{
+	margin-bottom: 4px;
+	text-align: left;
 }
