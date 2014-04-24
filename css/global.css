@@ -139,6 +139,10 @@ h2{
     text-transform: uppercase;
 }
 
+.may{
+    text-transform: uppercase;
+}
+
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #808080;
 }
@@ -351,6 +355,8 @@ section.content h3{
     font-size: 23px;
     line-height: 28px;
     margin-bottom: 12px;
+    font-family: "din-medium";
+    font-weight: normal;
 }
 
 section.content p{
