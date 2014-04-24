@@ -1,0 +1,51 @@
+.productos .destacado {
+	background: url("../images/lubricantes/header.jpg") center top no-repeat;
+}
+
+.productos .content h2{
+	background: url("./assets/flag-light-blue.png") left no-repeat;
+	padding-left: 14px;
+	color: #3cb1bb;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.productos .content h3{
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+
+/* ROWS PRODUCTOS
+****************************************************/
+
+.productos .content .item{
+	border-top: 1px solid #A9A9A9;
+	padding: 10px;
+	padding-left: 270px;
+	position: relative;
+	min-height: 240px;
+}
+
+.productos .content .item h4{
+	font-size: 13px;
+	line-height: 16px;
+	font-family: 'din-medium';
+	color: #222;
+	margin-bottom: 10px;
+}
+
+.productos .content .item p{
+	font-size: 12px;
+	line-height: 16px;
+	font-family: 'din-regular';
+	color: #656565;
+}
+
+.productos .content .item img{
+	padding: 50px;
+	background: #eee;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
