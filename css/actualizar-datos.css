@@ -56,6 +56,11 @@
     width: 138px;
 }
 
+.contenedor-principal .actualizar-datos section.content span.label{
+    width: auto;
+    min-width: 20px;
+}
+
 .contenedor-principal .actualizar-datos section.content-container input[type=text],
 .contenedor-principal .actualizar-datos section.content-container input[type=password]{
 	border: 1px solid #dcdcdc;
