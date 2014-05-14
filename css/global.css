@@ -211,13 +211,22 @@ body{
 }
 
 .breadcrumb-container{
-    background: #292929;
+    background: rgb(232,232,232);
+    background: rgba(232,232,232, 0.85);
     padding-left: 10px;
     position: fixed;
 	top: 55px;
 	left: 0;
 	right: 0;
-	z-index: 9;
+	z-index: 999;
+}
+
+.breadcrumb-container ul.breadcrumb{
+    float: left;
+}
+
+.breadcrumb-container ul.options{
+    float: right;
 }
 
 .breadcrumb-container li{
@@ -226,10 +235,87 @@ body{
 }
 
 .breadcrumb-container li a{
-    color: #fff;
+    color: #5e5e5e;
     display: inline-block;
     line-height: 36px;
     font: 12px/36px arial, Helvetica, Sans-serif;
+}
+
+.breadcrumb-container li.last a{
+	font-family: "din-black";
+	color: #0063be;
+}
+
+.breadcrumb-container ul.options li{
+    position: relative;
+}
+
+.breadcrumb-container ul.options li a{
+    display: inline-block;
+    background: url(./assets/sp-breadcrumb-icons.png) no-repeat;
+    line-height: 15px;
+    padding: 11px 20px 11px 52px;
+    font-family: "din-black";
+
+}
+
+.breadcrumb-container ul.options li a:hover,
+.breadcrumb-container ul.options li a.active{
+    background-color: #ddd;
+}
+
+.breadcrumb-container ul.options li a.news-btn{
+    background-position: 18px 11px;
+}
+
+.breadcrumb-container ul.options li a.mmedia-btn{
+    background-position: 18px -34px;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb{
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    background: #ddd;
+    right: 0;
+    padding: 30px;
+    top: 36px;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb legend{
+    font-size: 13px;
+    color: #5e5e5e;
+    margin-bottom: 15px;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb input[type=text]{
+    width: 247px;
+    background: #fff;
+    padding: 0 10px;
+    height: 25px;
+    margin-bottom: 8px;
+    display: block;
+    border: none;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb input[type=submit]{
+    width: 100%;
+    background: #bfbfbf url(./assets/ic-submit-breadcrumb.png) 156px 15px no-repeat;
+    padding-left: 110px;
+}
+
+.breadcrumb-container ul.options li .submenu-breadcrumb input[type=submit]:hover{
+    background-color: #0063be;
+}
+
+#dimmerSubmenu{
+	background: transparent;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 
 a.link-ppal{
@@ -604,14 +690,16 @@ section.content-container .resultado-busqueda > a:hover{
 
 
 
-
 /*
  * Footer
 */
 
+footer, footer > div{
+	background: #f6f6f6;
+}
+
 footer{
     clear: both;
-    background: #373738;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -622,7 +710,6 @@ footer{
 footer > div{
     width: 1024px;
     margin: 0 auto;
-    background: #373738;
 }
 
 footer > div p,
@@ -644,52 +731,92 @@ footer > div ul.links li{
 }
 
 footer > div p,
-footer > div ul.links li a{
-    color: #ececec;
+footer > div ul.links li a,
+footer > div dl.share dt,
+footer > div dl.share dd a{
+    color: #bcbcbc;
     font-size: 11px;
     font-family: arial, helvetica, sans-serif;
-    line-height: 40px;
+    line-height: 56px;
 }
 
 footer > div ul.links li a:hover{
     text-decoration: underline;
 }
 
-/* Links sociales */
 
-footer .social{
-    float: right;
-    overflow: hidden;
-    margin-top: 10px;
+
+
+
+
+/* NUEVO COMPARTIR */
+
+footer .share{
+	float: right;
 }
 
-footer .social li a{
-    display: block;
-    width: 20px;
-    height: 20px;
-    background: url("./assets/icons-social.png") no-repeat;
-    margin-left: 20px;
+footer .share dt{
+	float: left;
+	margin-right: 15px;
+	color: #bcbcbc;
+    font-size: 11px;
+    font-family: arial, helvetica, sans-serif;
 }
 
-    footer .social li a.compartir{
-        background-position: -6px -2px;
+footer .share dd{
+	float: left;
+}
+
+footer .share dd:last-of-type{
+	border-right: 0px;
+}
+
+footer .share dd a{
+	background: url('./assets/sprite-share.png') top left no-repeat;
+	display: block;
+	width: 40px;
+	text-indent: -9999px;
+}
+
+	footer .share dd a.fb{
+		background-position: 0 top;
+	}
+
+		footer .share dd a.fb:hover{
+			background-position: 0 bottom;
+		}
+
+	footer .share dd a.tw{
+		background-position: -40px top;
+	}
+
+		footer .share dd a.tw:hover{
+			background-position: -40px bottom;
+		}
+
+    footer .share dd a.ln{
+        background-position: -80px top;
     }
 
-    footer .social li a.facebook{
-        background-position: -45px -2px;
-    }
+        footer .share dd a.ln:hover{
+            background-position: -80px bottom;
+        }
 
-    footer .social li a.twitter{
-        background-position: -85px -2px;
-    }
+	footer .share dd a.gplus{
+		background-position: -120px top;
+	}
 
-    footer .social li a.youtube{
-        background-position: -123px 1px;
-    }
+		footer .share dd a.gplus:hover{
+			background-position: -120px bottom;
+		}
 
-    footer .social li a.mail{
-        background-position: -161px -2px;
-    }
+	footer .share dd a.yt{
+		background-position: -160px top;
+	}
+
+		footer .share dd a.yt:hover{
+			background-position: -160px bottom;
+		}
 
 
 
