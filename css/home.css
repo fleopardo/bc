@@ -1,13 +1,18 @@
 /******** HOME *********/
 
-.galeria-bg{
-	background: #f2efeb;
+.galeria-bg {
+    background: #f2efeb;
+    margin-top: -34px;
 }
 
 .galeria-cont{
     position: relative;
+    /*height: 398px;*/
+    /*width: 1200px;*/
     height: 398px;
-    width: 1200px;
+    width: 100%;
+    max-width: 2000px;
+    overflow: hidden;
     margin: 0 auto;
     z-index: 0;
 }

@@ -1,7 +1,7 @@
 /**** PUNTOS DE DIAGNOSTICO ****/
 .contenedor-principal .puntos-diagnostico .destacado{
-    background: url("./assets/destacado-puntos-diagnostico.jpg") center top no-repeat;
-    padding-top: 40px;
+    background: url("./assets/destacados-guia-de-lubricacion.jpg") center top no-repeat;
+    padding-top: 50px;
 }
 
 .contenedor-principal .puntos-diagnostico section.content{

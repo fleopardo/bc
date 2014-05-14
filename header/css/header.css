@@ -82,6 +82,7 @@
 		position: relative;
 		top: 15px;
 		display:inline-block;
+		float: left;
 	}
 
 	.headerYPF > div h2 a{
