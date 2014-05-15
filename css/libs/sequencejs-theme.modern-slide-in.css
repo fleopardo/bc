@@ -234,8 +234,9 @@ activar para usar galeria no full size
 	top: 55px !important;
 	left: auto !important;
 	z-index: 50 !important;
-	min-width: 1024px !important;
-	max-width: 1200px !important;
+	/*min-width: 1024px !important;
+	max-width: 1200px !important;*/
+	width: 1024px;
 	margin: 0 auto !important;
 	height: 152px;
 }
@@ -354,8 +355,9 @@ h2.heading{
 	top: 50px;
 	font-family: "din-regular";
 	font-size: 13px;
-	max-width: 1200px;
-	min-width: 1024px;
+	/*max-width: 1200px;
+	min-width: 1024px;*/
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -368,8 +370,9 @@ h2.heading span{
 
 .content-arrows{
 	position: relative;
-	min-width: 1024px;
-	max-width: 1200px;
+	/*min-width: 1024px;
+	max-width: 1200px;*/
+	width: 1024px;
 	margin: 0 auto;
 }
 
