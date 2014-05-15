@@ -14,12 +14,6 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
 Aside from these comments, you may modify and distribute this file as you please. Have fun!
  */
 
-.galeria-bg{
-	background: #f2efeb;
-	margin-top: -34px;
-	overflow: hidden;
-}
-
 .next,.prev {
 	color: white;
 	cursor: pointer;
