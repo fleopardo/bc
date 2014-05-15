@@ -231,7 +231,7 @@ activar para usar galeria no full size
 	/* Estilos para que el dest quede alineado al layout */
 	position: relative !important;
 	opacity: 0;
-	top: 55px !important;
+	top: 77px !important;
 	left: auto !important;
 	z-index: 50 !important;
 	/*min-width: 1024px !important;
@@ -352,7 +352,7 @@ h2.heading{
 	font-size: 18px;
 	line-height: 24px;
 	/*left: 90px;*/
-	top: 50px;
+	top: 72px;
 	font-family: "din-regular";
 	font-size: 13px;
 	/*max-width: 1200px;
