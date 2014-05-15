@@ -14,7 +14,11 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
 Aside from these comments, you may modify and distribute this file as you please. Have fun!
  */
 
-
+.galeria-bg{
+	background: #f2efeb;
+	margin-top: -34px;
+	overflow: hidden;
+}
 
 .next,.prev {
 	color: white;
@@ -139,7 +143,7 @@ Aside from these comments, you may modify and distribute this file as you please
 
 .dest.animate-in {
 	left: 115px;
-	top: 50px;
+	top: 82px;
 	opacity: 1;
 
 	-webkit-transition-duration: .5s;
@@ -161,20 +165,30 @@ Aside from these comments, you may modify and distribute this file as you please
 }
 
 
+/*
+activar para usar galeria no full size
 .model {
-	/*left: 30%;*/
 	left: 0;
-	/*bottom: -48%;*/
 	bottom: 0;
 	opacity: 0;
-	/*position: relative;*/
 	position: absolute;
 	height: auto!important;
-	max-height: 398px!important;
+	max-height: 435px!important;
 	width: 100%;
-	min-width: 1024px; /*prevents the model from shrinking when the browser is resized*/
+	min-width: 1024px;
 	max-width: 2000px;
 }
+*/
+
+.model {
+	left: 0;
+	bottom: 0;
+	opacity: 0;
+	position: absolute;
+	height: 398px !important;
+	min-width: 1024px; /*prevents the model from shrinking when the browser is resized*/
+}
+
 
 .model.animate-in {
 	left: 0;
@@ -200,15 +214,46 @@ Aside from these comments, you may modify and distribute this file as you please
 
 
 .dest {
-	/*font-size: 3.4em;*/
-	left: 0;
-	top:50px;
-	width: 35%;
+	/*left: 0;
+	top:82px;
+	width: 42%;
+	min-width: 700px;
+	max-width: 800px;
 	opacity: 0;
-	/*bottom: 1%;*/
 	z-index: 50;
+	padding: 0;
+	height: 152px;*/
+
+	/* Estilos para que el dest quede alineado al layout */
+	position: relative !important;
+	opacity: 0;
+	top: 55px !important;
+	left: auto !important;
+	z-index: 50 !important;
+	/*min-width: 1024px !important;
+	max-width: 1200px !important;*/
+	width: 1024px;
+	margin: 0 auto !important;
+	height: 152px;
+}
+
+.dest .cont-desc{
+	position: relative;
+	width: 550px;
 	background: #e65834;
-	padding: 30px 30px 60px 90px;
+	padding: 30px 30px 60px 5px;
+	height: 152px;
+}
+
+.dest .cont-desc:before{
+	content: "";
+	display: block;
+	position: absolute;
+	background: #e65834;
+	top: 0;
+	bottom: 0;
+	left: -1000px;
+	right: 0;
 }
 
 .dest.animate-in{
@@ -246,9 +291,9 @@ Aside from these comments, you may modify and distribute this file as you please
 
 #sequence li .dest h2{
 	font-family: "din-black";
-	font-size: 42px;
-	line-height: 44px;
-	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 35px;
+	text-transform: none;
 	margin-bottom: 10px;
 }
 
@@ -293,32 +338,39 @@ Aside from these comments, you may modify and distribute this file as you please
 	z-index: 5;
 }
 
+
 h2.heading{
-	position: absolute;
+	position: relative;
 	z-index: 60;
-	background: #0063be;
 	color: #fff;
-	padding: 0 16px;
 	font-size: 18px;
 	line-height: 24px;
-	left: 90px;
-	top: 18px;
+	top: 50px;
 	font-family: "din-regular";
 	font-size: 13px;
+	width: 1024px;
+	margin: 0 auto;
 }
 
 h2.heading span{
-	background: url("../assets/flag-white.png") left no-repeat;
+	background: #0063be url("../assets/flag-white.png") 10px center no-repeat;
 	padding-left: 16px;
 	display: inline-block;
+	padding: 0 16px 0 30px;
 }
 
+.content-arrows{
+	position: relative;
+	/*min-width: 1024px;
+	max-width: 1200px;*/
+	width: 1024px;
+	margin: 0 auto;
+}
 
 #arrows{
 	position: absolute;
 	z-index: 60;
-	left: 90px;
-	top: 210px;
+	top: 260px;
 }
 
 #arrows li {
@@ -338,5 +390,5 @@ h2.heading span{
 }
 
 #arrows li a.active {
-	background: #373738;
+	background: #000;
 }
