@@ -473,7 +473,8 @@ section.content .bloque h4{
 
 .destacado{
     min-height: 158px;
-    padding-top: 90px;
+    padding-top: 100px;
+    margin-top: -34px;
 }
 
 .destacado h2,
