@@ -482,11 +482,16 @@ section.content-container aside{
 }
 
 section.content-container aside h2{
+    margin-bottom: 5px;
+}
+
+section.content-container aside h2 a{
     color: #da9c18;
+    margin-bottom: 5px;
     font-family: "din-black";
     font-size: 11px;
     line-height: 18px;
-    margin-bottom: 5px;
+    display: inline-block;
 }
 
 section.content-container aside ul{
