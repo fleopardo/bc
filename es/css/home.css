@@ -64,6 +64,7 @@
 	border: none;
 	padding: none;
 	margin: none;
+	text-transform: none;
 }
 
 .home aside.right-aside section{
@@ -71,7 +72,7 @@
 }
 
 .home aside.right-aside section > div{
-	margin-bottom: 39px;
+	margin-bottom: 25px;
 }
 
 .home aside.right-aside > div p{
@@ -99,6 +100,7 @@
 	line-height: 16px;
 	padding-bottom: 5px;
 	margin-bottom: 5px;
+	text-transform: uppercase;
 }
 
 
