@@ -29,7 +29,8 @@
     float: left;
 }
 
-.home section.content a.bloque h2{
+.home section.content a.bloque h2,
+.home section.content .bloque-texto h2 a{
     background: #292929;
     padding: 5px 12px;
     text-transform: none;
@@ -38,17 +39,46 @@
 	font-weight: normal;
 	font-family: "din-medium";
 	line-height: 38px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	display: block;
+}
+
+.home section.content a.bloque h2{
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin-bottom: 0;
-	text-transform: uppercase;
 }
 
+.home section.content .bloque-texto h2 a:hover,
 .home section.content a.bloque:hover h2{
     background: #da9c18;
 }
+
+.home section.content .bloque .texto{
+	background: #efefef;
+	padding: 30px 20px;
+	height: 148px;
+	overflow: hidden;
+}
+
+.home .bloque li{
+	padding: 6px 0;
+	border-bottom: 1px solid #ccc;
+	font-size: 12px;
+}
+
+.home .bloque li:last-child{
+	border-bottom: none;
+}
+
+.home .bloque a.descargar{
+	background: url("./assets/_ic_pdf_transparent.png") right 0 no-repeat;
+	display: block;
+	padding-right: 25px;
+}
+
 
 
 /* ASIDE RIGHT */
