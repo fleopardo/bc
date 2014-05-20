@@ -98,11 +98,16 @@
 }
 
 .home aside.right-aside section{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	padding:8px 15px;
+	color: #fff;
+	font-family: "din-light";
+	font-size: 12px;
+	line-height: 15px;
 }
 
 .home aside.right-aside section > div{
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 }
 
 .home aside.right-aside > div p{
@@ -119,10 +124,9 @@
 }
 
 .home aside.right-aside h3{
-	
 	line-height: 25px;
 	padding-bottom: 8px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .home aside.right-aside h4{
@@ -136,12 +140,7 @@
 
 
 .home .ypf-en-bolsa{
-	padding: 15px;
 	background: #2dafd9;
-	color: #fff;
-	font-family: "din-light";
-	font-size: 12px;
-	line-height: 15px;
 }
 
 .home .ypf-en-bolsa h3{
@@ -183,26 +182,14 @@
 }
 
 .home .widget-presentaciones{
-	padding: 15px;
+	margin-bottom: 0;
 	background: #0063be;
-	color: #fff;
-	font-family: "din-light";
-	font-size: 12px;
-	line-height: 15px;
 }
 
 .home .widget-presentaciones h3{
 	border-bottom: 1px solid #5597d2;
 	font-size: 16px;
 }
-
-
-
-
-
-
-
-
 
 
 /* SECCION NOTICIAS */
