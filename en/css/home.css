@@ -2,14 +2,14 @@
 
 .galeria-bg{
 	background: #f2efeb;
-	margin-top: -34px;
+	margin-top: -56px;
 }
 
 .galeria-cont{
     position: relative;
     /*height: 398px;*/
     /*width: 1200px;*/
-    height: 398px;
+    height: 435px;
     width: 100%;
     max-width: 2000px;
     overflow: hidden;

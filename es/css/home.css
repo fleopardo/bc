@@ -2,14 +2,14 @@
 
 .galeria-bg{
 	background: #f2efeb;
-	margin-top: -34px;
+	margin-top: -56px;
 }
 
 .galeria-cont{
     position: relative;
     /*height: 398px;*/
     /*width: 1200px;*/
-    height: 398px;
+    height: 435px;
     width: 100%;
     max-width: 2000px;
     overflow: hidden;
@@ -52,6 +52,57 @@
 
 
 /* ASIDE RIGHT */
+.home aside.right-aside h3,
+.home aside.right-aside h4,
+.home aside.right-aside th,
+.home aside.right-aside strong{
+	font-family: "din-medium";
+	font-weight: normal;
+}
+
+.home aside.right-aside h4.no-border{
+	border: none;
+	padding: none;
+	margin: none;
+}
+
+.home aside.right-aside section{
+	margin-bottom: 20px;
+}
+
+.home aside.right-aside section > div{
+	margin-bottom: 39px;
+}
+
+.home aside.right-aside > div p{
+	font-size: 10px;
+	line-height: 13px;
+}
+
+.home aside.right-aside a{
+	color: #fff;
+}
+
+.home aside.right-aside a:hover{
+	color: #3a3939;
+}
+
+.home aside.right-aside h3{
+	font-size: 19px;
+	line-height: 25px;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+}
+
+.home aside.right-aside h4{
+	font-size: 13px;
+	line-height: 16px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+
 
 .home .ypf-en-bolsa{
 	padding: 15px;
@@ -62,46 +113,12 @@
 	line-height: 15px;
 }
 
-.home .ypf-en-bolsa > div{
-	margin-bottom: 39px;
-}
-
-.home .ypf-en-bolsa > div p{
-	font-size: 10px;
-	line-height: 13px;
-}
-
-.home .ypf-en-bolsa a{
-	color: #fff;
-}
-
-.home .ypf-en-bolsa a:hover{
-	color: #3a3939;
-}
-
-.home .ypf-en-bolsa h3,
-.home .ypf-en-bolsa h4,
-.home .ypf-en-bolsa th,
-.home .ypf-en-bolsa strong{
-	font-family: "din-medium";
-	font-weight: normal;
-}
-
 .home .ypf-en-bolsa h3{
-	font-size: 20px;
-	line-height: 25px;
 	border-bottom: 1px solid #96d7ec;
-	padding-bottom: 8px;
-	margin-bottom: 20px;
 }
 
 .home .ypf-en-bolsa h4{
 	border-bottom: 1px solid #96d7ec;
-	font-size: 13px;
-	line-height: 16px;
-	padding-bottom: 5px;
-	margin-bottom: 5px;
-	text-transform: uppercase;
 }
 
 .home .ypf-en-bolsa table th,
@@ -119,11 +136,6 @@
 	margin-top: 8px;
 }
 
-.home .ypf-en-bolsa h4.no-border{
-	border: none;
-	padding: none;
-	margin: none;
-}
 
 .home .ypf-en-bolsa .descargar{
 	text-transform: uppercase;
@@ -137,6 +149,27 @@
 .home .ypf-en-bolsa .descargar:hover{
 	color: #3a3939;
 }
+
+.home .widget-presentaciones{
+	padding: 15px;
+	background: #0063be;
+	color: #fff;
+	font-family: "din-light";
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.home .widget-presentaciones h3{
+	border-bottom: 1px solid #5597d2;
+}
+
+
+
+
+
+
+
+
 
 
 /* SECCION NOTICIAS */
