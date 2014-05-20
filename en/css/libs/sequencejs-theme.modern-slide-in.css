@@ -226,8 +226,7 @@ activar para usar galeria no full size
 	top: 77px !important;
 	left: auto !important;
 	z-index: 50 !important;
-	min-width: 1024px !important;
-	max-width: 1200px !important;
+	width: 1024px !important;
 	margin: 0 auto !important;
 	height: 152px;
 }
@@ -236,11 +235,11 @@ activar para usar galeria no full size
 	position: relative;
 	width: 550px;
 	background: #da9c18;
-	padding: 30px 30px 60px 5px;
+	padding: 30px 30px 60px 30px;
 	height: 152px;
 }
 
-.dest .cont-desc:before{
+/*.dest .cont-desc:before{
 	content: "";
 	display: block;
 	position: absolute;
@@ -249,7 +248,7 @@ activar para usar galeria no full size
 	bottom: 0;
 	left: -1000px;
 	right: 0;
-}
+}*/
 
 .dest.animate-in{
 	left: 0;
@@ -346,8 +345,7 @@ h2.heading{
 	top: 72px;
 	font-family: "din-regular";
 	font-size: 13px;
-	max-width: 1200px;
-	min-width: 1024px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -360,8 +358,7 @@ h2.heading span{
 
 .content-arrows{
 	position: relative;
-	min-width: 1024px;
-	max-width: 1200px;
+	width: 962px;
 	margin: 0 auto;
 }
 
