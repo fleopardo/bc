@@ -88,7 +88,7 @@
 }
 
 .home aside.right-aside h3{
-	font-size: 19px;
+	
 	line-height: 25px;
 	padding-bottom: 8px;
 	margin-bottom: 20px;
@@ -115,6 +115,7 @@
 
 .home .ypf-en-bolsa h3{
 	border-bottom: 1px solid #96d7ec;
+	font-size: 19px;
 }
 
 .home .ypf-en-bolsa h4{
@@ -161,6 +162,7 @@
 
 .home .widget-presentaciones h3{
 	border-bottom: 1px solid #5597d2;
+	font-size: 16px;
 }
 
 
