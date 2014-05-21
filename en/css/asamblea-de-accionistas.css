@@ -14,9 +14,12 @@
 	font-size: 30px;
 	line-height: 34px;
 	text-transform: uppercase;
-	border-bottom: 1px solid #ececec;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	padding-bottom: 12px;
+}
+
+.asamblea-de-accionistas .content h3 + p{
+	margin-bottom: 25px;
 }
 
 .asamblea-de-accionistas .content h4{
