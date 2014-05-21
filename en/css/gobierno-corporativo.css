@@ -1,6 +1,5 @@
 .gobierno-corporativo .destacado {
 	background: url("../images/gobierno-corporativo/header.jpg") center top no-repeat;
-	padding-top: 108px;
 }
 
 .gobierno-corporativo .bloque{
@@ -14,4 +13,45 @@
 
 .gobierno-corporativo .bloque:hover h2{
 	color: #0063be;
+}
+
+.gobierno-corporativo .content .informe-anual{
+	background: #f2f1f1;
+	margin-bottom: 25px;
+}
+
+.gobierno-corporativo .content .informe-anual h3{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "din-medium";
+	margin-bottom: 5px;
+	padding: 10px;
+	color: #9d9c9c;
+}
+
+.gobierno-corporativo .informe-anual > div,
+.gobierno-corporativo .informe-anual ul{
+	padding: 0 10px 5px;
+}
+
+.gobierno-corporativo .content article p{
+	margin-bottom: 15px;
+}
+
+.gobierno-corporativo .informe-anual ul{
+	margin-top: 20px;
+}
+
+.gobierno-corporativo .informe-anual li{
+	padding: 8px 10px;
+	border-top: 1px solid #fff;
+}
+
+.gobierno-corporativo .informe-anual li a{
+	font-family: "din-medium";
+	font-size: 13px;
+	line-height: 20px;
+	display: inline-block;
+	background: url(./assets/ic_pdf_transparent.png) left top no-repeat;
+	padding-left: 25px;
 }

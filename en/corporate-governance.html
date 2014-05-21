@@ -14,6 +14,7 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.ui.selectmenu.css" />
 	<link rel="stylesheet" type="text/css" href="css/gobierno-corporativo.css" />
 
 </head>
@@ -176,7 +177,7 @@
 							<li><a href="./board-of-directors.html" title="Board of Directors">Board of Directors</a></li>
 							<li><a href="./supervisory-committee.html" title="Supervisory Committee">Supervisory Committee</a></li>
 							<li><a href="./auditing-committee.html" title="Auditing Committee">Auditing Committee</a></li>
-							
+
 							<li><a href="./capital-stock.html" title="Capital Stock">Capital Stock</a></li>
 
 						</ul>
@@ -239,19 +240,40 @@
 
 				<div class="clearfix">
 
-					<a href="./external-auditors.html" class="bloque left">
-						<div class="">
-							<img src="./images/gobierno-corporativo/auditores-externos.jpg" width="412" height="97">
-							<h2>External auditors</h2>
-						</div>
-					</a>
-
-					<a href="./capital-stock.html" class="bloque right">
+					<a href="./capital-stock.html" class="bloque left">
 						<div class="">
 							<img src="./images/gobierno-corporativo/capital-subscripto.jpg" width="412" height="97">
 							<h2>Capital stock</h2>
 						</div>
 					</a>
+
+					<article class="right informe-anual">
+						<h3>Annual report</h3>
+						<div>
+							<form action="" method="">
+								<fieldset>
+									<select class="select-informe-anual">
+										<option data-year="2012">2012</option>
+										<option data-year="2010">2010</option>
+										<option data-year="2009">2009</option>
+										<option data-year="2008">2008</option>
+									</select>
+								</fieldset>
+							</form>
+						</div>
+						<ul class="docs docs-informe-anual" data-year="2012">
+							<li><a href="http://www.ypf.com/InversoresAccionistas/InfoEconomicoFinanciera/Informe%20Anual/Informe%20anual%202012.pdf" title="" target="_blank">Annual report 2012</a></li>
+						</ul>
+						<ul class="docs docs-informe-anual DN" data-year="2010">
+							<li><a href="http://www.ypf.com/InversoresAccionistas/InfoEconomicoFinanciera/Informe%20Anual/Informe_Anual_2010.pdf" title="" target="_blank">Annual report 2010</a></li>
+						</ul>
+						<ul class="docs docs-informe-anual DN" data-year="2009">
+							<li><a href="http://www.ypf.com/InversoresAccionistas/InfoEconomicoFinanciera/Informe%20Anual/Informe_anual_2009.pdf" title="" target="_blank">Annual report 2009</a></li>
+						</ul>
+						<ul class="docs docs-informe-anual DN" data-year="2008">
+							<li><a href="http://www.ypf.com/InversoresAccionistas/InfoEconomicoFinanciera/Informe%20Anual/informe_anual_2008.pdf" title="" target="_blank">Annual report 2008</a></li>
+						</ul>
+					</article>
 
 				</div>
 
@@ -293,13 +315,17 @@
 
 		<!-- Incluir JQUERY -->
 		<script src="./jquery/jquery.min.js"></script>
+		<script src="./jquery/jquery-ui-1.8.12.custom.min.js"></script>
 
 		<!-- Incluir header.js para tener las funcionalidades del menu -->
 		<script src="./header/js/header.js"></script>
 
+		<script src="./jquery/jquery.ui.selectmenu.js"></script>
+
 		<script src="./jquery/jquery.placeholder.js"></script>
 
-<script src="./js/global.js"></script>
+		<script src="./js/global.js"></script>
+		<script src="./js/informacion-financiera.js"></script>
 
 	</div>
 
