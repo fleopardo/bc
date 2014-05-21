@@ -15,6 +15,10 @@
 	width: 392px;
 }
 
+.informacion-financiera .content .estados-contables{
+	height: 422px;
+}
+
 .informacion-financiera .content .bloque h3{
 	font-size: 18px;
 	line-height: 22px;
