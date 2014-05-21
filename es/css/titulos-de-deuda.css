@@ -71,11 +71,11 @@
 }
 
 .titulos-de-deuda .content tr.headerColapsible.closed .last{
-	background: url(./assets/sp-expandible-arrows-orange-close.png) 190px 14px no-repeat;
+	background: url(./assets/sp-expandible-arrows-orange-close.png) 75px 14px no-repeat;
 }
 
 .titulos-de-deuda .content tr.headerColapsible.opened .last{
-	background: url(./assets/sp-expandible-arrows-orange-open.png) 190px 14px no-repeat;
+	background: url(./assets/sp-expandible-arrows-orange-open.png) 75px 14px no-repeat;
 }
 
 .titulos-de-deuda a.descargar{
