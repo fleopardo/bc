@@ -10,7 +10,7 @@
 
 .tabs li{
     display: inline-block;
-    width: 120px;
+    width: 88px;
     padding: 15px;
     background: #f2f1f1;
     color: #a7a7a7;
@@ -53,7 +53,7 @@
     position: relative;
     line-height: 40px;
     font-size: 15px;
-    background: url('./assets/ic_tit_accordeon.png') no-repeat 10px center;
+    background: url('../images/informacion-financiera/ic-colapsable-cuatrimestre.png') no-repeat 10px center;
     padding-left: 40px;
 }
 
@@ -101,4 +101,3 @@
     text-transform: uppercase;
     color: #fff;
 }
-
