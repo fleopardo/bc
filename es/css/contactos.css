@@ -10,6 +10,30 @@
 	text-transform: none;
 }
 
+.contactos .contactForm .row{
+	margin-bottom: 8px;
+}
+
+.contactos .contactForm input[type="text"]{
+	border: 3px solid #e7e7e7;
+	padding: 0 5px;
+	width: 330px;
+	height: 20px;
+}
+
+.contactos .contactForm input[type="submit"]{
+	background: #d8d8d8;
+	text-align: center;
+	padding: 0;
+	font-size: 12px;
+	height: 35px;
+	margin: 25px 0;
+}
+
+.contactos .contactForm input[type="submit"]:hover{
+	background: #0063be;
+}
+
 .contactos .contact-info{
 	background: #f6f6f6;
 	padding: 20px;
