@@ -5,7 +5,7 @@
 .rating-crediticio .content h2{
 	font-size: 18px;
 	line-height: 22px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 20px;
 }
 
@@ -25,17 +25,35 @@
 	padding-bottom: 10px;
 }
 
-.rating-crediticio .content table{
-	width: 100%;
-	margin-bottom: 20px;
+.rating-crediticio .content h2.table-title{
+	color: #fff;
+	background: #cdcccc;
+	line-height: 35px;
+	font-size: 16px;
+	padding: 0 10px;
+	margin-bottom: 3px;
 }
 
-.rating-crediticio .content thead{
-	border-top: 1px solid #dadada;
+.rating-crediticio .content table{
+	width: 100%;
+}
+
+.rating-crediticio .content table.double-header{
+	margin-bottom: 50px;
+}
+
+.rating-crediticio .content table.table-info{
+	margin-bottom: 30px;
+}
+
+.rating-crediticio .content table.table-info thead{
+	background: #e1e1e1;
+	color: #6d6d6d;
+	font-size: 16px;
 }
 
 .rating-crediticio .content th{
-	text-align: left;
+	text-align: center;
 	padding: 5px 10px;
 }
 
@@ -81,13 +99,34 @@
 
 .rating-crediticio .content table.double-header td{
 	background: #e6e5e5;
-	padding-left: 90px;
 	border-bottom: 1px solid #fff;
+	text-align: center;
+}
+
+.rating-crediticio .content table.table-info td{
+	text-align: left;
+	border-bottom: 1px solid #ccc;
+}
+
+.rating-crediticio .content table.table-info td.col1{
+	padding-left: 54px;
+}
+
+.rating-crediticio .content table.table-info td.col2{
+	padding-left: 68px;
+}
+
+.rating-crediticio .content table.table-info td.col3{
+	padding-left: 100px;
+}
+
+.rating-crediticio .content table.table-info td.col4{
+	padding-left: 80px;
 }
 
 .rating-crediticio .content .ref-tables{
 	overflow: hidden;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .rating-crediticio .content .ref-tables li{
