@@ -43,6 +43,23 @@
 	vertical-align: middle;
 }
 
+.dividendos .content tr.noColapsible,
+.dividendos .content tr.headerColapsible{
+	background: #ececec;
+}
+
+.dividendos .content tr.headerColapsible{
+	cursor: pointer;
+}
+
+.dividendos .content tr.headerColapsible.closed .last{
+	background: url(./assets/sp-expandible-arrows-orange-close.png) 250px 14px no-repeat;
+}
+
+.dividendos .content tr.headerColapsible.opened .last{
+	background: url(./assets/sp-expandible-arrows-orange-open.png) 250px 14px no-repeat;
+}
+
 .dividendos .content td{
 	border-bottom: 1px solid #e0e0e0;
 	width: 30%;
