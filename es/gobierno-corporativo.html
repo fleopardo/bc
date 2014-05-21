@@ -14,6 +14,7 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.ui.selectmenu.css" />
 	<link rel="stylesheet" type="text/css" href="css/gobierno-corporativo.css" />
 
 </head>
@@ -437,7 +438,7 @@
 							<li><a href="./miembros-del-directorio.html" title="Miembros del directorio">Miembros del directorio</a></li>
 							<li><a href="./comision-fiscalizadora.html" title="Comisión fiscalizadora">Comisión fiscalizadora</a></li>
 							<li><a href="./comite-de-auditoria.html" title="Comité de auditoría">Comité de auditoría</a></li>
-							
+
 							<li><a href="./capital-subscripto.html" title="Capital subscripto">Capital subscripto</a></li>
 							<li><a href="./asamblea-de-accionistas.html" title="Asamblea de accionistas">Asamblea de accionistas</a></li>
 						</ul>
@@ -516,6 +517,34 @@
 
 				</div>
 
+				<article class="informe-anual">
+					<h3>Informe anual</h3>
+					<div>
+						<form action="" method="">
+							<fieldset>
+								<select class="select-informe-anual">
+									<option data-year="2012">2012</option>
+									<option data-year="2010">2010</option>
+									<option data-year="2009">2009</option>
+									<option data-year="2008">2008</option>
+								</select>
+							</fieldset>
+						</form>
+					</div>
+					<ul class="docs docs-informe-anual" data-year="2012">
+						<li><a href="http://www.ypf.com/InversoresAccionistas/InfoEconomicoFinanciera/Informe%20Anual/Informe%20anual%202012.pdf" title="" target="_blank">Informe anual 2012</a></li>
+					</ul>
+					<ul class="docs docs-informe-anual DN" data-year="2010">
+						<li><a href="http://www.ypf.com/InversoresAccionistas/InfoEconomicoFinanciera/Informe%20Anual/Informe_Anual_2010.pdf" title="" target="_blank">Informe anual 2010</a></li>
+					</ul>
+					<ul class="docs docs-informe-anual DN" data-year="2009">
+						<li><a href="http://www.ypf.com/InversoresAccionistas/InfoEconomicoFinanciera/Informe%20Anual/Informe_anual_2009.pdf" title="" target="_blank">Informe anual 2009</a></li>
+					</ul>
+					<ul class="docs docs-informe-anual DN" data-year="2008">
+						<li><a href="http://www.ypf.com/InversoresAccionistas/InfoEconomicoFinanciera/Informe%20Anual/informe_anual_2008.pdf" title="" target="_blank">Informe anual 2008</a></li>
+					</ul>
+				</article>
+
 			</section>
 
 		</section>
@@ -544,7 +573,7 @@
 
 					<dd><a href="https://www.youtube.com/user/YPFnuestraenergia" class="yt">youTube</a></dd>
 
-					
+
 				</dl>
 			</div>
 		</footer>
@@ -554,13 +583,17 @@
 
 		<!-- Incluir JQUERY -->
 		<script src="./jquery/jquery.min.js"></script>
+		<script src="./jquery/jquery-ui-1.8.12.custom.min.js"></script>
 
 		<!-- Incluir header.js para tener las funcionalidades del menu -->
 		<script src="./header/js/header.js"></script>
 
+		<script src="./jquery/jquery.ui.selectmenu.js"></script>
+
 		<script src="./jquery/jquery.placeholder.js"></script>
 
-<script src="./js/global.js"></script>
+		<script src="./js/global.js"></script>
+		<script src="./js/informacion-financiera.js"></script>
 
 	</div>
 
