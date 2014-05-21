@@ -1,10 +1,9 @@
 .kit-para-inversores .destacado {
 	background: url("../images/kit-para-inversores/header.jpg") center top no-repeat;
-	padding-top: 126px;
 }
 
 .kit-para-inversores .destacado p{
-	padding-bottom: 14px;
+	padding-bottom: 50px;
 }
 
 .kit-para-inversores .content h2 span{
@@ -13,10 +12,24 @@
 
 .kit-para-inversores .descargar{
 	display: block;
-	background: #f0f0f0 url("./assets/fd-link-ppal.png") 95px center no-repeat;
+	background-color: #f0f0f0;
 	line-height: 40px;
 	color: #808080;
 	font-size: 13px;
+	padding: 0 10px;
+	margin-bottom: 2px;
+}
+
+.kit-para-inversores .descargar .name{
+	display: inline-block;
+}
+
+.kit-para-inversores .descargar .action{
+	display: inline-block;
+	float: right;
+	background-image: url("./assets/fd-link-ppal.png");
+	background-position: left center;
+	background-repeat: no-repeat;
 	padding-left: 10px;
 	text-transform: uppercase;
 }
