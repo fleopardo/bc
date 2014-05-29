@@ -156,7 +156,7 @@
 			if( expandibleCont.hasClass('expanded') ){
 
 				expandibleCont.removeClass('expanded');
-				$("span",$(this)).html('Cargar más');
+				$("span",$(this)).html('Load less');
 				$("span",$(this)).css('background-position', 'right -17px');
 				expandibleCont.animate({
 					height: expandibleCont.data('css-height')
@@ -167,7 +167,7 @@
 					height: expCont100.height()
 				});
 				expandibleCont.addClass('expanded');
-				$("span", $(this)).html('Cargar menos');
+				$("span", $(this)).html('Load less');
 				$("span",$(this)).css('background-position', 'right 4px');
 				//$(this).find('span').css('background-position', 'right 4px');
 			}
@@ -176,6 +176,36 @@
 
 	}
 
+
+	// menu lateral colapsible
+
+	var aside = $('aside.left'),
+	linksExpandables;
+
+	if (aside) {
+		linksExpandables = $('aside.left > ul > li > a');
+		$.each(linksExpandables, function (i,e) {
+			if ($(e).next().length > 0) {
+				$(e).addClass('expandable closed');
+			}
+		});
+
+		aside.on('click', '.expandable', function (event) {
+			var $trigger = $(event.target),
+				$submenu = $trigger.next();
+
+			// si esta abierto, se cierra..
+			if ($submenu.is(":visible")) {
+				$trigger.addClass('closed');
+				$trigger.removeClass('opened');
+			}else{
+				$trigger.removeClass('closed');
+				$trigger.addClass('opened');
+			}
+			$submenu.slideToggle();
+			event.preventDefault();
+		});
+	}
 
 	//Funcion equalHeight
 	ypf.equalHeight = function(element){

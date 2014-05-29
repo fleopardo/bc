@@ -507,6 +507,29 @@ section.content-container aside li a{
     line-height: 16px;
     color: #808080;
     display: block;
+    position: relative;
+}
+
+section.content-container aside li a.expandable:after{
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    width: 0;
+    height: 0;
+    display: block;
+}
+
+section.content-container aside li a.expandable.opened:after{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #333;
+}
+
+section.content-container aside li a.expandable.closed:after{
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
 }
 
 section.content-container aside li > a{
@@ -525,6 +548,7 @@ section.content-container aside li.active > a{
 section.content-container aside li > ul{
     margin-bottom: 0;
     margin-top: 5px;
+    display: none;
 }
 
 section.content-container aside li > ul li a{
