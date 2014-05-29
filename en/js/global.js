@@ -183,10 +183,25 @@
 	linksExpandables;
 
 	if (aside) {
+		// listado de links que pueden ser expandibles
 		linksExpandables = $('aside.left > ul > li > a');
+
+		// Los recorro para ver cual tiene submenu y le agrego clases
 		$.each(linksExpandables, function (i,e) {
-			if ($(e).next().length > 0) {
-				$(e).addClass('expandable closed');
+			var $link = $(e),
+				$submenu = $link.next();
+
+			if ($submenu.length > 0) {
+				$link.addClass('expandable');
+
+				// Si el link activo esta en un submenu lo muestro abierto
+				if ($submenu.find('.active').length > 0) {
+					$link.addClass('opened');
+					$submenu.slideToggle();
+				}else{
+					$link.addClass('closed');
+				}
+
 			}
 		});
 
