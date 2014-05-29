@@ -19,6 +19,8 @@
 	padding: 0 5px;
 	width: 330px;
 	height: 20px;
+	color: #666;
+	font-family: "din-regular";
 }
 
 .contactos .contactForm input[type="submit"]{
