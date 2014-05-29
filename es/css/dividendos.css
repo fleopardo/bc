@@ -18,6 +18,12 @@
 	padding-bottom: 10px;
 }
 
+.dividendos .content .filtro-anos{
+	background: #f2f1f1;
+	margin-bottom: 30px;
+}
+
+
 .dividendos .content table{
 	width: 100%;
 }
