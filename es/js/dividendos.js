@@ -14,3 +14,18 @@
 	    	});
 
 	});
+
+
+
+ 	/*
+	 * Variables
+	*/
+	var selectInformeAnual = $(".select-informe-anual");
+
+	/* Selects */
+
+ 	selectInformeAnual.on("change", function(event){
+ 		$('tr[data-year]').hide();
+        $("tr[data-year=" + $(this).find('option:selected').data('year') + "]").show();
+
+ 	});
