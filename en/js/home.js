@@ -9,22 +9,22 @@
 		 	if($scrollCustom.length > 0){
 
 		 		var width = 100 ;
-		 		var height = 0;
+		 		// var height = 0;
 
 		 		$scrollCustom.find("article").each(function(){
 
 		 			width = width + $(this).width();
 
-		 			if( $(this).height() > height ){
-		 			
-		 				height = $(this).outerHeight();
-		 			
-		 			}
+		 			// if( $(this).height() > height ){
+
+		 			// 	height = $(this).outerHeight();
+
+		 			// }
 
 		 		});
 
 		 		$scrollCustom.find("div").css("width",width);
-		 		$scrollCustom.find("div").css("height",height);
+		 		// $scrollCustom.find("div").css("height",height);
 
 
 				$scrollCustom.jScrollPane({
