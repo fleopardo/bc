@@ -72,12 +72,6 @@
 	border-right: none;
 }
 
-.rating-crediticio .content td img{
-	position: absolute;
-	left: 30px;
-	top: 15px;
-}
-
 .rating-crediticio .content table.double-header thead{
 	border: 1px solid #dadada;
 }
@@ -110,34 +104,18 @@
 
 .rating-crediticio .content table.table-info td.col1{
 	padding-left: 54px;
+	width: 145px;
 }
 
 .rating-crediticio .content table.table-info td.col2{
-	padding-left: 68px;
+	padding-left: 38px;
+	width: 130px;
 }
 
-.rating-crediticio .content table.table-info td.col3{
-	padding-left: 100px;
-}
-
+.rating-crediticio .content table.table-info td.col3,
 .rating-crediticio .content table.table-info td.col4{
-	padding-left: 80px;
-}
-
-.rating-crediticio .content .ref-tables{
-	overflow: hidden;
-	margin-bottom: 50px;
-}
-
-.rating-crediticio .content .ref-tables li{
-	float: left;
-	margin-right: 40px;
-}
-
-.rating-crediticio .content .ref-tables li img{
-	margin-right: 10px;
-	position: relative;
-	top: -2px;
+	padding-left: 20px;
+	width: 230px;
 }
 
 .rating-crediticio .content article{
