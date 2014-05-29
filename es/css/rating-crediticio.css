@@ -110,18 +110,18 @@
 
 .rating-crediticio .content table.table-info td.col1{
 	padding-left: 54px;
+	width: 145px;
 }
 
 .rating-crediticio .content table.table-info td.col2{
-	padding-left: 68px;
+	padding-left: 38px;
+	width: 130px;
 }
 
-.rating-crediticio .content table.table-info td.col3{
-	padding-left: 100px;
-}
-
+.rating-crediticio .content table.table-info td.col3,
 .rating-crediticio .content table.table-info td.col4{
-	padding-left: 80px;
+	padding-left: 20px;
+	width: 230px;
 }
 
 .rating-crediticio .content .ref-tables{

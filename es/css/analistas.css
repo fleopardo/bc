@@ -43,5 +43,20 @@
 
 .analistas .content td{
 	border-bottom: 1px solid #e0e0e0;
-	width: 30%;
+}
+
+.analistas .content .col1{
+	width: 255px;
+}
+
+.analistas .content .col2{
+	width: 170px;
+}
+
+.analistas .content .col3{
+	width: 150px;
+}
+
+.analistas .content .col4{
+	width: ;
 }
