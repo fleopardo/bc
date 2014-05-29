@@ -37,7 +37,7 @@ body {
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section {
-	display:block;
+    display:block;
 }
 
 nav ul {
@@ -60,7 +60,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
-	text-decoration:none;
+    text-decoration:none;
 }
 
 /* change colours to suit your needs */
@@ -110,11 +110,11 @@ input, select {
 li{list-style:none;}
 
 strong{
-	font-weight:bold;
+    font-weight:bold;
 }
 
 select{
-	width: 160px;
+    width: 160px;
 }
 
 /*CLEARFIX*/
@@ -153,58 +153,58 @@ h2{
 }
 
 a{
-	color: #808080;
+    color: #808080;
 }
 
 a:hover{
-	color: #3a3939;
+    color: #3a3939;
 }
 
 /*
  * Fonts
 */
 @font-face {
-	font-family: "din-regular";
-	src: url("../fonts/din-regular.eot");
-	src: local("?"),
-	url("../fonts/din-regular.woff") format("woff"),
-	url("../fonts/din-regular.ttf") format("truetype"),
-	url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
-	font-weight: normal;
-  	font-style: normal;
+    font-family: "din-regular";
+    src: url("../fonts/din-regular.eot");
+    src: local("?"),
+    url("../fonts/din-regular.woff") format("woff"),
+    url("../fonts/din-regular.ttf") format("truetype"),
+    url("../fonts/din-regular.svg#blaimim_-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: "din-light";
-	src: url("../fonts/din-light.eot");
-	src: local("?"),
-	url("../fonts/din-light.woff") format("woff"),
-	url("../fonts/din-light.ttf") format("truetype"),
-	url("../fonts/din-light.svg#blaimim_-webfont") format("svg");
-	font-weight: normal;
-  	font-style: normal;
+    font-family: "din-light";
+    src: url("../fonts/din-light.eot");
+    src: local("?"),
+    url("../fonts/din-light.woff") format("woff"),
+    url("../fonts/din-light.ttf") format("truetype"),
+    url("../fonts/din-light.svg#blaimim_-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: "din-medium";
-	src: url("../fonts/din-medium.eot");
-	src: local("?"),
-	url("../fonts/din-medium.woff") format("woff"),
-	url("../fonts/din-medium.ttf") format("truetype"),
-	url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
-	font-weight: normal;
-  	font-style: normal;
+    font-family: "din-medium";
+    src: url("../fonts/din-medium.eot");
+    src: local("?"),
+    url("../fonts/din-medium.woff") format("woff"),
+    url("../fonts/din-medium.ttf") format("truetype"),
+    url("../fonts/din-medium.svg#blaimim_-webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: "din-black";
-	src: url("../fonts/din-black.eot");
-	src: local("?"),
-	url("../fonts/din-black.woff") format("woff"),
-	url("../fonts/din-black.ttf") format("truetype"),
-	url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
-	/*font-weight: normal;*/
-  	font-style: normal;
+    font-family: "din-black";
+    src: url("../fonts/din-black.eot");
+    src: local("?"),
+    url("../fonts/din-black.woff") format("woff"),
+    url("../fonts/din-black.ttf") format("truetype"),
+    url("../fonts/din-black.svg#blaimim_-webfont") format("svg");
+    /*font-weight: normal;*/
+    font-style: normal;
 }
 
 
@@ -227,10 +227,10 @@ body{
     background: rgba(232,232,232, 0.85);
     padding-left: 10px;
     position: fixed;
-	top: 55px;
-	left: 0;
-	right: 0;
-	z-index: 999;
+    top: 55px;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
 
 .breadcrumb-container ul.breadcrumb{
@@ -254,8 +254,8 @@ body{
 }
 
 .breadcrumb-container li.last a{
-	font-family: "din-black";
-	color: #0063be;
+    font-family: "din-black";
+    color: #0063be;
 }
 
 .breadcrumb-container ul.options li{
@@ -321,57 +321,57 @@ body{
 }
 
 #dimmerSubmenu{
-	background: transparent;
-	position: fixed;
-	z-index: 1000;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
+    background: transparent;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .expansible-container{
-	height: 320px;
-	overflow: hidden;
+    height: 320px;
+    overflow: hidden;
 }
 
 a.exp-contraer{
-	display: block;
-	padding-top: 5px;
-	border-top: 1px solid #e0e0e0;
-	margin-top: 5px;
-	font-size: 13px;
-	line-height: 18px;
-	font-family: "din-black";
-	text-transform: uppercase;
-	color: #636363;
+    display: block;
+    padding-top: 5px;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "din-black";
+    text-transform: uppercase;
+    color: #636363;
 }
 
 a.exp-contraer span{
-	display: inline-block;
-	background: url(./assets/sp-expandible-arrows.png) right -17px no-repeat;
-	padding-right: 20px;
+    display: inline-block;
+    background: url(./assets/sp-expandible-arrows.png) right -17px no-repeat;
+    padding-right: 20px;
 }
 
 input[type="submit"]{
-	display: block;
-	cursor: pointer;
-	color: #fff;
-	background: #d8d8d8 url("./assets/fd-input-submit.png") 65px 16px no-repeat;
-	height: 40px;
-	text-transform: uppercase;
-	text-align: left;
-	padding: 0 0 0 15px;
-	border: none;
-	-moz-transition: all 0.2s ease-in;
-	-webkit-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-	width: 130px;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    background: #d8d8d8 url("./assets/fd-input-submit.png") 65px 16px no-repeat;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0 0 0 15px;
+    border: none;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    width: 130px;
 }
 
 input[type="submit"]:hover{
-	background: #0063be url("./assets/fd-input-submit.png") 65px 16px no-repeat;
+    background: #0063be url("./assets/fd-input-submit.png") 65px 16px no-repeat;
 }
 
 .content-container{
@@ -514,27 +514,16 @@ section.content-container aside li a{
 section.content-container aside li a.expandable:after{
     content: '';
     position: absolute;
-    right: 5px;
-    top: 5px;
-    width: 0;
-    height: 0;
+    right: 0px;
+    top: 1px;
+    width: 12px;
+    height: 11px;
     display: block;
-}
-
-section.content-container aside li a.expandable.opened:after{
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid #333;
-}
-
-section.content-container aside li a.expandable.closed:after{
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #333;
+    background: url('./assets/submenu-arrow.png') no-repeat;
 }
 
 section.content-container aside li > a{
-	font-family: "din-black";
+    font-family: "din-black";
 }
 
 section.content-container aside li > a:hover,
@@ -583,7 +572,7 @@ section.content-container aside.right-aside{
 */
 
 footer, footer > div{
-	background: #f6f6f6;
+    background: #f6f6f6;
 }
 
 footer{
@@ -640,47 +629,47 @@ footer > div ul.links li a:hover{
 /* NUEVO COMPARTIR */
 
 footer .share{
-	float: right;
+    float: right;
 }
 
 footer .share dt{
-	float: left;
-	margin-right: 15px;
-	color: #bcbcbc;
+    float: left;
+    margin-right: 15px;
+    color: #bcbcbc;
     font-size: 11px;
     font-family: arial, helvetica, sans-serif;
 }
 
 footer .share dd{
-	float: left;
+    float: left;
 }
 
 footer .share dd:last-of-type{
-	border-right: 0px;
+    border-right: 0px;
 }
 
 footer .share dd a{
-	background: url('./assets/sprite-share.png') top left no-repeat;
-	display: block;
-	width: 40px;
-	text-indent: -9999px;
+    background: url('./assets/sprite-share.png') top left no-repeat;
+    display: block;
+    width: 40px;
+    text-indent: -9999px;
 }
 
-	footer .share dd a.fb{
-		background-position: 0 top;
-	}
+    footer .share dd a.fb{
+        background-position: 0 top;
+    }
 
-		footer .share dd a.fb:hover{
-			background-position: 0 bottom;
-		}
+        footer .share dd a.fb:hover{
+            background-position: 0 bottom;
+        }
 
-	footer .share dd a.tw{
-		background-position: -40px top;
-	}
+    footer .share dd a.tw{
+        background-position: -40px top;
+    }
 
-		footer .share dd a.tw:hover{
-			background-position: -40px bottom;
-		}
+        footer .share dd a.tw:hover{
+            background-position: -40px bottom;
+        }
 
     footer .share dd a.ln{
         background-position: -80px top;
@@ -690,21 +679,21 @@ footer .share dd a{
             background-position: -80px bottom;
         }
 
-	footer .share dd a.gplus{
-		background-position: -120px top;
-	}
+    footer .share dd a.gplus{
+        background-position: -120px top;
+    }
 
-		footer .share dd a.gplus:hover{
-			background-position: -120px bottom;
-		}
+        footer .share dd a.gplus:hover{
+            background-position: -120px bottom;
+        }
 
-	footer .share dd a.yt{
-		background-position: -160px top;
-	}
+    footer .share dd a.yt{
+        background-position: -160px top;
+    }
 
-		footer .share dd a.yt:hover{
-			background-position: -160px bottom;
-		}
+        footer .share dd a.yt:hover{
+            background-position: -160px bottom;
+        }
 
 
 

@@ -25,7 +25,12 @@
 	/* Selects */
 
  	selectInformeAnual.on("change", function(event){
- 		$('tr[data-year]').hide();
-        $("tr[data-year=" + $(this).find('option:selected').data('year') + "]").show();
+ 		var option = $(this).find('option:selected').data('year');
 
+ 		if (option === 'all'){
+ 			$('tr[data-year]').show();
+ 		}else{
+ 			$('tr[data-year]').hide();
+        	$("tr[data-year=" + option + "]").show();
+ 		}
  	});

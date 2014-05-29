@@ -514,23 +514,12 @@ section.content-container aside li a{
 section.content-container aside li a.expandable:after{
     content: '';
     position: absolute;
-    right: 5px;
-    top: 5px;
-    width: 0;
-    height: 0;
+    right: 0px;
+    top: 1px;
+    width: 12px;
+    height: 11px;
     display: block;
-}
-
-section.content-container aside li a.expandable.opened:after{
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid #333;
-}
-
-section.content-container aside li a.expandable.closed:after{
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #333;
+    background: url('./assets/submenu-arrow.png') no-repeat;
 }
 
 section.content-container aside li > a{
