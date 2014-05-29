@@ -1,0 +1,43 @@
+.estados-contables .destacado {
+	background: url("../images/estados-contables/header.jpg") center top no-repeat;
+}
+
+.estados-contables .content .informe-anual{
+	background: #f2f1f1;
+}
+
+.estados-contables .content .informe-anual h3{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "din-medium";
+	margin-bottom: 5px;
+	padding: 10px;
+	color: #9d9c9c;
+}
+
+.estados-contables .informe-anual > div,
+.estados-contables .informe-anual ul{
+	padding: 0 10px 10px;
+}
+
+.estados-contables .content article p{
+	margin-bottom: 15px;
+}
+
+.estados-contables .informe-anual ul{
+	margin-top: 20px;
+}
+
+.estados-contables .informe-anual li{
+	padding: 8px 10px;
+	border-top: 1px solid #fff;
+}
+
+.estados-contables .informe-anual li a{
+	font-family: "din-medium";
+	font-size: 13px;
+	line-height: 20px;
+	display: inline-block;
+	background: url(./assets/ic_pdf_transparent.png) left top no-repeat;
+	padding-left: 25px;
+}
