@@ -19,7 +19,7 @@
 
 .home section.content .bloque{
 	overflow: hidden;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	width: 272px;
 	position: relative;
 }
@@ -123,10 +123,10 @@
 }
 
 .home aside.right-aside h3{
-	
-	line-height: 25px;
-	padding-bottom: 8px;
-	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 18px;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
 }
 
 .home aside.right-aside h4{
@@ -148,7 +148,6 @@
 
 .home .ypf-en-bolsa h3{
 	border-bottom: 1px solid #96d7ec;
-	font-size: 19px;
 }
 
 .home .ypf-en-bolsa h4{
@@ -189,7 +188,6 @@
 
 .home .widget-presentaciones h3{
 	border-bottom: 1px solid #5597d2;
-	font-size: 16px;
 }
 
 
