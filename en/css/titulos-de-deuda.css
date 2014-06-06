@@ -57,6 +57,11 @@
 	width: 200px;
 }
 
+.titulos-de-deuda .content td.col6,
+.titulos-de-deuda .content th.col6{
+	min-width: 120px;
+}
+
 .titulos-de-deuda .content tr{
 	background: #f5f5f5;
 }
@@ -71,11 +76,11 @@
 }
 
 .titulos-de-deuda .content tr.headerColapsible.closed .last{
-	background: url(./assets/sp-expandible-arrows-orange-close.png) 75px 14px no-repeat;
+	background: url(./assets/sp-expandible-arrows-orange-close.png) 110px 14px no-repeat;
 }
 
 .titulos-de-deuda .content tr.headerColapsible.opened .last{
-	background: url(./assets/sp-expandible-arrows-orange-open.png) 75px 14px no-repeat;
+	background: url(./assets/sp-expandible-arrows-orange-open.png) 110px 14px no-repeat;
 }
 
 .titulos-de-deuda a.descargar{

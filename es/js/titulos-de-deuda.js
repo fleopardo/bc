@@ -1,21 +1,15 @@
+$('.headerColapsible').click(function(){
+	if ( $(this).hasClass('opened') ) {
+		$(this).removeClass('opened');
+		$(this).addClass('closed');
 
-	$('.headerColapsible').click(function(){
-		if ( $(this).hasClass('opened') ) {
-			$(this).removeClass('opened');
-			$(this).addClass('closed');
+	} else if ($(this).hasClass('closed')){
+		$(this).removeClass('closed');
+		$(this).addClass('opened');
+	}
 
-		} else if ($(this).hasClass('closed')){
-			$(this).removeClass('closed');
-			$(this).addClass('opened');
-		}
+	$(this).nextUntil('tr.anchor').slideToggle(100, function(){
 
-		$(this).nextUntil('tr.anchor').slideToggle(100, function(){
+    });
 
-	    	});
-
-	});
-
-
-
-
-
+});
