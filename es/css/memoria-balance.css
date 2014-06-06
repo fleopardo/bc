@@ -1,0 +1,57 @@
+.memoria-balance .destacado {
+	background: url("../images/memoria-balance/header.jpg") center top no-repeat;
+}
+
+.memoria-balance .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.memoria-balance .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.memoria-balance .content .informe-anual{
+	background: #f2f1f1;
+}
+
+.memoria-balance .content .informe-anual h3{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: "din-medium";
+	margin-bottom: 5px;
+	padding: 10px;
+	color: #9d9c9c;
+}
+
+.memoria-balance .informe-anual > div,
+.memoria-balance .informe-anual ul{
+	padding: 0 10px 10px;
+}
+
+.memoria-balance .content article p{
+	margin-bottom: 15px;
+}
+
+.memoria-balance .informe-anual ul{
+	margin-top: 20px;
+}
+
+.memoria-balance .informe-anual li{
+	padding: 8px 10px;
+	border-top: 1px solid #fff;
+}
+
+.memoria-balance .informe-anual li a{
+	font-family: "din-medium";
+	font-size: 13px;
+	line-height: 20px;
+	display: inline-block;
+	background: url(./assets/ic_pdf_transparent.png) left top no-repeat;
+	padding-left: 25px;
+}
