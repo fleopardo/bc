@@ -1,78 +1,78 @@
 .informacion-financiera .destacado {
-	background: url("../images/informacion-financiera/header.jpg") center top no-repeat;
+    background: url("../images/informacion-financiera/header.jpg") center top no-repeat;
 }
 
 .informacion-financiera .bloques-container{
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .informacion-financiera .content .bloque{
-	background: #f2f1f1;
-	margin-bottom: 25px;
+    background: #f2f1f1;
+    margin-bottom: 25px;
 }
 
-.informacion-financiera .content .bloques-container .bloque{
-	width: 392px;
+.informacion-financiera .content .left{
+    width: 100%;
 }
 
 .informacion-financiera .content .estados-contables{
-	height: 422px;
+    height: 422px;
 }
 
 .informacion-financiera .content .bloque h3{
-	font-size: 18px;
-	line-height: 22px;
-	font-family: "din-black";
-	margin-bottom: 25px;
-	color: #fff;
-	padding: 4px 10px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "din-black";
+    margin-bottom: 25px;
+    color: #fff;
+    padding: 4px 10px;
 }
 
 .informacion-financiera .content .form20f h3{
-	background: #09bdee;
+    background: #09bdee;
 }
 
 .informacion-financiera .content .informe-anual h3{
-	background: #02aedc;
+    background: #02aedc;
 }
 
 .informacion-financiera .content .estados-contables h3{
-	background: #0291dd;
+    background: #0291dd;
 }
 
 .informacion-financiera .content .nota-analista h3{
-	background: #0273ff;
+    background: #0273ff;
 }
 
 .informacion-financiera .content .presentaciones h3{
-	background: #0063be;
+    background: #0063be;
 }
 
 .informacion-financiera .bloque > div,
 .informacion-financiera .bloque ul{
-	padding: 0 10px 10px;
+    padding: 0 10px 10px;
 }
 
 .informacion-financiera .content article p{
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .informacion-financiera .bloque ul{
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .informacion-financiera .bloque li{
-	padding: 8px 10px;
-	border-top: 1px solid #fff;
+    padding: 8px 10px;
+    border-top: 1px solid #fff;
 }
 
 .informacion-financiera .bloque li a{
-	font-family: "din-medium";
-	font-size: 13px;
-	line-height: 20px;
-	display: inline-block;
-	background: url(./assets/ic_pdf_transparent.png) left top no-repeat;
-	padding-left: 25px;
+    font-family: "din-medium";
+    font-size: 13px;
+    line-height: 20px;
+    display: inline-block;
+    background: url(./assets/ic_pdf_transparent.png) left top no-repeat;
+    padding-left: 25px;
 }
 
 

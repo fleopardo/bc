@@ -11,8 +11,8 @@
 	margin-bottom: 25px;
 }
 
-.informacion-financiera .content .bloques-container .bloque{
-	width: 392px;
+.informacion-financiera .content .left{
+    width: 100%;
 }
 
 .informacion-financiera .content .estados-contables{

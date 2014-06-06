@@ -14,6 +14,10 @@
 	margin-bottom: 8px;
 }
 
+.contactos .contactForm label{
+	display: block;
+}
+
 .contactos .contactForm input[type="text"]{
 	border: 3px solid #e7e7e7;
 	padding: 0 5px;
