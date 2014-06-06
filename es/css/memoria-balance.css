@@ -1,12 +1,12 @@
-.estados-contables .destacado {
-	background: url("../images/estados-contables/header.jpg") center top no-repeat;
+.memoria-balance .destacado {
+	background: url("../images/memoria-balance/header.jpg") center top no-repeat;
 }
 
-.estados-contables .content .informe-anual{
+.memoria-balance .content .informe-anual{
 	background: #f2f1f1;
 }
 
-.estados-contables .content .informe-anual h3{
+.memoria-balance .content .informe-anual h3{
 	font-size: 18px;
 	line-height: 22px;
 	font-family: "din-medium";
@@ -15,25 +15,25 @@
 	color: #9d9c9c;
 }
 
-.estados-contables .informe-anual > div,
-.estados-contables .informe-anual ul{
+.memoria-balance .informe-anual > div,
+.memoria-balance .informe-anual ul{
 	padding: 0 10px 10px;
 }
 
-.estados-contables .content article p{
+.memoria-balance .content article p{
 	margin-bottom: 15px;
 }
 
-.estados-contables .informe-anual ul{
+.memoria-balance .informe-anual ul{
 	margin-top: 20px;
 }
 
-.estados-contables .informe-anual li{
+.memoria-balance .informe-anual li{
 	padding: 8px 10px;
 	border-top: 1px solid #fff;
 }
 
-.estados-contables .informe-anual li a{
+.memoria-balance .informe-anual li a{
 	font-family: "din-medium";
 	font-size: 13px;
 	line-height: 20px;
