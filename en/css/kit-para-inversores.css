@@ -20,6 +20,10 @@
 	margin-bottom: 2px;
 }
 
+.kit-para-inversores .descargar.descargar-rar{
+	background: #f0f0f0 url("./assets/fd-link-ppal.png") 80px center no-repeat;
+}
+
 .kit-para-inversores .descargar .name{
 	display: inline-block;
 }
