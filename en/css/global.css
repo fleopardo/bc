@@ -522,6 +522,14 @@ section.content-container aside li a.expandable:after{
     background: url('./assets/submenu-arrow.png') no-repeat;
 }
 
+    section.content-container aside li a.expandable.opened:after{
+        background-position: top left;
+    }
+
+    section.content-container aside li a.expandable.closed:after{
+        background-position: bottom left;
+    }
+
 section.content-container aside li > a{
     font-family: "din-black";
 }
