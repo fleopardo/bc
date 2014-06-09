@@ -14,13 +14,12 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/libs/jquery.ui.selectmenu.css" />
-	<link rel="stylesheet" type="text/css" href="css/calculadora.css" />
+	<link rel="stylesheet" type="text/css" href="css/titulos-de-deuda.css" />
 
 </head>
 <body>
 	<div id="contenedor-principal" class="contenedor-principal">
-	<div class="calculadora">
+	<div class="titulos-de-deuda emisiones-internacionales">
 
 		<header class="headerYPF">
 		   <div class="clearfix">
@@ -157,8 +156,8 @@
 		<div class="destacado">
 			<div class="layout">
 				<h2>Investor center</h2>
-				<h3>Calculadora</h3>
-				<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</p>
+				<h3>Outstanding <span>bonds</span></h3>
+				<p>YPF SA Corporate Bonds</p>
 			</div>
 		</div>
 
@@ -167,8 +166,9 @@
 			<aside class="left">
 				<h2><a href="./" title="home">INVESTOR CENTER</a></h2>
 				<ul>
-
-					<li class="first"><a href="./estrategic-plan.html" title="Estrategic plan">Estrategic plan</a></li>
+					<li><a href="./financial-information.html" title="Economic - Financial information">Economic - Financial information</a></li>
+					<li><a href="./relevant-facts.html" title="Relevant facts">Relevant facts</a></li>
+					<li><a href="./presentations.html" title="Presentations">Presentations</a></li>
 					<li>
 						<a href="./corporate-governance.html" title="Corporate governance">Corporate governance</a>
 						<ul>
@@ -182,26 +182,24 @@
 
 						</ul>
 					</li>
-					<li><a href="./financial-information.html" title="Economic - Financial information">Economic - Financial information</a></li>
-					<li><a href="./kit.html" title="Kit">Kit</a></li>
-					<li><a href="./relevant-facts.html" title="Relevant facts">Relevant facts</a></li>
 					<li>
 						<a href="./ypf-on-the-stock-market.html" title="YPF on the stock market">YPF on the stock market</a>
 						<ul>
 							<li><a href="./stock-quote.html" title="Stock quote">Stock quote</a></li>
 							<li><a href="./dividends.html" title="Dividends">Dividends</a></li>
 							<li><a href="./analyst.html" title="Analyst">Analyst</a></li>
-							<!--li class="active"><a href="./calculadora.html" title="Calculadora">Calculadora</a></li-->
+							<li><a href="./bienes-personales.html" title="Bienes personales">Bienes personales</a></li>
 						</ul>
 					</li>
 					<li>
 						<a href="#" title="Outstanding bonds">Outstanding bonds</a>
 						<ul>
-							<li><a href="./emisiones-internacionales.html" title="Emisiones internacionales">Emisiones Internacionales</a></li>
+							<li class="active"><a href="./emisiones-internacionales.html" title="Emisiones internacionales">Emisiones Internacionales</a></li>
 							<li><a href="./emisiones-locales.html" title="Emisiones locales">Emisiones locales</a></li>
 						</ul>
 					</li>
 					<li><a href="./credit-ratings.html" title="Credit Ratings">Credit Ratings</a></li>
+					<li><a href="./kit.html" title="Kit">Kit</a></li>
 					<li><a href="./calendar.html" title="Calendar">Calendar</a></li>
 					<li><a href="./faq.html" title="FAQ">FAQ</a></li>
 					<li><a href="./ir-contacts.html" title="IR Contacts">IR Contacts</a></li>
@@ -209,124 +207,75 @@
 			</aside>
 
 			<section class="content right">
-				<h3>Calculadora de inversores</h3>
-
-				<form>
-					<fieldset>
-						<legend>Seleccionar período</legend>
-						<div class="left">
-							<p><label for="">Desde</label></p>
-							<select class="ano">
-								<option>2013</option>
-								<option>2014</option>
-							</select>
-							<select class="mes">
-								<option>enero</option>
-								<option>febrero</option>
-							</select>
-							<select class="dia">
-								<option>1</option>
-								<option>2</option>
-							</select>
-						</div>
-						<div class="right">
-							<p><label for="">hasta</label></p>
-							<select class="ano">
-								<option>2013</option>
-								<option>2014</option>
-							</select>
-							<select class="mes">
-								<option>enero</option>
-								<option>febrero</option>
-							</select>
-							<select class="dia">
-								<option>1</option>
-								<option>2</option>
-							</select>
-						</div>
-					</fieldset>
-					<fieldset class="radios-container">
-						<div class="left">
-							<input type="checkbox" checked="checked" id="calcular-dividendos">
-							<label for="calcular-dividendos">Calcular inversion de dividendos</label>
-						</div>
-						<div class="right">
-							<input type="radio" id="nyse" name="nyse">
-							<label for="nyse">NYSE</label>
-							<input type="radio" id="bcba" name="nyse">
-							<label for="bcba">BCBA</label>
-						</div>
-					</fieldset>
-					<fieldset class="input-text">
-						<div class="left">
-							<label for="amount-invested">Amount invested</label>
-							<input type="text" id="amount-invested" placeholder="1000">
-						</div>
-						<div class="right">
-							<label for="number-shares">Number of shares bought</label>
-							<input type="text" id="number-shares" placeholder="50">
-						</div>
-					</fieldset>
-					<fieldset>
-						<input type="submit" value="Calcular">
-					</fieldset>
-				</form>
-
-
-				<table class="step-one">
+				<table>
 					<thead>
 						<tr>
-							<th class="col1">Valor actual de las acciones</th>
-							<th class="col2">Valor actual con reinversión de dividendos</th>
-							<th class="col3">Variación porcentual del precio de la acción</th>
-							<th class="col4">Retorno anualizado</th>
-							<th class="col5">Retorno total con inversión de dividendos</th>
-							<th class="col6">Retorno total anualizado</th>
-							<th class="col7 last">Período de tenencia</th>
+							<th class="col1">Bond</th>
+							<th class="col2">Issue Date</th>
+							<th class="col3">Maturity</th>
+							<th class="col4">Total Amount Issued</th>
+							<th class="col5">Market</th>
+							<th class="col6 last">Status</th>
 						</tr>
 					</thead>
 					<tbody>
+
+						<tr class="anchor noColapsible">
+							<td class="col1">Clase XXVIII</td>
+							<td class="col2">23/12/2013</td>
+							<td class="col3">23/12/2014</td>
+							<td class="col4">AR$ 150.000.000</td>
+							<td class="col5">BCBA y MAE</td>
+							<td class="col6 last">Vigente</td>
+						</tr>
+
+
+						<tr class="anchor headerColapsible opened">
+							<td class="col1">Clase XXVI</td>
+							<td class="col2">18/12/2013</td>
+							<td class="col3">18/12/2018</td>
+							<td class="col4">US$500.000.000</td>
+							<td class="col5">BCBA y MAE</td>
+							<td class="col6 last">Vigente</td>
+						</tr>
 						<tr>
-							<td class="col1">-</td>
-							<td class="col2">-</td>
-							<td class="col3">-</td>
-							<td class="col4">-</td>
-							<td class="col5">-</td>
-							<td class="col6">-</td>
-							<td class="col6 last">-</td>
+							<td class="col1" colspan="5">Aviso de resultado ON Clase XXVI</td>
+							<td class="col6 last">
+								<a href="http://edicion.grupo.ypf.com/InversoresAccionistas/Documents/Aviso%20de%20Resultados%20ON%20Clase%20XXVI.pdf" title="" target="_blank" class="descargar">Descargar</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="col1" colspan="5">Aviso de suscripcion ON Clase XXVI</td>
+							<td class="col6 last">
+								<a href="http://edicion.grupo.ypf.com/InversoresAccionistas/Documents/Aviso%20de%20Suscripci%C3%B3n%20ON%20Clase%20XXVI.pdf" title="" target="_blank" class="descargar">Descargar</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="col1" colspan="5">Suplemento de Precio On Clase XXVI</td>
+							<td class="col6 last">
+								<a href="http://edicion.grupo.ypf.com/InversoresAccionistas/Documents/Suplemento%20de%20Precio%20ON%20Clase%20XXVI.pdf" title="" target="_blank" class="descargar">Descargar</a>
+							</td>
+						</tr>
+
+						<tr class="anchor noColapsible">
+							<td class="col1">Clase XXIV</td>
+							<td class="col2">03/10/2013</td>
+							<td class="col3">15/08/2018</td>
+							<td class="col4">U$S 150.000.000</td>
+							<td class="col5">BCBA</td>
+							<td class="col6 last">Vigente</td>
+						</tr>
+
+						<tr class="noColapsible">
+							<td class="col1">YPF 10%</td>
+							<td class="col2">11/10/1998</td>
+							<td class="col3">02/11/2028</td>
+							<td class="col4">US$ 100.000.000</td>
+							<td class="col5">NYSE</td>
+							<td class="col6 last">Vigente</td>
 						</tr>
 
 					</tbody>
-				</table>
-
-				<table class="step-two">
-					<thead>
-						<tr>
-							<th class="col1">Valor actual de las acciones</th>
-							<th class="col2">Valor actual con reinversión de dividendos</th>
-							<th class="col3">Variación porcentual del precio de la acción</th>
-							<th class="col4">Retorno anualizado</th>
-							<th class="col5">Retorno total con inversión de dividendos</th>
-							<th class="col6">Retorno total anualizado</th>
-							<th class="col7 last">Período de tenencia</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="col1">38 841.60</td>
-							<td class="col2">63 877.86</td>
-							<td class="col3">94.78 %</td>
-							<td class="col4">5.61 %-</td>
-							<td class="col5">220.33 %</td>
-							<td class="col6">10.00 %</td>
-							<td class="col6 last">12 years,<br>2 months<br>and 15 days</td>
-						</tr>
-
-					</tbody>
-				</table>
-
-				<img src="./images/calculadora/im-grafico.jpg" width="609" height="330" class="grafico">
-
 			</section>
 
 		</section>
@@ -365,15 +314,16 @@
 
 		<!-- Incluir JQUERY -->
 		<script src="./jquery/jquery.min.js"></script>
-		<script src="./jquery/jquery-ui-1.8.12.custom.min.js"></script>
 
 		<!-- Incluir header.js para tener las funcionalidades del menu -->
 		<script src="./header/js/header.js"></script>
+		<!-- Incluir jquery.placeholder.js para tener las funcionalidades del placeholder -->
 
-		<script src="./jquery/jquery.ui.selectmenu.js"></script>
+
 		<script src="./jquery/jquery.placeholder.js"></script>
 
-		<script src="./js/global.js"></script>
+<script src="./js/global.js"></script>
+		<script src="./js/titulos-de-deuda.js"></script>
 
 	</div>
 

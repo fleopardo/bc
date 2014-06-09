@@ -1,0 +1,62 @@
+.bienes-personales .destacado {
+	background: url("../images/bienes-personales/header.jpg") center top no-repeat;
+}
+
+.bienes-personales .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.bienes-personales .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
+.bienes-personales .content table{
+	width: 100%;
+}
+
+.bienes-personales .content thead{
+	background: #f3f3f3;
+	border: 1px solid #dadada;
+}
+
+.bienes-personales .content th{
+	text-align: left;
+	border-right: 1px solid #dadada;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	color: #292929;
+	font-family: "din-black";
+	font-size: 11px;
+}
+
+.bienes-personales .content td,
+.bienes-personales .content th{
+	padding: 10px;
+	vertical-align: middle;
+}
+
+.bienes-personales .content td{
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.bienes-personales .content .col1{
+	width: 255px;
+}
+
+.bienes-personales .content .col2{
+	width: 170px;
+}
+
+.bienes-personales .content .col3{
+	width: 150px;
+}
+
+.bienes-personales .content .col4{
+	width: ;
+}
