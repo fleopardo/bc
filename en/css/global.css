@@ -523,11 +523,11 @@ section.content-container aside li a.expandable:after{
 }
 
     section.content-container aside li a.expandable.opened:after{
-        background-position: top left;
+        background-position: bottom left;
     }
 
     section.content-container aside li a.expandable.closed:after{
-        background-position: bottom left;
+        background-position: top left;
     }
 
 section.content-container aside li > a{
