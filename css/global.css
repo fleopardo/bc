@@ -1002,7 +1002,27 @@ section.content-container aside li a{
     color: #808080;
     display: block;
     padding-left: 5px;
+    position: relative;
 }
+
+section.content-container aside li a.expandable:after{
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 1px;
+    width: 12px;
+    height: 11px;
+    display: block;
+    background: url('./assets/submenu-arrow.png') no-repeat;
+}
+
+    section.content-container aside li a.expandable.opened:after{
+        background-position: bottom left;
+    }
+
+    section.content-container aside li a.expandable.closed:after{
+        background-position: top left;
+    }
 
 section.content-container aside li > a:hover,
 section.content-container aside li.active > a{
@@ -1022,6 +1042,7 @@ section.content-container aside li.first > a{
 section.content-container aside li > ul{
     margin-bottom: 0;
     margin-top: 5px;
+    display: none;
 }
 
 section.content-container aside li > ul li a{

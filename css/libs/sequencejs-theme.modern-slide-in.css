@@ -235,19 +235,8 @@ activar para usar galeria no full size
 	position: relative;
 	width: 550px;
 	background: #e65834;
-	padding: 30px 30px 60px 5px;
+	padding: 30px 30px 60px 30px;
 	height: 152px;
-}
-
-.dest .cont-desc:before{
-	content: "";
-	display: block;
-	position: absolute;
-	background: #e65834;
-	top: 0;
-	bottom: 0;
-	left: -1000px;
-	right: 0;
 }
 
 .dest.animate-in{
@@ -357,7 +346,7 @@ h2.heading span{
 	position: relative;
 	/*min-width: 1024px;
 	max-width: 1200px;*/
-	width: 1024px;
+	width: 962px;
 	margin: 0 auto;
 }
 
