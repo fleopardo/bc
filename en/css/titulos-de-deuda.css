@@ -1,8 +1,8 @@
-.titulos-de-deuda .destacado.emisiones-internacionales {
+.titulos-de-deuda.emisiones-internacionales .destacado {
 	background: url("../images/titulos-de-deuda/header-emisiones-int.jpg") center top no-repeat;
 }
 
-.titulos-de-deuda .destacado.emisiones-locales {
+.titulos-de-deuda.emisiones-locales .destacado {
 	background: url("../images/titulos-de-deuda/header-emisiones-local.jpg") center top no-repeat;
 }
 
