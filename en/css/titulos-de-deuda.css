@@ -6,6 +6,20 @@
 	background: url("../images/titulos-de-deuda/header-emisiones-local.jpg") center top no-repeat;
 }
 
+.titulos-de-deuda .content h2{
+	background: url("./assets/flag-orange.png") left no-repeat;
+	padding-left: 14px;
+	color: #d99b2d;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.titulos-de-deuda .content h3{
+	font-size: 30px;
+	line-height: 34px;
+	text-transform: uppercase;
+}
+
 .titulos-de-deuda .content thead{
 	background: #f3f3f3;
 	border: 1px solid #dadada;
