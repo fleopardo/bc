@@ -1,53 +1,12 @@
-(function () {
-		/*
-	 * Variables
-	*/
-	var $acordeon = $(".acordeon-container .titulo"),
-	    $tabs = $(".tabs li");
+;(function(){
 
+ 	var select = $(".select-year");
 
-	if( $acordeon.length > 0){
+ 	select.on("change", function(event){
 
-	        $acordeon.each(function(){
+ 		$(".docs").hide();
+        $(".docs[data-year=" + $(this).find('option:selected').data('year') + "]").show();
 
-	                var that = $(this);
+ 	});
 
-	                that.bind("click",function(){
-
-	                        if( that.find(".acordeon").hasClass("open") ){
-
-	                                that.find(".acordeon").removeClass("open");
-
-	                                that.next().slideUp();
-
-	                        }else{
-
-	                                that.find(".acordeon").addClass("open");
-
-	                                that.next().slideDown();
-
-	                        }
-
-	                });
-
-	        });
-
-	}
-
-
-	if( $tabs.length > 0 ){
-
-	    $tabs.on("click", function(){
-
-	        $tabs.removeClass("active");
-	        $(this).addClass("active");
-	        $(".acordeon-container").hide();
-	        $(".acordeon-container[data-year='" + $(this).data("year") + "']").show();
-
-	    });
-
-	}
 })();
-
-
-
