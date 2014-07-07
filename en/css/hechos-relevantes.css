@@ -1,10 +1,44 @@
 .hechos-relevantes .destacado {
 	background: url("../images/hechos-relevantes/header.jpg") center top no-repeat;
-    padding-top: 106px;
 }
 
 
 /* TABS */
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 770px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+/** Carousel Controls **/
+.jcarousel-prev,
+.jcarousel-next {
+    width: 10px;
+    height: 19px;
+    position: absolute;
+    top: 13px;
+    background: url("./assets/icons-carousel.png") top left no-repeat;
+}
+
+.jcarousel-prev {
+    left: 13px;
+    background-position: 0px 0px;
+}
+
+.jcarousel-next {
+    right: 13px;
+    background-position: -10px 0;
+}
+
+.jcarousel-prev-disabled,
+.jcarousel-next-disabled {
+    opacity: .3;
+    cursor: default;
+}
+
 .tabs{
     margin-bottom: 1px
 }
