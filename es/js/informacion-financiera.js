@@ -1,11 +1,6 @@
 
 ;(function(){
 
- 	ypf.equalHeight($('.bloques-container.top .bloque > div'));
- 	ypf.equalHeight($('.bloques-container.top .bloque'));
- 	ypf.equalHeight($('.bloques-container.bottom .bloque > div'));
- 	ypf.equalHeight($('.bloques-container.bottom .bloque'));
-
  	/*
 	 * Variables
 	*/
@@ -73,5 +68,7 @@
         $(".docs-informe-anual[data-year=" + $(this).find('option:selected').data('year') + "]").show();
 
  	});
+
+ 	$('.jcarousel').jcarousel();
 
 })();
