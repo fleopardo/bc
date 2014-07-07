@@ -90,19 +90,21 @@
 /** Carousel Controls **/
 .jcarousel-prev,
 .jcarousel-next {
-    background: red;
-    width: 40px;
-    height: 48px;
+    width: 10px;
+    height: 19px;
     position: absolute;
-    top: 0;
+    top: 13px;
+    background: url("./assets/icons-carousel.png") top left no-repeat;
 }
 
 .jcarousel-prev {
-    left: 0;
+    left: 13px;
+    background-position: 0px 0px;
 }
 
 .jcarousel-next {
-    right: 0;
+    right: 13px;
+    background-position: -10px 0;
 }
 
 .jcarousel-prev-disabled,
