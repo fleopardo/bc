@@ -82,30 +82,43 @@
 .jcarousel {
     position: relative;
     overflow: hidden;
-    width: 770px;
+    width: 788px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 31px;
+}
+
+.jcarousel-clip {
+    overflow: hidden;
 }
 
 /** Carousel Controls **/
 .jcarousel-prev,
 .jcarousel-next {
-    width: 10px;
-    height: 19px;
+    width: 31px;
+    height: 37px;
     position: absolute;
-    top: 13px;
+    top: 0;
     background: url("./assets/icons-carousel.png") top left no-repeat;
+    cursor: pointer;
 }
 
 .jcarousel-prev {
-    left: 13px;
+    left: 0;
     background-position: 0px 0px;
 }
 
 .jcarousel-next {
-    right: 13px;
-    background-position: -10px 0;
+    right: 0;
+    background-position: -33px 0;
 }
+
+    .jcarousel-prev:hover {
+        background-position: 0px -37px;
+    }
+
+    .jcarousel-next:hover {
+        background-position: -33px -37px;
+    }
 
 .jcarousel-prev-disabled,
 .jcarousel-next-disabled {
@@ -113,7 +126,13 @@
     cursor: default;
 }
 
+    .jcarousel-prev-disabled:hover{
+        background-position: 0px 0px;
+    }
 
+    .jcarousel-next-disabled:hover {
+        background-position: -33px 0;
+    }
 
 .tabs{
     margin-bottom: 1px
@@ -121,12 +140,13 @@
 
 .tabs li{
     display: inline-block;
-    width: 80px;
-    padding: 15px;
+    width: 120px;
+    padding: 9px 15px;
     background: #f2f1f1;
     color: #a7a7a7;
     font-size: 17px;
     cursor: pointer;
+    margin-right: 2px;
 }
 
 .tabs li.active,
