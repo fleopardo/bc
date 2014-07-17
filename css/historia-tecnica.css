@@ -1,0 +1,20 @@
+/* Adhesion */
+.contenedor-principal .historia-tecnica section.content{
+    padding: 0 20px 20px;
+    width: 810px;
+}
+
+.contenedor-principal .historia-tecnica .destacado {
+    background: url("./assets/destacados-formularios.jpg") center top no-repeat;
+    padding-top: 36px;
+}
+
+.contenedor-principal .historia-tecnica section.content h3{
+    text-transform: uppercase;
+    line-height: 22px;
+    border-bottom: 4px solid #ddd;
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #4f4f4f;
+    padding-bottom: 20px;
+}
