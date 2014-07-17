@@ -5,8 +5,13 @@
 }
 
 .contenedor-principal .historia-tecnica .destacado {
-    background: url("./assets/destacados-formularios.jpg") center top no-repeat;
-    padding-top: 36px;
+    background: url("./assets/destacado-historia-tecnica.jpg") center top no-repeat;
+}
+
+.contenedor-principal .historia-tecnica .destacado p {
+    font-size: 19px;
+    padding: 20px;
+    font-family: 'din-regular';
 }
 
 .contenedor-principal .historia-tecnica section.content h3{
