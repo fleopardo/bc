@@ -1,4 +1,3 @@
-/* Adhesion */
 .contenedor-principal .historia-tecnica section.content{
     padding: 0 20px 20px;
     width: 810px;
@@ -22,4 +21,57 @@
     font-size: 15px;
     color: #4f4f4f;
     padding-bottom: 20px;
+}
+
+.historia-tecnica .content .filtro-anos{
+    background: #f2f1f1;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.historia-tecnica .content table{
+    width: 100%;
+}
+
+.historia-tecnica .content thead{
+    background: #f3f3f3;
+    border: 1px solid #dadada;
+}
+
+.historia-tecnica .content th{
+    text-align: left;
+    border-right: 1px solid #dadada;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #292929;
+    font-family: "din-black";
+    font-size: 11px;
+}
+
+.historia-tecnica .content td,
+.historia-tecnica .content th{
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.historia-tecnica .content tr.noColapsible,
+.historia-tecnica .content tr.headerColapsible{
+    background: #ececec;
+}
+
+.historia-tecnica .content tr.headerColapsible{
+    cursor: pointer;
+}
+
+.historia-tecnica .content tr.headerColapsible.closed .last{
+    background: url(./assets/sp-expandible-arrows-orange-close.png) 250px 14px no-repeat;
+}
+
+.historia-tecnica .content tr.headerColapsible.opened .last{
+    background: url(./assets/sp-expandible-arrows-orange-open.png) 250px 14px no-repeat;
+}
+
+.historia-tecnica .content td{
+    border-bottom: 1px solid #e0e0e0;
+    width: 30%;
 }
