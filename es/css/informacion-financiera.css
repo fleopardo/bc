@@ -88,6 +88,7 @@
 
 .jcarousel-clip {
     overflow: hidden;
+    margin: 0 2px;
 }
 
 /** Carousel Controls **/
