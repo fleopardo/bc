@@ -113,6 +113,10 @@
     border-bottom: 1px solid #e0e0e0;
 }
 
+.historia-tecnica .content tr[data-model] td{
+    background: #f8f8f8;
+}
+
 .historia-tecnica a.descargar-pdf{
     display: inline-block;
     background: url('./assets/ic-descargar-pdf.png') no-repeat;
