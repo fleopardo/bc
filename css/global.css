@@ -661,7 +661,7 @@ section.content-container .resultado-busqueda > a{
     cursor: pointer;
     width: 100%;
     color: #9d9c9c;
-    background: #d8d8d8 url("./assets/fd-link-ppal.png") 65px 16px no-repeat;
+    background: #d8d8d8 url("./assets/fd-link-ppal.png") 80px 16px no-repeat;
     height: 40px;
     text-transform: uppercase;
     text-align: left;
