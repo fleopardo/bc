@@ -91,12 +91,16 @@
     cursor: pointer;
 }
 
+.historia-tecnica .content tr.headerColapsible td {
+    padding: 23px 10px;
+}
+
 .historia-tecnica .content tr.headerColapsible.closed .last{
-    background: url(./assets/sp-expandible-arrows-orange-close.png) 250px 14px no-repeat;
+    background: url(./assets/sp-expandible-arrows-orange-close.png) 760px 25px no-repeat;
 }
 
 .historia-tecnica .content tr.headerColapsible.opened .last{
-    background: url(./assets/sp-expandible-arrows-orange-open.png) 250px 14px no-repeat;
+    background: url(./assets/sp-expandible-arrows-orange-open.png) 760px 25px no-repeat;
 }
 
 .historia-tecnica .content td{
