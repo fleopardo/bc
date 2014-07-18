@@ -117,6 +117,10 @@
     background: #f8f8f8;
 }
 
+.historia-tecnica .content tr.noColapsible td {
+    background: none !important;
+}
+
 .historia-tecnica a.descargar-pdf{
     display: inline-block;
     background: url('./assets/ic-descargar-pdf.png') no-repeat;
