@@ -542,7 +542,7 @@ section.content .bloque img{
 
 section.content-container aside{
     width: 160px;
-    border-top: 3px solid #d99b2d;
+    border-top: 3px solid #0063be;
     padding-top: 10px;
 }
 
@@ -551,7 +551,7 @@ section.content-container aside h2{
 }
 
 section.content-container aside h2 a{
-    color: #da9c18;
+    color: #0063be;
     margin-bottom: 5px;
     font-family: "din-black";
     font-size: 11px;
