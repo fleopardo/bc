@@ -76,6 +76,12 @@
         width: 10%;
     }
 
+    .historia-tecnica .content .col6,
+    .historia-tecnica .content .col7 {
+        text-align: center;
+    }
+
+
 .historia-tecnica .content td,
 .historia-tecnica .content th{
     padding: 10px;
@@ -96,11 +102,11 @@
 }
 
 .historia-tecnica .content tr.headerColapsible.closed .last{
-    background: url(./assets/sp-expandible-arrows-orange-close.png) 760px 25px no-repeat;
+    background: url(./assets/sp-expandible-arrows-orange-close.png) 765px 25px no-repeat;
 }
 
 .historia-tecnica .content tr.headerColapsible.opened .last{
-    background: url(./assets/sp-expandible-arrows-orange-open.png) 760px 25px no-repeat;
+    background: url(./assets/sp-expandible-arrows-orange-open.png) 765px 25px no-repeat;
 }
 
 .historia-tecnica .content td{
