@@ -19,17 +19,17 @@ $('.headerColapsible').click(function(){
 	/*
  * Variables
 */
-var selectInformeAnual = $(".select-informe-anual");
+var selectInformeAnual = $(".select-model");
 
 /* Selects */
 
 selectInformeAnual.on("change", function(event){
-	var option = $(this).find('option:selected').data('year');
+	var option = $(this).find('option:selected').data('model');
 
 	if (option === 'all'){
-		$('tr[data-year]').show();
+		$('tr[data-model]').show();
 	}else{
-		$('tr[data-year]').hide();
-	$("tr[data-year=" + option + "]").show();
+		$('tr[data-model]').hide();
+	$("tr[data-model=" + option + "]").show();
 	}
 });
