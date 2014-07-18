@@ -48,6 +48,34 @@
     font-size: 11px;
 }
 
+    .historia-tecnica .content th.col1{
+        width: 15%;
+    }
+
+    .historia-tecnica .content th.col2{
+        width: 10%;
+    }
+
+    .historia-tecnica .content th.col3{
+        width: 15%;
+    }
+
+    .historia-tecnica .content th.col4{
+        width: 10%;
+    }
+
+    .historia-tecnica .content th.col5{
+        width: 30%;
+    }
+
+    .historia-tecnica .content th.col6{
+        width: 10%;
+    }
+
+    .historia-tecnica .content th.col7{
+        width: 10%;
+    }
+
 .historia-tecnica .content td,
 .historia-tecnica .content th{
     padding: 10px;
@@ -73,5 +101,13 @@
 
 .historia-tecnica .content td{
     border-bottom: 1px solid #e0e0e0;
-    min-width: 75px;
+}
+
+.historia-tecnica a.descargar-pdf{
+    display: inline-block;
+    background: url('./assets/ic-descargar-pdf.png') no-repeat;
+    width: 22px;
+    height: 21px;
+    text-indent: -9999px;
+    overflow: hidden;
 }
