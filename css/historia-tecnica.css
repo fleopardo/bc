@@ -121,6 +121,11 @@
     background: none !important;
 }
 
+.historia-tecnica .content td.col1,
+.historia-tecnica .content td.col2 {
+    text-transform: uppercase;
+}
+
 .historia-tecnica a.descargar-pdf{
     display: inline-block;
     background: url('./assets/ic-descargar-pdf.png') no-repeat;
