@@ -542,15 +542,21 @@ section.content .bloque img{
 
 section.content-container aside{
     width: 160px;
-    border-top: 3px solid #0063be;
+    border-top: 3px solid #d99b2d;
     padding-top: 10px;
 }
 
+section.content-container aside h2{
+    margin-bottom: 5px;
+}
+
 section.content-container aside h2 a{
-    color: #0063be;
-    font-size: 14px;
-    line-height: 19px;
-    margin-bottom: 15px;
+    color: #da9c18;
+    margin-bottom: 5px;
+    font-family: "din-black";
+    font-size: 11px;
+    line-height: 18px;
+    display: inline-block;
 }
 
 section.content-container aside ul{
@@ -563,18 +569,18 @@ section.content-container aside li{
 
 section.content-container aside li a{
     font-size: 12px;
-    line-height: 18px;
+    line-height: 16px;
     color: #808080;
     display: block;
-    padding-left: 5px;
     position: relative;
+    padding-right: 15px;
 }
 
 section.content-container aside li a.expandable:after{
     content: '';
     position: absolute;
     right: 0px;
-    top: 2px;
+    top: 1px;
     width: 12px;
     height: 11px;
     display: block;
@@ -589,18 +595,17 @@ section.content-container aside li a.expandable:after{
         background-position: top left;
     }
 
+section.content-container aside li > a{
+    font-family: "din-black";
+}
+
 section.content-container aside li > a:hover,
 section.content-container aside li.active > a{
     background: #ececec;
-
 }
 
 section.content-container aside li.active > a{
 
-}
-
-section.content-container aside li.first > a{
-    font-family: "din-black";
 }
 
 section.content-container aside li > ul{
