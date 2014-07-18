@@ -24,9 +24,11 @@
 }
 
 .historia-tecnica .content .filtro-anos{
-    background: #f2f1f1;
-    margin-bottom: 30px;
-    padding: 10px;
+    margin-bottom: 45px;
+}
+
+.historia-tecnica .content .filtro-anos .select-informe-anual {
+    width: 330px;
 }
 
 .historia-tecnica .content table{
@@ -34,16 +36,14 @@
 }
 
 .historia-tecnica .content thead{
-    background: #f3f3f3;
-    border: 1px solid #dadada;
+    background: #0558ac;
 }
 
 .historia-tecnica .content th{
     text-align: left;
-    border-right: 1px solid #dadada;
     padding: 5px 10px;
     text-transform: uppercase;
-    color: #292929;
+    color: #ffffff;
     font-family: "din-black";
     font-size: 11px;
 }
@@ -73,5 +73,5 @@
 
 .historia-tecnica .content td{
     border-bottom: 1px solid #e0e0e0;
-    width: 30%;
+    min-width: 75px;
 }
