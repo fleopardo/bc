@@ -5,6 +5,7 @@
 
 .contenedor-principal .historia-tecnica .destacado {
     background: url("./assets/destacado-historia-tecnica.jpg") center top no-repeat;
+    padding-top: 95px;
 }
 
 .contenedor-principal .historia-tecnica .destacado p {
@@ -119,6 +120,11 @@
 
 .historia-tecnica .content tr.noColapsible td {
     background: none !important;
+}
+
+.historia-tecnica .content td.col1,
+.historia-tecnica .content td.col2 {
+    text-transform: uppercase;
 }
 
 .historia-tecnica a.descargar-pdf{
