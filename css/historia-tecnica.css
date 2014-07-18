@@ -76,8 +76,8 @@
         width: 10%;
     }
 
-    .historia-tecnica .content .col6,
-    .historia-tecnica .content .col7 {
+    .historia-tecnica .content td.col6,
+    .historia-tecnica .content td.col7 {
         text-align: center;
     }
 
