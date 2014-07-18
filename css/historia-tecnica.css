@@ -115,3 +115,12 @@
     text-indent: -9999px;
     overflow: hidden;
 }
+
+.historia-tecnica a.mail{
+    display: inline-block;
+    background: url('./assets/ic-mail.png') no-repeat;
+    width: 22px;
+    height: 21px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
