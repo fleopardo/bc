@@ -20,6 +20,11 @@
     background: #009fde;
 }
 
+.ui-selectmenu-menu li a,
+.ui-selectmenu-status {
+    text-transform: capitalize;
+}
+
 
 /* STEP 1
 ------------------------------------------------------------------------------------------------------------------------*/
