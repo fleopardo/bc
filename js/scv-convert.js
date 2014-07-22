@@ -313,7 +313,7 @@
 				$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
 
 				return;
-					
+
 			}
 
 			boxes_search.getPartidos(data,value,select_partidos);

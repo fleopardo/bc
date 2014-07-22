@@ -4,3 +4,55 @@
     background: url("./assets/destacado-presupuestacion-online.jpg") center top no-repeat;
 }
 
+.form-presupuestacion-online {
+    background: #f1f1f1;
+    position: relative;
+    padding-top: 92px;
+    color: #4a4a4a;
+}
+
+.form-presupuestacion-online .options{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 92px;
+    background: #009fde;
+}
+
+
+/* STEP 1
+------------------------------------------------------------------------------------------------------------------------*/
+
+.step1 {
+    padding: 150px;
+}
+
+.form-presupuestacion-online .step1 h3{
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'din-medium';
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.form-presupuestacion-online .step1 li,
+.form-presupuestacion-online .step1 p {
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'din-regular';
+}
+
+.form-presupuestacion-online .step1 li {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+

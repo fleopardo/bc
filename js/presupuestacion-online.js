@@ -48,7 +48,7 @@
 
 		/* Recorro todos los rows del excel */
 
-		$.each(data, function( index, value ){
+		$.each(data, function(index, value){
 
 			var row = data[index].MARCA;
 
@@ -76,9 +76,9 @@
 
 		});
 
-		marca.sort();
+		// marca.sort();
 
-		presupuesto.renderOptions(marca,elementToAppend, "marca");
+		presupuesto.renderOptions(marca, elementToAppend, "Marca");
 
 	}
 
@@ -142,7 +142,7 @@
 
 		modelos.sort();
 
-		presupuesto.renderOptions(modelos,elementToAppend, "modelos");
+		presupuesto.renderOptions(modelos,elementToAppend, "Modelo");
 
 	}
 
@@ -206,7 +206,7 @@
 
 		motores.sort();
 
-		presupuesto.renderOptions(motores, elementToAppend, "motores");
+		presupuesto.renderOptions(motores, elementToAppend, "Motor");
 
 	}
 
@@ -217,7 +217,6 @@
 
 	presupuesto.renderOptions = function(data, elementToAppend, label){
 
-		console.log(data)
 		var html;
 
 		if(label) html += '<option value="default">'+label+'</option>';
@@ -273,21 +272,17 @@
 
 	var form_busqueda = $(".form-presupuestacion-online");
 
-	var contenedor_resultados = $(".resultado-busqueda");
-
 	// pido el csv y me lo guarda en una variable interna "presupuesto.data"
 
-	presupuesto.getSCV("lista-vehiculos.csv");
+	presupuesto.getSCV("vehiculos.csv");
 
 	$(window).on("scvLoad", function(){
-
-		console.log(presupuesto.data);
 
 		var data = presupuesto.data;
 
 		// pido las provincias
 
-		presupuesto.getMarca(data, select_marcas);
+		presupuesto.getMarca(data,select_marcas);
 
 		// bindeo eventos a las marcas
 
@@ -298,8 +293,10 @@
 			if (value == "default") {
 
 				select_modelos.prop("disabled",true).empty();
-
 				select_motores.prop("disabled",true).empty();
+
+				presupuesto.renderOptions([],select_modelos,'Modelo');
+				presupuesto.renderOptions([],select_motores,'Motor');
 
 				$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
 
@@ -312,6 +309,7 @@
 			select_modelos.prop("disabled",false);
 
 			select_motores.prop("disabled",true).empty();
+			presupuesto.renderOptions([],select_motores,'Motor');
 
 			$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
 
@@ -327,15 +325,14 @@
 			if (value == "default") {
 
 				select_motores.prop("disabled",true).empty();
+				presupuesto.renderOptions([],select_motores,'Motor');
 
 				$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
-
 				return;
 
 			}
 
-			presupuesto.getMotores(data,value,select_motores);
-
+			presupuesto.getMotor(data,value,select_motores);
 			select_motores.prop("disabled",false);
 
 		});
@@ -356,26 +353,6 @@
 
 		});
 
-		// Bindeo realizar otra busqueda
-
-		contenedor_resultados.find("a").on("click", function(event){
-
-			event.stopPropagation();
-
-			event.preventDefault();
-
-			// vacio los resultados anteriores
-			contenedor_resultados.find("ul").empty();
-
-			// Muestro el form
-			contenedor_resultados.hide()
-
-			form_busqueda.show();
-
-
-		});
-
 	});
-
 
 }());
