@@ -454,10 +454,27 @@
 				<section class="content right">
 
 					<ol class="breacrumb">
-						<li class="active">1. Selección de fecha y horario</li>
-						<li>2. Datos del vehículo</li>
-						<li>3. Confirmar turno</li>
+						<li class="step1 active">1. Selección de fecha y horario</li>
+						<li class="step2">2. Datos del vehículo</li>
+						<li class="step3">3. Confirmar turno</li>
 					</ol>
+
+					<form action="" method="">
+						<fieldset class="step1">
+							<div class="calendar-cont">
+
+							</div>
+
+							<table>
+								<thead>
+									<th>Seleccionar horario</th>
+								</thead>
+								<tbody>
+<p>Date: <input type="text" id="datepicker"></p>
+								</tbody>
+							</table>
+						</fieldset>
+					</form>
 
 					<article class="filtro-anos">
 
@@ -600,7 +617,11 @@
 
 			<script src="./js/global.js"></script>
 			<script src="./js/historia-tecnica.js"></script>
-
+<script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
 		</div>
 
 	</div>

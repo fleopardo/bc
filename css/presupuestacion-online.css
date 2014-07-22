@@ -17,7 +17,8 @@
     left: 0;
     right: 0;
     height: 92px;
-    background: #009fde;
+    padding-left: 145px;
+    background: #009fde url("./assets/fd-ppto-filters.gif") 20px center no-repeat;
 }
 
 .ui-selectmenu-menu li a,
@@ -25,6 +26,38 @@
     text-transform: capitalize;
 }
 
+.form-presupuestacion-online .options select{
+    width: 230px;
+}
+
+.form-presupuestacion-online .options .ui-selectmenu{
+	height: 92px;
+	background: transparent;
+	border-right: none;
+}
+
+.form-presupuestacion-online .options .ui-selectmenu-status{
+	line-height: 92px;
+	color: #fff!important;
+}
+
+.form-presupuestacion-online .options .ui-selectmenu-icon{
+	top: 44px;
+	background-image: url('./assets/ic-selectmenu.ppto.png');
+}
+
+.ui-selectmenu-menu.pptoSelect{
+	background: #0082b6;
+}
+
+.ui-selectmenu-menu.pptoSelect li a,
+.form-presupuestacion-online .options .ui-selectmenu-status {
+    color: #fff;
+}
+
+.ui-selectmenu-open.pptoSelect li.ui-selectmenu-item-focus a {
+    background: #4fa7c9;
+}
 
 /* STEP 1
 ------------------------------------------------------------------------------------------------------------------------*/
@@ -39,6 +72,8 @@
     font-family: 'din-medium';
     text-transform: uppercase;
     margin-bottom: 20px;
+    background: url("./assets/fd-title-ppto1.png") left top no-repeat;
+    padding-left: 96px;
 }
 
 .form-presupuestacion-online .step1 li,
@@ -50,6 +85,11 @@
 
 .form-presupuestacion-online .step1 li {
     margin-bottom: 20px;
+    margin-left: 96px;
+}
+
+.form-presupuestacion-online .step1 li span {
+    color: #009fde;
 }
 
 
