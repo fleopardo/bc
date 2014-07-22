@@ -5,7 +5,7 @@
 <!--[if IE 9]>    <html class="no-js lt-ie10 ie9" lang="es"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="no-js" lang="es"> <!--<![endif]-->
 <head>
-	<title>YPF - Boxes | Puntos de diagnóstico</title>
+	<title>YPF - Boxes | Busca tu boxes mas cercano</title>
 	<meta charset="utf-8" />
 
 	<link rel="stylesheet" type="text/css" href="header/css/header.css" />
@@ -14,13 +14,15 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
-	<link rel="stylesheet" type="text/css" href="css/puntos-de-diagnostico.css" />
+	<link rel="stylesheet" type="text/css" href="css/presupuestacion-online.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/libs/jquery.ui.selectmenu.css" />
 
 </head>
 <body>
-	<div id="contenedor-principal" class="contenedor-principal">
 
-		<div class="puntos-diagnostico">
+	<div id="contenedor-principal" class="contenedor-principal">
+		<div class="presupuestacion-online">
 
 			<header class="headerYPF">
 			   <div class="clearfix">
@@ -418,8 +420,9 @@
 			<div class="destacado">
 				<div class="layout">
 					<h2>Boxes</h2>
-					<h3><span>Puntos de</span><br />diagnostico</h3>
-					<p>Conocé los puntos de diagnóstico que realizan los especialistas.</p>
+					<h3><span>presupuestación </br>online</span></h3>
+					<br>
+					<p>Encontrá el lubricante perfecto para tu vehículo</p>
 				</div>
 			</div>
 
@@ -440,103 +443,49 @@
 						<li><a href="./busca-tu-boxes-mas-cercano.html" title="Buscá tu BOXES más cercano">Buscá tu BOXES más cercano</a></li>
 						<li><a href="./promociones-vigentes.html" title="Promociones vigentes">Promociones vigentes</a></li>
 						<li><a href="./comerciales.html" title="Comerciales">Comerciales</a></li>
-						<li class="active"><a href="./puntos-de-diagnostico.html" title="Puntos de diagnóstico">Puntos de diagnóstico</a></li>
+						<li><a href="./puntos-de-diagnostico.html" title="Puntos de diagnóstico">Puntos de diagnóstico</a></li>
 						<li><a href="./guia-de-lubricacion.html" title="Guía de Lubricación">Guía de Lubricación</a>
-							<ul>
-								<li><a href="./presupuestacion-online.html" title="Presupuestación online">Presupuestación online</a></li>
-							</ul>
-						</li>
+                            <ul>
+                                <li class="active"><a href="./presupuestacion-online.html" title="Presupuestación online">Presupuestación online</a></li>
+                            </ul>
+                        </li>
 						<li><a href="./adhesion.html" title="Adhesión">Adhesión</a></li>
 					</ul>
 				</aside>
 
 				<section class="content right">
-					<h3>El servicio de lubricación + diagnóstico<br /> de boxes recorre 24 puntos</h3>
-					<div class="img-cont">
 
-						<ul class="lista-principal">
-							<li>
-								<a href="#" title="" class="azul"><span>A</span> Lubricantes y Filtros</a>
-								<ul class="lubricantes">
-									<li><a href="#" title="" data-id="lubricantes" class="pto-diagnostico azul pto-1" id="pto-1"><span>01</span> Cambios de aceite</a></li>
-									<li><a href="#" title="" data-id="lubricantes" class="pto-diagnostico azul pto-2" id="pto-2"><span>02</span> Filtro de aire</a></li>
-									<li><a href="#" title="" data-id="lubricantes" class="pto-diagnostico azul pto-3" id="pto-3"><span>03</span> Revisión filtro de aire</a></li>
-									<li><a href="#" title="" data-id="lubricantes" class="pto-diagnostico azul pto-4" id="pto-4"><span>04</span> Revisión filtro de combustible</a></li>
-									<li><a href="#" title="" data-id="lubricantes" class="pto-diagnostico azul pto-5" id="pto-5"><span>05</span> Revisión aceite caja de cambios</a></li>
-									<li><a href="#" title="" data-id="lubricantes" class="pto-diagnostico azul pto-6" id="pto-6"><span>06</span> Revisión aceite de diferencial</a></li>
-								</ul>
-							</li>
+					<form method="" action="" class="form-presupuestacion-online">
 
-							<li>
-								<a href="#" title="" class="verde"><span>B</span> Fluídos del vehículo</a>
-								<ul class="fluidos">
-									<li><a href="#" title="" data-id="fluidos" class="pto-diagnostico verde pto-7" id="pto-7"><span>07</span> Revisión del líquido refrigerante, anticongelante y anticorrosivo</a></li>
-									<li><a href="#" title="" data-id="fluidos" class="pto-diagnostico verde pto-8" id="pto-8"><span>08</span> Revisión líquido de dirección hidráulica</a></li>
-									<li><a href="#" title="" data-id="fluidos" class="pto-diagnostico verde pto-9" id="pto-9"><span>09</span> Revisión líquido de frenos</a></li>
-									<li><a href="#" title="" data-id="fluidos" class="pto-diagnostico verde pto-10" id="pto-10"><span>10</span> Revisión batería</a></li>
-									<li><a href="#" title="" data-id="fluidos" class="pto-diagnostico verde pto-11" id="pto-11"><span>11</span> Revisión líquido lavaparabrisas</a></li>
-								</ul>
-							</li>
-
-							<li>
-								<a href="#" title="" class="rojo"><span>C</span> Partes mecánicas</a>
-								<ul class="mecanica">
-									<li><a href="#" title="" data-id="mecanica" class="pto-diagnostico rojo pto-12" id="pto-12"><span>12</span> Revisión de guardapolvos (tren delantero)</a></li>
-									<li><a href="#" title="" data-id="mecanica" class="pto-diagnostico rojo pto-13" id="pto-13"><span>13</span> Revisión holguras de trasmisión</a></li>
-									<li><a href="#" title="" data-id="mecanica" class="pto-diagnostico rojo pto-14" id="pto-14"><span>14</span> Revisión de las correas</a></li>
-									<li><a href="#" title="" data-id="mecanica" class="pto-diagnostico rojo pto-15" id="pto-15"><span>15</span> Revisión de mangueras</a></li>
-									<li><a href="#" title="" data-id="mecanica" class="pto-diagnostico rojo pto-16" id="pto-16"><span>16</span> Lubricación de bisagras de puertas</a></li>
-									<li><a href="#" title="" data-id="mecanica" class="pto-diagnostico rojo pto-17" id="pto-17"><span>17</span> Revisión del caño de escape</a></li>
-									<li><a href="#" title="" data-id="mecanica" class="pto-diagnostico rojo pto-18" id="pto-18"><span>18</span> Revisión del tapón y arandela del carter</a></li>
-								</ul>
-							</li>
-
-							<li>
-								<a href="#" title="" class="amarillo last"><span>D</span> Elementos de seguridad</a>
-								<ul class="seguridad">
-									<li><a href="#" title="" data-id="seguridad" class="pto-diagnostico amarillo pto-19" id="pto-19"><span>19</span> Revisión de pastillas y discos de frenos</a></li>
-									<li><a href="#" title="" data-id="seguridad" class="pto-diagnostico amarillo pto-20" id="pto-20"><span>20</span> Revisión de flexibles de frenos</a></li>
-									<li><a href="#" title="" data-id="seguridad" class="pto-diagnostico amarillo pto-21" id="pto-21"><span>21</span> Revisión de amortiguadores</a></li>
-									<li><a href="#" title="" data-id="seguridad" class="pto-diagnostico amarillo pto-22" id="pto-22"><span>22</span> Revisión funcionamiento de luces exteriores</a></li>
-									<li><a href="#" title="" data-id="seguridad" class="pto-diagnostico amarillo pto-23" id="pto-23"><span>23</span> Revisión escobillas limpiaparabrisas</a></li>
-									<li><a href="#" title="" data-id="seguridad" class="pto-diagnostico amarillo pto-24" id="pto-24"><span>24</span> Revisión de neumáticos (estado y presión)</a></li>
-								</ul>
-							</li>
-
-						</ul>
-						<div>
-							<a href="#" title="Seleccioná una parte" id="ver-unico"><span>Seleccioná una parte</span></a>
-							<a href="#" title="Ver los 24 puntos" id="ver-todos"><span>Ver los 24 puntos</span></a>
+						<div class="row">
+							<select id="marca">
+								<option>Marca</option>
+							</select>
 						</div>
-						<img src="./images/puntos-de-diagnostico/vehiculo-default.png" width="729" height="500" class="vehiculo active" id="default">
-						<img src="./images/puntos-de-diagnostico/vehiculo-completo.png" width="729" height="500" class="vehiculo" id="vehiculo-completo">
-						<img src="./images/puntos-de-diagnostico/01.png" width="729" height="500" class="vehiculo" id="pto-1">
-						<img src="./images/puntos-de-diagnostico/02.png" width="729" height="500" class="vehiculo" id="pto-2">
-						<img src="./images/puntos-de-diagnostico/03.png" width="729" height="500" class="vehiculo" id="pto-3">
-						<img src="./images/puntos-de-diagnostico/04.png" width="729" height="500" class="vehiculo" id="pto-4">
-						<img src="./images/puntos-de-diagnostico/05.png" width="729" height="500" class="vehiculo" id="pto-5">
-						<img src="./images/puntos-de-diagnostico/06.png" width="729" height="500" class="vehiculo" id="pto-6">
-						<img src="./images/puntos-de-diagnostico/07.png" width="729" height="500" class="vehiculo" id="pto-7">
-						<img src="./images/puntos-de-diagnostico/08.png" width="729" height="500" class="vehiculo" id="pto-8">
-						<img src="./images/puntos-de-diagnostico/09.png" width="729" height="500" class="vehiculo" id="pto-9">
-						<img src="./images/puntos-de-diagnostico/10.png" width="729" height="500" class="vehiculo" id="pto-10">
-						<img src="./images/puntos-de-diagnostico/11.png" width="729" height="500" class="vehiculo" id="pto-11">
-						<img src="./images/puntos-de-diagnostico/12.png" width="729" height="500" class="vehiculo" id="pto-12">
-						<img src="./images/puntos-de-diagnostico/13.png" width="729" height="500" class="vehiculo" id="pto-13">
-						<img src="./images/puntos-de-diagnostico/14.png" width="729" height="500" class="vehiculo" id="pto-14">
-						<img src="./images/puntos-de-diagnostico/15.png" width="729" height="500" class="vehiculo" id="pto-15">
-						<img src="./images/puntos-de-diagnostico/16.png" width="729" height="500" class="vehiculo" id="pto-16">
-						<img src="./images/puntos-de-diagnostico/17.png" width="729" height="500" class="vehiculo" id="pto-17">
-						<img src="./images/puntos-de-diagnostico/18.png" width="729" height="500" class="vehiculo" id="pto-18">
-						<img src="./images/puntos-de-diagnostico/19.png" width="729" height="500" class="vehiculo" id="pto-19">
-						<img src="./images/puntos-de-diagnostico/20.png" width="729" height="500" class="vehiculo" id="pto-20">
-						<img src="./images/puntos-de-diagnostico/21.png" width="729" height="500" class="vehiculo" id="pto-21">
-						<img src="./images/puntos-de-diagnostico/22.png" width="729" height="500" class="vehiculo" id="pto-22">
-						<img src="./images/puntos-de-diagnostico/23.png" width="729" height="500" class="vehiculo" id="pto-23">
-						<img src="./images/puntos-de-diagnostico/24.png" width="729" height="500" class="vehiculo" id="pto-24">
 
+						<div class="row">
+							<select id="modelo" disabled>
+								<option>Modelo</option>
+							</select>
+						</div>
+
+						<div class="row">
+							<select id="motor" disabled>
+								<option>Motor</option>
+							</select>
+						</div>
+
+
+						<input type="submit" id="buscarBoxes" value="Buscar" disabled>
+
+					</form>
+
+					<div class="resultado-busqueda">
+						<h3>Resultados de Boxes más cercanos</h3>
+						<ul></ul>
+
+						<a href="#" title="Realizar otra búsqueda">Realizar otra búsqueda</a>
 					</div>
-
 				</section>
 
 			</section>
@@ -575,20 +524,24 @@
 
 			<!-- Incluir JQUERY -->
 			<script src="./jquery/jquery.min.js"></script>
+			<script src="./jquery/jquery-ui-1.8.12.custom.min.js"></script>
 			<!-- Incluir header.js para tener las funcionalidades del menu -->
 			<script src="./header/js/header.js"></script>
 			<!-- Incluir jquery.placeholder.js para tener las funcionalidades del placeholder -->
 			<script src="./jquery/jquery.placeholder.js"></script>
+			<script src="./jquery/jquery.ui.selectmenu.js"></script>
+			<script type="text/javascript" src="./jquery/sequence.jquery-min.js"></script>
 
+			<script src="./jquery/jquery.csv-0.71.min.js"></script>
 			<!-- Inicializaciones -->
 
+
+
 			<script src="./js/global.js"></script>
-			<script src="./js/puntos-diagnostico.js"></script>
+			<script src="./js/presupuestacion-online.js"></script>
 
 		</div>
 
 	</div>
-
-
 </body>
 </html>
