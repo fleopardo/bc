@@ -67,6 +67,15 @@
     border-bottom: 4px solid #000;
 }
 
+.step3{
+	padding: 0;
+}
+
+.step3 .step3-cont{
+	padding: 40px;
+	margin-bottom: 8px;
+}
+
 .form-presupuestacion-online .step1 h3{
     font-size: 32px;
     line-height: 40px;
@@ -115,7 +124,114 @@
 	font-family: "din-black"
 }
 
+.step3 span.fecha{
+	margin-bottom:30px;
+	display: inline-block;
+}
 
+.step3 .recomendacion{
+	padding: 0 40px;
+}
+
+.step3 table{
+	margin: 30px 0;
+}
+
+.step2 th,
+.step2 td{
+	color: #6c6c6c;
+}
+
+.step3 th{
+	font-size: 15px;
+	line-height: 18px;
+	text-transform: uppercase;
+	text-align: left;
+	padding:12px 20px;
+}
+
+.step3 tr{
+	margin-bottom: 10px;
+}
+
+.step3 td{
+	font-size: 13px;
+	line-height: 15px;
+	background: #fff;
+	border-bottom: 4px solid #f1f1f1;
+	padding: 10px 0;
+}
+
+td.col1{
+	width: 70px;
+	text-align: center;
+}
+
+td.col2{
+	width: 484px;
+	text-align: left;
+}
+
+td.col3{
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+tr.row-total td{
+	background: transparent;
+	color: #0063be;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+}
+
+.form-presupuestacion-online p.terminos{
+	color: #9f9f9f;
+	text-transform: uppercase;
+	font-size: 11px;
+	line-height: 14px;
+	font-family: "din-black";
+	padding: 0 20px;
+}
+
+.links-container{
+	border-top: 5px solid #fff;
+	padding: 40px 50px;
+	overflow: hidden;
+}
+
+.links-container .left-col{
+	width: 340px;
+	float: left;
+}
+
+.links-container .right-col{
+	width: 380px;
+	float: right;
+}
+
+.links-container a.actions{
+	display: inline-block;
+	text-decoration: underline;
+	color: #0063be;
+	font-size: 15px;
+	line-height: 18px;
+	padding-left: 32px;
+}
+
+.links-container a.actions.nuevo-ppto{
+	background: url("./assets/fb-link-nvo-ppto.png") left no-repeat;
+}
+
+.links-container a.actions.print{
+	background: url("./assets/fd-links-print.png") left no-repeat;
+}
+
+.links-container a.actions.send-mail{
+	background: url("./assets/fd-link-mail.png") left no-repeat;
+}
 
 
 
