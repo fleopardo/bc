@@ -233,6 +233,37 @@ tr.row-total td{
 	background: url("./assets/fd-link-mail.png") left no-repeat;
 }
 
+.links-container input[type=text]{
+	width: 316px;
+	padding: 0 5px;
+	height: 24px;
+	margin-bottom: 10px;
+}
+
+.links-container button{
+	cursor: pointer;
+	color: #9d9c9c;
+	background: #d8d8d8 url("./assets/fd-link-ppal.png") 65px center no-repeat;
+	height: 40px;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 0 30px 0 15px;
+	border: none;
+	/* Firefox */
+	-moz-transition: all 0.2s ease-in;
+	/* WebKit */
+	-webkit-transition: all 0.2s ease-in;
+	/* Opera */
+	-o-transition: all 0.2s ease-in;
+	/* Standard */
+	transition: all 0.2s ease-in;
+}
+
+.links-container button:hover{
+	background: #0063be url("./assets/fd-link-blanco.png") 65px center no-repeat;
+	color: #fff;
+}
+
 
 
 
