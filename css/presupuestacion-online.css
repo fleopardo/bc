@@ -120,7 +120,23 @@
 	line-height: 24px;
 	color: #0063be;
 	float: right;
-	font-family: "din-black"
+	font-family: "din-black";
+    width: 150px;
+    text-align: left;
+}
+
+.form-presupuestacion-online .step2 input[type="button"] {
+    width: 380px;
+    border: 3px solid #0f6ac5;
+    background: #fff;
+    color: #0f6ac5;
+    display: block;
+    background: url(./assets/ic-submit.png) 280px center no-repeat;
+    text-align: center;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 30px auto 0 auto;
 }
 
 .step3 span.fecha{

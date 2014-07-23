@@ -275,7 +275,8 @@
 		var step2 = $('.step2'),
 			marcaSelected = select_marcas.find('option:selected').val(),
 			modeloSelected = select_modelos.find('option:selected').val(),
-			motorSelected = select_motores.find('option:selected').val();
+			motorSelected = select_motores.find('option:selected').val(),
+			rowSelected;
 
 		// actualizo los datos del step 2
 		$.each(data, function( index, value ){
@@ -283,6 +284,7 @@
 		    if (data[index].MARCA == marcaSelected && data[index].MODELO == modeloSelected && data[index].MOTOR == motorSelected){
 		        step2.find('.lubricante').html(data[index].PRODUCTO);
 				step2.find('.litros').html(data[index].LITROS_A_USAR);
+				rowSelected = data[index];
 		    }
 
 		});
@@ -291,6 +293,31 @@
 		// muestro el step2
 		steps.hide();
 		step2.show();
+
+		step2.find('input[type="button"]').one('click', function (event) {
+			showStep3(rowSelected);
+		});
+	}
+
+	function showStep3(rowSelected) {
+		var step3 = $('.step3');
+
+		step3.find('.lubricante').html(rowSelected.PRODUCTO);
+		step3.find('.litros').html(rowSelected.LITROS_A_USAR);
+		step3.find('.precio-total').html(rowSelected.PRECIO_TOTAL);
+		step3.find('.litros-remanentes').html(rowSelected.LITROS_REMANENTES);
+
+		steps.hide();
+		step3.show();
+
+		step3.find('.nuevo-ppto').one('click', function (event) {
+			event.preventDefault();
+
+			select_marcas.find('option:first').trigger('click')
+
+			steps.hide();
+			$('.step1').show();
+		});
 	}
 
 	// pido el csv y me lo guarda en una variable interna "presupuesto.data"
@@ -365,9 +392,7 @@
 			var value = $(this).find("option:selected").val();
 
 			if (value == "default") {
-
 				return;
-
 			}
 
 			showStep2(data);
