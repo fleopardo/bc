@@ -304,6 +304,12 @@
 
 		step3.find('.lubricante').html(rowSelected.PRODUCTO);
 		step3.find('.litros').html(rowSelected.LITROS_A_USAR);
+
+
+		step3.find('.cantidad-1lt').html(rowSelected.CANTIDAD_1LT);
+		step3.find('.precio-total-1lt').html(rowSelected.PRECIO_TOTAL_1LT);
+		step3.find('.cantidad-4lt').html(rowSelected.CANTIDAD_4LT);
+		step3.find('.precio-total-4lt').html(rowSelected.PRECIO_TOTAL_4LT);
 		step3.find('.precio-total').html(rowSelected.PRECIO_TOTAL);
 		step3.find('.litros-remanentes').html(rowSelected.LITROS_REMANENTES);
 
