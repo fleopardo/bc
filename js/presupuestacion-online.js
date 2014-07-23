@@ -264,13 +264,34 @@
 
 ;(function(){
 
-	var select_marcas = $("#marca");
+	var select_marcas = $("#marca"),
+		select_modelos = $("#modelo"),
+		select_motores = $("#motor"),
+		steps = $('.steps'),
+		form_busqueda = $(".form-presupuestacion-online");
 
-	var select_modelos = $("#modelo");
+	function showStep2(data) {
 
-	var select_motores = $("#motor");
+		var step2 = $('.step2'),
+			marcaSelected = select_marcas.find('option:selected').val(),
+			modeloSelected = select_modelos.find('option:selected').val(),
+			motorSelected = select_motores.find('option:selected').val();
 
-	var form_busqueda = $(".form-presupuestacion-online");
+		// actualizo los datos del step 2
+		$.each(data, function( index, value ){
+
+		    if (data[index].MARCA == marcaSelected && data[index].MODELO == modeloSelected && data[index].MOTOR == motorSelected){
+		        step2.find('.lubricante').html(data[index].PRODUCTO);
+				step2.find('.litros').html(data[index].LITROS_A_USAR);
+		    }
+
+		});
+
+
+		// muestro el step2
+		steps.hide();
+		step2.show();
+	}
 
 	// pido el csv y me lo guarda en una variable interna "presupuesto.data"
 
@@ -349,7 +370,7 @@
 
 			}
 
-			alert('se eligio todo');
+			showStep2(data);
 
 		});
 
