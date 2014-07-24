@@ -12,7 +12,7 @@
 
 		    success: function(data) {
 
-				var result = $.csv.toObjects(data);
+				var result = $.csv.toObjects(data,{'separator': ';'});
 
 				presupuesto.data = result;
 
@@ -76,9 +76,9 @@
 
 		});
 
-		// marca.sort();
+		marca.sort();
 
-		presupuesto.renderOptions(marca, elementToAppend, "Marca");
+		presupuesto.renderOptions(marca, marca, elementToAppend, "Marca");
 
 	}
 
@@ -91,7 +91,8 @@
 
 		/* array de modelo detectadas */
 
-		var modelos = [];
+		var modelos = [],
+			modelosLabelComplete = [];
 
 		/* Flag para saber si esta repetida y no agregarla */
 
@@ -130,7 +131,10 @@
 
 				/* Si no existe lo guardo */
 
-				if( exist == false ) modelos.push(data[index].MODELO);
+				if( exist == false ) {
+					modelos.push(data[index].MODELO);
+					modelosLabelComplete.push(data[index].MODELO + ' ' + data[index].CILINDRADA);
+				}
 
 				/* Reseteo la variable */
 
@@ -142,7 +146,7 @@
 
 		modelos.sort();
 
-		presupuesto.renderOptions(modelos,elementToAppend, "Modelo");
+		presupuesto.renderOptions(modelos, modelosLabelComplete,elementToAppend, "Modelo");
 
 	}
 
@@ -206,7 +210,7 @@
 
 		motores.sort();
 
-		presupuesto.renderOptions(motores, elementToAppend, "Motor");
+		presupuesto.renderOptions(motores, motores, elementToAppend, "Motor");
 
 	}
 
@@ -215,44 +219,23 @@
 
 	// RENDER OPTIONS IN SELECTS
 
-	presupuesto.renderOptions = function(data, elementToAppend, label){
+	presupuesto.renderOptions = function(data, optionText, elementToAppend, label){
 
 		var html;
 
-		if(label) html += '<option value="default">'+label+'</option>';
+		elementToAppend.empty();
+
+		if (label) html += '<option value="default">'+label+'</option>';
 
 		$.each(data, function( index, value ){
 
-			html += '<option value="'+	data[index] + '">'+	data[index].toLowerCase(); + '</option>';
+			html += '<option value="'+	data[index] + '">'+	optionText[index].toLowerCase(); + '</option>';
 
 		});
 
 		elementToAppend.append(html);
 
 		$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
-
-	}
-
-
-
-	// RENDER RESULTS
-
-	presupuesto.renderResults = function(data, motor_elegida, elementToAppend){
-
-		// var html = '';
-
-		// $.each(data, function( index, value ){
-
-
-		// 	if(data[index].LOCALIDAD == localidad_elegida){
-
-		// 		html += '<li>' + data[index].RAZON_SOCIAL + ' - ' + data[index].DIRECCION + '<br />' + data[index].PARTIDO + ' - ' + data[index].LOCALIDAD + '</li>';
-
-		// 	}
-
-		// });
-
-		// $(elementToAppend).append(html);
 
 	}
 
@@ -306,9 +289,9 @@
 		step3.find('.litros').html(rowSelected.LITROS_A_USAR);
 
 
-		step3.find('.cantidad-1lt').html(rowSelected.CANTIDAD_1LT);
+		step3.find('.cantidad-1lt').html(rowSelected.CANTIDAD_ENVASES_1LT);
 		step3.find('.precio-total-1lt').html(rowSelected.PRECIO_TOTAL_1LT);
-		step3.find('.cantidad-4lt').html(rowSelected.CANTIDAD_4LT);
+		step3.find('.cantidad-4lt').html(rowSelected.CANTIDAD_ENVASES_4LT);
 		step3.find('.precio-total-4lt').html(rowSelected.PRECIO_TOTAL_4LT);
 		step3.find('.precio-total').html(rowSelected.PRECIO_TOTAL);
 		step3.find('.litros-remanentes').html(rowSelected.LITROS_REMANENTES);
@@ -319,11 +302,17 @@
 		step3.find('.nuevo-ppto').one('click', function (event) {
 			event.preventDefault();
 
-			select_marcas.find('option:first').trigger('click')
-
-			steps.hide();
-			$('.step1').show();
+			newPtto();
 		});
+	}
+
+	function newPtto() {
+
+		presupuesto.renderOptions([],[],select_modelos,'Modelo');
+		presupuesto.renderOptions([],[],select_motores,'Motor');
+
+		steps.hide();
+		$('.step1').show();
 	}
 
 	// pido el csv y me lo guarda en una variable interna "presupuesto.data"
@@ -349,8 +338,8 @@
 				select_modelos.prop("disabled",true).empty();
 				select_motores.prop("disabled",true).empty();
 
-				presupuesto.renderOptions([],select_modelos,'Modelo');
-				presupuesto.renderOptions([],select_motores,'Motor');
+				presupuesto.renderOptions([],[],select_modelos,'Modelo');
+				presupuesto.renderOptions([],[],select_motores,'Motor');
 
 				$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
 
@@ -363,7 +352,7 @@
 			select_modelos.prop("disabled",false);
 
 			select_motores.prop("disabled",true).empty();
-			presupuesto.renderOptions([],select_motores,'Motor');
+			presupuesto.renderOptions([],[],select_motores,'Motor');
 
 			$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
 
@@ -379,7 +368,7 @@
 			if (value == "default") {
 
 				select_motores.prop("disabled",true).empty();
-				presupuesto.renderOptions([],select_motores,'Motor');
+				presupuesto.renderOptions([],[], select_motores,'Motor');
 
 				$("select").selectmenu("destroy").selectmenu({ style: "dropdown" });
 				return;
