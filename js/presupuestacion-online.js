@@ -94,9 +94,7 @@
 		var modelos = [],
 			modelosLabelComplete = [];
 
-		/* Flag para saber si esta repetida y no agregarla */
 
-		var exist = false;
 
 		/* Variable para almacenar el modelo que esta iterando */
 
@@ -131,14 +129,9 @@
 
 				/* Si no existe lo guardo */
 
-				if( exist == false ) {
-					modelos.push(data[index].MODELO);
-					modelosLabelComplete.push(data[index].MODELO + ' ' + data[index].CILINDRADA);
-				}
 
-				/* Reseteo la variable */
-
-				exist = false;
+				modelos.push(data[index].MODELO);
+				modelosLabelComplete.push(data[index].MODELO + ' ' + data[index].CILINDRADA);
 
 			}
 
@@ -259,19 +252,21 @@
 			marcaSelected = select_marcas.find('option:selected').val(),
 			modeloSelected = select_modelos.find('option:selected').val(),
 			motorSelected = select_motores.find('option:selected').val(),
-			rowSelected;
+			rowSelected,
+			modeloCilindradaOption,
+			modeloCilindradaJson;
 
 		// actualizo los datos del step 2
 		$.each(data, function( index, value ){
+			modeloCilindradaOption = (data[index].MODELO + ' ' + data[index].CILINDRADA).toLowerCase();
+			modeloCilindradaJson = (select_modelos.find('option:selected').text()).toLowerCase();
 
-		    if (data[index].MARCA == marcaSelected && data[index].MODELO == modeloSelected && data[index].MOTOR == motorSelected){
+			if (data[index].MARCA == marcaSelected && modeloCilindradaOption == modeloCilindradaJson  && data[index].MOTOR == motorSelected){
 		        step2.find('.lubricante').html(data[index].PRODUCTO);
 				step2.find('.litros').html(data[index].LITROS_A_USAR);
 				rowSelected = data[index];
 		    }
-
 		});
-
 
 		// muestro el step2
 		steps.hide();
@@ -280,6 +275,7 @@
 		step2.find('input[type="button"]').one('click', function (event) {
 			showStep3(rowSelected);
 		});
+
 	}
 
 	function showStep3(rowSelected) {
