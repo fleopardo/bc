@@ -9,7 +9,7 @@
 			$(this).addClass('opened');
 		}
 
-		$(this).nextUntil('tr.anchor').slideToggle(100, function(){
+		$(this).nextUntil('tr.anchor').not('.noColapsible').slideToggle(100, function(){
 
 	    	});
 
