@@ -1,651 +1,537 @@
 DATOS;MARCA;MODELO;PRODUCTO;MOTOR;CILINDRADA;LITROS_A_USAR;LITROS_A_COMPRAR;CALCULO_4L;CANTIDAD_ENVASES_4LT;CALCULO_1LT;CANTIDAD_ENVASES_1LT;LITROS_REMANENTES;PRECIO_4LT;PRECIO_1LT;PRECIO_TOTAL_4LT;PRECIO_TOTAL_1LT;PRECIO_TOTAL
-Alfa Romeo 147 - 2.0  (Naftero);Alfa Romeo;147;Elaion F50;Naftero;2.0;4,4;5;1,25;1;0,25;1;0,6;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Alfa Romeo 159 - 1.8  (Naftero);Alfa Romeo;159;Elaion F50;Naftero;1.8;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Alfa Romeo 159 - 2.2  (Naftero);Alfa Romeo;159;Elaion F50;Naftero;2.2;5,4;6;1,5;1;0,5;2;0,6;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Alfa Romeo 159 - 3.2  (Naftero);Alfa Romeo;159;Elaion F50;Naftero;3.2;5,4;6;1,5;1;0,5;2;0,6;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Alfa Romeo Brera - 1.8  (Naftero);Alfa Romeo;Brera;Elaion F50;Naftero;1.8;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Alfa Romeo Brera - 2.2  (Naftero);Alfa Romeo;Brera;Elaion F50;Naftero;2.2;5,4;6;1,5;1;0,5;2;0,6;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Alfa Romeo Brera - 3.2  (Naftero);Alfa Romeo;Brera;Elaion F50;Naftero;3.2;5,4;6;1,5;1;0,5;2;0,6;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Alfa Romeo Mito - 1.4  (Naftero);Alfa Romeo;Mito;Elaion F50;Naftero;1.4;3,3;4;1;1;0;0;0,7;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Alfa Romeo Spider - 1.8  (Naftero);Alfa Romeo;Spider;Elaion F50;Naftero;1.8;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Alfa Romeo Spider - 2.2  (Naftero);Alfa Romeo;Spider;Elaion F50;Naftero;2.2;5,4;6;1,5;1;0,5;2;0,6;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Alfa Romeo Spider - 3.2  (Naftero);Alfa Romeo;Spider;Elaion F50;Naftero;3.2;5,4;6;1,5;1;0,5;2;0,6;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Audi A1 - 1.2  (Naftero);Audi;A1;Elaion F50;Naftero;1.2;3,6;4;1;1;0;0;0,4;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Audi A1 - 1.4  (Naftero);Audi;A1;Elaion F50;Naftero;1.4;3,6;4;1;1;0;0;0,4;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Audi A1 - 1.6  (Diesel);Audi;A1;Elaion F50;Diesel;1.6;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
+Alfa Romeo 147 - 2.0  (Naftero);Alfa Romeo;147;Elaion F50;Naftero;2.0;4,4;5;1,25;1;0,25;1;0,6;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Alfa Romeo 159 - 1.8  (Naftero);Alfa Romeo;159;Elaion F50;Naftero;1.8;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Alfa Romeo 159 - 2.2  (Naftero);Alfa Romeo;159;Elaion F50;Naftero;2.2;5,4;6;1,5;1;0,5;2;0,6;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Alfa Romeo 159 - 3.2  (Naftero);Alfa Romeo;159;Elaion F50;Naftero;3.2;5,4;6;1,5;1;0,5;2;0,6;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Alfa Romeo Brera - 1.8  (Naftero);Alfa Romeo;Brera;Elaion F50;Naftero;1.8;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Alfa Romeo Brera - 2.2  (Naftero);Alfa Romeo;Brera;Elaion F50;Naftero;2.2;5,4;6;1,5;1;0,5;2;0,6;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Alfa Romeo Brera - 3.2  (Naftero);Alfa Romeo;Brera;Elaion F50;Naftero;3.2;5,4;6;1,5;1;0,5;2;0,6;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Alfa Romeo Mito - 1.4  (Naftero);Alfa Romeo;Mito;Elaion F50;Naftero;1.4;3,3;4;1;1;0;0;0,7;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Alfa Romeo Spider - 1.8  (Naftero);Alfa Romeo;Spider;Elaion F50;Naftero;1.8;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Alfa Romeo Spider - 2.2  (Naftero);Alfa Romeo;Spider;Elaion F50;Naftero;2.2;5,4;6;1,5;1;0,5;2;0,6;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Alfa Romeo Spider - 3.2  (Naftero);Alfa Romeo;Spider;Elaion F50;Naftero;3.2;5,4;6;1,5;1;0,5;2;0,6;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Audi A1 - 1.2  (Naftero);Audi;A1;Elaion F50;Naftero;1.2;3,6;4;1;1;0;0;0,4;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Audi A1 - 1.4  (Naftero);Audi;A1;Elaion F50;Naftero;1.4;3,6;4;1;1;0;0;0,4;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Audi A1 - 1.6  (Diesel);Audi;A1;Elaion F50;Diesel;1.6;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
 Audi A1 -DPF - 1.6  (Diesel);Audi;A1 -DPF;Consultar manual;Diesel;1.6;4,3;5;1,25;1;0,25;1;0,7;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi A3 - 1.2  (Naftero);Audi;A3;Elaion F50;Naftero;1.2;3,7;4;1;1;0;0;0,3;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Audi A3 - 1.6  (Diesel);Audi;A3;Elaion F50;Diesel;1.6;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
+Audi A3 - 1.2  (Naftero);Audi;A3;Elaion F50;Naftero;1.2;3,7;4;1;1;0;0;0,3;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Audi A3 - 1.6  (Diesel);Audi;A3;Elaion F50;Diesel;1.6;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
 Audi A3 -DPF - 1.6  (Diesel);Audi;A3 -DPF;Consultar manual;Diesel;1.6;4,3;5;1,25;1;0,25;1;0,7;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi A3 Sportback - 1.4  (Naftero);Audi;A3 Sportback;Elaion F50;Naftero;1.4;3,6;4;1;1;0;0;0,4;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Audi A3 Sportback - 1.6  (Naftero);Audi;A3 Sportback;Elaion F50;Naftero;1.6;4,6;5;1,25;1;0,25;1;0,4;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi A3 Sportback - 1.8  (Naftero);Audi;A3 Sportback;Elaion F50;Naftero;1.8;4,6;5;1,25;1;0,25;1;0,4;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi A3 Sportback - 1.9  (Diesel);Audi;A3 Sportback;Elaion F50;Diesel;1.9;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi A3 Sportback - 2.0  (Diesel);Audi;A3 Sportback;Elaion F50;Diesel;2.0;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Audi A3 Sportback - 3.2  (Naftero);Audi;A3 Sportback;Elaion F50;Naftero;3.2;5,5;6;1,5;1;0,5;2;0,5;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
+Audi A3 Sportback - 1.4  (Naftero);Audi;A3 Sportback;Elaion F50;Naftero;1.4;3,6;4;1;1;0;0;0,4;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Audi A3 Sportback - 1.6  (Naftero);Audi;A3 Sportback;Elaion F50;Naftero;1.6;4,6;5;1,25;1;0,25;1;0,4;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi A3 Sportback - 1.8  (Naftero);Audi;A3 Sportback;Elaion F50;Naftero;1.8;4,6;5;1,25;1;0,25;1;0,4;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi A3 Sportback - 1.9  (Diesel);Audi;A3 Sportback;Elaion F50;Diesel;1.9;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi A3 Sportback - 2.0  (Diesel);Audi;A3 Sportback;Elaion F50;Diesel;2.0;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Audi A3 Sportback - 3.2  (Naftero);Audi;A3 Sportback;Elaion F50;Naftero;3.2;5,5;6;1,5;1;0,5;2;0,5;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
 Audi A3 Sportback -DPF - 1.9  (Diesel);Audi;A3 Sportback -DPF;Consultar manual;Diesel;1.9;4,3;5;1,25;1;0,25;1;0,7;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Audi A3 Sportback -DPF - 2.0  (Diesel);Audi;A3 Sportback -DPF;Consultar manual;Diesel;2.0;4,0;4;1;1;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi A4 - 1.8  (Naftero);Audi;A4;Elaion F50;Naftero;1.8;4,6;5;1,25;1;0,25;1;0,4;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi A4 - 2.0  (Diesel);Audi;A4;Elaion F50;Diesel;2.0;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi A4 Allroad - 2.0  (Naftero);Audi;A4 Allroad;Elaion F50;Naftero;2.0;4,6;5;1,25;1;0,25;1;0,4;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi A4 Allroad - 2.7  (Diesel);Audi;A4 Allroad;Elaion F50;Diesel;2.7;6,9;7;1,75;1;0,75;3;0,1;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
+Audi A4 - 1.8  (Naftero);Audi;A4;Elaion F50;Naftero;1.8;4,6;5;1,25;1;0,25;1;0,4;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi A4 - 2.0  (Diesel);Audi;A4;Elaion F50;Diesel;2.0;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi A4 Allroad - 2.0  (Naftero);Audi;A4 Allroad;Elaion F50;Naftero;2.0;4,6;5;1,25;1;0,25;1;0,4;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi A4 Allroad - 2.7  (Diesel);Audi;A4 Allroad;Elaion F50;Diesel;2.7;6,9;7;1,75;1;0,75;3;0,1;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
 Audi A4 Allroad -DPF - 2.7  (Diesel);Audi;A4 Allroad -DPF;Consultar manual;Diesel;2.7;6,9;7;1,75;1;0,75;3;0,1;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi A4 Avant - 3.0  (Diesel);Audi;A4 Avant;Elaion F50;Diesel;3.0;7,4;8;2;2;0;0;0,6;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Audi A4 Avant - 3.2  (Naftero);Audi;A4 Avant;Elaion F50;Naftero;3.2;6,2;7;1,75;1;0,75;3;0,8;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
+Audi A4 Avant - 3.0  (Diesel);Audi;A4 Avant;Elaion F50;Diesel;3.0;7,4;8;2;2;0;0;0,6;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Audi A4 Avant - 3.2  (Naftero);Audi;A4 Avant;Elaion F50;Naftero;3.2;6,2;7;1,75;1;0,75;3;0,8;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
 Audi A4 Avant -DPF - 3.0  (Diesel);Audi;A4 Avant -DPF;Consultar manual;Diesel;3.0;7,4;8;2;2;0;0;0,6;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Audi A4 -DPF - 2.0  (Diesel);Audi;A4 -DPF;Consultar manual;Diesel;2.0;5,0;5;1,25;1;0,25;1;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi A5 - 1.8  (Naftero);Audi;A5;Elaion F50;Naftero;1.8;4,6;5;1,25;1;0,25;1;0,4;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi A5 - 2.7  (Diesel);Audi;A5;Elaion F50;Diesel;2.7;6,9;7;1,75;1;0,75;3;0,1;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Audi A5 - 3.0  (Diesel);Audi;A5;Elaion F50;Diesel;3.0;6,9;7;1,75;1;0,75;3;0,1;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Audi A5 - 3.2  (Naftero);Audi;A5;Elaion F50;Naftero;3.2;6,2;7;1,75;1;0,75;3;0,8;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
+Audi A5 - 1.8  (Naftero);Audi;A5;Elaion F50;Naftero;1.8;4,6;5;1,25;1;0,25;1;0,4;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi A5 - 2.7  (Diesel);Audi;A5;Elaion F50;Diesel;2.7;6,9;7;1,75;1;0,75;3;0,1;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Audi A5 - 3.0  (Diesel);Audi;A5;Elaion F50;Diesel;3.0;6,9;7;1,75;1;0,75;3;0,1;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Audi A5 - 3.2  (Naftero);Audi;A5;Elaion F50;Naftero;3.2;6,2;7;1,75;1;0,75;3;0,8;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
 Audi A5 -DPF - 2.7  (Diesel);Audi;A5 -DPF;Consultar manual;Diesel;2.7;6,9;7;1,75;1;0,75;3;0,1;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Audi A5 -DPF - 3.0  (Diesel);Audi;A5 -DPF;Consultar manual;Diesel;3.0;6,9;7;1,75;1;0,75;3;0,1;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi A6 - 4cil  (Diesel);Audi;A6;Elaion F50;Diesel;4cil;3,8;4;1;1;0;0;0,2;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Audi A6 - 4cil  (Naftero);Audi;A6;Elaion F50;Naftero;4cil;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi A6 - 6cil  (Diesel);Audi;A6;Elaion F50;Diesel;6cil;8,2;9;2,25;2;0,25;1;0,8;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-Audi A6 - 6cil  (Naftero);Audi;A6;Elaion F50;Naftero;6cil;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Audi A6 - 8cil  (Naftero);Audi;A6;Elaion F50;Naftero;8cil;9,1;10;2,5;2;0,5;2;0,9;$ 491,51;$ 125,93;$ 983,02;$ 251,86;$ 1.234,88
+Audi A6 - 4cil  (Diesel);Audi;A6;Elaion F50;Diesel;4cil;3,8;4;1;1;0;0;0,2;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Audi A6 - 4cil  (Naftero);Audi;A6;Elaion F50;Naftero;4cil;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi A6 - 6cil  (Diesel);Audi;A6;Elaion F50;Diesel;6cil;8,2;9;2,25;2;0,25;1;0,8;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
+Audi A6 - 6cil  (Naftero);Audi;A6;Elaion F50;Naftero;6cil;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Audi A6 - 8cil  (Naftero);Audi;A6;Elaion F50;Naftero;8cil;9,1;10;2,5;2;0,5;2;0,9;$ 625,00;$ 163,00;$ 1.250,00;$ 326,00;$ 1.576,00
 Audi A6 -DPF - 4cil  (Diesel);Audi;A6 -DPF;Consultar manual;Diesel;4cil;3,8;4;1;1;0;0;0,2;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Audi A6 -DPF - 6cil  (Diesel);Audi;A6 -DPF;Consultar manual;Diesel;6cil;8,2;9;2,25;2;0,25;1;0,8;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi A8 - 2.8  (Naftero);Audi;A8;Elaion F50;Naftero;2.8;6,2;7;1,75;1;0,75;3;0,8;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Audi A8 - 3.0  (Diesel);Audi;A8;Elaion F50;Diesel;3.0;9,2;10;2,5;2;0,5;2;0,8;$ 491,51;$ 125,93;$ 983,02;$ 251,86;$ 1.234,88
-Audi A8 - 3.2  (Naftero);Audi;A8;Elaion F50;Naftero;3.2;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Audi A8 - 4.2  (Diesel);Audi;A8;Elaion F50;Diesel;4.2;9,5;10;2,5;2;0,5;2;0,5;$ 491,51;$ 125,93;$ 983,02;$ 251,86;$ 1.234,88
-Audi A8 - 4.2  (Naftero);Audi;A8;Elaion F50;Naftero;4.2;8,8;9;2,25;2;0,25;1;0,2;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-Audi A8 - W12  (Naftero);Audi;A8;Elaion F50;Naftero;W12;12,5;13;3,25;3;0,25;1;0,5;$ 491,51;$ 125,93;$ 1.474,53;$ 125,93;$ 1.600,46
+Audi A8 - 2.8  (Naftero);Audi;A8;Elaion F50;Naftero;2.8;6,2;7;1,75;1;0,75;3;0,8;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Audi A8 - 3.0  (Diesel);Audi;A8;Elaion F50;Diesel;3.0;9,2;10;2,5;2;0,5;2;0,8;$ 625,00;$ 163,00;$ 1.250,00;$ 326,00;$ 1.576,00
+Audi A8 - 3.2  (Naftero);Audi;A8;Elaion F50;Naftero;3.2;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Audi A8 - 4.2  (Diesel);Audi;A8;Elaion F50;Diesel;4.2;9,5;10;2,5;2;0,5;2;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 326,00;$ 1.576,00
+Audi A8 - 4.2  (Naftero);Audi;A8;Elaion F50;Naftero;4.2;8,8;9;2,25;2;0,25;1;0,2;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
+Audi A8 - W12  (Naftero);Audi;A8;Elaion F50;Naftero;W12;12,5;13;3,25;3;0,25;1;0,5;$ 625,00;$ 163,00;$ 1.875,00;$ 163,00;$ 2.038,00
 Audi A8 -DPF - 3.0  (Diesel);Audi;A8 -DPF;Consultar manual;Diesel;3.0;9,2;10;2,5;2;0,5;2;0,8;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Audi A8 -DPF - 4.2  (Diesel);Audi;A8 -DPF;Consultar manual;Diesel;4.2;9,5;10;2,5;2;0,5;2;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi Q5 - 2.0  (Diesel);Audi;Q5;Elaion F50;Diesel;2.0;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi Q5 - 2.0  (Naftero);Audi;Q5;Elaion F50;Naftero;2.0;4,6;5;1,25;1;0,25;1;0,4;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi Q5 - 3.0  (Diesel);Audi;Q5;Elaion F50;Diesel;3.0;6,9;7;1,75;1;0,75;3;0,1;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Audi Q5 - 3.2  (Naftero);Audi;Q5;Elaion F50;Naftero;3.2;6,2;7;1,75;1;0,75;3;0,8;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
+Audi Q5 - 2.0  (Diesel);Audi;Q5;Elaion F50;Diesel;2.0;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi Q5 - 2.0  (Naftero);Audi;Q5;Elaion F50;Naftero;2.0;4,6;5;1,25;1;0,25;1;0,4;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi Q5 - 3.0  (Diesel);Audi;Q5;Elaion F50;Diesel;3.0;6,9;7;1,75;1;0,75;3;0,1;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Audi Q5 - 3.2  (Naftero);Audi;Q5;Elaion F50;Naftero;3.2;6,2;7;1,75;1;0,75;3;0,8;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
 Audi Q5 -DPF - 2.0  (Diesel);Audi;Q5 -DPF;Consultar manual;Diesel;2.0;5,0;5;1,25;1;0,25;1;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Audi Q5 -DPF - 3.0  (Diesel);Audi;Q5 -DPF;Consultar manual;Diesel;3.0;6,9;7;1,75;1;0,75;3;0,1;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi Q7 - 3.0  (Diesel);Audi;Q7;Elaion F50;Diesel;3.0;8,2;9;2,25;2;0,25;1;0,8;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-Audi Q7 - 3.6  (Naftero);Audi;Q7;Elaion F50;Naftero;3.6;6,9;7;1,75;1;0,75;3;0,1;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Audi Q7 - 4.2  (Diesel);Audi;Q7;Elaion F50;Diesel;4.2;11,3;12;3;3;0;0;0,7;$ 491,51;$ 125,93;$ 1.474,53;$ 0,00;$ 1.474,53
-Audi Q7 - 4.2  (Naftero);Audi;Q7;Elaion F50;Naftero;4.2;9,1;10;2,5;2;0,5;2;0,9;$ 491,51;$ 125,93;$ 983,02;$ 251,86;$ 1.234,88
-Audi Q7 - 6.0  (Diesel);Audi;Q7;Elaion F50;Diesel;6.0;12,5;13;3,25;3;0,25;1;0,5;$ 491,51;$ 125,93;$ 1.474,53;$ 125,93;$ 1.600,46
+Audi Q7 - 3.0  (Diesel);Audi;Q7;Elaion F50;Diesel;3.0;8,2;9;2,25;2;0,25;1;0,8;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
+Audi Q7 - 3.6  (Naftero);Audi;Q7;Elaion F50;Naftero;3.6;6,9;7;1,75;1;0,75;3;0,1;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Audi Q7 - 4.2  (Diesel);Audi;Q7;Elaion F50;Diesel;4.2;11,3;12;3;3;0;0;0,7;$ 625,00;$ 163,00;$ 1.875,00;$ 0,00;$ 1.875,00
+Audi Q7 - 4.2  (Naftero);Audi;Q7;Elaion F50;Naftero;4.2;9,1;10;2,5;2;0,5;2;0,9;$ 625,00;$ 163,00;$ 1.250,00;$ 326,00;$ 1.576,00
+Audi Q7 - 6.0  (Diesel);Audi;Q7;Elaion F50;Diesel;6.0;12,5;13;3,25;3;0,25;1;0,5;$ 625,00;$ 163,00;$ 1.875,00;$ 163,00;$ 2.038,00
 Audi Q7 -DPF - 3.0  (Diesel);Audi;Q7 -DPF;Consultar manual;Diesel;3.0;8,2;9;2,25;2;0,25;1;0,8;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Audi Q7 -DPF - 4.2  (Diesel);Audi;Q7 -DPF;Consultar manual;Diesel;4.2;11,3;12;3;3;0;0;0,7;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Audi Q7 -DPF - 6.0  (Diesel);Audi;Q7 -DPF;Consultar manual;Diesel;6.0;12,5;13;3,25;3;0,25;1;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Audi R8 - 4.2  (Naftero);Audi;R8;Elaion F50;Naftero;4.2;10,0;10;2,5;2;0,5;2;0;$ 491,51;$ 125,93;$ 983,02;$ 251,86;$ 1.234,88
-Audi S3 - 2.0  (Naftero);Audi;S3;Elaion F50;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi S3 Sportback - 2.0  (Naftero);Audi;S3 Sportback;Elaion F50;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi S4 - 3.0  (Naftero);Audi;S4;Elaion F50;Naftero;3.0;6,2;7;1,75;1;0,75;3;0,8;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Audi S5 - 4.2  (Naftero);Audi;S5;Elaion F50;Naftero;4.2;8,8;9;2,25;2;0,25;1;0,2;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-Audi TT Coupe - 4cil  (Naftero);Audi;TT Coupe;Elaion F50;Naftero;4cil;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi TT Coupe - 6cil  (Naftero);Audi;TT Coupe;Elaion F50;Naftero;6cil;5,5;6;1,5;1;0,5;2;0,5;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Audi TT Roadster - 2.0  (Naftero);Audi;TT Roadster;Elaion F50;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Audi TT Roadster - 3.2  (Naftero);Audi;TT Roadster;Elaion F50;Naftero;3.2;5,5;6;1,5;1;0,5;2;0,5;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-BMW 116i -   (N/E);BMW;116i;Elaion F50;N/E;;4,2;5;1,25;1;0,25;1;0,8;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-BMW 120d -   (N/E);BMW;120d;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-BMW 120i -   (N/E);BMW;120i;Elaion F50;N/E;;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-BMW 130i -   (N/E);BMW;130i;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-BMW 320d sedan -   (N/E);BMW;320d sedan;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-BMW 320d touring -   (N/E);BMW;320d touring;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-BMW 320i sedan -   (N/E);BMW;320i sedan;Elaion F50;N/E;;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-BMW 323i sedan -   (N/E);BMW;323i sedan;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-BMW 325i coupe -   (N/E);BMW;325i coupe;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-BMW 330d sedan -   (N/E);BMW;330d sedan;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-BMW 330i CC -   (N/E);BMW;330i CC;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-BMW 330i sedan -   (N/E);BMW;330i sedan;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-BMW 335i coupe -   (N/E);BMW;335i coupe;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-BMW 335i sedan -   (N/E);BMW;335i sedan;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-BMW 530d -   (N/E);BMW;530d;Elaion F50;N/E;;7,0;7;1,75;1;0,75;3;0;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-BMW 530i -   (N/E);BMW;530i;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-BMW 550i -   (N/E);BMW;550i;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-BMW 650i -   (N/E);BMW;650i;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-BMW 750i -   (N/E);BMW;750i;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
+Audi R8 - 4.2  (Naftero);Audi;R8;Elaion F50;Naftero;4.2;10,0;10;2,5;2;0,5;2;0;$ 625,00;$ 163,00;$ 1.250,00;$ 326,00;$ 1.576,00
+Audi S3 - 2.0  (Naftero);Audi;S3;Elaion F50;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi S3 Sportback - 2.0  (Naftero);Audi;S3 Sportback;Elaion F50;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi S4 - 3.0  (Naftero);Audi;S4;Elaion F50;Naftero;3.0;6,2;7;1,75;1;0,75;3;0,8;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Audi S5 - 4.2  (Naftero);Audi;S5;Elaion F50;Naftero;4.2;8,8;9;2,25;2;0,25;1;0,2;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
+Audi TT Coupe - 4cil  (Naftero);Audi;TT Coupe;Elaion F50;Naftero;4cil;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi TT Coupe - 6cil  (Naftero);Audi;TT Coupe;Elaion F50;Naftero;6cil;5,5;6;1,5;1;0,5;2;0,5;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Audi TT Roadster - 2.0  (Naftero);Audi;TT Roadster;Elaion F50;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Audi TT Roadster - 3.2  (Naftero);Audi;TT Roadster;Elaion F50;Naftero;3.2;5,5;6;1,5;1;0,5;2;0,5;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+BMW 116i -   (N/E);BMW;116i;Elaion F50;N/E;;4,2;5;1,25;1;0,25;1;0,8;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+BMW 120d -   (N/E);BMW;120d;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+BMW 120i -   (N/E);BMW;120i;Elaion F50;N/E;;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+BMW 130i -   (N/E);BMW;130i;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+BMW 320d sedan -   (N/E);BMW;320d sedan;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+BMW 320d touring -   (N/E);BMW;320d touring;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+BMW 320i sedan -   (N/E);BMW;320i sedan;Elaion F50;N/E;;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+BMW 323i sedan -   (N/E);BMW;323i sedan;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+BMW 325i coupe -   (N/E);BMW;325i coupe;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+BMW 330d sedan -   (N/E);BMW;330d sedan;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+BMW 330i CC -   (N/E);BMW;330i CC;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+BMW 330i sedan -   (N/E);BMW;330i sedan;Elaion F50;N/E;;5,2;6;1,5;1;0,5;2;0,8;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+BMW 335i coupe -   (N/E);BMW;335i coupe;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+BMW 335i sedan -   (N/E);BMW;335i sedan;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+BMW 530d -   (N/E);BMW;530d;Elaion F50;N/E;;7,0;7;1,75;1;0,75;3;0;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+BMW 530i -   (N/E);BMW;530i;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+BMW 550i -   (N/E);BMW;550i;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
+BMW 650i -   (N/E);BMW;650i;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+BMW 750i -   (N/E);BMW;750i;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
 BMW M3 -   (N/E);BMW;M3;Consultar manual;N/E;;8,8;9;2,25;2;0,25;1;0,2;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 BMW M5 -   (N/E);BMW;M5;Consultar manual;N/E;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 BMW M6 -   (N/E);BMW;M6;Consultar manual;N/E;;9,3;10;2,5;2;0,5;2;0,7;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-BMW X3 -   (N/E);BMW;X3;Elaion SUV;N/E;;0,0;0;0;0;0;0;0;$ 535,85;$ 134,09;$ 0,00;$ 0,00;$ 0,00
-BMW X5 -   (N/E);BMW;X5;Elaion SUV;N/E;;0,0;0;0;0;0;0;0;$ 535,85;$ 134,09;$ 0,00;$ 0,00;$ 0,00
-BMW X6 xdrive 35 y 50 -   (N/E);BMW;X6 xdrive 35 y 50;Elaion SUV;N/E;;7,3;8;2;2;0;0;0,7;$ 535,85;$ 134,09;$ 1.071,70;$ 0,00;$ 1.071,70
-BMW Z4 -   (N/E);BMW;Z4;Elaion F50;N/E;;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Chery A1 -   (Naftero);Chery;A1;Elaion F50;Naftero;;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Chery A1 -   (Naftero);Chery;A1;Elaion F50E;Naftero;;4,0;4;1;1;0;0;0;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Chery A1 -   (Naftero);Chery;A1;Elaion F30;Naftero;;4,0;4;1;1;0;0;0;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Chery Face -   (Naftero);Chery;Face;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Chery Face -   (Naftero);Chery;Face;Elaion F50E;Naftero;;0,0;0;0;0;0;0;0;$ 478,32;$ 120,10;$ 0,00;$ 0,00;$ 0,00
-Chery Face -   (Naftero);Chery;Face;Elaion F30;Naftero;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Chery QQ -   (Naftero);Chery;QQ;Elaion F50;Naftero;;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Chery QQ -   (Naftero);Chery;QQ;Elaion F50E;Naftero;;3,5;4;1;1;0;0;0,5;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Chery QQ -   (Naftero);Chery;QQ;Elaion F30;Naftero;;3,5;4;1;1;0;0;0,5;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Chery Tiggo -   (Naftero);Chery;Tiggo;Elaion SUV;Naftero;;4,3;5;1,25;1;0,25;1;0,7;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Chevrolet Agile - 1.4  (Naftero);Chevrolet;Agile;Elaion d1;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 493,52;$ 123,60;$ 493,52;$ 0,00;$ 493,52
-Chevrolet Astra - 1.7  (Diesel);Chevrolet;Astra;Elaion d2;Diesel;1.7;5,2;0;0;$ 430,92;$ 109,18;;;;;$ 478,32;$ 120,10;$ 598,42
-Chevrolet Astra - 2.0  (Naftero);Chevrolet;Astra;Elaion F50E;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Chevrolet Astra - 2.4  (Naftero);Chevrolet;Astra;Elaion F50E;Naftero;2.4;4,5;0;;;;;;;;;;
-Chevrolet Aveo - 1.4  (Naftero);Chevrolet;Aveo;Elaion F50;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;;;
-Chevrolet Captiva - 2.0  (Diesel);Chevrolet;Captiva;Elaion d2;Diesel;2.0;6,2;7;1,75;1;0,75;3;0,8;$ 492,31;$ 125,93;$ 492,31;$ 377,79;$ 870,10
+BMW X3 -   (N/E);BMW;X3;Elaion SUV;N/E;;0,0;0;0;0;0;0;0;$ 682,00;$ 174,00;$ 0,00;$ 0,00;$ 0,00
+BMW X5 -   (N/E);BMW;X5;Elaion SUV;N/E;;0,0;0;0;0;0;0;0;$ 682,00;$ 174,00;$ 0,00;$ 0,00;$ 0,00
+BMW X6 xdrive 35 y 50 -   (N/E);BMW;X6 xdrive 35 y 50;Elaion SUV;N/E;;7,3;8;2;2;0;0;0,7;$ 682,00;$ 174,00;$ 1.364,00;$ 0,00;$ 1.364,00
+BMW Z4 -   (N/E);BMW;Z4;Elaion F50;N/E;;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Chery A1 -   (Naftero);Chery;A1;Elaion F50;Naftero;;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Chery Face -   (Naftero);Chery;Face;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Chery QQ -   (Naftero);Chery;QQ;Elaion F50;Naftero;;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Chery Tiggo -   (Naftero);Chery;Tiggo;Elaion SUV;Naftero;;4,3;5;1,25;1;0,25;1;0,7;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Chevrolet Agile - 1.4  (Naftero);Chevrolet;Agile;Elaion d1;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 628,00;$ 160,00;$ 628,00;$ 0,00;$ 628,00
+Chevrolet Astra - 1.7  (Diesel);Chevrolet;Astra;Elaion d2;Diesel;1.7;5,2;0;0;$ 430,92;$ 109,18;;;;;$ 609,00;$ 156,00;$ 765,00
+Chevrolet Astra - 2.0  (Naftero);Chevrolet;Astra;Elaion F50E;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Chevrolet Astra - 2.4  (Naftero);Chevrolet;Astra;Elaion F50E;Naftero;2.4;4,5;0;;;;;;;;$ 0,00;;
+Chevrolet Aveo - 1.4  (Naftero);Chevrolet;Aveo;Elaion F50;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Chevrolet Captiva - 2.0  (Diesel);Chevrolet;Captiva;Elaion d2;Diesel;2.0;6,2;7;1,75;1;0,75;3;0,8;$ 623,00;$ 163,00;$ 623,00;$ 489,00;$ 1.112,00
 Chevrolet Captiva - 3.6  (Naftero);Chevrolet;Captiva;Consultar manual;Naftero;3.6;5,2;6;1,5;1;0,5;2;0,8;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Chevrolet Classic - 1.4  (Naftero);Chevrolet;Classic;Elaion d1;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 493,52;$ 123,60;$ 493,52;$ 0,00;$ 493,52
-Chevrolet Classic - 1.6  (Naftero);Chevrolet;Classic;Elaion d1;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 493,52;$ 123,60;$ 493,52;$ 0,00;$ 493,52
-Chevrolet Cruze - 2.0  (Diesel);Chevrolet;Cruze;Elaion d2;Diesel;2.0;6,2;7;1,75;1;0,75;3;0,8;$ 492,31;$ 125,93;$ 492,31;$ 377,79;$ 870,10
-Chevrolet Cruze - 2.0 24v  (Naftero);Chevrolet;Cruze;Elaion d1;Naftero;2.0 24v;5,0;5;1,25;1;0,25;1;0;$ 493,52;$ 123,60;$ 493,52;$ 123,60;$ 617,12
-Chevrolet Meriva - 1,7  (Diesel);Chevrolet;Meriva;Elaion d2;Diesel;1,7;5,2;6;1,5;1;0,5;2;0,8;$ 492,31;$ 125,93;$ 492,31;$ 251,86;$ 744,17
-Chevrolet Meriva - 1.8  (Naftero);Chevrolet;Meriva;Elaion d1;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 493,52;$ 123,60;$ 493,52;$ 0,00;$ 493,52
-Chevrolet Montana -   (Naftero);Chevrolet;Montana;Elaion d1;Naftero;;3,5;4;1;1;0;0;0,5;$ 493,52;$ 123,60;$ 493,52;$ 0,00;$ 493,52
-Chevrolet Prisma - 1.4  (Naftero);Chevrolet;Prisma;Elaion d1;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 493,52;$ 123,60;$ 493,52;$ 0,00;$ 493,52
+Chevrolet Classic - 1.4  (Naftero);Chevrolet;Classic;Elaion d1;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 628,00;$ 160,00;$ 628,00;$ 0,00;$ 628,00
+Chevrolet Classic - 1.6  (Naftero);Chevrolet;Classic;Elaion d1;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 628,00;$ 160,00;$ 628,00;$ 0,00;$ 628,00
+Chevrolet Cruze - 2.0  (Diesel);Chevrolet;Cruze;Elaion d2;Diesel;2.0;6,2;7;1,75;1;0,75;3;0,8;$ 623,00;$ 163,00;$ 623,00;$ 489,00;$ 1.112,00
+Chevrolet Cruze - 2.0 24v  (Naftero);Chevrolet;Cruze;Elaion d1;Naftero;2.0 24v;5,0;5;1,25;1;0,25;1;0;$ 628,00;$ 160,00;$ 628,00;$ 160,00;$ 788,00
+Chevrolet Meriva - 1,7  (Diesel);Chevrolet;Meriva;Elaion d2;Diesel;1,7;5,2;6;1,5;1;0,5;2;0,8;$ 623,00;$ 163,00;$ 623,00;$ 326,00;$ 949,00
+Chevrolet Meriva - 1.8  (Naftero);Chevrolet;Meriva;Elaion d1;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 628,00;$ 160,00;$ 628,00;$ 0,00;$ 628,00
+Chevrolet Montana -   (Naftero);Chevrolet;Montana;Elaion d1;Naftero;;3,5;4;1;1;0;0;0,5;$ 628,00;$ 160,00;$ 628,00;$ 0,00;$ 628,00
+Chevrolet Prisma - 1.4  (Naftero);Chevrolet;Prisma;Elaion d1;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 628,00;$ 160,00;$ 628,00;$ 0,00;$ 628,00
 Chevrolet S-10 -   (Diesel);Chevrolet;S-10;Elaion Torque;Diesel;;6,0;;;;;;;;;;;
 Chevrolet S-10 -   (Naftero);Chevrolet;S-10;Consultar manual;Naftero;;4,3;5;1,25;1;0,25;1;0,7;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Chevrolet Sonic - 2.0 24v  (Naftero);Chevrolet;Sonic;Elaion d1;Naftero;2.0 24v;5,0;5;1,25;1;0,25;1;0;$ 493,52;$ 123,60;$ 493,52;$ 123,60;$ 617,12
-Chevrolet Spark - 1.2  (Naftero);Chevrolet;Spark;Elaion F50;Naftero;1.2;3,8;4;1;1;0;0;0,2;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Chevrolet Vectra -   (Naftero);Chevrolet;Vectra;Elaion F50E;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Chevrolet Vectra GT -   (Naftero);Chevrolet;Vectra GT;Elaion F50E;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Chevrolet Zafira - 2.0  (Naftero);Chevrolet;Zafira;Elaion F50E;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
+Chevrolet Sonic - 2.0 24v  (Naftero);Chevrolet;Sonic;Elaion d1;Naftero;2.0 24v;5,0;5;1,25;1;0,25;1;0;$ 628,00;$ 160,00;$ 628,00;$ 160,00;$ 788,00
+Chevrolet Spark - 1.2  (Naftero);Chevrolet;Spark;Elaion F50;Naftero;1.2;3,8;4;1;1;0;0;0,2;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Chevrolet Vectra -   (Naftero);Chevrolet;Vectra;Elaion F50E;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Chevrolet Vectra GT -   (Naftero);Chevrolet;Vectra GT;Elaion F50E;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Chevrolet Zafira - 2.0  (Naftero);Chevrolet;Zafira;Elaion F50E;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
 Chrysler 300 C -   (Naftero);Chrysler;300 C;Consultar Manual;Naftero;;5,7;6;1,5;1;0,5;2;0,3;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Chrysler Cherokee -   (Diesel);Chrysler;Cherokee;Elaion SUV;Diesel;;0,0;0;0;0;0;0;0;$ 535,85;$ 134,09;$ 0,00;$ 0,00;$ 0,00
-Chrysler Cherokee -   (Naftero);Chrysler;Cherokee;Elaion SUV;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
+Chrysler Cherokee -   (Diesel);Chrysler;Cherokee;Elaion SUV;Diesel;;0,0;0;0;0;0;0;0;$ 682,00;$ 174,00;$ 0,00;$ 0,00;$ 0,00
+Chrysler Cherokee -   (Naftero);Chrysler;Cherokee;Elaion SUV;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
 Chrysler Cherokee -DPF -   (Diesel);Chrysler;Cherokee -DPF;Consultar manual;Diesel;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Chrysler Compass -   (Naftero);Chrysler;Compass;Elaion SUV;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
+Chrysler Compass -   (Naftero);Chrysler;Compass;Elaion SUV;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
 Chrysler Grand Cherokee -   (Diesel);Chrysler;Grand Cherokee;Consultar Manual;Diesel;;9,5;10;2,5;2;0,5;2;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Chrysler Grand Cherokee -   (Naftero);Chrysler;Grand Cherokee;Consultar Manual;Naftero;;9,5;10;2,5;2;0,5;2;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Chrysler Grand Cherokee -DPF -   (Diesel);Chrysler;Grand Cherokee -DPF;Consultar Manual;Diesel;;9,5;10;2,5;2;0,5;2;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Chrysler Jeep Wrangler -   (Diesel);Chrysler;Jeep Wrangler;Elaion SUV;Diesel;;7,0;7;1,75;1;0,75;3;0;$ 535,85;$ 134,09;$ 535,85;$ 402,27;$ 938,12
-Chrysler Jeep Wrangler -   (Naftero);Chrysler;Jeep Wrangler;Elaion SUV;Naftero;;7,0;7;1,75;1;0,75;3;0;$ 535,85;$ 134,09;$ 535,85;$ 402,27;$ 938,12
+Chrysler Jeep Wrangler -   (Diesel);Chrysler;Jeep Wrangler;Elaion SUV;Diesel;;7,0;7;1,75;1;0,75;3;0;$ 682,00;$ 174,00;$ 682,00;$ 522,00;$ 1.204,00
+Chrysler Jeep Wrangler -   (Naftero);Chrysler;Jeep Wrangler;Elaion SUV;Naftero;;7,0;7;1,75;1;0,75;3;0;$ 682,00;$ 174,00;$ 682,00;$ 522,00;$ 1.204,00
 Chrysler Jeep Wrangler -DPF -   (Diesel);Chrysler;Jeep Wrangler -DPF;Consultar manual;Diesel;;7,0;7;1,75;1;0,75;3;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Chrysler Patriot -   (Naftero);Chrysler;Patriot;Elaion SUV;Naftero;;4,3;5;1,25;1;0,25;1;0,7;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Chrysler PT Cruiser -   (Diesel);Chrysler;PT Cruiser;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Chrysler PT Cruiser -   (Naftero);Chrysler;PT Cruiser;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen Berlingo -   (Diesel);Citroen;Berlingo;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen Berlingo -   (Diesel);Citroen;Berlingo;Elaion F30;Diesel;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen Berlingo -   (Naftero);Citroen;Berlingo;Elaion F50;Naftero;;3,4;4;1;1;0;0;0,6;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Citroen Berlingo -   (Naftero);Citroen;Berlingo;Elaion F30;Naftero;;3,2;4;1;1;0;0;0,8;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Citroen C3 -   (Diesel);Citroen;C3;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen C3 -   (Diesel);Citroen;C3;Elaion F30;Diesel;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen C3 -   (Naftero);Citroen;C3;Elaion F50;Naftero;;3,2;4;1;1;0;0;0,8;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Citroen C3 -   (Naftero);Citroen;C3;Elaion F30;Naftero;;3,2;4;1;1;0;0;0,8;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Citroen C4 -   (Diesel);Citroen;C4;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen C4 -   (Diesel);Citroen;C4;Elaion F30;Diesel;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen C4 -   (Naftero);Citroen;C4;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen C4 -   (Naftero);Citroen;C4;Elaion F30;Naftero;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen C4 Grand Picasso -   (Diesel);Citroen;C4 Grand Picasso;Elaion F30;Diesel;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen C4 Grand Picasso - 138cv  (Diesel);Citroen;C4 Grand Picasso;Elaion F30;Diesel;138cv;5,3;6;1,5;1;0,5;2;0,75;$ 355,21;$ 90,12;$ 355,21;$ 180,24;$ 535,45
-Citroen C4 Grand Picasso - 5.0  (Naftero);Citroen;C4 Grand Picasso;Elaion F30;Naftero;5.0;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen C4 Picasso -   (Diesel);Citroen;C4 Picasso;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen C4 Picasso - 110cv  (Diesel);Citroen;C4 Picasso;Elaion F50;Diesel;110cv;3,8;4;1;1;0;0;0,25;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Citroen C4 Picasso - 5.0  (Naftero);Citroen;C4 Picasso;Elaion F50;Naftero;5.0;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen C5 -   (Diesel);Citroen;C5;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen C5 -   (Diesel);Citroen;C5;Elaion F30;Diesel;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen C5 - 5.0  (Naftero);Citroen;C5;Elaion F50;Naftero;5.0;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen C5 - 5.0  (Naftero);Citroen;C5;Elaion F30;Naftero;5.0;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen C6 -   (Diesel);Citroen;C6;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen C6 -   (Diesel);Citroen;C6;Elaion F30;Diesel;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen C6 -   (Naftero);Citroen;C6;Elaion F50;Naftero;;5,3;6;1,5;1;0,5;2;0,7;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Citroen C6 -   (Naftero);Citroen;C6;Elaion F30;Naftero;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen Jumper -   (Diesel);Citroen;Jumper;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen Jumper -   (Diesel);Citroen;Jumper;Elaion F30;Diesel;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen Jumper -   (Naftero);Citroen;Jumper;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Citroen Jumper -   (Naftero);Citroen;Jumper;Elaion F30;Naftero;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Citroen Xsara Picasso -   (Naftero);Citroen;Xsara Picasso;Elaion F50;Naftero;;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Citroen Xsara Picasso -   (Naftero);Citroen;Xsara Picasso;Elaion F30;Naftero;;4,3;5;1,25;1;0,25;1;0,7;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
+Chrysler Patriot -   (Naftero);Chrysler;Patriot;Elaion SUV;Naftero;;4,3;5;1,25;1;0,25;1;0,7;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Chrysler PT Cruiser -   (Diesel);Chrysler;PT Cruiser;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Chrysler PT Cruiser -   (Naftero);Chrysler;PT Cruiser;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen Berlingo -   (Diesel);Citroen;Berlingo;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen Berlingo -   (Naftero);Citroen;Berlingo;Elaion F50;Naftero;;3,4;4;1;1;0;0;0,6;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Citroen C3 -   (Diesel);Citroen;C3;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C3 -   (Naftero);Citroen;C3;Elaion F50;Naftero;;3,2;4;1;1;0;0;0,8;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Citroen C4 -   (Diesel);Citroen;C4;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C4 -   (Naftero);Citroen;C4;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C4 Grand Picasso -   (Diesel);Citroen;C4 Grand Picasso;Elaion F30;Diesel;;0,0;0;0;0;0;0;0;$ 452,00;$ 117,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C4 Grand Picasso - 138cv  (Diesel);Citroen;C4 Grand Picasso;Elaion F30;Diesel;138cv;5,3;6;1,5;1;0,5;2;0,75;$ 452,00;$ 117,00;$ 452,00;$ 234,00;$ 686,00
+Citroen C4 Grand Picasso - 5.0  (Naftero);Citroen;C4 Grand Picasso;Elaion F30;Naftero;5.0;0,0;0;0;0;0;0;0;$ 452,00;$ 117,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C4 Picasso -   (Diesel);Citroen;C4 Picasso;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C4 Picasso - 110cv  (Diesel);Citroen;C4 Picasso;Elaion F50;Diesel;110cv;3,8;4;1;1;0;0;0,25;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Citroen C4 Picasso - 5.0  (Naftero);Citroen;C4 Picasso;Elaion F50;Naftero;5.0;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C5 -   (Diesel);Citroen;C5;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C5 - 5.0  (Naftero);Citroen;C5;Elaion F50;Naftero;5.0;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C6 -   (Diesel);Citroen;C6;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen C6 -   (Naftero);Citroen;C6;Elaion F50;Naftero;;5,3;6;1,5;1;0,5;2;0,7;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Citroen Jumper -   (Diesel);Citroen;Jumper;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen Jumper -   (Naftero);Citroen;Jumper;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Citroen Xsara Picasso -   (Naftero);Citroen;Xsara Picasso;Elaion F50;Naftero;;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
 Ferrari 599 GTB  -   (Naftero);Ferrari;599 GTB ;Consultar manual;Naftero;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Ferrari California -   (Naftero);Ferrari;California;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Ferrari F 430 -   (Naftero);Ferrari;F 430;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
+Ferrari California -   (Naftero);Ferrari;California;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Ferrari F 430 -   (Naftero);Ferrari;F 430;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
 Ferrari Fiorano -   (Naftero);Ferrari;Fiorano;Consultar manual;Naftero;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Fiat 500 - 1.2  (Naftero);Fiat;500;Elaion F50;Naftero;1.2;2,8;3;0,75;0;0,75;3;0,2;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
+Fiat 500 - 1.2  (Naftero);Fiat;500;Elaion F50;Naftero;1.2;2,8;3;0,75;0;0,75;3;0,2;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
 Fiat 500 - 1.3  (Diesel);Fiat;500;Consultar manual;Diesel;1.3;3,0;3;0,75;0;0,75;3;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Fiat 500 - 1.4  (Naftero);Fiat;500;Elaion F50;Naftero;1.4;2,9;3;0,75;0;0,75;3;0,1;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Ducato -   (Diesel);Fiat;Ducato;Elaion Torque;Diesel;;0,0;0;0;0;0;0;0;$ 319,57;$ 80,88;$ 0,00;$ 0,00;$ 0,00
-Fiat Ducato -   (Diesel);Fiat;Ducato;Elaion Torque;Diesel;;4,3;5;1,25;1;0,25;1;0,7;$ 319,57;$ 80,88;$ 319,57;$ 80,88;$ 400,45
-Fiat Fiorino -   (Diesel);Fiat;Fiorino;Elaion F50;Diesel;;4,9;5;1,25;1;0,25;1;0,1;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Fiat Fiorino -   (Diesel);Fiat;Fiorino;Elaion F10;Diesel;;4,9;5;1,25;1;0,25;1;0,1;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Fiat Fiorino -   (Naftero);Fiat;Fiorino;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Fiorino -   (Naftero);Fiat;Fiorino;Elaion F30;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Fiat Idea - 1.4  (Naftero);Fiat;Idea;Elaion F50;Naftero;1.4;2,9;3;0,75;0;0,75;3;0,1;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Idea - 1.4  (Naftero);Fiat;Idea;Elaion F30;Naftero;1.4;2,9;3;0,75;0;0,75;3;0,1;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Fiat Idea - 1.8  (Naftero);Fiat;Idea;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Fiat Idea - 1.8  (Naftero);Fiat;Idea;Elaion F30;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Fiat Idea Adventure -   (Naftero);Fiat;Idea Adventure;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Idea Adventure -   (Naftero);Fiat;Idea Adventure;Elaion F30;Naftero;;4,3;5;1,25;1;0,25;1;0,7;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Fiat Linea -   (Naftero);Fiat;Linea;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Fiat Linea -   (Naftero);Fiat;Linea;Elaion F30;Naftero;;4,3;5;1,25;1;0,25;1;0,7;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Fiat Palio - 1.3  (Diesel);Fiat;Palio;Elaion F50;Diesel;1.3;2,8;3;0,75;0;0,75;3;0,2;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Palio - 1.4  (Naftero);Fiat;Palio;Elaion F50;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Palio - 1.4  (Naftero);Fiat;Palio;Elaion F30;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Fiat Palio - 1.8  (Naftero);Fiat;Palio;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Fiat Palio - 1.8  (Naftero);Fiat;Palio;Elaion F30;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Fiat Palio Fire -   (Naftero);Fiat;Palio Fire;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Palio Fire -   (Naftero);Fiat;Palio Fire;Elaion F30;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Fiat Palio Weekend - 1.3  (Diesel);Fiat;Palio Weekend;Elaion F50;Diesel;1.3;2,8;3;0,75;0;0,75;3;0,2;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Palio Weekend - 1.4  (Naftero);Fiat;Palio Weekend;Elaion F50;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Palio Weekend - 1.4  (Naftero);Fiat;Palio Weekend;Elaion F30;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Fiat Palio Weekend - 1.8  (Naftero);Fiat;Palio Weekend;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Fiat Palio Weekend - 1.8  (Naftero);Fiat;Palio Weekend;Elaion F30;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Fiat Punto - 1.3  (Diesel);Fiat;Punto;Elaion F50;Diesel;1.3;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Punto - 1.4  (Naftero);Fiat;Punto;Elaion F50E;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 478,32;$ 120,10;$ 0,00;$ 360,30;$ 360,30
-Fiat Punto - 1.8  (Naftero);Fiat;Punto;Elaion F30;Naftero;1.8;3,2;4;1;1;0;0;0,8;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Fiat Punto - 1.8  (Naftero);Fiat;Punto;Elaion F50;Naftero;1.8;3,2;4;1;1;0;0;0,8;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Fiat Siena - 1.3  (Diesel);Fiat;Siena;Elaion F50;Diesel;1.3;2,8;3;0,75;0;0,75;3;0,2;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Siena - 1.4  (Naftero);Fiat;Siena;Elaion F50E;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 478,32;$ 120,10;$ 0,00;$ 360,30;$ 360,30
-Fiat Siena - 1.4  (Naftero);Fiat;Siena;Elaion F50;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Siena - 1.4  (Naftero);Fiat;Siena;Elaion F30;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Fiat Siena - 1.8  (Naftero);Fiat;Siena;Elaion F50E;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Fiat Siena - 1.8  (Naftero);Fiat;Siena;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Fiat Siena - 1.8  (Naftero);Fiat;Siena;Elaion F30;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Fiat Siena Fire -   (Naftero);Fiat;Siena Fire;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Siena Fire -   (Naftero);Fiat;Siena Fire;Elaion F30;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Fiat Stilo -   (Naftero);Fiat;Stilo;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Fiat Strada - 1.3  (Diesel);Fiat;Strada;Elaion F50;Diesel;1.3;2,8;3;0,75;0;0,75;3;0,2;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Strada - 1.4  (Naftero);Fiat;Strada;Elaion F50;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Strada - 1.4  (Naftero);Fiat;Strada;Elaion F30;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Fiat Strada - 1.8  (Naftero);Fiat;Strada;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Fiat Strada - 1.8  (Naftero);Fiat;Strada;Elaion F30;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Fiat Uno -   (Diesel);Fiat;Uno;Elaion F50;Diesel;;4,1;5;1,25;1;0,25;1;0,9;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Fiat Uno -   (Diesel);Fiat;Uno;Elaion F30;Diesel;;4,1;5;1,25;1;0,25;1;0,9;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Fiat Uno -   (Diesel);Fiat;Uno;Elaion F10;Diesel;;4,1;5;1,25;1;0,25;1;0,9;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Fiat Uno -   (Naftero);Fiat;Uno;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Fiat Uno -   (Naftero);Fiat;Uno;Elaion F30;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Ford Courier - 1.6  (Naftero);Ford;Courier;Elaion F50E;Naftero;1.6;4,2;5;1,25;1;0,25;1;0,8;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford Courier - 1.8  (Diesel);Ford;Courier;Elaion F50E;Diesel;1.8;4,5;5;1,25;1;0,25;1;0,5;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford EcoSport - 1.4  (Diesel);Ford;EcoSport;Elaion F50E;Diesel;1.4;3,8;4;1;1;0;0;0,2;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Ford EcoSport - 1.6  (Naftero);Ford;EcoSport;Elaion F50E;Naftero;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford EcoSport - 2.0  (Naftero);Ford;EcoSport;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford F 100 120CV - 3.9  (Diesel);Ford;F 100 120CV;Elaion Torque;Diesel;3.9;10,5;11;2,75;2;0,75;3;0,5;$ 319,57;$ 80,88;$ 639,14;$ 242,64;$ 881,78
-Ford F 100 200CV - 3.9  (Diesel);Ford;F 100 200CV;Elaion Torque;Diesel;3.9;9,0;9;2,25;2;0,25;1;0;$ 319,57;$ 80,88;$ 639,14;$ 80,88;$ 720,02
-Ford Fiesta - 1.4  (Diesel);Ford;Fiesta;Elaion F50E;Diesel;1.4;3,8;4;1;1;0;0;0,2;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Ford Fiesta - 1.6  (Naftero);Ford;Fiesta;Elaion F50E;Naftero;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford Focus One - 1.6  (Naftero);Ford;Focus One;Elaion F50E;Naftero;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford Ka - 1.0  (Naftero);Ford;Ka;Elaion F50E;Naftero;1.0;4,1;5;1,25;1;0,25;1;0,9;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford Ka - 1.6  (Diesel);Ford;Ka;Elaion F50E;Diesel;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford Kuga - 2.5  (Naftero);Ford;Kuga;Elaion F50E;Naftero;2.5;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Ford Mondeo - 2.0  (Diesel);Ford;Mondeo;Elaion F50E;Diesel;2.0;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Ford Mondeo - 2.3  (Naftero);Ford;Mondeo;Elaion F50E;Naftero;2.3;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford Mondeo - 2.5  (Naftero);Ford;Mondeo;Elaion F50E;Naftero;2.5;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford New Focus - 1.6  (Naftero);Ford;New Focus;Elaion F50E;Naftero;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford New Focus - 1.8  (Diesel);Ford;New Focus;Elaion F50E;Diesel;1.8;5,6;6;1,5;1;0,5;2;0,4;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Ford New Focus - 2.0  (Naftero);Ford;New Focus;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford Ranger - 2.2D  (Naftero);Ford;Ranger;Elaion F50E;Naftero;2.2D;8,6;9;2,25;2;0,25;1;0,4;$ 478,32;$ 120,10;$ 956,64;$ 120,10;$ 1.076,74
-Ford Ranger - 2.3  (Naftero);Ford;Ranger;Elaion F50E;Naftero;2.3;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Ford Ranger - 2.5N  (Naftero);Ford;Ranger;Elaion F50E;Naftero;2.5N;6,7;7;1,75;1;0,75;3;0,3;$ 478,32;$ 120,10;$ 478,32;$ 360,30;$ 838,62
-Ford Ranger - 3.0  (Diesel);Ford;Ranger;Elaion F50E;Diesel;3.0;9,0;9;2,25;2;0,25;1;0;$ 478,32;$ 120,10;$ 956,64;$ 120,10;$ 1.076,74
-Ford Ranger - 3.2D  (Naftero);Ford;Ranger;Elaion F50E;Naftero;3.2D;9,8;10;2,5;2;0,5;2;0,25;$ 478,32;$ 120,10;$ 956,64;$ 240,20;$ 1.196,84
-Ford Smax - 1.8  (Diesel);Ford;Smax;Elaion F50E;Diesel;1.8;5,6;6;1,5;1;0,5;2;0,4;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Ford Smax - 2.3  (Naftero);Ford;Smax;Elaion F50E;Naftero;2.3;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Honda Accord -   (Naftero);Honda;Accord;Elaion F30;Naftero;;4,2;5;1,25;1;0,25;1;0,8;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Honda Accord -   (Naftero);Honda;Accord;Elaion F10;Naftero;;4,2;5;1,25;1;0,25;1;0,8;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Honda Accord - 2.0  (N/E);Honda;Accord;Elaion F50E;N/E;2.0;3,7;4;1;1;0;0;0,3;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Honda Accord - 2.4  (N/E);Honda;Accord;Elaion F50;N/E;2.4;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Honda City -   (Naftero);Honda;City;Elaion F50E;Naftero;;4,2;5;1,25;1;0,25;1;0,8;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Honda Civic -   (Naftero);Honda;Civic;Elaion F50E;Naftero;;3,4;4;1;1;0;0;0,6;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Honda CRV - 2.0  (N/E);Honda;CRV;Elaion SUV;N/E;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Honda CRV - 2.4  (N/E);Honda;CRV;Elaion SUV;N/E;2.4;5,3;6;1,5;1;0,5;2;0,7;$ 535,85;$ 134,09;$ 535,85;$ 268,18;$ 804,03
-Honda Fit -   (Naftero);Honda;Fit;Elaion F50E;Naftero;;3,6;4;1;1;0;0;0,4;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Honda Pilot -   (Naftero);Honda;Pilot;Elaion SUV;Naftero;;5,0;5;1,25;1;0,25;1;0;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Hyundai Genesis -   (Naftero);Hyundai;Genesis;Elaion F50;Naftero;;5,2;6;1,5;1;0,5;2;0,8;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Hyundai H-1 -   (Diesel);Hyundai;H-1;Elaion F50;Diesel;;7,4;8;2;2;0;0;0,6;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Hyundai H-1 -   (Diesel);Hyundai;H-1;Elaion F30;Diesel;;7,4;8;2;2;0;0;0,6;$ 355,21;$ 90,12;$ 710,42;$ 0,00;$ 710,42
-Hyundai H-1 -   (Diesel);Hyundai;H-1;Elaion F10;Diesel;;7,4;8;2;2;0;0;0,6;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Hyundai H-100 -   (Diesel);Hyundai;H-100;Elaion F50;Diesel;;7,4;8;2;2;0;0;0,6;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Hyundai H-100 -   (Diesel);Hyundai;H-100;Elaion F30;Diesel;;7,4;8;2;2;0;0;0,6;$ 355,21;$ 90,12;$ 710,42;$ 0,00;$ 710,42
-Hyundai H-100 -   (Diesel);Hyundai;H-100;Elaion F10;Diesel;;7,4;8;2;2;0;0;0,6;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Hyundai HD 78 -   (Diesel);Hyundai;HD 78;Elaion F50;Diesel;;7,4;8;2;2;0;0;0,6;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Hyundai HD 78 -   (Diesel);Hyundai;HD 78;Elaion F30;Diesel;;7,4;8;2;2;0;0;0,6;$ 355,21;$ 90,12;$ 710,42;$ 0,00;$ 710,42
-Hyundai HD 78 -   (Diesel);Hyundai;HD 78;Elaion F10;Diesel;;7,4;8;2;2;0;0;0,6;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Hyundai i10 -   (Naftero);Hyundai;i10;Elaion F50E;Naftero;;3,6;4;1;1;0;0;0,4;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Hyundai i30 -   (Naftero);Hyundai;i30;Elaion F50E;Naftero;;3,3;4;1;1;0;0;0,7;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Hyundai Santa Fe -   (Diesel);Hyundai;Santa Fe;Elaion SUV;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 535,85;$ 134,09;$ 535,85;$ 268,18;$ 804,03
-Hyundai Santa Fe -   (Naftero);Hyundai;Santa Fe;Elaion F50E;Naftero;;4,6;5;1,25;1;0,25;1;0,4;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Hyundai Terracan -   (Diesel);Hyundai;Terracan;Elaion SUV;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 535,85;$ 134,09;$ 535,85;$ 268,18;$ 804,03
-Hyundai Terracan -   (Naftero);Hyundai;Terracan;Elaion F50E;Naftero;;4,4;5;1,25;1;0,25;1;0,6;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Hyundai Trajet -   (Diesel);Hyundai;Trajet;Elaion Torque;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 319,57;$ 80,88;$ 319,57;$ 161,76;$ 481,33
-Hyundai Trajet -   (Naftero);Hyundai;Trajet;Elaion F50E;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Hyundai Tucson -   (Diesel);Hyundai;Tucson;Elaion SUV;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 535,85;$ 134,09;$ 535,85;$ 268,18;$ 804,03
-Hyundai Tucson -   (Naftero);Hyundai;Tucson;Elaion F50E;Naftero;;4,1;5;1,25;1;0,25;1;0,9;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Hyundai Veracruz -   (Diesel);Hyundai;Veracruz;Elaion SUV;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 535,85;$ 134,09;$ 535,85;$ 268,18;$ 804,03
-Hyundai Veracruz -   (Naftero);Hyundai;Veracruz;Elaion SUV;Naftero;;5,2;6;1,5;1;0,5;2;0,8;$ 535,85;$ 134,09;$ 535,85;$ 268,18;$ 804,03
-Hyundai Veracruz -DPF -   (Diesel);Hyundai;Veracruz -DPF;Elaion SUV;Diesel;;7,2;8;2;2;0;0;0,8;$ 535,85;$ 134,09;$ 1.071,70;$ 0,00;$ 1.071,70
+Fiat 500 - 1.4  (Naftero);Fiat;500;Elaion F50;Naftero;1.4;2,9;3;0,75;0;0,75;3;0,1;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Ducato -   (Diesel);Fiat;Ducato;Elaion Torque;Diesel;;4,3;5;1,25;1;0,25;1;0,7;$ 407,00;$ 105,00;$ 407,00;$ 105,00;$ 512,00
+Fiat Fiorino -   (Diesel);Fiat;Fiorino;Elaion F50;Diesel;;4,9;5;1,25;1;0,25;1;0,1;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Fiat Fiorino -   (Naftero);Fiat;Fiorino;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Idea - 1.4  (Naftero);Fiat;Idea;Elaion F50;Naftero;1.4;2,9;3;0,75;0;0,75;3;0,1;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Idea - 1.8  (Naftero);Fiat;Idea;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Fiat Idea Adventure -   (Naftero);Fiat;Idea Adventure;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Linea -   (Naftero);Fiat;Linea;Elaion F30;Naftero;;4,3;5;1,25;1;0,25;1;0,7;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Fiat Palio - 1.3  (Diesel);Fiat;Palio;Elaion F50;Diesel;1.3;2,8;3;0,75;0;0,75;3;0,2;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Palio - 1.4  (Naftero);Fiat;Palio;Elaion F50;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Palio - 1.8  (Naftero);Fiat;Palio;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Fiat Palio Fire -   (Naftero);Fiat;Palio Fire;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Palio Weekend - 1.3  (Diesel);Fiat;Palio Weekend;Elaion F50;Diesel;1.3;2,8;3;0,75;0;0,75;3;0,2;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Palio Weekend - 1.4  (Naftero);Fiat;Palio Weekend;Elaion F50;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Palio Weekend - 1.8  (Naftero);Fiat;Palio Weekend;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Fiat Punto - 1.3  (Diesel);Fiat;Punto;Elaion F50;Diesel;1.3;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Punto - 1.4  (Naftero);Fiat;Punto;Elaion F50E;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 609,00;$ 156,00;$ 0,00;$ 468,00;$ 468,00
+Fiat Punto - 1.8  (Naftero);Fiat;Punto;Elaion F50;Naftero;1.8;3,2;4;1;1;0;0;0,8;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Fiat Siena - 1.3  (Diesel);Fiat;Siena;Elaion F50;Diesel;1.3;2,8;3;0,75;0;0,75;3;0,2;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Siena - 1.4  (Naftero);Fiat;Siena;Elaion F50;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Siena - 1.8  (Naftero);Fiat;Siena;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Fiat Siena Fire -   (Naftero);Fiat;Siena Fire;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Stilo -   (Naftero);Fiat;Stilo;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Fiat Strada - 1.3  (Diesel);Fiat;Strada;Elaion F50;Diesel;1.3;2,8;3;0,75;0;0,75;3;0,2;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Strada - 1.4  (Naftero);Fiat;Strada;Elaion F50;Naftero;1.4;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Fiat Strada - 1.8  (Naftero);Fiat;Strada;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Fiat Uno -   (Diesel);Fiat;Uno;Elaion F50;Diesel;;4,1;5;1,25;1;0,25;1;0,9;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Fiat Uno -   (Naftero);Fiat;Uno;Elaion F50;Naftero;;2,7;3;0,75;0;0,75;3;0,3;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Ford Courier - 1.6  (Naftero);Ford;Courier;Elaion F50E;Naftero;1.6;4,2;5;1,25;1;0,25;1;0,8;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford Courier - 1.8  (Diesel);Ford;Courier;Elaion F50E;Diesel;1.8;4,5;5;1,25;1;0,25;1;0,5;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford EcoSport - 1.4  (Diesel);Ford;EcoSport;Elaion F50E;Diesel;1.4;3,8;4;1;1;0;0;0,2;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Ford EcoSport - 1.6  (Naftero);Ford;EcoSport;Elaion F50E;Naftero;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford EcoSport - 2.0  (Naftero);Ford;EcoSport;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford F 100 120CV - 3.9  (Diesel);Ford;F 100 120CV;Elaion Torque;Diesel;3.9;10,5;11;2,75;2;0,75;3;0,5;$ 407,00;$ 105,00;$ 814,00;$ 315,00;$ 1.129,00
+Ford F 100 200CV - 3.9  (Diesel);Ford;F 100 200CV;Elaion Torque;Diesel;3.9;9,0;9;2,25;2;0,25;1;0;$ 407,00;$ 105,00;$ 814,00;$ 105,00;$ 919,00
+Ford Fiesta - 1.4  (Diesel);Ford;Fiesta;Elaion F50E;Diesel;1.4;3,8;4;1;1;0;0;0,2;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Ford Fiesta - 1.6  (Naftero);Ford;Fiesta;Elaion F50E;Naftero;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford Focus One - 1.6  (Naftero);Ford;Focus One;Elaion F50E;Naftero;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford Ka - 1.0  (Naftero);Ford;Ka;Elaion F50E;Naftero;1.0;4,1;5;1,25;1;0,25;1;0,9;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford Ka - 1.6  (Diesel);Ford;Ka;Elaion F50E;Diesel;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford Kuga - 2.5  (Naftero);Ford;Kuga;Elaion F50E;Naftero;2.5;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Ford Mondeo - 2.0  (Diesel);Ford;Mondeo;Elaion F50E;Diesel;2.0;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Ford Mondeo - 2.3  (Naftero);Ford;Mondeo;Elaion F50E;Naftero;2.3;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford Mondeo - 2.5  (Naftero);Ford;Mondeo;Elaion F50E;Naftero;2.5;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford New Focus - 1.6  (Naftero);Ford;New Focus;Elaion F50E;Naftero;1.6;4,1;5;1,25;1;0,25;1;0,9;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford New Focus - 1.8  (Diesel);Ford;New Focus;Elaion F50E;Diesel;1.8;5,6;6;1,5;1;0,5;2;0,4;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Ford New Focus - 2.0  (Naftero);Ford;New Focus;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford Ranger - 2.2D  (Naftero);Ford;Ranger;Elaion F50E;Naftero;2.2D;8,6;9;2,25;2;0,25;1;0,4;$ 609,00;$ 156,00;$ 1.218,00;$ 156,00;$ 1.374,00
+Ford Ranger - 2.3  (Naftero);Ford;Ranger;Elaion F50E;Naftero;2.3;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Ford Ranger - 2.5N  (Naftero);Ford;Ranger;Elaion F50E;Naftero;2.5N;6,7;7;1,75;1;0,75;3;0,3;$ 609,00;$ 156,00;$ 609,00;$ 468,00;$ 1.077,00
+Ford Ranger - 3.0  (Diesel);Ford;Ranger;Elaion F50E;Diesel;3.0;9,0;9;2,25;2;0,25;1;0;$ 609,00;$ 156,00;$ 1.218,00;$ 156,00;$ 1.374,00
+Ford Ranger - 3.2D  (Naftero);Ford;Ranger;Elaion F50E;Naftero;3.2D;9,8;10;2,5;2;0,5;2;0,25;$ 609,00;$ 156,00;$ 1.218,00;$ 312,00;$ 1.530,00
+Ford Smax - 1.8  (Diesel);Ford;Smax;Elaion F50E;Diesel;1.8;5,6;6;1,5;1;0,5;2;0,4;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Ford Smax - 2.3  (Naftero);Ford;Smax;Elaion F50E;Naftero;2.3;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Honda Accord -   (Naftero);Honda;Accord;Elaion F30;Naftero;;4,2;5;1,25;1;0,25;1;0,8;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Honda Accord - 2.0  (N/E);Honda;Accord;Elaion F50E;N/E;2.0;3,7;4;1;1;0;0;0,3;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Honda Accord - 2.4  (N/E);Honda;Accord;Elaion F50;N/E;2.4;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Honda City -   (Naftero);Honda;City;Elaion F50E;Naftero;;4,2;5;1,25;1;0,25;1;0,8;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Honda Civic -   (Naftero);Honda;Civic;Elaion F50E;Naftero;;3,4;4;1;1;0;0;0,6;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Honda CRV - 2.0  (N/E);Honda;CRV;Elaion SUV;N/E;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Honda CRV - 2.4  (N/E);Honda;CRV;Elaion SUV;N/E;2.4;5,3;6;1,5;1;0,5;2;0,7;$ 682,00;$ 174,00;$ 682,00;$ 348,00;$ 1.030,00
+Honda Fit -   (Naftero);Honda;Fit;Elaion F50E;Naftero;;3,6;4;1;1;0;0;0,4;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Honda Pilot -   (Naftero);Honda;Pilot;Elaion SUV;Naftero;;5,0;5;1,25;1;0,25;1;0;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Hyundai Genesis -   (Naftero);Hyundai;Genesis;Elaion F50;Naftero;;5,2;6;1,5;1;0,5;2;0,8;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Hyundai H-1 -   (Diesel);Hyundai;H-1;Elaion F50;Diesel;;7,4;8;2;2;0;0;0,6;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Hyundai H-100 -   (Diesel);Hyundai;H-100;Elaion F50;Diesel;;7,4;8;2;2;0;0;0,6;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Hyundai HD 78 -   (Diesel);Hyundai;HD 78;Elaion F50;Diesel;;7,4;8;2;2;0;0;0,6;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Hyundai i10 -   (Naftero);Hyundai;i10;Elaion F50E;Naftero;;3,6;4;1;1;0;0;0,4;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Hyundai i30 -   (Naftero);Hyundai;i30;Elaion F50E;Naftero;;3,3;4;1;1;0;0;0,7;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Hyundai Santa Fe -   (Diesel);Hyundai;Santa Fe;Elaion SUV;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 682,00;$ 174,00;$ 682,00;$ 348,00;$ 1.030,00
+Hyundai Santa Fe -   (Naftero);Hyundai;Santa Fe;Elaion F50E;Naftero;;4,6;5;1,25;1;0,25;1;0,4;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Hyundai Terracan -   (Diesel);Hyundai;Terracan;Elaion SUV;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 682,00;$ 174,00;$ 682,00;$ 348,00;$ 1.030,00
+Hyundai Terracan -   (Naftero);Hyundai;Terracan;Elaion F50E;Naftero;;4,4;5;1,25;1;0,25;1;0,6;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Hyundai Trajet -   (Diesel);Hyundai;Trajet;Elaion Torque;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 407,00;$ 105,00;$ 407,00;$ 210,00;$ 617,00
+Hyundai Trajet -   (Naftero);Hyundai;Trajet;Elaion F50E;Naftero;;4,5;5;1,25;1;0,25;1;0,5;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Hyundai Tucson -   (Diesel);Hyundai;Tucson;Elaion SUV;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 682,00;$ 174,00;$ 682,00;$ 348,00;$ 1.030,00
+Hyundai Tucson -   (Naftero);Hyundai;Tucson;Elaion F50E;Naftero;;4,1;5;1,25;1;0,25;1;0,9;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Hyundai Veracruz -   (Diesel);Hyundai;Veracruz;Elaion SUV;Diesel;;5,9;6;1,5;1;0,5;2;0,1;$ 682,00;$ 174,00;$ 682,00;$ 348,00;$ 1.030,00
+Hyundai Veracruz -   (Naftero);Hyundai;Veracruz;Elaion SUV;Naftero;;5,2;6;1,5;1;0,5;2;0,8;$ 682,00;$ 174,00;$ 682,00;$ 348,00;$ 1.030,00
+Hyundai Veracruz -DPF -   (Diesel);Hyundai;Veracruz -DPF;Elaion SUV;Diesel;;7,2;8;2;2;0;0;0,8;$ 682,00;$ 174,00;$ 1.364,00;$ 0,00;$ 1.364,00
 Jaguar XF -   (Diesel);Jaguar;XF;Consultar manual;Diesel;;5,4;6;1,5;1;0,5;2;0,6;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Jaguar XF - V6  (Naftero);Jaguar;XF;Elaion F50E;Naftero;V6;0,0;0;0;0;0;0;0;$ 478,32;$ 120,10;$ 0,00;$ 0,00;$ 0,00
+Jaguar XF - V6  (Naftero);Jaguar;XF;Elaion F50E;Naftero;V6;0,0;0;0;0;0;0;0;$ 609,00;$ 156,00;$ 0,00;$ 0,00;$ 0,00
 Jaguar XF - V8  (Naftero);Jaguar;XF;Consultar manual;Naftero;V8;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Jaguar XK -   (Naftero);Jaguar;XK;Consultar manual;Naftero;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Kia Carnival -   (Naftero);Kia;Carnival;Elaion F50;Naftero;;5,8;6;1,5;1;0,5;2;0,2;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Kia Carnival -   (Naftero);Kia;Carnival;Elaion F50E;Naftero;;5,8;6;1,5;1;0,5;2;0,2;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Kia Carnival -   (Naftero);Kia;Carnival;Elaion F30;Naftero;;5,8;6;1,5;1;0,5;2;0,2;$ 355,21;$ 90,12;$ 355,21;$ 180,24;$ 535,45
-Kia Carnival -   (Naftero);Kia;Carnival;Elaion F10;Naftero;;5,8;6;1,5;1;0,5;2;0,2;$ 277,99;$ 70,48;$ 277,99;$ 140,96;$ 418,95
-Kia Cerato - 1.6  (Naftero);Kia;Cerato;Elaion F50;Naftero;1.6;4,2;5;1,25;1;0,25;1;0,8;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Kia Cerato - 1.6  (Naftero);Kia;Cerato;Elaion F50E;Naftero;1.6;4,2;5;1,25;1;0,25;1;0,8;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Kia Cerato - 1.6  (Naftero);Kia;Cerato;Elaion F30;Naftero;1.6;4,2;5;1,25;1;0,25;1;0,8;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Kia Cerato - 1.6  (Naftero);Kia;Cerato;Elaion F10;Naftero;1.6;4,2;5;1,25;1;0,25;1;0,8;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Kia Cerato - 2.0  (Naftero);Kia;Cerato;Elaion F50;Naftero;2.0;3,3;4;1;1;0;0;0,7;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Kia Cerato - 2.0  (Naftero);Kia;Cerato;Elaion F50E;Naftero;2.0;3,3;4;1;1;0;0;0,7;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Kia Cerato - 2.0  (Naftero);Kia;Cerato;Elaion F30;Naftero;2.0;3,3;4;1;1;0;0;0,7;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Kia Cerato - 2.0  (Naftero);Kia;Cerato;Elaion F10;Naftero;2.0;3,3;4;1;1;0;0;0,7;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Kia K2500 -   (Diesel);Kia;K2500;Elaion Torque;Diesel;;5,7;6;1,5;1;0,5;2;0,3;$ 319,57;$ 80,88;$ 319,57;$ 161,76;$ 481,33
-Kia K2700 -   (Diesel);Kia;K2700;Elaion Torque;Diesel;;5,7;6;1,5;1;0,5;2;0,3;$ 319,57;$ 80,88;$ 319,57;$ 161,76;$ 481,33
-Kia Picanto -   (Naftero);Kia;Picanto;Elaion F50;Naftero;;3,6;4;1;1;0;0;0,4;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Kia Picanto -   (Naftero);Kia;Picanto;Elaion F50E;Naftero;;3,6;4;1;1;0;0;0,4;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Kia Picanto -   (Naftero);Kia;Picanto;Elaion F30;Naftero;;3,6;4;1;1;0;0;0,4;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Kia Picanto -   (Naftero);Kia;Picanto;Elaion F10;Naftero;;3,6;4;1;1;0;0;0,4;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Kia Rondo -   (Diesel);Kia;Rondo;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Kia Rondo -   (Diesel);Kia;Rondo;Elaion F30;Diesel;;0,0;0;0;0;0;0;0;$ 355,21;$ 90,12;$ 0,00;$ 0,00;$ 0,00
-Kia Rondo -   (Diesel);Kia;Rondo;Elaion F10;Diesel;;0,0;0;0;0;0;0;0;$ 277,99;$ 70,48;$ 0,00;$ 0,00;$ 0,00
-Kia Sorento -   (Diesel);Kia;Sorento;Elaion SUV;Diesel;;6,7;7;1,75;1;0,75;3;0,3;$ 535,85;$ 134,09;$ 535,85;$ 402,27;$ 938,12
-Kia Sorento -   (Naftero);Kia;Sorento;Elaion SUV;Naftero;;4,6;5;1,25;1;0,25;1;0,4;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Kia Sportage -   (Naftero);Kia;Sportage;Elaion SUV;Naftero;;4,1;5;1,25;1;0,25;1;0,9;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Land Rover Defender -   (Diesel);Land Rover;Defender;Elaion F50E;Diesel;;7,0;7;1,75;1;0,75;3;0;$ 478,32;$ 120,10;$ 478,32;$ 360,30;$ 838,62
-Land Rover Defender -   (Naftero);Land Rover;Defender;Elaion F50E;Naftero;;7,0;7;1,75;1;0,75;3;0;$ 478,32;$ 120,10;$ 478,32;$ 360,30;$ 838,62
+Kia Carnival -   (Naftero);Kia;Carnival;Elaion F50;Naftero;;5,8;6;1,5;1;0,5;2;0,2;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Kia Cerato - 1.6  (Naftero);Kia;Cerato;Elaion F50;Naftero;1.6;4,2;5;1,25;1;0,25;1;0,8;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Kia Cerato - 2.0  (Naftero);Kia;Cerato;Elaion F50;Naftero;2.0;3,3;4;1;1;0;0;0,7;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Kia K2500 -   (Diesel);Kia;K2500;Elaion Torque;Diesel;;5,7;6;1,5;1;0,5;2;0,3;$ 407,00;$ 105,00;$ 407,00;$ 210,00;$ 617,00
+Kia K2700 -   (Diesel);Kia;K2700;Elaion Torque;Diesel;;5,7;6;1,5;1;0,5;2;0,3;$ 407,00;$ 105,00;$ 407,00;$ 210,00;$ 617,00
+Kia Picanto -   (Naftero);Kia;Picanto;Elaion F50;Naftero;;3,6;4;1;1;0;0;0,4;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Kia Rondo -   (Diesel);Kia;Rondo;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Kia Sorento -   (Diesel);Kia;Sorento;Elaion SUV;Diesel;;6,7;7;1,75;1;0,75;3;0,3;$ 682,00;$ 174,00;$ 682,00;$ 522,00;$ 1.204,00
+Kia Sorento -   (Naftero);Kia;Sorento;Elaion SUV;Naftero;;4,6;5;1,25;1;0,25;1;0,4;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Kia Sportage -   (Naftero);Kia;Sportage;Elaion SUV;Naftero;;4,1;5;1,25;1;0,25;1;0,9;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Land Rover Defender -   (Diesel);Land Rover;Defender;Elaion F50E;Diesel;;7,0;7;1,75;1;0,75;3;0;$ 609,00;$ 156,00;$ 609,00;$ 468,00;$ 1.077,00
+Land Rover Defender -   (Naftero);Land Rover;Defender;Elaion F50E;Naftero;;7,0;7;1,75;1;0,75;3;0;$ 609,00;$ 156,00;$ 609,00;$ 468,00;$ 1.077,00
 Land Rover Discovery 4 -   (Diesel);Land Rover;Discovery 4;Consultar manual;Diesel;;5,7;6;1,5;1;0,5;2;0,3;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Land Rover Discovery 4 - V6  (Naftero);Land Rover;Discovery 4;Consultar manual;Naftero;V6;5,2;6;1,5;1;0,5;2;0,8;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Land Rover Discovery 4 - V8  (Naftero);Land Rover;Discovery 4;Consultar manual;Naftero;V8;8,0;8;2;2;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Land Rover Freelander 2 -   (Diesel);Land Rover;Freelander 2;Elaion F50E;Diesel;;6,9;7;1,75;1;0,75;3;0,1;$ 478,32;$ 120,10;$ 478,32;$ 360,30;$ 838,62
+Land Rover Freelander 2 -   (Diesel);Land Rover;Freelander 2;Elaion F50E;Diesel;;6,9;7;1,75;1;0,75;3;0,1;$ 609,00;$ 156,00;$ 609,00;$ 468,00;$ 1.077,00
 Land Rover Freelander 2 -   (Naftero);Land Rover;Freelander 2;Consultar manual;Naftero;;7,5;8;2;2;0;0;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Land Rover Range Rover Sport - V6  (Diesel);Land Rover;Range Rover Sport;Consultar manual;Diesel;V6;5,9;6;1,5;1;0,5;2;0,1;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Land Rover Range Rover Sport - V8  (Naftero);Land Rover;Range Rover Sport;Consultar manual;Naftero;V8;8,0;8;2;2;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Maserati Quattroporte -   (Naftero);Maserati;Quattroporte;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Mercedes Benz A 160 -   (N/E);Mercedes Benz;A 160;Elaion F50;N/E;;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Mercedes Benz A 160 -   (N/E);Mercedes Benz;A 160;Elaion F10;N/E;;4,5;5;1,25;1;0,25;1;0,5;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Mercedes Benz A 190 -   (N/E);Mercedes Benz;A 190;Elaion F50;N/E;;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Mercedes Benz A 190 -   (N/E);Mercedes Benz;A 190;Elaion F10;N/E;;4,5;5;1,25;1;0,25;1;0,5;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Mercedes Benz B 170 -   (N/E);Mercedes Benz;B 170;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Mercedes Benz B 170 -   (N/E);Mercedes Benz;B 170;Elaion F10;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 277,99;$ 70,48;$ 277,99;$ 211,44;$ 489,43
-Mercedes Benz B 200 -   (N/E);Mercedes Benz;B 200;Elaion F50;N/E;;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Mercedes Benz B 200 -   (N/E);Mercedes Benz;B 200;Elaion F10;N/E;;5,0;5;1,25;1;0,25;1;0;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Mercedes Benz B 200 CDI -   (N/E);Mercedes Benz;B 200 CDI;Elaion F50;N/E;;5,8;6;1,5;1;0,5;2;0,2;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Mercedes Benz B 200 CDI -   (N/E);Mercedes Benz;B 200 CDI;Elaion F10;N/E;;5,8;6;1,5;1;0,5;2;0,2;$ 277,99;$ 70,48;$ 277,99;$ 140,96;$ 418,95
-Mercedes Benz B 200 Turbo -   (N/E);Mercedes Benz;B 200 Turbo;Elaion F50;N/E;;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Mercedes Benz B 200 Turbo -   (N/E);Mercedes Benz;B 200 Turbo;Elaion F10;N/E;;5,0;5;1,25;1;0,25;1;0;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Mercedes Benz C 200 Kompressor -   (N/E);Mercedes Benz;C 200 Kompressor;Elaion F50;N/E;;5,5;6;1,5;1;0,5;2;0,5;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Mercedes Benz C 220 CDI -   (N/E);Mercedes Benz;C 220 CDI;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Mercedes Benz C 220 CDI T -   (N/E);Mercedes Benz;C 220 CDI T;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Mercedes Benz C 230 6zyl  -   (N/E);Mercedes Benz;C 230 6zyl ;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz C 230 6zyl  -   (N/E);Mercedes Benz;C 230 6zyl ;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz C 230 Kompressor -   (N/E);Mercedes Benz;C 230 Kompressor;Elaion F50;N/E;;5,5;6;1,5;1;0,5;2;0,5;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Mercedes Benz C 240 -   (N/E);Mercedes Benz;C 240;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz C 240 -   (N/E);Mercedes Benz;C 240;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz C 270 CDI -   (N/E);Mercedes Benz;C 270 CDI;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Mercedes Benz C 270 CDI -   (N/E);Mercedes Benz;C 270 CDI;Elaion F10;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 277,99;$ 70,48;$ 277,99;$ 211,44;$ 489,43
-Mercedes Benz C 320 -   (N/E);Mercedes Benz;C 320;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz C 320 -   (N/E);Mercedes Benz;C 320;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz C 320 CDI -   (N/E);Mercedes Benz;C 320 CDI;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-Mercedes Benz CL -   (N/E);Mercedes Benz;CL;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CL -   (N/E);Mercedes Benz;CL;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz CLK 320 -   (N/E);Mercedes Benz;CLK 320;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CLK 320 -   (N/E);Mercedes Benz;CLK 320;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CLK 320 -   (N/E);Mercedes Benz;CLK 320;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CLK 320 Cabriolet -   (N/E);Mercedes Benz;CLK 320 Cabriolet;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz CLK 350 -   (N/E);Mercedes Benz;CLK 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CLK 350 -   (N/E);Mercedes Benz;CLK 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CLK 350 -   (N/E);Mercedes Benz;CLK 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CLK 350 Cabriolet -   (N/E);Mercedes Benz;CLK 350 Cabriolet;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz CLK 500 -   (N/E);Mercedes Benz;CLK 500;Elaion F50;N/E;;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CLK 500 -   (N/E);Mercedes Benz;CLK 500;Elaion F50;N/E;;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CLK 500 -   (N/E);Mercedes Benz;CLK 500;Elaion F50;N/E;;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
+Maserati Quattroporte -   (Naftero);Maserati;Quattroporte;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Mercedes Benz A 160 -   (N/E);Mercedes Benz;A 160;Elaion F50;N/E;;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Mercedes Benz A 190 -   (N/E);Mercedes Benz;A 190;Elaion F50;N/E;;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Mercedes Benz B 170 -   (N/E);Mercedes Benz;B 170;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Mercedes Benz B 200 -   (N/E);Mercedes Benz;B 200;Elaion F50;N/E;;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Mercedes Benz B 200 CDI -   (N/E);Mercedes Benz;B 200 CDI;Elaion F50;N/E;;5,8;6;1,5;1;0,5;2;0,2;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Mercedes Benz B 200 Turbo -   (N/E);Mercedes Benz;B 200 Turbo;Elaion F50;N/E;;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Mercedes Benz C 200 Kompressor -   (N/E);Mercedes Benz;C 200 Kompressor;Elaion F50;N/E;;5,5;6;1,5;1;0,5;2;0,5;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Mercedes Benz C 220 CDI -   (N/E);Mercedes Benz;C 220 CDI;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Mercedes Benz C 220 CDI T -   (N/E);Mercedes Benz;C 220 CDI T;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Mercedes Benz C 230 6zyl  -   (N/E);Mercedes Benz;C 230 6zyl ;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz C 230 Kompressor -   (N/E);Mercedes Benz;C 230 Kompressor;Elaion F50;N/E;;5,5;6;1,5;1;0,5;2;0,5;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Mercedes Benz C 240 -   (N/E);Mercedes Benz;C 240;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz C 270 CDI -   (N/E);Mercedes Benz;C 270 CDI;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Mercedes Benz C 320 -   (N/E);Mercedes Benz;C 320;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz C 320 CDI -   (N/E);Mercedes Benz;C 320 CDI;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
+Mercedes Benz CL -   (N/E);Mercedes Benz;CL;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz CLK 320 -   (N/E);Mercedes Benz;CLK 320;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz CLK 320 Cabriolet -   (N/E);Mercedes Benz;CLK 320 Cabriolet;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 347,00;$ 90,00;$ 694,00;$ 0,00;$ 694,00
+Mercedes Benz CLK 350 -   (N/E);Mercedes Benz;CLK 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz CLK 350 Cabriolet -   (N/E);Mercedes Benz;CLK 350 Cabriolet;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 347,00;$ 90,00;$ 694,00;$ 0,00;$ 694,00
+Mercedes Benz CLK 500 -   (N/E);Mercedes Benz;CLK 500;Elaion F50;N/E;;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
 Mercedes Benz CLK 55 AMG -   (N/E);Mercedes Benz;CLK 55 AMG;Consultar manual;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Mercedes Benz CLK 55 AMG Cabriolet -   (N/E);Mercedes Benz;CLK 55 AMG Cabriolet;Consultar manual;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Mercedes Benz CLS 350 -   (N/E);Mercedes Benz;CLS 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz CLS 350 -   (N/E);Mercedes Benz;CLS 350;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz CLS 500 -   (N/E);Mercedes Benz;CLS 500;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-Mercedes Benz CLS 500 -   (N/E);Mercedes Benz;CLS 500;Elaion F10;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 277,99;$ 70,48;$ 555,98;$ 70,48;$ 626,46
-Mercedes Benz E 240 -   (N/E);Mercedes Benz;E 240;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz E 240 -   (N/E);Mercedes Benz;E 240;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz E 270 CDI -   (N/E);Mercedes Benz;E 270 CDI;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Mercedes Benz E 320 -   (N/E);Mercedes Benz;E 320;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz E 320 -   (N/E);Mercedes Benz;E 320;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz E 320 CDI -   (N/E);Mercedes Benz;E 320 CDI;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz E 350 -   (N/E);Mercedes Benz;E 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz E 350 -   (N/E);Mercedes Benz;E 350;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
-Mercedes Benz E 500 -   (N/E);Mercedes Benz;E 500;Elaion F50;N/E;;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz E 500 -   (N/E);Mercedes Benz;E 500;Elaion F10;N/E;;7,5;8;2;2;0;0;0,5;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
+Mercedes Benz CLS 350 -   (N/E);Mercedes Benz;CLS 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz CLS 500 -   (N/E);Mercedes Benz;CLS 500;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
+Mercedes Benz E 240 -   (N/E);Mercedes Benz;E 240;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz E 270 CDI -   (N/E);Mercedes Benz;E 270 CDI;Elaion F50;N/E;;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Mercedes Benz E 320 -   (N/E);Mercedes Benz;E 320;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz E 320 CDI -   (N/E);Mercedes Benz;E 320 CDI;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz E 350 -   (N/E);Mercedes Benz;E 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Mercedes Benz E 500 -   (N/E);Mercedes Benz;E 500;Elaion F50;N/E;;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
 Mercedes Benz E 55 AMG Kompressor -   (N/E);Mercedes Benz;E 55 AMG Kompressor;Consultar manual;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Mercedes Benz ML 270 CDI -   (N/E);Mercedes Benz;ML 270 CDI;Elaion SUV;N/E;;7,0;7;1,75;1;0,75;3;0;$ 535,85;$ 134,09;$ 535,85;$ 402,27;$ 938,12
-Mercedes Benz ML 320 CDI -   (N/E);Mercedes Benz;ML 320 CDI;Elaion SUV;N/E;;9,0;9;2,25;2;0,25;1;0;$ 535,85;$ 134,09;$ 1.071,70;$ 134,09;$ 1.205,79
-Mercedes Benz ML 350 / 500 -   (N/E);Mercedes Benz;ML 350 / 500;Elaion SUV;N/E;;8,0;8;2;2;0;0;0;$ 535,85;$ 134,09;$ 1.071,70;$ 0,00;$ 1.071,70
-Mercedes Benz ML 400 CDI -   (N/E);Mercedes Benz;ML 400 CDI;Elaion SUV;N/E;;9,5;10;2,5;2;0,5;2;0,5;$ 535,85;$ 134,09;$ 1.071,70;$ 268,18;$ 1.339,88
+Mercedes Benz ML 270 CDI -   (N/E);Mercedes Benz;ML 270 CDI;Elaion SUV;N/E;;7,0;7;1,75;1;0,75;3;0;$ 682,00;$ 174,00;$ 682,00;$ 522,00;$ 1.204,00
+Mercedes Benz ML 320 CDI -   (N/E);Mercedes Benz;ML 320 CDI;Elaion SUV;N/E;;9,0;9;2,25;2;0,25;1;0;$ 682,00;$ 174,00;$ 1.364,00;$ 174,00;$ 1.538,00
+Mercedes Benz ML 350 / 500 -   (N/E);Mercedes Benz;ML 350 / 500;Elaion SUV;N/E;;8,0;8;2;2;0;0;0;$ 682,00;$ 174,00;$ 1.364,00;$ 0,00;$ 1.364,00
+Mercedes Benz ML 400 CDI -   (N/E);Mercedes Benz;ML 400 CDI;Elaion SUV;N/E;;9,5;10;2,5;2;0,5;2;0,5;$ 682,00;$ 174,00;$ 1.364,00;$ 348,00;$ 1.712,00
 Mercedes Benz ML 63 AMG -   (N/E);Mercedes Benz;ML 63 AMG;Consultar manual;N/E;;9,7;10;2,5;2;0,5;2;0,3;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Mercedes Benz S 400 CDI -   (N/E);Mercedes Benz;S 400 CDI;Elaion F50;N/E;;10,0;10;2,5;2;0,5;2;0;$ 491,51;$ 125,93;$ 983,02;$ 251,86;$ 1.234,88
-Mercedes Benz S 400 CDI -   (N/E);Mercedes Benz;S 400 CDI;Elaion F10;N/E;;10,0;10;2,5;2;0,5;2;0;$ 277,99;$ 70,48;$ 555,98;$ 140,96;$ 696,94
-Mercedes Benz S 500 -   (N/E);Mercedes Benz;S 500;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-Mercedes Benz S 500 L -   (N/E);Mercedes Benz;S 500 L;Elaion F10;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 277,99;$ 70,48;$ 555,98;$ 70,48;$ 626,46
-Mercedes Benz SL 500 -   (N/E);Mercedes Benz;SL 500;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-Mercedes Benz SL 500 -   (N/E);Mercedes Benz;SL 500;Elaion F10;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 277,99;$ 70,48;$ 555,98;$ 70,48;$ 626,46
+Mercedes Benz S 400 CDI -   (N/E);Mercedes Benz;S 400 CDI;Elaion F50;N/E;;10,0;10;2,5;2;0,5;2;0;$ 625,00;$ 163,00;$ 1.250,00;$ 326,00;$ 1.576,00
+Mercedes Benz S 500 -   (N/E);Mercedes Benz;S 500;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
+Mercedes Benz S 500 L -   (N/E);Mercedes Benz;S 500 L;Elaion F10;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 347,00;$ 90,00;$ 694,00;$ 90,00;$ 784,00
+Mercedes Benz SL 500 -   (N/E);Mercedes Benz;SL 500;Elaion F50;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
 Mercedes Benz SL 55 AMG Kompressor -   (N/E);Mercedes Benz;SL 55 AMG Kompressor;Consultar manual;N/E;;8,7;9;2,25;2;0,25;1;0,3;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Mercedes Benz SLK 200 Kompressor -   (N/E);Mercedes Benz;SLK 200 Kompressor;Elaion F50;N/E;;5,5;6;1,5;1;0,5;2;0,5;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Mercedes Benz SLK 350 -   (N/E);Mercedes Benz;SLK 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Mercedes Benz SLK 350 -   (N/E);Mercedes Benz;SLK 350;Elaion F10;N/E;;8,0;8;2;2;0;0;0;$ 277,99;$ 70,48;$ 555,98;$ 0,00;$ 555,98
+Mercedes Benz SLK 200 Kompressor -   (N/E);Mercedes Benz;SLK 200 Kompressor;Elaion F50;N/E;;5,5;6;1,5;1;0,5;2;0,5;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Mercedes Benz SLK 350 -   (N/E);Mercedes Benz;SLK 350;Elaion F50;N/E;;8,0;8;2;2;0;0;0;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
 Mercedes Benz SLK 55 AMG -   (N/E);Mercedes Benz;SLK 55 AMG;Consultar manual;N/E;;5,5;6;1,5;1;0,5;2;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Mercedes Benz Viano -   (N/E);Mercedes Benz;Viano;Elaion F50;N/E;;9,0;9;2,25;2;0,25;1;0;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
+Mercedes Benz Viano -   (N/E);Mercedes Benz;Viano;Elaion F50;N/E;;9,0;9;2,25;2;0,25;1;0;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
 Mercedes Benz Vito -   (N/E);Mercedes Benz;Vito;Elaion F50 ;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Mercedes Benz Vito -   (N/E);Mercedes Benz;Vito;Elaion F10;N/E;;8,5;9;2,25;2;0,25;1;0,5;$ 277,99;$ 70,48;$ 555,98;$ 70,48;$ 626,46
-Mini Cooper - 1.6  (Naftero);Mini;Cooper;Elaion F50;Naftero;1.6;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Mini Cooper S - 1.6 t  (Naftero);Mini;Cooper S;Elaion F50;Naftero;1.6 t;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Mitsubishi L200 - 2.5  (Naftero);Mitsubishi;L200;Elaion SUV;Naftero;2.5;7,4;8;2;2;0;0;0,6;$ 535,85;$ 134,09;$ 1.071,70;$ 0,00;$ 1.071,70
-Mitsubishi Lancer - 1.5  (Naftero);Mitsubishi;Lancer;Elaion F50E;Naftero;1.5;4,2;5;1,25;1;0,25;1;0,8;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Mitsubishi Lancer - 2.0  (Naftero);Mitsubishi;Lancer;Elaion F50;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Mitsubishi Lancer - 2.0  (Naftero);Mitsubishi;Lancer;Elaion F30;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Mitsubishi Lancer - 2.0  (Naftero);Mitsubishi;Lancer;Elaion F10;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Mitsubishi Montero - 3.0  (Naftero);Mitsubishi;Montero;Elaion SUV;Naftero;3.0;4,5;5;1,25;1;0,25;1;0,5;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Mitsubishi Montero - 3.2 td  (Diesel);Mitsubishi;Montero;Elaion SUV;Diesel;3.2 td;9,8;10;2,5;2;0,5;2;0,2;$ 535,85;$ 134,09;$ 1.071,70;$ 268,18;$ 1.339,88
-Mitsubishi Outlander - 2.4  (Naftero);Mitsubishi;Outlander;Elaion SUV;Naftero;2.4;4,6;5;1,25;1;0,25;1;0,4;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Mitsubishi Outlander - 3.0  (Naftero);Mitsubishi;Outlander;Elaion SUV;Naftero;3.0;4,3;5;1,25;1;0,25;1;0,7;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Nissan 370 Z - 3.7 V6  (Naftero);Nissan;370 Z;Elaion F50E;Naftero;3.7 V6;4,9;5;1,25;1;0,25;1;0,1;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Nissan Frontier (QR25DE) 4x4 - 2.5  (Naftero);Nissan;Frontier (QR25DE) 4x4;Elaion SUV;Naftero;2.5;4,6;5;1,25;1;0,25;1;0,4;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Nissan Frontier (YD22DDT) - 2.2  (Diesel);Nissan;Frontier (YD22DDT);Elaion Torque;Diesel;2.2;5,2;6;1,5;1;0,5;2;0,8;$ 319,57;$ 80,88;$ 319,57;$ 161,76;$ 481,33
-Nissan Frontier (YD22DDT) -DPF - 2.2  (Diesel);Nissan;Frontier (YD22DDT) -DPF;Elaion SUV;Diesel;2.2;5,2;6;1,5;1;0,5;2;0,8;$ 535,85;$ 134,09;$ 535,85;$ 268,18;$ 804,03
-Nissan Murano (VQ35DE) - 3.5  (Naftero);Nissan;Murano (VQ35DE);Elaion SUV;Naftero;3.5;4,5;5;1,25;1;0,25;1;0,5;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Nissan NP 300 (KA24DE) - 2.4  (Naftero);Nissan;NP 300 (KA24DE);Elaion F50E;Naftero;2.4;3,5;4;1;1;0;0;0,5;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Nissan NP 300 (YD25DDT) - 2.4 4x4  (Diesel);Nissan;NP 300 (YD25DDT);Elaion F50E;Diesel;2.4 4x4;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Nissan NP 300 (YD25DDT) - 2.5 4x2  (Diesel);Nissan;NP 300 (YD25DDT);Elaion F50E;Diesel;2.5 4x2;5,6;6;1,5;1;0,5;2;0,4;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Nissan Sentra (MR20DE) - 2.0  (Naftero);Nissan;Sentra (MR20DE);Elaion F50E;Naftero;2.0;3,9;4;1;1;0;0;0,1;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Nissan Sentra (QR25DE) - 2.5  (Naftero);Nissan;Sentra (QR25DE);Elaion F50E;Naftero;2.5;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Nissan Teana (VQ25DE) - 2.5  (Naftero);Nissan;Teana (VQ25DE);Elaion F50E;Naftero;2.5;4,6;5;1,25;1;0,25;1;0,4;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Nissan Tiida (MR18DE) - 1.8  (Naftero);Nissan;Tiida (MR18DE);Elaion F50E;Naftero;1.8;4,4;5;1,25;1;0,25;1;0,6;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Nissan X-Trail (M9R) - 2.0  (Diesel);Nissan;X-Trail (M9R);Elaion SUV;Diesel;2.0;6,9;7;1,75;1;0,75;3;0,1;$ 535,85;$ 134,09;$ 535,85;$ 402,27;$ 938,12
-Nissan X-Trail (MR20DE) - 2.0  (Naftero);Nissan;X-Trail (MR20DE);Elaion SUV;Naftero;2.0;4,0;4;1;1;0;0;0;$ 535,85;$ 134,09;$ 535,85;$ 0,00;$ 535,85
-Nissan X-Trail (QR25DE) - 2.5  (Naftero);Nissan;X-Trail (QR25DE);Elaion SUV;Naftero;2.5;4,0;4;1;1;0;0;0;$ 535,85;$ 134,09;$ 535,85;$ 0,00;$ 535,85
-Peugeot 206 - 1.1  (Naftero);Peugeot;206;Elaion F50;Naftero;1.1;3,4;4;1;1;0;0;0,6;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Peugeot 206 - 1.1  (Naftero);Peugeot;206;Elaion F30;Naftero;1.1;3,4;4;1;1;0;0;0,6;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Peugeot 206 - 1.4  (Naftero);Peugeot;206;Elaion F50;Naftero;1.4;3,3;4;1;1;0;0;0,75;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Peugeot 206 - 1.4  (Naftero);Peugeot;206;Elaion F30;Naftero;1.4;3,3;4;1;1;0;0;0,75;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Peugeot 206 - 1.4 hdi  (Diesel);Peugeot;206;Elaion F50;Diesel;1.4 hdi;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Peugeot 206 - 1.6  (Naftero);Peugeot;206;Elaion F50;Naftero;1.6;3,4;4;1;1;0;0;0,6;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Peugeot 206 - 1.6  (Naftero);Peugeot;206;Elaion F30;Naftero;1.6;3,4;4;1;1;0;0;0,6;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Peugeot 206 - 1.9  (Diesel);Peugeot;206;Elaion F30;Diesel;1.9;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Peugeot 206 - 2.0 gti  (Naftero);Peugeot;206;Elaion F50;Naftero;2.0 gti;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 206 - 2.0 hdi  (Diesel);Peugeot;206;Elaion F50;Diesel;2.0 hdi;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 207 - 1.4  (Naftero);Peugeot;207;Elaion F50;Naftero;1.4;3,0;3;0,75;0;0,75;3;0;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Peugeot 207 - 1.4  (Naftero);Peugeot;207;Elaion F30;Naftero;1.4;3,0;3;0,75;0;0,75;3;0;$ 355,21;$ 90,12;$ 0,00;$ 270,36;$ 270,36
-Peugeot 207 - 1.6  (Naftero);Peugeot;207;Elaion F50;Naftero;1.6;3,2;4;1;1;0;0;0,8;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Peugeot 207 - 1.6  (Naftero);Peugeot;207;Elaion F30;Naftero;1.6;3,2;4;1;1;0;0;0,8;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Peugeot 207 - 1.9  (Diesel);Peugeot;207;Elaion F50;Diesel;1.9;4,8;5;1,25;1;0,25;1;0,2;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 207 - 1.9  (Diesel);Peugeot;207;Elaion F30;Diesel;1.9;4,8;5;1,25;1;0,25;1;0,2;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Peugeot 207 - 2.0  (Diesel);Peugeot;207;Elaion F50;Diesel;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 207 - 2.0  (Diesel);Peugeot;207;Elaion F30;Diesel;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Peugeot 307 - 1.4  (Naftero);Peugeot;307;Elaion F50;Naftero;1.4;3,1;4;1;1;0;0;0,95;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Peugeot 307 - 1.4  (Naftero);Peugeot;307;Elaion F30;Naftero;1.4;3,1;4;1;1;0;0;0,95;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Peugeot 307 - 1.6  (Diesel);Peugeot;307;Elaion F50;Diesel;1.6;3,3;4;1;1;0;0;0,75;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Peugeot 307 - 1.6  (Diesel);Peugeot;307;Elaion F30;Diesel;1.6;3,3;4;1;1;0;0;0,75;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Peugeot 307 - 1.6  (Naftero);Peugeot;307;Elaion F50;Naftero;1.6;3,3;4;1;1;0;0;0,75;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Peugeot 307 - 1.6  (Naftero);Peugeot;307;Elaion F30;Naftero;1.6;3,3;4;1;1;0;0;0,75;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Peugeot 307 - 2.0  (Diesel);Peugeot;307;Elaion F50;Diesel;2.0;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 307 - 2.0  (Diesel);Peugeot;307;Elaion F30;Diesel;2.0;5,0;5;1,25;1;0,25;1;0;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Peugeot 307 - 2.0  (Naftero);Peugeot;307;Elaion F50;Naftero;2.0;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 307 - 2.0 t  (Diesel);Peugeot;307;Elaion F50;Diesel;2.0 t;5,3;6;1,5;1;0,5;2;0,75;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Peugeot 307 - 2.0 t  (Diesel);Peugeot;307;Elaion F30;Diesel;2.0 t;5,3;6;1,5;1;0,5;2;0,75;$ 355,21;$ 90,12;$ 355,21;$ 180,24;$ 535,45
-Peugeot 407 - 1.6  (Diesel);Peugeot;407;Elaion F50;Diesel;1.6;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Peugeot 407 - 1.6  (Diesel);Peugeot;407;Elaion F30;Diesel;1.6;3,5;4;1;1;0;0;0,5;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Peugeot 407 - 1.8  (Naftero);Peugeot;407;Elaion F50;Naftero;1.8;4,3;5;1,25;1;0,25;1;0,75;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 407 - 1.8  (Naftero);Peugeot;407;Elaion F30;Naftero;1.8;4,3;5;1,25;1;0,25;1;0,75;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Peugeot 407 - 2.0  (Diesel);Peugeot;407;Elaion F50;Diesel;2.0;5,3;6;1,5;1;0,5;2;0,75;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Peugeot 407 - 2.0  (Diesel);Peugeot;407;Elaion F30;Diesel;2.0;5,3;6;1,5;1;0,5;2;0,75;$ 355,21;$ 90,12;$ 355,21;$ 180,24;$ 535,45
-Peugeot 407 - 2.0  (Naftero);Peugeot;407;Elaion F50;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,75;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 407 - 2.2  (Diesel);Peugeot;407;Elaion F50;Diesel;2.2;5,3;6;1,5;1;0,5;2;0,75;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Peugeot 407 - 2.2  (Diesel);Peugeot;407;Elaion F30;Diesel;2.2;5,3;6;1,5;1;0,5;2;0,75;$ 355,21;$ 90,12;$ 355,21;$ 180,24;$ 535,45
-Peugeot 407 - 2.2  (Naftero);Peugeot;407;Elaion F50;Naftero;2.2;4,3;5;1,25;1;0,25;1;0,75;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 407 - 2.2  (Naftero);Peugeot;407;Elaion F30;Naftero;2.2;4,3;5;1,25;1;0,25;1;0,75;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Peugeot 407 - 2.7  (Diesel);Peugeot;407;Elaion F50;Diesel;2.7;5,3;6;1,5;1;0,5;2;0,75;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Peugeot 407 - 2.7  (Diesel);Peugeot;407;Elaion F30;Diesel;2.7;5,3;6;1,5;1;0,5;2;0,75;$ 355,21;$ 90,12;$ 355,21;$ 180,24;$ 535,45
-Peugeot 407 - 3.0  (Naftero);Peugeot;407;Elaion F50;Naftero;3.0;4,8;5;1,25;1;0,25;1;0,25;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot 407 - 3.0  (Naftero);Peugeot;407;Elaion F30;Naftero;3.0;4,8;5;1,25;1;0,25;1;0,25;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Peugeot 807 - 2.0  (Naftero);Peugeot;807;Elaion F30;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Peugeot 807 - 2.0 hdi  (Diesel);Peugeot;807;Elaion F50;Diesel;2.0 hdi;5,0;5;1,25;1;0,25;1;0;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot Boxer - 2.8  (Diesel);Peugeot;Boxer;Elaion F50;Diesel;2.8;6,0;6;1,5;1;0,5;2;0;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Peugeot Expert - 1.6 hdi  (Diesel);Peugeot;Expert;Elaion F50;Diesel;1.6 hdi;4,8;5;1,25;1;0,25;1;0,2;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Peugeot Expert - 2.0 hdi  (Diesel);Peugeot;Expert;Elaion F50;Diesel;2.0 hdi;6,0;6;1,5;1;0,5;2;0;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Porsche 911 Carrera - 3.6  (Naftero);Porsche;911 Carrera;Elaion F50;Naftero;3.6;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Porsche 911 Turbo - 3.6  (Naftero);Porsche;911 Turbo;Elaion F50;Naftero;3.6;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Porsche Boxster - 2.5  (Naftero);Porsche;Boxster;Elaion F50;Naftero;2.5;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Porsche Boxster S - 2.7  (Naftero);Porsche;Boxster S;Elaion F50;Naftero;2.7;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Porsche Boxster Spider - 3.2  (Naftero);Porsche;Boxster Spider;Elaion F50;Naftero;3.2;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Porsche Cayenne - 3.0  (Diesel);Porsche;Cayenne;Elaion SUV;Diesel;3.0;9,0;9;2,25;2;0,25;1;0;$ 535,85;$ 134,09;$ 1.071,70;$ 134,09;$ 1.205,79
-Porsche Cayenne - 3.6  (Naftero);Porsche;Cayenne;Elaion SUV;Naftero;3.6;6,9;7;1,75;1;0,75;3;0,1;$ 535,85;$ 134,09;$ 535,85;$ 402,27;$ 938,12
-Porsche Cayenne Turbo - 4.8  (Naftero);Porsche;Cayenne Turbo;Elaion SUV;Naftero;4.8;9,0;9;2,25;2;0,25;1;0;$ 535,85;$ 134,09;$ 1.071,70;$ 134,09;$ 1.205,79
-Porsche Cayman - 2.7  (Naftero);Porsche;Cayman;Elaion F50;Naftero;2.7;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Porsche Cayman S - 3.4  (Naftero);Porsche;Cayman S;Elaion F50;Naftero;3.4;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Porsche Panemera - 3.6  (Naftero);Porsche;Panemera;Elaion F50;Naftero;3.6;9,0;9;2,25;2;0,25;1;0;$ 491,51;$ 125,93;$ 983,02;$ 125,93;$ 1.108,95
-Renault Clio - 1.6  (Naftero);Renault;Clio;Elaion F10;Naftero;1.6;3,8;4;1;1;0;0;0,2;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Renault Clio - 1.9  (Diesel);Renault;Clio;Elaion F10;Diesel;1.9;4,3;5;1,25;1;0,25;1;0,7;$ 277,99;$ 70,48;$ 277,99;$ 70,48;$ 348,47
-Renault Clio II - 1.2  (Naftero);Renault;Clio II;Elaion F30;Naftero;1.2;4,0;4;1;1;0;0;0;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Renault Clio II - 1.5 dsi  (Diesel);Renault;Clio II;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Clio II - 1.6  (Naftero);Renault;Clio II;Elaion F30;Naftero;1.6;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Grand Scenic - 1.5 dsi  (Diesel);Renault;Grand Scenic;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Grand Scenic - 2.0  (Naftero);Renault;Grand Scenic;Elaion F30;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
+Mini Cooper - 1.6  (Naftero);Mini;Cooper;Elaion F50;Naftero;1.6;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Mini Cooper S - 1.6 t  (Naftero);Mini;Cooper S;Elaion F50;Naftero;1.6 t;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Mitsubishi L200 - 2.5  (Naftero);Mitsubishi;L200;Elaion SUV;Naftero;2.5;7,4;8;2;2;0;0;0,6;$ 682,00;$ 174,00;$ 1.364,00;$ 0,00;$ 1.364,00
+Mitsubishi Lancer - 1.5  (Naftero);Mitsubishi;Lancer;Elaion F50E;Naftero;1.5;4,2;5;1,25;1;0,25;1;0,8;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Mitsubishi Lancer - 2.0  (Naftero);Mitsubishi;Lancer;Elaion F50;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Mitsubishi Montero - 3.0  (Naftero);Mitsubishi;Montero;Elaion SUV;Naftero;3.0;4,5;5;1,25;1;0,25;1;0,5;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Mitsubishi Montero - 3.2 td  (Diesel);Mitsubishi;Montero;Elaion SUV;Diesel;3.2 td;9,8;10;2,5;2;0,5;2;0,2;$ 682,00;$ 174,00;$ 1.364,00;$ 348,00;$ 1.712,00
+Mitsubishi Outlander - 2.4  (Naftero);Mitsubishi;Outlander;Elaion SUV;Naftero;2.4;4,6;5;1,25;1;0,25;1;0,4;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Mitsubishi Outlander - 3.0  (Naftero);Mitsubishi;Outlander;Elaion SUV;Naftero;3.0;4,3;5;1,25;1;0,25;1;0,7;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Nissan 370 Z - 3.7 V6  (Naftero);Nissan;370 Z;Elaion F50E;Naftero;3.7 V6;4,9;5;1,25;1;0,25;1;0,1;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Nissan Frontier (QR25DE) 4x4 - 2.5  (Naftero);Nissan;Frontier (QR25DE) 4x4;Elaion SUV;Naftero;2.5;4,6;5;1,25;1;0,25;1;0,4;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Nissan Frontier (YD22DDT) - 2.2  (Diesel);Nissan;Frontier (YD22DDT);Elaion Torque;Diesel;2.2;5,2;6;1,5;1;0,5;2;0,8;$ 407,00;$ 105,00;$ 407,00;$ 210,00;$ 617,00
+Nissan Frontier (YD22DDT) -DPF - 2.2  (Diesel);Nissan;Frontier (YD22DDT) -DPF;Elaion SUV;Diesel;2.2;5,2;6;1,5;1;0,5;2;0,8;$ 682,00;$ 174,00;$ 682,00;$ 348,00;$ 1.030,00
+Nissan Murano (VQ35DE) - 3.5  (Naftero);Nissan;Murano (VQ35DE);Elaion SUV;Naftero;3.5;4,5;5;1,25;1;0,25;1;0,5;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Nissan NP 300 (KA24DE) - 2.4  (Naftero);Nissan;NP 300 (KA24DE);Elaion F50E;Naftero;2.4;3,5;4;1;1;0;0;0,5;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Nissan NP 300 (YD25DDT) - 2.4 4x4  (Diesel);Nissan;NP 300 (YD25DDT);Elaion F50E;Diesel;2.4 4x4;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Nissan NP 300 (YD25DDT) - 2.5 4x2  (Diesel);Nissan;NP 300 (YD25DDT);Elaion F50E;Diesel;2.5 4x2;5,6;6;1,5;1;0,5;2;0,4;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Nissan Sentra (MR20DE) - 2.0  (Naftero);Nissan;Sentra (MR20DE);Elaion F50E;Naftero;2.0;3,9;4;1;1;0;0;0,1;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Nissan Sentra (QR25DE) - 2.5  (Naftero);Nissan;Sentra (QR25DE);Elaion F50E;Naftero;2.5;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Nissan Teana (VQ25DE) - 2.5  (Naftero);Nissan;Teana (VQ25DE);Elaion F50E;Naftero;2.5;4,6;5;1,25;1;0,25;1;0,4;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Nissan Tiida (MR18DE) - 1.8  (Naftero);Nissan;Tiida (MR18DE);Elaion F50E;Naftero;1.8;4,4;5;1,25;1;0,25;1;0,6;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Nissan X-Trail (M9R) - 2.0  (Diesel);Nissan;X-Trail (M9R);Elaion SUV;Diesel;2.0;6,9;7;1,75;1;0,75;3;0,1;$ 682,00;$ 174,00;$ 682,00;$ 522,00;$ 1.204,00
+Nissan X-Trail (MR20DE) - 2.0  (Naftero);Nissan;X-Trail (MR20DE);Elaion SUV;Naftero;2.0;4,0;4;1;1;0;0;0;$ 682,00;$ 174,00;$ 682,00;$ 0,00;$ 682,00
+Nissan X-Trail (QR25DE) - 2.5  (Naftero);Nissan;X-Trail (QR25DE);Elaion SUV;Naftero;2.5;4,0;4;1;1;0;0;0;$ 682,00;$ 174,00;$ 682,00;$ 0,00;$ 682,00
+Peugeot 206 - 1.1  (Naftero);Peugeot;206;Elaion F50;Naftero;1.1;3,4;4;1;1;0;0;0,6;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Peugeot 206 - 1.4  (Naftero);Peugeot;206;Elaion F50;Naftero;1.4;3,3;4;1;1;0;0;0,75;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Peugeot 206 - 1.4 hdi  (Diesel);Peugeot;206;Elaion F50;Diesel;1.4 hdi;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Peugeot 206 - 1.6  (Naftero);Peugeot;206;Elaion F50;Naftero;1.6;3,4;4;1;1;0;0;0,6;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Peugeot 206 - 1.9  (Diesel);Peugeot;206;Elaion F30;Diesel;1.9;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Peugeot 206 - 2.0 gti  (Naftero);Peugeot;206;Elaion F50;Naftero;2.0 gti;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 206 - 2.0 hdi  (Diesel);Peugeot;206;Elaion F50;Diesel;2.0 hdi;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 207 - 1.4  (Naftero);Peugeot;207;Elaion F50;Naftero;1.4;3,0;3;0,75;0;0,75;3;0;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Peugeot 207 - 1.6  (Naftero);Peugeot;207;Elaion F50;Naftero;1.6;3,2;4;1;1;0;0;0,8;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Peugeot 207 - 1.9  (Diesel);Peugeot;207;Elaion F50;Diesel;1.9;4,8;5;1,25;1;0,25;1;0,2;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 207 - 2.0  (Diesel);Peugeot;207;Elaion F50;Diesel;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 307 - 1.4  (Naftero);Peugeot;307;Elaion F50;Naftero;1.4;3,1;4;1;1;0;0;0,95;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Peugeot 307 - 1.6  (Diesel);Peugeot;307;Elaion F50;Diesel;1.6;3,3;4;1;1;0;0;0,75;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Peugeot 307 - 1.6  (Naftero);Peugeot;307;Elaion F50;Naftero;1.6;3,3;4;1;1;0;0;0,75;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Peugeot 307 - 2.0  (Diesel);Peugeot;307;Elaion F50;Diesel;2.0;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 307 - 2.0  (Naftero);Peugeot;307;Elaion F50;Naftero;2.0;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 307 - 2.0 t  (Diesel);Peugeot;307;Elaion F50;Diesel;2.0 t;5,3;6;1,5;1;0,5;2;0,75;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Peugeot 407 - 1.6  (Diesel);Peugeot;407;Elaion F50;Diesel;1.6;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Peugeot 407 - 1.8  (Naftero);Peugeot;407;Elaion F50;Naftero;1.8;4,3;5;1,25;1;0,25;1;0,75;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 407 - 2.0  (Diesel);Peugeot;407;Elaion F50;Diesel;2.0;5,3;6;1,5;1;0,5;2;0,75;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Peugeot 407 - 2.0  (Naftero);Peugeot;407;Elaion F50;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,75;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 407 - 2.2  (Diesel);Peugeot;407;Elaion F50;Diesel;2.2;5,3;6;1,5;1;0,5;2;0,75;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Peugeot 407 - 2.2  (Naftero);Peugeot;407;Elaion F50;Naftero;2.2;4,3;5;1,25;1;0,25;1;0,75;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 407 - 2.7  (Diesel);Peugeot;407;Elaion F50;Diesel;2.7;5,3;6;1,5;1;0,5;2;0,75;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Peugeot 407 - 3.0  (Naftero);Peugeot;407;Elaion F50;Naftero;3.0;4,8;5;1,25;1;0,25;1;0,25;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot 807 - 2.0  (Naftero);Peugeot;807;Elaion F30;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Peugeot 807 - 2.0 hdi  (Diesel);Peugeot;807;Elaion F50;Diesel;2.0 hdi;5,0;5;1,25;1;0,25;1;0;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot Boxer - 2.8  (Diesel);Peugeot;Boxer;Elaion F50;Diesel;2.8;6,0;6;1,5;1;0,5;2;0;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Peugeot Expert - 1.6 hdi  (Diesel);Peugeot;Expert;Elaion F50;Diesel;1.6 hdi;4,8;5;1,25;1;0,25;1;0,2;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Peugeot Expert - 2.0 hdi  (Diesel);Peugeot;Expert;Elaion F50;Diesel;2.0 hdi;6,0;6;1,5;1;0,5;2;0;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Porsche 911 Carrera - 3.6  (Naftero);Porsche;911 Carrera;Elaion F50;Naftero;3.6;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Porsche 911 Turbo - 3.6  (Naftero);Porsche;911 Turbo;Elaion F50;Naftero;3.6;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Porsche Boxster - 2.5  (Naftero);Porsche;Boxster;Elaion F50;Naftero;2.5;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Porsche Boxster S - 2.7  (Naftero);Porsche;Boxster S;Elaion F50;Naftero;2.7;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Porsche Boxster Spider - 3.2  (Naftero);Porsche;Boxster Spider;Elaion F50;Naftero;3.2;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Porsche Cayenne - 3.0  (Diesel);Porsche;Cayenne;Elaion SUV;Diesel;3.0;9,0;9;2,25;2;0,25;1;0;$ 682,00;$ 174,00;$ 1.364,00;$ 174,00;$ 1.538,00
+Porsche Cayenne - 3.6  (Naftero);Porsche;Cayenne;Elaion SUV;Naftero;3.6;6,9;7;1,75;1;0,75;3;0,1;$ 682,00;$ 174,00;$ 682,00;$ 522,00;$ 1.204,00
+Porsche Cayenne Turbo - 4.8  (Naftero);Porsche;Cayenne Turbo;Elaion SUV;Naftero;4.8;9,0;9;2,25;2;0,25;1;0;$ 682,00;$ 174,00;$ 1.364,00;$ 174,00;$ 1.538,00
+Porsche Cayman - 2.7  (Naftero);Porsche;Cayman;Elaion F50;Naftero;2.7;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Porsche Cayman S - 3.4  (Naftero);Porsche;Cayman S;Elaion F50;Naftero;3.4;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Porsche Panemera - 3.6  (Naftero);Porsche;Panemera;Elaion F50;Naftero;3.6;9,0;9;2,25;2;0,25;1;0;$ 625,00;$ 163,00;$ 1.250,00;$ 163,00;$ 1.413,00
+Renault Clio - 1.6  (Naftero);Renault;Clio;Elaion F10;Naftero;1.6;3,8;4;1;1;0;0;0,2;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Renault Clio - 1.9  (Diesel);Renault;Clio;Elaion F10;Diesel;1.9;4,3;5;1,25;1;0,25;1;0,7;$ 347,00;$ 90,00;$ 347,00;$ 90,00;$ 437,00
+Renault Clio II - 1.2  (Naftero);Renault;Clio II;Elaion F30;Naftero;1.2;4,0;4;1;1;0;0;0;$ 452,00;$ 117,00;$ 452,00;$ 0,00;$ 452,00
+Renault Clio II - 1.5 dsi  (Diesel);Renault;Clio II;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Clio II - 1.6  (Naftero);Renault;Clio II;Elaion F30;Naftero;1.6;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Grand Scenic - 1.5 dsi  (Diesel);Renault;Grand Scenic;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Grand Scenic - 2.0  (Naftero);Renault;Grand Scenic;Elaion F30;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
 Renault Grand Scenic -DPF -   (Diesel);Renault;Grand Scenic -DPF;Consultar manual;Diesel;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Renault Kangoo - 1.5 dsi  (Diesel);Renault;Kangoo;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Kangoo - 1.6  (Naftero);Renault;Kangoo;Elaion F30;Naftero;1.6;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
+Renault Kangoo - 1.5 dsi  (Diesel);Renault;Kangoo;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Kangoo - 1.6  (Naftero);Renault;Kangoo;Elaion F30;Naftero;1.6;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
 Renault Kangoo -DPF -   (Diesel);Renault;Kangoo -DPF;Consultar manual;Diesel;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Renault Laguna - 1.9 dsi  (Diesel);Renault;Laguna;Elaion F30;Diesel;1.9 dsi;4,8;5;1,25;1;0,25;1;0,2;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Laguna - 2.0  (Naftero);Renault;Laguna;Elaion F30;Naftero;2.0;5,2;6;1,5;1;0,5;2;0,8;$ 355,21;$ 90,12;$ 355,21;$ 180,24;$ 535,45
-Renault Laguna - 3.0  (Naftero);Renault;Laguna;Elaion F30;Naftero;3.0;5,4;6;1,5;1;0,5;2;0,6;$ 355,21;$ 90,12;$ 355,21;$ 180,24;$ 535,45
+Renault Laguna - 1.9 dsi  (Diesel);Renault;Laguna;Elaion F30;Diesel;1.9 dsi;4,8;5;1,25;1;0,25;1;0,2;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Laguna - 2.0  (Naftero);Renault;Laguna;Elaion F30;Naftero;2.0;5,2;6;1,5;1;0,5;2;0,8;$ 452,00;$ 117,00;$ 452,00;$ 234,00;$ 686,00
+Renault Laguna - 3.0  (Naftero);Renault;Laguna;Elaion F30;Naftero;3.0;5,4;6;1,5;1;0,5;2;0,6;$ 452,00;$ 117,00;$ 452,00;$ 234,00;$ 686,00
 Renault Laguna -DPF -   (Diesel);Renault;Laguna -DPF;Consultar manual;Diesel;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Renault Logan - 1.5 dsi  (Diesel);Renault;Logan;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Logan - 1.6  (Naftero);Renault;Logan;Elaion F30;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
+Renault Logan - 1.5 dsi  (Diesel);Renault;Logan;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Logan - 1.6  (Naftero);Renault;Logan;Elaion F30;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 452,00;$ 117,00;$ 452,00;$ 0,00;$ 452,00
 Renault Logan -DPF -   (Diesel);Renault;Logan -DPF;Consultar manual;Diesel;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Renault Master - 2.5 dsi  (Diesel);Renault;Master;Elaion F30;Diesel;2.5 dsi;6,7;7;1,75;1;0,75;3;0,3;$ 355,21;$ 90,12;$ 355,21;$ 270,36;$ 625,57
-Renault Megane - 1.6  (Naftero);Renault;Megane;Elaion F30;Naftero;1.6;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Megane - 1.9 dti  (Diesel);Renault;Megane;Elaion F30;Diesel;1.9 dti;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Megane - 2.0  (Naftero);Renault;Megane;Elaion F30;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Megane II - 1.5 dsi  (Diesel);Renault;Megane II;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Megane II - 1.6  (Naftero);Renault;Megane II;Elaion F30;Naftero;1.6;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Megane II - 2.0  (Naftero);Renault;Megane II;Elaion F30;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
+Renault Master - 2.5 dsi  (Diesel);Renault;Master;Elaion F30;Diesel;2.5 dsi;6,7;7;1,75;1;0,75;3;0,3;$ 452,00;$ 117,00;$ 452,00;$ 351,00;$ 803,00
+Renault Megane - 1.6  (Naftero);Renault;Megane;Elaion F30;Naftero;1.6;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Megane - 1.9 dti  (Diesel);Renault;Megane;Elaion F30;Diesel;1.9 dti;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Megane - 2.0  (Naftero);Renault;Megane;Elaion F30;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Megane II - 1.5 dsi  (Diesel);Renault;Megane II;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Megane II - 1.6  (Naftero);Renault;Megane II;Elaion F30;Naftero;1.6;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Megane II - 2.0  (Naftero);Renault;Megane II;Elaion F30;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
 Renault Megane II -DPF -   (Diesel);Renault;Megane II -DPF;Consultar manual;Diesel;;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Renault Sandero - 1.5 dsi  (Diesel);Renault;Sandero;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 355,21;$ 90,12;$ 355,21;$ 90,12;$ 445,33
-Renault Sandero - 1.6  (Naftero);Renault;Sandero;Elaion F30;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Seat Altea -   (Diesel);Seat;Altea;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Seat Altea -   (Naftero);Seat;Altea;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Seat Altea -   (Naftero);Seat;Altea;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Seat Cordoba - 1.6  (Naftero);Seat;Cordoba;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Seat Cordoba - 1.8  (Naftero);Seat;Cordoba;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Seat Cordoba - 1.9 tdi  (Diesel);Seat;Cordoba;Elaion F50;Diesel;1.9 tdi;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Seat Ibiza - 1.6  (Naftero);Seat;Ibiza;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Seat Ibiza - 1.8  (Naftero);Seat;Ibiza;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Seat Ibiza - 1.9 sd  (Diesel);Seat;Ibiza;Elaion F10;Diesel;1.9 sd;4,0;4;1;1;0;0;0;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Seat Ibiza - 1.9 tdi  (Diesel);Seat;Ibiza;Elaion F50;Diesel;1.9 tdi;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Seat Leon - 1.6  (Naftero);Seat;Leon;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Seat Leon - 1.9 tdi  (Diesel);Seat;Leon;Elaion F50;Diesel;1.9 tdi;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Seat Toledo - 1.6  (Naftero);Seat;Toledo;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Seat Toledo - 1.9 sd  (Diesel);Seat;Toledo;Elaion F10;Diesel;1.9 sd;4,0;4;1;1;0;0;0;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Seat Toledo - 1.9 tdi  (Diesel);Seat;Toledo;Elaion F50;Diesel;1.9 tdi;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Seat Toledo - 2.0  (Naftero);Seat;Toledo;Elaion F50;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Subaru Forester - 2.0  (Naftero);Subaru;Forester;Elaion F50E;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Subaru Impreza - 2.0  (Naftero);Subaru;Impreza;Elaion F50E;Naftero;2.0;4,2;5;1,25;1;0,25;1;0,8;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Subaru Legacy -   (Diesel);Subaru;Legacy;Elaion F50;Diesel;;5,5;6;1,5;1;0,5;2;0,5;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Subaru Legacy - 2.0  (Naftero);Subaru;Legacy;Elaion F50E;Naftero;2.0;4,0;4;1;1;0;0;0;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Subaru Outback -   (Diesel);Subaru;Outback;Elaion F50;Diesel;;5,5;6;1,5;1;0,5;2;0,5;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Subaru Outback - 2.0  (Naftero);Subaru;Outback;Elaion F50E;Naftero;2.0;4,0;4;1;1;0;0;0;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Subaru Tribeca - 3.0  (Naftero);Subaru;Tribeca;Elaion SUV;Naftero;3.0;6,3;7;1,75;1;0,75;3;0,7;$ 535,85;$ 134,09;$ 535,85;$ 402,27;$ 938,12
-Suzuki Fun - 1.0  (Naftero);Suzuki;Fun;Elaion F50;Naftero;1.0;3,0;3;0,75;0;0,75;3;0;$ 491,51;$ 125,93;$ 0,00;$ 377,79;$ 377,79
-Suzuki Fun - 1.4  (Naftero);Suzuki;Fun;Elaion F50;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Suzuki Grand Vitara - 1.6  (Naftero);Suzuki;Grand Vitara;Elaion SUV;Naftero;1.6;4,2;5;1,25;1;0,25;1;0,8;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Suzuki Grand Vitara - 1.9  (Diesel);Suzuki;Grand Vitara;Elaion SUV;Diesel;1.9;5,1;6;1,5;1;0,5;2;0,9;$ 535,85;$ 134,09;$ 535,85;$ 268,18;$ 804,03
-Suzuki Grand Vitara XL7 - 2.0 tdi  (Naftero);Suzuki;Grand Vitara XL7;Elaion SUV;Naftero;2.0 tdi;4,8;5;1,25;1;0,25;1;0,2;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Suzuki Grand Vitara XL7 - 2.7 V6  (Naftero);Suzuki;Grand Vitara XL7;Elaion SUV;Naftero;2.7 V6;5,5;6;1,5;1;0,5;2;0,5;$ 535,85;$ 134,09;$ 535,85;$ 268,18;$ 804,03
-Suzuki Swift - 1.5  (Naftero);Suzuki;Swift;Elaion F50;Naftero;1.5;3,9;4;1;1;0;0;0,1;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Suzuki Vitara J III - 2.4  (Naftero);Suzuki;Vitara J III;Elaion SUV;Naftero;2.4;4,8;5;1,25;1;0,25;1;0,2;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Toyota Camry - 2.4  (Naftero);Toyota;Camry;Elaion F50;Naftero;2.4;4,3;5;1,25;1;0,25;1;0,7;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Toyota Corolla - 1.8  (Naftero);Toyota;Corolla;Elaion F30;Naftero;1.8;4,0;4;1;1;0;0;0;$ 355,21;$ 90,12;$ 355,21;$ 0,00;$ 355,21
-Toyota Corolla - 2.0 td  (Diesel);Toyota;Corolla;Elaion F30;Diesel;2.0 td;5,5;6;1,5;1;0,5;2;0,5;$ 355,21;$ 90,12;$ 355,21;$ 180,24;$ 535,45
-Toyota Hilux (4x2) - 2.8 tdi  (Diesel);Toyota;Hilux (4x2);Elaion Torque;Diesel;2.8 tdi;5,5;6;1,5;1;0,5;2;0,5;$ 319,57;$ 80,88;$ 319,57;$ 161,76;$ 481,33
-Toyota Hilux SW4 - 3.0 tdi  (Diesel);Toyota;Hilux SW4;Elaion Torque;Diesel;3.0 tdi;7,5;8;2;2;0;0;0,5;$ 319,57;$ 80,88;$ 639,14;$ 0,00;$ 639,14
-Toyota Land Cruiser 200 - 4.5 V8 D4D  (Diesel);Toyota;Land Cruiser 200;Elaion SUV;Diesel;4.5 V8 D4D;9,0;9;2,25;2;0,25;1;0;$ 535,85;$ 134,09;$ 1.071,70;$ 134,09;$ 1.205,79
-Toyota Land Cruiser 200 - 4.7 V8  (Naftero);Toyota;Land Cruiser 200;Elaion SUV;Naftero;4.7 V8;6,8;7;1,75;1;0,75;3;0,2;$ 535,85;$ 134,09;$ 535,85;$ 402,27;$ 938,12
-Toyota Land Cruiser Prado -   (Diesel);Toyota;Land Cruiser Prado;Elaion SUV;Diesel;;0,0;0;0;0;0;0;0;$ 535,85;$ 134,09;$ 0,00;$ 0,00;$ 0,00
-Toyota Land Cruiser Prado -   (Diesel);Toyota;Land Cruiser Prado;Elaion SUV;Diesel;;0,0;0;0;0;0;0;0;$ 535,85;$ 134,09;$ 0,00;$ 0,00;$ 0,00
+Renault Sandero - 1.5 dsi  (Diesel);Renault;Sandero;Elaion F30;Diesel;1.5 dsi;4,5;5;1,25;1;0,25;1;0,5;$ 452,00;$ 117,00;$ 452,00;$ 117,00;$ 569,00
+Renault Sandero - 1.6  (Naftero);Renault;Sandero;Elaion F30;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 452,00;$ 117,00;$ 452,00;$ 0,00;$ 452,00
+Seat Altea -   (Diesel);Seat;Altea;Elaion F50;Diesel;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Seat Altea -   (Naftero);Seat;Altea;Elaion F50;Naftero;;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Seat Cordoba - 1.6  (Naftero);Seat;Cordoba;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Seat Cordoba - 1.8  (Naftero);Seat;Cordoba;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Seat Cordoba - 1.9 tdi  (Diesel);Seat;Cordoba;Elaion F50;Diesel;1.9 tdi;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Seat Ibiza - 1.6  (Naftero);Seat;Ibiza;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Seat Ibiza - 1.8  (Naftero);Seat;Ibiza;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Seat Ibiza - 1.9 sd  (Diesel);Seat;Ibiza;Elaion F10;Diesel;1.9 sd;4,0;4;1;1;0;0;0;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Seat Ibiza - 1.9 tdi  (Diesel);Seat;Ibiza;Elaion F50;Diesel;1.9 tdi;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Seat Leon - 1.6  (Naftero);Seat;Leon;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Seat Leon - 1.9 tdi  (Diesel);Seat;Leon;Elaion F50;Diesel;1.9 tdi;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Seat Toledo - 1.6  (Naftero);Seat;Toledo;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Seat Toledo - 1.9 sd  (Diesel);Seat;Toledo;Elaion F10;Diesel;1.9 sd;4,0;4;1;1;0;0;0;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Seat Toledo - 1.9 tdi  (Diesel);Seat;Toledo;Elaion F50;Diesel;1.9 tdi;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Seat Toledo - 2.0  (Naftero);Seat;Toledo;Elaion F50;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Subaru Forester - 2.0  (Naftero);Subaru;Forester;Elaion F50E;Naftero;2.0;4,5;5;1,25;1;0,25;1;0,5;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Subaru Impreza - 2.0  (Naftero);Subaru;Impreza;Elaion F50E;Naftero;2.0;4,2;5;1,25;1;0,25;1;0,8;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Subaru Legacy -   (Diesel);Subaru;Legacy;Elaion F50;Diesel;;5,5;6;1,5;1;0,5;2;0,5;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Subaru Legacy - 2.0  (Naftero);Subaru;Legacy;Elaion F50E;Naftero;2.0;4,0;4;1;1;0;0;0;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Subaru Outback -   (Diesel);Subaru;Outback;Elaion F50;Diesel;;5,5;6;1,5;1;0,5;2;0,5;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Subaru Outback - 2.0  (Naftero);Subaru;Outback;Elaion F50E;Naftero;2.0;4,0;4;1;1;0;0;0;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Subaru Tribeca - 3.0  (Naftero);Subaru;Tribeca;Elaion SUV;Naftero;3.0;6,3;7;1,75;1;0,75;3;0,7;$ 682,00;$ 174,00;$ 682,00;$ 522,00;$ 1.204,00
+Suzuki Fun - 1.0  (Naftero);Suzuki;Fun;Elaion F50;Naftero;1.0;3,0;3;0,75;0;0,75;3;0;$ 625,00;$ 163,00;$ 0,00;$ 489,00;$ 489,00
+Suzuki Fun - 1.4  (Naftero);Suzuki;Fun;Elaion F50;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Suzuki Grand Vitara - 1.6  (Naftero);Suzuki;Grand Vitara;Elaion SUV;Naftero;1.6;4,2;5;1,25;1;0,25;1;0,8;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Suzuki Grand Vitara - 1.9  (Diesel);Suzuki;Grand Vitara;Elaion SUV;Diesel;1.9;5,1;6;1,5;1;0,5;2;0,9;$ 682,00;$ 174,00;$ 682,00;$ 348,00;$ 1.030,00
+Suzuki Grand Vitara XL7 - 2.0 tdi  (Naftero);Suzuki;Grand Vitara XL7;Elaion SUV;Naftero;2.0 tdi;4,8;5;1,25;1;0,25;1;0,2;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Suzuki Grand Vitara XL7 - 2.7 V6  (Naftero);Suzuki;Grand Vitara XL7;Elaion SUV;Naftero;2.7 V6;5,5;6;1,5;1;0,5;2;0,5;$ 682,00;$ 174,00;$ 682,00;$ 348,00;$ 1.030,00
+Suzuki Swift - 1.5  (Naftero);Suzuki;Swift;Elaion F50;Naftero;1.5;3,9;4;1;1;0;0;0,1;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Suzuki Vitara J III - 2.4  (Naftero);Suzuki;Vitara J III;Elaion SUV;Naftero;2.4;4,8;5;1,25;1;0,25;1;0,2;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Toyota Camry - 2.4  (Naftero);Toyota;Camry;Elaion F50;Naftero;2.4;4,3;5;1,25;1;0,25;1;0,7;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Toyota Corolla - 1.8  (Naftero);Toyota;Corolla;Elaion F30;Naftero;1.8;4,0;4;1;1;0;0;0;$ 452,00;$ 117,00;$ 452,00;$ 0,00;$ 452,00
+Toyota Corolla - 2.0 td  (Diesel);Toyota;Corolla;Elaion F30;Diesel;2.0 td;5,5;6;1,5;1;0,5;2;0,5;$ 452,00;$ 117,00;$ 452,00;$ 234,00;$ 686,00
+Toyota Hilux (4x2) - 2.8 tdi  (Diesel);Toyota;Hilux (4x2);Elaion Torque;Diesel;2.8 tdi;5,5;6;1,5;1;0,5;2;0,5;$ 407,00;$ 105,00;$ 407,00;$ 210,00;$ 617,00
+Toyota Hilux SW4 - 3.0 tdi  (Diesel);Toyota;Hilux SW4;Elaion Torque;Diesel;3.0 tdi;7,5;8;2;2;0;0;0,5;$ 407,00;$ 105,00;$ 814,00;$ 0,00;$ 814,00
+Toyota Land Cruiser 200 - 4.5 V8 D4D  (Diesel);Toyota;Land Cruiser 200;Elaion SUV;Diesel;4.5 V8 D4D;9,0;9;2,25;2;0,25;1;0;$ 682,00;$ 174,00;$ 1.364,00;$ 174,00;$ 1.538,00
+Toyota Land Cruiser 200 - 4.7 V8  (Naftero);Toyota;Land Cruiser 200;Elaion SUV;Naftero;4.7 V8;6,8;7;1,75;1;0,75;3;0,2;$ 682,00;$ 174,00;$ 682,00;$ 522,00;$ 1.204,00
+Toyota Land Cruiser Prado -   (Diesel);Toyota;Land Cruiser Prado;Elaion SUV;Diesel;;0,0;0;0;0;0;0;0;$ 682,00;$ 174,00;$ 0,00;$ 0,00;$ 0,00
 Toyota Prius - 1.8 hibrido  (Naftero);Toyota;Prius;Consultar manual;Naftero;1.8 hibrido;4,2;5;1,25;1;0,25;1;0,8;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Toyota RAV4 - 2.0  (Naftero);Toyota;RAV4;Elaion SUV;Naftero;2.0;3,9;4;1;1;0;0;0,1;$ 535,85;$ 134,09;$ 535,85;$ 0,00;$ 535,85
-Toyota RAV4 - 2.4  (Naftero);Toyota;RAV4;Elaion SUV;Naftero;2.4;4,3;5;1,25;1;0,25;1;0,7;$ 535,85;$ 134,09;$ 535,85;$ 134,09;$ 669,94
-Volkswagen Amarok - 2.0 tdi  (Diesel);Volkswagen;Amarok;Elaion F50;Diesel;2.0 tdi;0,0;0;0;0;0;0;0;$ 491,51;$ 125,93;$ 0,00;$ 0,00;$ 0,00
-Volkswagen Beetle - 1.8 t  (Naftero);Volkswagen;Beetle;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Volkswagen Beetle - 2.0  (Naftero);Volkswagen;Beetle;Elaion F50;Naftero;2.0;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Bora - 1.8 t  (Naftero);Volkswagen;Bora;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Volkswagen Bora - 1.9 tdi  (Diesel);Volkswagen;Bora;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Bora - 2.0  (Naftero);Volkswagen;Bora;Elaion F50;Naftero;2.0;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Caddy - 1.6  (Naftero);Volkswagen;Caddy;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Caddy - 1.9  (Diesel);Volkswagen;Caddy;Elaion F10;Diesel;1.9;4,0;4;1;1;0;0;0;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Crossfox - 1.6  (Naftero);Volkswagen;Crossfox;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Fox - 1.6  (Naftero);Volkswagen;Fox;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Fox - 1.9  (Naftero);Volkswagen;Fox;Elaion F10;Naftero;1.9;4,0;4;1;1;0;0;0;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Gol - 1.0  (Naftero);Volkswagen;Gol;Elaion F10;Naftero;1.0;3,5;4;1;1;0;0;0,5;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Gol - 1.6  (Naftero);Volkswagen;Gol;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Gol - 1.6 sd  (Diesel);Volkswagen;Gol;Elaion F10;Diesel;1.6 sd;3,5;4;1;1;0;0;0,5;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Gol - 1.9 sd  (Diesel);Volkswagen;Gol;Elaion F10;Diesel;1.9 sd;4,0;4;1;1;0;0;0;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Gol Country - 1.6  (Naftero);Volkswagen;Gol Country;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Gol Country - 1.9 sd  (Diesel);Volkswagen;Gol Country;Elaion F10;Diesel;1.9 sd;4,0;4;1;1;0;0;0;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Gol Power - 1.4  (Naftero);Volkswagen;Gol Power;Elaion F50;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Gol Trend - 1.6  (Naftero);Volkswagen;Gol Trend;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Golf - 1.6  (Naftero);Volkswagen;Golf;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Golf - 1.8  (Naftero);Volkswagen;Golf;Elaion F10;Naftero;1.8;4,0;4;1;1;0;0;0;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Golf - 1.8 t  (Naftero);Volkswagen;Golf;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Volkswagen Golf - 1.9 tdi  (Diesel);Volkswagen;Golf;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Golf - 2.0  (Naftero);Volkswagen;Golf;Elaion F50;Naftero;2.0;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Passat - 1.8 t  (Naftero);Volkswagen;Passat;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Volkswagen Passat - 1.9 tdi  (Diesel);Volkswagen;Passat;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Passat - 2.0 tdi  (Diesel);Volkswagen;Passat;Elaion F50;Diesel;2.0 tdi;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Volkswagen Passat - 2.8 VR6  (Naftero);Volkswagen;Passat;Elaion F50;Naftero;2.8 VR6;6,5;7;1,75;1;0,75;3;0,5;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Volkswagen Polo Classic - 1.6  (Naftero);Volkswagen;Polo Classic;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Polo Classic - 1.8  (Naftero);Volkswagen;Polo Classic;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Polo Classic - 1.9  (Diesel);Volkswagen;Polo Classic;Elaion F10;Diesel;1.9;4,0;4;1;1;0;0;0;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Polo Classic - 1.9 tdi  (Diesel);Volkswagen;Polo Classic;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Santana - 2.0  (Naftero);Volkswagen;Santana;Elaion F10;Naftero;2.0;3,5;4;1;1;0;0;0,5;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Sharan - 1.8 t  (Naftero);Volkswagen;Sharan;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Volkswagen Sharan - 1.9 tdi  (Diesel);Volkswagen;Sharan;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Suran - 1.6  (Naftero);Volkswagen;Suran;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Suran - 1.9  (Diesel);Volkswagen;Suran;Elaion F10;Diesel;1.9;4,0;4;1;1;0;0;0;$ 277,99;$ 70,48;$ 277,99;$ 0,00;$ 277,99
-Volkswagen Tiguan - 2.0 tdi  (Diesel);Volkswagen;Tiguan;Elaion F50;Diesel;2.0 tdi;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Tiguan - 2.0 tsi  (Naftero);Volkswagen;Tiguan;Elaion F50;Naftero;2.0 tsi;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Volkswagen Touareg - 206kw  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;206kw;6,9;7;1,75;1;0,75;3;0,1;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Volkswagen Touareg - 257kw  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;257kw;9,1;10;2,5;2;0,5;2;0,9;$ 491,51;$ 125,93;$ 983,02;$ 251,86;$ 1.234,88
-Volkswagen Touareg - 3.2 V6  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;3.2 V6;6,3;7;1,75;1;0,75;3;0,7;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Volkswagen Touareg - 3.6  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;3.6;6,3;7;1,75;1;0,75;3;0,7;$ 491,51;$ 125,93;$ 491,51;$ 377,79;$ 869,30
-Volkswagen Touareg - 331kw  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;331kw;14,0;14;3,5;3;0,5;2;0;$ 491,51;$ 125,93;$ 1.474,53;$ 251,86;$ 1.726,39
-Volkswagen Touareg - 4.2  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;4.2;7,5;8;2;2;0;0;0,5;$ 491,51;$ 125,93;$ 983,02;$ 0,00;$ 983,02
-Volkswagen Touareg - 5.0 tdi  (Diesel);Volkswagen;Touareg;Elaion F50;Diesel;5.0 tdi;13,5;14;3,5;3;0,5;2;0,5;$ 491,51;$ 125,93;$ 1.474,53;$ 251,86;$ 1.726,39
-Volkswagen Vento - 1.9 tdi  (Diesel);Volkswagen;Vento;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Vento - 2.0 tdi  (Diesel);Volkswagen;Vento;Elaion F50;Diesel;2.0 tdi;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volkswagen Vento - 2.0 tsi  (Naftero);Volkswagen;Vento;Elaion F50;Naftero;2.0 tsi;4,5;5;1,25;1;0,25;1;0,5;$ 491,51;$ 125,93;$ 491,51;$ 125,93;$ 617,44
-Volkswagen Vento - 2.5  (Naftero);Volkswagen;Vento;Elaion F50;Naftero;2.5;5,5;6;1,5;1;0,5;2;0,5;$ 491,51;$ 125,93;$ 491,51;$ 251,86;$ 743,37
-Volkswagen Voyage - 1.6  (Naftero);Volkswagen;Voyage;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 491,51;$ 125,93;$ 491,51;$ 0,00;$ 491,51
-Volvo C30 - 1.6  (Naftero);Volvo;C30;Elaion F50E;Naftero;1.6;4,0;4;1;1;0;0;0;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Volvo C30 - 1.6D  (Diesel);Volvo;C30;Elaion F50E;Diesel;1.6D;3,7;4;1;1;0;0;0,3;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Volvo C30 - 1.8  (Naftero);Volvo;C30;Elaion F50E;Naftero;1.8;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo C30 - 1.8F  (Naftero);Volvo;C30;Elaion F50E;Naftero;1.8F;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo C30 - 2.0  (Naftero);Volvo;C30;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo C30 - 2.0D  (Diesel);Volvo;C30;Elaion F50E;Diesel;2.0D;5,0;5;1,25;1;0,25;1;0;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo C30 - 2.4i  (Naftero);Volvo;C30;Elaion F50E;Naftero;2.4i;5,8;6;1,5;1;0,5;2;0,2;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
+Toyota RAV4 - 2.0  (Naftero);Toyota;RAV4;Elaion SUV;Naftero;2.0;3,9;4;1;1;0;0;0,1;$ 682,00;$ 174,00;$ 682,00;$ 0,00;$ 682,00
+Toyota RAV4 - 2.4  (Naftero);Toyota;RAV4;Elaion SUV;Naftero;2.4;4,3;5;1,25;1;0,25;1;0,7;$ 682,00;$ 174,00;$ 682,00;$ 174,00;$ 856,00
+Volkswagen Amarok - 2.0 tdi  (Diesel);Volkswagen;Amarok;Elaion F50;Diesel;2.0 tdi;0,0;0;0;0;0;0;0;$ 625,00;$ 163,00;$ 0,00;$ 0,00;$ 0,00
+Volkswagen Beetle - 1.8 t  (Naftero);Volkswagen;Beetle;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Volkswagen Beetle - 2.0  (Naftero);Volkswagen;Beetle;Elaion F50;Naftero;2.0;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Bora - 1.8 t  (Naftero);Volkswagen;Bora;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Volkswagen Bora - 1.9 tdi  (Diesel);Volkswagen;Bora;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Bora - 2.0  (Naftero);Volkswagen;Bora;Elaion F50;Naftero;2.0;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Caddy - 1.6  (Naftero);Volkswagen;Caddy;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Caddy - 1.9  (Diesel);Volkswagen;Caddy;Elaion F10;Diesel;1.9;4,0;4;1;1;0;0;0;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Crossfox - 1.6  (Naftero);Volkswagen;Crossfox;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Fox - 1.6  (Naftero);Volkswagen;Fox;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Fox - 1.9  (Naftero);Volkswagen;Fox;Elaion F10;Naftero;1.9;4,0;4;1;1;0;0;0;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Gol - 1.0  (Naftero);Volkswagen;Gol;Elaion F10;Naftero;1.0;3,5;4;1;1;0;0;0,5;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Gol - 1.6  (Naftero);Volkswagen;Gol;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Gol - 1.6 sd  (Diesel);Volkswagen;Gol;Elaion F10;Diesel;1.6 sd;3,5;4;1;1;0;0;0,5;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Gol - 1.9 sd  (Diesel);Volkswagen;Gol;Elaion F10;Diesel;1.9 sd;4,0;4;1;1;0;0;0;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Gol Country - 1.6  (Naftero);Volkswagen;Gol Country;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Gol Country - 1.9 sd  (Diesel);Volkswagen;Gol Country;Elaion F10;Diesel;1.9 sd;4,0;4;1;1;0;0;0;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Gol Power - 1.4  (Naftero);Volkswagen;Gol Power;Elaion F50;Naftero;1.4;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Gol Trend - 1.6  (Naftero);Volkswagen;Gol Trend;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Golf - 1.6  (Naftero);Volkswagen;Golf;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Golf - 1.8  (Naftero);Volkswagen;Golf;Elaion F10;Naftero;1.8;4,0;4;1;1;0;0;0;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Golf - 1.8 t  (Naftero);Volkswagen;Golf;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Volkswagen Golf - 1.9 tdi  (Diesel);Volkswagen;Golf;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Golf - 2.0  (Naftero);Volkswagen;Golf;Elaion F50;Naftero;2.0;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Passat - 1.8 t  (Naftero);Volkswagen;Passat;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Volkswagen Passat - 1.9 tdi  (Diesel);Volkswagen;Passat;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Passat - 2.0 tdi  (Diesel);Volkswagen;Passat;Elaion F50;Diesel;2.0 tdi;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Volkswagen Passat - 2.8 VR6  (Naftero);Volkswagen;Passat;Elaion F50;Naftero;2.8 VR6;6,5;7;1,75;1;0,75;3;0,5;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Volkswagen Polo Classic - 1.6  (Naftero);Volkswagen;Polo Classic;Elaion F50;Naftero;1.6;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Polo Classic - 1.8  (Naftero);Volkswagen;Polo Classic;Elaion F50;Naftero;1.8;3,5;4;1;1;0;0;0,5;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Polo Classic - 1.9  (Diesel);Volkswagen;Polo Classic;Elaion F10;Diesel;1.9;4,0;4;1;1;0;0;0;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Polo Classic - 1.9 tdi  (Diesel);Volkswagen;Polo Classic;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Santana - 2.0  (Naftero);Volkswagen;Santana;Elaion F10;Naftero;2.0;3,5;4;1;1;0;0;0,5;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Sharan - 1.8 t  (Naftero);Volkswagen;Sharan;Elaion F50;Naftero;1.8 t;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Volkswagen Sharan - 1.9 tdi  (Diesel);Volkswagen;Sharan;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Suran - 1.6  (Naftero);Volkswagen;Suran;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Suran - 1.9  (Diesel);Volkswagen;Suran;Elaion F10;Diesel;1.9;4,0;4;1;1;0;0;0;$ 347,00;$ 90,00;$ 347,00;$ 0,00;$ 347,00
+Volkswagen Tiguan - 2.0 tdi  (Diesel);Volkswagen;Tiguan;Elaion F50;Diesel;2.0 tdi;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Tiguan - 2.0 tsi  (Naftero);Volkswagen;Tiguan;Elaion F50;Naftero;2.0 tsi;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Volkswagen Touareg - 206kw  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;206kw;6,9;7;1,75;1;0,75;3;0,1;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Volkswagen Touareg - 257kw  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;257kw;9,1;10;2,5;2;0,5;2;0,9;$ 625,00;$ 163,00;$ 1.250,00;$ 326,00;$ 1.576,00
+Volkswagen Touareg - 3.2 V6  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;3.2 V6;6,3;7;1,75;1;0,75;3;0,7;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Volkswagen Touareg - 3.6  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;3.6;6,3;7;1,75;1;0,75;3;0,7;$ 625,00;$ 163,00;$ 625,00;$ 489,00;$ 1.114,00
+Volkswagen Touareg - 331kw  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;331kw;14,0;14;3,5;3;0,5;2;0;$ 625,00;$ 163,00;$ 1.875,00;$ 326,00;$ 2.201,00
+Volkswagen Touareg - 4.2  (Naftero);Volkswagen;Touareg;Elaion F50;Naftero;4.2;7,5;8;2;2;0;0;0,5;$ 625,00;$ 163,00;$ 1.250,00;$ 0,00;$ 1.250,00
+Volkswagen Touareg - 5.0 tdi  (Diesel);Volkswagen;Touareg;Elaion F50;Diesel;5.0 tdi;13,5;14;3,5;3;0,5;2;0,5;$ 625,00;$ 163,00;$ 1.875,00;$ 326,00;$ 2.201,00
+Volkswagen Vento - 1.9 tdi  (Diesel);Volkswagen;Vento;Elaion F50;Diesel;1.9 tdi;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Vento - 2.0 tdi  (Diesel);Volkswagen;Vento;Elaion F50;Diesel;2.0 tdi;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volkswagen Vento - 2.0 tsi  (Naftero);Volkswagen;Vento;Elaion F50;Naftero;2.0 tsi;4,5;5;1,25;1;0,25;1;0,5;$ 625,00;$ 163,00;$ 625,00;$ 163,00;$ 788,00
+Volkswagen Vento - 2.5  (Naftero);Volkswagen;Vento;Elaion F50;Naftero;2.5;5,5;6;1,5;1;0,5;2;0,5;$ 625,00;$ 163,00;$ 625,00;$ 326,00;$ 951,00
+Volkswagen Voyage - 1.6  (Naftero);Volkswagen;Voyage;Elaion F50;Naftero;1.6;4,0;4;1;1;0;0;0;$ 625,00;$ 163,00;$ 625,00;$ 0,00;$ 625,00
+Volvo C30 - 1.6  (Naftero);Volvo;C30;Elaion F50E;Naftero;1.6;4,0;4;1;1;0;0;0;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Volvo C30 - 1.6D  (Diesel);Volvo;C30;Elaion F50E;Diesel;1.6D;3,7;4;1;1;0;0;0,3;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Volvo C30 - 1.8  (Naftero);Volvo;C30;Elaion F50E;Naftero;1.8;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo C30 - 1.8F  (Naftero);Volvo;C30;Elaion F50E;Naftero;1.8F;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo C30 - 2.0  (Naftero);Volvo;C30;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo C30 - 2.0D  (Diesel);Volvo;C30;Elaion F50E;Diesel;2.0D;5,0;5;1,25;1;0,25;1;0;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo C30 - 2.4i  (Naftero);Volvo;C30;Elaion F50E;Naftero;2.4i;5,8;6;1,5;1;0,5;2;0,2;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
 Volvo C30 - D5  (Diesel);Volvo;C30;Consultar manual;Diesel;D5;6,0;6;1,5;1;0,5;2;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Volvo C30 - T5  (Naftero);Volvo;C30;Elaion F50E;Naftero;T5;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Volvo C70 - 2.0D  (Diesel);Volvo;C70;Elaion F50E;Diesel;2.0D;5,0;5;1,25;1;0,25;1;0;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo C70 - 2.4  (Naftero);Volvo;C70;Elaion F50E;Naftero;2.4;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Volvo C70 - 2.4i  (Naftero);Volvo;C70;Elaion F50E;Naftero;2.4i;5,8;6;1,5;1;0,5;2;0,2;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Volvo C70 - D5  (Diesel);Volvo;C70;Elaion F50E;Diesel;D5;6,0;6;1,5;1;0,5;2;0;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Volvo C70 - T5  (Naftero);Volvo;C70;Elaion F50E;Naftero;T5;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Volvo S40 - 1.6  (Naftero);Volvo;S40;Elaion F50E;Naftero;1.6;4,0;4;1;1;0;0;0;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Volvo S40 - 1.6D  (Diesel);Volvo;S40;Elaion F50E;Diesel;1.6D;3,7;4;1;1;0;0;0,3;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Volvo S40 - 1.8  (Naftero);Volvo;S40;Elaion F50E;Naftero;1.8;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo S40 - 1.8F  (Naftero);Volvo;S40;Elaion F50E;Naftero;1.8F;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo S40 - 2.0  (Naftero);Volvo;S40;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo S40 - 2.0D  (Diesel);Volvo;S40;Elaion F50E;Diesel;2.0D;5,0;5;1,25;1;0,25;1;0;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo S40 - 2.4  (Naftero);Volvo;S40;Elaion F50E;Naftero;2.4;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Volvo S40 - 2.4i  (Naftero);Volvo;S40;Elaion F50E;Naftero;2.4i;5,8;6;1,5;1;0,5;2;0,2;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
+Volvo C30 - T5  (Naftero);Volvo;C30;Elaion F50E;Naftero;T5;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Volvo C70 - 2.0D  (Diesel);Volvo;C70;Elaion F50E;Diesel;2.0D;5,0;5;1,25;1;0,25;1;0;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo C70 - 2.4  (Naftero);Volvo;C70;Elaion F50E;Naftero;2.4;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Volvo C70 - 2.4i  (Naftero);Volvo;C70;Elaion F50E;Naftero;2.4i;5,8;6;1,5;1;0,5;2;0,2;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Volvo C70 - D5  (Diesel);Volvo;C70;Elaion F50E;Diesel;D5;6,0;6;1,5;1;0,5;2;0;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Volvo C70 - T5  (Naftero);Volvo;C70;Elaion F50E;Naftero;T5;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Volvo S40 - 1.6  (Naftero);Volvo;S40;Elaion F50E;Naftero;1.6;4,0;4;1;1;0;0;0;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Volvo S40 - 1.6D  (Diesel);Volvo;S40;Elaion F50E;Diesel;1.6D;3,7;4;1;1;0;0;0,3;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Volvo S40 - 1.8  (Naftero);Volvo;S40;Elaion F50E;Naftero;1.8;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo S40 - 1.8F  (Naftero);Volvo;S40;Elaion F50E;Naftero;1.8F;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo S40 - 2.0  (Naftero);Volvo;S40;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo S40 - 2.0D  (Diesel);Volvo;S40;Elaion F50E;Diesel;2.0D;5,0;5;1,25;1;0,25;1;0;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo S40 - 2.4  (Naftero);Volvo;S40;Elaion F50E;Naftero;2.4;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Volvo S40 - 2.4i  (Naftero);Volvo;S40;Elaion F50E;Naftero;2.4i;5,8;6;1,5;1;0,5;2;0,2;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
 Volvo S40 - D5  (Diesel);Volvo;S40;Consultar manual;Diesel;D5;6,0;6;1,5;1;0,5;2;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Volvo S40 - T5  (Naftero);Volvo;S40;Elaion F50E;Naftero;T5;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Volvo S60 - 2.0T  (Naftero);Volvo;S60;Elaion F50E;Naftero;2.0T;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
+Volvo S40 - T5  (Naftero);Volvo;S40;Elaion F50E;Naftero;T5;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Volvo S60 - 2.0T  (Naftero);Volvo;S60;Elaion F50E;Naftero;2.0T;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
 Volvo S60 - 2.4  (Naftero);Volvo;S60;Consultar manual;Naftero;2.4;5,5;6;1,5;1;0,5;2;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Volvo S60 - 2.4D  (Diesel);Volvo;S60;Consultar manual;Diesel;2.4D;6,2;7;1,75;1;0,75;3;0,8;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Volvo S60 - D5  (Diesel);Volvo;S60;Consultar manual;Diesel;D5;6,0;6;1,5;1;0,5;2;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Volvo S60 - D5  (Diesel);Volvo;S60;Consultar manual;Diesel;D5;6,0;6;1,5;1;0,5;2;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Volvo S60 - T5  (Naftero);Volvo;S60;Consultar manual;Naftero;T5;5,5;6;1,5;1;0,5;2;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Volvo S80 - 2.4D  (Diesel);Volvo;S80;Consultar manual;Diesel;2.4D;6,2;7;1,75;1;0,75;3;0,8;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
@@ -654,17 +540,22 @@ Volvo S80 - 3.2T  (Naftero);Volvo;S80;Consultar manual;Naftero;3.2T;0,0;0;0;0;0;
 Volvo S80 - 4.4i V8  (Naftero);Volvo;S80;Consultar manual;Naftero;4.4i V8;7,0;7;1,75;1;0,75;3;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Volvo S80 - D5  (Diesel);Volvo;S80;Consultar manual;Diesel;D5;6,0;6;1,5;1;0,5;2;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Volvo S80 - T6  (Naftero);Volvo;S80;Consultar manual;Naftero;T6;6,6;7;1,75;1;0,75;3;0,4;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Volvo V50 - 1.6  (Naftero);Volvo;V50;Elaion F50E;Naftero;1.6;4,0;4;1;1;0;0;0;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Volvo V50 - 1.6D  (Diesel);Volvo;V50;Elaion F50E;Diesel;1.6D;3,7;4;1;1;0;0;0,3;$ 478,32;$ 120,10;$ 478,32;$ 0,00;$ 478,32
-Volvo V50 - 1.8  (Naftero);Volvo;V50;Elaion F50E;Naftero;1.8;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo V50 - 1.8F  (Naftero);Volvo;V50;Elaion F50E;Naftero;1.8F;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo V50 - 2.0  (Naftero);Volvo;V50;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo V50 - 2.0D  (Diesel);Volvo;V50;Elaion F50E;Diesel;2.0D;5,0;5;1,25;1;0,25;1;0;$ 478,32;$ 120,10;$ 478,32;$ 120,10;$ 598,42
-Volvo V50 - 2.4  (Naftero);Volvo;V50;Elaion F50E;Naftero;2.4;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
-Volvo V50 - 2.4i  (Naftero);Volvo;V50;Elaion F50E;Naftero;2.4i;5,8;6;1,5;1;0,5;2;0,2;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
+Volvo V50 - 1.6  (Naftero);Volvo;V50;Elaion F50E;Naftero;1.6;4,0;4;1;1;0;0;0;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Volvo V50 - 1.6D  (Diesel);Volvo;V50;Elaion F50E;Diesel;1.6D;3,7;4;1;1;0;0;0,3;$ 609,00;$ 156,00;$ 609,00;$ 0,00;$ 609,00
+Volvo V50 - 1.8  (Naftero);Volvo;V50;Elaion F50E;Naftero;1.8;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo V50 - 1.8F  (Naftero);Volvo;V50;Elaion F50E;Naftero;1.8F;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo V50 - 2.0  (Naftero);Volvo;V50;Elaion F50E;Naftero;2.0;4,3;5;1,25;1;0,25;1;0,7;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo V50 - 2.0D  (Diesel);Volvo;V50;Elaion F50E;Diesel;2.0D;5,0;5;1,25;1;0,25;1;0;$ 609,00;$ 156,00;$ 609,00;$ 156,00;$ 765,00
+Volvo V50 - 2.4  (Naftero);Volvo;V50;Elaion F50E;Naftero;2.4;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
+Volvo V50 - 2.4i  (Naftero);Volvo;V50;Elaion F50E;Naftero;2.4i;5,8;6;1,5;1;0,5;2;0,2;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
 Volvo V50 - D5  (Diesel);Volvo;V50;Consultar manual;Diesel;D5;6,0;6;1,5;1;0,5;2;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
-Volvo V50 - T5  (Naftero);Volvo;V50;Elaion F50E;Naftero;T5;5,5;6;1,5;1;0,5;2;0,5;$ 478,32;$ 120,10;$ 478,32;$ 240,20;$ 718,52
+Volvo V50 - T5  (Naftero);Volvo;V50;Elaion F50E;Naftero;T5;5,5;6;1,5;1;0,5;2;0,5;$ 609,00;$ 156,00;$ 609,00;$ 312,00;$ 921,00
 Volvo XC90 - 2.5T  (Naftero);Volvo;XC90;Consultar manual;Naftero;2.5T;5,5;6;1,5;1;0,5;2;0,5;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Volvo XC90 - 3.2T  (Naftero);Volvo;XC90;Consultar manual;Naftero;3.2T;0,0;0;0;0;0;0;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Volvo XC90 - 4.4i V8  (Naftero);Volvo;XC90;Consultar manual;Naftero;4.4i V8;7,0;7;1,75;1;0,75;3;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
 Volvo XC90 - D5  (Diesel);Volvo;XC90;Consultar manual;Diesel;D5;6,0;6;1,5;1;0,5;2;0;$ 0,00;$ 0,00;$ 0,00;$ 0,00;$ 0,00
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+184;;;;;;;;;;;;;;;;;
