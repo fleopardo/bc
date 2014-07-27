@@ -11,6 +11,31 @@
     color: #4a4a4a;
 }
 
+
+/* INTRO */
+
+.presupuestacion-online .intro {
+    margin-bottom: 30px;
+    color: #292929;
+}
+
+.presupuestacion-online .intro li,
+.presupuestacion-online .intro p {
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'din-regular';
+}
+
+.presupuestacion-online .intro li {
+    margin-bottom: 15px;
+}
+
+.presupuestacion-online .intro li span {
+    color: #009fde;
+}
+
+
+
 .form-presupuestacion-online .options{
     position: absolute;
     top: 0;
@@ -64,6 +89,7 @@
 
 .steps {
     padding: 150px;
+    min-height: 250px;
 }
 
 .step3{
@@ -77,28 +103,14 @@
 
 .form-presupuestacion-online .step1 h3{
     font-size: 32px;
-    line-height: 40px;
+    line-height: 32px;
     font-family: 'din-medium';
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin: 70px auto 0 auto;
     background: url("./assets/fd-title-ppto1.png") left top no-repeat;
     padding-left: 96px;
-}
-
-.form-presupuestacion-online .step1 li,
-.form-presupuestacion-online .step1 p {
-    font-size: 18px;
-    line-height: 25px;
-    font-family: 'din-regular';
-}
-
-.form-presupuestacion-online .step1 li {
-    margin-bottom: 20px;
-    margin-left: 96px;
-}
-
-.form-presupuestacion-online .step1 li span {
-    color: #009fde;
+    padding-top: 52px;
+    width: 370px;
 }
 
 .form-presupuestacion-online .steps ul.recomendacion li{
