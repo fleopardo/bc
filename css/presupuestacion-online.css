@@ -58,7 +58,8 @@
 .form-presupuestacion-online .options .ui-selectmenu{
 	height: 92px;
 	background: transparent;
-	border-right: none;
+	border: none;
+    border-left: 1px solid #ccc;
 }
 
 .form-presupuestacion-online .options .ui-selectmenu-status{
@@ -258,6 +259,7 @@
 
 .links-container a.actions.send-mail{
 	background: url("./assets/fd-link-mail.png") left no-repeat;
+    cursor: default;
 }
 
 .links-container input[type=text]{
@@ -293,6 +295,16 @@
 
 
 
+@media print {
+    .headerYPF,
+    .destacado,
+    .breadcrumb-container,
+    .content-container aside,
+    footer {
+        display: none;
+    }
 
-
-
+    .content-contaier .right{
+        float: left;
+    }
+}
