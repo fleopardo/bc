@@ -176,5 +176,12 @@
 }
 
 
+.crea-turno .body-step1 .cancelar a,
+.crea-turno .body-step1 .modificar a,
+.crea-turno .body-step1 .confirmar a {
+    color: #fff;
+}
+
+
 
 
