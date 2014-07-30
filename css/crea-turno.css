@@ -122,73 +122,60 @@
     }
 
 
-.crea-turno .content td,
-.crea-turno .content th{
-    padding: 10px;
-    vertical-align: middle;
-}
-
-.crea-turno .content tr.noColapsible,
-.crea-turno .content tr.headerColapsible{
-    background: #ececec;
-}
-
-.crea-turno .content tr.headerColapsible{
-    cursor: pointer;
-}
-
-.crea-turno .content tr.headerColapsible td {
-    padding: 23px 10px;
-}
-
-.crea-turno .content tr.headerColapsible.closed .last{
-    background: url(./assets/sp-expandible-arrows-orange-close.png) 765px 25px no-repeat;
-}
-
-.crea-turno .content tr.headerColapsible.opened .last{
-    background: url(./assets/sp-expandible-arrows-orange-open.png) 765px 25px no-repeat;
-}
-
-.crea-turno .content td{
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.crea-turno .content tr[data-model] td{
-    background: #f8f8f8;
-}
-
-.crea-turno .content tr.noColapsible td {
-    background: none !important;
-}
-
-.crea-turno .content td.col1,
-.crea-turno .content td.col2 {
-    text-transform: uppercase;
-}
-
-.crea-turno a.descargar-pdf{
-    display: inline-block;
-    background: url('./assets/ic-descargar-pdf.png') no-repeat;
-    width: 22px;
-    height: 21px;
-    text-indent: -9999px;
-    overflow: hidden;
-}
-
-.crea-turno a.mail{
-    display: inline-block;
-    background: url('./assets/ic-mail.png') no-repeat;
-    width: 22px;
-    height: 21px;
-    text-indent: -9999px;
-    overflow: hidden;
-}
-
-
 /* STEP 1 */
 
-.crea-turno .body-step1 {
-    background: #ccc;
+.crea-turno .body-step1 td {
+    height: 40px;
+    vertical-align: middle;
+    padding: 0 10px;
+    border: 1px solid #e4e4e4;
+}
+
+    .crea-turno .body-step1 td:first-of-type {
+        border-left: none;
+    }
+
+    .crea-turno .body-step1 td:last-of-type {
+        border-right: none;
+    }
+
+.crea-turno .body-step1 tr:hover,
+.crea-turno .body-step1 tr.active {
+    background-color: #009fde;
+}
+
+.crea-turno .body-step1 tr:hover td,
+.crea-turno .body-step1 tr.active td {
+    color: #fff;
+    border-color: #0d98d0;
+}
+
+.crea-turno .body-step1 .cancelar,
+.crea-turno .body-step1 .modificar,
+.crea-turno .body-step1 .confirmar {
+    padding: 0;
+}
+
+.crea-turno .body-step1 .cancelar a,
+.crea-turno .body-step1 .modificar a,
+.crea-turno .body-step1 .confirmar a {
+    color: #fff;
+    visibility: hidden;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+}
+
+.crea-turno .body-step1 .cancelar a:hover,
+.crea-turno .body-step1 .modificar a:hover,
+.crea-turno .body-step1 .confirmar a:hover {
+    background-color: #0558ac;
+}
+
+.crea-turno .body-step1 tr:hover a,
+.crea-turno .body-step1 tr.active a{
+    visibility: visible;
 }
 
 .crea-turno .body-step1 .icon {
@@ -214,12 +201,6 @@
     background-position: 0px -38px;
 }
 
-
-.crea-turno .body-step1 .cancelar a,
-.crea-turno .body-step1 .modificar a,
-.crea-turno .body-step1 .confirmar a {
-    color: #fff;
-}
 
 
 
