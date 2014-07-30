@@ -433,7 +433,7 @@
 						<li><a href="./acerca-de-boxes.html" title="Acerca de BOXES">Acerca de BOXES</a></li>
 						<li><a href="#" title="Reservá tu Turno Online">Reservá tu Turno Online</a>
 							<ul>
-								<li><a href="./crea-tu-turno.html" title="Creá tu turno" class="active">Creá tu turno</a></li>
+								<li class="active"><a href="./crea-tu-turno.html" title="Creá tu turno">Creá tu turno</a></li>
 								<li><a href="./anular-modificar-turno.html" title="Anular / Modificar Turno">Anular / Modificar Turno</a></li>
 							</ul>
 						</l>
@@ -459,121 +459,25 @@
 						<li class="step3">3. Confirmar turno</li>
 					</ol>
 
-					<form action="" method="">
-						<fieldset class="step1">
-							<div class="calendar-cont">
+					<div class="body-step1">
+						<table>
+							<tbody>
 
-							</div>
+								<!-- ROW -->
+								<tr>
+									<td class="check"><input type="checkbox" value=""></td>
+									<td class="status">Disponible</td>
+									<td class="direccion">Av. Libertador 1234</td>
+									<td class="cancelar"><a href=""><i class="icon cancel"></i>Cancelar</a></td>
+									<td class="modificar"><a href=""><i class="icon modify"></i>Modificar</a></td>
+									<td class="confirmar"><a href=""><i class="icon check-ok"></i>Confirmar</a></td>
+								</tr>
 
-							<table>
-								<thead>
-									<th>Seleccionar horario</th>
-								</thead>
-								<tbody>
-<p>Date: <input type="text" id="datepicker"></p>
-								</tbody>
-							</table>
-						</fieldset>
-					</form>
+							</tbody>
+						</table>
+					</div>
 
-					<article class="filtro-anos">
-
-						<form action="" method="">
-							<fieldset>
-								<select class="select-model">
-									<option data-model="all">Todos los modelos</option>
-									<option data-model="VWBora">VW Bora</option>
-									<option data-model="CivicSi">Honda Civic SI</option>
-									<option data-model="fordFiesta">Ford Fiesta</option>
-									<option data-model="peugeot207">Peugeot 207</option>
-								</select>
-							</fieldset>
-						</form>
-
-					</article>
-					<table>
-						<thead>
-							<tr>
-								<th class="col1">Vehículo</th>
-								<th class="col2">Patente</th>
-								<th class="col3">Fecha</th>
-								<th class="col4">Kms</th>
-								<th class="col5">YPF Boxes</th>
-								<th class="col6">Certíficado</th>
-								<th class="col7 last">Enviar por mail</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="headerColapsible opened" data-model="VWBora">
-								<td class="col1 last" colspan="7">VW Bora</td>
-							</tr>
-
-							<tr data-model="VWBora">
-								<td class="col1">VW Bora</td>
-								<td class="col2">HIF854</td>
-								<td class="col3">25-1-2014</td>
-								<td class="col4">20000</td>
-								<td class="col5">Avenida Calchaqui 851 y Rodolfo Lopez, Quilmes Oeste</td>
-								<td class="col6"><a href="#" title="Descargar pdf" class="descargar-pdf" target="_blank">Descargar</a></td>
-								<td class="col7 last"><a href="#" title="Enviar mail" class="mail">Enviar por mail</a></td>
-							</tr>
-
-							<tr data-model="VWBora">
-								<td class="col1">VW Bora</td>
-								<td class="col2">HIF854</td>
-								<td class="col3">25-1-2014</td>
-								<td class="col4">20000</td>
-								<td class="col5">Avenida Calchaqui 851 y Rodolfo Lopez, Quilmes Oeste</td>
-								<td class="col6"><a href="#" title="Descargar pdf" class="descargar-pdf" target="_blank">Descargar</a></td>
-								<td class="col7 last"><a href="#" title="Enviar mail" class="mail">Enviar por mail</a></td>
-							</tr>
-
-							<tr class="anchor headerColapsible opened" data-model="CivicSi">
-								<td class="col1 last" colspan="7">Civic Si</td>
-							</tr>
-							<tr data-model="CivicSi">
-								<td class="col1">Civic Si</td>
-								<td class="col2">HIF854</td>
-								<td class="col3">25-1-2014</td>
-								<td class="col4">20000</td>
-								<td class="col5">Avenida Calchaqui 851 y Rodolfo Lopez, Quilmes Oeste</td>
-								<td class="col6"><a href="#" title="Descargar pdf" class="descargar-pdf" target="_blank">Descargar</a></td>
-								<td class="col7 last"><a href="#" title="Enviar mail" class="mail">Enviar por mail</a></td>
-							</tr>
-
-							<tr data-model="CivicSi">
-								<td class="col1">Civic Si</td>
-								<td class="col2">HIF854</td>
-								<td class="col3">25-1-2014</td>
-								<td class="col4">20000</td>
-								<td class="col5">Avenida Calchaqui 851 y Rodolfo Lopez, Quilmes Oeste</td>
-								<td class="col6"><a href="#" title="Descargar pdf" class="descargar-pdf" target="_blank">Descargar</a></td>
-								<td class="col7 last"><a href="#" title="Enviar mail" class="mail">Enviar por mail</a></td>
-							</tr>
-
-							<tr class="anchor noColapsible" data-model="fordFiesta">
-								<td class="col1">Ford Fiesta</td>
-								<td class="col2">HIF854</td>
-								<td class="col3">25-1-2014</td>
-								<td class="col4">20000</td>
-								<td class="col5">Avenida Calchaqui 851 y Rodolfo Lopez, Quilmes Oeste</td>
-								<td class="col6"><a href="#" title="Descargar pdf" class="descargar-pdf" target="_blank">Descargar</a></td>
-								<td class="col7 last"><a href="#" title="Enviar mail" class="mail">Enviar por mail</a></td>
-							</tr>
-
-							<tr class="noColapsible" data-model="peugeot207">
-								<td class="col1">Peugeot 207</td>
-								<td class="col2">HIF854</td>
-								<td class="col3">25-1-2014</td>
-								<td class="col4">20000</td>
-								<td class="col5">Avenida Calchaqui 851 y Rodolfo Lopez, Quilmes Oeste</td>
-								<td class="col6"><a href="#" title="Descargar pdf" class="descargar-pdf" target="_blank">Descargar</a></td>
-								<td class="col7 last"><a href="#" title="Enviar mail" class="mail">Enviar por mail</a></td>
-							</tr>
-						</tbody>
-					</table>
 				</section>
-
 			</section>
 
 			<footer>
@@ -616,11 +520,10 @@
 			<script src="./jquery/jquery.ui.selectmenu.js"></script>
 
 			<script src="./js/global.js"></script>
-			<script src="./js/historia-tecnica.js"></script>
 <script>
-  $(function() {
-    $( "#datepicker" ).datepicker();
-  });
+  // $(function() {
+  //   $( "#datepicker" ).datepicker();
+  // });
   </script>
 		</div>
 
