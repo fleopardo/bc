@@ -86,3 +86,12 @@
     resize: none;
 }
 
+
+
+.contenedor-principal .crea-turno section.content .step3-cont textarea{
+    padding: 5px 10px;
+    height: 150px;
+    overflow: hidden;
+    resize: none;
+}
+

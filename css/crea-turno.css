@@ -46,6 +46,22 @@
     color: #343434;
 }
 
+.contenedor-principal .crea-turno a.btn-next{
+	display: block;
+	border: 4px solid #0f6ac5;
+	color: #0f6ac5;
+	width: 296px;
+	line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contenedor-principal .crea-turno a.btn-next span{
+	background: url("./assets/ic-btn-next.png") right no-repeat;
+	display: inline-block;
+	padding-right: 20px;
+}
+
 .crea-turno .content .filtro-anos{
     margin-bottom: 45px;
 }
