@@ -123,6 +123,7 @@
 	background: #f8f8f8;
 	width: 340px;
 	padding: 20px;
+	min-height: 105px;
 }
 
 .contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra .left-col{
@@ -133,12 +134,32 @@
 	float: right;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra input{
+.contenedor-principal .crea-turno section.content .confirmacion-extra input[type=text]{
 	display: block;
+	border: 2px solid #dcdcdc;
+	width: 290px;
+	padding: 0 10px;
+	height: 30px;
+	margin-top: 20px;
+}
+
+.contenedor-principal .crea-turno section.content .confirmacion-extra button{
+	display: none;
+}
+
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra p,
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra legend{
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra p a{
+	color: #0f6ac5;
+	text-decoration: underline;
 }
 
 
-
+0f6ac5
 
 
 
