@@ -144,3 +144,37 @@
     text-indent: -9999px;
     overflow: hidden;
 }
+
+
+/* STEP 1 */
+
+.crea-turno .body-step1 {
+    background: #ccc;
+}
+
+.crea-turno .body-step1 .icon {
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url('./assets/icons_turnos.png');
+    background-repeat: no-repeat;
+    width: 13px;
+    height: 15px;
+    top: 4px;
+    position: relative;
+}
+
+.crea-turno .body-step1 .icon.cancel {
+    background-position: 0px 0px;
+}
+
+.crea-turno .body-step1 .icon.modify {
+    background-position: 0px -17px;
+}
+
+.crea-turno .body-step1 .icon.check-ok {
+    background-position: 0px -38px;
+}
+
+
+
+
