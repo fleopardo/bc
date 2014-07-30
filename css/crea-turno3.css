@@ -44,6 +44,7 @@
 	line-height: 36px;
 	text-align: center;
 	text-transform: uppercase;
+	margin-top: 25px;
 }
 
 .contenedor-principal .crea-turno a.btn-next span{
@@ -52,34 +53,34 @@
 	padding-right: 20px;
 }
 
-.contenedor-principal .crea-turno section.content .step2-cont{
+.contenedor-principal .crea-turno section.content .body-step2{
     background: #f8f8f8;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.contenedor-principal .crea-turno section.content .step2-cont select{
+.contenedor-principal .crea-turno section.content .body-step2 select{
     width: 300px;
 }
 
-.contenedor-principal .crea-turno section.content .step2-cont input[type=text],
-.contenedor-principal .crea-turno section.content .step2-cont a.ui-selectmenu,
-.contenedor-principal .crea-turno section.content .step2-cont textarea{
+.contenedor-principal .crea-turno section.content .body-step2 input[type=text],
+.contenedor-principal .crea-turno section.content .body-step2 a.ui-selectmenu,
+.contenedor-principal .crea-turno section.content .body-step2 textarea{
     border: 2px solid #d7d7d7;
 }
 
-.contenedor-principal .crea-turno section.content .step2-cont input[type=text],
-.contenedor-principal .crea-turno section.content .step2-cont textarea{
+.contenedor-principal .crea-turno section.content .body-step2 input[type=text],
+.contenedor-principal .crea-turno section.content .body-step2 textarea{
     width: 280px;
     color: #838383;
 }
 
-.contenedor-principal .crea-turno section.content .step2-cont input[type=text]{
+.contenedor-principal .crea-turno section.content .body-step2 input[type=text]{
     height: 34px;
     padding: 0 10px;
 }
 
-.contenedor-principal .crea-turno section.content .step2-cont textarea{
+.contenedor-principal .crea-turno section.content .body-step2 textarea{
     padding: 5px 10px;
     height: 150px;
     overflow: hidden;
@@ -88,10 +89,18 @@
 
 
 
-.contenedor-principal .crea-turno section.content .step3-cont textarea{
-    padding: 5px 10px;
-    height: 150px;
-    overflow: hidden;
-    resize: none;
+.contenedor-principal .crea-turno section.content .body-step3 p{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 16px;
+}
+
+
+.contenedor-principal .crea-turno section.content .body-step3 p.confirmacion-turno{
+	color: #fff;
+	background: #0f6ac5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 25px;
 }
 
