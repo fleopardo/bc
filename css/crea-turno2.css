@@ -1,6 +1,7 @@
 .contenedor-principal .crea-turno section.content{
-    padding: 0 20px 20px;
+    padding: 20px;
     width: 810px;
+    background: #f8f8f8;
 }
 
 .contenedor-principal .crea-turno .destacado {
@@ -12,12 +13,6 @@
     font-size: 19px;
     padding: 20px;
     font-family: 'din-regular';
-}
-
-.contenedor-principal .crea-turno section.content{
-    background: #f8f8f8;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .contenedor-principal .crea-turno section.content .breadcrumb{
@@ -77,9 +72,9 @@
 
 a.btn-next{
 	display: block;
-	border: 2px solid #0f6ac5;
+	border: 4px solid #0f6ac5;
 	color: #0f6ac5;
-	width: 300px;
+	width: 296px;
 	line-height: 36px;
 	text-align: center;
 	text-transform: uppercase;
