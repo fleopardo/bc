@@ -87,14 +87,11 @@
     resize: none;
 }
 
-
-
 .contenedor-principal .crea-turno section.content .body-step3 p{
 	padding-left: 30px;
 	padding-right: 30px;
 	font-size: 16px;
 }
-
 
 .contenedor-principal .crea-turno section.content .body-step3 p.confirmacion-turno{
 	color: #fff;
@@ -103,4 +100,48 @@
 	padding-bottom: 20px;
 	margin-top: 25px;
 }
+
+.contenedor-principal .crea-turno section.content .body-step3 p.confirmacion-turno{
+	color: #fff;
+	background: #0f6ac5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 25px;
+}
+
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra{
+	overflow: hidden;
+}
+
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra{
+	background: #fff;
+	padding-top: 20px;
+}
+
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra .left-col,
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra .right-col{
+	background: #f8f8f8;
+	width: 340px;
+	padding: 20px;
+}
+
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra .left-col{
+	float: left;
+}
+
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra .right-col{
+	float: right;
+}
+
+.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra input{
+	display: block;
+}
+
+
+
+
+
+
+
+
 
