@@ -225,6 +225,7 @@
     background: #f8f8f8;
     padding-top: 20px;
     padding-bottom: 20px;
+    display: none;
 }
 
 .contenedor-principal .crea-turno section.content .body-step2 select{
@@ -256,6 +257,10 @@
 }
 
 
+
+.contenedor-principal .crea-turno section.content .body-step3{
+    display: none;
+}
 
 .contenedor-principal .crea-turno section.content .body-step3 p{
     padding-left: 30px;
