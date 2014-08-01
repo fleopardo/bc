@@ -452,13 +452,11 @@
 
 				<section class="content right">
 
-					<ol class="breadcrumb">
-						<li class="step1 active">1. Selección de fecha y horario</li>
-						<li class="step2">2. Datos del vehículo</li>
-						<li class="step3">3. Confirmar turno</li>
-					</ol>
-
-					<div class="body-steps body-step1">
+					<div class="heading">
+						<p>Su turno actual es el día <span>23 de Abril - 10.00 hs</span></p>
+						<p>Si deseás cancelar o modificar tu turno, por favor hacelo acá.</p>
+					</div>
+					<div class="table-container">
 						<table>
 							<tbody>
 
@@ -541,78 +539,7 @@
 
 							</tbody>
 						</table>
-
-						<a href="#" title="Siguiente" class="btn-next"><span>Siguiente</span></a>
 					</div>
-
-					<div class="body-steps body-step2">
-
-						<form action="" method="">
-
-							<fieldset>
-								<p>
-									<select>
-										<option>Marca</option>
-										<option>Fiat</option>
-										<option>Peugeot</option>
-										<option>Ford</option>
-									</select>
-								</p>
-								<p>
-									<select>
-										<option>Todos los modelos</option>
-										<option>VW Bora</option>
-										<option>Honda Civic SI</option>
-										<option>Ford Fiesta</option>
-										<option>Peugeot 207</option>
-									</select>
-								</p>
-								<p>
-									<select>
-										<option>Tipo</option>
-										<option>Sedan</option>
-										<option>Coupe</option>
-									</select>
-								</p>
-								<p>
-									<input type="text" placeholder="Dominio" name="" id="">
-								</p>
-								<p>
-									<textarea placeholder="Comentarios"></textarea>
-								</p>
-							</fieldset>
-
-						</form>
-
-						<a href="#" title="Reservar turno" class="btn-next"><span>Reservar turno</span></a>
-
-					</div>
-
-					<div class="body-steps body-step3">
-
-						<p>Su turno ha sido confirmado para el día</p>
-
-						<p class="confirmacion-turno">23 de Abril a las 10.00 hs en la calle Av. Libertador 2345</p>
-
-						<a href="#" title="Reservar turno" class="btn-next"><span>Reservar turno</span></a>
-
-						<div class="confirmacion-extra clearfix">
-							<div class="left-col">
-								<form>
-									<fieldset>
-										<legend>Envie esta confirmación de turno a una casilla de mail, ingresandólo abajo.</legend>
-										<input type="text" placeholder="Direccion de mail">
-										<button type="Button">Enviar</button>
-									</fieldset>
-								</form>
-							</div>
-							<form class="right-col">
-								<p>Si desea cancelar o modificar su turno por favor hágalo <a href="#" title="Modificar/cancelar turno">desde acá</a></p>
-							</form>
-						</div>
-
-					</div>
-
 				</section>
 			</section>
 
@@ -658,7 +585,7 @@
 			<script src="./jquery/jquery.placeholder.js"></script>
 
 			<script src="./js/global.js"></script>
-			<script src="./js/crear-turno.js"></script>
+			<script src="./js/modificar-anular-turno.js"></script>
 			<script>
 			  // $(function() {
 			  //   $( "#datepicker" ).datepicker();
