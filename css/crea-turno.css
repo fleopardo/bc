@@ -25,7 +25,6 @@
 
 .contenedor-principal .crea-turno section.content .breadcrumb{
     overflow: hidden;
-    margin-bottom: 30px;
     background: #f8f8f8;
     padding: 20px;
 }
@@ -63,65 +62,12 @@
 	padding-right: 20px;
 }
 
-.crea-turno .content .filtro-anos{
-    margin-bottom: 45px;
-}
-
-.crea-turno .content .filtro-anos .select-model {
-    width: 330px;
-}
-
-.crea-turno .content table{
-    width: 100%;
-}
-
-.crea-turno .content thead{
-    background: #0558ac;
-}
-
-.crea-turno .content th{
-    text-align: left;
-    padding: 5px 10px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-family: "din-black";
-    font-size: 11px;
-}
-
-    .crea-turno .content th.col1{
-        width: 15%;
-    }
-
-    .crea-turno .content th.col2{
-        width: 10%;
-    }
-
-    .crea-turno .content th.col3{
-        width: 15%;
-    }
-
-    .crea-turno .content th.col4{
-        width: 10%;
-    }
-
-    .crea-turno .content th.col5{
-        width: 30%;
-    }
-
-    .crea-turno .content th.col6{
-        width: 10%;
-    }
-
-    .crea-turno .content th.col7{
-        width: 10%;
-    }
-
-    .crea-turno .content td.col6,
-    .crea-turno .content td.col7 {
-        text-align: center;
-    }
 
 /* STEP 1 */
+
+.crea-turno .body-step1 table{
+    width: 100%;
+}
 
 .crea-turno .body-step1{
     padding-bottom: 20px;
@@ -223,6 +169,54 @@
     width: 470px;
 }
 
+/* Titulo de secciones*/
+
+.crea-turno .body-step1 .title,
+.crea-turno .body-step1 .title h4{
+    background-image: url('./assets/icons-turnos-titles.png');
+    background-repeat: no-repeat;
+}
+
+.crea-turno .body-step1 .title{
+    padding: 10px 10px 10px 32px;
+}
+
+.crea-turno .body-step1 .title.active,
+.crea-turno .body-step1 .title:hover{
+    background-color: #0558ac;
+    color: #fff;
+}
+
+.crea-turno .body-step1 .title.seleccionar-fecha{
+    cursor: pointer;
+    background-position: 0px 5px;
+}
+
+.crea-turno .body-step1 .title.seleccionar-fecha.active,
+.crea-turno .body-step1 .title.seleccionar-fecha:hover{
+    background-position: -30px -25px;
+}
+
+.crea-turno .body-step1 .title.seleccionar-horario{
+    background-position: 0px -56px;
+}
+
+.crea-turno .body-step1 .title.seleccionar-horario.active,
+.crea-turno .body-step1 .title.seleccionar-horario:hover{
+    background-position: -30px -87px;
+}
+
+.crea-turno .body-step1 .title h4{
+    font-size: 16px;
+    font-family: 'din-medium';
+    padding-left: 40px;
+    background-position: -5px -125px;
+}
+
+.crea-turno .body-step1 .title.active h4,
+.crea-turno .body-step1 .title:hover h4{
+    background-position: -39px -157px;
+}
 
 /* STEP 2 */
 
