@@ -23,6 +23,10 @@
     padding-bottom: 20px;
 }
 
+.content-container{
+    min-height: 500px;
+}
+
 .contenedor-principal .crea-turno section.content .breadcrumb{
     overflow: hidden;
     background: #f8f8f8;
@@ -69,7 +73,7 @@
     display: none;
 }
 
-.crea-turno .body-step1 table{
+.crea-turno .seleccionar-horario-content table{
     width: 100%;
 }
 
@@ -78,41 +82,41 @@
     background: #f8f8f8;
 }
 
-.crea-turno .body-step1 tr:hover,
-.crea-turno .body-step1 tr.active {
+.crea-turno .seleccionar-horario-content tr:hover,
+.crea-turno .seleccionar-horario-content tr.active {
     background-color: #009fde;
 }
 
-.crea-turno .body-step1 tr:hover td,
-.crea-turno .body-step1 tr.active td {
+.crea-turno .seleccionar-horario-content tr:hover td,
+.crea-turno .seleccionar-horario-content tr.active td {
     color: #fff;
     border-color: #0d98d0;
 }
 
-.crea-turno .body-step1 td {
+.crea-turno .seleccionar-horario-content td {
     height: 40px;
     vertical-align: middle;
     padding: 0 10px;
     border: 1px solid #e4e4e4;
 }
 
-    .crea-turno .body-step1 td:first-of-type {
+    .crea-turno .seleccionar-horario-content td:first-of-type {
         border-left: none;
     }
 
-    .crea-turno .body-step1 td:last-of-type {
+    .crea-turno .seleccionar-horario-content td:last-of-type {
         border-right: none;
     }
 
-.crea-turno .body-step1 .cancelar,
-.crea-turno .body-step1 .modificar,
-.crea-turno .body-step1 .confirmar {
+.crea-turno .seleccionar-horario-content .cancelar,
+.crea-turno .seleccionar-horario-content .modificar,
+.crea-turno .seleccionar-horario-content .confirmar {
     padding: 0;
 }
 
-.crea-turno .body-step1 .cancelar a,
-.crea-turno .body-step1 .modificar a,
-.crea-turno .body-step1 .confirmar a {
+.crea-turno .seleccionar-horario-content .cancelar a,
+.crea-turno .seleccionar-horario-content .modificar a,
+.crea-turno .seleccionar-horario-content .confirmar a {
     color: #fff;
     visibility: hidden;
     display: block;
@@ -121,18 +125,18 @@
     padding: 0 5px;
 }
 
-.crea-turno .body-step1 .cancelar a:hover,
-.crea-turno .body-step1 .modificar a:hover,
-.crea-turno .body-step1 .confirmar a:hover {
+.crea-turno .seleccionar-horario-content .cancelar a:hover,
+.crea-turno .seleccionar-horario-content .modificar a:hover,
+.crea-turno .seleccionar-horario-content .confirmar a:hover {
     background-color: #0558ac;
 }
 
-.crea-turno .body-step1 tr:hover a,
-.crea-turno .body-step1 tr.active a{
+.crea-turno .seleccionar-horario-content tr:hover a,
+.crea-turno .seleccionar-horario-content tr.active a{
     visibility: visible;
 }
 
-.crea-turno .body-step1 .icon {
+.crea-turno .seleccionar-horario-content .icon {
     display: inline-block;
     margin-right: 5px;
     background-image: url('./assets/icons_turnos.png');
@@ -143,25 +147,25 @@
     position: relative;
 }
 
-.crea-turno .body-step1 .icon.cancel {
+.crea-turno .seleccionar-horario-content .icon.cancel {
     background-position: 0px 0px;
 }
 
-.crea-turno .body-step1 .icon.modify {
+.crea-turno .seleccionar-horario-content .icon.modify {
     background-position: 0px -17px;
 }
 
-.crea-turno .body-step1 .icon.check-ok {
+.crea-turno .seleccionar-horario-content .icon.check-ok {
     background-position: 0px -38px;
 }
 
 /* disabled */
 
-.crea-turno .body-step1 tr.disabled {
+.crea-turno .seleccionar-horario-content tr.disabled {
     background-color: #f0f0f0;
 }
 
-.crea-turno .body-step1 tr.disabled td {
+.crea-turno .seleccionar-horario-content tr.disabled td {
     color: #838383 !important;
     border-color: #e4e4e4 !important;
 }
@@ -183,9 +187,8 @@
 
 .crea-turno .body-step1 .title{
     padding: 10px 10px 10px 32px;
-    margin-left: 2px;
-    margin-right: 2px;
     cursor: pointer;
+    position: relative;
 }
 
 .crea-turno .body-step1 .title.active{
@@ -218,6 +221,56 @@
 
 .crea-turno .body-step1 .title.active h4{
     background-position: -39px -157px;
+}
+
+#datepicker{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+#datepicker .ui-datepicker{
+    width: auto;
+}
+
+#datepicker .ui-widget-content,
+#datepicker .ui-widget-header{
+    background: #232323;
+    border: none;
+}
+
+#datepicker .ui-widget-header{
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-family: 'din-regular';
+}
+
+#datepicker .ui-datepicker-calendar th{
+    background-color: #0063be;
+    color: #fff;
+}
+
+#datepicker .ui-datepicker td {
+    border: 1px solid #2e2e2e;
+}
+
+#datepicker .ui-state-default,
+#datepicker .ui-widget-content .ui-state-default,
+#datepicker .ui-widget-header .ui-state-default{
+    border: none;
+    background: #232323;
+    color: #fff;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+#datepicker .ui-state-active,
+#datepicker .ui-widget-content .ui-state-active,
+#datepicker .ui-widget-header .ui-state-active {
+    background: #0063be;
 }
 
 /* STEP 2 */
