@@ -2,7 +2,8 @@
 
 ;(function(win){
 
-	var steps = $('.body-steps'),
+	var breadcrumb = $('.breadcrumb'),
+		steps = $('.body-steps'),
 		step1 = $('.body-step1'),
 		step2 = $('.body-step2'),
 		step3 = $('.body-step3'),
@@ -40,6 +41,8 @@
 		event.preventDefault();
 		step1.hide();
 		step2.show();
+		breadcrumb.find('li').removeClass('active');
+		breadcrumb.find('.step2').addClass('active');
 	});
 
 
@@ -51,6 +54,8 @@
 		event.preventDefault();
 		step2.hide();
 		step3.show();
+		breadcrumb.find('li').removeClass('active');
+		breadcrumb.find('.step3').addClass('active');
 	});
 
 
