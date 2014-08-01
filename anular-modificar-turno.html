@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/global.css" />
 	<link rel="stylesheet" type="text/css" href="css/modificar-anular-turno.css" />
 	<link rel="stylesheet" type="text/css" href="css/libs/jquery.ui.selectmenu.css" />
+	<link rel="stylesheet" type="text/css" href="css/confirm.css" />
 </head>
 <body>
 
@@ -467,7 +468,7 @@
 									<td class="status">Disponible</td>
 									<td class="direccion">Av. Libertador 1234</td>
 									<td class="cancelar"><a href=""><i class="icon cancel"></i>Cancelar</a></td>
-									<td class="modificar"><a href=""><i class="icon modify"></i>Modificar</a></td>
+									<td class="modificar"><a href="" class="mod"><i class="icon modify"></i>Modificar</a></td>
 									<td class="confirmar"><a href=""><i class="icon check-ok"></i>Confirmar</a></td>
 								</tr>
 
@@ -478,7 +479,7 @@
 									<td class="status">Disponible</td>
 									<td class="direccion">Av. Libertador 1234</td>
 									<td class="cancelar"><a href=""><i class="icon cancel"></i>Cancelar</a></td>
-									<td class="modificar"><a href=""><i class="icon modify"></i>Modificar</a></td>
+									<td class="modificar"><a href="" class="mod"><i class="icon modify"></i>Modificar</a></td>
 									<td class="confirmar"><a href=""><i class="icon check-ok"></i>Confirmar</a></td>
 								</tr>
 
@@ -489,7 +490,7 @@
 									<td class="status">Disponible</td>
 									<td class="direccion">Av. Libertador 1234</td>
 									<td class="cancelar"><a href=""><i class="icon cancel"></i>Cancelar</a></td>
-									<td class="modificar"><a href=""><i class="icon modify"></i>Modificar</a></td>
+									<td class="modificar"><a href="" class="mod"><i class="icon modify"></i>Modificar</a></td>
 									<td class="confirmar"><a href=""><i class="icon check-ok"></i>Confirmar</a></td>
 								</tr>
 
@@ -511,7 +512,7 @@
 									<td class="status">Disponible</td>
 									<td class="direccion">Av. Libertador 1234</td>
 									<td class="cancelar"><a href=""><i class="icon cancel"></i>Cancelar</a></td>
-									<td class="modificar"><a href=""><i class="icon modify"></i>Modificar</a></td>
+									<td class="modificar"><a href="" class="mod"><i class="icon modify"></i>Modificar</a></td>
 									<td class="confirmar"><a href=""><i class="icon check-ok"></i>Confirmar</a></td>
 								</tr>
 
@@ -541,6 +542,23 @@
 						</table>
 					</div>
 				</section>
+
+				<!--div id='confirm-dialog'>
+					<h3>Confirm Override</h3>
+					<p>A modal dialog override of the JavaScript confirm function. Demonstrates the use of the <code>onShow</code> callback as well as how to display a modal dialog confirmation instead of the default JavaScript confirm dialog.</p>
+					<input type='button' name='confirm' class='confirm' value='Demo'/> or <a href='#' class='confirm'>Demo</a>
+				</div-->
+
+				<!-- modal content -->
+				<div id='confirm'>
+					<!--div class='header'><span>Confirm</span></div-->
+					<div class='message'></div>
+					<div class='buttons'>
+						<div class='yes'>Si</div><div class='no simplemodal-close'>No</div>
+					</div>
+				</div>
+
+
 			</section>
 
 			<footer>
@@ -583,14 +601,11 @@
 			<script src="./jquery/jquery.ui.selectmenu.js"></script>
 			<!-- Incluir jquery.placeholder.js para tener las funcionalidades del placeholder -->
 			<script src="./jquery/jquery.placeholder.js"></script>
+			<script src="./jquery/jquery.simplemodal.js"></script>
 
 			<script src="./js/global.js"></script>
 			<script src="./js/modificar-anular-turno.js"></script>
-			<script>
-			  // $(function() {
-			  //   $( "#datepicker" ).datepicker();
-			  // });
-			  </script>
+			<script src="./js/confirm.js"></script>
 		</div>
 
 	</div>
