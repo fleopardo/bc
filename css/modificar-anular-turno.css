@@ -1,7 +1,6 @@
 .contenedor-principal .mod-anular-turno section.content{
-    background: #f8f8f8;
-    padding: 20px;
-    width: 810px;
+    padding:0 0 20px;
+    width: 850px;
 }
 
 .contenedor-principal .mod-anular-turno .destacado {
@@ -15,60 +14,29 @@
     font-family: 'din-regular';
 }
 
-.contenedor-principal .mod-anular-turno section.content h3{
-    text-transform: uppercase;
-    line-height: 22px;
-    border-bottom: 4px solid #ddd;
-    margin-bottom: 40px;
-    font-size: 15px;
-    color: #4f4f4f;
-    padding-bottom: 20px;
+.contenedor-principal .mod-anular-turno .heading{
+	background: #0558ac;
+	padding: 10px;
 }
 
-.contenedor-principal .mod-anular-turno section.content .breadcrumb{
-    overflow: hidden;
-    margin-bottom: 30px;
+.contenedor-principal .mod-anular-turno .heading p{
+	color: #fff;
+	font-family: "din-black";
+	font-size: 15px;
+	line-height: 20px;
 }
 
-.contenedor-principal .mod-anular-turno section.content .breadcrumb li{
-    float: left;
-    color: #9d9d9d;
-    font-size: 17px;
-    line-height: 20px;
-    border-bottom: 6px solid #c1c1c1;
-    width: 260px;
-    text-align: center;
-    padding-bottom: 8px;
+.contenedor-principal .mod-anular-turno .heading p:last-child{
+	margin-bottom: 0;
 }
 
-.contenedor-principal .mod-anular-turno section.content .breadcrumb li.active{
-    border-color: #0f6ac5;
-    color: #343434;
+.contenedor-principal .mod-anular-turno .heading p span{
+	font-family: "din-light";
+	font-size: 18px;
 }
 
-.contenedor-principal .mod-anular-turno a.btn-next{
-	display: block;
-	border: 4px solid #0f6ac5;
-	color: #0f6ac5;
-	width: 296px;
-	line-height: 36px;
-	text-align: center;
-	text-transform: uppercase;
-	margin-top: 25px;
-}
-
-.contenedor-principal .mod-anular-turno a.btn-next span{
-	background: url("./assets/ic-btn-next.png") right no-repeat;
-	display: inline-block;
-	padding-right: 20px;
-}
-
-.mod-anular-turno .content .filtro-anos{
-    margin-bottom: 45px;
-}
-
-.mod-anular-turno .content .filtro-anos .select-model {
-    width: 330px;
+.contenedor-principal .mod-anular-turno .table-container{
+	background: #f8f8f8;
 }
 
 .mod-anular-turno .content table{
@@ -122,43 +90,41 @@
     }
 
 
-/* STEP 1 */
-
-.mod-anular-turno .body-step1 tr:hover,
-.mod-anular-turno .body-step1 tr.active {
+.mod-anular-turno  tr:hover,
+.mod-anular-turno  tr.active {
     background-color: #009fde;
 }
 
-.mod-anular-turno .body-step1 tr:hover td,
-.mod-anular-turno .body-step1 tr.active td {
+.mod-anular-turno  tr:hover td,
+.mod-anular-turno  tr.active td {
     color: #fff;
     border-color: #0d98d0;
 }
 
-.mod-anular-turno .body-step1 td {
+.mod-anular-turno  td {
     height: 40px;
     vertical-align: middle;
     padding: 0 10px;
     border: 1px solid #e4e4e4;
 }
 
-    .mod-anular-turno .body-step1 td:first-of-type {
+    .mod-anular-turno  td:first-of-type {
         border-left: none;
     }
 
-    .mod-anular-turno .body-step1 td:last-of-type {
+    .mod-anular-turno  td:last-of-type {
         border-right: none;
     }
 
-.mod-anular-turno .body-step1 .cancelar,
-.mod-anular-turno .body-step1 .modificar,
-.mod-anular-turno .body-step1 .confirmar {
+.mod-anular-turno  .cancelar,
+.mod-anular-turno  .modificar,
+.mod-anular-turno  .confirmar {
     padding: 0;
 }
 
-.mod-anular-turno .body-step1 .cancelar a,
-.mod-anular-turno .body-step1 .modificar a,
-.mod-anular-turno .body-step1 .confirmar a {
+.mod-anular-turno  .cancelar a,
+.mod-anular-turno  .modificar a,
+.mod-anular-turno  .confirmar a {
     color: #fff;
     visibility: hidden;
     display: block;
@@ -167,18 +133,18 @@
     padding: 0 5px;
 }
 
-.mod-anular-turno .body-step1 .cancelar a:hover,
-.mod-anular-turno .body-step1 .modificar a:hover,
-.mod-anular-turno .body-step1 .confirmar a:hover {
+.mod-anular-turno  .cancelar a:hover,
+.mod-anular-turno  .modificar a:hover,
+.mod-anular-turno  .confirmar a:hover {
     background-color: #0558ac;
 }
 
-.mod-anular-turno .body-step1 tr:hover a,
-.mod-anular-turno .body-step1 tr.active a{
+.mod-anular-turno  tr:hover a,
+.mod-anular-turno  tr.active a{
     visibility: visible;
 }
 
-.mod-anular-turno .body-step1 .icon {
+.mod-anular-turno  .icon {
     display: inline-block;
     margin-right: 5px;
     background-image: url('./assets/icons_turnos.png');
@@ -189,153 +155,32 @@
     position: relative;
 }
 
-.mod-anular-turno .body-step1 .icon.cancel {
+.mod-anular-turno  .icon.cancel {
     background-position: 0px 0px;
 }
 
-.mod-anular-turno .body-step1 .icon.modify {
+.mod-anular-turno  .icon.modify {
     background-position: 0px -17px;
 }
 
-.mod-anular-turno .body-step1 .icon.check-ok {
+.mod-anular-turno  .icon.check-ok {
     background-position: 0px -38px;
 }
 
 /* disabled */
 
-.mod-anular-turno .body-step1 tr.disabled {
+.mod-anular-turno  tr.disabled {
     background-color: #f0f0f0;
 }
 
-.mod-anular-turno .body-step1 tr.disabled td {
+.mod-anular-turno  tr.disabled td {
     color: #838383 !important;
     border-color: #e4e4e4 !important;
 }
 
 
-.mod-anular-turno .body-step1 a.btn-next {
+.mod-anular-turno  a.btn-next {
     margin-left: auto;
     margin-right: auto;
     width: 470px;
-}
-
-
-
-.contenedor-principal .mod-anular-turno section.content .body-step2{
-    background: #f8f8f8;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: none;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step2 select{
-    width: 300px;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step2 input[type=text],
-.contenedor-principal .mod-anular-turno section.content .body-step2 a.ui-selectmenu,
-.contenedor-principal .mod-anular-turno section.content .body-step2 textarea{
-    border: 2px solid #d7d7d7;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step2 input[type=text],
-.contenedor-principal .mod-anular-turno section.content .body-step2 textarea{
-    width: 280px;
-    color: #838383;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step2 input[type=text]{
-    height: 34px;
-    padding: 0 10px;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step2 textarea{
-    padding: 5px 10px;
-    height: 150px;
-    overflow: hidden;
-    resize: none;
-}
-
-
-
-.contenedor-principal .mod-anular-turno section.content .body-step3{
-    display: none;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 p{
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 16px;
-}
-
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 p{
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 16px;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 p.confirmacion-turno{
-    color: #fff;
-    background: #0f6ac5;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 25px;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 p.confirmacion-turno{
-    color: #fff;
-    background: #0f6ac5;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 25px;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 .confirmacion-extra{
-    overflow: hidden;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 .confirmacion-extra{
-    background: #fff;
-    padding-top: 20px;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 .confirmacion-extra .left-col,
-.contenedor-principal .mod-anular-turno section.content .body-step3 .confirmacion-extra .right-col{
-    background: #f8f8f8;
-    width: 340px;
-    padding: 20px;
-    min-height: 105px;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 .confirmacion-extra .left-col{
-    float: left;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 .confirmacion-extra .right-col{
-    float: right;
-}
-
-.contenedor-principal .mod-anular-turno section.content .confirmacion-extra input[type=text]{
-    display: block;
-    border: 2px solid #dcdcdc;
-    width: 290px;
-    padding: 0 10px;
-    height: 30px;
-    margin-top: 20px;
-}
-
-.contenedor-principal .mod-anular-turno section.content .confirmacion-extra button{
-    display: none;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 .confirmacion-extra p,
-.contenedor-principal .mod-anular-turno section.content .body-step3 .confirmacion-extra legend{
-    font-size: 15px;
-    line-height: 20px;
-}
-
-.contenedor-principal .mod-anular-turno section.content .body-step3 .confirmacion-extra p a{
-    color: #0f6ac5;
-    text-decoration: underline;
 }
