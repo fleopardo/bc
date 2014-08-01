@@ -25,8 +25,8 @@
         dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','S&aacute;'],
         onSelect: function (date) {
 			console.log(date);
+			$("#datepicker").hide();
 		}
-
     });
 
 	// Expandos

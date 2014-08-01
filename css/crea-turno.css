@@ -273,6 +273,21 @@
     background: #0063be;
 }
 
+#datepicker .ui-state-hover {
+    background: none;
+    border: none;
+}
+
+#datepicker .ui-state-hover .ui-icon,
+#datepicker .ui-state-focus .ui-icon{
+    background-image: url('http://localhost/bc/css/libs/images/ui-icons_ffffff_256x240.png');
+}
+
+#datepicker .ui-datepicker .ui-datepicker-prev,
+#datepicker .ui-datepicker .ui-datepicker-next{
+    top: 10px;
+}
+
 /* STEP 2 */
 
 .contenedor-principal .crea-turno section.content .body-step2{
