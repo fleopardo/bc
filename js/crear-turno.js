@@ -13,6 +13,19 @@
 
 	/* Funcionalidad step 1 */
 
+	// Expandos
+	$('.seleccionar-fecha').on('click', function () {
+		$('.seleccionar-horario').removeClass('active');
+		$(this).addClass('active');
+		step1.find('.seleccionar-horario-content').hide();
+	});
+
+	$('.seleccionar-horario').on('click', function () {
+		$('.seleccionar-fecha').removeClass('active');
+		$(this).addClass('active');
+		step1.find('.seleccionar-horario-content').show();
+	});
+
 	// Rows de la tabla
 	rowsStep1.find('input[type="checkbox"]').on('click', function () {
 		if ($(this).prop('checked') == true) {

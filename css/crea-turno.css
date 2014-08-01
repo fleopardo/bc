@@ -65,6 +65,10 @@
 
 /* STEP 1 */
 
+.crea-turno .body-step1 .seleccionar-horario-content{
+    display: none;
+}
+
 .crea-turno .body-step1 table{
     width: 100%;
 }
@@ -179,21 +183,21 @@
 
 .crea-turno .body-step1 .title{
     padding: 10px 10px 10px 32px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;
 }
 
-.crea-turno .body-step1 .title.active,
-.crea-turno .body-step1 .title:hover{
+.crea-turno .body-step1 .title.active{
     background-color: #0558ac;
     color: #fff;
 }
 
 .crea-turno .body-step1 .title.seleccionar-fecha{
-    cursor: pointer;
     background-position: 0px 5px;
 }
 
-.crea-turno .body-step1 .title.seleccionar-fecha.active,
-.crea-turno .body-step1 .title.seleccionar-fecha:hover{
+.crea-turno .body-step1 .title.seleccionar-fecha.active{
     background-position: -30px -25px;
 }
 
@@ -201,8 +205,7 @@
     background-position: 0px -56px;
 }
 
-.crea-turno .body-step1 .title.seleccionar-horario.active,
-.crea-turno .body-step1 .title.seleccionar-horario:hover{
+.crea-turno .body-step1 .title.seleccionar-horario.active{
     background-position: -30px -87px;
 }
 
@@ -213,8 +216,7 @@
     background-position: -5px -125px;
 }
 
-.crea-turno .body-step1 .title.active h4,
-.crea-turno .body-step1 .title:hover h4{
+.crea-turno .body-step1 .title.active h4{
     background-position: -39px -157px;
 }
 
