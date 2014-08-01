@@ -1,12 +1,10 @@
 .contenedor-principal .crea-turno section.content{
-    background: #f8f8f8;
-    padding: 20px;
-    width: 810px;
+    width: 850px;
 }
 
 .contenedor-principal .crea-turno .destacado {
     background: url("./assets/destacado-historia-tecnica.jpg") center top no-repeat;
-    padding-top: 95px;
+    padding-top: 50px;
 }
 
 .contenedor-principal .crea-turno .destacado p {
@@ -28,6 +26,8 @@
 .contenedor-principal .crea-turno section.content .breadcrumb{
     overflow: hidden;
     margin-bottom: 30px;
+    background: #f8f8f8;
+    padding: 20px;
 }
 
 .contenedor-principal .crea-turno section.content .breadcrumb li{
@@ -121,8 +121,12 @@
         text-align: center;
     }
 
-
 /* STEP 1 */
+
+.crea-turno .body-step1{
+    padding-bottom: 20px;
+    background: #f8f8f8;
+}
 
 .crea-turno .body-step1 tr:hover,
 .crea-turno .body-step1 tr.active {
@@ -220,11 +224,11 @@
 }
 
 
+/* STEP 2 */
 
 .contenedor-principal .crea-turno section.content .body-step2{
+    padding: 20px;
     background: #f8f8f8;
-    padding-top: 20px;
-    padding-bottom: 20px;
     display: none;
 }
 
@@ -258,8 +262,12 @@
 
 
 
+/* STEP 3 */
+
 .contenedor-principal .crea-turno section.content .body-step3{
     display: none;
+    background: #fff;
+    padding: 20px;
 }
 
 .contenedor-principal .crea-turno section.content .body-step3 p{
@@ -296,7 +304,6 @@
 }
 
 .contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra{
-    background: #fff;
     padding-top: 20px;
 }
 
