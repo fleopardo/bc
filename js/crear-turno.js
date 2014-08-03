@@ -24,7 +24,6 @@
         dayNamesShort: ['Dom','Lun','Mar','Mi&eacute;','Juv','Vie','S&aacute;b'],
         dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','S&aacute;'],
         onSelect: function (date) {
-			console.log(date);
 			$("#datepicker").hide();
 		}
     });
@@ -58,7 +57,6 @@
 		event.preventDefault();
 		step1.hide();
 		step2.show();
-		breadcrumb.find('li').removeClass('active');
 		breadcrumb.find('.step2').addClass('active');
 	});
 
@@ -71,7 +69,6 @@
 		event.preventDefault();
 		step2.hide();
 		step3.show();
-		breadcrumb.find('li').removeClass('active');
 		breadcrumb.find('.step3').addClass('active');
 	});
 

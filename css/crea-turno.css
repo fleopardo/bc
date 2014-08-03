@@ -58,6 +58,14 @@
 	text-align: center;
 	text-transform: uppercase;
 	margin-top: 25px;
+    /* Firefox */
+    -moz-transition: all 0.1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.1s ease-in;
+    /* Opera */
+    -o-transition: all 0.1s ease-in;
+    /* Standard */
+    transition: all 0.1s ease-in;
 }
 
 .contenedor-principal .crea-turno a.btn-next span{
@@ -66,6 +74,14 @@
 	padding-right: 20px;
 }
 
+.crea-turno a.btn-next:hover {
+    color: #fff;
+    background-color: #0f6ac5;
+}
+
+.crea-turno a.btn-next:hover span{
+    background-image: url('./assets/ic-btn-next-hover.png');
+}
 
 /* STEP 1 */
 
@@ -170,12 +186,6 @@
     border-color: #e4e4e4 !important;
 }
 
-
-.crea-turno .body-step1 a.btn-next {
-    margin-left: auto;
-    margin-right: auto;
-    width: 470px;
-}
 
 /* Titulo de secciones*/
 
@@ -391,13 +401,36 @@
     display: block;
     border: 2px solid #dcdcdc;
     width: 290px;
-    padding: 0 10px;
+    padding: 0 10px 0 22px;
     height: 30px;
     margin-top: 20px;
+    background: url("./assets/ic-mail.png") left center no-repeat;
 }
 
 .contenedor-principal .crea-turno section.content .confirmacion-extra button{
-    display: none;
+    border: none;
+    display: inline-block;
+    color: #fff;
+    background: #d8d8d8;
+    text-transform: uppercase;
+    width: 80px;
+    height: 30px;
+    font-size: 11px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "din-black";
+    /* Firefox */
+    -moz-transition: all 0.1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.1s ease-in;
+    /* Opera */
+    -o-transition: all 0.1s ease-in;
+    /* Standard */
+    transition: all 0.1s ease-in;
+}
+
+.contenedor-principal .crea-turno section.content .confirmacion-extra button:hover{
+    background: #0f6ac5;
 }
 
 .contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra p,
