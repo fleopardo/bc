@@ -15,7 +15,7 @@ jQuery(function ($) {
 		// example of calling the confirm function
 		// you must use a callback function to perform the "yes" action
 		confirm("¿Desea modificar su turno?", function () {
-			window.location.href = 'http://simplemodal.com';
+			window.location.href = 'http://www.ypf.com';
 		});
 	});
 });
