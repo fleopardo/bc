@@ -139,7 +139,7 @@
 
 		modelos.sort();
 
-		presupuesto.renderOptions(modelos, modelosLabelComplete,elementToAppend, "Modelo");
+		presupuesto.renderOptions(modelosLabelComplete, modelosLabelComplete,elementToAppend, "Modelo");
 
 	}
 
@@ -171,7 +171,7 @@
 
 			/* Si el modelo de este row es igual a la elegida por el user */
 
-			if (data[index].MODELO == modeloSelected){
+			if (data[index].MODELO + ' ' + data[index].CILINDRADA == modeloSelected){
 
 				row = data[index].MOTOR;
 
