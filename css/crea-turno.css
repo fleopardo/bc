@@ -284,8 +284,8 @@
 }
 
 #datepicker .ui-state-hover {
-    background: none;
-    border: none;
+    background: none !important;
+    border: none !important;
 }
 
 #datepicker .ui-state-hover .ui-icon,
