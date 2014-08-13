@@ -6,7 +6,7 @@
 
 .contenedor-principal .puntos-diagnostico section.content{
     /*background: #f8f8f8;*/
-    padding: 20px;
+    padding: 0 20px 20px;
     width: 810px;
 }
 
@@ -18,7 +18,6 @@
 .contenedor-principal .puntos-diagnostico section.content .img-cont{
     position: relative;
     padding-bottom: 60px;
-    /*border-bottom: 1px dotted #d6d5d5;*/
     margin-bottom: 30px;
     min-height: 820px;
 }
@@ -34,7 +33,13 @@
 }
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal{
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+    overflow: hidden;
+    float: left;
+}
+
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li{
+    float: left;
 }
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal > li > a{
@@ -42,55 +47,34 @@
 	color: #363636;
 	font-family: "din-black";
 	font-size: 15px;
-	line-height: 28px;
-	background: url("./assets/fd-diagnostico-principal.jpg") 10px bottom no-repeat;
-	padding-bottom: 18px;
-	display: inline-block;
+	line-height: 20px;
+	display: block;
+    overflow: hidden;
 }
 
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.azul.active,
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.azul{
-	background: url("./assets/fd-diagnostico-principal-active-azul.jpg") 10px bottom no-repeat;
-}
-
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.azul.active span,
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.azul span{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.azul.active span.step,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.azul span.step{
 	background: #009fde;
 }
 
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.verde.active,
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.verde{
-	background: url("./assets/fd-diagnostico-principal-active-verde.jpg") 10px bottom no-repeat;
-}
-
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.verde.active span,
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.verde span{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.verde.active span.step,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.verde span.step{
 	background: #75aa3b;
 }
 
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.rojo.active,
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.rojo{
-	background: url("./assets/fd-diagnostico-principal-active-rojo.jpg") 10px bottom no-repeat;
-}
-
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.rojo.active span,
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.rojo span{
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.rojo.active span.step,
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.rojo span.step{
 	background: #f16a6b;
 }
-
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.last{
-	background: none;
-}
-
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.amarillo span,
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.active.amarillo span{
+.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal > li a.amarillo span.step,
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li a.active.amarillo span.step{
 	background: #dbbe19;
 }
 
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li > a span{
-	display: inline-block;
-    width: 28px;
-    height: 28px;
+.contenedor-principal .puntos-diagnostico section.content .lista-principal a span.step{
+	display: block;
+    width: 32px;
+    height: 32px;
     /* Safari 3-4, iOS 1-3.2, Android 1.6- */
     -webkit-border-radius: 50%;
     /* Firefox 1-3.6 */
@@ -99,16 +83,23 @@
     border-radius: 50%;
     color: #fff;
     text-align: center;
-    line-height: 28px;
+    line-height: 32px;
     z-index: 5;
     background: #bcbcbc;
-    margin-right: 8px;
+    margin-right: 5px;
+    float: left;
+}
+
+.contenedor-principal .puntos-diagnostico section.content .lista-principal a span.text{
+    display: block;
+    float: left;
+    margin-right: 20px;
 }
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal > li > ul{
 	position: absolute;
-	top: 0px;
-	left: 260px;
+	top: 50px;
+	left: 0;
 	z-index: 5;
 	display: none;
 }
@@ -129,8 +120,8 @@
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal > li > ul > li{
 	margin-bottom: 6px;
+    float: left;
 }
-
 .contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico{
 	color: #8f8f8f;
 }
@@ -178,43 +169,24 @@
     background: #dbbe19;
 }
 
-a#ver-todos,
-a#ver-unico,
-a#ver-unico span,
-a#ver-todos span{
+.contenedor-principal .puntos-diagnostico section.content .select-option{
+    float: left;
+}
+
+.contenedor-principal .puntos-diagnostico section.content .select-option p{
+    margin-bottom: 0;
+}
+
+.contenedor-principal .puntos-diagnostico section.content .select-option a{
 	display: inline-block;
-	line-height: 36px;
-	color: #fff;
-	font-size: 12px;
-	font-family: "din-black";
+	line-height: 20px;
+	color: #929292;
+	font-size: 14px;
+    padding-left: 16px;
 	text-transform: uppercase;
+    background: url('./assets/fd-radio.png') left 3px no-repeat;
 }
 
-a#ver-todos,
-a#ver-todos span{
-	background: url("./assets/fd-corte-gris.png") no-repeat;
-}
-
-a#ver-unico,
-a#ver-unico span{
-	background: url("./assets/fd-corte-azul.png") no-repeat;
-}
-
-a#ver-todos,
-a#ver-unico{
-	background-position: right bottom;
-	padding-right: 11px;
-	position: relative;
-}
-
-a#ver-todos span,
-a#ver-unico span{
-	background-position: left top;
-	padding-left: 20px;
-	padding-right: 10px;
-}
-
-a#ver-todos{
-	left: -14px;
-	z-index: 5;
+.contenedor-principal .puntos-diagnostico section.content .select-option a.active{
+    background-position: left -32px;
 }
