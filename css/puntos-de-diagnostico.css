@@ -34,7 +34,7 @@
 }
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     overflow: hidden;
     float: left;
 }
@@ -99,35 +99,27 @@
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal > li > ul{
 	position: absolute;
-	top: 70px;
+	top: 50px;
 	left: 0;
 	z-index: 5;
 	display: none;
-    width: 100%;
+    width: 195px;
 }
 
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal ul.fluidos{
-	left: 530px;
+.contenedor-principal .puntos-diagnostico section.content .lista-principal > li > ul.fluidos{
+	left: 205px;
 }
 
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal ul.mecanica{
-	left: 0;
-	top: 760px;
+.contenedor-principal .puntos-diagnostico section.content .lista-principal ul.mecanica{
+	left: 410px;
 }
 
-.contenedor-principal .puntos-diagnostico section.content .ver-completo .lista-principal ul.seguridad{
-	left: 420px;
-	top: 760px;
+.contenedor-principal .puntos-diagnostico section.content .lista-principal ul.seguridad{
+	left: 605px;
 }
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal > li > ul > li{
-	margin-bottom: 15px;
-    float: left;
-    width: 30%;
-}
-
-.contenedor-principal .puntos-diagnostico section.content .lista-principal > li > ul > li:nth-child(4){
-    clear: both;
+	margin-bottom: 5px;
 }
 
 .contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico{
@@ -135,6 +127,9 @@
     display: block;
     padding-left: 30px;
     position: relative;
+    font-size: 10px;
+    padding-left: 14px;
+    line-height: 14px;
 }
 
 .contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico:hover,
@@ -144,41 +139,30 @@
 
 .contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico span{
     display: inline-block;
-    width: 22px;
-    height: 22px;
-    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
-    -webkit-border-radius: 50%;
-    /* Firefox 1-3.6 */
-    -moz-border-radius: 50%;
-    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
-    border-radius: 50%;
-    color: #fff;
-    text-align: center;
-    line-height: 22px;
-    z-index: 5;
-    background: #bcbcbc;
     position: absolute;
     left: 0;
+    top: 0;
+    z-index: 5;
 }
 
-.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.azul.active span,
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.azul span,
 .contenedor-principal .puntos-diagnostico section.content .ver-completo a.pto-diagnostico.azul span{
-    background: #009fde;
+    color: #009fde;
 }
 
-.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.verde.active span,
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.verde span,
 .contenedor-principal .puntos-diagnostico section.content .ver-completo a.pto-diagnostico.verde span{
-    background: #75aa3b;
+    color: #75aa3b;
 }
 
-.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.rojo.active span,
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.rojo span,
 .contenedor-principal .puntos-diagnostico section.content .ver-completo a.pto-diagnostico.rojo span{
-    background: #f15a5b;
+    color: #f15a5b;
 }
 
-.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.amarillo.active span,
+.contenedor-principal .puntos-diagnostico section.content a.pto-diagnostico.amarillo span,
 .contenedor-principal .puntos-diagnostico section.content .ver-completo a.pto-diagnostico.amarillo span{
-    background: #dbbe19;
+    color: #dbbe19;
 }
 
 .contenedor-principal .puntos-diagnostico section.content .select-option{
