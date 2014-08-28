@@ -27,6 +27,7 @@
     z-index: 0;
     display: none;
     top: 100px;
+    clear: both;
 }
 
 .contenedor-principal .puntos-diagnostico section.content img.vehiculo.active{
