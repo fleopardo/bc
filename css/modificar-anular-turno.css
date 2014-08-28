@@ -178,9 +178,24 @@
     border-color: #e4e4e4 !important;
 }
 
-
 .mod-anular-turno  a.btn-next {
     margin-left: auto;
     margin-right: auto;
     width: 470px;
+}
+
+
+/* disabled + active */
+
+.mod-anular-turno  tr.disabled.active {
+    background-color: #009fde;
+}
+
+.mod-anular-turno  tr.disabled.active td {
+    color: #fff !important;
+    border-color: #0d98d0 !important;
+}
+
+.mod-anular-turno  tr.disabled.active a {
+    visibility: visible;
 }
