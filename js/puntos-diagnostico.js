@@ -48,6 +48,7 @@
 		detalle = $("ul.lista-principal > li > ul > li > a"),
 		imgCont = $('.img-cont'),
 		items = $("ul.lista-principal > li > ul"),
+		listaPrincipal = $("ul.lista-principal"),
 		detalleID,
 		imageToShow;
 
@@ -98,6 +99,7 @@
 		}else{
 			$(this).addClass('active');
 			imgCont.addClass('ver-completo');
+			listaPrincipal.addClass('actives');
 			$('#ver-unico').removeClass('active');
 			imgCont.find('img.active').stop(true,true).fadeOut();
 			imgCont.find('img.active').removeClass('active');

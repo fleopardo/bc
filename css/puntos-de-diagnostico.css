@@ -12,7 +12,8 @@
 
 .contenedor-principal .puntos-diagnostico section.content.right h3{
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    font-size: 22px;
 }
 
 .contenedor-principal .puntos-diagnostico section.content .img-cont{
@@ -106,14 +107,26 @@
 }
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal > li > ul.fluidos{
-	left: 205px;
+    left: 158px;
 }
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal ul.mecanica{
-	left: 410px;
+    left: 316px;
 }
 
 .contenedor-principal .puntos-diagnostico section.content .lista-principal ul.seguridad{
+    left: 456px;
+}
+
+.contenedor-principal .puntos-diagnostico section.content .lista-principal.actives > li > ul.fluidos{
+	left: 205px;
+}
+
+.contenedor-principal .puntos-diagnostico section.content .lista-principal.actives ul.mecanica{
+	left: 410px;
+}
+
+.contenedor-principal .puntos-diagnostico section.content .lista-principal.actives ul.seguridad{
 	left: 605px;
 }
 
