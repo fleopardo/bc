@@ -7,9 +7,11 @@
 		step1 = $('.body-step1'),
 		step2 = $('.body-step2'),
 		step3 = $('.body-step3'),
+		step4 = $('.body-step4'),
 		rowsStep1 = step1.find('tr'),
 		rowsStep2 = step2.find('tr'),
 		rowsStep3 = step3.find('tr'),
+		rowsStep4 = step4.find('tr'),
 		datepicker = $('#datepicker');
 
 
@@ -34,19 +36,19 @@
 	$('.seleccionar-fecha').on('click', function () {
 		$('.seleccionar-horario').removeClass('active');
 		$(this).addClass('active');
-		step1.find('.seleccionar-horario-content').hide();
+		step2.find('.seleccionar-horario-content').hide();
 		datepicker.show();
 	});
 
 	$('.seleccionar-horario').on('click', function () {
 		$('.seleccionar-fecha').removeClass('active');
 		$(this).addClass('active');
-		step1.find('.seleccionar-horario-content').show();
+		step2.find('.seleccionar-horario-content').show();
 		datepicker.hide();
 	});
 
 	// Rows de la tabla
-	rowsStep1.find('input[type="checkbox"]').on('click', function () {
+	rowsStep2.find('input[type="checkbox"]').on('click', function () {
 		if ($(this).prop('checked') == true) {
 			$(this).parents('tr').addClass('active');
 		} else {
@@ -76,6 +78,11 @@
 
 
 	/* Funcionalidad step 3 */
-
+	step3.find('.btn-next').on('click', function (event) {
+		event.preventDefault();
+		step3.hide();
+		step4.show();
+		breadcrumb.find('.step4').addClass('active');
+	});
 
 }(window));

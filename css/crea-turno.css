@@ -83,9 +83,9 @@
     background-image: url('./assets/ic-btn-next-hover.png');
 }
 
-/* STEP 1 */
+/* STEP 2 */
 
-.crea-turno .body-step1 .seleccionar-horario-content{
+.crea-turno .body-step2 .seleccionar-horario-content{
     display: none;
 }
 
@@ -93,9 +93,10 @@
     width: 100%;
 }
 
-.crea-turno .body-step1{
+.crea-turno .body-step2{
     padding-bottom: 20px;
     background: #f8f8f8;
+    display: none;
 }
 
 .crea-turno .seleccionar-horario-content tr:hover,
@@ -189,47 +190,47 @@
 
 /* Titulo de secciones*/
 
-.crea-turno .body-step1 .title,
-.crea-turno .body-step1 .title h4{
+.crea-turno .body-step2 .title,
+.crea-turno .body-step2 .title h4{
     background-image: url('./assets/icons-turnos-titles.png');
     background-repeat: no-repeat;
 }
 
-.crea-turno .body-step1 .title{
+.crea-turno .body-step2 .title{
     padding: 10px 10px 10px 32px;
     cursor: pointer;
     position: relative;
 }
 
-.crea-turno .body-step1 .title.active{
+.crea-turno .body-step2 .title.active{
     background-color: #0558ac;
     color: #fff;
 }
 
-.crea-turno .body-step1 .title.seleccionar-fecha{
+.crea-turno .body-step2 .title.seleccionar-fecha{
     background-position: 0px 5px;
 }
 
-.crea-turno .body-step1 .title.seleccionar-fecha.active{
+.crea-turno .body-step2 .title.seleccionar-fecha.active{
     background-position: -30px -25px;
 }
 
-.crea-turno .body-step1 .title.seleccionar-horario{
+.crea-turno .body-step2 .title.seleccionar-horario{
     background-position: 0px -56px;
 }
 
-.crea-turno .body-step1 .title.seleccionar-horario.active{
+.crea-turno .body-step2 .title.seleccionar-horario.active{
     background-position: -30px -87px;
 }
 
-.crea-turno .body-step1 .title h4{
+.crea-turno .body-step2 .title h4{
     font-size: 16px;
     font-family: 'din-medium';
     padding-left: 40px;
     background-position: -5px -125px;
 }
 
-.crea-turno .body-step1 .title.active h4{
+.crea-turno .body-step2 .title.active h4{
     background-position: -39px -157px;
 }
 
@@ -298,36 +299,36 @@
     top: 10px;
 }
 
-/* STEP 2 */
+/* STEP 3 */
 
-.contenedor-principal .crea-turno section.content .body-step2{
+.contenedor-principal .crea-turno section.content .body-step3{
     padding: 20px;
     background: #f8f8f8;
     display: none;
 }
 
-.contenedor-principal .crea-turno section.content .body-step2 select{
+.contenedor-principal .crea-turno section.content .body-step3 select{
     width: 300px;
 }
 
-.contenedor-principal .crea-turno section.content .body-step2 input[type=text],
-.contenedor-principal .crea-turno section.content .body-step2 a.ui-selectmenu,
-.contenedor-principal .crea-turno section.content .body-step2 textarea{
+.contenedor-principal .crea-turno section.content .body-step3 input[type=text],
+.contenedor-principal .crea-turno section.content .body-step3 a.ui-selectmenu,
+.contenedor-principal .crea-turno section.content .body-step3 textarea{
     border: 2px solid #d7d7d7;
 }
 
-.contenedor-principal .crea-turno section.content .body-step2 input[type=text],
-.contenedor-principal .crea-turno section.content .body-step2 textarea{
+.contenedor-principal .crea-turno section.content .body-step3 input[type=text],
+.contenedor-principal .crea-turno section.content .body-step3 textarea{
     width: 280px;
     color: #838383;
 }
 
-.contenedor-principal .crea-turno section.content .body-step2 input[type=text]{
+.contenedor-principal .crea-turno section.content .body-step3 input[type=text]{
     height: 34px;
     padding: 0 10px;
 }
 
-.contenedor-principal .crea-turno section.content .body-step2 textarea{
+.contenedor-principal .crea-turno section.content .body-step3 textarea{
     padding: 5px 10px;
     height: 150px;
     overflow: hidden;
@@ -336,28 +337,28 @@
 
 
 
-/* STEP 3 */
+/* STEP 4 */
 
-.contenedor-principal .crea-turno section.content .body-step3{
+.contenedor-principal .crea-turno section.content .body-step4{
     display: none;
     background: #fff;
     padding: 20px;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 p{
+.contenedor-principal .crea-turno section.content .body-step4 p{
     padding-left: 30px;
     padding-right: 30px;
     font-size: 16px;
 }
 
 
-.contenedor-principal .crea-turno section.content .body-step3 p{
+.contenedor-principal .crea-turno section.content .body-step4 p{
     padding-left: 30px;
     padding-right: 30px;
     font-size: 16px;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 p.confirmacion-turno{
+.contenedor-principal .crea-turno section.content .body-step4 p.confirmacion-turno{
     color: #fff;
     background: #0f6ac5;
     padding-top: 20px;
@@ -365,7 +366,7 @@
     margin-top: 25px;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 p.confirmacion-turno{
+.contenedor-principal .crea-turno section.content .body-step4 p.confirmacion-turno{
     color: #fff;
     background: #0f6ac5;
     padding-top: 20px;
@@ -373,27 +374,27 @@
     margin-top: 25px;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra{
+.contenedor-principal .crea-turno section.content .body-step4 .confirmacion-extra{
     overflow: hidden;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra{
+.contenedor-principal .crea-turno section.content .body-step4 .confirmacion-extra{
     padding-top: 20px;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra .left-col,
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra .right-col{
+.contenedor-principal .crea-turno section.content .body-step4 .confirmacion-extra .left-col,
+.contenedor-principal .crea-turno section.content .body-step4 .confirmacion-extra .right-col{
     background: #f8f8f8;
     width: 340px;
     padding: 20px;
     min-height: 105px;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra .left-col{
+.contenedor-principal .crea-turno section.content .body-step4 .confirmacion-extra .left-col{
     float: left;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra .right-col{
+.contenedor-principal .crea-turno section.content .body-step4 .confirmacion-extra .right-col{
     float: right;
 }
 
@@ -433,13 +434,13 @@
     background: #0f6ac5;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra p,
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra legend{
+.contenedor-principal .crea-turno section.content .body-step4 .confirmacion-extra p,
+.contenedor-principal .crea-turno section.content .body-step4 .confirmacion-extra legend{
     font-size: 15px;
     line-height: 20px;
 }
 
-.contenedor-principal .crea-turno section.content .body-step3 .confirmacion-extra p a{
+.contenedor-principal .crea-turno section.content .body-step4 .confirmacion-extra p a{
     color: #0f6ac5;
     text-decoration: underline;
 }
