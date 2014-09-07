@@ -463,41 +463,30 @@
 
 					<div class="body-steps body-step1">
 
-						<form action="" method="">
-
+						<form method="" action="" class="busqueda-boxes">
 							<fieldset>
-								<p>
-									<select>
-										<option>Marca</option>
-										<option>Fiat</option>
-										<option>Peugeot</option>
-										<option>Ford</option>
+								<div class="row">
+									<select id="provincia">
+										<option>provincia</option>
 									</select>
-								</p>
-								<p>
-									<select>
-										<option>Todos los modelos</option>
-										<option>VW Bora</option>
-										<option>Honda Civic SI</option>
-										<option>Ford Fiesta</option>
-										<option>Peugeot 207</option>
-									</select>
-								</p>
-								<p>
-									<select>
-										<option>Tipo</option>
-										<option>Sedan</option>
-										<option>Coupe</option>
-									</select>
-								</p>
-								<p>
-									<input type="text" placeholder="Dominio" name="" id="">
-								</p>
-								<p>
-									<textarea placeholder="Comentarios"></textarea>
-								</p>
-							</fieldset>
+								</div>
 
+								<div class="row">
+									<select id="partido" disabled>
+										<option>partido</option>
+									</select>
+								</div>
+
+								<div class="row">
+									<select id="localidad" disabled>
+										<option>localidad</option>
+									</select>
+								</div>
+
+							</fieldset>
+							<fieldset class="submit">
+								<input type="submit" id="buscarBoxes" value="Buscar" disabled>
+							</fieldset>
 						</form>
 
 						<a href="#" title="Reservar turno" class="btn-next"><span>Reservar turno</span></a>
