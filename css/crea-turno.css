@@ -49,7 +49,12 @@
     color: #343434;
 }
 
-.contenedor-principal .crea-turno a.btn-next{
+section.content-container .body-step1 form.busqueda-boxes select{
+    width: 296px;
+}
+
+.contenedor-principal .crea-turno a.btn-next,
+section.content-container .body-step1 form.busqueda-boxes input[type=submit]{
 	display: block;
 	border: 4px solid #0f6ac5;
 	color: #0f6ac5;
@@ -69,17 +74,24 @@
 }
 
 .contenedor-principal .crea-turno a.btn-next span{
-	background: url("./assets/ic-btn-next.png") right no-repeat;
+	background: url("./assets/ic-btn-next.png") right center no-repeat;
 	display: inline-block;
 	padding-right: 20px;
 }
 
-.crea-turno a.btn-next:hover {
+section.content-container .body-step1 form.busqueda-boxes input[type=submit]{
+    background:#fff url("./assets/ic-btn-next.png") 180px center no-repeat;
+    padding-left: 0;
+}
+
+.crea-turno a.btn-next:hover,
+section.content-container .body-step1 form.busqueda-boxes input[type=submit]:hover {
     color: #fff;
     background-color: #0f6ac5;
 }
 
-.crea-turno a.btn-next:hover span{
+.crea-turno a.btn-next:hover span,
+section.content-container .body-step1 form.busqueda-boxes input[type=submit]:hover{
     background-image: url('./assets/ic-btn-next-hover.png');
 }
 
