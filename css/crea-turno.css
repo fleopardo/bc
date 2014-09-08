@@ -82,6 +82,7 @@ section.content-container .body-step1 form.busqueda-boxes input[type=submit]{
 section.content-container .body-step1 form.busqueda-boxes input[type=submit]{
     background:#fff url("./assets/ic-btn-next.png") 180px center no-repeat;
     padding-left: 0;
+    cursor: pointer;
 }
 
 .crea-turno a.btn-next:hover,

@@ -485,11 +485,21 @@
 
 							</fieldset>
 							<fieldset class="submit">
-								<input type="submit" id="buscarBoxes" value="Buscar" disabled>
+								<input type="submit" id="buscarBoxes" value="Buscar">
 							</fieldset>
 						</form>
 
-						<a href="#" title="Reservar turno" class="btn-next"><span>Reservar turno</span></a>
+						<div class="resultado-busqueda">
+							<h2>Resultados de Boxes más cercanos</h2>
+							<ul>
+								<li>OPESSA DORREGO - AV. CORDOBA 5984 Y DORREGO C.A.B.A. - CHACARITA</li>
+								<li>BOYACA CISA - AV. ELCANO 4000 Y FRAGA C.A.B.A. - CHACARITA</li>
+							</ul>
+
+							<a href="#" title="Realizar otra búsqueda" class="btn-next">Realizar otra búsqueda</a>
+						</div>
+
+
 
 					</div>
 
@@ -644,7 +654,6 @@
 								<p>Si desea cancelar o modificar su turno por favor hágalo <a href="anular-modificar-turno.html" title="Modificar/cancelar turno">desde acá</a></p>
 							</form>
 						</div>
-
 					</div>
 
 				</section>
@@ -692,9 +701,11 @@
 
 			<!-- Incluir jquery.placeholder.js para tener las funcionalidades del placeholder -->
 			<script src="./jquery/jquery.placeholder.js"></script>
+			<script src="./jquery/jquery.csv-0.71.min.js"></script>
 
 			<script src="./js/global.js"></script>
 			<script src="./js/crear-turno.js"></script>
+
 		</div>
 
 	</div>

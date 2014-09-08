@@ -15,6 +15,14 @@
 		datepicker = $('#datepicker');
 
 
+	/* Funcionalidad step 0 */
+	$('.busqueda-boxes').on('submit', function(event){
+		event.preventDefault();
+
+		$('.resultado-busqueda').show();
+		$(this).hide();
+	})
+
 	/* Funcionalidad step 1 */
 
 	// datepicker jquery ui
