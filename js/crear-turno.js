@@ -15,15 +15,27 @@
 		datepicker = $('#datepicker');
 
 
-	/* Funcionalidad step 0 */
+	/* Funcionalidad step 1 */
 	$('.busqueda-boxes').on('submit', function(event){
 		event.preventDefault();
 
 		$('.resultado-busqueda').show();
 		$(this).hide();
-	})
+	});
 
-	/* Funcionalidad step 1 */
+	$('.resultado-busqueda .btn-next').on('click', function(event){
+		event.preventDefault();
+		$('.busqueda-boxes').show();
+		$('.resultado-busqueda').hide();
+	});
+
+	$('.resultado-busqueda li a').on('click', function(event){
+		event.preventDefault();
+		step1.hide();
+		step2.show();
+		breadcrumb.find('.step2').addClass('active');
+	});
+	/* Funcionalidad step 2 */
 
 	// datepicker jquery ui
 	$( "#datepicker" ).datepicker({
@@ -64,17 +76,11 @@
 		}
 	});
 
-	// Boton siguiente
-	step1.find('.btn-next').on('click', function (event) {
-		event.preventDefault();
-		step1.hide();
-		step2.show();
-		breadcrumb.find('.step2').addClass('active');
-	});
 
 
 
-	/* Funcionalidad step 2 */
+
+	/* Funcionalidad step 3 */
 
 	// Boton siguiente
 	step2.find('.btn-next').on('click', function (event) {
@@ -85,7 +91,7 @@
 	});
 
 
-	/* Funcionalidad step 3 */
+	/* Funcionalidad step 4 */
 	step3.find('.btn-next').on('click', function (event) {
 		event.preventDefault();
 		step3.hide();

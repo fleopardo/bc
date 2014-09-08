@@ -101,6 +101,41 @@ section.content-container .body-step1 form.busqueda-boxes input[type=submit]:hov
     background-image: url('./assets/ic-btn-next-hover.png');
 }
 
+
+.crea-turno .resultado-busqueda {
+    width: 300px;
+}
+
+.crea-turno .resultado-busqueda h2{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.crea-turno .resultado-busqueda li{
+    border-bottom: none;
+    font-size: 13px;
+}
+
+.crea-turno .resultado-busqueda li a{
+    color: #0558ac;
+}
+
+.crea-turno .resultado-busqueda li a:hover{
+    text-decoration: underline;
+}
+
+.crea-turno .resultado-busqueda .btn-next {
+    background: none;
+    line-height: 41px !important;
+    padding-left: 0;
+}
+
+.crea-turno .resultado-busqueda .btn-next:hover{
+    background: none;
+    color: #fff;
+    background-color: #0f6ac5;
+}
+
 /* STEP 2 */
 
 .crea-turno .body-step2 .seleccionar-horario-content{
