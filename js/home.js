@@ -12,8 +12,8 @@
 		$('.owl-carousel-detalle').owlCarousel({
 		    loop:false,
 		    margin:0,
-		    nav:true,
-		    dots:false,
+		    //nav:true,
+		    dots:true,
 		    responsiveClass:true,
 		    navText:['<img src="css/assets/owl-prev.png" alt="">','<img src="css/assets/owl-next.png" alt="">'],
 		    responsive:{
