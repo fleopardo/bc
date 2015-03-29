@@ -4,27 +4,141 @@
 
 /*----------------- CONTENIDO ----------------*/
 
-.home .principal-aside{
+.home .principal-aside {
 	display: none;
 }
 
-.home .main-item{
-	min-height: 220px;
+.home .form-home {
+	background: #f5f5f5;
 }
 
-.home .main-item span,
-.home .main-item p{
+.home .form-home fieldset{
+	border: none;
+	padding: 0;
+}
+
+.home .form-home form{
+	padding: 20px 0;
+}
+
+.home .form-home legend{
+	font: 14px/23px "din-black";
+	text-transform: uppercase;
+	padding-left: 22px;
+	margin-bottom: 10px;
+	background: url('../assets/ic-buscador-home-title.png') left no-repeat;
+}
+
+.home .form-home input[type=text]{
 	display: block;
-	width: 38%;
-	margin-left: 60%;
+	width: 90%;
+	border: 1px solid #dcdcdc;
+	color: #aaa;
+	height: 30px;
+	padding: 0 2% 0 8%;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.home .form-home input.partida{
+	background-image: url('../assets/home-form-marker-a.png');
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
+}
+
+.home .form-home input.destino{
+	background-image: url('../assets/home-form-marker-b.png');
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
+}
+
+
+.regiones-home h3{
+	font-size: 18px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-family: "din-medium";
+}
+
+
+
+
+
+
+/* section sliders votados*/
+.home .buscados-votados {
+	background: #eee;
+	padding: 20px 20px;
+}
+
+.home .owl-stage{
+	background: #fff;
+	
+}
+
+.home .main-item .text-desc{
+	float: right;
+	width: 42%;
+	padding: 10px 1%;
+}
+
+.home .main-item span.tag-home {
+	display: inline-block;
+}
+
+.home .main-item span.tag-home{
+	font: 23px/26px "din-black";
+	padding-top: 40px;
+}
+
+.home .main-item span.tag-home.patagonia{
+	background: url('../assets/ic-guia-patagonia.png') top left no-repeat;
+	color: #01aef0;
+}
+
+.home .main-item span.tag-home.cuyo{
+	background: url('../assets/ic-guia-cuyo.png') top left no-repeat;
+	color: #aa2f34;
+}
+
+.home .main-item span.tag-home.buenos-aires{
+	background: url('../assets/ic-guia-buenos-aires.png') top left no-repeat;
+	color: #0a8166;
+}
+
+.home .main-item span.tag-home.litoral{
+	background: url('../assets/ic-guia-litoral.png') top left no-repeat;
+	color: #405e00;
+}
+
+.home .main-item span.tag-home.noroeste{
+	background: url('../assets/ic-guia-noroeste.png') top left no-repeat;
+	color: #942092;
 }
 
 .home .main-item img{
-	position: absolute;
 	display: block;
-	width: 60%;
-	top: 0;
-	height: auto
+	width: 55%;
+	float: left;
+}
+
+.home .buscados-votados .owl-controls {
+	margin-top: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.home .buscados-votados .owl-controls .owl-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #d6d6d6;
+    margin: 0 3px;
+}
+.home .buscados-votados .owl-controls .owl-dot.active {
+    background: #373738;
 }
 
 
