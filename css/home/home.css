@@ -52,6 +52,46 @@
 	background-repeat: no-repeat;
 }
 
+.region-home.novedades {
+	border-top: 3px solid #3792c7;
+}
+
+.region-home.novedades h3{
+	color: #3792c7;
+}
+
+.region-home.rutas {
+	border-top: 3px solid #e16f39;
+}
+
+.region-home.rutas h3{
+	color: #e16f39;
+}
+
+.region-home.hospedaje {
+	border-top: 3px solid #e47f50;
+}
+
+.region-home.hospedaje h3{
+	color: #e47f50;
+}
+
+.region-home.regiones {
+	border-top: 3px solid #c942b1;
+}
+
+.region-home.regiones h3{
+	color: #c942b1;
+}
+
+.region-home.guias {
+	border-top: 3px solid #4995ba;
+}
+
+.region-home.guias h3{
+	color: #4995ba;
+}
+
 .regiones-home .main-img{
 	margin-bottom: 5px;
 }
