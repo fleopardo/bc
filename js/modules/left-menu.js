@@ -5,7 +5,7 @@
     var aside = $('.filtros-left'),
         linksExpandables;
 
-    if (aside) {
+    if (aside.length > 0) {
 
     	// listado de links que pueden ser expandibles
         linksExpandables = $('.filtros-left > li > label');
@@ -58,7 +58,9 @@
 
         });
 
-        $('.filtros-left input[type="checkbox"]').ezMark();
+        if (aside.length > 0) {
+            $('.filtros-left input[type="checkbox"]').ezMark();
+        }
 
     }
 
