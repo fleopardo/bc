@@ -3,7 +3,7 @@
 ul.options-left {
     margin-bottom: 30px;
     margin-top: 15px;
-    
+
 }
 
 ul.options-left li.active a {
@@ -124,9 +124,7 @@ ul.options-left li.rutas.active a:after {
 
 /*---- Filtros -----*/
 
-
-
-ul.filtros-left li {
+/*ul.filtros-left li {
     border-bottom: 1px solid #d3d3d3;
     position: relative;
     padding: 0;
@@ -208,7 +206,7 @@ section.content-container aside li > ul {
     display: none;
 }
 
-@media (max-width: 1023px) { 
+@media (max-width: 1023px) {
     .openotras {
         display: block;
         color: #0062be;
@@ -227,7 +225,7 @@ section.content-container aside li > ul {
     }
     .openotras.open {
         background: url(../../assets/ic-otras-on.png) no-repeat 98% center #fff;
-    }   
+    }
     ul.options-left {
         z-index: 1;
         background: none repeat scroll 0 0 #f3f3f3;
@@ -298,7 +296,7 @@ section.content-container aside li > ul {
 }
 
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     .content-nav {
         height: 100px;
     }
@@ -325,36 +323,97 @@ section.content-container aside li > ul {
         float: none;
         display: block;
     }
-    
+
 
 }
 
+*/
 
 
 
+/* line 3, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+.filtros-left h3 {
+  font-size: 12px;
+  line-height: 16px;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  font-family: "din-black";
+    border: 1px solid #d3d3d3;
+}
+/* line 12, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+.filtros-left li {
+  border-bottom: 1px solid #d3d3d3;
+  position: relative;
+  padding: 0;
+  margin: 0 !important; }
+  /* line 19, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+  .filtros-left li a, .filtros-left li label {
+    font-size: 12px;
+    line-height: 16px;
+    color: #3f3f3f;
+    display: block;
+    position: relative;
+    padding: 5px 12px;
+    font-family: "din-black"; }
+    /* line 29, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left li a.selected, .filtros-left li a:hover, .filtros-left li label.selected, .filtros-left li label:hover {
+      color: #0063be; }
+    /* line 33, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left li a:hover, .filtros-left li label:hover {
+      background-color: #f1f1f1; }
+    /* line 39, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left li a.expandable:after,
+    .filtros-left li label.expandable:after {
+      content: '';
+      position: absolute;
+      right: 10px;
+      top: 6px;
+      width: 12px;
+      height: 11px;
+      display: block;
+      background: url(../../assets/submenu-arrow.png) no-repeat; }
+    /* line 50, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left li a.expandable.opened:after, .filtros-left li label.expandable.opened:after {
+      background-position: bottom left; }
+    /* line 54, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left li a.expandable.closed:after, .filtros-left li label.expandable.closed:after {
+      background-position: top left; }
+  /* line 62, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+  .filtros-left li.ck a {
+    cursor: default; }
+  /* line 66, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+  .filtros-left li input {
+    position: absolute;
+    right: 9px;
+    top: 4px; }
+  /* line 72, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+  .filtros-left li ul {
+    margin-top: 0; }
+    /* line 76, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left li ul li a, .filtros-left li ul li label {
+      font-size: 11px;
+      padding: 4px 12px 5px 25px;
+      color: #888; }
+    /* line 82, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left li ul li:first-of-type {
+      border-top: 1px solid #d3d3d3; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 990px) {
+  /* line 91, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+  .filtros-left {
+    background-color: #f5f5f5;
+    margin-left: -7px;
+    margin-right: -7px; }
+    /* line 96, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left h3 {
+      display: none; }
+    /* line 103, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left li a, .filtros-left li label {
+      font-size: 15px;
+      font-family: 'din-regular';
+      padding: 8px 12px; }
+    /* line 112, /Users/sleopardo/workspace/test/ypf-editorial/sass/components/filtros-left.scss */
+    .filtros-left li ul li a, .filtros-left li ul li label {
+      font-size: 13px;
+      padding: 8px 14px 9px 40px; } }
