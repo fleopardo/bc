@@ -52,12 +52,20 @@
 	background-repeat: no-repeat;
 }
 
+.regiones-home .main-img{
+	margin-bottom: 5px;
+}
+
+.regiones-home .row {
+	padding: 15px 0;
+}
 
 .regiones-home h3{
 	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
 	font-family: "din-medium";
+	margin-bottom: 5px;
 }
 
 
