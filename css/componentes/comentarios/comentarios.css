@@ -142,13 +142,13 @@
 
 .comments .comment-item .info a {
 	color: #999;
-	background: url(../../assets/icon-det-like.png) 0 -2px no-repeat;
+	background: url(../../assets/icon-like-off.png) 0 -2px no-repeat left center;
 	padding-left: 20px;
 }
 
 .comments .comment-item .info a:hover {
 	color: #444;
-	background: url(../../assets/icon-det-like-on.png) 0 -2px no-repeat;
+	background: url(../../assets/icon-like.png) 0 -2px no-repeat left center;
 }
 
 .btn-mas {
@@ -174,7 +174,7 @@
 #comentarios {
 	display: none;
 }
-@media (max-width: 1023px) { 
+@media (max-width: 1023px) {
     .comment-form ul.footer li.captcha,
     .comment-form ul.footer li.btn-enviar,
     .comment-form ul.footer li.captcha-input {
@@ -198,7 +198,7 @@
 	}
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
     .comment-form textarea {
     	width: 90%
     }
@@ -216,7 +216,7 @@
     .comment-form input.small {
     	width: 80px !important;
     }
-    
+
 }
 
 
