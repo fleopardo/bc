@@ -38,7 +38,8 @@ ul.det-options li a:hover {
 
 ul.det-options li.like a {
 	width: 100px;
-	background: url('../../assets/icon-det-like.png') no-repeat;
+	background: url('../../assets/icon-like-off.png') no-repeat left center;
+
 }
 
 ul.det-options li.share a {
@@ -53,7 +54,7 @@ ul.det-options li.add a {
 }
 
 .options-content.desk ul.det-options li.like a:hover {
-	background: url('../../assets/icon-det-like-on.png') no-repeat;
+	background: url('../../assets/icon-like.png') no-repeat left center;
 }
 
 .options-content.desk ul.det-options li.share a:hover {
@@ -64,7 +65,7 @@ ul.det-options li.add a {
 	background: url('../../assets/icon-det-add-on.png') 0 -2px no-repeat;
 }
 
-@media (max-width: 1023px) { 
+@media (max-width: 1023px) {
     .options-content.mob {
 		display: block;
 	}
