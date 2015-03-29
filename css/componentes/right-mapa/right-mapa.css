@@ -1,0 +1,90 @@
+/*------- Derecha / Mapa ------*/
+
+.map {
+	border-bottom: 3px solid #DDD;
+	margin-bottom: 12px;
+}
+
+.map .map-img img {
+	width: 100%;
+	display: block;
+}
+
+.map a.title {
+	display: block;
+	font-size: 17px;
+	color: #333;
+	padding: 4px 0 4px 22px;
+	margin-top: 12px;
+}
+
+.map a.title:hover,
+.map p a:hover {
+	text-decoration: underline;
+}
+
+.map p {
+	margin-bottom: 16px;
+}
+
+.map ul {
+	margin-bottom: 20px;
+}
+
+.map ul li {
+	padding: 3px 0;
+	font-size: 12px;
+}
+
+.map ul li.icon.hitos-n {
+	padding-left: 26px;
+	background: url(../../assets/icon-li-hitos-n.png) no-repeat;
+}
+
+/* ---- Estaciones ---- */
+
+.map.es a.title {
+	background: url(../../assets/icon-marker-es.png) no-repeat;
+}
+
+/* ---- Hitos ---- */
+
+.map.hito a.title {
+	background: url(../../assets/icon-marker-hito.png) no-repeat;
+}
+
+/* ---- Circuitos ---- */
+
+.map.circuito a.title {
+	background: url(../../assets/icon-marker-circuito.png) no-repeat;
+}
+
+/* ---- Parques Nacionales ---- */
+
+.map.parque a.title {
+	background: url(../../assets/icon-marker-parque.png) no-repeat;
+}
+
+/* ---- Rutas ---- */
+
+.map.ruta a.title {
+	background: url(../../assets/icon-marker-ruta.png) no-repeat;
+}
+
+/* ---- Región Patagonia ---- */
+
+.map.patagonia a.title {
+	background: url(../../assets/icon-marker-patagonia.png) no-repeat;
+}
+
+@media (max-width: 1023px) { 
+	.map-img img {
+    	width: 100%;
+    	display: block;
+    }
+}
+@media (max-width: 767px) { 
+    
+}
+
+

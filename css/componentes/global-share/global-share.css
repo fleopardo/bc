@@ -1,0 +1,105 @@
+/*---- Desplegable opciones de Share ----*/
+
+ul.global-share {
+    position: absolute;
+    z-index: 200;
+    background-color: #fff;
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    width: 225px;
+    top: 70px;
+    left: -25px;
+    height: 40px;
+    border-bottom: 2px solid #DDD;
+    display: none;
+}
+
+ul.global-share li {
+	position: absolute;
+	top:0;
+	border-right: 1px solid #DDD;
+}
+
+ul.global-share li a {
+	text-indent: -9000px;
+	display: block;
+	width: 45px;
+	height: 40px;
+	background: url(../../assets/sprite-global-share.png) no-repeat;
+	background-position: 8px 5px;
+}
+
+ul.global-share li.tw  {
+	left: 45px;
+}
+
+ul.global-share li.in  {
+	left: 90px;
+}
+
+ul.global-share li.go  {
+	left: 135px;
+}
+
+ul.global-share li.mail {
+	left: 180px;
+	border-right: 0;
+}
+
+ul.global-share li.tw a {
+	background-position: -45px 5px;
+}
+
+ul.global-share li.in a {
+	background-position: -97px 5px;
+}
+
+ul.global-share li.go a {
+	background-position: -150px 5px;
+}
+
+ul.global-share li.mail a {
+	background-position: -204px 5px;
+}
+
+ul.global-share li.fb a:hover {
+	background-position: 8px -35px;
+}
+
+ul.global-share li.tw a:hover {
+	background-position: -45px -35px;
+}
+
+ul.global-share li.in a:hover {
+	background-position: -97px -35px;
+}
+
+ul.global-share li.go a:hover {
+	background-position: -150px -35px;
+}
+
+ul.global-share li.mail a:hover {
+	background-position: -204px -35px;
+}
+
+ul.global-share li.arrow {
+   border-bottom: 0; 
+   position: relative;
+}
+
+ul.global-share li.arrow div {
+    background: url(../../assets/arrow-sug.png) center no-repeat;
+    height: 11px;
+    width: 22px;
+    left: 50px;
+    position: absolute;
+    top:-11px;
+}
+@media (max-width: 1023px) { 
+	
+	.options-content.mob ul.global-share li.arrow div {
+		left: 147px;
+	}
+	
+}
+

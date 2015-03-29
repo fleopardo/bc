@@ -1,0 +1,81 @@
+/*------- Derecha / Beneficios ------*/
+
+.beneficios {
+	border-bottom: 3px solid #DDD;
+	margin-bottom: 12px;
+}
+
+.beneficios a {
+	display: block;
+	position: relative;
+	padding-bottom: 20px;
+	width: 285px;
+}
+
+.beneficios a .img {
+	width: 137px;
+}
+
+.beneficios .text p.title {
+	margin:0;
+	text-transform: uppercase;
+	color: #e3721d;
+	font-size: 16px;
+	line-height: 1;
+	margin-bottom: 3px;
+}
+
+.beneficios .imperdible .text p.title {
+	color: #3fc3d5;
+}
+
+.beneficios .instantaneo .text p.title {
+	color: #9b258a;
+}
+
+.beneficios a:hover .text p.title {
+	text-decoration: underline;
+}
+
+.beneficios h3 {
+	color: #9b1688;
+}
+
+.beneficios .text {
+	width: 130px !important;
+	float: left;
+	padding: 0;
+	margin-left: 14px;
+}
+
+.beneficios .text p.desc {
+	margin-bottom:5px;
+}
+
+.beneficios .tag {
+	margin-bottom:0;
+	width: 70px;
+	height: 32px;
+	text-indent: -9000px;
+	background: url(../../assets/sprite-tags.png) no-repeat;
+}
+
+.beneficios .imperdible .tag {
+	width: 80px;
+	background-position: 0 -40px;
+}
+
+.beneficios .instantaneo .tag {
+	width: 90px;
+	background-position: 0 -80px;
+}
+
+.beneficios .likes {
+	display: block;
+	padding: 0 0 0 20px;
+	line-height: 25px;
+	color: #333;
+	background: url("../../assets/icon-like.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+}
+
+

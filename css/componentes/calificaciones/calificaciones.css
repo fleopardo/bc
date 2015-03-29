@@ -1,0 +1,71 @@
+/*---- Calificaciones ----*/
+
+.calificaciones {
+	padding-bottom: 20px;
+	border-bottom: 3px solid #DDD;
+}
+
+.calificaciones h3 {
+	text-transform: uppercase;
+	color: #999;
+	font-size: 12px;
+	margin-bottom: 0;
+    line-height: 28px;
+    font-family: "din-medium";
+    font-weight: normal;
+}
+
+.calificaciones ul.det-rating li {
+	float: left;
+	width: 220px;
+	font-size: 11px;
+	color: #999;
+	position: relative;
+	margin-bottom: 2px;
+	height: 20px;
+	list-style: outside none none;
+}
+
+.calificaciones ul.det-rating li .bg {
+	position: absolute;
+	left: 70px;
+	top: 5px;
+	background-color: #DDD;
+	width: 100px;
+	height: 10px;
+	padding: 0;
+	line-height: 0;
+}
+
+.calificaciones ul.det-rating li.ml {
+	margin-left: 30px;
+	width: 160px;
+}
+
+.calificaciones .rating-stars {
+    background: url('../../assets/sprite-stars.png') no-repeat;
+    width: 60px;
+    height: 12px;
+    margin: 3px 0 5px;
+    text-indent: -9999px;
+}
+
+.calificaciones .rating-stars.uno { background-position: 0 -13px}
+.calificaciones .rating-stars.dos { background-position: 0 -26px}
+.calificaciones .rating-stars.tres { background-position: 0 -39px}
+.calificaciones .rating-stars.cuatro { background-position: 0 -52px}
+.calificaciones .rating-stars.cinco { background-position: 0 -65px}
+
+
+@media (max-width: 1023px) { 
+	.calificaciones {
+    	display: none;
+    }
+	.calificaciones ul.det-rating li {
+		float: none;
+		display: block;
+	}
+}
+@media (max-width: 767px) { 
+    
+}

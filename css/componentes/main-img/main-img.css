@@ -1,0 +1,190 @@
+
+.main-img {
+    position: relative;
+    margin-bottom: 16px;
+    z-index: 0;
+}
+
+.main-img img {
+    display: block;
+    width: 100%;
+}
+
+.main-img p {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0 18px;
+    color: #FFF;
+    font-size: 21px;
+    line-height: 24px;
+    font-family: "din-regular";
+    z-index: 3;
+}
+
+.main-img.big p {
+    font-size: 62px;
+    line-height: 64px;
+    font-family: "din-black";
+}
+
+.main-img p span{
+    display: block;
+    margin-bottom: 6px;
+}
+
+.main-img p span.main-img-icons {
+    height: 38px;
+    width: 38px;
+    background: url(../../assets/sprite-tipoinfo.png) no-repeat;
+}
+
+.main-img p span.imperdible {
+    background-position: -51px 0;
+}
+
+.main-img p span.sugerencia {
+    background: url(../../assets/sprite-tipoinfo.png) no-repeat;
+}
+
+.main-img p span.nota {
+    background-position: -99px 0;
+}
+
+.main-img p span.ypf-logo {
+    background-position: -147px 0;
+}
+
+.main-img p span.ypf-file {
+    background-position: -194px 0;
+}
+
+.main-img p span.ypf-icon-map{
+    width: 62px;
+    height: 65px;
+    background: url(../../assets/ic-main-img-map.png) no-repeat;
+}
+
+.main-img .tag {
+    left:-16px;
+    top: 16px;
+    width: 100px;
+    height: 30px;
+    text-indent: -9000px;
+    background: url(../../assets/sprite-tags.png) no-repeat;
+    position: absolute;
+    z-index: 2;
+}
+
+.main-img .tag.patagonia {
+    background-position: 0 -122px;
+}
+
+.main-img .tag.litoral {
+    background-position: 0 -157px;
+}
+
+.main-img .tag.baires {
+    background-position: 0 -194px;
+}
+
+.main-img .tag.noroeste {
+    background-position: 0 -228px;
+}
+
+.main-img .tag.cuyo {
+    background-position: 0 -265px;
+}
+
+
+/*GUIAS PAPEL*/
+.guias-papel .main-img {
+    background: #0093a6 url('../../assets/fd-main-banner-guias-papel.jpg') right no-repeat;
+    height: 224px;
+}
+
+.guias-papel .main-img p{
+    font: 62px/65px "din-black";
+    bottom: 45px;
+}
+
+@media (max-width: 540px) {
+    .guias-papel .main-img {
+        background-image: none;
+        height: 134px;
+    }
+
+    .guias-papel .main-img p{
+        font: 33px/35px "din-black";
+        bottom: 20px;
+    }
+
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+    .guias-papel .main-img {
+        background-image: none;
+        height: 185px;
+    }
+
+    .guias-papel .main-img p{
+        font: 42px/45px "din-black";
+        bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .guias-papel .main-img {
+        background-image: none;
+        height: 224px;
+    }
+}
+
+@media (max-width: 1023px) {
+
+    .main-img .tag {
+        width: auto;
+        height: 21px;
+        padding: 0 5px;
+        text-indent: 0;
+        background-image: none;
+        position: static;
+        font: 11px/21px "din-black";
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+    .main-img .tag.patagonia {
+        background-color: #2ab6ec;
+    }
+
+    .main-img .tag.litoral {
+        background-color: #dcd512;
+    }
+
+    .main-img .tag.baires {
+        background-color: #0a8166;
+    }
+
+    .main-img .tag.noroeste {
+        background-color: #8e288e;
+    }
+
+    .main-img .tag.cuyo {
+        background-color: #aa2f36;
+    }
+
+    .main-img.big p {
+        font-size: 33px;
+        line-height: 36px;
+    }
+
+    .main-img.big p span {
+        display: none;
+    }
+
+}
+

@@ -1,0 +1,124 @@
+.guias-papel .destacado {
+	background: url("../../images/guias-papel/header.jpg") center top no-repeat;
+}
+
+/*----------------- CONTENIDO ----------------*/
+
+.guias-papel .principal-aside{
+	display: none;
+}
+
+.guia-listado{
+	margin-top: 30px;
+}
+
+.guia-listado .guia-item {
+	padding: 20px 20px 20px 105px;
+	position: relative;
+	min-height: 163px;
+	border-bottom: 5px solid #efefef;
+ 	margin-bottom: 20px;
+}
+
+.guia-listado h4{
+	display: inline-block;
+	font: 33px/38px "din-black";
+	padding-left: 45px;
+}
+
+.guia-listado h4.noroeste {
+	color: #942092;
+	background: url("../assets/ic-guia-noroeste.png") top left no-repeat;
+}
+
+.guia-listado h4.litoral {
+	color: #405e00;
+	background: url("../assets/ic-guia-litoral.png") top left no-repeat;
+}
+
+.guia-listado h4.patagonia {
+	color: #00adef;
+	background: url("../assets/ic-guia-patagonia.png") top left no-repeat;
+}
+
+.guia-listado h4.cuyo {
+	color: #a92f34;
+	background: url("../assets/ic-guia-cuyo.png") top left no-repeat;
+}
+
+.guia-listado h4.buenos-aires {
+	color: #0a8166;
+	background: url("../assets/ic-guia-buenos-aires.png") top left no-repeat;
+}
+
+.guia-listado .pdf-link {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 20px;
+	text-transform: uppercase;
+	background: url("../assets/ic-pdf.png") left no-repeat;
+	padding-left: 25px;
+	line-height: 20px;
+}
+
+.guia-listado p{
+	clear: both;
+	margin: 20px 0;
+}
+
+.guia-listado img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.guia-listado .icon-estacion {
+	background: url("../assets/icon-estaciones.png") left no-repeat;
+	display: inline-block;
+	line-height: 18px;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 10px 0 10px 40px;	
+}
+
+
+
+@media (max-width: 768px) {
+	.guias-papel section.content {
+		margin-top: 76px;
+	}
+}
+
+@media (max-width: 990px) {
+	.guias-papel .destacado {
+		display: none;
+	}
+
+	.guia-listado .guia-item {
+		padding: 20px 10px;
+		position: relative;
+		min-height: 163px;
+		border-bottom: 5px solid #efefef;
+	 	margin-bottom: 20px;
+	}
+
+	.guia-listado img {
+		display: none;
+	}
+
+	.guia-listado .pdf-link{
+		position: static;
+	}
+
+	.guia-listado .icon-estacion {
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.guias-papel .principal-aside {
+		display: block;
+	}
+}

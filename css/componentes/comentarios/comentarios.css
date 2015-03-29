@@ -1,0 +1,223 @@
+/*---- Form Comentarios ----*/
+
+.comment-form,
+.comments {
+	padding-bottom: 20px;
+	border-bottom: 3px solid #DDD;
+}
+
+.comment-form h3,
+.comments h3 {
+	padding-left: 26px;
+	margin: 18px 0;
+	font-family: "din-medium";
+	font-size: 16px;
+	color: #AAA;
+	line-height: 1;
+	text-transform: uppercase;
+	background: url(../../assets/icon-det-comment1.png) 0 no-repeat;
+}
+
+.comment-form .calificacion {
+	position: relative;
+	font-size: 12px;
+	height: 20px;
+	padding-top: 2px;
+	margin-bottom: 10px;
+}
+
+.comment-form .calificacion .comm-stars {
+	position: absolute;
+	left: 90px;
+	top: 0;
+}
+
+.comment-form input.small {
+	width: 120px !important;
+}
+
+.comment-form select {
+	width: 234px !important;
+}
+
+.comment-form input,
+.comment-form textarea {
+    border: 2px solid #DDD;
+    padding: 0 5px;
+    width: 220px;
+    height: 23px;
+    color: #666;
+    font-family: "din-medium";
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.comment-form textarea {
+	width: 430px;
+	padding: 3px 5px;
+	margin-top: 4px;
+	height: 90px;
+	outline: none;
+	resize: none;
+}
+
+.comment-form ul.footer {
+	position: relative;
+	height: 34px;
+}
+
+.comment-form ul.footer li {
+	display: inline-block;
+	padding: 0 !important;
+	line-height: 1;
+}
+
+.comment-form input[type="submit"] {
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    background: #777;
+    font-family: "din-medium";
+}
+
+.comment-form input[type="submit"]:hover {
+	background-color: #e65735;
+}
+
+.comment-form ul.footer li.captcha {
+	position: absolute;
+	right: 258px;
+	top: 2px;
+}
+
+.comment-form ul.footer li.captcha-input {
+	position: absolute;
+	right: 118px;
+	top: 2px;
+}
+
+.comment-form ul.footer li.btn-enviar {
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+
+/*---- Comentarios ----*/
+
+.comments {
+	padding-bottom: 0;
+}
+
+.comments h3 {
+	color: #444;
+	background: url(../../assets/icon-det-comment2.png) 0 no-repeat;
+}
+
+.comments .comment-item {
+	padding-left: 24px;
+	margin-bottom: 20px;
+}
+
+.comments .comment-item .rating-stars {
+	background: url(../../assets/sprite-stars.png) no-repeat;
+	width: 60px;
+	height: 12px;
+	margin-bottom: 5px;
+}
+
+.comments .comment-item .rating-stars.uno { background-position: 0 -13px}
+.comments .comment-item .rating-stars.dos { background-position: 0 -26px}
+.comments .comment-item .rating-stars.tres { background-position: 0 -39px}
+.comments .comment-item .rating-stars.cuatro { background-position: 0 -52px}
+.comments .comment-item .rating-stars.cinco { background-position: 0 -65px}
+
+.comments .comment-item .info {
+	font-size: 12px;
+	color: #444;
+}
+
+.comments .comment-item .info a {
+	color: #999;
+	background: url(../../assets/icon-det-like.png) 0 -2px no-repeat;
+	padding-left: 20px;
+}
+
+.comments .comment-item .info a:hover {
+	color: #444;
+	background: url(../../assets/icon-det-like-on.png) 0 -2px no-repeat;
+}
+
+.btn-mas {
+    width: 125px;
+    margin: 5px auto;
+    padding: 12px 0;
+    display: block;
+    text-transform: uppercase;
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    background: url(../../assets/arrow-btn-mas-off.png) right center no-repeat;
+    font-family: "din-black";
+    clear: both;
+    overflow: hidden;
+}
+
+.btn-mas:hover {
+	background: url(../../assets/arrow-btn-mas-on.png) right center no-repeat;
+	color: #666;
+}
+#comentarios {
+	display: none;
+}
+@media (max-width: 1023px) { 
+    .comment-form ul.footer li.captcha,
+    .comment-form ul.footer li.btn-enviar,
+    .comment-form ul.footer li.captcha-input {
+	    float: left;
+	    position: relative;
+	    right: auto;
+	    top: auto;
+	    margin-right: 5px;
+	}
+	/*.btn-mas {
+	    background-position: left center;
+	    width: 125px;
+	    margin: 5px auto;
+	}
+	.btn-mas:hover {
+		background: url(../../assets/arrow-btn-mas-on.png) left center no-repeat;
+	}*/
+	#comentarios {
+		display: block;
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 767px) { 
+    .comment-form textarea {
+    	width: 90%
+    }
+    .comment-form ul.footer {
+    	height: auto;
+    	overflow: hidden;
+    }
+    .comment-form ul.footer li.btn-enviar{
+    	float: right;
+    	text-align: right;
+    }
+    .comment-form input[type="submit"] {
+    	width: 85px;
+    }
+    .comment-form input.small {
+    	width: 80px !important;
+    }
+    
+}
+
+
+

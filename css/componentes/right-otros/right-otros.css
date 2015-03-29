@@ -1,0 +1,178 @@
+/*------- Derecha / Otros Destacados ------*/
+
+/* ---- Estaciones por default ---- */
+
+.otros {
+	border-bottom: 3px solid #DDD;
+	margin-bottom: 12px;
+}
+
+.otros a {
+	display: block;
+	position: relative;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.otros a .img {
+	width: 137px;
+}
+
+.otros .left.title-content{
+	width: 130px;
+	margin-left: 16px;
+}
+
+.otros a p.title {
+	color: #45b4e0;
+	font-size: 16px;
+}
+
+.otros a:hover p.title {
+	text-decoration: underline;
+}
+
+.otros .rating-stars {
+    background: url('../../assets/sprite-stars.png') no-repeat;
+    width: 60px;
+    height: 12px;
+    margin: 3px 0 5px;
+    text-indent: -9999px;
+}
+
+.otros .rating-stars.uno { background-position: 0 -13px}
+.otros .rating-stars.dos { background-position: 0 -26px}
+.otros .rating-stars.tres { background-position: 0 -39px}
+.otros .rating-stars.cuatro { background-position: 0 -52px}
+.otros .rating-stars.cinco { background-position: 0 -65px}
+
+/* ---- Hitos ---- */
+
+.otros.hitos a {
+	padding-bottom: 10px;
+}
+
+.otros.hitos a .left.title-content {
+	width: 100%;
+	margin-left: 0;
+}
+
+.otros.hitos a p.title {
+	color: #7ea530;
+	margin-bottom: 8px;
+}
+
+/* ---- Circuitos ---- */
+
+.otros.circuitos a {
+	padding-bottom: 10px;
+}
+
+.otros.circuitos a .left.title-content {
+	width: 100%;
+	margin-left: 0;
+}
+
+.otros.circuitos a .title {
+	color: #b25774;
+	margin-bottom: 8px;
+}
+.otros.circuitos p {
+	margin-bottom: 15px;
+}
+/* ---- Rutas ---- */
+
+.otros.rutas a p.title {
+	color: #0064be;
+}
+
+/* ---- Parques ---- */
+
+.otros.parques a p.title {
+	color: #3ca581;
+}
+
+/* ---- Imperdibles ---- */
+
+.otros.imperdibles a {
+	padding-bottom: 10px;
+}
+
+.otros.imperdibles a .left.title-content {
+	width: 100%;
+	margin-left: 0;
+}
+
+.otros.imperdibles a p.title {
+	color: #dd392f;
+	margin-bottom: 8px;
+}
+
+/* ---- Notas ---- */
+
+.otros.notas a {
+	padding-bottom: 10px;
+}
+
+.otros.notas a .left.title-content {
+	width: 100%;
+	margin-left: 0;
+}
+
+.otros.notas a p.title {
+	color: #04c2ac;
+	margin-bottom: 8px;
+}
+
+/* ---- mas votadas ---- */
+
+.otros.mas-votadas a p.title {
+	color: #14B9A7;
+}
+
+/* ---- Sugerencias ---- */
+
+.otros.sugerencias a {
+	padding-bottom: 10px;
+}
+
+.otros.sugerencias a p.title {
+	color: #ebad37;
+	margin-left: 0;
+	padding-left: 45px;
+	padding-top: 7px;
+	margin-bottom: 8px;
+	width: 240px;
+	height: 29px;
+}
+
+/*Iconos*/
+
+.otros.sugerencias a p.title.viajar,
+.otros.sugerencias a p.title.actividades,
+.otros.sugerencias a p.title.dormir,
+.otros.sugerencias a p.title.comer,
+.otros.sugerencias a p.title.beber {
+	background: url(../../assets/sprite-sugerencias.png) no-repeat; 
+}
+
+.otros.sugerencias a p.title.actividades {
+	background-position: 0 -45px;
+}
+
+.otros.sugerencias a p.title.dormir {
+	background-position: 0 -90px;
+}
+
+.otros.sugerencias a p.title.comer {
+	background-position: 0 -136px;
+}
+
+.otros.sugerencias a p.title.beber {
+	background-position: 0 -183px;
+}
+
+
+
+
+

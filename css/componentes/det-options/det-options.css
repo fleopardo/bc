@@ -1,0 +1,139 @@
+/*--- opciones de detalle ---*/
+
+.options-content {
+	position: relative;
+	margin-top: 20px;
+	border-top: 3px solid #DDD;
+}
+.options-content.mob {
+	display: none;
+}
+
+.options-content ul.global-share {
+	top:48px;
+	left: 72px;
+}
+
+ul.det-options {
+	margin: 20px 0;
+	width: 450px;
+}
+
+ul.det-options li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-family: "din-medium";
+}
+
+ul.det-options li a {
+	display: block;
+	padding-left: 20px;
+	color: #999;
+}
+
+ul.det-options li a:hover {
+	color: #444;
+}
+
+ul.det-options li.like a {
+	width: 100px;
+	background: url('../../assets/icon-det-like.png') no-repeat;
+}
+
+ul.det-options li.share a {
+	width: 140px;
+	background: url('../../assets/icon-det-share.png') no-repeat;
+}
+
+ul.det-options li.add a {
+	width: 120px;
+	background: url('../../assets/icon-det-add.png') 0 -2px no-repeat;
+	padding-left: 26px;
+}
+
+.options-content.desk ul.det-options li.like a:hover {
+	background: url('../../assets/icon-det-like-on.png') no-repeat;
+}
+
+.options-content.desk ul.det-options li.share a:hover {
+	background: url('../../assets/icon-det-share-on.png') no-repeat;
+}
+
+.options-content.desk ul.det-options li.add a:hover {
+	background: url('../../assets/icon-det-add-on.png') 0 -2px no-repeat;
+}
+
+@media (max-width: 1023px) { 
+    .options-content.mob {
+		display: block;
+	}
+	.options-content.desk {
+		display: none;
+	}
+	.options-content.mob ul.det-options {
+		margin: 20px 0;
+		width: 100%;
+		text-align: center;
+	}
+	.options-content.mob ul.det-options li {
+		display: inline-block;
+		width: 24%;
+	}
+	.options-content.mob ul.det-options li a {
+		display: inline-block;
+	}
+	.options-content.mob ul.det-options li.like a {
+		width: auto;
+		height: 32px;
+		float: left;
+		padding-left: 41px;
+		line-height: 32px;
+		font-size: 23px;
+		background: url('../../assets/ic-share-mob-puntos.png') no-repeat;
+	}
+	.options-content.mob ul.det-options li.like a.on {
+		color: #444;
+		background: url('../../assets/ic-share-mob-puntos-on.png') no-repeat;
+	}
+
+	.options-content.mob ul.det-options li.coment a {
+		width: 41px;
+		height: 32px;
+		padding-left: 0;
+		background: url('../../assets/ic-share-mob-coment.png') no-repeat;
+	}
+	.options-content.mob ul.det-options li.coment a:hover {
+		background: url('../../assets/ic-share-mob-coment-on.png') no-repeat;
+	}
+	.options-content.mob ul.det-options li.share a {
+		width: 41px;
+		height: 32px;
+		padding-left: 0;
+		background: url('../../assets/ic-share-mob-share.png') no-repeat;
+	}
+	.options-content.mob ul.det-options li.share a.on {
+		color: #444;
+		background: url('../../assets/ic-share-mob-share-on.png') no-repeat;
+	}
+	.options-content.mob ul.det-options li.add a {
+		width: 41px;
+		height: 32px;
+		background: url('../../assets/ic-share-mob-viajes.png') 0 -2px no-repeat;
+		padding-left: 0;
+	}
+	.options-content.mob ul.det-options li.add a:hover {
+		background: url('../../assets/ic-share-mob-viajes-on.png') 0 -2px no-repeat;
+	}
+	.options-content.mob ul.global-share {
+	    left: 40%;
+	    top: 58px;
+	}
+
+}
+@media (max-width: 767px) {
+	.options-content.mob ul.global-share {
+	    left: 17%;
+	    top: 58px;
+	}
+}

@@ -1,0 +1,64 @@
+.otras-regiones-common{
+    margin-top: 30px;
+}
+
+section.content .otras-regiones-common .otras-regiones-bloque{
+    width: 47%;
+    display: block;
+}
+
+.panoramica-argentina .otras-regiones-common .fluid-regiones-container .left,
+.panoramica-argentina .otras-regiones-common .fluid-regiones-container .right,
+.region .otras-regiones-common .fluid-regiones-container .left,
+.region .otras-regiones-common .fluid-regiones-container .right{
+    width: 47%;
+}
+
+.otras-regiones-common .fluid-regiones-container .otras-regiones-bloque,
+.otras-regiones-common .responsive-regiones-container .otras-regiones-bloque{
+    margin-bottom: 8px;
+}
+
+.otras-regiones-common .main-img{
+    margin-bottom: 8;
+}
+
+.otras-regiones-common .otras-regiones-bloque .title{
+    color: #14b9a7;
+    font: 17px/20px "din-medium";
+    margin-bottom: 12px;
+}
+
+@media (max-width: 1023px) {
+    .otras-regiones-common{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .otras-regiones-common .otras-regiones-bloque .title{
+        margin-bottom: 0;
+    }
+
+    .otras-regiones-bloque p.desc{
+        display: none;
+    }
+
+    section.content .otras-regiones-common .responsive-regiones-container .otras-regiones-bloque {
+        width: 100%;
+        float: none;
+    }
+
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .left,
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .right,
+    .region .otras-regiones-common .fluid-regiones-container .left,
+    .region .otras-regiones-common .fluid-regiones-container .right {
+        width: 100%;
+    }
+
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .left .otras-regiones-bloque,
+    .panoramica-argentina .otras-regiones-common .fluid-regiones-container .right .otras-regiones-bloque,
+    .region .otras-regiones-common .fluid-regiones-container .left .otras-regiones-bloque,
+    .region .otras-regiones-common .fluid-regiones-container .right .otras-regiones-bloque {
+        width: 47%;
+    }
+}

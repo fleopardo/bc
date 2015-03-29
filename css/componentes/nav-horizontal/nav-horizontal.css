@@ -1,0 +1,211 @@
+/*----------------- NAV HORIZONTAL ----------------*/
+
+.content-nav {
+    /*width: 960px;*/
+    position: relative;
+    height: 70px;
+}
+
+.content-nav .tools-left {
+    width: 175px;
+    position: absolute;
+    top:0;
+}
+
+.content-nav .tools-left li a,
+.content-nav a.mapa {
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 7px 12px;
+    border-bottom: 3px solid #eee;
+    background: url(../../assets/sprite-nav-content.png) no-repeat;
+}
+
+.content-nav .tools-left li a:hover,
+.content-nav .tools-left li.explorar:hover {
+    background-color: #f1f1f1 !important;
+}
+
+.content-nav  a.mapa {
+    background-position: -20px -2px;
+    background-color: #3f3f3f;
+    border-top: 3px solid #e65735;
+    border-bottom: none;
+    color: #FFF;
+    position: absolute;
+    width: 151px;
+    top: -35px;
+}
+
+.content-nav  a.mapa:hover {
+    background-color: #e65735 !important;
+}
+
+.content-nav .tools-left li.compartir {
+	position: relative;
+}
+
+.content-nav .tools-left li.compartir a {
+    background-position: -20px -66px;
+}
+
+.content-nav .tools-left li.explorar {
+    background: url(../../assets/sprite-nav-content.png) -20px -36px no-repeat;
+    border-bottom: 3px solid #eee;
+    padding: 3px 0;
+    position: relative;
+}
+
+.content-nav .tools-left li input {
+    font-size: 10px;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    width: 110px;
+    font-family: "din-medium";
+    border:0;
+    background-color: transparent;
+}
+
+/*---- Dropdown Sugerencias ----*/
+
+.content-nav ul.sugerencias {
+    position: absolute;
+    z-index: 200;
+    background-color: #fff;
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    width: 220px;
+    top: 35px;
+    left: -25px;
+    font-size: 12px;
+    font-family: "din-bold";
+    display: none;
+}
+
+.content-nav ul.sugerencias li {
+    border-bottom: 1px solid #DDD;
+}
+
+.content-nav ul.sugerencias li a {
+    padding: 10px;
+    display: block;
+}
+
+.content-nav ul.sugerencias li a:hover {
+    background-color: #f5f8fd;
+}
+
+.content-nav ul.sugerencias li a span {
+    font-family: "din-regular";
+}
+
+.content-nav ul.sugerencias li.vermas {
+    padding: 10px;
+}
+
+.content-nav ul.sugerencias li.vermas a {
+    background-color: #999; 
+    padding: 5px 10px;   
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.content-nav ul.sugerencias li.vermas a:hover {
+    background-color: #e65536;    
+}
+
+.content-nav ul.sugerencias li.arrow {
+   border-bottom: 0; 
+   position: relative;
+}
+
+.content-nav ul.sugerencias li.arrow div {
+    background: url(../../assets/arrow-sug.png) center no-repeat;
+    height: 11px;
+    width: 22px;
+    left: 50%;
+    margin-left: -11px;
+    position: absolute;
+    top:-11px;
+}
+
+.content-nav ul.sugerencias li.tipo a {
+    background-image: url(../../assets/sprite-buscador.png);
+    padding-left: 40px;
+}
+
+.content-nav ul.sugerencias li.tipo.imp a {
+    background-position: 0 -452px;
+}
+
+.content-nav ul.sugerencias li.tipo.pan a {
+    background-position: 0 -386px;
+}
+
+.content-nav ul.sugerencias li.tipo.sug a {
+    background-position: 0 -418px;
+}
+
+.content-nav ul.sugerencias li.tipo.fav a {
+    background-position: 0 -185px;
+}
+
+/*---- Navegación Iconos ----*/
+
+.content-nav .nav-right {
+    width: 760px;
+    display: block;
+    position: absolute;
+    left: 0;
+    border-bottom: 3px solid #eee;
+}
+
+.content-nav .col-md-9 {
+    
+}
+
+.content-nav .nav-right li {
+    float: left;
+     list-style: outside none none;
+}
+
+.content-nav .nav-right li a {
+    display: block;
+    text-indent: -9000px;
+    width: 110px;
+    height: 40px;
+    padding: 14px 0;
+    color: #808080;
+    background: url(../../assets/sprite-nav-main.png) no-repeat;
+    background-position: 0 15px;
+    text-decoration: none;
+    
+    vertical-align: baseline;
+}
+.content-nav .nav-right li.mob {
+    display: none !important;
+}
+
+.content-nav .nav-right li.circuitos a {background-position: -112px 15px;}
+.content-nav .nav-right li.estaciones a {background-position: -224px 15px;}
+.content-nav .nav-right li.areas a {background-position: -334px 15px;}
+.content-nav .nav-right li.hitos-urb a {background-position: -446px 15px;}
+.content-nav .nav-right li.hitos-nat a {background-position: -556px 15px;}
+.content-nav .nav-right li.serviclub a {background-position: -666px 15px; width: 100px;}
+
+.content-nav .nav-right li.favoritos a:hover {background-position: 0 -42px;}
+.content-nav .nav-right li.circuitos a:hover {background-position: -112px -42px;}
+.content-nav .nav-right li.estaciones a:hover {background-position: -224px -42px;}
+.content-nav .nav-right li.areas a:hover {background-position: -334px -42px;}
+.content-nav .nav-right li.hitos-urb a:hover {background-position: -446px -42px;}
+.content-nav .nav-right li.hitos-nat a:hover {background-position: -556px -42px;}
+.content-nav .nav-right li.serviclub a:hover {background-position: -666px -42px;}
+
+@media (max-width: 767px) { 
+.content-nav .nav-right li.mob {
+    display: inline-block; !important;
+}
+}

@@ -1,0 +1,16 @@
+.region .destacado {
+	background: url("../../images/region/header.jpg") center top no-repeat;
+}
+
+/*----------------- CONTENIDO ----------------*/
+
+
+.region section.content .content-center {
+	width: inherit;
+}
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+.detalle-common ul.relacionados {
+    margin-bottom: 20px;
+}
+
+.detalle-common ul.relacionados li {
+    padding: 3px 0;
+    list-style: outside none none;
+}
+
+.detalle-common ul.relacionados li.title {
+    font-family: "din-black";
+    color: #222;
+}
+
+.detalle-common ul.relacionados li.icon.hitos-n {
+    padding-left: 26px;
+    background: url(../../assets/icon-li-hitos-n.png) no-repeat;
+}
+
+.detalle-common ul.relacionados li.icon.puntos {
+    padding-left: 26px;
+    background: url(../../assets/icon-li-puntos.png) no-repeat;
+}
+.detalle-common ul.features li {
+    width: 150px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #333;
+    font-family: "din-black";
+    list-style: outside none none;
+}
+.detalle-common ul.features li:before {
+    content:'• ';
+}
+
+.detalle-common ul.relacionados li.icon.hitos-n {
+    padding-left: 26px;
+    background: url(../../assets/icon-li-hitos-n.png) no-repeat;
+}
+
+.detalle-common ul.relacionados li.icon.circuitos {
+    padding-left: 26px;
+    background: url(../../assets/icon-li-circuitos.png) no-repeat;
+}
+
+.detalle-common ul.relacionados li.icon.areas {
+    padding-left: 26px;
+    background: url(../../assets/icon-li-areas.png) no-repeat;
+}
+
+.detalle-common p.titulo span.nota {
+    display: block;
+    width: 38px;
+    height: 38px;
+    background: url(../../assets/sprite-tipoinfo.png) -99px 0 no-repeat;
+    margin-bottom: 6px;
+}
+
+/*sin foto*/
+.detalle-common p.titulo {
+    font-size: 21px;
+    line-height: 1.2;
+    color: #333;
+}
+
+.owl-prev {
+    left: 0;
+    position: absolute;
+    top: 50%;
+    margin: -27px 0 0 0;
+    opacity: .5;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.owl-next {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    margin: -27px 0 0 0;
+    opacity: .5;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.owl-prev:hover,
+.owl-next:hover {
+    opacity: .9;
+}
+
+section.content .content-center {
+    /*width: 450px;
+    float: left;*/
+}
+
+@media (max-width: 1023px) {
+    section.content .content-center {
+        
+    }
+}
+
+
+
