@@ -1,0 +1,183 @@
+/* Selectmenu
+----------------------------------*/
+.ui-selectmenu {
+    background: #fff;
+    display: inline-block;
+    position: relative;
+    height: 26px;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow: hidden;
+    zoom: 1;
+    border: 2px solid #DDD;
+    /*width: 255px !important;*/
+    outline: none;
+}
+
+.ui-selectmenu-icon {
+    background: url("../assets/ic-selectmenu.png") no-repeat;
+    background-size: 10px 6px;
+    position: absolute;
+    right: -5px;
+	top: 8px;
+    width: 10px;
+    height: 6px;
+}
+
+.ui-selectmenu-menu {
+    background: #f0f1ed;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    display: none;
+    overflow: auto;
+    z-index: 1005;
+} /* z-index: 1005 to make selectmenu work with dialog */
+.ui-selectmenu-open {
+    display: block;
+}
+
+.ui-selectmenu-menu-popup {
+    margin-top: -1px;
+}
+
+.ui-selectmenu-menu-dropdown {
+	z-index: 50 !important;
+    /*width: 245px !important;*/
+    padding-left: 10px;
+}
+
+.ui-selectmenu-menu li {
+    padding: 0;
+    margin: 0;
+    display: block;
+    border-top: 1px dotted transparent;
+    border-bottom: 1px dotted transparent;
+    border-right-width: 0 !important;
+    border-left-width: 0 !important;
+    font-weight: normal !important;
+}
+
+.ui-selectmenu-menu li a,.ui-selectmenu-status {
+    color: #838383;
+    line-height: 26px;
+    display: block;
+    padding: 0 20px;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+.ui-selectmenu-menu li.ui-state-disabled a {
+    cursor: default;
+}
+
+.ui-selectmenu-menu li.ui-selectmenu-hasIcon a,
+.ui-selectmenu-hasIcon .ui-selectmenu-status {
+    padding-left: 20px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.ui-selectmenu-menu li .ui-icon, .ui-selectmenu-status .ui-icon {
+    position: absolute;
+    top: 1em;
+    margin-top: -8px;
+    left: 0;
+}
+
+.ui-selectmenu-status {
+    line-height: 23px;
+    padding: 0 6px;
+    width: 230px;
+    font-family: 'din-medium';
+}
+
+.ui-selectmenu-open li.ui-selectmenu-item-focus a {
+    background: #f7f7f5;
+}
+
+.ui-selectmenu-open li.ui-selectmenu-item-selected {
+}
+
+.ui-selectmenu-menu li span,.ui-selectmenu-status span {
+    display: block;
+    margin-bottom: .2em;
+}
+
+.ui-selectmenu-menu li .ui-selectmenu-item-header {
+    font-weight: bold;
+}
+
+.ui-selectmenu-menu li .ui-selectmenu-item-content {
+}
+
+.ui-selectmenu-menu li .ui-selectmenu-item-footer {
+    opacity: .8;
+}
+/* for optgroups */
+.ui-selectmenu-menu .ui-selectmenu-group {
+    font-size: 1em;
+}
+
+.ui-selectmenu-menu .ui-selectmenu-group .ui-selectmenu-group-label {
+    line-height: 1.4em;
+    display: block;
+    padding: .6em .5em 0;
+    font-weight: bold;
+}
+
+.ui-selectmenu-menu .ui-selectmenu-group ul {
+    margin: 0;
+    padding: 0;
+}
+/* IE6 workaround (dotted transparent borders) */
+* html .ui-selectmenu-menu li {
+    border-color: pink;
+    filter: chroma(color=pink);
+    width: 100%;
+}
+
+* html .ui-selectmenu-menu li a {
+    position: relative;
+}
+
+header .ui-selectmenu {
+    background: url(../images/sp_contacto-form.jpg) left top no-repeat;
+    display: block;
+    display: inline-block;
+    position: relative;
+    height: 41px;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow: hidden;
+    zoom: 1;
+    -moz-box-shadow: 0 0 5px 5px #dedede;
+    -webkit-box-shadow: 0 0 5px 5px #dedede;
+    box-shadow: 0 0 5px 5px #dedede;
+}
+
+header .ui-selectmenu-icon {
+    background: url(../images/ic_contact-select.jpg) no-repeat;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+    height: 31px;
+}
+
+header .ui-selectmenu-status {
+    line-height: 41px;
+    padding: 0 10px;
+    color: #838383;
+}
+
+.contacto .ui-selectmenu-menu li a {
+    line-height: 36px;
+}
+
+
+
+
