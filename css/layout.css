@@ -266,6 +266,9 @@ section.content .bloque p{
     /*section.content .content-right {
         width: 100%;
     }*/
+    .resultados-busqueda section.container aside {
+        margin-top: 0;
+    }
 }
 @media (max-width: 767px) {
     html {

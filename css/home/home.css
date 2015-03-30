@@ -93,7 +93,7 @@
 }
 
 .regiones-home .main-img{
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .regiones-home .row {
@@ -121,7 +121,6 @@
 
 .home .owl-stage{
 	background: #fff;
-	
 }
 
 .home .main-item .text-desc{
@@ -191,9 +190,14 @@
 
 
 
-@media (max-width: 990px) {
-
+@media (max-width: 991px) {
+	.home .regiones-home .row {
+		padding: 0;
+	}
 	
+	.home .region-home{
+		margin-bottom: 30px;
+	}
 }
 
 @media (max-width: 1023px) {
