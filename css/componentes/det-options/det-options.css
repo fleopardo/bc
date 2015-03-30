@@ -169,6 +169,8 @@ ul.det-options li.share a {
 		line-height: 32px;
 		text-align: left;
 		color: #aaaaa9;
+		position: relative;
+		top: -4px;
 	}
 	
 
