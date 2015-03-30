@@ -49,6 +49,12 @@
 	background-repeat: no-repeat;
 }
 
+.regiones-home .region-links {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 .region-home.novedades {
 	border-top: 3px solid #3792c7;
 }
@@ -91,6 +97,40 @@
 
 .regiones-home .main-img{
 	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.regiones-home .main-img .caption{
+	background-color: rgba(0, 0, 0, 0.65);
+	bottom: ;
+	height: ;
+	padding: 10px;
+	bottom: -100%;
+	left: 0;
+	right: 0;
+	position: absolute;
+	-webkit-transition: all 0.4s ease;
+   -moz-transition: all 0.4s ease;
+   -ms-transition: all 0.4s ease;
+   -o-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+.regiones-home .region-links:hover .caption{
+	bottom: 0;
+}
+
+.regiones-home .main-img .caption h3{
+	font: 15px/18px "din-black";
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+.regiones-home .main-img .caption span{
+	font: 12px/15px "din-medium";
+	color: #fff;
 }
 
 .regiones-home .row {
@@ -104,8 +144,6 @@
 	font-family: "din-medium";
 	margin-bottom: 5px;
 }
-
-
 
 
 
@@ -126,12 +164,19 @@
 	color: #292929;
 }
 
+.buscados-votados .link-container{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 .home .owl-stage{
 	background: #fff;
 }
 
 .home .main-item {
 	position: relative;
+	overflow: hidden;
 }
 
 .home .main-item .text-desc{
@@ -145,7 +190,7 @@
 }
 
 .home .main-item span.tag-home{
-	font: 23px/26px "din-black";
+	font: 18px/24px "din-black";
 	padding-top: 40px;
 }
 
