@@ -8,27 +8,27 @@
 		});
 	}
 
-	if( $(".owl-carousel-detalle").length > 0 ){
-		$('.owl-carousel-detalle').owlCarousel({
-		    loop:false,
-		    margin:0,
-		    //nav:true,
-		    dots:true,
-		    responsiveClass:true,
-		    navText:['<img src="css/assets/owl-prev.png" alt="">','<img src="css/assets/owl-next.png" alt="">'],
-		    responsive:{
-		        0:{
-		            items:1
-		        },
-		        768:{
-		            items:1
-		        },
-		        1024:{
-		            items:1
-		        }
-		    }
-		});
-	}
+	
+	$('.owl-carousel-home').owlCarousel({
+	    loop:false,
+	    margin:0,
+	    //nav:true,
+	    dots:true,
+	    responsiveClass:true,
+	    navText:['<img src="css/assets/owl-prev.png" alt="">','<img src="css/assets/owl-next.png" alt="">'],
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        768:{
+	            items:1
+	        },
+	        1024:{
+	            items:1
+	        }
+	    }
+	});
+	
 
 })();
 

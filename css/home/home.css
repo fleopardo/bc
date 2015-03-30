@@ -8,17 +8,14 @@
 	display: none;
 }
 
-.home .form-home {
-	background: #f5f5f5;
-}
-
 .home .form-home fieldset{
 	border: none;
 	padding: 0;
 }
 
 .home .form-home form{
-	padding: 20px 0;
+	padding: 20px 10px;
+	background: #f5f5f5;
 }
 
 .home .form-home legend{
@@ -117,10 +114,24 @@
 .home .buscados-votados {
 	background: #eee;
 	padding: 20px 20px;
+	margin-top: 20px;
+}
+
+.buscados-votados h3 {
+	font-size: 18px;
+	line-height: 23px;
+	text-transform: uppercase;
+	font-family: "din-medium";
+	margin-bottom: 8px;
+	color: #292929;
 }
 
 .home .owl-stage{
 	background: #fff;
+}
+
+.home .main-item {
+	position: relative;
 }
 
 .home .main-item .text-desc{
@@ -190,13 +201,168 @@
 
 
 
+/*links y app section*/
+
+.sites-links {
+	padding-top: 30px;
+}
+
+.sites-links img{
+	display: block;
+	width: 48%;
+	float: left;
+}
+
+.sites-links .text-info{
+	width: 48%;
+	padding: 0 1%;
+	float: right;
+}
+
+.sites-links .text-info h3{
+	color: #292929;
+	font-size: 18px;
+	line-height: 23px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-family: "din-medium";
+}
+
+.sites-links .text-info p {
+	color: #636363;
+	font-family: "din-medium";
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.sites-links .text-info a {
+	padding: 0 25px;
+	border-width: 2px;
+	border-style: solid;
+	display: inline-block;
+	text-transform: uppercase;
+	line-height: 36px;
+	font-family: "din-black";
+	background: #fff;
+	-webkit-transition: all 0.2s ease;
+   -moz-transition: all 0.2s ease;
+   -ms-transition: all 0.2s ease;
+   -o-transition: all 0.2s ease;
+   transition: all 0.2s ease;
+   margin-top: 30px;
+}
+
+.sites-links .text-info a span {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-right: 15px;
+}
+
+.sites-links .serviclub-block a {
+	color: #45c3d3;
+	border-color: #45c3d3;
+}
+
+.sites-links .serviclub-block a:hover {
+	background: #45c3d3;
+	color: #fff;
+}
+
+.sites-links .text-info a:hover span {
+	background-image: url('../assets/ic-flecha-blanca.png');
+}
+
+.sites-links .serviclub-block a span {
+	background-image: url('../assets/ic-flecha-celeste.png');
+}
+
+.sites-links .app-block a {
+	color: #af4eba;
+	border-color: #af4eba;
+}
+
+.sites-links .app-block a:hover {
+	color: #fff;
+	background: #af4eba;
+}
+
+.sites-links .app-block a span {
+	background-image: url('../assets/ic-flecha-violeta.png');
+}
+
+
+
 @media (max-width: 991px) {
 	.home .regiones-home .row {
 		padding: 0;
 	}
 	
-	.home .region-home{
+	.home .region-home,
+	.form-home{
 		margin-bottom: 30px;
+	}
+
+	.owl-carousel-home {
+		margin-bottom: 20px;
+	}
+
+	.home .buscados-votados {
+		background: #fff;
+		margin-top: 0;
+	}
+
+	.home .main-item {
+		padding-top: 20px;
+	}
+
+	.home .main-item span.tag-home{
+		top: 0;
+		left: 0;
+		position: absolute;
+		font: 12px/20px "din-black";
+		padding-top: 0;
+		padding-left: 5px;
+		padding-right: 5px;
+		text-transform: uppercase;
+	}
+
+	.home .main-item span.tag-home.patagonia{
+		background: #01aef0 none;
+		color: #fff;
+	}
+
+	.home .main-item span.tag-home.cuyo{
+		background: #aa2f34 none;
+		color: #fff;
+	}
+
+	.home .main-item span.tag-home.buenos-aires{
+		background: #0a8166 none;
+		color: #fff;
+	}
+
+	.home .main-item span.tag-home.litoral{
+		background: #405e00 none;
+		color: #fff;
+	}
+
+	.home .main-item span.tag-home.noroeste{
+		background: #942092 none;
+		color: #fff;
+	}
+
+	.sites-links img{
+		width: 50%;
+		float: none;
+		margin: 0 auto 15px;
+	}
+
+	.sites-links .text-info{
+		width: 100%;
+		float: none;
+		margin-bottom: 30px;
+		text-align: center;
 	}
 }
 
