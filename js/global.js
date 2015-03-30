@@ -220,6 +220,10 @@
 
 	}
 
+	//link fullscreen gallery
+	$('.main-img .fullscreen-view').on('click', function(event){
+		event.preventDefault();
+	});
 
 	//Funcion equalHeight
 	ypf.equalHeight = function(element){
