@@ -47,11 +47,11 @@ ul.det-options li.share a {
 	background: url('../../assets/icon-det-share.png') no-repeat;
 }
 
-ul.det-options li.add a {
+/*ul.det-options li.add a {
 	width: 120px;
 	background: url('../../assets/icon-det-add.png') 0 -2px no-repeat;
 	padding-left: 26px;
-}
+}*/
 
 .options-content.desk ul.det-options li.like a:hover {
 	background: url('../../assets/icon-like.png') no-repeat left center;
@@ -61,9 +61,38 @@ ul.det-options li.add a {
 	background: url('../../assets/icon-det-share-on.png') no-repeat;
 }
 
-.options-content.desk ul.det-options li.add a:hover {
+/*.options-content.desk ul.det-options li.add a:hover {
 	background: url('../../assets/icon-det-add-on.png') 0 -2px no-repeat;
+}*/
+
+.det-options .promedio span{
+	background: url('../../assets/sp-estrellas-promedio.png') left no-repeat;
+	width: 82px;
+	height: 16px;
+	text-indent: -9999px;
+	display: inline-block;
 }
+
+.det-options .promedio.uno span{
+	background-position: 0 0;
+}
+
+.det-options .promedio.dos span{
+	background-position: 0 -16px;
+}
+
+.det-options .promedio.tres span{
+	background-position: 0 -36px;
+}
+
+.det-options .promedio.cuatro span{
+	background-position: 0 -54px;
+}
+
+.det-options .promedio.cinco span{
+	background-position: 0 -71px;
+}
+
 
 @media (max-width: 1023px) {
     .options-content.mob {
@@ -79,7 +108,7 @@ ul.det-options li.add a {
 	}
 	.options-content.mob ul.det-options li {
 		display: inline-block;
-		width: 24%;
+		width: 21%;
 	}
 	.options-content.mob ul.det-options li a {
 		display: inline-block;
@@ -117,7 +146,7 @@ ul.det-options li.add a {
 		color: #444;
 		background: url('../../assets/ic-share-mob-share-on.png') no-repeat;
 	}
-	.options-content.mob ul.det-options li.add a {
+	/*.options-content.mob ul.det-options li.add a {
 		width: 41px;
 		height: 32px;
 		background: url('../../assets/ic-share-mob-viajes.png') 0 -2px no-repeat;
@@ -125,11 +154,23 @@ ul.det-options li.add a {
 	}
 	.options-content.mob ul.det-options li.add a:hover {
 		background: url('../../assets/ic-share-mob-viajes-on.png') 0 -2px no-repeat;
-	}
+	}*/
 	.options-content.mob ul.global-share {
 	    left: 40%;
 	    top: 58px;
 	}
+
+	.options-content.mob ul.det-options li.promedio span{
+		background: url('../../assets/ic-estrella-promedio-mobile.png') left no-repeat;
+		height: 32px;
+		text-indent: 0;
+		padding-left: 30px;
+		font-size: 32px;
+		line-height: 32px;
+		text-align: left;
+		color: #aaaaa9;
+	}
+	
 
 }
 @media (max-width: 767px) {
