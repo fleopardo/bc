@@ -13,6 +13,10 @@
 	display: none;
 }
 
+.home .content.content-regiones {
+	margin-bottom: 0;
+}
+
 .home .form-home fieldset{
 	border: none;
 	padding: 0;
@@ -157,7 +161,10 @@
 .home .buscados-votados {
 	background: #eee;
 	padding: 20px 20px;
-	margin-top: 20px;
+}
+
+.home .buscados-votados section.container{
+	margin-top: 0;
 }
 
 .buscados-votados h3 {
@@ -186,7 +193,7 @@
 
 .home .main-item .text-desc{
 	float: right;
-	width: 42%;
+	width: 47%;
 	padding: 10px 1%;
 }
 
@@ -226,7 +233,7 @@
 
 .home .main-item img{
 	display: block;
-	width: 55%;
+	width: 50%;
 	float: left;
 }
 
@@ -259,7 +266,6 @@
 
 .sites-links img{
 	display: block;
-	width: 48%;
 	float: left;
 }
 
@@ -280,9 +286,8 @@
 
 .sites-links .text-info p {
 	color: #636363;
-	font-family: "din-medium";
-	font-size: 13px;
-	line-height: 16px;
+	font-size: 14px;
+	line-height: 1.25em;
 }
 
 .sites-links .text-info a {
@@ -342,6 +347,15 @@
 }
 
 
+@media (max-width: 720px) {
+	.home .main-item .text-desc,
+	.home .main-item img {
+		float: none;
+		width: 100%;
+	}
+}
+
+
 
 @media (max-width: 991px) {
 	.home .regiones-home .row {
@@ -359,7 +373,6 @@
 
 	.home .buscados-votados {
 		background: #fff;
-		margin-top: 0;
 	}
 
 	.home .main-item {
@@ -403,7 +416,7 @@
 	}
 
 	.sites-links img{
-		width: 50%;
+		width: 48%;
 		float: none;
 		margin: 0 auto 15px;
 	}
