@@ -1,5 +1,10 @@
 .home .destacado {
 	background: url("../../images/home/header.jpg") center top no-repeat;
+	height: 396px;
+}
+
+.home .buscador-principal {
+	margin-top: 146px;
 }
 
 /*----------------- CONTENIDO ----------------*/
@@ -414,5 +419,13 @@
 @media (max-width: 1023px) {
 	.home .principal-aside {
 		display: block;
+	}
+
+	.home .destacado {
+		height: 250px;
+	}
+
+	.home .buscador-principal {
+		margin-top: 70px;
 	}
 }
