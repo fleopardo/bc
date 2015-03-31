@@ -25,7 +25,7 @@
 }
 
 .panoramica-argentina .main-img p{
-    bottom: 20px;
+    /*bottom: 20px;*/
 }
 
 .detalle-estacion .main-img p,
@@ -33,7 +33,7 @@
 .detalle-nota .main-img p,
 .detalle-parque-nacional .main-img p,
 .detalle-ruta .main-img p,
-.panoramica-argentina .main-img p,
+.panoramica-argentina .detalle-common .main-img p,
 .subhome-notas .main-img p,
 .detalle-circuito .main-img p {
     background: rgba(0,0,0,0.4);

@@ -142,13 +142,14 @@
 
 .comments .comment-item .info a {
 	color: #999;
-	background: url(../../assets/icon-like-off.png) 0 -2px no-repeat left center;
+	background: url('../../assets/icon-like-off.png') left center no-repeat;
 	padding-left: 20px;
+	line-height: 25px;
 }
 
 .comments .comment-item .info a:hover {
 	color: #444;
-	background: url(../../assets/icon-like.png) 0 -2px no-repeat left center;
+	background: url('../../assets/icon-like.png') left center no-repeat;
 }
 
 .btn-mas {

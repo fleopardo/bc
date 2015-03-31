@@ -170,6 +170,7 @@ section.content h2 {
     position: relative;
     font-weight: normal;
     line-height: 28px;
+    padding-right: 65px;
 }
 
 section.content h2 .lnk-volver {

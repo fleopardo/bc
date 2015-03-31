@@ -272,23 +272,6 @@ section.content-container aside li > ul {
         width: 98%;
         margin-top: 50px;
     }
-    .content-nav {
-        width: 100%;
-    }
-    .content-nav .nav-right {
-        width: 98%;
-        left: 1%;
-        margin: 0;
-    }
-    .content-nav .nav-right li {
-        float: none;
-        display: block;
-    }
-    .content-nav .nav-right li a,
-    .content-nav .nav-right li.serviclub a {
-        width: 41px;
-        margin: 0 auto;
-    }
     ul.options-left li a:after {
         background: none;
     }
@@ -297,34 +280,11 @@ section.content-container aside li > ul {
 
 
 @media (max-width: 767px) {
-    .content-nav {
-        height: 100px;
-    }
-    .content-nav .owl-controls {
-        height: 30px;
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-    .owl-controls .owl-dot {
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        -webkit-border-radius: 10px;
-        border-radius: 10px;
-        background: #d6d6d6;
-        margin: 0 3px;
-    }
-    .owl-controls .owl-dot.active {
-        background: #373738;
-    }
     .detalle-circuito section.content .content-center {
         width: 100%;
         float: none;
         display: block;
     }
-
-
 }
 
 

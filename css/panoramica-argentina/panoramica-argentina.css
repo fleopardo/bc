@@ -11,6 +11,11 @@
 
 
 
-
-
+@media (max-width: 420px) {
+	.panoramica-argentina .main-img p {
+		font-size: 16px;
+		line-height: 20px;	
+	}
+	
+}
 

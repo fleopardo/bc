@@ -156,7 +156,7 @@
 /*---- Navegación Iconos ----*/
 
 .content-nav .nav-right {
-    width: 100%;
+    width: 760px;
     display: block;
     position: absolute;
     left: 0;
@@ -182,10 +182,10 @@
 }
 
 
-/* sin asides 
-.content-nav .nav-right {
+/* sin asides */
+.col-md-12 .content-nav .nav-right{
     width: 100%;
-}*/
+}
 
 
 
@@ -212,8 +212,55 @@
 .content-nav .nav-right li.hitos-nat a:hover {background-position: -556px -42px;}
 .content-nav .nav-right li.serviclub a:hover {background-position: -666px -42px;}
 
-@media (max-width: 767px) { 
+
+
+
+@media (max-width: 767px) {
     .content-nav .nav-right li.mob {
         display: inline-block; !important;
     }
+
+    .content-nav {
+        height: 100px;
+    }
+    .content-nav .owl-controls {
+        height: 30px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .owl-controls .owl-dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: #d6d6d6;
+        margin: 0 3px;
+    }
+    .owl-controls .owl-dot.active {
+        background: #373738;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    .content-nav {
+        width: 100%;
+    }
+    .content-nav .nav-right {
+        width: 98%;
+        left: 1%;
+        margin: 0;
+    }
+    .content-nav .nav-right li {
+        float: none;
+        display: block;
+    }
+    .content-nav .nav-right li a,
+    .content-nav .nav-right li.serviclub a {
+        width: 41px;
+        margin: 0 auto;
+    }
+
 }
