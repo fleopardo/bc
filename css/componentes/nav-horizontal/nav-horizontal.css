@@ -156,7 +156,7 @@
 /*---- Navegación Iconos ----*/
 
 .content-nav .nav-right {
-    width: 760px;
+    width: 840px;
     display: block;
     position: absolute;
     left: 0;
@@ -263,4 +263,10 @@
         margin: 0 auto;
     }
 
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .content-nav .nav-right {
+        width: 760px;
+    }
 }
