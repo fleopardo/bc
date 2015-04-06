@@ -45,6 +45,10 @@ ul.options-left > li {
     margin-bottom: 5px;
 }
 
+ul.options-left > li:last-child {
+    margin-bottom: 0;
+}
+
 ul.options-left li.highlight a {
     font-family: "din-black";
     color: #e65834;
@@ -260,12 +264,16 @@ section.content-container aside li > ul {
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
     }
-    ul.options-left li {
+    ul.options-left > li {
         border-bottom: solid 1px #e3e3e3;
+    }
+
+    ul.options-left li {
+        padding:6px 20px 6px 10px;
     }
     ul.options-left.open {
         padding-top: 10px;
-        height: 109px;
+        height: auto;
     }
     section.content-container aside {
         width: 100%;
