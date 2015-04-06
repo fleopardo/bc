@@ -181,7 +181,7 @@
 
 
 
-	if( ('.expansible-container').length > 0 ){
+	/*if( ('.expansible-container').length > 0 ){
 
 		// me guardo los heights iniciales
 		$('.expansible-container').each(function(){
@@ -218,7 +218,7 @@
 
 		});
 
-	}
+	}*/
 
 	//link fullscreen gallery
 	$('.main-img .fullscreen-view').on('click', function(event){

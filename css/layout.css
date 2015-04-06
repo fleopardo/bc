@@ -142,23 +142,20 @@ section.container {
 }
 
 section.container aside {
-    /*width: 175px;
-    padding-top: 0;
-    border-top: 0;
-    float: left;*/
-    margin-top: -30px;
     position: static;
+    border-top: 4px solid #e65834;
+    padding-top: 12px;
 }
 
-section.container aside h2 {
+/*section.container aside h2 {
     font-family: "din-black";
-    color: #3f3f3f;
-    font-size: 11px;
-    border-bottom: 1px solid #d3d3d3;
-    padding: 4px 12px;
-    margin-bottom: 0;
+    color: #e65834;
+    line-height: 20px;
     text-transform: uppercase;
-}
+    font-size: 12px;
+    padding: 4px 0;
+}*/
+
 section.content h2 {
     text-transform: none;
     font-size: 18px;
@@ -173,7 +170,7 @@ section.content h2 {
     padding-right: 65px;
 }
 
-section.content h2 .lnk-volver {
+/*section.content h2 .lnk-volver {
 	position: absolute;
 	right: 0;
 	top: 5px;
@@ -186,7 +183,7 @@ section.content h2 .lnk-volver {
 	padding: 5px 0 5px 20px;
 }
 
-/*p.desc {
+p.desc {
     margin-bottom: 15px;
 }
 
@@ -212,14 +209,14 @@ section.content p.desc.autor span {
     width: 285px;
 }*/
 
-section.content .content-right h3 {
+/*section.content .content-right h3 {
     font-size: 17px;
     color: #999;
     font-family: "din-black";
     font-weight: normal;
     line-height: 28px;
     margin-bottom: 12px;
-}
+}*/
 
 /********/
 section.content h2,

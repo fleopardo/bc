@@ -2,7 +2,7 @@
 
 ul.options-left {
     margin-bottom: 30px;
-    margin-top: 15px;
+    /*margin-top: 15px;*/
 
 }
 
@@ -11,9 +11,9 @@ ul.options-left li.active a {
 }
 
 ul.options-left li {
-    border-bottom: solid 1px #f1f1f1;
+    /*border-bottom: solid 1px #f1f1f1;
     margin-bottom: 1px;
-    margin-bottom: 5px;
+    margin-bottom: 5px;*/
 }
 
 /*ul.options-left li.notas {
@@ -30,7 +30,7 @@ ul.options-left li.imperdibles {
 
 ul.options-left li.rutas {
     border-left: 3px solid #b6222c;
-}*/
+}
 
 ul.options-left li.panoramica a {
     background: url("../../assets/ic-submenu-panoramica.png") no-repeat left center;
@@ -40,19 +40,35 @@ ul.options-left li.novedades a {
 }
 ul.options-left li.viajes a {
     background: url("../../assets/ic-submenu-viajes.png") no-repeat left center;
+}*/
+ul.options-left > li {
+    margin-bottom: 5px;
 }
 
-
-ul.options-left li a {
-    padding: 6px 20px 6px 39px;
+ul.options-left li.highlight a {
+    font-family: "din-black";
+    color: #e65834;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 4px 0;
+}
+ul.options-left li > span {
     color: #aaa8a9;
     display: block;
     position: relative;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 20px;
     font-family: "din-black";
+    cursor: pointer;
 }
-ul.options-left li.panoramica a:hover,
+
+ul.options-left li > ul {
+    display: none;
+    padding: 0 10px;
+}
+
+/*ul.options-left li.panoramica a:hover,
 ul.options-left li.panoramica a.active {
     background: url("../../assets/ic-submenu-panoramica-hover.png") no-repeat left center !important;
 }
@@ -63,13 +79,13 @@ ul.options-left li.novedades a.active {
 ul.options-left li.viajes a:hover,
 ul.options-left li.viajes a.active {
     background: url("../../assets/ic-submenu-viajes-hover.png") no-repeat left center !important;
-}
+}*/
 
 /*ul.options-left li a:hover {
     background: transparent !important;
 }*/
 
-ul.options-left li a:after {
+/*ul.options-left li a:after {
     content: '';
     position: absolute;
     right: 12px;
@@ -78,11 +94,11 @@ ul.options-left li a:after {
     height: 11px;
     display: block;
     background: url(../../assets/submenu-arrow.png) no-repeat transparent;
-}
+}*/
 
 /*Sección seleccionada*/
 
-ul.options-left li.panoramica.active a {
+/*ul.options-left li.panoramica.active a {
     color: #107d97;
 }
 
@@ -120,7 +136,7 @@ ul.options-left li.rutas.active a {
 
 ul.options-left li.rutas.active a:after {
     background: url(../../assets/submenu-arrow-rutas.png) no-repeat;
-}
+}*/
 
 /*---- Filtros -----*/
 
