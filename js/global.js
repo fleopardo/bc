@@ -12,7 +12,7 @@
 	var ypf = {};
 
 	// Slider home
-	if($("#sequence").length > 0){
+	if( $("#sequence").length > 0) {
 		var options = {
 			nextButton: true,
 			prevButton: true,
