@@ -18,6 +18,11 @@
     width: 91%;
 }
 
+.bloques-home.la-compania a.link-btn,
+.bloques-home.operaciones a.link-btn{
+    display: none;
+}
+
 .bloques-home .bajada{
     display: block;
     margin-bottom: 18px;
@@ -57,5 +62,10 @@
     .bloques-home a.link-btn {
         position: absolute;
         bottom: 0;
+    }
+
+    .bloques-home.la-compania a.link-btn,
+    .bloques-home.operaciones a.link-btn{
+        display: block;
     }
 }
