@@ -27,9 +27,8 @@ a.link-btn {
     color: #aeadad;
     font-family: "din-black";
     font-size: 13px;
-    line-height: 38px;
-    padding-left: 20px;
-    padding-right: 20px;
+    line-height: 18px;
+    padding: 10px 20px;
     text-transform: uppercase;
     -moz-transition: all 0.1s ease-in;
     -webkit-transition: all 0.1s ease-in;
