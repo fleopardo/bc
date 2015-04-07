@@ -44,3 +44,13 @@
 }
 
 /***** FIN SLIDER ********/
+
+@media (max-width: 1023px) {
+    .galeria-cont {
+        display: none;
+    }
+
+    section.content {
+        margin-top: 46px;
+    }
+}

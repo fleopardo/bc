@@ -2,7 +2,8 @@
 
 ul.options-left {
     margin-bottom: 30px;
-    /*margin-top: 15px;*/
+    border-top: 4px solid #e65834;
+    padding-top: 12px;
 
 }
 
@@ -268,7 +269,7 @@ section.content-container aside li > ul {
     }
     ul.options-left {
         z-index: 1;
-        background: none repeat scroll 0 0 #f3f3f3;
+        background: #f3f3f3;
         left: 0;
         margin-bottom: 0;
         margin-top: 0;
@@ -283,6 +284,7 @@ section.content-container aside li > ul {
         -ms-transition: all 0.3s ease;
         -o-transition: all 0.3s ease;
         transition: all 0.3s ease;
+        border-top: none;
     }
 
     ul.options-left > li {
