@@ -4,6 +4,7 @@
 
     $('ul.options-left li > span').on('click', function(){
         $(this).siblings('ul').slideToggle();
+        $(this).toggleClass('opened');
     });
 
 })();
