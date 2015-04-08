@@ -45,15 +45,19 @@
 
 
 
-/*.main-img .fullscreen-view{
-    background: url('../../assets/ic-galeria-detalle.png') no-repeat;
-    width: 26px;
-    height: 26px;
+.main-img .fullscreen-link{
+    background: rgba(0,0,0,0.6) url('../../assets/ic-galeria-detalle.png') 10px 10px no-repeat;
     display: inline-block;
     position: absolute;
-    right: 10px;
-    bottom: 10px;
-}*/
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 10px 35px;
+    line-height: 18px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
 
 
 

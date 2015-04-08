@@ -85,6 +85,14 @@ section.content p{
     /*section.content .content-right {
         width: 100%;
     }*/
+    
+    .destacado{
+        display: none;
+    }
+    section.content {
+        margin-top: 46px;
+    }
+
     section.container aside {
         margin-top: 0;
         border-top: none;

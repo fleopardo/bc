@@ -1,0 +1,44 @@
+section.content .cabecera,
+section.content .content-prominent {
+    margin-bottom: 20px;
+}
+
+section.content .cabecera h2{
+    background: url("../../assets/flag-orange.jpg")  left center no-repeat;
+    color: #e65834;
+    font-family: "din-black";
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 4px;
+    padding-left: 15px;
+}
+
+section.content .cabecera h3{
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+section.content .content-prominent {
+    background: #e65834;
+    padding: 16px 20px;
+}
+
+section.content .content-prominent h2 {
+    font-family: "din-black";
+    font-size: 23px;
+    line-height: 25px;
+    color: #fff;
+    text-transform: none;
+}
+
+section.content .content-prominent p {
+    color: #fff;
+}
+
+@media (max-width: 720px) {
+    section.content .cabecera {
+        display: none;
+    }
+}
