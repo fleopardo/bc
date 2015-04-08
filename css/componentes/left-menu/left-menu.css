@@ -84,6 +84,10 @@ ul.options-left li > ul {
     display: none;
 }
 
+ul.options-left li.opened-item > ul{
+    display: block;
+}
+
 ul.options-left li > ul li a {
     padding: 0 10px;
     display: block;
