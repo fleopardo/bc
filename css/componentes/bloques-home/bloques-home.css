@@ -64,8 +64,8 @@
         bottom: 0;
     }
 
-    .bloques-home.la-compania a.link-btn,
-    .bloques-home.operaciones a.link-btn{
-        display: block;
+    .bloques-home.la-compania .bloques-home,
+    .bloques-home.operaciones .bloques-home{
+        padding-bottom: 0;
     }
 }
