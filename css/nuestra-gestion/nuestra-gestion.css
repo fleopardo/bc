@@ -1,0 +1,55 @@
+.nuestra-gestion .destacado {
+    background: url('../../images/nuestra-gestion/header.jpg') center top no-repeat;
+}
+
+section.principal-text,
+.nuestra-gestion .img-gallery{
+    width: 48%;
+}
+
+.nuestra-gestion .img-gallery{
+    /*margin-bottom: 20px;*/
+}
+
+.nuestra-gestion .img-dest {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.nuestra-gestion .img-sec .main-img {
+    margin-bottom: 17px;
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+}
+.nuestra-gestion .img-sec .main-img:last-child {
+    margin-right: 0;
+    float: right: 
+}
+
+.nuestra-gestion .img-sec .main-img:last-child {
+    margin-bottom: 0;
+}
+
+.principal-text-cont{
+    margin-bottom: 15px;
+}
+
+
+
+
+@media (max-width: 720px) {
+    .nuestra-gestion .img-dest {
+        width: 100%;
+    }
+
+    .nuestra-gestion .img-sec {
+        display: none
+    }
+}
+
+@media (max-width: 1200px) {
+    .nuestra-gestion .img-sec .main-img {
+        margin-bottom: 14px;
+    }
+}

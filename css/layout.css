@@ -72,10 +72,29 @@ section.content h2 {
     font-weight: normal;
 }
 
+
 section.content p{
    margin-bottom: 10px;
 }
 
+section.content .info-text h2{
+    border-bottom: 3px solid #ececec;
+    color: #636363;
+    font-family: "din-black";
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+section.content .info-text p{
+    margin-bottom: 20px;
+}
+
+section.info-text p a{
+    color: #174FF2;
+    text-decoration: none;
+}
 
 
 @media (max-width: 1023px) { 

@@ -37,6 +37,10 @@ section.content .content-prominent p {
     color: #fff;
 }
 
+section.content .content-prominent p:last-child {
+    margin-bottom: 0;
+}
+
 @media (max-width: 720px) {
     section.content .cabecera {
         display: none;
