@@ -2001,7 +2001,7 @@ footer .share dd a{
         line-height: 41px;
         border: none;
         border-bottom: 1px solid #eee;
-        padding: 0 0 0 50px;
+        padding: 0 0 0 20px;
         text-align: left;
     }
     /*.headerYPF .navNuevo > ul.principal > li.arma-tu-viaje a {
@@ -2057,6 +2057,9 @@ footer .share dd a{
     .headerYPF .navNuevo > ul.principal > li .submenu {
         width: 100%;
         left: 0;
+        right: 0;
+        max-height: 600px;
+        overflow-y: scroll;
     }
 
     .headerYPF .navNuevo > ul.principal > li.todo-sobre-ypf .submenu .col,
@@ -2069,8 +2072,14 @@ footer .share dd a{
         height: 270px;
     }
 
-    .headerYPF .navNuevo > ul.principal > li.inversores .submenu {
-        height: 700px;
+
+    .headerYPF .navNuevo > ul.principal > li.ypf-y-la-industria .submenu .col {
+        width: 30%;
+        margin-right: 0;
+    }
+
+    .headerYPF .navNuevo > ul.principal > li.productos-y-servicios .submenu {
+        height: 360px;
     }
 
     .headerYPF .navNuevo > ul.secundaria li.sitios-ypf a {
@@ -2083,7 +2092,7 @@ footer .share dd a{
 
     .headerYPF .navNuevo > ul.secundaria li.asterisco a {
         /*background: url("./assets/ic-menu-asterisco.png") no-repeat 12px 11px transparent !important;*/
-        padding-left: 50px;
+        padding-left: 20px;
     }
 
     .headerYPF .navNuevo > ul.secundaria li.asterisco a:hover,
