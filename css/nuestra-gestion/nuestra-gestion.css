@@ -3,7 +3,7 @@
 }
 
 section.principal-text,
-.nuestra-gestion .img-gallery{
+.img-gallery{
     width: 48%;
 }
 
@@ -39,12 +39,13 @@ section.principal-text,
 
 
 @media (max-width: 720px) {
-    .nuestra-gestion .img-dest {
+    .img-gallery,
+    section.principal-text{
         width: 100%;
     }
 
-    .nuestra-gestion .img-sec {
-        display: none
+    .img-gallery{
+        margin-bottom: 20px;
     }
 }
 

@@ -2004,7 +2004,7 @@ footer .share dd a{
         padding: 0 0 0 50px;
         text-align: left;
     }
-    .headerYPF .navNuevo > ul.principal > li.arma-tu-viaje a {
+    /*.headerYPF .navNuevo > ul.principal > li.arma-tu-viaje a {
         background: url("./assets/ic-menu-viaje.png") no-repeat left center;
     }
     .headerYPF .navNuevo > ul.principal > li.regiones a {
@@ -2044,13 +2044,33 @@ footer .share dd a{
     .headerYPF .navNuevo > ul.principal > li.tour a.active {
         background: url("./assets/ic-menu-tour-on.png") no-repeat left center transparent !important;
         color: #0063be;
+    }*/
+
+    .headerYPF .navNuevo > ul.principal > li.todo-sobre-ypf,
+    .headerYPF .navNuevo > ul.principal > li.ypf-hoy,
+    .headerYPF .navNuevo > ul.principal > li.inversores,
+    .headerYPF .navNuevo > ul.principal > li.ypf-y-la-industria,
+    .headerYPF .navNuevo > ul.principal > li.productos-y-servicios {
+        background: url("./assets/dropdown_menu_arrows.png") no-repeat scroll right 14px transparent;
     }
 
-    .headerYPF .navNuevo > ul.principal > li.login,
-    .headerYPF .navNuevo > ul.principal > li.regiones,
-    .headerYPF .navNuevo > ul.principal > li.sabias,
-    .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf {
-        background: url("./assets/dropdown_menu_arrows.png") no-repeat scroll right 14px transparent;
+    .headerYPF .navNuevo > ul.principal > li .submenu {
+        width: 100%;
+        left: 0;
+    }
+
+    .headerYPF .navNuevo > ul.principal > li.todo-sobre-ypf .submenu .col,
+    .headerYPF .navNuevo > ul.principal > li.inversores .submenu .col {
+        width: 48%;
+        margin-right: 1%;
+    }
+
+    .headerYPF .navNuevo > ul.principal > li.ypf-hoy .submenu{
+        height: 270px;
+    }
+
+    .headerYPF .navNuevo > ul.principal > li.inversores .submenu {
+        height: 700px;
     }
 
     .headerYPF .navNuevo > ul.secundaria li.sitios-ypf a {
@@ -2062,13 +2082,13 @@ footer .share dd a{
     }
 
     .headerYPF .navNuevo > ul.secundaria li.asterisco a {
-        background: url("./assets/ic-menu-asterisco.png") no-repeat 12px 11px transparent !important;
+        /*background: url("./assets/ic-menu-asterisco.png") no-repeat 12px 11px transparent !important;*/
         padding-left: 50px;
     }
 
     .headerYPF .navNuevo > ul.secundaria li.asterisco a:hover,
     .headerYPF .navNuevo > ul.secundaria li.asterisco a.active {
-        background: url("./assets/ic-menu-asterisco-on.png") no-repeat 12px 11px transparent !important;
+        /*background: url("./assets/ic-menu-asterisco-on.png") no-repeat 12px 11px transparent !important;*/
         color: #0063be;
     }
 
@@ -2108,7 +2128,7 @@ footer .share dd a{
         display: inline-block!important;
     }
 
-    .headerYPF .navNuevo > ul.principal li.login a{
+    /*.headerYPF .navNuevo > ul.principal li.login a{
         background: url('./assets/ic-menu-login.png') left no-repeat;
     }
     .headerYPF .navNuevo > ul.principal li.login a:hover {
@@ -2117,7 +2137,7 @@ footer .share dd a{
     .headerYPF .navNuevo > ul.principal li.login a.open {
         color: #0063be;
         background: url('./assets/ic-menu-login.png') left no-repeat;
-    }
+    }*/
     .headerYPF .navNuevo > ul.secundaria li.icon a:hover,
     .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf > a:hover{
         color: #0063be;

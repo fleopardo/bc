@@ -328,6 +328,14 @@ section.content-container aside li > ul {
     ul.options-left li a:after {
         background: none;
     }*/
+    ul.options-left li.active a {
+        background: transparent;
+    }
+
+    ul.options-left li > ul li a:hover {
+        background: transparent;
+        color: #e65834;
+    }
 
 }
 

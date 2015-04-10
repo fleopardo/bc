@@ -132,5 +132,15 @@ section.info-text p a{
     section.container {
         margin-top: 0;
     }
+
+    @media (max-width: 720px) {
+        .img-gallery .img-dest {
+            width: 100%;
+        }
+
+        .img-gallery .img-sec {
+            display: none
+        }
+    }
     
 }
