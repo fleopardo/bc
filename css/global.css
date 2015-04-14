@@ -2062,20 +2062,15 @@ footer .share dd a{
         overflow-y: scroll;
     }
 
-    .headerYPF .navNuevo > ul.principal > li.todo-sobre-ypf .submenu .col,
-    .headerYPF .navNuevo > ul.principal > li.inversores .submenu .col {
-        width: 48%;
-        margin-right: 1%;
+    .headerYPF .navNuevo > ul.principal > li .col,
+    .headerYPF .navNuevo > ul.principal > li .col {
+        width: 100%;
+        margin-right: 0;
+        float: none;
     }
 
     .headerYPF .navNuevo > ul.principal > li.ypf-hoy .submenu{
         height: 270px;
-    }
-
-
-    .headerYPF .navNuevo > ul.principal > li.ypf-y-la-industria .submenu .col {
-        width: 30%;
-        margin-right: 0;
     }
 
     .headerYPF .navNuevo > ul.principal > li.productos-y-servicios .submenu {
@@ -2083,7 +2078,7 @@ footer .share dd a{
     }
 
     .headerYPF .navNuevo > ul.secundaria li.sitios-ypf a {
-        padding-left: 10px !important;
+        padding-left: 20px !important;
     }
 
     .headerYPF .submenu {
