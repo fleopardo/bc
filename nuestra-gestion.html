@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<!-- Módulos y Sección -->
 	<link rel="stylesheet" type="text/css" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="css/lib/jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="css/componentes/left-menu/left-menu.css" />
 	<link rel="stylesheet" type="text/css" href="css/componentes/main-img/main-img.css" />
 	<link rel="stylesheet" type="text/css" href="css/componentes/cabecera-content/cabecera-content.css" />
@@ -507,18 +508,26 @@
 					<section class="clearfix principal-text-cont">
 						<section class="img-gallery left clearfix">
 							<div class="main-img img-dest">
-								<img src="./images/nuestra-gestion/thumb_1.jpg" alt="">
-								<p class="fullscreen-link">Galería fullscreen</p>
+								<a href="./images/nuestra-gestion/thumb_1.jpg" rel="group" class="image-gallery-fancybox" style="display:block;">
+									<img src="./images/nuestra-gestion/thumb_1.jpg" alt="">
+									<p class="fullscreen-link">Galería fullscreen</p>
+								</a>
 							</div>
 							<div class="img-sec clearfix">
 								<div class="main-img">
-									<img src="./images/nuestra-gestion/thumb_2.jpg" alt="">
+									<a href="./images/nuestra-gestion/thumb_2.jpg" rel="group" class="image-gallery-fancybox" style="display:block;">
+										<img src="./images/nuestra-gestion/thumb_2.jpg" alt="">
+									</a>
 								</div>
 								<div class="main-img">
-									<img src="./images/nuestra-gestion/thumb_3.jpg" alt="">
+									<a href="./images/nuestra-gestion/thumb_3.jpg" rel="group" class="image-gallery-fancybox" style="display:block;">
+										<img src="./images/nuestra-gestion/thumb_3.jpg" alt="">
+									</a>
 								</div>
 								<div class="main-img">
-									<img src="./images/nuestra-gestion/thumb_4.jpg" alt="">
+									<a href="./images/nuestra-gestion/thumb_4.jpg" rel="group" class="image-gallery-fancybox" style="display:block;">
+										<img src="./images/nuestra-gestion/thumb_4.jpg" alt="">
+									</a>
 								</div>
 							</div>
 						</section>
@@ -579,15 +588,13 @@
 </footer>
 
     <!-- Incluir JQUERY -->
-    <!--script src="./jquery/jquery-1.11.2.min.js"></script-->
     <script src="./jquery/jquery.min.js"></script>
-    <!--script src="./jquery/jquery-ui-1.11.3.min.js"></script-->
+    <script src="./jquery/jquery.fancybox.js"></script>
     <!-- Incluir header.js para tener las funcionalidades del menu -->
     <script src="./header/js/header.js"></script>
 	<script src="./js/global.js"></script>
 	<!-- JS de Módulos y Sección -->
 	<script src="./js/modules/left-menu.js"></script>
-	<!--script src="./js/home.js"></script-->
 
     <script language="javascript" type="text/javascript">
         function loadLoginPanel() {

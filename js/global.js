@@ -148,6 +148,12 @@
 		$(this).toggleClass( "open" );
 	});
 
+	if( $(".image-gallery-fancybox").length > 0) {
+
+		$(".image-gallery-fancybox").fancybox();
+
+	}
+
 	/* carrousel 
 	if( $(".owl-carousel").length > 0 ){
 		$('.owl-carousel').owlCarousel({

@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 	<!-- Módulos y Sección -->
 	<link rel="stylesheet" type="text/css" href="css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="css/lib/jquery.fancybox.css" />
 	<link rel="stylesheet" type="text/css" href="css/componentes/left-menu/left-menu.css" />
 	<link rel="stylesheet" type="text/css" href="css/componentes/main-img/main-img.css" />
 	<link rel="stylesheet" type="text/css" href="css/componentes/cabecera-content/cabecera-content.css" />
@@ -507,18 +508,26 @@
 
 					<section class="img-gallery clearfix">
 						<div class="main-img img-dest left">
-							<img src="./images/nuestro-adn/thumb_5.jpg" alt="">
-							<p class="fullscreen-link">Galería fullscreen</p>
+							<a href="./images/nuestro-adn/thumb_5.jpg" rel="group" class="image-gallery-fancybox" style="display:block;">
+								<img src="./images/nuestro-adn/thumb_5.jpg" alt="">
+								<p class="fullscreen-link">Galería fullscreen</p>
+							</a>
 						</div>
 						<div class="img-sec right">
 							<div class="main-img">
-								<img src="./images/nuestro-adn/thumb_6.jpg" alt="">
+								<a href="./images/nuestro-adn/thumb_6.jpg" rel="group" class="image-gallery-fancybox" style="display:block;">
+									<img src="./images/nuestro-adn/thumb_6.jpg" alt="">
+								</a>
 							</div>
 							<div class="main-img">
-								<img src="./images/nuestro-adn/thumb_7.jpg" alt="">
+								<a href="./images/nuestro-adn/thumb_7.jpg" rel="group" class="image-gallery-fancybox" style="display:block;">
+									<img src="./images/nuestro-adn/thumb_7.jpg" alt="">
+								</a>
 							</div>
 							<div class="main-img">
-								<img src="./images/nuestro-adn/thumb_8.jpg" alt="">
+								<a href="./images/nuestro-adn/thumb_8.jpg" rel="group" class="image-gallery-fancybox" style="display:block;">
+									<img src="./images/nuestro-adn/thumb_8.jpg" alt="">
+								</a>
 							</div>
 						</div>
 					</section>
@@ -566,9 +575,8 @@
 </footer>
 
     <!-- Incluir JQUERY -->
-    <!--script src="./jquery/jquery-1.11.2.min.js"></script-->
     <script src="./jquery/jquery.min.js"></script>
-    <!--script src="./jquery/jquery-ui-1.11.3.min.js"></script-->
+    <script src="./jquery/jquery.fancybox.js"></script>
     <!-- Incluir header.js para tener las funcionalidades del menu -->
     <script src="./header/js/header.js"></script>
 	<script src="./js/global.js"></script>

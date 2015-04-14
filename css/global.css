@@ -2004,53 +2004,13 @@ footer .share dd a{
         padding: 0 0 0 20px;
         text-align: left;
     }
-    /*.headerYPF .navNuevo > ul.principal > li.arma-tu-viaje a {
-        background: url("./assets/ic-menu-viaje.png") no-repeat left center;
-    }
-    .headerYPF .navNuevo > ul.principal > li.regiones a {
-        background: url("./assets/ic-menu-regiones.png") no-repeat left center;
-    }
-    .headerYPF .navNuevo > ul.principal > li.sabias a {
-        background: url("./assets/ic-menu-sabias.png") no-repeat left center;
-    }
-    .headerYPF .navNuevo > ul.principal > li.guia-ypf a {
-        background: url("./assets/ic-menu-guias.png") no-repeat left center;
-    }
-    .headerYPF .navNuevo > ul.principal > li.tour a {
-        background: url("./assets/ic-menu-tour.png") no-repeat left center;
-    }
-
-    .headerYPF .navNuevo > ul.principal > li.arma-tu-viaje a:hover,
-    .headerYPF .navNuevo > ul.principal > li.arma-tu-viaje a.active {
-        background: url("./assets/ic-menu-viaje-on.png") no-repeat left center transparent !important;
-        color: #0063be;
-    }
-    .headerYPF .navNuevo > ul.principal > li.regiones a:hover,
-    .headerYPF .navNuevo > ul.principal > li.regiones a.active {
-        background: url("./assets/ic-menu-regiones-on.png") no-repeat left center transparent !important;
-        color: #0063be;
-    }
-    .headerYPF .navNuevo > ul.principal > li.sabias a:hover,
-    .headerYPF .navNuevo > ul.principal > li.sabias a.active {
-        background: url("./assets/ic-menu-sabias-on.png") no-repeat left center transparent !important;
-        color: #0063be;
-    }
-    .headerYPF .navNuevo > ul.principal > li.guia-ypf a:hover,
-    .headerYPF .navNuevo > ul.principal > li.guia-ypf a.active {
-        background: url("./assets/ic-menu-guias-on.png") no-repeat left center transparent !important;
-        color: #0063be;
-    }
-    .headerYPF .navNuevo > ul.principal > li.tour a:hover,
-    .headerYPF .navNuevo > ul.principal > li.tour a.active {
-        background: url("./assets/ic-menu-tour-on.png") no-repeat left center transparent !important;
-        color: #0063be;
-    }*/
 
     .headerYPF .navNuevo > ul.principal > li.todo-sobre-ypf,
     .headerYPF .navNuevo > ul.principal > li.ypf-hoy,
     .headerYPF .navNuevo > ul.principal > li.inversores,
     .headerYPF .navNuevo > ul.principal > li.ypf-y-la-industria,
-    .headerYPF .navNuevo > ul.principal > li.productos-y-servicios {
+    .headerYPF .navNuevo > ul.principal > li.productos-y-servicios,
+    .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf {
         background: url("./assets/dropdown_menu_arrows.png") no-repeat scroll right 14px transparent;
     }
 
@@ -2077,9 +2037,9 @@ footer .share dd a{
         height: 360px;
     }
 
-    .headerYPF .navNuevo > ul.secundaria li.sitios-ypf a {
+    /*.headerYPF .navNuevo > ul.secundaria li.sitios-ypf a {
         padding-left: 20px !important;
-    }
+    }*/
 
     .headerYPF .submenu {
         box-shadow: none;
@@ -2087,7 +2047,7 @@ footer .share dd a{
 
     .headerYPF .navNuevo > ul.secundaria li.asterisco a {
         /*background: url("./assets/ic-menu-asterisco.png") no-repeat 12px 11px transparent !important;*/
-        padding-left: 20px;
+        /*padding-left: 20px;*/
     }
 
     .headerYPF .navNuevo > ul.secundaria li.asterisco a:hover,
@@ -2121,13 +2081,22 @@ footer .share dd a{
         margin: 0;
         height: auto!important;
     }
-    .headerYPF .navNuevo > ul.secundaria li.icon a,
+    .headerYPF .navNuevo > ul.secundaria li a{
+        display: block;
+        padding: 0 0 0 20px!important;
+        height: auto;
+        width: auto!important;
+        text-transform: none;
+        border-right: none!important;
+        background: none!important;
+    }
+    /*.headerYPF .navNuevo > ul.secundaria li.icon a,
     .headerYPF .navNuevo > ul.secundaria li.sitios-ypf a{
         height: auto;
         width: 100%;
         background: none;
         text-transform: none;
-    }
+    }*/
     .headerYPF .navNuevo > ul.secundaria li a span.hide{
         display: inline-block!important;
     }
@@ -2146,13 +2115,13 @@ footer .share dd a{
     .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf > a:hover{
         color: #0063be;
     }
-    .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf a{
+    /*.headerYPF .navNuevo > ul.secundaria > li.sitios-ypf a{
         min-width: 100%;
         padding: 0 0 0 50px;
     }
     .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf > a:hover{
         background-image: none;
-    }
+    }*/
     .headerYPF .sitios-ypf .submenu{
         width: 100%;
         height: auto;
