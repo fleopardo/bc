@@ -69,7 +69,7 @@ ul.options-left li > span {
     background: url('../../assets/submenu-arrow.png') right top no-repeat;
 }
 
-ul.options-left li > span.opened {
+/*ul.options-left li > span.opened {
     color: #aaa8a9;
     display: block;
     position: relative;
@@ -78,7 +78,7 @@ ul.options-left li > span.opened {
     font-family: "din-black";
     cursor: pointer;
     background: url('../../assets/submenu-arrow.png') right -36px no-repeat;
-}
+}*/
 
 ul.options-left li > ul {
     display: none;
