@@ -2005,13 +2005,19 @@ footer .share dd a{
         text-align: left;
     }
 
-    .headerYPF .navNuevo > ul.principal > li.todo-sobre-ypf,
+    /*.headerYPF .navNuevo > ul.principal > li.todo-sobre-ypf,
     .headerYPF .navNuevo > ul.principal > li.ypf-hoy,
     .headerYPF .navNuevo > ul.principal > li.inversores,
     .headerYPF .navNuevo > ul.principal > li.ypf-y-la-industria,
     .headerYPF .navNuevo > ul.principal > li.productos-y-servicios,
     .headerYPF .navNuevo > ul.secundaria > li.sitios-ypf {
         background: url("./assets/dropdown_menu_arrows.png") no-repeat scroll right 14px transparent;
+    }*/
+    .headerYPF .navNuevo > ul > li > a.hasSubmenu {
+        background: url("./assets/dropdown_menu_arrows.png") no-repeat scroll right 14px transparent;
+    }
+    .headerYPF .navNuevo > ul > li > a.hasSubmenu.open {
+        background: url("./assets/dropdown_menu_arrows_open.png") no-repeat scroll right 14px transparent;
     }
 
     .headerYPF .navNuevo > ul.principal > li .submenu {
@@ -2088,6 +2094,9 @@ footer .share dd a{
         width: auto!important;
         text-transform: none;
         border-right: none!important;
+    }
+    .headerYPF .navNuevo > ul.secundaria li.mapa a,
+    .headerYPF .navNuevo > ul.secundaria li.asterisco a{
         background: none!important;
     }
     /*.headerYPF .navNuevo > ul.secundaria li.icon a,
