@@ -30,6 +30,10 @@
     }
 
     .nuestro-adn .img-dest {
-    width: 100%;
-}
+        width: 100%;
+    }
+
+    .nuestro-adn .img-sec {
+        display: none;
+    }
 }
